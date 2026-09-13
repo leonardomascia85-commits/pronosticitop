@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PronosticiTop — Pronostici Calcio con Analisi Statistica Reale</title>
+<meta name="description" content="Schedine di pronostici calcio ogni weekend, basate su analisi statistica reale (forma, gol fatti/subiti, classifica, infortuni). 4 livelli di rischio, probabilità e quota indicate per ogni evento.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.pronosticitop.it/">
+<meta property="og:title" content="PronosticiTop — Pronostici Calcio con Analisi Statistica">
+<meta property="og:description" content="Schedine settimanali di pronostici calcio basate su statistiche reali: forma, gol fatti/subiti, classifica. Aggiornate ogni weekend.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.pronosticitop.it/">
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --border:#2a2f3a;
+    --text:#e8eaed; --muted:#9aa3b2; --accent:#3b82f6; --green:#22c55e;
+    --red:#ef4444; --amber:#f59e0b; --radius:12px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
+  a{color:#7ab3ff}
+  header{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--border)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  .headrow{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:12px;flex-wrap:wrap}
+  .brand{font-weight:800;font-size:19px;display:flex;align-items:center;gap:8px}
+  .brand a{color:var(--text);text-decoration:none}
+  nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:16px}
+  nav a:hover{color:var(--text)}
+  .hero{padding:36px 0 20px;text-align:center}
+  .hero h1{font-size:28px;margin:0 0 10px}
+  .hero p{color:var(--muted);font-size:15px;max-width:640px;margin:0 auto}
+  main{max-width:960px;margin:0 auto;padding:0 16px 60px}
+  .subtitle{color:var(--muted);font-size:14px;margin-bottom:20px;text-align:center}
+  select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:14px}
+  .selectrow{text-align:center;margin-bottom:22px}
+  .banner{background:var(--panel2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:20px;font-size:14px;color:var(--muted)}
+  .ad-slot{background:var(--panel2);border:1px dashed var(--border);border-radius:var(--radius);padding:18px;margin:22px 0;text-align:center;color:var(--muted);font-size:13px}
+  .risk-group{margin-bottom:28px}
+  .risk-title{display:flex;align-items:center;gap:10px;margin:22px 0 12px}
+  .risk-title h2{font-size:16px;margin:0}
+  .risk-pill{font-size:12px;padding:3px 9px;border-radius:20px;border:1px solid var(--border);color:var(--muted)}
+  .cards{display:grid;gap:14px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+  .card-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:10px;flex-wrap:wrap}
+  .card-head .name{font-weight:600;font-size:14px}
+  .prob{font-size:13px;padding:4px 10px;border-radius:20px;background:rgba(59,130,246,.15);color:#7ab3ff;font-weight:600;white-space:nowrap}
+  .status-pill{font-size:12px;padding:3px 10px;border-radius:20px;font-weight:600}
+  .status-pending{background:rgba(245,158,11,.15);color:var(--amber)}
+  .status-win{background:rgba(34,197,94,.15);color:var(--green)}
+  .status-lose{background:rgba(239,68,68,.15);color:var(--red)}
+  table.events{width:100%;border-collapse:collapse;font-size:13px}
+  table.events td{padding:7px 4px;border-top:1px solid var(--border);vertical-align:top}
+  table.events tr:first-child td{border-top:none}
+  .ev-match{font-weight:500}
+  .ev-league{color:var(--muted);font-size:11px}
+  .ev-pick{color:#7ab3ff;font-weight:600;white-space:nowrap}
+  .ev-p{color:var(--muted);white-space:nowrap;text-align:right}
+  .ev-res{text-align:right;white-space:nowrap}
+  .empty{color:var(--muted);padding:30px 0;text-align:center;font-size:14px}
+  .stats-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+  .stats-table th,.stats-table td{padding:8px;border-bottom:1px solid var(--border);text-align:left}
+  .stats-table th{color:var(--muted);font-weight:500;font-size:12px}
+  details{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);margin-top:30px}
+  summary{padding:14px 16px;cursor:pointer;font-weight:600;font-size:14px;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  details[open] summary{border-bottom:1px solid var(--border)}
+  .details-body{padding:16px;font-size:14px;color:var(--muted)}
+  .disclaimer{color:var(--muted);font-size:12px;margin-top:30px;border-top:1px solid var(--border);padding-top:16px}
+  .disclaimer b{color:var(--text)}
+  footer{border-top:1px solid var(--border);margin-top:40px;padding:24px 0;text-align:center;font-size:13px;color:var(--muted)}
+  footer a{margin:0 8px}
+  .badge18{display:inline-block;border:1px solid var(--border);border-radius:6px;padding:2px 6px;font-size:11px;color:var(--muted);margin-left:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap headrow">
+    <div class="brand"><a href="/">⚽ PronosticiTop</a></div>
+    <nav>
+      <a href="/chi-siamo.html">Metodo</a>
+      <a href="/termini.html">Termini</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Pronostici calcio con analisi statistica reale <span class="badge18">18+</span></h1>
+    <p>Ogni weekend pubblichiamo 16 schedine su 4 livelli di rischio, basate su forma, gol fatti/subiti, classifica e infortuni reali — non solo sulle quote di mercato. Probabilità e confidenza dei dati indicate per ogni evento.</p>
+  </div>
+</div>
+
+<main>
+  <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
+
+  <div class="selectrow">
+    <select id="weekSelect"></select>
+  </div>
+
+  <div id="banner" class="banner" style="display:none"></div>
+
+  <div id="content"></div>
+
+  <div class="ad-slot" id="ad-mid">Spazio pubblicitario</div>
+
+  <details id="storicoBox">
+    <summary>📊 Storico &amp; percentuale di successo</summary>
+    <div class="details-body" id="storicoBody">Caricamento…</div>
+  </details>
+
+  <details>
+    <summary>ℹ️ Come funzionano i nostri pronostici</summary>
+    <div class="details-body">
+      <p>Ogni pronostico parte da un'analisi statistica reale della squadra: gol fatti e subiti, forma recente, precedenti scontri diretti, assenze/infortuni e classifica — non solo dalla quota di mercato. Usiamo mercati diversi (1X2, doppia chance, Under/Over, Gol/No Gol) scegliendo quello più supportato dai dati per ciascuna partita.</p>
+      <p>Ogni evento riporta una probabilità stimata e un livello di confidenza dei dati (ALTA/MEDIA/BASSA): i pick a bassa confidenza vanno presi con più cautela. Trovi il dettaglio completo nella pagina <a href="/chi-siamo.html">Il nostro metodo</a>.</p>
+    </div>
+  </details>
+
+  <div class="disclaimer">
+    <b>Attenzione:</b> i contenuti di questo sito hanno finalità puramente informative e statistiche. Le probabilità indicate sono stime basate su analisi di forma, classifica e statistiche di gioco: <b>non costituiscono consigli di scommessa</b> e non garantiscono alcun risultato. Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica — gioca responsabilmente. Per informazioni e supporto: <a href="https://www.giocaresponsabile.gov.it" target="_blank" rel="noopener">giocaresponsabile.gov.it</a>. Consulta anche i nostri <a href="/termini.html">Termini di utilizzo</a>.
+  </div>
+</main>
+
+<footer>
+  <div><a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/privacy.html">Privacy</a> · <a href="/cookie-policy.html">Cookie</a></div>
+  <div style="margin-top:8px">© <span id="year"></span> PronosticiTop — gioca responsabilmente, vietato ai minori di 18 anni</div>
+</footer>
+
+<script src="/cookie-banner.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
+const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso' };
+
+function fmtPct(x){ return Math.round(x*100) + '%'; }
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    const opts = { timeZone: 'Europe/Rome' };
+    return d.toLocaleDateString('it-IT',{...opts,weekday:'short',day:'2-digit',month:'2-digit'}) + ' ' + d.toLocaleTimeString('it-IT',{...opts,hour:'2-digit',minute:'2-digit'});
+  }
+  catch(e){ return iso; }
+}
+
+function eventStatus(ev){ return ev.esito === 'vinto' ? 'win' : ev.esito === 'perso' ? 'lose' : 'pending'; }
+function schedinaStatus(sch){
+  if(sch.eventi.some(e=>eventStatus(e)==='lose')) return 'lose';
+  if(sch.eventi.every(e=>eventStatus(e)==='win')) return 'win';
+  return 'pending';
+}
+
+function renderWeek(week){
+  const banner = document.getElementById('banner');
+  if(week.stato === 'generazione_in_corso' || !week.schedine || !week.schedine.length){
+    banner.style.display = 'block';
+    banner.textContent = 'Le schedine per questo turno sono in fase di analisi e verranno pubblicate a breve.';
+  } else {
+    banner.style.display = 'none';
+  }
+
+  const byLevel = {};
+  (week.schedine||[]).forEach(s => { (byLevel[s.livello_rischio] = byLevel[s.livello_rischio] || []).push(s); });
+
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+
+  const levels = Object.keys(byLevel).map(Number).sort((a,b)=>a-b);
+  if(!levels.length){
+    content.innerHTML = '<div class="empty">Nessuna schedina disponibile per questo turno.</div>';
+    return;
+  }
+
+  levels.forEach(level => {
+    const group = document.createElement('div');
+    group.className = 'risk-group';
+    const label = level<=4 ? 'Rischio basso' : level===5 ? 'Rischio medio-basso' : level===6 ? 'Rischio medio-alto' : 'Rischio alto';
+    group.innerHTML = `<div class="risk-title"><h2>${level} eventi</h2><span class="risk-pill">${label}</span></div>`;
+
+    const cards = document.createElement('div');
+    cards.className = 'cards';
+
+    byLevel[level].forEach((sch, idx) => {
+      const st = schedinaStatus(sch);
+      const card = document.createElement('div');
+      card.className = 'card';
+      let rows = sch.eventi.map(ev => {
+        const es = eventStatus(ev);
+        const resTxt = es==='pending' ? '⏳' : (es==='win' ? '✅' : '❌') + (ev.risultato_reale ? ' ' + ev.risultato_reale : '');
+        return `<tr>
+          <td>
+            <div class="ev-match">${ev.partita}</div>
+            <div class="ev-league">${ev.campionato} — ${fmtDate(ev.data)}</div>
+          </td>
+          <td class="ev-pick">${ev.pronostico}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
+          <td class="ev-p">${fmtPct(ev.probabilita_stimata)}${ev.quota_stimata ? '<br><span class="ev-league">@'+ev.quota_stimata.toFixed(2)+'</span>' : ''}${ev.confidenza_dati ? '<br><span class="ev-league">dati: '+ev.confidenza_dati+'</span>' : ''}</td>
+          <td class="ev-res">${resTxt}</td>
+        </tr>`;
+      }).join('');
+
+      const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(245,158,11,.15);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
+      card.innerHTML = `
+        <div class="card-head">
+          <span class="name">Schedina ${level}E — #${idx+1}</span>
+          ${quotaTxt}
+          <span class="prob">Prob. combinata ${fmtPct(sch.probabilita_combinata)}</span>
+          <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
+        </div>
+        <table class="events">${rows}</table>`;
+      cards.appendChild(card);
+    });
+
+    group.appendChild(cards);
+    content.appendChild(group);
+  });
+}
+
+async function renderStorico(weeks){
+  const body = document.getElementById('storicoBody');
+  const completed = weeks.filter(w => w.stato === 'completata' || w.stato === 'pubblicata');
+  if(!completed.length){ body.innerHTML = '<div class="empty">Nessun dato storico ancora disponibile.</div>'; return; }
+
+  const perLevel = {};
+  let totWin=0, totLose=0, totPending=0;
+
+  for(const w of completed){
+    try{
+      const data = await fetch('/data/' + w.file).then(r=>r.json());
+      (data.schedine||[]).forEach(sch => {
+        const st = schedinaStatus(sch);
+        const lvl = sch.livello_rischio;
+        perLevel[lvl] = perLevel[lvl] || {win:0,lose:0,pending:0};
+        perLevel[lvl][st]++;
+        if(st==='win') totWin++; else if(st==='lose') totLose++; else totPending++;
+      });
+    } catch(e){ /* file non ancora presente, ignora */ }
+  }
+
+  const decided = totWin + totLose;
+  const rateGlobal = decided ? Math.round(totWin/decided*100) : null;
+
+  let rows = Object.keys(perLevel).map(Number).sort((a,b)=>a-b).map(lvl=>{
+    const d = perLevel[lvl];
+    const dec = d.win + d.lose;
+    const rate = dec ? Math.round(d.win/dec*100)+'%' : '—';
+    return `<tr><td>${lvl} eventi</td><td>${d.win}</td><td>${d.lose}</td><td>${d.pending}</td><td>${rate}</td></tr>`;
+  }).join('');
+
+  body.innerHTML = `
+    <p style="margin-top:0">
+      Su ${completed.length} turni tracciati: <b style="color:var(--text)">${totWin} vinte</b>, ${totLose} perse, ${totPending} in attesa
+      ${rateGlobal!==null ? ' — tasso di successo complessivo <b style="color:var(--text)">'+rateGlobal+'%</b>' : ''}.
+    </p>
+    <table class="stats-table">
+      <thead><tr><th>Livello</th><th>Vinte</th><th>Perse</th><th>In attesa</th><th>% successo</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+async function init(){
+  const idx = await fetch('/data/settimane.json').then(r=>r.json()).catch(()=>({settimane:[]}));
+  const weeks = idx.settimane || [];
+  const select = document.getElementById('weekSelect');
+
+  if(!weeks.length){
+    document.getElementById('content').innerHTML = '<div class="empty">Non ci sono ancora schedine pubblicate.</div>';
+    document.getElementById('storicoBody').innerHTML = '<div class="empty">Nessun dato storico ancora disponibile.</div>';
+    select.style.display = 'none';
+    return;
+  }
+
+  weeks.forEach(w => {
+    const opt = document.createElement('option');
+    opt.value = w.file; opt.textContent = w.titolo;
+    select.appendChild(opt);
+  });
+
+  async function loadWeek(file){
+    const data = await fetch('/data/' + file).then(r=>r.json());
+    renderWeek(data);
+  }
+
+  select.addEventListener('change', () => loadWeek(select.value));
+  await loadWeek(weeks[0].file);
+  renderStorico(weeks);
+}
+
+init();
+</script>
+</body>
+</html>

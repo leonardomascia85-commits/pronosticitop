@@ -1,0 +1,19 @@
+{
+  "settimane": [
+    {
+      "id": "2026-09-15",
+      "titolo": "Weekend 18–20 settembre 2026",
+      "file": "2026-09-15.json"
+    },
+    {
+      "id": "2026-09-15-ggng",
+      "titolo": "Weekend 18–20 settembre 2026 — Solo Gol/No Gol (mondiale)",
+      "file": "2026-09-15-ggng.json"
+    },
+    {
+      "id": "2026-09-15-uo",
+      "titolo": "Weekend 18–20 settembre 2026 — Solo Under/Over (mondiale)",
+      "file": "2026-09-15-uo.json"
+    }
+  ]
+}
