@@ -5,28 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy — PronosticiTop</title>
 <meta name="robots" content="index, follow">
-<style>
-  :root{--bg:#0f1115;--panel:#171a21;--border:#2a2f3a;--text:#e8eaed;--muted:#9aa3b2}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
-  a{color:#7ab3ff}
-  header{border-bottom:1px solid var(--border)}
-  .wrap{max-width:760px;margin:0 auto;padding:16px}
-  .brand{font-weight:800;font-size:19px}
-  .brand a{color:var(--text);text-decoration:none}
-  main{max-width:760px;margin:0 auto;padding:20px 16px 60px}
-  h1{font-size:26px}
-  h2{font-size:18px;margin-top:32px}
-  p,li{color:#c7cbd4;font-size:15px}
-  table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
-  th,td{border:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
-  th{background:var(--panel);color:var(--muted);font-weight:500}
-  footer{border-top:1px solid var(--border);margin-top:40px;padding:24px 16px;text-align:center;font-size:13px;color:var(--muted)}
-</style>
+<link rel="canonical" href="https://www.pronosticitop.it/privacy.html">
+<meta name="theme-color" content="#0a0c10">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
-<header><div class="wrap brand"><a href="/">⚽ PronosticiTop</a></div></header>
-<main>
+<header class="site">
+  <div class="wrap headrow">
+    <div class="brand"><a href="/"><span class="logo-ball">⚽</span> PronosticiTop</a></div>
+    <button class="navtoggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav" id="mainNav">
+      <a href="/">Pronostici</a>
+      <a href="/chi-siamo.html">Metodo</a>
+      <a href="/termini.html">Termini</a>
+      <a href="/privacy.html" class="active">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <div class="eyebrow">Documento legale</div>
   <h1>Privacy Policy</h1>
   <p><em>Ultimo aggiornamento: settembre 2026</em></p>
 
@@ -58,8 +56,20 @@
   <h2>Minori</h2>
   <p>Il sito è destinato esclusivamente a un pubblico maggiorenne (18+), coerentemente con la natura dei contenuti pubblicati.</p>
 </main>
-<footer>
-  <a href="/">Home</a> · <a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/cookie-policy.html">Cookie</a>
+<footer class="site">
+  <div class="wrap">
+    <div class="fnav"><a href="/">Pronostici</a> · <a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/cookie-policy.html">Cookie</a></div>
+    <div style="margin-top:10px">© <span id="year"></span> PronosticiTop — gioca responsabilmente, vietato ai minori di 18 anni</div>
+  </div>
 </footer>
+<script src="/cookie-banner.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+var btn = document.getElementById('navToggle'), nav = document.getElementById('mainNav');
+btn.addEventListener('click', function(){
+  var open = nav.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+});
+</script>
 </body>
 </html>
