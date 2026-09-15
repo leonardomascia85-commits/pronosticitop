@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.pronosticitop.it/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.pronosticitop.it/serie-a.html</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.pronosticitop.it/serie-b.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.pronosticitop.it/serie-c.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.pronosticitop.it/premier-league.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.pronosticitop.it/la-liga.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.pronosticitop.it/bundesliga.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.pronosticitop.it/ligue-1.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.pronosticitop.it/champions-league.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.pronosticitop.it/liga-portugal.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.pronosticitop.it/eredivisie.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.pronosticitop.it/brasileirao.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.pronosticitop.it/notizie.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.pronosticitop.it/notizie/juventus-allarme-infortuni-settembre-2026.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.pronosticitop.it/notizie/cagliari-felici-nuovo-infortunio-crociato.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.pronosticitop.it/notizie/atalanta-calciomercato-centrocampo-attacco.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.pronosticitop.it/chi-siamo.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.pronosticitop.it/termini.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.pronosticitop.it/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
