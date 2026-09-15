@@ -14,9 +14,11 @@
 <meta property="og:description" content="Schedine settimanali di pronostici calcio basate su statistiche reali: forma, gol fatti/subiti, classifica. Aggiornate ogni weekend.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.pronosticitop.it/">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://www.pronosticitop.it/assets/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="PronosticiTop — Pronostici Calcio con Analisi Statistica">
 <meta name="twitter:description" content="Schedine settimanali di pronostici calcio basate su statistiche reali: forma, gol fatti/subiti, classifica.">
+<meta name="twitter:image" content="https://www.pronosticitop.it/assets/og-image.svg">
 <link rel="stylesheet" href="/assets/styles.css">
 <script type="application/ld+json">
 {
@@ -34,10 +36,25 @@
     <div class="brand"><a href="/"><span class="logo-ball">⚽</span> PronosticiTop</a></div>
     <button class="navtoggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
     <nav class="mainnav" id="mainNav">
-      <a href="/" class="active">Pronostici</a>
+      <a href="/serie-a.html">Serie A</a>
+      <a href="/serie-b.html">Serie B</a>
+      <a href="/serie-c.html">Serie C</a>
+      <div class="navdrop">
+        <button class="navdrop-btn" id="dropBtn" aria-expanded="false" type="button">Altri campionati <span class="caret">▾</span></button>
+        <div class="navdrop-menu" id="dropMenu">
+          <a href="/premier-league.html">Premier League</a>
+          <a href="/la-liga.html">La Liga</a>
+          <a href="/bundesliga.html">Bundesliga</a>
+          <a href="/ligue-1.html">Ligue 1</a>
+          <a href="/champions-league.html">Champions League</a>
+          <a href="/liga-portugal.html">Liga Portugal</a>
+          <a href="/eredivisie.html">Eredivisie</a>
+          <a href="/brasileirao.html">Brasileirão</a>
+        </div>
+      </div>
+      <a href="/" class="active">Schedine</a>
+      <a href="/notizie.html">Notizie</a>
       <a href="/chi-siamo.html">Metodo</a>
-      <a href="/termini.html">Termini</a>
-      <a href="/privacy.html">Privacy</a>
     </nav>
   </div>
 </header>
@@ -48,11 +65,14 @@
     <h1>Pronostici calcio con <span class="grad">analisi statistica reale</span><span class="badge18">18+</span></h1>
     <p class="lead">Ogni weekend pubblichiamo 16 schedine su 4 livelli di rischio, basate su forma, gol fatti/subiti, classifica e infortuni reali — non solo sulle quote di mercato. Probabilità e confidenza dei dati indicate per ogni evento.</p>
     <div class="stat-row">
-      <div class="stat-chip">📋 <b>16</b>&nbsp;schedine/weekend</div>
-      <div class="stat-chip">🎚️ <b>4</b>&nbsp;livelli di rischio</div>
-      <div class="stat-chip">📊 analisi <b>100%</b> statistica</div>
-      <div class="stat-chip">✅ risultati <b>tracciati</b> pubblicamente</div>
+      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M13 5v2M13 17v2M13 10v4" stroke-dasharray="2 2"/></svg><b>16</b>&nbsp;schedine/weekend</div>
+      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M4.5 19a8 8 0 1 1 15 0"/><path d="M12 12 15 9"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg><b>4</b>&nbsp;livelli di rischio</div>
+      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M4 20V10M12 20V4M20 20v-7"/></svg>analisi <b>100%</b> statistica</div>
+      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg>risultati <b>tracciati</b> pubblicamente</div>
     </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-visual"><img src="/assets/hero.svg" alt="Illustrazione: rete di analisi statistica calcio con schedine e percentuali" width="1200" height="380" loading="eager"></div>
   </div>
 </div>
 
@@ -70,12 +90,12 @@
   <div class="ad-slot" id="ad-mid">Spazio pubblicitario</div>
 
   <details id="storicoBox">
-    <summary>📊 Storico &amp; percentuale di successo</summary>
+    <summary><svg class="icon" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Storico &amp; percentuale di successo</summary>
     <div class="details-body" id="storicoBody">Caricamento…</div>
   </details>
 
   <details>
-    <summary>ℹ️ Come funzionano i nostri pronostici</summary>
+    <summary><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>Come funzionano i nostri pronostici</summary>
     <div class="details-body">
       <p>Ogni pronostico parte da un'analisi statistica reale della squadra: gol fatti e subiti, forma recente, precedenti scontri diretti, assenze/infortuni e classifica — non solo dalla quota di mercato. Usiamo mercati diversi (1X2, doppia chance, Under/Over, Gol/No Gol) scegliendo quello più supportato dai dati per ciascuna partita.</p>
       <p>Ogni evento riporta una probabilità stimata e un livello di confidenza dei dati (ALTA/MEDIA/BASSA): i pick a bassa confidenza vanno presi con più cautela. Trovi il dettaglio completo nella pagina <a href="/chi-siamo.html">Il nostro metodo</a>.</p>
@@ -89,7 +109,7 @@
 
 <footer class="site">
   <div class="wrap">
-    <div class="fnav"><a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/privacy.html">Privacy</a> · <a href="/cookie-policy.html">Cookie</a></div>
+    <div class="fnav"><a href="/notizie.html">Notizie</a> · <a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/privacy.html">Privacy</a> · <a href="/cookie-policy.html">Cookie</a></div>
     <div style="margin-top:10px">© <span id="year"></span> PronosticiTop — gioca responsabilmente, vietato ai minori di 18 anni</div>
     <div class="fresp">Se il gioco ti crea un problema: <a href="https://www.giocaresponsabile.gov.it" target="_blank" rel="noopener">giocaresponsabile.gov.it</a></div>
   </div>
@@ -105,6 +125,17 @@ document.getElementById('year').textContent = new Date().getFullYear();
   btn.addEventListener('click', function(){
     var open = nav.classList.toggle('open');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.querySelectorAll('.navdrop-btn').forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      var menu = this.nextElementSibling;
+      var open = menu.classList.toggle('open');
+      this.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', function(){
+    document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
   });
 })();
 

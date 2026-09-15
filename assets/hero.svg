@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrazione: analisi statistica calcio e schedine">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b202b"/>
+      <stop offset="1" stop-color="#151922"/>
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="250" cy="180" rx="260" ry="200" fill="url(#glow1)"/>
+  <ellipse cx="950" cy="200" rx="260" ry="200" fill="url(#glow2)"/>
+
+  <g stroke="#2a3040" stroke-width="1.5" fill="none" opacity="0.6">
+    <circle cx="600" cy="190" r="70"/>
+    <line x1="600" y1="20" x2="600" y2="360"/>
+    <path d="M 440 20 A 200 200 0 0 0 440 360"/>
+    <path d="M 760 20 A 200 200 0 0 1 760 360"/>
+  </g>
+
+  <g stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.5">
+    <line x1="260" y1="150" x2="600" y2="190"/>
+    <line x1="600" y1="190" x2="900" y2="130"/>
+    <line x1="600" y1="190" x2="880" y2="260"/>
+    <line x1="600" y1="190" x2="300" y2="260"/>
+  </g>
+
+  <g fill="#7ab3ff">
+    <circle cx="260" cy="150" r="4"/>
+    <circle cx="900" cy="130" r="4"/>
+    <circle cx="880" cy="260" r="4"/>
+    <circle cx="300" cy="260" r="4"/>
+  </g>
+
+  <circle cx="600" cy="190" r="46" fill="url(#ballGrad)"/>
+  <g fill="#fff" opacity="0.95">
+    <polygon points="600,160 618,173 611,194 589,194 582,173"/>
+  </g>
+
+  <g>
+    <rect x="90" y="70" width="150" height="70" rx="12" fill="url(#cardGrad)" stroke="#262c39"/>
+    <rect x="106" y="86" width="70" height="8" rx="4" fill="#8f98ab" opacity="0.5"/>
+    <rect x="106" y="102" width="100" height="8" rx="4" fill="#3b3f4d"/>
+    <circle cx="214" cy="120" r="10" fill="#22c55e" opacity="0.15"/>
+    <path d="M209 120 l4 4 8-8" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <rect x="960" y="60" width="150" height="70" rx="12" fill="url(#cardGrad)" stroke="#262c39"/>
+    <rect x="976" y="76" width="70" height="8" rx="4" fill="#8f98ab" opacity="0.5"/>
+    <rect x="976" y="92" width="100" height="8" rx="4" fill="#3b3f4d"/>
+    <circle cx="1084" cy="110" r="10" fill="#3b82f6" opacity="0.15"/>
+    <text x="1076" y="114" font-size="11" fill="#7ab3ff" font-family="Arial, sans-serif" font-weight="700">72%</text>
+  </g>
+
+  <g>
+    <rect x="940" y="230" width="150" height="70" rx="12" fill="url(#cardGrad)" stroke="#262c39"/>
+    <rect x="956" y="246" width="70" height="8" rx="4" fill="#8f98ab" opacity="0.5"/>
+    <rect x="956" y="262" width="100" height="8" rx="4" fill="#3b3f4d"/>
+    <circle cx="1064" cy="280" r="10" fill="#22c55e" opacity="0.15"/>
+    <path d="M1059 280 l4 4 8-8" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <rect x="70" y="250" width="150" height="70" rx="12" fill="url(#cardGrad)" stroke="#262c39"/>
+    <rect x="86" y="266" width="70" height="8" rx="4" fill="#8f98ab" opacity="0.5"/>
+    <rect x="86" y="282" width="100" height="8" rx="4" fill="#3b3f4d"/>
+    <circle cx="194" cy="300" r="10" fill="#f59e0b" opacity="0.15"/>
+    <text x="186" y="304" font-size="11" fill="#f59e0b" font-family="Arial, sans-serif" font-weight="700">65%</text>
+  </g>
+</svg>

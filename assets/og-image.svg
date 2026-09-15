@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="30%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="80%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ball" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0c10"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+  <circle cx="600" cy="235" r="72" fill="url(#ball)"/>
+  <g fill="#fff" opacity="0.95">
+    <polygon points="600,201 622,216 614,241 586,241 578,216"/>
+  </g>
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="58" font-weight="800" fill="#eef1f6" text-anchor="middle">PronosticiTop</text>
+  <text x="600" y="448" font-family="Arial, sans-serif" font-size="24" fill="#8f98ab" text-anchor="middle">Pronostici calcio con analisi statistica reale</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#7ab3ff" text-anchor="middle">
+    <rect x="420" y="480" width="120" height="34" rx="17" fill="#151922" stroke="#262c39"/>
+    <text x="480" y="502">16 schedine</text>
+    <rect x="552" y="480" width="150" height="34" rx="17" fill="#151922" stroke="#262c39"/>
+    <text x="627" y="502">4 livelli di rischio</text>
+    <rect x="714" y="480" width="150" height="34" rx="17" fill="#151922" stroke="#262c39"/>
+    <text x="789" y="502">analisi statistica</text>
+  </g>
+</svg>
