@@ -1,0 +1,88 @@
+{
+  "campionato": "Serie A",
+  "giornata": "5ª giornata",
+  "periodo": "18-20 settembre 2026",
+  "aggiornato": "2026-09-14",
+  "partite": [
+    {
+      "casa": "Monza", "trasferta": "Sassuolo", "data": "2026-09-18T20:45:00+02:00",
+      "forma_casa": "L-D-L (ultime 3)", "forma_trasferta": "W-D-W (ultime 3)",
+      "pick_1x2": {"esito": "2", "etichetta": "Vittoria Sassuolo", "probabilita": 0.48},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.64},
+      "nota": "Monza ancora senza vittorie e con una difesa che ha concesso 7 gol nelle ultime 3; Sassuolo in buona forma, reduce dal successo sulla Juventus."
+    },
+    {
+      "casa": "Bologna", "trasferta": "Torino", "data": "2026-09-19T15:00:00+02:00",
+      "forma_casa": "L-D-L (ultime 3)", "forma_trasferta": "L-W-L (ultime 3)",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Bologna", "probabilita": 0.42},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.60},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.55},
+      "nota": "Bologna ancora a secco di vittorie ma in casa; entrambe le squadre segnano poco nelle ultime uscite."
+    },
+    {
+      "casa": "Udinese", "trasferta": "Cagliari", "data": "2026-09-19T15:00:00+02:00",
+      "forma_casa": "W-L-L (ultime 3)", "forma_trasferta": "L-W-W (ultime 3)",
+      "pick_1x2": {"esito": "2", "etichetta": "Vittoria Cagliari", "probabilita": 0.40},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.63},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60},
+      "nota": "Udinese ha subito 9 gol nelle ultime 3 gare; Cagliari in ripresa ma senza Felici, out per infortunio al crociato."
+    },
+    {
+      "casa": "Roma", "trasferta": "Inter", "data": "2026-09-19T18:00:00+02:00",
+      "forma_casa": "W-W-W (ultime 3)", "forma_trasferta": "W-W-W (ultime 3)",
+      "pick_1x2": {"esito": "1X", "etichetta": "Roma o pareggio", "probabilita": 0.62},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58},
+      "nota": "Sfida al vertice tra le uniche due squadre a punteggio pieno: Roma ha la miglior difesa del campionato (1 gol subito in 3 gare), Inter la fase difensiva più permeabile tra le prime (5 subiti)."
+    },
+    {
+      "casa": "Venezia", "trasferta": "Lazio", "data": "2026-09-19T20:45:00+02:00",
+      "forma_casa": "L-L-L (ultime 3)", "forma_trasferta": "W-W-D (ultime 3)",
+      "pick_1x2": {"esito": "2", "etichetta": "Vittoria Lazio", "probabilita": 0.60},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.65},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52},
+      "nota": "Venezia è l'unica squadra ancora a 0 punti e ha la peggior difesa del campionato (9 gol subiti in 3 gare); Lazio imbattuta nelle ultime 3."
+    },
+    {
+      "casa": "Fiorentina", "trasferta": "Napoli", "data": "2026-09-20T12:30:00+02:00",
+      "forma_casa": "L-L-W (ultime 3)", "forma_trasferta": "L-L-W (ultime 3)",
+      "pick_1x2": {"esito": "X2", "etichetta": "Napoli o pareggio", "probabilita": 0.55},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.60},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58},
+      "nota": "Entrambe reduci da una vittoria dopo un avvio complicato; la difesa viola resta fragile (7 gol subiti nelle ultime 3)."
+    },
+    {
+      "casa": "Frosinone", "trasferta": "Como", "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "W-W-D (ultime 3)", "forma_trasferta": "W-W-W (ultime 3)",
+      "pick_1x2": {"esito": "2", "etichetta": "Vittoria Como", "probabilita": 0.42},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60},
+      "nota": "Sfida tra le due squadre più in forma del campionato: Como è ancora imbattuto, il Frosinone è reduce da 2 vittorie e un pareggio in casa."
+    },
+    {
+      "casa": "Parma", "trasferta": "Genoa", "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "L-D-L (ultime 3)", "forma_trasferta": "L-L-D (ultime 3)",
+      "pick_1x2": {"esito": "1X", "etichetta": "Parma o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.54},
+      "nota": "Scontro salvezza tra le due peggiori attacchi del campionato (2 gol segnati a testa nelle ultime 3 gare)."
+    },
+    {
+      "casa": "Juventus", "trasferta": "Atalanta", "data": "2026-09-20T18:00:00+02:00",
+      "forma_casa": "W-D-L (ultime 3)", "forma_trasferta": "W-L-L (ultime 3)",
+      "pick_1x2": {"esito": "1X", "etichetta": "Juventus o pareggio", "probabilita": 0.56},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.62},
+      "nota": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare."
+    },
+    {
+      "casa": "Milan", "trasferta": "Lecce", "data": "2026-09-20T20:45:00+02:00",
+      "forma_casa": "W-D-D (ultime 3)", "forma_trasferta": "L-L-W (ultime 3)",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Milan", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56},
+      "nota": "Milan ancora imbattuto, Lecce ha la difesa più fragile tra le squadre di metà classifica (7 gol subiti nelle ultime 3)."
+    }
+  ]
+}
