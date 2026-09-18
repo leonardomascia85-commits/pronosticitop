@@ -1,0 +1,308 @@
+{
+  "campionato": "Serie C",
+  "giornata": "6ª giornata (Gironi A, B, C)",
+  "periodo": "19-21 settembre 2026",
+  "aggiornato": "2026-09-18",
+  "partite": [
+    {
+      "girone": "A",
+      "casa": "Juventus U23", "trasferta": "Albinoleffe", "data": "2026-09-20T12:30:00+02:00",
+      "forma_casa": "5 pt in 5 gare (1V-2N-2P), 4-8",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 4-5",
+      "pick_1x2": {"esito": "X2", "etichetta": "Albinoleffe o pareggio", "probabilita": 0.53},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54},
+      "nota": "Entrambe a quota 5 punti con identico score (1V-2N-2P): la Juventus U23 ha la difesa più permeabile del gruppo di metà classifica (8 gol subiti in 5 gare) contro i 5 dell'Albinoleffe."
+    },
+    {
+      "girone": "A",
+      "casa": "Novara", "trasferta": "Carpi", "data": "2026-09-20T14:30:00+02:00",
+      "forma_casa": "5 pt in 5 gare (1V-2N-2P), 4-5",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 8-10",
+      "pick_1x2": {"esito": "1X", "etichetta": "Novara o pareggio", "probabilita": 0.54},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60},
+      "nota": "Il Carpi ha già segnato 8 gol ma ne ha incassati 10 in 5 gare, tra i peggiori bilanci reti del girone; il Novara, pur fermo a 5 punti, ha una retroguardia più solida (5 subiti)."
+    },
+    {
+      "girone": "A",
+      "casa": "Ospitaletto", "trasferta": "Cittadella", "data": "2026-09-20T14:30:00+02:00",
+      "forma_casa": "11 pt in 5 gare (3V-2N-0P), 11-4",
+      "forma_trasferta": "15 pt in 5 gare (5V-0N-0P), 9-2",
+      "pick_1x2": {"esito": "X2", "etichetta": "Cittadella o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.53},
+      "nota": "Vetta contro vetta: il Cittadella è l'unica squadra a punteggio pieno nel girone (15 punti, 5 vittorie su 5) e ha la miglior difesa (2 gol subiti); l'Ospitaletto è ancora imbattuto e ha il miglior attacco del gruppo (11 gol fatti)."
+    },
+    {
+      "girone": "A",
+      "casa": "Arzignano Valchiampo", "trasferta": "Renate", "data": "2026-09-20T17:30:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 5-6",
+      "forma_trasferta": "2 pt in 5 gare (0V-2N-3P), 4-8",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Arzignano Valchiampo", "probabilita": 0.58},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.53},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.55},
+      "nota": "Il Renate è ancora a secco di vittorie (2 punti in 5 gare, 3 sconfitte) e ha già subito 8 gol; l'Arzignano gioca in casa con un rendimento nettamente superiore in classifica."
+    },
+    {
+      "girone": "A",
+      "casa": "Alcione", "trasferta": "Union Brescia", "data": "2026-09-20T20:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (2V-3N-0P), 9-6",
+      "forma_trasferta": "11 pt in 5 gare (3V-2N-0P), 7-3",
+      "pick_1x2": {"esito": "X2", "etichetta": "Union Brescia o pareggio", "probabilita": 0.55},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52},
+      "nota": "Le uniche due squadre del gruppo di rincorsa ancora imbattute: l'Union Brescia ha una delle difese più solide del girone (3 gol subiti in 5 gare), l'Alcione uno dei migliori attacchi, alle spalle del solo Ospitaletto (9 gol fatti)."
+    },
+    {
+      "girone": "A",
+      "casa": "Folgore Caratese", "trasferta": "Giana Erminio", "data": "2026-09-20T20:30:00+02:00",
+      "forma_casa": "2 pt in 5 gare (0V-2N-3P), 5-8",
+      "forma_trasferta": "1 pt in 5 gare (0V-1N-4P), 4-8",
+      "pick_1x2": {"esito": "1X", "etichetta": "Folgore Caratese o pareggio", "probabilita": 0.56},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54},
+      "nota": "Sfida salvezza tra le ultime due della classe: la Giana Erminio è l'unica squadra del girone ancora senza vittorie (1 punto), la Folgore Caratese ne ha 2, ma entrambe hanno già incassato 8 gol in 5 gare."
+    },
+    {
+      "girone": "A",
+      "casa": "Lecco", "trasferta": "Pergolettese", "data": "2026-09-20T20:30:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 4-3",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 1-3",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Lecco", "probabilita": 0.60},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.58},
+      "nota": "La Pergolettese ha il peggior attacco dell'intero girone (1 solo gol segnato in 5 gare); il Lecco gioca in casa e può contare su una delle difese migliori del gruppo (3 gol subiti)."
+    },
+    {
+      "girone": "A",
+      "casa": "Dolomiti Bellunesi", "trasferta": "Lumezzane", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (2V-3N-0P), 4-2",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 4-6",
+      "pick_1x2": {"esito": "1X", "etichetta": "Dolomiti Bellunesi o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.57},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.56},
+      "nota": "Le Dolomiti Bellunesi sono imbattute (9 punti, 3 pareggi) e vantano una delle migliori difese del girone, alla pari del capolista Cittadella (2 gol subiti in 5 gare); il Lumezzane arriva da un rendimento altalenante (1V-2N-2P)."
+    },
+    {
+      "girone": "A",
+      "casa": "Trento", "trasferta": "Pro Vercelli", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (2V-3N-0P), 5-3",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 5-6",
+      "pick_1x2": {"esito": "1X", "etichetta": "Trento o pareggio", "probabilita": 0.57},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.53},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52},
+      "nota": "Il Trento è imbattuto dopo 5 giornate (9 punti, 3 pareggi) con una difesa solida (3 gol subiti); la Pro Vercelli ha lo stesso numero di reti fatte (5) ma una retroguardia più fragile (6 subiti)."
+    },
+    {
+      "girone": "A",
+      "casa": "Treviso", "trasferta": "Desenzano", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "8 pt in 5 gare (2V-2N-1P), 7-6",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 4-6",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Treviso", "probabilita": 0.56},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56},
+      "nota": "Il Treviso ha uno dei migliori attacchi del girone (7 gol in 5 gare) e gioca in casa; il Desenzano Calvina ha già incassato 6 reti nelle prime 5 uscite."
+    },
+    {
+      "girone": "B",
+      "casa": "Forlì", "trasferta": "Torres", "data": "2026-09-19T14:30:00+02:00",
+      "forma_casa": "8 pt in 5 gare (2V-2N-1P), 11-9",
+      "forma_trasferta": "9 pt in 5 gare (3V-0N-2P), 7-7",
+      "pick_1x2": {"esito": "1X", "etichetta": "Forlì o pareggio", "probabilita": 0.54},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.62},
+      "nota": "Il Forlì ha uno degli attacchi più prolifici del girone, alla pari della Reggiana (11 gol in 5 gare), ma anche una difesa permeabile (9 subiti); la Torres arriva da tre vittorie ma anche due sconfitte nelle prime cinque gare."
+    },
+    {
+      "girone": "B",
+      "casa": "Atalanta U23", "trasferta": "Ravenna", "data": "2026-09-20T12:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (3V-0N-2P), 7-7",
+      "forma_trasferta": "11 pt in 5 gare (3V-2N-0P), 8-2",
+      "pick_1x2": {"esito": "X2", "etichetta": "Ravenna o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.53},
+      "nota": "Il Ravenna è imbattuto insieme allo Spezia e ha una delle migliori difese del girone, alla pari del capolista (2 gol subiti in 5 gare); l'Atalanta U23 ha già perso 2 delle prime 5 gare."
+    },
+    {
+      "girone": "B",
+      "casa": "Reggiana", "trasferta": "Latina", "data": "2026-09-20T14:30:00+02:00",
+      "forma_casa": "11 pt in 5 gare (3V-2N-0P), 11-5",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 5-7",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Reggiana", "probabilita": 0.62},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.60},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.55},
+      "nota": "La Reggiana è imbattuta e ha uno dei migliori attacchi del girone, alla pari del Forlì (11 gol in 5 gare); il Latina ha già incassato 7 reti e viaggia a metà classifica con 5 punti."
+    },
+    {
+      "girone": "B",
+      "casa": "Vado", "trasferta": "Pescara", "data": "2026-09-20T14:30:00+02:00",
+      "forma_casa": "4 pt in 5 gare (1V-1N-3P), 5-7",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 7-9",
+      "pick_1x2": {"esito": "X2", "etichetta": "Pescara o pareggio", "probabilita": 0.53},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58},
+      "nota": "Entrambe faticano in difesa (Vado 7 gol subiti, Pescara 9, tra le peggiori del girone), mentre il Pescara ha un attacco discreto (7 gol fatti in 5 gare)."
+    },
+    {
+      "girone": "B",
+      "casa": "Campobasso", "trasferta": "Pineto", "data": "2026-09-20T17:30:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 7-7",
+      "forma_trasferta": "6 pt in 5 gare (1V-3N-1P), 4-4",
+      "pick_1x2": {"esito": "1X", "etichetta": "Campobasso o pareggio", "probabilita": 0.55},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52},
+      "nota": "Il Pineto è la squadra con più pareggi del girone (3 su 5) e un bilancio in perfetto equilibrio (4 gol fatti, 4 subiti); il Campobasso gioca in casa con un attacco leggermente più prolifico (7 gol)."
+    },
+    {
+      "girone": "B",
+      "casa": "Grosseto", "trasferta": "Perugia", "data": "2026-09-20T20:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (2V-3N-0P), 7-4",
+      "forma_trasferta": "7 pt in 5 gare (2V-1N-2P), 5-9",
+      "pick_1x2": {"esito": "1X", "etichetta": "Grosseto o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54},
+      "nota": "Il Grosseto è imbattuto (9 punti, 3 pareggi) con una difesa solida (4 gol subiti); il Perugia ha una delle retroguardie più fragili del girone (9 gol incassati in 5 gare)."
+    },
+    {
+      "girone": "B",
+      "casa": "Gubbio", "trasferta": "Ostiamare", "data": "2026-09-20T20:30:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 9-9",
+      "forma_trasferta": "3 pt in 5 gare (1V-0N-4P), 5-8",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Gubbio", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56},
+      "nota": "Il Gubbio ha uno degli attacchi più prolifici del girone (9 gol in 5 gare); l'Ostiamare è la squadra con più sconfitte (4) e una difesa poco affidabile (8 subiti)."
+    },
+    {
+      "girone": "B",
+      "casa": "Guidonia Montecelio", "trasferta": "Livorno", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "8 pt in 5 gare (2V-2N-1P), 7-4",
+      "forma_trasferta": "10 pt in 5 gare (3V-1N-1P), 6-5",
+      "pick_1x2": {"esito": "X2", "etichetta": "Livorno o pareggio", "probabilita": 0.54},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.53},
+      "nota": "Il Livorno ha 10 punti e 3 vittorie nelle prime 5 gare; la Guidonia Montecelio resta comunque solida in casa con una buona difesa (4 gol subiti)."
+    },
+    {
+      "girone": "B",
+      "casa": "Pianese", "trasferta": "Sambenedettese", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "2 pt in 5 gare (0V-2N-3P), 1-5",
+      "forma_trasferta": "1 pt in 5 gare (0V-1N-4P), 6-10",
+      "pick_1x2": {"esito": "X2", "etichetta": "Sambenedettese o pareggio", "probabilita": 0.52},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.53},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.56},
+      "nota": "La Pianese ha il peggior attacco del girone (1 solo gol in 5 gare); la Sambenedettese, pur ultima, ha già segnato 6 reti ma ne ha subite 10, tra le peggiori difese del gruppo."
+    },
+    {
+      "girone": "B",
+      "casa": "Spezia", "trasferta": "Vis Pesaro", "data": "2026-09-21T20:30:00+02:00",
+      "forma_casa": "13 pt in 5 gare (4V-1N-0P), 9-2",
+      "forma_trasferta": "1 pt in 5 gare (0V-1N-4P), 5-12",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Spezia", "probabilita": 0.68},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.54},
+      "nota": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare)."
+    },
+    {
+      "girone": "C",
+      "casa": "Cosenza", "trasferta": "Scafatese", "data": "2026-09-19T14:30:00+02:00",
+      "forma_casa": "1 pt in 5 gare (0V-1N-4P), 4-14",
+      "forma_trasferta": "6 pt in 5 gare (1V-3N-1P), 7-8",
+      "pick_1x2": {"esito": "X2", "etichetta": "Scafatese o pareggio", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.60},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58},
+      "nota": "Il Cosenza è ultimo e ha la peggior difesa dell'intera Serie C (14 gol subiti in 5 gare); la Scafatese arriva da un percorso più solido (6 punti, un'unica sconfitta)."
+    },
+    {
+      "girone": "C",
+      "casa": "Sorrento", "trasferta": "Bari", "data": "2026-09-19T14:30:00+02:00",
+      "forma_casa": "15 pt in 5 gare (5V-0N-0P), 9-3",
+      "forma_trasferta": "10 pt in 5 gare (3V-1N-1P), 7-3",
+      "pick_1x2": {"esito": "1X", "etichetta": "Sorrento o pareggio", "probabilita": 0.60},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.55},
+      "nota": "Il Sorrento è l'unica squadra dell'intera Serie C ancora a punteggio pieno (15 punti su 15) e ha una delle migliori difese del girone (3 gol subiti); il Bari vanta la stessa solidità difensiva (3 incassati) ed è imbattuto in 4 delle 5 gare giocate."
+    },
+    {
+      "girone": "C",
+      "casa": "Audace Cerignola", "trasferta": "Casertana", "data": "2026-09-19T17:30:00+02:00",
+      "forma_casa": "9 pt in 5 gare (3V-0N-2P), 10-5",
+      "forma_trasferta": "11 pt in 5 gare (3V-2N-0P), 11-8",
+      "pick_1x2": {"esito": "X2", "etichetta": "Casertana o pareggio", "probabilita": 0.54},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60},
+      "nota": "Due dei migliori attacchi del girone a confronto: il Cerignola ha segnato 10 gol in 5 gare, la Casertana 11 (alla pari di Picerno e Giugliano) ed è ancora imbattuta con 11 punti."
+    },
+    {
+      "girone": "C",
+      "casa": "Savoia", "trasferta": "Casarano", "data": "2026-09-19T17:30:00+02:00",
+      "forma_casa": "5 pt in 5 gare (1V-2N-2P), 6-6",
+      "forma_trasferta": "9 pt in 5 gare (3V-0N-2P), 9-9",
+      "pick_1x2": {"esito": "X2", "etichetta": "Casarano o pareggio", "probabilita": 0.53},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58},
+      "nota": "Il Casarano viaggia a 9 punti con un attacco prolifico (9 gol) ma anche una difesa permeabile (9 subiti); il Savoia è più equilibrato (6 fatti, 6 subiti)."
+    },
+    {
+      "girone": "C",
+      "casa": "Altamura", "trasferta": "Picerno", "data": "2026-09-19T20:30:00+02:00",
+      "forma_casa": "4 pt in 5 gare (1V-1N-3P), 2-7",
+      "forma_trasferta": "9 pt in 5 gare (3V-0N-2P), 11-8",
+      "pick_1x2": {"esito": "2", "etichetta": "Vittoria Picerno", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.55},
+      "nota": "L'Altamura ha il peggior attacco del girone (2 gol in 5 gare); il Picerno è tra i migliori per gol fatti, alla pari di Casertana e Giugliano (11) e viaggia a 9 punti."
+    },
+    {
+      "girone": "C",
+      "casa": "Catania", "trasferta": "Barletta", "data": "2026-09-19T20:30:00+02:00",
+      "forma_casa": "6 pt in 5 gare (2V-0N-3P), 10-8",
+      "forma_trasferta": "6 pt in 5 gare (1V-3N-1P), 10-9",
+      "pick_1x2": {"esito": "1X", "etichetta": "Catania o pareggio", "probabilita": 0.52},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.62},
+      "nota": "Catania e Barletta hanno entrambe attacchi da 10 gol in 5 gare ma difese fragili (8 e 9 subiti): una sfida ricca di reti appare probabile."
+    },
+    {
+      "girone": "C",
+      "casa": "Salernitana", "trasferta": "Giugliano", "data": "2026-09-19T20:30:00+02:00",
+      "forma_casa": "6 pt in 5 gare (1V-3N-1P), 8-7",
+      "forma_trasferta": "4 pt in 5 gare (1V-1N-3P), 11-15",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Salernitana", "probabilita": 0.58},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.65},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.62},
+      "nota": "Il Giugliano ha la peggior difesa del girone insieme al Cosenza (15 gol subiti in 5 gare) ma un attacco niente male, tra i migliori del gruppo (11 fatti, alla pari di Casertana e Picerno); la Salernitana gioca in casa con un buon equilibrio (8 fatti, 7 subiti)."
+    },
+    {
+      "girone": "C",
+      "casa": "Inter U23", "trasferta": "Foggia", "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 8-9",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 2-4",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Inter U23", "probabilita": 0.56},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.55},
+      "nota": "Il Foggia ha uno degli attacchi più sterili del girone (2 gol in 5 gare); l'Inter U23 gioca in casa nonostante una difesa non impermeabile (9 gol subiti)."
+    },
+    {
+      "girone": "C",
+      "casa": "Monopoli", "trasferta": "Crotone", "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 3-2",
+      "forma_trasferta": "2 pt in 5 gare (0V-2N-3P), 3-7",
+      "pick_1x2": {"esito": "1X", "etichetta": "Monopoli o pareggio", "probabilita": 0.60},
+      "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.62},
+      "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.58},
+      "nota": "Il Monopoli ha la miglior difesa del girone (2 gol subiti in 5 gare) e le sue gare sono le più povere di reti del gruppo; il Crotone è ancora senza vittorie (2 punti)."
+    },
+    {
+      "girone": "C",
+      "casa": "Potenza", "trasferta": "Cavese", "data": "2026-09-20T17:30:00+02:00",
+      "forma_casa": "10 pt in 5 gare (3V-1N-1P), 9-6",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 6-8",
+      "pick_1x2": {"esito": "1", "etichetta": "Vittoria Potenza", "probabilita": 0.60},
+      "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55},
+      "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54},
+      "nota": "Il Potenza è quarto in classifica con 10 punti e un buon attacco (9 gol fatti); la Cavese ha una delle difese più permeabili del girone (8 gol subiti in 5 gare)."
+    }
+  ]
+}
