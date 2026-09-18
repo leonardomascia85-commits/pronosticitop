@@ -39,6 +39,65 @@
     );
   }
 
+  function bestPick(m) {
+    var opts = [
+      { market: 'Esito', pick: m.pick_1x2 },
+      { market: 'Under/Over 2.5', pick: m.pick_uo },
+      { market: 'Gol/No Gol', pick: m.pick_gg }
+    ].filter(function (o) { return o.pick; });
+    if (!opts.length) return null;
+    opts.sort(function (a, b) { return b.pick.probabilita - a.pick.probabilita; });
+    return opts[0];
+  }
+
+  function groupByGirone(partite) {
+    var groups = {}, order = [];
+    partite.forEach(function (m) {
+      var key = m.girone || '_all';
+      if (!groups[key]) { groups[key] = []; order.push(key); }
+      groups[key].push(m);
+    });
+    return { groups: groups, order: order };
+  }
+
+  function schedinaCardHTML(partite, titolo) {
+    var rows = '', combinata = 1, somma = 0, n = 0;
+    partite.forEach(function (m) {
+      var best = bestPick(m);
+      if (!best) return;
+      combinata *= best.pick.probabilita;
+      somma += best.pick.probabilita;
+      n++;
+      rows += (
+        '<div class="schedina-item">' +
+          '<div class="schedina-match">' + m.casa + ' — ' + m.trasferta + '</div>' +
+          '<div class="schedina-pick">' + best.pick.etichetta + '<span class="schedina-market">' + best.market + '</span></div>' +
+          '<div class="schedina-prob">' + pct(best.pick.probabilita) + '</div>' +
+        '</div>'
+      );
+    });
+    if (!n) return '';
+    return (
+      '<div class="schedina-card">' +
+        '<div class="schedina-head">' +
+          '<span class="schedina-title">Schedina consigliata — ' + titolo + '</span>' +
+          '<span class="schedina-pill">Media ' + pct(somma / n) + '</span>' +
+          '<span class="schedina-pill combo">Combinata ' + pct(combinata) + '</span>' +
+        '</div>' +
+        '<div class="schedina-list">' + rows + '</div>' +
+        '<div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Under/Over 2.5 o Gol/No Gol) con la probabilità stimata più alta tra i tre.</div>' +
+      '</div>'
+    );
+  }
+
+  function schedineHTML(data) {
+    var grouped = groupByGirone(data.partite);
+    return grouped.order.map(function (key) {
+      var titolo = key === '_all' ? data.campionato : data.campionato + ' — Girone ' + key;
+      return schedinaCardHTML(grouped.groups[key], titolo);
+    }).join('');
+  }
+
   window.PTCampionato = {
     render: function (dataUrl, rootId, bannerId) {
       var root = document.getElementById(rootId || 'matchesRoot');
@@ -50,10 +109,16 @@
             banner.innerHTML = '<b>' + data.giornata + '</b> — ' + data.periodo + ' · aggiornato il ' +
               new Date(data.aggiornato).toLocaleDateString('it-IT', { day: '2-digit', month: 'long', year: 'numeric' });
           }
+          var existingSchedine = document.getElementById('schedineConsigliate');
+          if (existingSchedine) existingSchedine.parentNode.removeChild(existingSchedine);
           if (!data.partite || !data.partite.length) {
             root.innerHTML = '<div class="empty">Nessuna partita disponibile per questo turno.</div>';
             return;
           }
+          var schedineEl = document.createElement('div');
+          schedineEl.id = 'schedineConsigliate';
+          schedineEl.innerHTML = schedineHTML(data);
+          root.parentNode.insertBefore(schedineEl, root);
           root.innerHTML = data.partite.map(matchCardHTML).join('');
         })
         .catch(function () {

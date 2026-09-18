@@ -249,6 +249,23 @@ footer.site .fresp{margin-top:10px;font-size:12px}
   .pick-box .pick-label{margin-bottom:0;min-width:70px}
   .pick-box .pick-value{margin-bottom:0}
 }
+.schedina-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;margin-bottom:22px}
+.schedina-head{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.schedina-title{font-weight:700;font-size:16px;margin-right:auto}
+.schedina-pill{font-size:12.5px;padding:4px 12px;border-radius:20px;background:var(--panel2);color:var(--green);font-weight:600;border:1px solid var(--border-soft)}
+.schedina-pill.combo{color:var(--amber)}
+.schedina-list{display:flex;flex-direction:column}
+.schedina-item{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--border-soft)}
+.schedina-item:first-child{border-top:none}
+.schedina-match{font-weight:600;flex:1;min-width:0}
+.schedina-pick{color:#7ab3ff;font-weight:700;text-align:right;white-space:nowrap}
+.schedina-market{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted-soft);font-weight:400;margin-top:2px}
+.schedina-prob{font-weight:700;color:var(--green);min-width:44px;text-align:right}
+.schedina-disclaimer{margin-top:14px;font-size:12px;color:var(--muted);border-top:1px solid var(--border-soft);padding-top:10px}
+@media (max-width:560px){
+  .schedina-item{flex-wrap:wrap}
+  .schedina-match{width:100%}
+}
 .league-preparing{
   background:var(--panel);border:1px dashed var(--border);border-radius:var(--radius);
   padding:36px 24px;text-align:center;color:var(--muted);margin:30px 0
