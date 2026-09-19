@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coppe Europee — Pronostici Champions, Europa e Conference League — PronosticiTop</title>
+<meta name="description" content="Pronostici e schedine per Champions League, Europa League e Conference League: una schedina per ciascuna coppa, basata su statistiche reali e modello a gol attesi con vantaggio casa.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.pronosticitop.it/coppe-europee.html">
+<meta name="theme-color" content="#f7f8fa">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:site_name" content="PronosticiTop">
+<meta property="og:title" content="Coppe Europee — Pronostici Champions, Europa e Conference League">
+<meta property="og:description" content="Una schedina per Champions League, Europa League e Conference League, basata su statistiche reali e modello a gol attesi.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.pronosticitop.it/coppe-europee.html">
+<meta property="og:image" content="https://www.pronosticitop.it/assets/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coppe Europee — Pronostici Champions, Europa e Conference League">
+<meta name="twitter:description" content="Una schedina per Champions League, Europa League e Conference League, basata su statistiche reali.">
+<meta name="twitter:image" content="https://www.pronosticitop.it/assets/og-image.svg">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap headrow">
+    <div class="brand"><a href="/"><span class="logo-ball">⚽</span> PronosticiTop</a></div>
+    <button class="navtoggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="mainnav" id="mainNav">
+      <a href="/">Home</a>
+      <a href="/schedine.html">Schedine</a>
+      <a href="/coppe-europee.html" class="active">Coppe Europee</a>
+      <a href="/serie-a.html">Serie A</a>
+      <a href="/serie-b.html">Serie B</a>
+      <a href="/serie-c.html">Serie C</a>
+      <div class="navdrop">
+        <button class="navdrop-btn" id="dropBtn" aria-expanded="false" type="button">Altri campionati <span class="caret">▾</span></button>
+        <div class="navdrop-menu" id="dropMenu">
+          <a href="/premier-league.html">Premier League</a>
+          <a href="/la-liga.html">La Liga</a>
+          <a href="/bundesliga.html">Bundesliga</a>
+          <a href="/ligue-1.html">Ligue 1</a>
+          <a href="/champions-league.html">Champions League</a>
+          <a href="/liga-portugal.html">Liga Portugal</a>
+          <a href="/eredivisie.html">Eredivisie</a>
+          <a href="/brasileirao.html">Brasileirão</a>
+        </div>
+      </div>
+      <a href="/notizie.html">Notizie</a>
+      <a href="/chi-siamo.html">Metodo</a>
+    </nav>
+  </div>
+</header>
+
+<div class="league-hero">
+  <div class="wrap">
+    <h1>Coppe Europee <span class="badge18">18+</span></h1>
+    <p>Una schedina per ciascuna delle tre coppe UEFA — Champions League, Europa League e Conference League — basata su statistiche reali e su un modello a gol attesi con vantaggio casa. Prossimo turno di ognuna: 13-15 ottobre 2026.</p>
+  </div>
+</div>
+
+<main>
+  <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
+
+  <div id="content">Caricamento…</div>
+
+  <details>
+    <summary><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>Come calcoliamo questi pronostici</summary>
+    <div class="details-body" id="metodoBody">Caricamento…</div>
+  </details>
+
+  <div class="ad-slot" id="ad-mid">Spazio pubblicitario</div>
+
+  <div class="disclaimer">
+    <b>Attenzione:</b> i contenuti di questo sito hanno finalità puramente informative e statistiche. Le probabilità indicate sono stime basate su analisi di forma, classifica e statistiche di gioco: <b>non costituiscono consigli di scommessa</b> e non garantiscono alcun risultato. Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica — gioca responsabilmente. Per informazioni e supporto: <a href="https://www.giocaresponsabile.gov.it" target="_blank" rel="noopener">giocaresponsabile.gov.it</a>. Consulta anche i nostri <a href="/termini.html">Termini di utilizzo</a>.
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="fnav"><a href="/">Home</a> · <a href="/schedine.html">Schedine</a> · <a href="/coppe-europee.html">Coppe Europee</a> · <a href="/notizie.html">Notizie</a> · <a href="/chi-siamo.html">Il nostro metodo</a> · <a href="/termini.html">Termini</a> · <a href="/privacy.html">Privacy</a> · <a href="/cookie-policy.html">Cookie</a></div>
+    <div style="margin-top:10px">© <span id="year"></span> PronosticiTop — gioca responsabilmente, vietato ai minori di 18 anni</div>
+    <div class="fresp">Se il gioco ti crea un problema: <a href="https://www.giocaresponsabile.gov.it" target="_blank" rel="noopener">giocaresponsabile.gov.it</a></div>
+  </div>
+</footer>
+
+<script src="/cookie-banner.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+(function(){
+  var btn = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  btn.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.querySelectorAll('.navdrop-btn').forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.stopPropagation();
+      var menu = this.nextElementSibling;
+      var open = menu.classList.toggle('open');
+      this.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', function(){
+    document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
+  });
+})();
+
+function pct(x){ return Math.round(x*100) + '%'; }
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    const opts = { timeZone: 'Europe/Rome' };
+    return d.toLocaleDateString('it-IT',{...opts,weekday:'short',day:'2-digit',month:'2-digit'}) + ' ' + d.toLocaleTimeString('it-IT',{...opts,hour:'2-digit',minute:'2-digit'});
+  }
+  catch(e){ return iso; }
+}
+
+const COMP_COLORS = { 'Champions League':'#1b2a6b', 'Europa League':'#c97a1f', 'Conference League':'#2f9e54' };
+
+function bestPick(p){
+  const opts = [
+    { market: '1X2', label: 'Esito', pick: p.pick_1x2 },
+    { market: 'OU25', label: 'Under/Over 2.5', pick: p.pick_uo },
+    { market: 'GGNG', label: 'Gol/No Gol', pick: p.pick_gg }
+  ].filter(o => o.pick);
+  opts.sort((a,b) => b.pick.probabilita - a.pick.probabilita);
+  return opts[0];
+}
+
+function competizioneCardHTML(comp){
+  const color = COMP_COLORS[comp.nome] || '#5b6472';
+  let somma = 0, combinata = 1, n = 0;
+  const rows = comp.partite.map(p => {
+    const best = bestPick(p);
+    somma += best.pick.probabilita; combinata *= best.pick.probabilita; n++;
+    return `<div class="schedina-item">
+      <div class="schedina-match">${p.casa} — ${p.trasferta}<div class="ev-league" style="margin-top:2px">${fmtDate(p.data)}</div></div>
+      <div class="schedina-pick">${best.pick.etichetta}<span class="schedina-market">${best.label}</span></div>
+      <div class="schedina-prob">${pct(best.pick.probabilita)}</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="schedina-card">
+    <div class="schedina-head">
+      <span class="schedina-title" style="color:${color}">${comp.nome} — ${comp.giornata}</span>
+      <span class="schedina-pill">Media ${pct(somma/n)}</span>
+      <span class="schedina-pill combo">Combinata ${pct(combinata)}</span>
+    </div>
+    <div style="font-size:12.5px;color:var(--muted-soft);margin:-6px 0 12px">${comp.periodo}</div>
+    <div class="schedina-list">${rows}</div>
+    <div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Under/Over 2.5 o Gol/No Gol) con la probabilità stimata più alta tra i tre, calcolata con il modello a gol attesi.</div>
+  </div>`;
+}
+
+async function init(){
+  try{
+    const data = await fetch('/data/pronostici-coppe-europee.json').then(r=>r.json());
+    document.getElementById('content').innerHTML = data.competizioni.map(competizioneCardHTML).join('');
+    document.getElementById('metodoBody').innerHTML = `<p style="margin-top:0">${data.nota_metodo}</p>
+      <p>I dati (punti, partite giocate, gol fatti/subiti) sono presi dai campionati nazionali di ogni squadra, verificati incrociando più fonti. Dove i dati sui gol non erano disponibili (campionati minori con copertura statistica limitata) usiamo il differenziale punti-a-partita, segnalando una confidenza dei dati più bassa nella scheda della singola partita.</p>`;
+  } catch(e){
+    document.getElementById('content').innerHTML = '<div class="empty">Dati non ancora pubblicati per le coppe europee.</div>';
+  }
+}
+init();
+</script>
+</body>
+</html>

@@ -4,14 +4,257 @@
   "periodo": "18-20 settembre 2026",
   "aggiornato": "2026-09-19",
   "partite": [
-    {"casa": "Monaco", "trasferta": "Lens", "data": "2026-09-18T20:45:00+02:00", "forma_casa": "13 pt in 5 gare (4V-1N-0P), 8-3", "forma_trasferta": "4 pt in 5 gare (1V-1N-3P), 9-9", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Monaco", "probabilita": 0.58}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Monaco è capolista con il miglior rendimento del campionato; il Lens fatica a trovare continuità.", "risultato": {"stato": "finale", "punteggio": "2-1", "aggiornato": "2026-09-19T09:00:00Z"}},
-    {"casa": "Paris FC", "trasferta": "Strasbourg", "data": "2026-09-19T17:15:00+02:00", "forma_casa": "8 pt in 4 gare (2V-2N-0P), 6-2", "forma_trasferta": "7 pt in 4 gare (2V-1N-1P), 9-8", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Paris FC", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Paris FC è ancora imbattuto con una difesa solida (2 gol subiti in 4 gare); lo Strasburgo concede molto (8 gol).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Angers", "trasferta": "Estac Troyes", "data": "2026-09-19T20:45:00+02:00", "forma_casa": "4 pt in 4 gare (1V-1N-2P), 4-5", "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 4-9", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Angers", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Troyes ha una delle peggiori difese del campionato (9 gol subiti in 4 gare); l'Angers gioca in casa con qualche punto di vantaggio.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Le Mans", "trasferta": "Lorient", "data": "2026-09-19T20:45:00+02:00", "forma_casa": "3 pt in 4 gare (0V-3N-1P), 7-8", "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 4-4", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Lorient", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Le Mans non ha ancora vinto (3 pareggi in 4 gare) e concede parecchio; il Lorient ha più punti in classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Lyon", "trasferta": "Rennes", "data": "2026-09-19T20:45:00+02:00", "forma_casa": "8 pt in 4 gare (2V-2N-0P), 6-2", "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 8-5", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Lyon", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Lione ha la miglior difesa del campionato insieme al Lille (2 gol subiti in 4 gare) e gioca in casa contro un Rennes comunque ancora imbattuto.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Toulouse", "trasferta": "Le Havre", "data": "2026-09-19T20:45:00+02:00", "forma_casa": "2 pt in 4 gare (0V-2N-2P), 4-7", "forma_trasferta": "2 pt in 4 gare (0V-2N-2P), 2-4", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Toulouse", "probabilita": 0.40}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.58}, "nota": "Entrambe ancora senza vittorie e con attacchi poco prolifici: match aperto e povero di gol atteso.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Auxerre", "trasferta": "Stade Brestois 29", "data": "2026-09-20T15:00:00+02:00", "forma_casa": "3 pt in 4 gare (1V-0N-3P), 5-11", "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Stade Brestois", "probabilita": 0.46}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "L'Auxerre ha la peggior difesa del campionato (11 gol subiti in 4 gare); il Brest ha più punti in classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Nice", "trasferta": "Lille", "data": "2026-09-20T17:15:00+02:00", "forma_casa": "2 pt in 4 gare (0V-2N-2P), 1-5", "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 7-2", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Lille", "probabilita": 0.54}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.60}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.62}, "nota": "Il Nice ha l'attacco più sterile del campionato (1 gol in 4 gare); il Lille è ancora imbattuto con un'ottima difesa (2 gol subiti).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Marseille", "trasferta": "Paris Saint Germain", "data": "2026-09-20T20:45:00+02:00", "forma_casa": "3 pt in 4 gare (1V-0N-3P), 6-6", "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Paris Saint Germain", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Le Classique tra Marsiglia e PSG: entrambe con lo stesso bilancio gol (6-6) in 4 gare, ma il PSG ha qualche punto in più.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}}
+    {
+      "casa": "Monaco",
+      "trasferta": "Lens",
+      "data": "2026-09-18T20:45:00+02:00",
+      "forma_casa": "13 pt in 5 gare (4V-1N-0P), 8-3",
+      "forma_trasferta": "4 pt in 5 gare (1V-1N-3P), 9-9",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Monaco",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Il Monaco è capolista con il miglior rendimento del campionato; il Lens fatica a trovare continuità.",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-19T09:00:00Z"
+      }
+    },
+    {
+      "casa": "Paris FC",
+      "trasferta": "Strasbourg",
+      "data": "2026-09-19T17:15:00+02:00",
+      "forma_casa": "8 pt in 4 gare (2V-2N-0P), 6-2",
+      "forma_trasferta": "7 pt in 4 gare (2V-1N-1P), 9-8",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Paris FC",
+        "probabilita": 0.57
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "Il Paris FC è ancora imbattuto con una difesa solida (2 gol subiti in 4 gare); lo Strasburgo concede molto (8 gol).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Angers",
+      "trasferta": "Estac Troyes",
+      "data": "2026-09-19T20:45:00+02:00",
+      "forma_casa": "4 pt in 4 gare (1V-1N-2P), 4-5",
+      "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 4-9",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Angers",
+        "probabilita": 0.59
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Il Troyes ha una delle peggiori difese del campionato (9 gol subiti in 4 gare); l'Angers gioca in casa con qualche punto di vantaggio.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Le Mans",
+      "trasferta": "Lorient",
+      "data": "2026-09-19T20:45:00+02:00",
+      "forma_casa": "3 pt in 4 gare (0V-3N-1P), 7-8",
+      "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 4-4",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Le Mans",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Il Le Mans non ha ancora vinto (3 pareggi in 4 gare) e concede parecchio; il Lorient ha più punti in classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Lyon",
+      "trasferta": "Rennes",
+      "data": "2026-09-19T20:45:00+02:00",
+      "forma_casa": "8 pt in 4 gare (2V-2N-0P), 6-2",
+      "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 8-5",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Lyon",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "Il Lione ha la miglior difesa del campionato insieme al Lille (2 gol subiti in 4 gare) e gioca in casa contro un Rennes comunque ancora imbattuto.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Toulouse",
+      "trasferta": "Le Havre",
+      "data": "2026-09-19T20:45:00+02:00",
+      "forma_casa": "2 pt in 4 gare (0V-2N-2P), 4-7",
+      "forma_trasferta": "2 pt in 4 gare (0V-2N-2P), 2-4",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Toulouse",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Entrambe ancora senza vittorie e con attacchi poco prolifici: match aperto e povero di gol atteso.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Auxerre",
+      "trasferta": "Stade Brestois 29",
+      "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "3 pt in 4 gare (1V-0N-3P), 5-11",
+      "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Stade Brestois 29",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "L'Auxerre ha la peggior difesa del campionato (11 gol subiti in 4 gare); il Brest ha più punti in classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Nice",
+      "trasferta": "Lille",
+      "data": "2026-09-20T17:15:00+02:00",
+      "forma_casa": "2 pt in 4 gare (0V-2N-2P), 1-5",
+      "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 7-2",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Lille",
+        "probabilita": 0.62
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Il Nice ha l'attacco più sterile del campionato (1 gol in 4 gare); il Lille è ancora imbattuto con un'ottima difesa (2 gol subiti).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Marseille",
+      "trasferta": "Paris Saint Germain",
+      "data": "2026-09-20T20:45:00+02:00",
+      "forma_casa": "3 pt in 4 gare (1V-0N-3P), 6-6",
+      "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-6",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Marseille",
+        "probabilita": 0.53
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Le Classique tra Marsiglia e PSG: entrambe con lo stesso bilancio gol (6-6) in 4 gare, ma il PSG ha qualche punto in più.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    }
   ]
 }

@@ -4,15 +4,285 @@
   "periodo": "18-20 settembre 2026",
   "aggiornato": "2026-09-19",
   "partite": [
-    {"casa": "Brentford", "trasferta": "Chelsea", "data": "2026-09-18T21:00:00+01:00", "forma_casa": "9 pt in 5 gare (2V-3N-0P), 10-4", "forma_trasferta": "7 pt in 5 gare (2V-1N-2P), 10-12", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Brentford", "probabilita": 0.48}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60}, "nota": "Brentford ancora imbattuto (9 punti in 5 gare); Chelsea ha già subito 12 gol, tra le peggiori difese della zona alta di classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Tottenham", "trasferta": "Aston Villa", "data": "2026-09-19T14:30:00+01:00", "forma_casa": "2 pt in 4 gare (0V-2N-2P), 0-5", "forma_trasferta": "1 pt in 4 gare (0V-1N-3P), 1-7", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Tottenham", "probabilita": 0.42}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.62}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.62}, "nota": "Il Tottenham è l'unica squadra della Premier League ancora a secco di gol fatti (0 in 4 gare); anche l'Aston Villa fatica enormemente in attacco (1 gol).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Brighton", "trasferta": "Arsenal", "data": "2026-09-19T16:00:00+01:00", "forma_casa": "7 pt in 4 gare (2V-1N-1P), 13-5", "forma_trasferta": "12 pt in 4 gare (4V-0N-0P), 8-1", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Arsenal", "probabilita": 0.48}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "L'Arsenal è capolista a punteggio pieno con la miglior difesa del campionato (1 gol subito); il Brighton ha però l'attacco più prolifico (13 gol in 4 gare).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Everton", "trasferta": "Ipswich Town", "data": "2026-09-19T16:00:00+01:00", "forma_casa": "6 pt in 4 gare (1V-3N-0P), 5-3", "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 7-10", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Everton", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "L'Ipswich ha una delle difese più fragili del campionato (10 gol subiti in 4 gare); Everton ancora imbattuto in casa.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Newcastle", "trasferta": "Hull City", "data": "2026-09-19T16:00:00+01:00", "forma_casa": "5 pt in 4 gare (1V-2N-1P), 7-8", "forma_trasferta": "8 pt in 4 gare (2V-2N-0P), 5-2", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Hull City", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "L'Hull City, neopromosso, è ancora imbattuto con una difesa solida (2 gol subiti); il Newcastle ha già incassato 8 reti in 4 gare.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Nottingham Forest", "trasferta": "Coventry City", "data": "2026-09-19T18:30:00+01:00", "forma_casa": "5 pt in 4 gare (1V-2N-1P), 4-4", "forma_trasferta": "0 pt in 4 gare (0V-0N-4P), 0-10", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Nottingham Forest", "probabilita": 0.60}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.62}, "nota": "Il Coventry City è l'unica squadra del campionato ancora a 0 punti e senza gol fatti, con la peggior difesa (10 subiti in 4 gare).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Bournemouth", "trasferta": "Liverpool", "data": "2026-09-20T15:00:00+01:00", "forma_casa": "3 pt in 4 gare (0V-3N-1P), 6-7", "forma_trasferta": "6 pt in 4 gare (1V-3N-0P), 6-4", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Liverpool", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Bournemouth non vince da 4 gare (3 pareggi e una sconfitta); il Liverpool resta ancora imbattuto in campionato.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Leeds United", "trasferta": "Crystal Palace", "data": "2026-09-20T15:00:00+01:00", "forma_casa": "8 pt in 4 gare (2V-2N-0P), 7-3", "forma_trasferta": "3 pt in 4 gare (1V-0N-3P), 6-11", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Leeds United", "probabilita": 0.56}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Leeds è ancora imbattuto (8 punti in 4 gare); il Crystal Palace ha la difesa più fragile della zona medio-bassa (11 gol subiti).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Manchester City", "trasferta": "Sunderland", "data": "2026-09-20T15:00:00+01:00", "forma_casa": "12 pt in 4 gare (4V-0N-0P), 8-2", "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 3-5", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Manchester City", "probabilita": 0.64}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.56}, "nota": "Il Manchester City è co-capolista a punteggio pieno; il Sunderland, neopromosso, ha uno degli attacchi meno prolifici del campionato (0,75 gol a gara).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Fulham", "trasferta": "Manchester United", "data": "2026-09-20T17:30:00+01:00", "forma_casa": "1 pt in 4 gare (0V-1N-3P), 4-7", "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 7-7", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Manchester United", "probabilita": 0.46}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "Il Fulham non vince ancora in campionato (1 solo punto in 4 gare); il Manchester United, seppur incostante, ha un attacco più prolifico.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}}
+    {
+      "casa": "Brentford",
+      "trasferta": "Chelsea",
+      "data": "2026-09-18T21:00:00+01:00",
+      "forma_casa": "9 pt in 5 gare (2V-3N-0P), 10-4",
+      "forma_trasferta": "7 pt in 5 gare (2V-1N-2P), 10-12",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Brentford",
+        "probabilita": 0.63
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.62
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "Brentford ancora imbattuto (9 punti in 5 gare); Chelsea ha già subito 12 gol, tra le peggiori difese della zona alta di classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Tottenham",
+      "trasferta": "Aston Villa",
+      "data": "2026-09-19T14:30:00+01:00",
+      "forma_casa": "2 pt in 4 gare (0V-2N-2P), 0-5",
+      "forma_trasferta": "1 pt in 4 gare (0V-1N-3P), 1-7",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Tottenham",
+        "probabilita": 0.53
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Il Tottenham è l'unica squadra della Premier League ancora a secco di gol fatti (0 in 4 gare); anche l'Aston Villa fatica enormemente in attacco (1 gol).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Brighton",
+      "trasferta": "Arsenal",
+      "data": "2026-09-19T16:00:00+01:00",
+      "forma_casa": "7 pt in 4 gare (2V-1N-1P), 13-5",
+      "forma_trasferta": "12 pt in 4 gare (4V-0N-0P), 8-1",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Brighton",
+        "probabilita": 0.55
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "L'Arsenal è capolista a punteggio pieno con la miglior difesa del campionato (1 gol subito); il Brighton ha però l'attacco più prolifico (13 gol in 4 gare).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Everton",
+      "trasferta": "Ipswich Town",
+      "data": "2026-09-19T16:00:00+01:00",
+      "forma_casa": "6 pt in 4 gare (1V-3N-0P), 5-3",
+      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 7-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Everton",
+        "probabilita": 0.6
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "L'Ipswich ha una delle difese più fragili del campionato (10 gol subiti in 4 gare); Everton ancora imbattuto in casa.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Newcastle",
+      "trasferta": "Hull City",
+      "data": "2026-09-19T16:00:00+01:00",
+      "forma_casa": "5 pt in 4 gare (1V-2N-1P), 7-8",
+      "forma_trasferta": "8 pt in 4 gare (2V-2N-0P), 5-2",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Hull City",
+        "probabilita": 0.53
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "L'Hull City, neopromosso, è ancora imbattuto con una difesa solida (2 gol subiti); il Newcastle ha già incassato 8 reti in 4 gare.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Nottingham Forest",
+      "trasferta": "Coventry City",
+      "data": "2026-09-19T18:30:00+01:00",
+      "forma_casa": "5 pt in 4 gare (1V-2N-1P), 4-4",
+      "forma_trasferta": "0 pt in 4 gare (0V-0N-4P), 0-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Nottingham Forest",
+        "probabilita": 0.67
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Il Coventry City è l'unica squadra del campionato ancora a 0 punti e senza gol fatti, con la peggior difesa (10 subiti in 4 gare).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Bournemouth",
+      "trasferta": "Liverpool",
+      "data": "2026-09-20T15:00:00+01:00",
+      "forma_casa": "3 pt in 4 gare (0V-3N-1P), 6-7",
+      "forma_trasferta": "6 pt in 4 gare (1V-3N-0P), 6-4",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Liverpool",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Il Bournemouth non vince da 4 gare (3 pareggi e una sconfitta); il Liverpool resta ancora imbattuto in campionato.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Leeds United",
+      "trasferta": "Crystal Palace",
+      "data": "2026-09-20T15:00:00+01:00",
+      "forma_casa": "8 pt in 4 gare (2V-2N-0P), 7-3",
+      "forma_trasferta": "3 pt in 4 gare (1V-0N-3P), 6-11",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Leeds United",
+        "probabilita": 0.67
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Il Leeds è ancora imbattuto (8 punti in 4 gare); il Crystal Palace ha la difesa più fragile della zona medio-bassa (11 gol subiti).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Manchester City",
+      "trasferta": "Sunderland",
+      "data": "2026-09-20T15:00:00+01:00",
+      "forma_casa": "12 pt in 4 gare (4V-0N-0P), 8-2",
+      "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 3-5",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Manchester City",
+        "probabilita": 0.64
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Il Manchester City è co-capolista a punteggio pieno; il Sunderland, neopromosso, ha uno degli attacchi meno prolifici del campionato (0,75 gol a gara).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Fulham",
+      "trasferta": "Manchester United",
+      "data": "2026-09-20T17:30:00+01:00",
+      "forma_casa": "1 pt in 4 gare (0V-1N-3P), 4-7",
+      "forma_trasferta": "4 pt in 4 gare (1V-1N-2P), 7-7",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Manchester United",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "Il Fulham non vince ancora in campionato (1 solo punto in 4 gare); il Manchester United, seppur incostante, ha un attacco più prolifico.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    }
   ]
 }

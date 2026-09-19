@@ -4,15 +4,285 @@
   "periodo": "19-21 settembre 2026",
   "aggiornato": "2026-09-19",
   "partite": [
-    {"casa": "Atlético Mineiro", "trasferta": "Chapecoense", "data": "2026-09-19T16:00:00-03:00", "forma_casa": "40 pt in 27 gare (11V-7N-9P), 35-31", "forma_trasferta": "18 pt in 27 gare (3V-9N-15P), 28-52", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Atlético Mineiro", "probabilita": 0.56}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "La Chapecoense è ultima in classifica con la peggior difesa del torneo (52 gol subiti in 27 gare).", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Mirassol", "trasferta": "Botafogo", "data": "2026-09-19T17:00:00-03:00", "forma_casa": "29 pt in 27 gare (7V-8N-12P), 31-42", "forma_trasferta": "35 pt in 27 gare (9V-8N-10P), 41-43", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Botafogo", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "Entrambe con difese fragili (42 e 43 gol subiti); il Botafogo ha qualche punto e gol fatto in più.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Remo", "trasferta": "Santos", "data": "2026-09-19T18:30:00-03:00", "forma_casa": "23 pt in 27 gare (5V-8N-14P), 31-45", "forma_trasferta": "36 pt in 27 gare (9V-9N-9P), 39-39", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Santos", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Remo ha una delle peggiori difese del torneo (45 gol subiti in 27 gare); il Santos ha più punti in classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Vasco da Gama", "trasferta": "Coritiba", "data": "2026-09-19T20:30:00-03:00", "forma_casa": "29 pt in 27 gare (7V-8N-12P), 29-41", "forma_trasferta": "38 pt in 27 gare (10V-8N-9P), 37-38", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Coritiba", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Coritiba ha nettamente più punti (38 contro 29) e un rendimento migliore in questa fase del torneo.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "São Paulo", "trasferta": "Internacional", "data": "2026-09-19T21:00:00-03:00", "forma_casa": "34 pt in 27 gare (9V-7N-11P), 31-30", "forma_trasferta": "28 pt in 27 gare (6V-10N-11P), 30-35", "pick_1x2": {"esito": "1", "etichetta": "Vittoria São Paulo", "probabilita": 0.44}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52}, "nota": "Il San Paolo gioca in casa con qualche punto e miglior differenza reti rispetto all'Internacional.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Grêmio", "trasferta": "Palmeiras", "data": "2026-09-20T11:00:00-03:00", "forma_casa": "28 pt in 27 gare (7V-7N-13P), 30-38", "forma_trasferta": "56 pt in 27 gare (16V-8N-3P), 47-21", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Palmeiras", "probabilita": 0.52}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Palmeiras è 2° in classifica con uno dei migliori attacchi del torneo (47 gol); il Grêmio è in zona medio-bassa con una difesa fragile.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Vitória", "trasferta": "Cruzeiro", "data": "2026-09-20T16:00:00-03:00", "forma_casa": "33 pt in 27 gare (9V-6N-12P), 27-39", "forma_trasferta": "42 pt in 27 gare (12V-6N-9P), 39-39", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Cruzeiro", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Il Cruzeiro ha più punti e un attacco più prolifico (39 gol contro 27) rispetto al Vitória.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Corinthians", "trasferta": "Fluminense", "data": "2026-09-20T16:00:00-03:00", "forma_casa": "32 pt in 27 gare (8V-8N-11P), 28-29", "forma_trasferta": "45 pt in 27 gare (12V-9N-6P), 41-35", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Fluminense", "probabilita": 0.44}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52}, "nota": "Il Fluminense è 5° in classifica con un rendimento nettamente superiore al Corinthians in questa stagione.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Flamengo", "trasferta": "Bragantino", "data": "2026-09-20T18:30:00-03:00", "forma_casa": "57 pt in 27 gare (17V-6N-4P), 53-22", "forma_trasferta": "37 pt in 27 gare (10V-7N-10P), 32-29", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Flamengo", "probabilita": 0.58}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Athletico PR", "trasferta": "Bahia", "data": "2026-09-20T19:30:00-03:00", "forma_casa": "46 pt in 27 gare (13V-7N-7P), 41-31", "forma_trasferta": "46 pt in 27 gare (12V-10N-5P), 42-33", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Athletico PR", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Scontro diretto per il 3°/4° posto tra due squadre appaiate a 46 punti, entrambe con buoni attacchi.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}}
+    {
+      "casa": "Atlético Mineiro",
+      "trasferta": "Chapecoense",
+      "data": "2026-09-19T16:00:00-03:00",
+      "forma_casa": "40 pt in 27 gare (11V-7N-9P), 35-31",
+      "forma_trasferta": "18 pt in 27 gare (3V-9N-15P), 28-52",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Atlético Mineiro",
+        "probabilita": 0.59
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "La Chapecoense è ultima in classifica con la peggior difesa del torneo (52 gol subiti in 27 gare).",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Mirassol",
+      "trasferta": "Botafogo",
+      "data": "2026-09-19T17:00:00-03:00",
+      "forma_casa": "29 pt in 27 gare (7V-8N-12P), 31-42",
+      "forma_trasferta": "35 pt in 27 gare (9V-8N-10P), 41-43",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Mirassol",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Entrambe con difese fragili (42 e 43 gol subiti); il Botafogo ha qualche punto e gol fatto in più.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Remo",
+      "trasferta": "Santos",
+      "data": "2026-09-19T18:30:00-03:00",
+      "forma_casa": "23 pt in 27 gare (5V-8N-14P), 31-45",
+      "forma_trasferta": "36 pt in 27 gare (9V-9N-9P), 39-39",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Santos",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Il Remo ha una delle peggiori difese del torneo (45 gol subiti in 27 gare); il Santos ha più punti in classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Vasco da Gama",
+      "trasferta": "Coritiba",
+      "data": "2026-09-19T20:30:00-03:00",
+      "forma_casa": "29 pt in 27 gare (7V-8N-12P), 29-41",
+      "forma_trasferta": "38 pt in 27 gare (10V-8N-9P), 37-38",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Vasco da Gama",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Il Coritiba ha nettamente più punti (38 contro 29) e un rendimento migliore in questa fase del torneo.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "São Paulo",
+      "trasferta": "Internacional",
+      "data": "2026-09-19T21:00:00-03:00",
+      "forma_casa": "34 pt in 27 gare (9V-7N-11P), 31-30",
+      "forma_trasferta": "28 pt in 27 gare (6V-10N-11P), 30-35",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria São Paulo",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "Il San Paolo gioca in casa con qualche punto e miglior differenza reti rispetto all'Internacional.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Grêmio",
+      "trasferta": "Palmeiras",
+      "data": "2026-09-20T11:00:00-03:00",
+      "forma_casa": "28 pt in 27 gare (7V-7N-13P), 30-38",
+      "forma_trasferta": "56 pt in 27 gare (16V-8N-3P), 47-21",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Palmeiras",
+        "probabilita": 0.55
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.5
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "Il Palmeiras è 2° in classifica con uno dei migliori attacchi del torneo (47 gol); il Grêmio è in zona medio-bassa con una difesa fragile.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Vitória",
+      "trasferta": "Cruzeiro",
+      "data": "2026-09-20T16:00:00-03:00",
+      "forma_casa": "33 pt in 27 gare (9V-6N-12P), 27-39",
+      "forma_trasferta": "42 pt in 27 gare (12V-6N-9P), 39-39",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Cruzeiro",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Il Cruzeiro ha più punti e un attacco più prolifico (39 gol contro 27) rispetto al Vitória.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Corinthians",
+      "trasferta": "Fluminense",
+      "data": "2026-09-20T16:00:00-03:00",
+      "forma_casa": "32 pt in 27 gare (8V-8N-11P), 28-29",
+      "forma_trasferta": "45 pt in 27 gare (12V-9N-6P), 41-35",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Corinthians",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.5
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Il Fluminense è 5° in classifica con un rendimento nettamente superiore al Corinthians in questa stagione.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Flamengo",
+      "trasferta": "Bragantino",
+      "data": "2026-09-20T18:30:00-03:00",
+      "forma_casa": "57 pt in 27 gare (17V-6N-4P), 53-22",
+      "forma_trasferta": "37 pt in 27 gare (10V-7N-10P), 32-29",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Flamengo",
+        "probabilita": 0.59
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Athletico PR",
+      "trasferta": "Bahia",
+      "data": "2026-09-20T19:30:00-03:00",
+      "forma_casa": "46 pt in 27 gare (13V-7N-7P), 41-31",
+      "forma_trasferta": "46 pt in 27 gare (12V-10N-5P), 42-33",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Athletico PR",
+        "probabilita": 0.53
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "Scontro diretto per il 3°/4° posto tra due squadre appaiate a 46 punti, entrambe con buoni attacchi.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    }
   ]
 }

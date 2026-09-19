@@ -4,15 +4,285 @@
   "periodo": "18-20 settembre 2026",
   "aggiornato": "2026-09-19",
   "partite": [
-    {"casa": "Espanyol", "trasferta": "Elche", "data": "2026-09-18T21:00:00+02:00", "forma_casa": "7 pt in 7 gare (2V-1N-4P), 10-10", "forma_trasferta": "5 pt in 7 gare (1V-2N-4P), 11-17", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Espanyol", "probabilita": 0.44}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "L'Elche ha una delle peggiori difese della Liga (17 gol subiti in 7 gare); l'Espanyol gioca in casa con un discreto equilibrio.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Osasuna", "trasferta": "Rayo Vallecano", "data": "2026-09-19T14:00:00+02:00", "forma_casa": "7 pt in 6 gare (2V-1N-3P), 5-12", "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 10-15", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Rayo Vallecano", "probabilita": 0.40}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "Entrambe a 7 punti con difese fragili (12 e 15 gol subiti); il Rayo ha un attacco leggermente più prolifico.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Athletic Club", "trasferta": "Alaves", "data": "2026-09-19T16:15:00+02:00", "forma_casa": "7 pt in 5 gare (2V-1N-2P), 7-6", "forma_trasferta": "10 pt in 6 gare (3V-1N-2P), 11-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Alaves", "probabilita": 0.40}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "L'Alaves ha più punti e un attacco più prolifico (11 gol in 6 gare) rispetto all'Athletic Club.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Celta Vigo", "trasferta": "Racing Santander", "data": "2026-09-19T18:30:00+02:00", "forma_casa": "4 pt in 6 gare (0V-4N-2P), 3-6", "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 11-16", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Racing Santander", "probabilita": 0.40}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.52}, "nota": "Il Celta non ha ancora vinto (4 pareggi in 6 gare) e segna pochissimo (3 gol); il Racing, seppur con difesa fragile, ha più punti.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Sevilla", "trasferta": "Barcelona", "data": "2026-09-19T21:00:00+02:00", "forma_casa": "13 pt in 6 gare (4V-1N-1P), 9-6", "forma_trasferta": "18 pt in 6 gare (6V-0N-0P), 28-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Barcelona", "probabilita": 0.56}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.62}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "Il Barcellona è capolista a punteggio pieno con un attacco devastante (28 gol in 6 gare, quasi 5 a partita); il Siviglia resta comunque un avversario solido in casa.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Getafe", "trasferta": "Malaga", "data": "2026-09-20T14:00:00+02:00", "forma_casa": "5 pt in 6 gare (1V-2N-3P), 3-7", "forma_trasferta": "3 pt in 6 gare (0V-3N-3P), 3-11", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Getafe", "probabilita": 0.46}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.58}, "nota": "Entrambe tra gli attacchi meno prolifici della Liga (3 gol fatti a testa in 6 gare); il Malaga ha la peggior differenza reti del campionato.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Atletico Madrid", "trasferta": "Real Madrid", "data": "2026-09-20T16:15:00+02:00", "forma_casa": "13 pt in 6 gare (4V-1N-1P), 14-6", "forma_trasferta": "15 pt in 6 gare (5V-0N-1P), 17-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Real Madrid", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Deportivo La Coruna", "trasferta": "Real Betis", "data": "2026-09-20T18:30:00+02:00", "forma_casa": "9 pt in 6 gare (2V-3N-1P), 9-7", "forma_trasferta": "15 pt in 6 gare (5V-0N-1P), 8-6", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Real Betis", "probabilita": 0.46}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52}, "nota": "Il Betis viaggia a 15 punti in 6 gare (5 vittorie), nettamente meglio del Deportivo neopromosso.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Villarreal", "trasferta": "Levante", "data": "2026-09-20T18:30:00+02:00", "forma_casa": "5 pt in 6 gare (1V-2N-3P), 10-11", "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 7-9", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Villarreal", "probabilita": 0.40}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "Entrambe con difese fragili e attacchi discreti: match aperto tra due squadre di centroclassifica in difficoltà.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Valencia", "trasferta": "Real Sociedad", "data": "2026-09-20T21:00:00+02:00", "forma_casa": "4 pt in 6 gare (1V-1N-4P), 2-10", "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 6-11", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Real Sociedad", "probabilita": 0.44}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.58}, "nota": "Il Valencia ha il peggior attacco della Liga (2 gol in 6 gare); la Real Sociedad, pur incostante, ha più punti in classifica.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}}
+    {
+      "casa": "Espanyol",
+      "trasferta": "Elche",
+      "data": "2026-09-18T21:00:00+02:00",
+      "forma_casa": "7 pt in 7 gare (2V-1N-4P), 10-10",
+      "forma_trasferta": "5 pt in 7 gare (1V-2N-4P), 11-17",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Espanyol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "L'Elche ha una delle peggiori difese della Liga (17 gol subiti in 7 gare); l'Espanyol gioca in casa con un discreto equilibrio.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Osasuna",
+      "trasferta": "Rayo Vallecano",
+      "data": "2026-09-19T14:00:00+02:00",
+      "forma_casa": "7 pt in 6 gare (2V-1N-3P), 5-12",
+      "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 10-15",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Osasuna",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.66
+      },
+      "nota": "Entrambe a 7 punti con difese fragili (12 e 15 gol subiti); il Rayo ha un attacco leggermente più prolifico.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Athletic Club",
+      "trasferta": "Alaves",
+      "data": "2026-09-19T16:15:00+02:00",
+      "forma_casa": "7 pt in 5 gare (2V-1N-2P), 7-6",
+      "forma_trasferta": "10 pt in 6 gare (3V-1N-2P), 11-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Alaves",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "L'Alaves ha più punti e un attacco più prolifico (11 gol in 6 gare) rispetto all'Athletic Club.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Celta Vigo",
+      "trasferta": "Racing Santander",
+      "data": "2026-09-19T18:30:00+02:00",
+      "forma_casa": "4 pt in 6 gare (0V-4N-2P), 3-6",
+      "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 11-16",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Celta Vigo",
+        "probabilita": 0.55
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Il Celta non ha ancora vinto (4 pareggi in 6 gare) e segna pochissimo (3 gol); il Racing, seppur con difesa fragile, ha più punti.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Sevilla",
+      "trasferta": "Barcelona",
+      "data": "2026-09-19T21:00:00+02:00",
+      "forma_casa": "13 pt in 6 gare (4V-1N-1P), 9-6",
+      "forma_trasferta": "18 pt in 6 gare (6V-0N-0P), 28-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Barcelona",
+        "probabilita": 0.65
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.65
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Il Barcellona è capolista a punteggio pieno con un attacco devastante (28 gol in 6 gare, quasi 5 a partita); il Siviglia resta comunque un avversario solido in casa.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Getafe",
+      "trasferta": "Malaga",
+      "data": "2026-09-20T14:00:00+02:00",
+      "forma_casa": "5 pt in 6 gare (1V-2N-3P), 3-7",
+      "forma_trasferta": "3 pt in 6 gare (0V-3N-3P), 3-11",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Getafe",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Entrambe tra gli attacchi meno prolifici della Liga (3 gol fatti a testa in 6 gare); il Malaga ha la peggior differenza reti del campionato.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Atletico Madrid",
+      "trasferta": "Real Madrid",
+      "data": "2026-09-20T16:15:00+02:00",
+      "forma_casa": "13 pt in 6 gare (4V-1N-1P), 14-6",
+      "forma_trasferta": "15 pt in 6 gare (5V-0N-1P), 17-6",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Atletico Madrid",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.61
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.66
+      },
+      "nota": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Deportivo La Coruna",
+      "trasferta": "Real Betis",
+      "data": "2026-09-20T18:30:00+02:00",
+      "forma_casa": "9 pt in 6 gare (2V-3N-1P), 9-7",
+      "forma_trasferta": "15 pt in 6 gare (5V-0N-1P), 8-6",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Deportivo La Coruna",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.5
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "Il Betis viaggia a 15 punti in 6 gare (5 vittorie), nettamente meglio del Deportivo neopromosso.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Villarreal",
+      "trasferta": "Levante",
+      "data": "2026-09-20T18:30:00+02:00",
+      "forma_casa": "5 pt in 6 gare (1V-2N-3P), 10-11",
+      "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 7-9",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Villarreal",
+        "probabilita": 0.55
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "Entrambe con difese fragili e attacchi discreti: match aperto tra due squadre di centroclassifica in difficoltà.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Valencia",
+      "trasferta": "Real Sociedad",
+      "data": "2026-09-20T21:00:00+02:00",
+      "forma_casa": "4 pt in 6 gare (1V-1N-4P), 2-10",
+      "forma_trasferta": "7 pt in 6 gare (2V-1N-3P), 6-11",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Real Sociedad",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Il Valencia ha il peggior attacco della Liga (2 gol in 6 gare); la Real Sociedad, pur incostante, ha più punti in classifica.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    }
   ]
 }
