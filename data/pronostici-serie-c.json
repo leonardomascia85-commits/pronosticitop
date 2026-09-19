@@ -724,9 +724,9 @@
       },
       "nota": "L'Altamura ha il peggior attacco del girone (2 gol in 5 gare); il Picerno è tra i migliori per gol fatti, alla pari di Casertana e Giugliano (11) e viaggia a 9 punti.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "in_corso",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-09-19T19:17:58Z"
       }
     },
     {
@@ -753,9 +753,9 @@
       },
       "nota": "Catania e Barletta hanno entrambe attacchi da 10 gol in 5 gare ma difese fragili (8 e 9 subiti): una sfida ricca di reti appare probabile.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "intervallo",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-19T19:17:58Z"
       }
     },
     {
@@ -782,9 +782,9 @@
       },
       "nota": "Il Giugliano ha la peggior difesa del girone insieme al Cosenza (15 gol subiti in 5 gare) ma un attacco niente male, tra i migliori del gruppo (11 fatti, alla pari di Casertana e Picerno); la Salernitana gioca in casa con un buon equilibrio (8 fatti, 7 subiti).",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "in_corso",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-09-19T19:17:58Z"
       }
     },
     {
