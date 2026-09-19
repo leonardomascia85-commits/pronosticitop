@@ -41,6 +41,21 @@
     return '<span class="pick-result ' + (pickEsito === actualEsito ? 'win' : 'lose') + '">' + (pickEsito === actualEsito ? '✅' : '❌') + '</span>';
   }
 
+  // Come resultIconHTML, ma consapevole dello stato della partita: a partita in corso
+  // mostra "LIVE" col punteggio invece di anticipare un esito che puo' ancora cambiare;
+  // a partita finita mostra l'icona col punteggio finale.
+  function pickResultHTML(pickEsito, actualEsito, risultato) {
+    var stato = risultato ? risultato.stato : 'non_iniziata';
+    if (stato === 'non_iniziata' || !stato) return '';
+    if (stato === 'finale') {
+      if (actualEsito == null) return '';
+      var win = pickEsito === actualEsito;
+      return '<span class="pick-result ' + (win ? 'win' : 'lose') + '">' + (win ? '✅' : '❌') + (risultato.punteggio ? ' ' + risultato.punteggio : '') + '</span>';
+    }
+    var liveLbl = STATUS_LABELS[stato] || 'LIVE';
+    return '<span class="ev-live"><span class="live-dot"></span>' + liveLbl + (risultato.punteggio ? ' ' + risultato.punteggio : '') + '</span>';
+  }
+
   function statusBadgeHTML(risultato) {
     if (!risultato || risultato.stato === 'non_iniziata' || !STATUS_LABELS[risultato.stato]) return '';
     var cls = risultato.stato === 'finale' ? 'status-finale' : 'status-live';
@@ -56,21 +71,21 @@
         '<div class="match-teams">' + m.casa + ' — ' + m.trasferta + '</div>' +
         (m.forma_casa ? '<div class="match-form">Forma ' + m.casa + ': ' + m.forma_casa + ' · Forma ' + m.trasferta + ': ' + m.forma_trasferta + '</div>' : '') +
         '<div class="picks-row">' +
-          pickBoxHTML('Esito', m.pick_1x2, actual ? actual.esito1x2 : null) +
-          pickBoxHTML('Under/Over 2.5', m.pick_uo, actual ? actual.uo : null) +
-          pickBoxHTML('Gol/No Gol', m.pick_gg, actual ? actual.gg : null) +
+          pickBoxHTML('Esito', m.pick_1x2, actual ? actual.esito1x2 : null, m.risultato) +
+          pickBoxHTML('Under/Over 2.5', m.pick_uo, actual ? actual.uo : null, m.risultato) +
+          pickBoxHTML('Gol/No Gol', m.pick_gg, actual ? actual.gg : null, m.risultato) +
         '</div>' +
         (m.nota ? '<div class="match-note">' + m.nota + '</div>' : '') +
       '</div>'
     );
   }
 
-  function pickBoxHTML(label, pick, actualEsito) {
+  function pickBoxHTML(label, pick, actualEsito, risultato) {
     if (!pick) return '';
     return (
       '<div class="pick-box">' +
         '<div class="pick-label">' + label + '</div>' +
-        '<div class="pick-value">' + pick.etichetta + resultIconHTML(pick.esito, actualEsito) + '</div>' +
+        '<div class="pick-value">' + pick.etichetta + pickResultHTML(pick.esito, actualEsito, risultato) + '</div>' +
         '<div class="pick-prob">' + pct(pick.probabilita) + '</div>' +
       '</div>'
     );
@@ -111,7 +126,7 @@
       rows += (
         '<div class="schedina-item">' +
           '<div class="schedina-match">' + m.casa + ' — ' + m.trasferta + '</div>' +
-          '<div class="schedina-pick">' + best.pick.etichetta + resultIconHTML(best.pick.esito, actualForMarket) + '<span class="schedina-market">' + best.market + '</span></div>' +
+          '<div class="schedina-pick">' + best.pick.etichetta + pickResultHTML(best.pick.esito, actualForMarket, m.risultato) + '<span class="schedina-market">' + best.market + '</span></div>' +
           '<div class="schedina-prob">' + pct(best.pick.probabilita) + '</div>' +
         '</div>'
       );
