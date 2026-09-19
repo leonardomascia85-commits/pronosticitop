@@ -77,6 +77,29 @@
 </div>
 
 <main>
+  <div class="risk-scheme">
+    <a href="#risk-4" class="risk-scheme-card scheme-4">
+      <span class="risk-scheme-n">4</span>
+      <span class="risk-scheme-label">Rischio basso</span>
+      <span class="risk-scheme-desc">Solo pick 70%+</span>
+    </a>
+    <a href="#risk-5" class="risk-scheme-card scheme-5">
+      <span class="risk-scheme-n">5</span>
+      <span class="risk-scheme-label">Rischio medio-basso</span>
+      <span class="risk-scheme-desc">Minimo 65% a evento</span>
+    </a>
+    <a href="#risk-6" class="risk-scheme-card scheme-6">
+      <span class="risk-scheme-n">6</span>
+      <span class="risk-scheme-label">Rischio medio-alto</span>
+      <span class="risk-scheme-desc">Più eventi, quota più alta</span>
+    </a>
+    <a href="#risk-7" class="risk-scheme-card scheme-7">
+      <span class="risk-scheme-n">7</span>
+      <span class="risk-scheme-label">Rischio alto</span>
+      <span class="risk-scheme-desc">Massimo eventi e quota</span>
+    </a>
+  </div>
+
   <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
 
   <div class="selectrow">
@@ -184,6 +207,7 @@ function renderWeek(week){
   levels.forEach(level => {
     const group = document.createElement('div');
     group.className = 'risk-group';
+    group.id = 'risk-' + level;
     const label = RISK_LABELS[level] || '';
     group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span></div>`;
 
@@ -208,12 +232,13 @@ function renderWeek(week){
         </tr>`;
       }).join('');
 
-      const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(245,158,11,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
+      const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(217,165,74,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
+      const probMedia = sch.eventi.reduce((s,e)=>s+e.probabilita_stimata,0) / sch.eventi.length;
       card.innerHTML = `
         <div class="card-head">
           <span class="name">Schedina ${level}E — #${idx+1}</span>
           ${quotaTxt}
-          <span class="prob">Prob. combinata ${fmtPct(sch.probabilita_combinata)}</span>
+          <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
         </div>
         <table class="events">${rows}</table>`;

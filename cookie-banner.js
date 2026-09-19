@@ -85,9 +85,9 @@
     el.setAttribute('aria-label', 'Consenso cookie');
     el.style.cssText = 'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;background:#151922;color:#eef1f6;border:1px solid #262c39;border-radius:16px;padding:20px;font-family:Inter,-apple-system,Segoe UI,Roboto,Arial,sans-serif;font-size:14px;box-shadow:0 12px 40px rgba(0,0,0,.45)';
     el.innerHTML =
-      '<p style="margin:0 0 14px;line-height:1.5">🍪 Usiamo cookie tecnici (sempre attivi), di analisi e pubblicitari (Google AdSense) per mostrare annunci pertinenti. Puoi scegliere quali accettare. Leggi la <a href="/cookie-policy.html" style="color:#7ab3ff">Cookie Policy</a>.</p>' +
+      '<p style="margin:0 0 14px;line-height:1.5">🍪 Usiamo cookie tecnici (sempre attivi), di analisi e pubblicitari (Google AdSense) per mostrare annunci pertinenti. Puoi scegliere quali accettare. Leggi la <a href="/cookie-policy.html" style="color:#8fadd9">Cookie Policy</a>.</p>' +
       '<div style="display:flex;gap:10px;flex-wrap:wrap">' +
-      '<button id="pt-accept-all" style="background:linear-gradient(135deg,#3b82f6,#5b8ef0);color:#fff;border:none;border-radius:10px;padding:10px 18px;cursor:pointer;font-size:14px;font-weight:600;box-shadow:0 4px 16px rgba(59,130,246,.3)">Accetta tutti</button>' +
+      '<button id="pt-accept-all" style="background:linear-gradient(135deg,#5f8fd9,#7ba0d9);color:#fff;border:none;border-radius:10px;padding:10px 18px;cursor:pointer;font-size:14px;font-weight:600;box-shadow:0 4px 16px rgba(95,143,217,.3)">Accetta tutti</button>' +
       '<button id="pt-reject-all" style="background:transparent;color:#eef1f6;border:1px solid #262c39;border-radius:10px;padding:10px 18px;cursor:pointer;font-size:14px;font-weight:600">Solo necessari</button>' +
       '<button id="pt-customize" style="background:transparent;color:#8f98ab;border:none;text-decoration:underline;padding:10px 4px;cursor:pointer;font-size:14px">Personalizza</button>' +
       '</div>';
