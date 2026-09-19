@@ -666,9 +666,9 @@
       },
       "nota": "Due dei migliori attacchi del girone a confronto: il Cerignola ha segnato 10 gol in 5 gare, la Casertana 11 (alla pari di Picerno e Giugliano) ed è ancora imbattuta con 11 punti.",
       "risultato": {
-        "stato": "in_corso",
-        "punteggio": null,
-        "aggiornato": "2026-09-19T16:17:48Z"
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-19T17:18:14Z"
       }
     },
     {
@@ -695,9 +695,9 @@
       },
       "nota": "Il Casarano viaggia a 9 punti con un attacco prolifico (9 gol) ma anche una difesa permeabile (9 subiti); il Savoia è più equilibrato (6 fatti, 6 subiti).",
       "risultato": {
-        "stato": "in_corso",
-        "punteggio": null,
-        "aggiornato": "2026-09-19T16:17:48Z"
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-19T17:18:14Z"
       }
     },
     {
