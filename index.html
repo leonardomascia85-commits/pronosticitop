@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PronosticiTop — Pronostici Calcio con Analisi Statistica Reale</title>
-<meta name="description" content="Schedine di pronostici calcio ogni weekend, basate su analisi statistica reale (forma, gol fatti/subiti, classifica, infortuni). 4 livelli di rischio, probabilità e quota indicate per ogni evento.">
+<meta name="description" content="Schedine di pronostici calcio ogni weekend, con eventi da 11 campionati (Serie A/B/C, Premier League, La Liga, Bundesliga e altri), basate su analisi statistica reale. 4 livelli di rischio, probabilità e quota indicate per ogni evento.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.pronosticitop.it/">
 <meta name="theme-color" content="#f7f8fa">
@@ -63,9 +63,9 @@
   <div class="wrap">
     <span class="kicker">Aggiornato ogni weekend</span>
     <h1>Pronostici calcio con <span class="grad">analisi statistica reale</span><span class="badge18">18+</span></h1>
-    <p class="lead">Ogni weekend pubblichiamo 16 schedine su 4 livelli di rischio, basate su forma, gol fatti/subiti, classifica e infortuni reali — non solo sulle quote di mercato. Probabilità e confidenza dei dati indicate per ogni evento.</p>
+    <p class="lead">Ogni weekend pubblichiamo diverse schedine su 4 livelli di rischio, mixando eventi da 11 campionati in Italia e in Europa — basate su forma, gol fatti/subiti, classifica e infortuni reali, non solo sulle quote di mercato. Probabilità e confidenza dei dati indicate per ogni evento.</p>
     <div class="stat-row">
-      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M13 5v2M13 17v2M13 10v4" stroke-dasharray="2 2"/></svg><b>16</b>&nbsp;schedine/weekend</div>
+      <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M13 5v2M13 17v2M13 10v4" stroke-dasharray="2 2"/></svg><b id="statSchedine">14</b>&nbsp;schedine/weekend</div>
       <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M4.5 19a8 8 0 1 1 15 0"/><path d="M12 12 15 9"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg><b>4</b>&nbsp;livelli di rischio</div>
       <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M4 20V10M12 20V4M20 20v-7"/></svg>analisi <b>100%</b> statistica</div>
       <div class="stat-chip"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></svg>risultati <b>tracciati</b> pubblicamente</div>
@@ -81,12 +81,12 @@
     <a href="#risk-4" class="risk-scheme-card scheme-4">
       <span class="risk-scheme-n">4</span>
       <span class="risk-scheme-label">Rischio basso</span>
-      <span class="risk-scheme-desc">Solo pick 70%+</span>
+      <span class="risk-scheme-desc">I pick più sicuri</span>
     </a>
     <a href="#risk-5" class="risk-scheme-card scheme-5">
       <span class="risk-scheme-n">5</span>
       <span class="risk-scheme-label">Rischio medio-basso</span>
-      <span class="risk-scheme-desc">Minimo 65% a evento</span>
+      <span class="risk-scheme-desc">Buon equilibrio rischio/quota</span>
     </a>
     <a href="#risk-6" class="risk-scheme-card scheme-6">
       <span class="risk-scheme-n">6</span>
@@ -98,6 +98,23 @@
       <span class="risk-scheme-label">Rischio alto</span>
       <span class="risk-scheme-desc">Massimo eventi e quota</span>
     </a>
+  </div>
+
+  <div class="leagues-strip">
+    <span class="leagues-strip-label">11 campionati monitorati — le schedine mixano eventi da tutti:</span>
+    <div class="leagues-strip-chips">
+      <a href="/serie-a.html" class="lg-chip" style="--lc:#3f6fb8">Serie A</a>
+      <a href="/serie-b.html" class="lg-chip" style="--lc:#7c5fc4">Serie B</a>
+      <a href="/serie-c.html" class="lg-chip" style="--lc:#1f9d7c">Serie C</a>
+      <a href="/premier-league.html" class="lg-chip" style="--lc:#b8324f">Premier League</a>
+      <a href="/la-liga.html" class="lg-chip" style="--lc:#c97a1f">La Liga</a>
+      <a href="/bundesliga.html" class="lg-chip" style="--lc:#3a3f4a">Bundesliga</a>
+      <a href="/ligue-1.html" class="lg-chip" style="--lc:#2f5fa8">Ligue 1</a>
+      <a href="/liga-portugal.html" class="lg-chip" style="--lc:#2f9e54">Liga Portugal</a>
+      <a href="/eredivisie.html" class="lg-chip" style="--lc:#e8720c">Eredivisie</a>
+      <a href="/brasileirao.html" class="lg-chip" style="--lc:#a67c00">Brasileirão</a>
+      <a href="/champions-league.html" class="lg-chip" style="--lc:#1b2a6b">Champions League</a>
+    </div>
   </div>
 
   <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
@@ -165,6 +182,16 @@ document.getElementById('year').textContent = new Date().getFullYear();
 const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto' };
+const LEAGUE_COLORS = {
+  'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
+  'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
+  'Ligue 1':'#2f5fa8', 'Liga Portugal':'#2f9e54', 'Eredivisie':'#e8720c',
+  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b'
+};
+function leagueBadge(name){
+  const c = LEAGUE_COLORS[name] || '#5b6472';
+  return `<span class="lg-badge" style="background:${c}1f;color:${c}">${name}</span>`;
+}
 
 function fmtPct(x){ return Math.round(x*100) + '%'; }
 function fmtDate(iso){
@@ -224,7 +251,7 @@ function renderWeek(week){
         return `<tr>
           <td>
             <div class="ev-match">${ev.partita}</div>
-            <div class="ev-league">${ev.campionato} — ${fmtDate(ev.data)}</div>
+            <div class="ev-league">${leagueBadge(ev.campionato)} ${fmtDate(ev.data)}</div>
           </td>
           <td class="ev-pick">${ev.pronostico}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
           <td class="ev-p">${fmtPct(ev.probabilita_stimata)}${ev.quota_stimata ? '<br><span class="ev-league">@'+ev.quota_stimata.toFixed(2)+'</span>' : ''}${ev.confidenza_dati ? '<br><span class="ev-league">dati: '+ev.confidenza_dati+'</span>' : ''}</td>
@@ -234,11 +261,14 @@ function renderWeek(week){
 
       const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(217,165,74,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
       const probMedia = sch.eventi.reduce((s,e)=>s+e.probabilita_stimata,0) / sch.eventi.length;
+      const nLeghe = new Set(sch.eventi.map(e=>e.campionato)).size;
+      const leagueTxt = nLeghe > 1 ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">${nLeghe} campionati</span>` : '';
       card.innerHTML = `
         <div class="card-head">
           <span class="name">Schedina ${level}E — #${idx+1}</span>
           ${quotaTxt}
           <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
+          ${leagueTxt}
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
         </div>
         <table class="events">${rows}</table>`;
@@ -313,6 +343,8 @@ async function init(){
   async function loadWeek(file){
     const data = await fetch('/data/' + file).then(r=>r.json());
     renderWeek(data);
+    const statEl = document.getElementById('statSchedine');
+    if(statEl && data.schedine) statEl.textContent = data.schedine.length;
   }
 
   select.addEventListener('change', () => loadWeek(select.value));
