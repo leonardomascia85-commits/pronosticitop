@@ -236,7 +236,7 @@ function renderWeek(week){
     group.className = 'risk-group';
     group.id = 'risk-' + level;
     const label = RISK_LABELS[level] || '';
-    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span></div>`;
+    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">Dalla più sicura (#1) alla più rischiosa</span></div>`;
 
     const cards = document.createElement('div');
     cards.className = 'cards';

@@ -186,6 +186,8 @@ select{
 .risk-title h2{font-size:17px;margin:0;font-weight:700}
 .risk-dot{width:10px;height:10px;border-radius:50%;flex:none}
 .risk-pill{font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid var(--border);color:var(--muted);font-weight:600}
+.risk-order-note{font-size:11.5px;color:var(--muted-soft);margin-left:auto}
+@media (max-width:560px){ .risk-order-note{width:100%;margin-left:0;margin-top:2px} }
 .risk-4 .risk-dot{background:var(--green)} .risk-4 .risk-pill{color:var(--green);border-color:rgba(47,158,92,.35);background:rgba(47,158,92,.08)}
 .risk-5 .risk-dot{background:var(--accent)} .risk-5 .risk-pill{color:#3f6fb8;border-color:rgba(63,111,184,.35);background:rgba(63,111,184,.08)}
 .risk-6 .risk-dot{background:var(--amber)} .risk-6 .risk-pill{color:var(--amber);border-color:rgba(184,121,31,.35);background:rgba(184,121,31,.08)}
