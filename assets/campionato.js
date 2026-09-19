@@ -12,28 +12,65 @@
 
   function pct(x) { return Math.round(x * 100) + '%'; }
 
+  var STATUS_LABELS = {
+    non_iniziata: '',
+    in_corso: 'LIVE · 1° tempo',
+    intervallo: 'INTERVALLO',
+    secondo_tempo: 'LIVE · 2° tempo',
+    finale: 'FINALE'
+  };
+
+  function parseScore(punteggio) {
+    if (!punteggio) return null;
+    var parts = punteggio.split('-').map(function (x) { return parseInt(x, 10); });
+    if (parts.length !== 2 || isNaN(parts[0]) || isNaN(parts[1])) return null;
+    return { home: parts[0], away: parts[1] };
+  }
+
+  function actualEsiti(score) {
+    if (!score) return null;
+    return {
+      esito1x2: score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
+      uo: (score.home + score.away) > 2.5 ? 'over' : 'under',
+      gg: (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
+    };
+  }
+
+  function resultIconHTML(pickEsito, actualEsito) {
+    if (actualEsito == null) return '';
+    return '<span class="pick-result ' + (pickEsito === actualEsito ? 'win' : 'lose') + '">' + (pickEsito === actualEsito ? '✅' : '❌') + '</span>';
+  }
+
+  function statusBadgeHTML(risultato) {
+    if (!risultato || risultato.stato === 'non_iniziata' || !STATUS_LABELS[risultato.stato]) return '';
+    var cls = risultato.stato === 'finale' ? 'status-finale' : 'status-live';
+    return '<span class="match-status ' + cls + '">' + STATUS_LABELS[risultato.stato] + (risultato.punteggio ? ' · ' + risultato.punteggio : '') + '</span>';
+  }
+
   function matchCardHTML(m) {
+    var score = m.risultato ? parseScore(m.risultato.punteggio) : null;
+    var actual = actualEsiti(score);
     return (
       '<div class="match-card">' +
-        '<div class="match-date">' + fmtDate(m.data) + '</div>' +
+        '<div class="match-date">' + fmtDate(m.data) + statusBadgeHTML(m.risultato) + '</div>' +
         '<div class="match-teams">' + m.casa + ' — ' + m.trasferta + '</div>' +
         (m.forma_casa ? '<div class="match-form">Forma ' + m.casa + ': ' + m.forma_casa + ' · Forma ' + m.trasferta + ': ' + m.forma_trasferta + '</div>' : '') +
         '<div class="picks-row">' +
-          pickBoxHTML('Esito', m.pick_1x2) +
-          pickBoxHTML('Under/Over 2.5', m.pick_uo) +
-          pickBoxHTML('Gol/No Gol', m.pick_gg) +
+          pickBoxHTML('Esito', m.pick_1x2, actual ? actual.esito1x2 : null) +
+          pickBoxHTML('Under/Over 2.5', m.pick_uo, actual ? actual.uo : null) +
+          pickBoxHTML('Gol/No Gol', m.pick_gg, actual ? actual.gg : null) +
         '</div>' +
         (m.nota ? '<div class="match-note">' + m.nota + '</div>' : '') +
       '</div>'
     );
   }
 
-  function pickBoxHTML(label, pick) {
+  function pickBoxHTML(label, pick, actualEsito) {
     if (!pick) return '';
     return (
       '<div class="pick-box">' +
         '<div class="pick-label">' + label + '</div>' +
-        '<div class="pick-value">' + pick.etichetta + '</div>' +
+        '<div class="pick-value">' + pick.etichetta + resultIconHTML(pick.esito, actualEsito) + '</div>' +
         '<div class="pick-prob">' + pct(pick.probabilita) + '</div>' +
       '</div>'
     );
@@ -68,10 +105,13 @@
       combinata *= best.pick.probabilita;
       somma += best.pick.probabilita;
       n++;
+      var score = m.risultato ? parseScore(m.risultato.punteggio) : null;
+      var actual = actualEsiti(score);
+      var actualForMarket = actual ? (best.market === 'Esito' ? actual.esito1x2 : (best.market === 'Under/Over 2.5' ? actual.uo : actual.gg)) : null;
       rows += (
         '<div class="schedina-item">' +
           '<div class="schedina-match">' + m.casa + ' — ' + m.trasferta + '</div>' +
-          '<div class="schedina-pick">' + best.pick.etichetta + '<span class="schedina-market">' + best.market + '</span></div>' +
+          '<div class="schedina-pick">' + best.pick.etichetta + resultIconHTML(best.pick.esito, actualForMarket) + '<span class="schedina-market">' + best.market + '</span></div>' +
           '<div class="schedina-prob">' + pct(best.pick.probabilita) + '</div>' +
         '</div>'
       );
