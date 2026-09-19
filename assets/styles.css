@@ -128,6 +128,21 @@ nav.mainnav a.active{color:var(--text)}
 
 main{max-width:var(--maxw);margin:0 auto;padding:0 20px 60px}
 
+/* home: come funziona */
+.how-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:28px 0}
+.how-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+.how-card .li-icon{
+  flex:none;width:36px;height:36px;border-radius:10px;
+  background:rgba(63,111,184,.12);border:1px solid rgba(63,111,184,.25);
+  display:flex;align-items:center;justify-content:center;color:#3f6fb8;margin-bottom:12px
+}
+.how-card .li-icon svg{width:18px;height:18px}
+.how-card h3{font-size:15px;margin:0 0 6px}
+.how-card p{font-size:13.5px;color:var(--muted);margin:0;line-height:1.55}
+@media (max-width:640px){
+  .how-grid{grid-template-columns:1fr}
+}
+
 /* controls */
 .selectrow{text-align:center;margin:6px 0 26px}
 select{
