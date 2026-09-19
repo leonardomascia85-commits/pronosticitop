@@ -167,9 +167,9 @@
       },
       "nota": "Avellino ha la miglior difesa del campionato (1 gol subito in 3 gare) ed è imbattuto.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "in_corso",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-09-19T18:17:46Z"
       }
     },
     {
