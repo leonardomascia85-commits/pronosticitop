@@ -222,6 +222,7 @@ select{
 .status-pending{background:rgba(184,121,31,.14);color:var(--amber)}
 .status-win{background:rgba(47,158,92,.14);color:var(--green)}
 .status-lose{background:rgba(194,60,76,.14);color:#c23c4c}
+.status-live{background:rgba(194,60,76,.14);color:#c23c4c}
 table.events{width:100%;border-collapse:collapse;font-size:13px}
 table.events td{padding:9px 6px;border-top:1px solid var(--border-soft);vertical-align:top}
 table.events tr:first-child td{border-top:none}
@@ -230,6 +231,9 @@ table.events tr:first-child td{border-top:none}
 .ev-pick{color:#3f6fb8;font-weight:700;white-space:nowrap}
 .ev-p{color:var(--muted);white-space:nowrap;text-align:right}
 .ev-res{text-align:right;white-space:nowrap;font-size:15px}
+.ev-live{display:inline-flex;align-items:center;gap:5px;color:#c23c4c;font-weight:700;font-size:11.5px;letter-spacing:.02em}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#c23c4c;flex:none;animation:live-pulse 1.4s ease-in-out infinite}
+@keyframes live-pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .empty{color:var(--muted);padding:40px 0;text-align:center;font-size:14px}
 
 /* storico */

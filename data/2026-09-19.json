@@ -35,7 +35,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Barcellona è capolista a punteggio pieno con un attacco devastante (28 gol in 6 gare, quasi 5 a partita); il Siviglia resta comunque un avversario solido in casa.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Willem II - Fortuna Sittard",
@@ -48,7 +49,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Willem II ha una delle peggiori difese del campionato (19 gol subiti in 6 gare); il Fortuna Sittard ha nettamente più punti.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Venezia - Lazio",
@@ -61,7 +63,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Venezia è l'unica squadra ancora a 0 punti e ha la peggior difesa del campionato (9 gol subiti in 3 gare); Lazio imbattuta nelle ultime 3.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Bayer Leverkusen - RB Leipzig",
@@ -74,7 +77,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Entrambe con attacchi prolifici (8 e 9 gol in 3 gare); il Lipsia ha una difesa leggermente più solida.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -95,7 +99,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Spezia - Vis Pesaro",
@@ -108,7 +113,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Atletico Madrid - Real Madrid",
@@ -121,7 +127,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Porto - Benfica",
@@ -134,7 +141,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il classico tra le uniche due squadre ancora (quasi) a punteggio pieno: il Porto ha la miglior difesa (2 gol subiti), il Benfica il miglior attacco (21 gol) del campionato.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -155,7 +163,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Avellino ha la miglior difesa del campionato (1 gol subito in 3 gare) ed è imbattuto.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Flamengo - Bragantino",
@@ -168,7 +177,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Toulouse - Le Havre",
@@ -181,7 +191,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Entrambe ancora senza vittorie e con attacchi poco prolifici: match aperto e povero di gol atteso.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Juventus - Atalanta",
@@ -194,7 +205,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         }
       ]
     },
@@ -215,7 +227,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Flamengo - Bragantino",
@@ -228,7 +241,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Atletico Madrid - Real Madrid",
@@ -241,7 +255,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Toulouse - Le Havre",
@@ -254,7 +269,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Entrambe ancora senza vittorie e con attacchi poco prolifici: match aperto e povero di gol atteso.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         }
       ]
     },
@@ -275,7 +291,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sampdoria ancora senza vittorie e con soli 2 gol segnati nelle ultime 3; Catanzaro reduce da un successo.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Flamengo - Bragantino",
@@ -288,7 +305,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Feyenoord - FC Utrecht",
@@ -301,7 +319,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Feyenoord è ancora imbattuto con uno degli attacchi migliori del campionato (20 gol); l'Utrecht ha la peggior difesa (19 subiti in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Venezia - Lazio",
@@ -314,7 +333,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Venezia è l'unica squadra ancora a 0 punti e ha la peggior difesa del campionato (9 gol subiti in 3 gare); Lazio imbattuta nelle ultime 3.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Brighton - Arsenal",
@@ -327,7 +347,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Arsenal è capolista a punteggio pieno con la miglior difesa del campionato (1 gol subito); il Brighton ha però l'attacco più prolifico (13 gol in 4 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -348,7 +369,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il PSV è co-capolista con il miglior attacco del campionato (22 gol in 6 gare); il Twente ha però una delle difese più solide.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Sampdoria - Catanzaro",
@@ -361,7 +383,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sampdoria ancora senza vittorie e con soli 2 gol segnati nelle ultime 3; Catanzaro reduce da un successo.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Reggiana - Latina",
@@ -374,7 +397,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "La Reggiana è imbattuta e ha uno dei migliori attacchi del girone, alla pari del Forlì (11 gol in 5 gare); il Latina ha già incassato 7 reti e viaggia a metà classifica con 5 punti.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Bayer Leverkusen - RB Leipzig",
@@ -387,7 +411,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Entrambe con attacchi prolifici (8 e 9 gol in 3 gare); il Lipsia ha una difesa leggermente più solida.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "São Paulo - Internacional",
@@ -400,7 +425,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il San Paolo gioca in casa con qualche punto e miglior differenza reti rispetto all'Internacional.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         }
       ]
     },
@@ -421,7 +447,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sfida al vertice tra le uniche due squadre a punteggio pieno: Roma ha la miglior difesa del campionato (1 gol subito in 3 gare), Inter la fase difensiva più permeabile tra le prime (5 subiti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Remo - Santos",
@@ -434,7 +461,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Remo ha una delle peggiori difese del torneo (45 gol subiti in 27 gare); il Santos ha più punti in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Auxerre - Stade Brestois 29",
@@ -447,7 +475,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Auxerre ha la peggior difesa del campionato (11 gol subiti in 4 gare); il Brest ha più punti in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Estoril - Casa Pia",
@@ -460,7 +489,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Casa Pia è ultimo con il peggior attacco e la peggior difesa del campionato (1 gol fatto, 15 subiti in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "FC Schalke 04 - SV Elversberg",
@@ -473,7 +503,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -494,7 +525,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Bournemouth non vince da 4 gare (3 pareggi e una sconfitta); il Liverpool resta ancora imbattuto in campionato.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Roma - Inter",
@@ -507,7 +539,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sfida al vertice tra le uniche due squadre a punteggio pieno: Roma ha la miglior difesa del campionato (1 gol subito in 3 gare), Inter la fase difensiva più permeabile tra le prime (5 subiti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "SC Paderborn 07 - 1899 Hoffenheim",
@@ -520,7 +553,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Celta Vigo - Racing Santander",
@@ -533,7 +567,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Celta non ha ancora vinto (4 pareggi in 6 gare) e segna pochissimo (3 gol); il Racing, seppur con difesa fragile, ha più punti.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Marseille - Paris Saint Germain",
@@ -546,7 +581,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Le Classique tra Marsiglia e PSG: entrambe con lo stesso bilancio gol (6-6) in 4 gare, ma il PSG ha qualche punto in più.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -567,7 +603,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Estoril - Casa Pia",
@@ -580,7 +617,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Casa Pia è ultimo con il peggior attacco e la peggior difesa del campionato (1 gol fatto, 15 subiti in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Manchester City - Sunderland",
@@ -593,7 +631,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Manchester City è co-capolista a punteggio pieno; il Sunderland, neopromosso, ha uno degli attacchi meno prolifici del campionato (0,75 gol a gara).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Feyenoord - FC Utrecht",
@@ -606,7 +645,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Feyenoord è ancora imbattuto con uno degli attacchi migliori del campionato (20 gol); l'Utrecht ha la peggior difesa (19 subiti in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Spezia - Vis Pesaro",
@@ -619,7 +659,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Frosinone - Como",
@@ -632,7 +673,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sfida tra le due squadre più in forma del campionato: Como è ancora imbattuto, il Frosinone è reduce da 2 vittorie e un pareggio in casa.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         }
       ]
     },
@@ -653,7 +695,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Celta Vigo - Racing Santander",
@@ -666,7 +709,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Celta non ha ancora vinto (4 pareggi in 6 gare) e segna pochissimo (3 gol); il Racing, seppur con difesa fragile, ha più punti.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "São Paulo - Internacional",
@@ -679,7 +723,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il San Paolo gioca in casa con qualche punto e miglior differenza reti rispetto all'Internacional.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Nice - Lille",
@@ -692,7 +737,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Nice ha l'attacco più sterile del campionato (1 gol in 4 gare); il Lille è ancora imbattuto con un'ottima difesa (2 gol subiti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "AZ - Telstar",
@@ -705,7 +751,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "L'AZ è co-capolista e ancora imbattuto; il Telstar ha uno degli attacchi più sterili del campionato (5 gol in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Modena - Empoli",
@@ -718,7 +765,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         }
       ]
     },
@@ -739,7 +787,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il classico tra le uniche due squadre ancora (quasi) a punteggio pieno: il Porto ha la miglior difesa (2 gol subiti), il Benfica il miglior attacco (21 gol) del campionato.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Angers - Estac Troyes",
@@ -752,7 +801,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Troyes ha una delle peggiori difese del campionato (9 gol subiti in 4 gare); l'Angers gioca in casa con qualche punto di vantaggio.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Hellas Verona - L.R. Vicenza",
@@ -765,7 +815,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Verona in casa e con più qualità offensiva; Vicenza ancora a secco di vittorie.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Pianese - Sambenedettese",
@@ -778,7 +829,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Pianese ha il peggior attacco del girone (1 solo gol in 5 gare); la Sambenedettese, pur ultima, ha già segnato 6 reti ma ne ha subite 10, tra le peggiori difese del gruppo.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Corinthians - Fluminense",
@@ -791,7 +843,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Fluminense è 5° in classifica con un rendimento nettamente superiore al Corinthians in questa stagione.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "PSV - FC Twente",
@@ -804,7 +857,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il PSV è co-capolista con il miglior attacco del campionato (22 gol in 6 gare); il Twente ha però una delle difese più solide.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     },
@@ -825,7 +879,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sampdoria ancora senza vittorie e con soli 2 gol segnati nelle ultime 3; Catanzaro reduce da un successo.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Willem II - Fortuna Sittard",
@@ -838,7 +893,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Willem II ha una delle peggiori difese del campionato (19 gol subiti in 6 gare); il Fortuna Sittard ha nettamente più punti.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "SC Paderborn 07 - 1899 Hoffenheim",
@@ -851,7 +907,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Spezia - Vis Pesaro",
@@ -864,7 +921,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Valencia - Real Sociedad",
@@ -877,7 +935,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Valencia ha il peggior attacco della Liga (2 gol in 6 gare); la Real Sociedad, pur incostante, ha più punti in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         },
         {
           "partita": "Manchester City - Sunderland",
@@ -890,7 +949,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Manchester City è co-capolista a punteggio pieno; il Sunderland, neopromosso, ha uno degli attacchi meno prolifici del campionato (0,75 gol a gara).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Nice - Lille",
@@ -903,7 +963,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Nice ha l'attacco più sterile del campionato (1 gol in 4 gare); il Lille è ancora imbattuto con un'ottima difesa (2 gol subiti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "nogol"
         }
       ]
     },
@@ -924,7 +985,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Ospitaletto - Cittadella",
@@ -937,7 +999,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Vetta contro vetta: il Cittadella è l'unica squadra a punteggio pieno nel girone (15 punti, 5 vittorie su 5) e ha la miglior difesa (2 gol subiti); l'Ospitaletto è ancora imbattuto e ha il miglior attacco del gruppo (11 gol fatti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "FC Schalke 04 - SV Elversberg",
@@ -950,7 +1013,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Leeds United - Crystal Palace",
@@ -963,7 +1027,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Leeds è ancora imbattuto (8 punti in 4 gare); il Crystal Palace ha la difesa più fragile della zona medio-bassa (11 gol subiti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Ajax - Excelsior",
@@ -976,7 +1041,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Ajax ha uno degli attacchi più prolifici del campionato (19 gol in 6 gare) e gioca in casa contro un Excelsior comunque in buona forma.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Modena - Empoli",
@@ -989,7 +1055,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Mirassol - Botafogo",
@@ -1002,7 +1069,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Entrambe con difese fragili (42 e 43 gol subiti); il Botafogo ha qualche punto e gol fatto in più.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         }
       ]
     },
@@ -1023,7 +1091,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Le uniche due squadre del gruppo di rincorsa ancora imbattute: l'Union Brescia ha una delle difese più solide del girone (3 gol subiti in 5 gare), l'Alcione uno dei migliori attacchi, alle spalle del solo Ospitaletto (9 gol fatti).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Santa Clara - Sporting Braga",
@@ -1036,7 +1105,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Santa Clara è ancora imbattuto (4° posto) con una difesa solida (4 gol subiti in 6 gare).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "under"
         },
         {
           "partita": "Vitória - Cruzeiro",
@@ -1049,7 +1119,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Cruzeiro ha più punti e un attacco più prolifico (39 gol contro 27) rispetto al Vitória.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Atletico Madrid - Real Madrid",
@@ -1062,7 +1133,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "gol"
         },
         {
           "partita": "Le Mans - Lorient",
@@ -1075,7 +1147,8 @@
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Le Mans non ha ancora vinto (3 pareggi in 4 gare) e concede parecchio; il Lorient ha più punti in classifica.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         },
         {
           "partita": "Manchester City - Sunderland",
@@ -1088,7 +1161,8 @@
           "confidenza_dati": "ALTA",
           "motivazione": "Il Manchester City è co-capolista a punteggio pieno; il Sunderland, neopromosso, ha uno degli attacchi meno prolifici del campionato (0,75 gol a gara).",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "1"
         },
         {
           "partita": "Hellas Verona - L.R. Vicenza",
@@ -1101,7 +1175,8 @@
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Verona in casa e con più qualità offensiva; Vicenza ancora a secco di vittorie.",
           "esito": null,
-          "risultato_reale": null
+          "risultato_reale": null,
+          "esito_pick": "over"
         }
       ]
     }

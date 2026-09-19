@@ -150,7 +150,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 })();
 
 const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
-const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso' };
+const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto' };
 const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
@@ -173,14 +173,75 @@ function fmtDate(iso){
   catch(e){ return iso; }
 }
 
-function eventStatus(ev){ return ev.esito === 'vinto' ? 'win' : ev.esito === 'perso' ? 'lose' : 'pending'; }
+const LEAGUE_FILES = {
+  'Serie A':'pronostici-serie-a.json', 'Serie B':'pronostici-serie-b.json', 'Serie C':'pronostici-serie-c.json',
+  'Premier League':'pronostici-premier-league.json', 'La Liga':'pronostici-la-liga.json',
+  'Bundesliga':'pronostici-bundesliga.json', 'Ligue 1':'pronostici-ligue-1.json',
+  'Liga Portugal':'pronostici-liga-portugal.json', 'Eredivisie':'pronostici-eredivisie.json',
+  'Brasileirão':'pronostici-brasileirao.json', 'Champions League':'pronostici-champions-league.json'
+};
+
+function parseScore(punteggio){
+  if(!punteggio) return null;
+  const parts = punteggio.split('-').map(x=>parseInt(x,10));
+  if(parts.length !== 2 || isNaN(parts[0]) || isNaN(parts[1])) return null;
+  return { home: parts[0], away: parts[1] };
+}
+function actualEsiti(score){
+  if(!score) return null;
+  return {
+    '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
+    'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+    'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
+  };
+}
+
+async function buildLiveLookup(week){
+  const lookup = {};
+  const campionati = new Set();
+  (week.schedine||[]).forEach(s => s.eventi.forEach(e => campionati.add(e.campionato)));
+  await Promise.all([...campionati].map(async camp => {
+    const file = LEAGUE_FILES[camp];
+    if(!file) return;
+    try{
+      const d = await fetch('/data/' + file).then(r=>r.json());
+      (d.partite||[]).forEach(p => {
+        lookup[camp + '||' + p.casa + ' - ' + p.trasferta] = p.risultato;
+      });
+    } catch(e){ /* file non disponibile, ignora */ }
+  }));
+  return lookup;
+}
+
+function liveInfo(ev, lookup){
+  const risultato = lookup[ev.campionato + '||' + ev.partita];
+  if(!risultato || risultato.stato === 'non_iniziata') return { state:'pending' };
+  const score = parseScore(risultato.punteggio);
+  const actual = actualEsiti(score);
+  if(risultato.stato === 'finale'){
+    if(!actual || !ev.esito_pick) return { state:'pending' };
+    const won = actual[ev.mercato] === ev.esito_pick;
+    return { state: won ? 'win' : 'lose', punteggio: risultato.punteggio };
+  }
+  // in_corso, intervallo, secondo_tempo
+  return { state:'live', punteggio: risultato.punteggio, faseLabel: STATUS_LABELS_LIVE[risultato.stato] || 'LIVE' };
+}
+const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T' };
+
+function schedinaStatusLive(sch, lookup){
+  const states = sch.eventi.map(e => liveInfo(e, lookup).state);
+  if(states.some(s=>s==='lose')) return 'lose';
+  if(states.every(s=>s==='win')) return 'win';
+  if(states.some(s=>s==='live')) return 'live';
+  return 'pending';
+}
 function schedinaStatus(sch){
-  if(sch.eventi.some(e=>eventStatus(e)==='lose')) return 'lose';
-  if(sch.eventi.every(e=>eventStatus(e)==='win')) return 'win';
+  if(sch.eventi.some(e=>e.esito==='perso')) return 'lose';
+  if(sch.eventi.every(e=>e.esito==='vinto')) return 'win';
   return 'pending';
 }
 
-function renderWeek(week){
+function renderWeek(week, lookup){
   const banner = document.getElementById('banner');
   if(week.stato === 'generazione_in_corso' || !week.schedine || !week.schedine.length){
     banner.style.display = 'block';
@@ -212,12 +273,15 @@ function renderWeek(week){
     cards.className = 'cards';
 
     byLevel[level].forEach((sch, idx) => {
-      const st = schedinaStatus(sch);
+      const st = schedinaStatusLive(sch, lookup);
       const card = document.createElement('div');
       card.className = 'card';
       let rows = sch.eventi.map(ev => {
-        const es = eventStatus(ev);
-        const resTxt = es==='pending' ? '⏳' : (es==='win' ? '✅' : '❌') + (ev.risultato_reale ? ' ' + ev.risultato_reale : '');
+        const li = liveInfo(ev, lookup);
+        let resTxt;
+        if(li.state === 'pending') resTxt = '⏳';
+        else if(li.state === 'live') resTxt = `<span class="ev-live"><span class="live-dot"></span>${li.faseLabel}${li.punteggio ? ' ' + li.punteggio : ''}</span>`;
+        else resTxt = (li.state==='win' ? '✅' : '❌') + (li.punteggio ? ' ' + li.punteggio : '');
         return `<tr>
           <td>
             <div class="ev-match">${ev.partita}</div>
@@ -229,14 +293,12 @@ function renderWeek(week){
         </tr>`;
       }).join('');
 
-      const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(217,165,74,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
       const probMedia = sch.eventi.reduce((s,e)=>s+e.probabilita_stimata,0) / sch.eventi.length;
       const nLeghe = new Set(sch.eventi.map(e=>e.campionato)).size;
       const leagueTxt = nLeghe > 1 ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">${nLeghe} campionati</span>` : '';
       card.innerHTML = `
         <div class="card-head">
           <span class="name">Schedina ${level}E — #${idx+1}</span>
-          ${quotaTxt}
           <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
           ${leagueTxt}
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
@@ -312,7 +374,8 @@ async function init(){
 
   async function loadWeek(file){
     const data = await fetch('/data/' + file).then(r=>r.json());
-    renderWeek(data);
+    const lookup = await buildLiveLookup(data);
+    renderWeek(data, lookup);
     const statEl = document.getElementById('statSchedine');
     if(statEl && data.schedine) statEl.textContent = data.schedine.length;
   }
