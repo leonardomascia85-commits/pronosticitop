@@ -4,15 +4,285 @@
   "periodo": "18-20 settembre 2026",
   "aggiornato": "2026-09-16",
   "partite": [
-    {"casa": "Juve Stabia", "trasferta": "Cesena", "data": "2026-09-18T20:30:00+02:00", "forma_casa": "W-L-D (ultime 3)", "forma_trasferta": "W-D-D (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Cesena", "probabilita": 0.42}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "Cesena imbattuto nelle ultime 3, Juve Stabia più altalenante (una vittoria, una sconfitta pesante, un pareggio).", "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-19T08:47:56Z"}},
-    {"casa": "Carrarese", "trasferta": "Benevento", "data": "2026-09-19T15:00:00+02:00", "forma_casa": "D-L-L (ultime 3)", "forma_trasferta": "D-L-W (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Benevento", "probabilita": 0.46}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.56}, "nota": "Carrarese ha segnato un solo gol nelle ultime 3 gare; Benevento reduce da una vittoria e in ripresa.", "risultato": {"stato": "finale", "punteggio": "0-1", "aggiornato": "2026-09-19T15:18:18Z"}},
-    {"casa": "Cremonese", "trasferta": "Virtus Entella", "data": "2026-09-19T15:00:00+02:00", "forma_casa": "L-W-D (ultime 3)", "forma_trasferta": "L-D-W (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Virtus Entella", "probabilita": 0.40}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.60}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.60}, "nota": "Entella in crescita, reduce da un 4-1; entrambe le squadre concedono gol con regolarità.", "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-19T15:18:18Z"}},
-    {"casa": "Palermo", "trasferta": "Padova", "data": "2026-09-19T15:00:00+02:00", "forma_casa": "W-W-D (ultime 3)", "forma_trasferta": "D-L-W (ultime 3)", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Palermo", "probabilita": 0.52}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "Palermo in ottima forma in casa (7 gol segnati nelle ultime 3); Padova più discontinuo.", "risultato": {"stato": "finale", "punteggio": "2-1", "aggiornato": "2026-09-19T15:18:18Z"}},
-    {"casa": "Sampdoria", "trasferta": "Catanzaro", "data": "2026-09-19T17:15:00+02:00", "forma_casa": "L-L-L (ultime 3)", "forma_trasferta": "L-L-W (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Catanzaro", "probabilita": 0.44}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52}, "nota": "Sampdoria ancora senza vittorie e con soli 2 gol segnati nelle ultime 3; Catanzaro reduce da un successo.", "risultato": {"stato": "secondo_tempo", "punteggio": "0-1", "aggiornato": "2026-09-19T16:17:48Z"}},
-    {"casa": "Ascoli", "trasferta": "Avellino", "data": "2026-09-19T19:30:00+02:00", "forma_casa": "D-W-L (ultime 3)", "forma_trasferta": "W-W-D (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Avellino", "probabilita": 0.46}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.54}, "nota": "Avellino ha la miglior difesa del campionato (1 gol subito in 3 gare) ed è imbattuto.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Arezzo", "trasferta": "Südtirol", "data": "2026-09-20T15:00:00+02:00", "forma_casa": "L-L-W (ultime 3)", "forma_trasferta": "D-W-D (ultime 3)", "pick_1x2": {"esito": "2", "etichetta": "Vittoria Südtirol", "probabilita": 0.48}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.60}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.56}, "nota": "Arezzo ha una delle difese più fragili del campionato (8 gol subiti in 3 gare); Südtirol imbattuto e più solido.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Hellas Verona", "trasferta": "L.R. Vicenza", "data": "2026-09-20T15:00:00+02:00", "forma_casa": "D-W-L (ultime 3)", "forma_trasferta": "L-D-D (ultime 3)", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Hellas Verona", "probabilita": 0.52}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.54}, "nota": "Verona in casa e con più qualità offensiva; Vicenza ancora a secco di vittorie.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Mantova", "trasferta": "Pisa", "data": "2026-09-20T17:15:00+02:00", "forma_casa": "W-D-W (ultime 3)", "forma_trasferta": "W-W-L (ultime 3)", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Mantova", "probabilita": 0.46}, "pick_uo": {"esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58}, "pick_gg": {"esito": "gol", "etichetta": "Gol", "probabilita": 0.58}, "nota": "Mantova tra le squadre più in forma del campionato (6 gol fatti, 2 subiti nelle ultime 3); Pisa comunque prolifico in attacco.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}},
-    {"casa": "Modena", "trasferta": "Empoli", "data": "2026-09-20T19:30:00+02:00", "forma_casa": "W-L-D (ultime 3)", "forma_trasferta": "L-W-L (ultime 3)", "pick_1x2": {"esito": "1", "etichetta": "Vittoria Modena", "probabilita": 0.44}, "pick_uo": {"esito": "under", "etichetta": "Under 2.5", "probabilita": 0.56}, "pick_gg": {"esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52}, "nota": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.", "risultato": {"stato": "non_iniziata", "punteggio": null, "aggiornato": null}}
+    {
+      "casa": "Juve Stabia",
+      "trasferta": "Cesena",
+      "data": "2026-09-18T20:30:00+02:00",
+      "forma_casa": "W-L-D (ultime 3)",
+      "forma_trasferta": "W-D-D (ultime 3)",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Cesena",
+        "probabilita": 0.42
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Cesena imbattuto nelle ultime 3, Juve Stabia più altalenante (una vittoria, una sconfitta pesante, un pareggio).",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-19T08:47:56Z"
+      }
+    },
+    {
+      "casa": "Carrarese",
+      "trasferta": "Benevento",
+      "data": "2026-09-19T15:00:00+02:00",
+      "forma_casa": "D-L-L (ultime 3)",
+      "forma_trasferta": "D-L-W (ultime 3)",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Benevento",
+        "probabilita": 0.46
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Carrarese ha segnato un solo gol nelle ultime 3 gare; Benevento reduce da una vittoria e in ripresa.",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-19T15:18:18Z"
+      }
+    },
+    {
+      "casa": "Cremonese",
+      "trasferta": "Virtus Entella",
+      "data": "2026-09-19T15:00:00+02:00",
+      "forma_casa": "L-W-D (ultime 3)",
+      "forma_trasferta": "L-D-W (ultime 3)",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Virtus Entella",
+        "probabilita": 0.4
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Entella in crescita, reduce da un 4-1; entrambe le squadre concedono gol con regolarità.",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-19T15:18:18Z"
+      }
+    },
+    {
+      "casa": "Palermo",
+      "trasferta": "Padova",
+      "data": "2026-09-19T15:00:00+02:00",
+      "forma_casa": "W-W-D (ultime 3)",
+      "forma_trasferta": "D-L-W (ultime 3)",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Palermo",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Palermo in ottima forma in casa (7 gol segnati nelle ultime 3); Padova più discontinuo.",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-19T15:18:18Z"
+      }
+    },
+    {
+      "casa": "Sampdoria",
+      "trasferta": "Catanzaro",
+      "data": "2026-09-19T17:15:00+02:00",
+      "forma_casa": "L-L-L (ultime 3)",
+      "forma_trasferta": "L-L-W (ultime 3)",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Catanzaro",
+        "probabilita": 0.44
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Sampdoria ancora senza vittorie e con soli 2 gol segnati nelle ultime 3; Catanzaro reduce da un successo.",
+      "risultato": {
+        "stato": "secondo_tempo",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-19T16:17:48Z"
+      }
+    },
+    {
+      "casa": "Ascoli",
+      "trasferta": "Avellino",
+      "data": "2026-09-19T19:30:00+02:00",
+      "forma_casa": "7 pt in 4 gare (2V-1N-1P), 4-3",
+      "forma_trasferta": "7 pt in 4 gare (2V-1N-1P), 6-3",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Avellino",
+        "probabilita": 0.51
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Avellino ha la miglior difesa del campionato (1 gol subito in 3 gare) ed è imbattuto.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Arezzo",
+      "trasferta": "Südtirol",
+      "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "6 pt in 4 gare (2V-0N-2P), 5-9",
+      "forma_trasferta": "8 pt in 4 gare (2V-2N-0P), 5-2",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Südtirol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Arezzo ha una delle difese più fragili del campionato (8 gol subiti in 3 gare); Südtirol imbattuto e più solido.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Hellas Verona",
+      "trasferta": "L.R. Vicenza",
+      "data": "2026-09-20T15:00:00+02:00",
+      "forma_casa": "4 pt in 4 gare (1V-1N-2P), 8-6",
+      "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-8",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Hellas Verona",
+        "probabilita": 0.59
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Verona in casa e con più qualità offensiva; Vicenza ancora a secco di vittorie.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Mantova",
+      "trasferta": "Pisa",
+      "data": "2026-09-20T17:15:00+02:00",
+      "forma_casa": "10 pt in 4 gare (3V-1N-0P), 8-3",
+      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 6-6",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Mantova",
+        "probabilita": 0.6
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Mantova tra le squadre più in forma del campionato (6 gol fatti, 2 subiti nelle ultime 3); Pisa comunque prolifico in attacco.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Modena",
+      "trasferta": "Empoli",
+      "data": "2026-09-20T19:30:00+02:00",
+      "forma_casa": "7 pt in 4 gare (2V-1N-1P), 6-3",
+      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 3-4",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Modena",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    }
   ]
 }

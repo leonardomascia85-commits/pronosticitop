@@ -3,10 +3,15 @@ modello esplicito a gol attesi (media tra gol fatti/gara della squadra e gol
 subiti/gara dell'avversaria, +8%/-8% per il fattore campo). Richiede che
 forma_casa/forma_trasferta siano nel formato "X pt in Y gare (VV-NN-PP), GF-GA".
 
-Serie A e Serie B non sono in FILES perche' il loro forma_casa/forma_trasferta
-attuale e' nel formato semplificato "W-D-L (ultime 3)" senza gol: per
-ricalcolarle serve prima recuperare gol fatti/subiti reali (es. dalla
-classifica ufficiale) e riportare forma_casa/forma_trasferta al formato pieno.
+Se il forma_casa/forma_trasferta di una partita e' ancora nel formato
+semplificato "W-D-L (ultime 3)" senza gol (capitava per Serie A/B prima del
+19/9/2026), va prima riportato al formato pieno "X pt in Y gare (VV-NN-PP),
+GF-GA" con i gol fatti/subiti reali (es. dalla classifica ufficiale) — occhio
+a non usare classifiche "contaminate" da una partita che in realta' e'
+proprio quella da pronosticare (capita quando la partita e' gia' in corso o
+appena finita nelle fonti web ma il sito la segna ancora non_iniziata): in
+quel caso vanno usati i dati PRE-partita delle due squadre, non quelli
+aggiornati con questo stesso match.
 
 Uso: python3 scripts/recompute_picks.py dalla root del repo.
 """
@@ -14,7 +19,8 @@ import json, re, os
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 FILES = [
-    "pronostici-serie-c.json", "pronostici-premier-league.json", "pronostici-la-liga.json",
+    "pronostici-serie-a.json", "pronostici-serie-b.json", "pronostici-serie-c.json",
+    "pronostici-premier-league.json", "pronostici-la-liga.json",
     "pronostici-bundesliga.json", "pronostici-ligue-1.json", "pronostici-liga-portugal.json",
     "pronostici-eredivisie.json", "pronostici-brasileirao.json",
 ]

@@ -607,7 +607,11 @@
         "probabilita": 0.61
       },
       "nota": "Il Cosenza è ultimo e ha la peggior difesa dell'intera Serie C (14 gol subiti in 5 gare); la Scafatese arriva da un percorso più solido (6 punti, un'unica sconfitta).",
-      "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-19T15:18:18Z"}
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-19T15:18:18Z"
+      }
     },
     {
       "girone": "C",
@@ -632,7 +636,11 @@
         "probabilita": 0.56
       },
       "nota": "Il Sorrento è l'unica squadra dell'intera Serie C ancora a punteggio pieno (15 punti su 15) e ha una delle migliori difese del girone (3 gol subiti); il Bari vanta la stessa solidità difensiva (3 incassati) ed è imbattuto in 4 delle 5 gare giocate.",
-      "risultato": {"stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-19T15:18:18Z"}
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-19T15:18:18Z"
+      }
     },
     {
       "girone": "C",
