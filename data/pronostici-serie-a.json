@@ -195,9 +195,9 @@
       },
       "nota": "Sfida tra le due squadre più in forma del campionato: Como è ancora imbattuto, il Frosinone è reduce da 2 vittorie e un pareggio in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "secondo_tempo",
+        "punteggio": "2-0",
+        "aggiornato": "2026-09-20T14:20:07Z"
       }
     },
     {
@@ -223,9 +223,9 @@
       },
       "nota": "Scontro salvezza tra le due peggiori attacchi del campionato (2 gol segnati a testa nelle ultime 3 gare).",
       "risultato": {
-        "stato": "in_corso",
-        "punteggio": "0-0",
-        "aggiornato": "2026-09-20T13:20:33Z"
+        "stato": "secondo_tempo",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-20T14:20:07Z"
       }
     },
     {

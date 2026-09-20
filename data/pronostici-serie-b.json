@@ -195,9 +195,9 @@
       },
       "nota": "Arezzo ha una delle difese più fragili del campionato (8 gol subiti in 3 gare); Südtirol imbattuto e più solido.",
       "risultato": {
-        "stato": "in_corso",
-        "punteggio": "0-0",
-        "aggiornato": "2026-09-20T13:20:33Z"
+        "stato": "secondo_tempo",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-20T14:20:07Z"
       }
     },
     {
@@ -223,9 +223,9 @@
       },
       "nota": "Verona in casa e con più qualità offensiva; Vicenza ancora a secco di vittorie.",
       "risultato": {
-        "stato": "in_corso",
+        "stato": "secondo_tempo",
         "punteggio": "0-0",
-        "aggiornato": "2026-09-20T13:20:33Z"
+        "aggiornato": "2026-09-20T14:20:07Z"
       }
     },
     {
