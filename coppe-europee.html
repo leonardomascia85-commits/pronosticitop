@@ -119,6 +119,7 @@ function fmtDate(iso){
 }
 
 const COMP_COLORS = { 'Champions League':'#1b2a6b', 'Europa League':'#c97a1f', 'Conference League':'#2f9e54' };
+const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T' };
 
 function bestPick(p){
   const opts = [
@@ -130,6 +131,33 @@ function bestPick(p){
   return opts[0];
 }
 
+function parseScore(punteggio){
+  if(!punteggio) return null;
+  const parts = punteggio.split('-').map(x=>parseInt(x,10));
+  if(parts.length !== 2 || isNaN(parts[0]) || isNaN(parts[1])) return null;
+  return { home: parts[0], away: parts[1] };
+}
+function actualEsiti(score){
+  if(!score) return null;
+  return {
+    '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
+    'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+    'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
+  };
+}
+function liveResultHTML(p, best){
+  const risultato = p.risultato;
+  if(!risultato || risultato.stato === 'non_iniziata') return '';
+  const score = parseScore(risultato.punteggio);
+  if(risultato.stato === 'finale'){
+    const actual = actualEsiti(score);
+    if(!actual) return '';
+    const won = actual[best.market] === best.pick.esito;
+    return `<span class="pick-result ${won?'win':'lose'}">${won?'✅':'❌'} ${risultato.punteggio||''}</span>`;
+  }
+  return `<span class="ev-live"><span class="live-dot"></span>${STATUS_LABELS_LIVE[risultato.stato]||'LIVE'}${risultato.punteggio ? ' '+risultato.punteggio : ''}</span>`;
+}
+
 function competizioneCardHTML(comp){
   const color = COMP_COLORS[comp.nome] || '#5b6472';
   let somma = 0, combinata = 1, n = 0;
@@ -138,7 +166,7 @@ function competizioneCardHTML(comp){
     somma += best.pick.probabilita; combinata *= best.pick.probabilita; n++;
     return `<div class="schedina-item">
       <div class="schedina-match">${p.casa} — ${p.trasferta}<div class="ev-league" style="margin-top:2px">${fmtDate(p.data)}</div></div>
-      <div class="schedina-pick">${best.pick.etichetta}<span class="schedina-market">${best.label}</span></div>
+      <div class="schedina-pick">${best.pick.etichetta} ${liveResultHTML(p, best)}<span class="schedina-market">${best.label}</span></div>
       <div class="schedina-prob">${pct(best.pick.probabilita)}</div>
     </div>`;
   }).join('');

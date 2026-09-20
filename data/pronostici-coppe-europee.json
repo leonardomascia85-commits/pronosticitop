@@ -29,7 +29,12 @@
             "probabilita": 0.66
           },
           "nota": "Modello a gol attesi (con vantaggio casa): Inter 2.73 gol attesi (miglior attacco della Serie A, difesa solida), Club Brugge 1.70 (attacco discreto ma difesa permeabile). Somma attesa 4.43 gol: gara da tanti gol.",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Arsenal",
@@ -53,7 +58,12 @@
             "probabilita": 0.56
           },
           "nota": "Modello a gol attesi: Arsenal 1.35, Lille 0.92 (0.25 e 0.5 gol subiti a gara, le due migliori difese dei rispettivi campionati). Somma attesa 2.27 gol: gara da pochi gol, Arsenal favorito di misura in casa.",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Villarreal",
@@ -77,7 +87,12 @@
             "probabilita": 0.65
           },
           "nota": "Modello a gol attesi: Villarreal 1.58, Napoli 1.53 (equilibrio quasi perfetto). Il Villarreal è comunque 17° in Liga con una difesa fragile (1.83 gol subiti a gara): match aperto e probabile Gol/Gol.",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Manchester City",
@@ -101,7 +116,12 @@
             "probabilita": 0.56
           },
           "nota": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         }
       ]
     },
@@ -132,7 +152,12 @@
             "probabilita": 0.64
           },
           "nota": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Real Club Celta",
@@ -156,7 +181,12 @@
             "probabilita": 0.52
           },
           "nota": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "confidenza_dati": "MEDIA"
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "SL Benfica",
@@ -180,7 +210,12 @@
             "probabilita": 0.63
           },
           "nota": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "confidenza_dati": "ALTA"
+          "confidenza_dati": "ALTA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Union Saint-Gilloise",
@@ -204,7 +239,12 @@
             "probabilita": 0.52
           },
           "nota": "L'Union Saint-Gilloise è capolista incontrastata in Belgio; la Real Sociedad ha ritrovato risultati (vittorie su Espanyol ed Elche, pari a Vigo) dopo un avvio difficile. Mancano dati sui gol fatti/subiti per un calcolo più preciso: confidenza ridotta.",
-          "confidenza_dati": "MEDIA-BASSA"
+          "confidenza_dati": "MEDIA-BASSA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         }
       ]
     },
@@ -235,7 +275,12 @@
             "probabilita": 0.54
           },
           "nota": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
-          "confidenza_dati": "MEDIA"
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Universitatea Craiova",
@@ -259,7 +304,12 @@
             "probabilita": 0.5
           },
           "nota": "Il Getafe vive un avvio difficile in Liga (16°, differenza reti -4) mentre la Craiova arriva in buona forma nel campionato rumeno; mancano dati sui gol a gara per un calcolo più preciso.",
-          "confidenza_dati": "MEDIA-BASSA"
+          "confidenza_dati": "MEDIA-BASSA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "CSKA Sofia",
@@ -283,7 +333,12 @@
             "probabilita": 0.52
           },
           "nota": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
-          "confidenza_dati": "MEDIA"
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         },
         {
           "casa": "Brighton & Hove Albion",
@@ -307,7 +362,12 @@
             "probabilita": 0.5
           },
           "nota": "Forte squilibrio di livello tra una squadra di Premier League e il campione lituano: match che il Brighton parte per dominare largamente.",
-          "confidenza_dati": "MEDIA-BASSA"
+          "confidenza_dati": "MEDIA-BASSA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
         }
       ]
     }
