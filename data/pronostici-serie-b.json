@@ -279,9 +279,9 @@
       },
       "nota": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "intervallo",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-20T18:22:11Z"
       },
       "pick_dc": {
         "esito": "1X",

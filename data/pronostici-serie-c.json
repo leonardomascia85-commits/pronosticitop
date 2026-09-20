@@ -115,9 +115,9 @@
       },
       "nota": "Il Renate è ancora a secco di vittorie (2 punti in 5 gare, 3 sconfitte) e ha già subito 8 gol; l'Arzignano gioca in casa con un rendimento nettamente superiore in classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-20T18:22:11Z"
       },
       "pick_dc": {
         "esito": "1X",
