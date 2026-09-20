@@ -262,11 +262,7 @@
         "probabilita": 0.52
       },
       "nota": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "in_corso", "punteggio": "1-0", "aggiornato": "2026-09-20T22:18:32+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Flamengo o pareggio",
