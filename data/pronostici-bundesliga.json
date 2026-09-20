@@ -209,23 +209,33 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria SV Elversberg",
-        "probabilita": 0.5
+        "probabilita": 0.4
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.61
+        "probabilita": 0.7
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.66
+        "probabilita": 0.7
       },
       "nota": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "FC Schalke 04 o SV Elversberg",
+        "probabilita": 0.78
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.51
       }
     },
     {
@@ -237,7 +247,7 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria 1899 Hoffenheim",
-        "probabilita": 0.53
+        "probabilita": 0.44
       },
       "pick_uo": {
         "esito": "over",
@@ -247,13 +257,23 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.61
+        "probabilita": 0.56
       },
       "nota": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "SC Paderborn 07 o 1899 Hoffenheim",
+        "probabilita": 0.75
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69
       }
     }
   ]

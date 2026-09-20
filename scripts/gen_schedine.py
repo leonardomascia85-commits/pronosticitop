@@ -42,7 +42,9 @@ for fn, name in LEAGUES.items():
             continue  # stato non ancora aggiornato ma partita gia' iniziata/finita: escludi comunque
         markets = []
         if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
+        if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
         if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
+        if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
         if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
         best = max(markets, key=lambda m: m[1]['probabilita'])
         pool.append({

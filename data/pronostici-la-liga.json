@@ -181,23 +181,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Atletico Madrid",
-        "probabilita": 0.5
+        "probabilita": 0.4
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.61
+        "probabilita": 0.69
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.66
+        "probabilita": 0.69
       },
       "nota": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Atletico Madrid o Real Madrid",
+        "probabilita": 0.78
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.52
       }
     },
     {
@@ -209,23 +219,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Deportivo La Coruna",
-        "probabilita": 0.52
+        "probabilita": 0.41
       },
       "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.5
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.59
+        "probabilita": 0.51
       },
       "nota": "Il Betis viaggia a 15 punti in 6 gare (5 vittorie), nettamente meglio del Deportivo neopromosso.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Deportivo La Coruna o Real Betis",
+        "probabilita": 0.73
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
       }
     },
     {
@@ -237,23 +257,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Villarreal",
-        "probabilita": 0.55
+        "probabilita": 0.47
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.59
+        "probabilita": 0.65
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.64
+        "probabilita": 0.65
       },
       "nota": "Entrambe con difese fragili e attacchi discreti: match aperto tra due squadre di centroclassifica in difficoltà.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Villarreal o Levante",
+        "probabilita": 0.78
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.57
       }
     },
     {
@@ -265,23 +295,33 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Real Sociedad",
-        "probabilita": 0.51
+        "probabilita": 0.38
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.51
+        "probabilita": 0.57
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
       },
       "nota": "Il Valencia ha il peggior attacco della Liga (2 gol in 6 gare); la Real Sociedad, pur incostante, ha più punti in classifica.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Valencia o Real Sociedad",
+        "probabilita": 0.72
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.78
       }
     }
   ]

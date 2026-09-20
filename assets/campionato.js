@@ -32,6 +32,7 @@
     return {
       esito1x2: score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
       uo: (score.home + score.away) > 2.5 ? 'over' : 'under',
+      uo35: (score.home + score.away) > 3.5 ? 'over' : 'under',
       gg: (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
     };
   }
@@ -56,6 +57,21 @@
     return '<span class="ev-live"><span class="live-dot"></span>' + liveLbl + (risultato.punteggio ? ' ' + risultato.punteggio : '') + '</span>';
   }
 
+  // Come pickResultHTML, ma per la doppia chance: il pick (es. "1X") vince se
+  // l'esito 1X2 reale (un singolo carattere "1"/"X"/"2") e' uno dei due che copre,
+  // quindi il confronto e' "pickEsito contiene actualEsito1x2", non un'uguaglianza esatta.
+  function dcResultHTML(pickEsito, actualEsito1x2, risultato) {
+    var stato = risultato ? risultato.stato : 'non_iniziata';
+    if (stato === 'non_iniziata' || !stato) return '';
+    if (stato === 'finale') {
+      if (actualEsito1x2 == null) return '';
+      var win = pickEsito.indexOf(actualEsito1x2) !== -1;
+      return '<span class="pick-result ' + (win ? 'win' : 'lose') + '">' + (win ? '✅' : '❌') + (risultato.punteggio ? ' ' + risultato.punteggio : '') + '</span>';
+    }
+    var liveLbl = STATUS_LABELS[stato] || 'LIVE';
+    return '<span class="ev-live"><span class="live-dot"></span>' + liveLbl + (risultato.punteggio ? ' ' + risultato.punteggio : '') + '</span>';
+  }
+
   function statusBadgeHTML(risultato) {
     if (!risultato || risultato.stato === 'non_iniziata' || !STATUS_LABELS[risultato.stato]) return '';
     var cls = risultato.stato === 'finale' ? 'status-finale' : 'status-live';
@@ -72,7 +88,9 @@
         (m.forma_casa ? '<div class="match-form">Forma ' + m.casa + ': ' + m.forma_casa + ' · Forma ' + m.trasferta + ': ' + m.forma_trasferta + '</div>' : '') +
         '<div class="picks-row">' +
           pickBoxHTML('Esito', m.pick_1x2, actual ? actual.esito1x2 : null, m.risultato) +
+          dcBoxHTML(m.pick_dc, actual ? actual.esito1x2 : null, m.risultato) +
           pickBoxHTML('Under/Over 2.5', m.pick_uo, actual ? actual.uo : null, m.risultato) +
+          pickBoxHTML('Under/Over 3.5', m.pick_uo35, actual ? actual.uo35 : null, m.risultato) +
           pickBoxHTML('Gol/No Gol', m.pick_gg, actual ? actual.gg : null, m.risultato) +
         '</div>' +
         (m.nota ? '<div class="match-note">' + m.nota + '</div>' : '') +
@@ -91,10 +109,23 @@
     );
   }
 
+  function dcBoxHTML(pick, actualEsito1x2, risultato) {
+    if (!pick) return '';
+    return (
+      '<div class="pick-box">' +
+        '<div class="pick-label">Doppia chance</div>' +
+        '<div class="pick-value">' + pick.etichetta + dcResultHTML(pick.esito, actualEsito1x2, risultato) + '</div>' +
+        '<div class="pick-prob">' + pct(pick.probabilita) + '</div>' +
+      '</div>'
+    );
+  }
+
   function bestPick(m) {
     var opts = [
       { market: 'Esito', pick: m.pick_1x2 },
+      { market: 'Doppia chance', pick: m.pick_dc },
       { market: 'Under/Over 2.5', pick: m.pick_uo },
+      { market: 'Under/Over 3.5', pick: m.pick_uo35 },
       { market: 'Gol/No Gol', pick: m.pick_gg }
     ].filter(function (o) { return o.pick; });
     if (!opts.length) return null;
@@ -122,11 +153,17 @@
       n++;
       var score = m.risultato ? parseScore(m.risultato.punteggio) : null;
       var actual = actualEsiti(score);
-      var actualForMarket = actual ? (best.market === 'Esito' ? actual.esito1x2 : (best.market === 'Under/Over 2.5' ? actual.uo : actual.gg)) : null;
+      var marketKey = { 'Esito': 'esito1x2', 'Under/Over 2.5': 'uo', 'Under/Over 3.5': 'uo35', 'Gol/No Gol': 'gg' }[best.market];
+      var resultHTML;
+      if (best.market === 'Doppia chance') {
+        resultHTML = dcResultHTML(best.pick.esito, actual ? actual.esito1x2 : null, m.risultato);
+      } else {
+        resultHTML = pickResultHTML(best.pick.esito, actual ? actual[marketKey] : null, m.risultato);
+      }
       rows += (
         '<div class="schedina-item">' +
           '<div class="schedina-match">' + m.casa + ' — ' + m.trasferta + '</div>' +
-          '<div class="schedina-pick">' + best.pick.etichetta + pickResultHTML(best.pick.esito, actualForMarket, m.risultato) + '<span class="schedina-market">' + best.market + '</span></div>' +
+          '<div class="schedina-pick">' + best.pick.etichetta + resultHTML + '<span class="schedina-market">' + best.market + '</span></div>' +
           '<div class="schedina-prob">' + pct(best.pick.probabilita) + '</div>' +
         '</div>'
       );

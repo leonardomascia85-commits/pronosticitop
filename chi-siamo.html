@@ -86,10 +86,10 @@
   </ul>
 
   <h2>Mercati utilizzati</h2>
-  <p>Scegliamo il mercato più supportato dai dati per ciascuna partita, invece di usare sempre lo stesso: esito finale (1X2), doppia chance, Under/Over gol, Gol/No Gol (BTTS), e talvolta combinazioni tra questi mercati sulla stessa partita.</p>
+  <p>Per ogni partita calcoliamo la probabilità di cinque mercati — esito finale (1X2), doppia chance, Under/Over 2.5, Under/Over 3.5 e Gol/No Gol (BTTS) — e mostriamo quello più supportato dai dati per quella specifica partita, invece di usare sempre lo stesso.</p>
 
   <h2>Il modello a gol attesi</h2>
-  <p>Le probabilità nascono da un modello a gol attesi: per ogni squadra calcoliamo il gol atteso come media tra i propri gol fatti a partita e i gol subiti a partita dall'avversario, con una correzione dell'8% per il fattore campo. Dalla somma dei due gol attesi ricaviamo la probabilità di Under/Over 2.5 e di Gol/No Gol; dalla differenza, la probabilità 1X2. È un modello statistico, non una previsione certa: aiuta a confrontare le squadre in modo coerente, ma resta una stima.</p>
+  <p>Le probabilità nascono da un modello a gol attesi: per ogni squadra calcoliamo il gol atteso come media tra i propri gol fatti a partita e i gol subiti a partita dall'avversario, con una correzione dell'8% per il fattore campo. Da qui in poi non usiamo formule lineari improvvisate: trattiamo i gol di ciascuna squadra come variabili casuali di Poisson indipendenti (lo stesso approccio statistico dei modelli previsionali professionali) e costruiamo la matrice di probabilità di ogni risultato esatto possibile. Sommando le celle pertinenti di quella matrice ricaviamo in modo coerente tutte le probabilità: 1X2, doppia chance, Under/Over (2.5 e 3.5) e Gol/No Gol. È un modello statistico, non una previsione certa: aiuta a confrontare le squadre in modo rigoroso, ma resta una stima — per questo ogni probabilità mostrata è comunque limitata a un massimo del 90%, anche quando il calcolo darebbe un numero più alto.</p>
 
   <h2>Livelli di rischio</h2>
   <table>

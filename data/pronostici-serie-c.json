@@ -101,23 +101,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Arzignano Valchiampo",
-        "probabilita": 0.56
+        "probabilita": 0.48
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.52
+        "probabilita": 0.59
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.55
       },
       "nota": "Il Renate è ancora a secco di vittorie (2 punti in 5 gare, 3 sconfitte) e ha già subito 8 gol; l'Arzignano gioca in casa con un rendimento nettamente superiore in classifica.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Arzignano Valchiampo o pareggio",
+        "probabilita": 0.75
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
       }
     },
     {
@@ -130,23 +140,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Alcione",
-        "probabilita": 0.51
+        "probabilita": 0.39
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.5
+        "probabilita": 0.55
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.6
+        "probabilita": 0.51
       },
       "nota": "Le uniche due squadre del gruppo di rincorsa ancora imbattute: l'Union Brescia ha una delle difese più solide del girone (3 gol subiti in 5 gare), l'Alcione uno dei migliori attacchi, alle spalle del solo Ospitaletto (9 gol fatti).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Alcione o Union Brescia",
+        "probabilita": 0.73
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
       }
     },
     {
@@ -159,23 +179,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Folgore Caratese",
-        "probabilita": 0.54
+        "probabilita": 0.44
       },
       "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.5
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.59
+        "probabilita": 0.5
       },
       "nota": "Sfida salvezza tra le ultime due della classe: la Giana Erminio è l'unica squadra del girone ancora senza vittorie (1 punto), la Folgore Caratese ne ha 2, ma entrambe hanno già incassato 8 gol in 5 gare.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Folgore Caratese o Giana Erminio",
+        "probabilita": 0.73
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
       }
     },
     {
@@ -186,25 +216,35 @@
       "forma_casa": "7 pt in 5 gare (2V-1N-2P), 4-3",
       "forma_trasferta": "5 pt in 5 gare (1V-2N-2P), 1-3",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Lecco",
-        "probabilita": 0.55
+        "esito": "X",
+        "etichetta": "Pareggio",
+        "probabilita": 0.42
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.64
+        "probabilita": 0.9
       },
       "pick_gg": {
         "esito": "nogol",
         "etichetta": "No Gol",
-        "probabilita": 0.52
+        "probabilita": 0.84
       },
       "nota": "La Pergolettese ha il peggior attacco dell'intero girone (1 solo gol segnato in 5 gare); il Lecco gioca in casa e può contare su una delle difese migliori del gruppo (3 gol subiti).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Lecco o pareggio",
+        "probabilita": 0.84
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.9
       }
     },
     {
@@ -217,23 +257,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Dolomiti Bellunesi",
-        "probabilita": 0.56
+        "probabilita": 0.48
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.59
+        "probabilita": 0.78
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.5
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.72
       },
       "nota": "Le Dolomiti Bellunesi sono imbattute (9 punti, 3 pareggi) e vantano una delle migliori difese del girone, alla pari del capolista Cittadella (2 gol subiti in 5 gare); il Lumezzane arriva da un rendimento altalenante (1V-2N-2P).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Dolomiti Bellunesi o pareggio",
+        "probabilita": 0.81
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.9
       }
     },
     {
@@ -246,23 +296,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Trento",
-        "probabilita": 0.55
+        "probabilita": 0.47
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.56
+        "probabilita": 0.7
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.53
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.64
       },
       "nota": "Il Trento è imbattuto dopo 5 giornate (9 punti, 3 pareggi) con una difesa solida (3 gol subiti); la Pro Vercelli ha lo stesso numero di reti fatte (5) ma una retroguardia più fragile (6 subiti).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Trento o pareggio",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.87
       }
     },
     {
@@ -275,23 +335,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Treviso",
-        "probabilita": 0.56
+        "probabilita": 0.48
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.52
+        "probabilita": 0.59
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.55
       },
       "nota": "Il Treviso ha uno dei migliori attacchi del girone (7 gol in 5 gare) e gioca in casa; il Desenzano Calvina ha già incassato 6 reti nelle prime 5 uscite.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Treviso o pareggio",
+        "probabilita": 0.75
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
       }
     },
     {
@@ -420,23 +490,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Campobasso",
-        "probabilita": 0.52
+        "probabilita": 0.4
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.62
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.57
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.56
       },
       "nota": "Il Pineto è la squadra con più pareggi del girone (3 su 5) e un bilancio in perfetto equilibrio (4 gol fatti, 4 subiti); il Campobasso gioca in casa con un attacco leggermente più prolifico (7 gol).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Campobasso o Pineto",
+        "probabilita": 0.71
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.82
       }
     },
     {
@@ -449,16 +529,16 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Grosseto",
-        "probabilita": 0.61
+        "probabilita": 0.59
       },
       "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.51
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
+        "esito": "nogol",
+        "etichetta": "No Gol",
         "probabilita": 0.54
       },
       "nota": "Il Grosseto è imbattuto (9 punti, 3 pareggi) con una difesa solida (4 gol subiti); il Perugia ha una delle retroguardie più fragili del girone (9 gol incassati in 5 gare).",
@@ -466,6 +546,16 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Grosseto o pareggio",
+        "probabilita": 0.82
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.75
       }
     },
     {
@@ -478,12 +568,12 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Gubbio",
-        "probabilita": 0.57
+        "probabilita": 0.5
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.56
+        "probabilita": 0.6
       },
       "pick_gg": {
         "esito": "gol",
@@ -495,6 +585,16 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Gubbio o Ostiamare",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
       }
     },
     {
@@ -507,16 +607,16 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Guidonia Montecelio",
-        "probabilita": 0.55
+        "probabilita": 0.45
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.62
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
+        "esito": "nogol",
+        "etichetta": "No Gol",
         "probabilita": 0.56
       },
       "nota": "Il Livorno ha 10 punti e 3 vittorie nelle prime 5 gare; la Guidonia Montecelio resta comunque solida in casa con una buona difesa (4 gol subiti).",
@@ -524,6 +624,16 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Guidonia Montecelio o pareggio",
+        "probabilita": 0.74
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.82
       }
     },
     {
@@ -536,23 +646,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Pianese",
-        "probabilita": 0.52
+        "probabilita": 0.4
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.62
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.57
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.56
       },
       "nota": "La Pianese ha il peggior attacco del girone (1 solo gol in 5 gare); la Sambenedettese, pur ultima, ha già segnato 6 reti ma ne ha subite 10, tra le peggiori difese del gruppo.",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Pianese o Sambenedettese",
+        "probabilita": 0.71
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.82
       }
     },
     {
@@ -565,23 +685,33 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Spezia",
-        "probabilita": 0.68
+        "probabilita": 0.74
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.54
+        "probabilita": 0.56
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.57
       },
       "nota": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare).",
       "risultato": {
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Spezia o pareggio",
+        "probabilita": 0.9
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.67
       }
     },
     {

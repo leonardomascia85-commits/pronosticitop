@@ -154,7 +154,9 @@ const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', sec
 function bestPick(p){
   const opts = [
     { market: '1X2', label: 'Esito', pick: p.pick_1x2 },
+    { market: 'DC', label: 'Doppia chance', pick: p.pick_dc },
     { market: 'OU25', label: 'Under/Over 2.5', pick: p.pick_uo },
+    { market: 'OU35', label: 'Under/Over 3.5', pick: p.pick_uo35 },
     { market: 'GGNG', label: 'Gol/No Gol', pick: p.pick_gg }
   ].filter(o => o.pick);
   opts.sort((a,b) => b.pick.probabilita - a.pick.probabilita);
@@ -172,6 +174,7 @@ function actualEsiti(score){
   return {
     '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
     'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+    'OU35': (score.home + score.away) > 3.5 ? 'over' : 'under',
     'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
   };
 }
@@ -182,7 +185,8 @@ function liveResultHTML(p, best){
   if(risultato.stato === 'finale'){
     const actual = actualEsiti(score);
     if(!actual) return '';
-    const won = actual[best.market] === best.pick.esito;
+    // Doppia chance: il pick (es. "1X") vince se contiene l'esito 1X2 reale, non uguaglianza esatta.
+    const won = best.market === 'DC' ? best.pick.esito.indexOf(actual['1X2']) !== -1 : actual[best.market] === best.pick.esito;
     return `<span class="pick-result ${won?'win':'lose'}">${won?'✅':'❌'} ${risultato.punteggio||''}</span>`;
   }
   return `<span class="ev-live"><span class="live-dot"></span>${STATUS_LABELS_LIVE[risultato.stato]||'LIVE'}${risultato.punteggio ? ' '+risultato.punteggio : ''}</span>`;

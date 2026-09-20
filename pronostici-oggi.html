@@ -159,6 +159,7 @@ function actualEsiti(score){
   return {
     '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
     'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+    'OU35': (score.home + score.away) > 3.5 ? 'over' : 'under',
     'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
   };
 }
@@ -169,7 +170,7 @@ function liveResultHTML(risultato, best){
   if(risultato.stato === 'finale'){
     const actual = actualEsiti(score);
     if(!actual) return '';
-    const won = actual[best.market] === best.pick.esito;
+    const won = best.market === 'DC' ? best.pick.esito.indexOf(actual['1X2']) !== -1 : actual[best.market] === best.pick.esito;
     return `<span class="pick-result ${won?'win':'lose'}">${won?'✅':'❌'} ${risultato.punteggio||''}</span>`;
   }
   return `<span class="ev-live"><span class="live-dot"></span>${STATUS_LABELS_LIVE[risultato.stato]||'LIVE'}${risultato.punteggio ? ' '+risultato.punteggio : ''}</span>`;
@@ -178,7 +179,9 @@ function liveResultHTML(risultato, best){
 function bestPick(m){
   const opts = [
     { market: '1X2', label: 'Esito', pick: m.pick_1x2 },
+    { market: 'DC', label: 'Doppia chance', pick: m.pick_dc },
     { market: 'OU25', label: 'Under/Over 2.5', pick: m.pick_uo },
+    { market: 'OU35', label: 'Under/Over 3.5', pick: m.pick_uo35 },
     { market: 'GGNG', label: 'Gol/No Gol', pick: m.pick_gg }
   ].filter(o => o.pick);
   if(!opts.length) return null;

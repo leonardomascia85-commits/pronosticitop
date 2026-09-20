@@ -180,7 +180,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   });
 })();
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto' };
 const LEAGUE_COLORS = {
@@ -223,6 +223,7 @@ function actualEsiti(score){
   return {
     '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
     'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+    'OU35': (score.home + score.away) > 3.5 ? 'over' : 'under',
     'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
   };
 }
@@ -251,7 +252,7 @@ function liveInfo(ev, lookup){
   const actual = actualEsiti(score);
   if(risultato.stato === 'finale'){
     if(!actual || !ev.esito_pick) return { state:'pending' };
-    const won = actual[ev.mercato] === ev.esito_pick;
+    const won = ev.mercato === 'DC' ? ev.esito_pick.indexOf(actual['1X2']) !== -1 : actual[ev.mercato] === ev.esito_pick;
     return { state: won ? 'win' : 'lose', punteggio: risultato.punteggio };
   }
   // in_corso, intervallo, secondo_tempo
