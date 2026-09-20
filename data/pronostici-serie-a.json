@@ -251,9 +251,9 @@
       },
       "nota": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "secondo_tempo",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-20T17:19:32Z"
       },
       "pick_dc": {
         "esito": "12",

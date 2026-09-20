@@ -223,9 +223,9 @@
       },
       "nota": "Il Nice ha l'attacco più sterile del campionato (1 gol in 4 gare); il Lille è ancora imbattuto con un'ottima difesa (2 gol subiti).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-20T17:19:32Z"
       },
       "pick_dc": {
         "esito": "X2",

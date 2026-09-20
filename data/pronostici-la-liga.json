@@ -195,9 +195,9 @@
       },
       "nota": "Derby madrileno tra due squadre con attacchi prolifici (14 e 17 gol in 6 gare); il Real Madrid ha qualche punto in più in classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-20T17:19:32Z"
       },
       "pick_dc": {
         "esito": "12",
