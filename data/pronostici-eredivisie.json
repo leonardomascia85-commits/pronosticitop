@@ -167,9 +167,9 @@
       },
       "nota": "Il Feyenoord è ancora imbattuto con uno degli attacchi migliori del campionato (20 gol); l'Utrecht ha la peggior difesa (19 subiti in 6 gare).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-0",
+        "aggiornato": "2026-09-20T12:22:19Z"
       }
     },
     {
