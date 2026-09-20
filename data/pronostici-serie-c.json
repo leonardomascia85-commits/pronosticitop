@@ -504,9 +504,9 @@
       },
       "nota": "Il Pineto è la squadra con più pareggi del girone (3 su 5) e un bilancio in perfetto equilibrio (4 gol fatti, 4 subiti); il Campobasso gioca in casa con un attacco leggermente più prolifico (7 gol).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-09-20T18:18:50Z"
       },
       "pick_dc": {
         "esito": "12",
@@ -999,9 +999,9 @@
       },
       "nota": "Il Potenza è quarto in classifica con 10 punti e un buon attacco (9 gol fatti); la Cavese ha una delle difese più permeabili del girone (8 gol subiti in 5 gare).",
       "risultato": {
-        "stato": "intervallo",
-        "punteggio": "1-0",
-        "aggiornato": "2026-09-20T16:19:36Z"
+        "stato": "finale",
+        "punteggio": "4-2",
+        "aggiornato": "2026-09-20T18:18:50Z"
       }
     }
   ]

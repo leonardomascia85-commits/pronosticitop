@@ -223,9 +223,9 @@
       },
       "nota": "L'Elversberg ha più punti e un attacco più prolifico (8 gol) rispetto allo Schalke.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-20T18:18:50Z"
       },
       "pick_dc": {
         "esito": "12",
