@@ -262,7 +262,7 @@
         "probabilita": 0.52
       },
       "nota": "Il Flamengo è capolista con il miglior attacco del campionato (53 gol in 27 gare) e gioca in casa.",
-      "risultato": {"stato": "in_corso", "punteggio": "1-0", "aggiornato": "2026-09-20T22:18:32+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-20T23:18:30+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Flamengo o pareggio",
@@ -296,11 +296,7 @@
         "probabilita": 0.55
       },
       "nota": "Scontro diretto per il 3°/4° posto tra due squadre appaiate a 46 punti, entrambe con buoni attacchi.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "intervallo", "punteggio": "1-1", "aggiornato": "2026-09-20T23:18:30+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Athletico PR o Bahia",
