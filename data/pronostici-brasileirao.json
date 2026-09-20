@@ -27,9 +27,9 @@
       },
       "nota": "La Chapecoense è ultima in classifica con la peggior difesa del torneo (52 gol subiti in 27 gare).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -55,9 +55,9 @@
       },
       "nota": "Entrambe con difese fragili (42 e 43 gol subiti); il Botafogo ha qualche punto e gol fatto in più.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -83,9 +83,9 @@
       },
       "nota": "Il Remo ha una delle peggiori difese del torneo (45 gol subiti in 27 gare); il Santos ha più punti in classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "nota": "Il Coritiba ha nettamente più punti (38 contro 29) e un rendimento migliore in questa fase del torneo.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-0",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -139,9 +139,9 @@
       },
       "nota": "Il San Paolo gioca in casa con qualche punto e miglior differenza reti rispetto all'Internacional.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {

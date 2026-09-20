@@ -55,9 +55,9 @@
       },
       "nota": "Il Paris FC è ancora imbattuto con una difesa solida (2 gol subiti in 4 gare); lo Strasburgo concede molto (8 gol).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -83,9 +83,9 @@
       },
       "nota": "Il Troyes ha una delle peggiori difese del campionato (9 gol subiti in 4 gare); l'Angers gioca in casa con qualche punto di vantaggio.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "nota": "Il Le Mans non ha ancora vinto (3 pareggi in 4 gare) e concede parecchio; il Lorient ha più punti in classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -139,9 +139,9 @@
       },
       "nota": "Il Lione ha la miglior difesa del campionato insieme al Lille (2 gol subiti in 4 gare) e gioca in casa contro un Rennes comunque ancora imbattuto.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
@@ -167,9 +167,9 @@
       },
       "nota": "Entrambe ancora senza vittorie e con attacchi poco prolifici: match aperto e povero di gol atteso.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-09-20T09:00:00Z"
       }
     },
     {
