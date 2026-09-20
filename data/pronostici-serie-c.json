@@ -869,9 +869,9 @@
       },
       "nota": "Il Potenza è quarto in classifica con 10 punti e un buon attacco (9 gol fatti); la Cavese ha una delle difese più permeabili del girone (8 gol subiti in 5 gare).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "intervallo",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-20T16:19:36Z"
       }
     }
   ]

@@ -251,9 +251,9 @@
       },
       "nota": "Mantova tra le squadre più in forma del campionato (6 gol fatti, 2 subiti nelle ultime 3); Pisa comunque prolifico in attacco.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "secondo_tempo",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-20T16:19:36Z"
       }
     },
     {
