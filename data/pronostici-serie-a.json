@@ -167,9 +167,9 @@
       },
       "nota": "Entrambe reduci da una vittoria dopo un avvio complicato; la difesa viola resta fragile (7 gol subiti nelle ultime 3).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "intervallo",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-20T11:18:43Z"
       }
     },
     {
