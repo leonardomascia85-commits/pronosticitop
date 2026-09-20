@@ -153,7 +153,7 @@
         "probabilita": 0.51
       },
       "nota": "Le uniche due squadre del gruppo di rincorsa ancora imbattute: l'Union Brescia ha una delle difese più solide del girone (3 gol subiti in 5 gare), l'Alcione uno dei migliori attacchi, alle spalle del solo Ospitaletto (9 gol fatti).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-20T19:21:57+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-20T20:20:32+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Alcione o Union Brescia",
@@ -188,7 +188,7 @@
         "probabilita": 0.5
       },
       "nota": "Sfida salvezza tra le ultime due della classe: la Giana Erminio è l'unica squadra del girone ancora senza vittorie (1 punto), la Folgore Caratese ne ha 2, ma entrambe hanno già incassato 8 gol in 5 gare.",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-20T19:21:57+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-20T20:20:32+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Folgore Caratese o Giana Erminio",
@@ -223,7 +223,7 @@
         "probabilita": 0.84
       },
       "nota": "La Pergolettese ha il peggior attacco dell'intero girone (1 solo gol segnato in 5 gare); il Lecco gioca in casa e può contare su una delle difese migliori del gruppo (3 gol subiti).",
-      "risultato": {"stato": "intervallo", "punteggio": "0-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
+      "risultato": {"stato": "secondo_tempo", "punteggio": "0-0", "aggiornato": "2026-09-20T20:20:32+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Lecco o pareggio",
@@ -530,7 +530,7 @@
         "probabilita": 0.54
       },
       "nota": "Il Grosseto è imbattuto (9 punti, 3 pareggi) con una difesa solida (4 gol subiti); il Perugia ha una delle retroguardie più fragili del girone (9 gol incassati in 5 gare).",
-      "risultato": {"stato": "in_corso", "punteggio": "0-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-20T20:20:32+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Grosseto o pareggio",
@@ -565,7 +565,7 @@
         "probabilita": 0.61
       },
       "nota": "Il Gubbio ha uno degli attacchi più prolifici del girone (9 gol in 5 gare); l'Ostiamare è la squadra con più sconfitte (4) e una difesa poco affidabile (8 subiti).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-20T19:21:57+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-2", "aggiornato": "2026-09-20T20:20:32+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Gubbio o Ostiamare",
