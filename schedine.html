@@ -309,7 +309,7 @@ function renderWeek(week, lookup){
     byLevel[level].forEach((sch, idx) => {
       const st = schedinaStatusLive(sch, lookup);
       const card = document.createElement('div');
-      card.className = 'card';
+      card.className = 'card' + (st === 'win' ? ' is-winner' : '');
       let rows = sch.eventi.map(ev => {
         const li = liveInfo(ev, lookup);
         let resTxt;

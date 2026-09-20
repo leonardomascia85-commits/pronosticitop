@@ -94,6 +94,8 @@
 </div>
 
 <main>
+  <div class="win-banner" id="winBanner"></div>
+
   <div class="risk-scheme">
     <a href="/schedine.html#risk-4" class="risk-scheme-card scheme-4">
       <span class="risk-scheme-n">4</span>
@@ -180,6 +182,31 @@
 <script src="/cookie-banner.js"></script>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
+
+(function(){
+  fetch('/data/schedine-vinte.json').then(function(r){ return r.json(); }).then(function(d){
+    var promosse = (d && d.promosse) || [];
+    if(!promosse.length) return;
+    var win = promosse[promosse.length - 1];
+    var promossoIl = new Date(win.promosso_il);
+    var giorni = (Date.now() - promossoIl.getTime()) / 86400000;
+    if(giorni > 10) return;
+    var el = document.getElementById('winBanner');
+    var lista = (win.eventi || []).map(function(e){
+      return '<li>' + e.partita + ' — ' + e.pronostico + (e.risultato ? ' (' + e.risultato + ')' : '') + '</li>';
+    }).join('');
+    el.innerHTML =
+      '<div class="wb-head"><span class="wb-trophy">🏆</span>' +
+      '<span class="wb-title">Schedina vincente! Livello ' + win.livello_rischio + 'E, tutti i pronostici centrati' + (win.quota_combinata ? ' — quota ' + win.quota_combinata.toFixed(2) : '') + '</span>' +
+      '<span class="wb-pill">VINTA</span></div>' +
+      '<ul class="wb-list">' + lista + '</ul>' +
+      '<div class="wb-actions">' +
+        (win.articolo ? '<a href="' + win.articolo + '">Leggi l\'articolo →</a>' : '') +
+        '<a href="/schedine.html#risk-' + win.livello_rischio + '">Vedi le schedine di oggi →</a>' +
+      '</div>';
+    el.classList.add('show');
+  }).catch(function(){});
+})();
 
 (function(){
   var btn = document.getElementById('navToggle');

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Template social — schedina vincente</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@800&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1080px;overflow:hidden}
+  body{
+    font-family:'Inter',sans-serif;
+    background:
+      radial-gradient(760px 560px at 18% 8%, rgba(47,158,92,.35), transparent 60%),
+      radial-gradient(700px 520px at 90% 95%, rgba(184,121,31,.28), transparent 60%),
+      linear-gradient(160deg,#0c1512 0%,#0b0f14 55%,#10161c 100%);
+    color:#fff;
+    width:1080px;height:1080px;position:relative;
+    display:flex;flex-direction:column;justify-content:space-between;
+    padding:64px 72px;
+  }
+  .brand{display:flex;align-items:center;gap:12px;font-family:'Manrope',sans-serif;font-weight:800;font-size:30px}
+  .brand .ball{font-size:34px}
+  .brand .site{color:#8fe0ac}
+  .badge{
+    align-self:flex-start;
+    display:inline-flex;align-items:center;gap:10px;
+    background:rgba(47,158,92,.16);border:1.5px solid rgba(143,224,172,.55);
+    color:#8fe0ac;font-weight:800;font-size:24px;letter-spacing:.04em;
+    padding:10px 24px;border-radius:40px;margin-top:36px;
+  }
+  h1{
+    font-family:'Manrope',sans-serif;font-weight:800;
+    font-size:64px;line-height:1.08;margin-top:26px;max-width:880px;
+  }
+  h1 .accent{color:#8fe0ac}
+  .sub{font-size:26px;color:#c7d0cc;margin-top:16px;font-weight:500}
+  .events{
+    margin-top:38px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);
+    border-radius:24px;padding:8px 0;flex:1;display:flex;flex-direction:column;justify-content:center;
+  }
+  .ev{
+    display:flex;align-items:center;justify-content:space-between;gap:20px;
+    padding:20px 34px;border-top:1px solid rgba(255,255,255,.07);
+  }
+  .ev:first-child{border-top:none}
+  .ev .check{
+    width:36px;height:36px;border-radius:50%;background:#2f9e5c;color:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;flex-shrink:0;
+  }
+  .ev .txt{flex:1;min-width:0}
+  .ev .match{font-weight:700;font-size:25px;color:#fff}
+  .ev .pick{font-size:19px;color:#9fb0a7;margin-top:2px}
+  .ev .score{font-weight:800;font-size:25px;color:#8fe0ac;white-space:nowrap}
+  .footer-row{display:flex;align-items:flex-end;justify-content:space-between;margin-top:34px}
+  .quota-box{display:flex;flex-direction:column}
+  .quota-label{font-size:19px;color:#9fb0a7;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+  .quota-value{font-family:'Manrope',sans-serif;font-weight:800;font-size:52px;color:#ffcf7a;margin-top:2px}
+  .url{font-size:24px;color:#c7d0cc;font-weight:700}
+</style>
+</head>
+<body>
+  <div class="brand"><span class="ball">⚽</span> <span>Pronostici<span class="site">Top</span></span></div>
+
+  <div class="badge">🏆 SCHEDINA VINCENTE</div>
+  <h1>Tutti i pronostici <span class="accent" id="livelloTxt">azzeccati</span></h1>
+  <div class="sub" id="subTxt">Livello di rischio — pronostici multi-campionato</div>
+
+  <div class="events" id="events"></div>
+
+  <div class="footer-row">
+    <div class="quota-box">
+      <span class="quota-label">Quota combinata</span>
+      <span class="quota-value" id="quotaTxt">—</span>
+    </div>
+    <div class="url">pronosticitop.it</div>
+  </div>
+
+<script>
+// Parametri passati via query string: ?d=<JSON URL-encoded>
+// Formato JSON atteso:
+// { "livello": 4, "quota": 5.29, "eventi": [ {"partita":"...", "pronostico":"...", "risultato":"2-1"}, ... ] }
+function getData(){
+  var params = new URLSearchParams(location.search);
+  var raw = params.get('d');
+  if(raw){
+    try { return JSON.parse(raw); } catch(e) {}
+  }
+  // dati di esempio per anteprima manuale del template
+  return {
+    livello: 4, quota: 5.29,
+    eventi: [
+      { partita: 'Inter - Milan', pronostico: 'Vittoria Inter', risultato: '2-1' },
+      { partita: 'Napoli - Roma', pronostico: 'Over 2.5', risultato: '3-1' },
+      { partita: 'Real Madrid - Betis', pronostico: 'Gol/Gol', risultato: '2-2' },
+      { partita: 'Bayern - Lipsia', pronostico: 'Vittoria Bayern', risultato: '3-0' }
+    ]
+  };
+}
+
+var d = getData();
+document.getElementById('livelloTxt').textContent = 'azzeccati';
+document.getElementById('subTxt').textContent = 'Schedina da ' + d.eventi.length + ' eventi — livello di rischio ' + d.livello + 'E, multi-campionato';
+document.getElementById('quotaTxt').textContent = d.quota ? '@' + Number(d.quota).toFixed(2) : '—';
+
+var evEl = document.getElementById('events');
+evEl.innerHTML = d.eventi.map(function(e){
+  return '<div class="ev">' +
+    '<div class="check">✓</div>' +
+    '<div class="txt"><div class="match">' + e.partita + '</div><div class="pick">' + e.pronostico + '</div></div>' +
+    '<div class="score">' + (e.risultato || '') + '</div>' +
+  '</div>';
+}).join('');
+</script>
+</body>
+</html>

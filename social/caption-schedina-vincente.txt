@@ -1,0 +1,42 @@
+CAPTION PRONTE — POST "SCHEDINA VINCENTE" (Instagram / Facebook)
+==================================================================
+Come usarle: sostituisci i segnaposto tra {parentesi graffe} con i dati
+reali della schedina (livello, numero eventi, quota, campionati coinvolti)
+prima di pubblicare, insieme all'immagine generata da
+scripts/render_social_card.py.
+
+--- VERSIONE 1 — diretta/celebrativa ---
+
+🏆 SCHEDINA VINCENTE! Livello {livello}E da {n_eventi} eventi, tutti azzeccati ✅
+Quota combinata @{quota} 📈
+
+I nostri pronostici si basano su analisi statistica reale: forma, gol fatti/subiti, classifica. Niente magie, solo dati.
+
+Le schedine di oggi le trovi sul sito 👉 link in bio
+.
+.
+.
+#pronosticitop #schedinavincente #pronosticicalcio #schedinacalcio #calcioscommesse #pronosticiseriea #statistichecalcio #bettingtips #schedinadelgiorno #calcio
+
+--- VERSIONE 2 — orientata al metodo/community ---
+
+Un'altra schedina da {n_eventi} eventi andata a segno ✅🏆
+{campionati} — analizzati con lo stesso metodo di sempre: dati reali, niente supposizioni.
+
+Vuoi vedere come costruiamo le nostre schedine ogni settimana? Il metodo è spiegato sul sito, link in bio.
+
+#pronosticitop #schedinavincente #pronosticicalcio #datidrivenbetting #schedinacalcio #calcioscommesse #pronosticigratis #calciodati
+
+--- VERSIONE 3 — breve, per le Stories ---
+
+🏆 SCHEDINA VINTA
+{n_eventi} eventi ✅ — quota @{quota}
+Pronostici di oggi → link in bio
+#pronosticitop #schedinavincente
+
+--- NOTE ---
+- Aggiungere sempre, se lo spazio lo consente, un richiamo al gioco responsabile
+  (18+, gioca responsabilmente) nei post pubblici non-Stories, in linea con il
+  disclaimer già presente sul sito.
+- Il tono resta informativo/statistico: mai presentare le vincite come garanzia
+  di risultati futuri.
