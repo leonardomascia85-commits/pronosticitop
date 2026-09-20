@@ -195,9 +195,9 @@
       },
       "nota": "L'Auxerre ha la peggior difesa del campionato (11 gol subiti in 4 gare); il Brest ha più punti in classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {

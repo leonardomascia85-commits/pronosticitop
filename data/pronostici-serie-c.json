@@ -57,9 +57,9 @@
       },
       "nota": "Il Carpi ha già segnato 8 gol ma ne ha incassati 10 in 5 gare, tra i peggiori bilanci reti del girone; il Novara, pur fermo a 5 punti, ha una retroguardia più solida (5 subiti).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {
@@ -405,9 +405,9 @@
       },
       "nota": "Entrambe faticano in difesa (Vado 7 gol subiti, Pescara 9, tra le peggiori del girone), mentre il Pescara ha un attacco discreto (7 gol fatti in 5 gare).",
       "risultato": {
-        "stato": "secondo_tempo",
+        "stato": "finale",
         "punteggio": "0-1",
-        "aggiornato": "2026-09-20T14:20:07Z"
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {
@@ -811,9 +811,9 @@
       },
       "nota": "Il Foggia ha uno degli attacchi più sterili del girone (2 gol in 5 gare); l'Inter U23 gioca in casa nonostante una difesa non impermeabile (9 gol subiti).",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "1-1",
-        "aggiornato": "2026-09-20T14:20:07Z"
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {
@@ -840,9 +840,9 @@
       },
       "nota": "Il Monopoli ha la miglior difesa del girone (2 gol subiti in 5 gare) e le sue gare sono le più povere di reti del gruppo; il Crotone è ancora senza vittorie (2 punti).",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "0-0",
-        "aggiornato": "2026-09-20T14:20:07Z"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {

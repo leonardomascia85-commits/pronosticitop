@@ -167,9 +167,9 @@
       },
       "nota": "Il Palmeiras è 2° in classifica con uno dei migliori attacchi del torneo (47 gol); il Grêmio è in zona medio-bassa con una difesa fragile.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "secondo_tempo",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-20T15:19:36Z"
       }
     },
     {
