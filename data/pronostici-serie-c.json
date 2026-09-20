@@ -347,9 +347,9 @@
       },
       "nota": "Il Ravenna è imbattuto insieme allo Spezia e ha una delle migliori difese del girone, alla pari del capolista (2 gol subiti in 5 gare); l'Atalanta U23 ha già perso 2 delle prime 5 gare.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {
@@ -376,9 +376,9 @@
       },
       "nota": "La Reggiana è imbattuta e ha uno dei migliori attacchi del girone, alla pari del Forlì (11 gol in 5 gare); il Latina ha già incassato 7 reti e viaggia a metà classifica con 5 punti.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "intervallo",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {
@@ -405,9 +405,9 @@
       },
       "nota": "Entrambe faticano in difesa (Vado 7 gol subiti, Pescara 9, tra le peggiori del girone), mentre il Pescara ha un attacco discreto (7 gol fatti in 5 gare).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "in_corso",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {
@@ -811,9 +811,9 @@
       },
       "nota": "Il Foggia ha uno degli attacchi più sterili del girone (2 gol in 5 gare); l'Inter U23 gioca in casa nonostante una difesa non impermeabile (9 gol subiti).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "in_corso",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {
@@ -840,9 +840,9 @@
       },
       "nota": "Il Monopoli ha la miglior difesa del girone (2 gol subiti in 5 gare) e le sue gare sono le più povere di reti del gruppo; il Crotone è ancora senza vittorie (2 punti).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "in_corso",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {

@@ -223,9 +223,9 @@
       },
       "nota": "Scontro salvezza tra le due peggiori attacchi del campionato (2 gol segnati a testa nelle ultime 3 gare).",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "in_corso",
+        "punteggio": "0-0",
+        "aggiornato": "2026-09-20T13:20:33Z"
       }
     },
     {
