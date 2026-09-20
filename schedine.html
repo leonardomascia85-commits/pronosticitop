@@ -297,9 +297,11 @@ function renderWeek(week, lookup){
       const probMedia = sch.eventi.reduce((s,e)=>s+e.probabilita_stimata,0) / sch.eventi.length;
       const nLeghe = new Set(sch.eventi.map(e=>e.campionato)).size;
       const leagueTxt = nLeghe > 1 ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">${nLeghe} campionati</span>` : '';
+      const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
       card.innerHTML = `
         <div class="card-head">
           <span class="name">Schedina ${level}E — #${idx+1}</span>
+          ${quotaTxt}
           <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
           ${leagueTxt}
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
