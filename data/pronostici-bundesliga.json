@@ -260,11 +260,7 @@
         "probabilita": 0.56
       },
       "nota": "Il Paderborn è l'unica squadra della Bundesliga ancora a secco di gol fatti insieme all'Amburgo (0 in 3 gare).",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "3-1", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "SC Paderborn 07 o 1899 Hoffenheim",

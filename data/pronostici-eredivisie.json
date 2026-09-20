@@ -194,11 +194,7 @@
         "probabilita": 0.7
       },
       "nota": "Il PSV è co-capolista con il miglior attacco del campionato (22 gol in 6 gare); il Twente ha però una delle difese più solide.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "2-3", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "PSV o FC Twente",
@@ -232,11 +228,7 @@
         "probabilita": 0.52
       },
       "nota": "L'AZ è co-capolista e ancora imbattuto; il Telstar ha uno degli attacchi più sterili del campionato (5 gol in 6 gare).",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "AZ o pareggio",
@@ -270,11 +262,7 @@
         "probabilita": 0.77
       },
       "nota": "Entrambe le squadre hanno difese permeabili e attacchi discreti; il Go Ahead Eagles ha qualche punto e gol in più.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "NEC Nijmegen o Go Ahead Eagles",

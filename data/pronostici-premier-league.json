@@ -278,11 +278,7 @@
         "probabilita": 0.62
       },
       "nota": "Il Fulham non vince ancora in campionato (1 solo punto in 4 gare); il Manchester United, seppur incostante, ha un attacco più prolifico.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Fulham o Manchester United",

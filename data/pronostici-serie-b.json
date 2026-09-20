@@ -278,11 +278,7 @@
         "probabilita": 0.63
       },
       "nota": "Modena in casa con un buon rendimento difensivo; Empoli fatica a trovare continuità e segna poco in trasferta.",
-      "risultato": {
-        "stato": "intervallo",
-        "punteggio": "0-1",
-        "aggiornato": "2026-09-20T18:22:11Z"
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Modena o pareggio",

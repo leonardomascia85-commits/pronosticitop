@@ -194,11 +194,7 @@
         "probabilita": 0.54
       },
       "nota": "Il Cruzeiro ha più punti e un attacco più prolifico (39 gol contro 27) rispetto al Vitória.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Vitória o Cruzeiro",
@@ -232,11 +228,7 @@
         "probabilita": 0.5
       },
       "nota": "Il Fluminense è 5° in classifica con un rendimento nettamente superiore al Corinthians in questa stagione.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Corinthians o Fluminense",

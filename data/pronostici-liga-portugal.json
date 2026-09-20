@@ -138,11 +138,7 @@
         "probabilita": 0.67
       },
       "nota": "L'Estrela Amadora è ancora imbattuta (6 pareggi/vittorie) con un attacco vivace (14 gol in 6 gare) ma una difesa permeabile.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "0-2", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Estrela Amadora o Académico Viseu",
@@ -204,11 +200,7 @@
         "probabilita": 0.52
       },
       "nota": "Il Santa Clara è ancora imbattuto (4° posto) con una difesa solida (4 gol subiti in 6 gare).",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Santa Clara o pareggio",
@@ -242,11 +234,7 @@
         "probabilita": 0.61
       },
       "nota": "Il Casa Pia è ultimo con il peggior attacco e la peggior difesa del campionato (1 gol fatto, 15 subiti in 6 gare).",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Estoril o pareggio",

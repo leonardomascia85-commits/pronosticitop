@@ -250,11 +250,7 @@
         "probabilita": 0.5
       },
       "nota": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare.",
-      "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "1-0",
-        "aggiornato": "2026-09-20T17:19:32Z"
-      },
+      "risultato": {"stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Juventus o Atalanta",
@@ -288,11 +284,7 @@
         "probabilita": 0.55
       },
       "nota": "Milan ancora imbattuto, Lecce ha la difesa più fragile tra le squadre di metà classifica (7 gol subiti nelle ultime 3).",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "in_corso", "punteggio": "1-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Milan o pareggio",

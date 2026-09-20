@@ -232,11 +232,7 @@
         "probabilita": 0.51
       },
       "nota": "Il Betis viaggia a 15 punti in 6 gare (5 vittorie), nettamente meglio del Deportivo neopromosso.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Deportivo La Coruna o Real Betis",
@@ -270,11 +266,7 @@
         "probabilita": 0.65
       },
       "nota": "Entrambe con difese fragili e attacchi discreti: match aperto tra due squadre di centroclassifica in difficoltà.",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      },
+      "risultato": {"stato": "finale", "punteggio": "1-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Villarreal o Levante",
