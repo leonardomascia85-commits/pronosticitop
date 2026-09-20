@@ -284,7 +284,7 @@
         "probabilita": 0.55
       },
       "nota": "Milan ancora imbattuto, Lecce ha la difesa più fragile tra le squadre di metà classifica (7 gol subiti nelle ultime 3).",
-      "risultato": {"stato": "secondo_tempo", "punteggio": "2-0", "aggiornato": "2026-09-20T20:20:32+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "3-0", "aggiornato": "2026-09-20T21:17:07+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Milan o pareggio",
