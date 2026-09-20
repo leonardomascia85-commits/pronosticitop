@@ -92,19 +92,30 @@ def combo_prob(events):
     for e in events: p *= e['probabilita_stimata']
     return p
 
-def build_level(level, n_events, n_variants, elig_threshold):
-    eligible = [e for e in pool if e['probabilita_stimata'] >= elig_threshold]
+def build_level(level, n_events, n_variants, elig_threshold, min_threshold):
+    # Non scendiamo mai sotto min_threshold: se il pool a elig_threshold non basta
+    # per costruire n_variants combo diverse, allarghiamo la soglia a piccoli passi
+    # (mai sotto il minimo) invece di infilare eventi deboli pur di riempire la schedina.
+    threshold = elig_threshold
     candidates = []
-    seen = set()
-    tries = 0
-    while len(candidates) < 40 and tries < 400:
-        tries += 1
-        combo = diverse_pick(eligible, n_events)
-        if not combo: continue
-        key = frozenset(e['partita'] for e in combo)
-        if key in seen: continue
-        seen.add(key)
-        candidates.append(combo)
+    while True:
+        eligible = [e for e in pool if e['probabilita_stimata'] >= threshold]
+        candidates = []
+        seen = set()
+        tries = 0
+        while len(candidates) < 40 and tries < 400:
+            tries += 1
+            combo = diverse_pick(eligible, n_events)
+            if not combo: continue
+            key = frozenset(e['partita'] for e in combo)
+            if key in seen: continue
+            seen.add(key)
+            candidates.append(combo)
+        if len(candidates) >= n_variants or threshold <= min_threshold:
+            if threshold < elig_threshold:
+                print(f"Livello {level}: soglia {elig_threshold} troppo stretta per il pool disponibile, allargata a {threshold:.2f}")
+            break
+        threshold = round(max(min_threshold, threshold - 0.03), 2)
     # sort candidates by combined probability, descending (safest first)
     candidates.sort(key=lambda c: -combo_prob(c))
     # spread selection across the sorted candidate list from safest to riskiest
@@ -130,10 +141,10 @@ def build_level(level, n_events, n_variants, elig_threshold):
     return schedine
 
 schedine = []
-schedine += build_level(4, 4, 4, 0.58)
-schedine += build_level(5, 5, 4, 0.54)
-schedine += build_level(6, 6, 3, 0.52)
-schedine += build_level(7, 7, 3, 0.0)
+schedine += build_level(4, 4, 4, elig_threshold=0.70, min_threshold=0.65)
+schedine += build_level(5, 5, 4, elig_threshold=0.65, min_threshold=0.60)
+schedine += build_level(6, 6, 3, elig_threshold=0.58, min_threshold=0.55)
+schedine += build_level(7, 7, 3, elig_threshold=0.55, min_threshold=0.52)
 
 today = NOW.date().isoformat()
 out = {
