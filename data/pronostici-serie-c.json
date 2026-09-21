@@ -658,7 +658,7 @@
         "probabilita": 0.57
       },
       "nota": "Lo Spezia è capolista con 13 punti su 15 disponibili e una delle migliori difese del girone (2 gol subiti, alla pari del Ravenna); il Vis Pesaro è ultimo con la peggior difesa del gruppo (12 reti incassate in 5 gare).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "3-1", "aggiornato": "2026-09-21T22:19:36+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Spezia o pareggio",
