@@ -13,6 +13,20 @@
       ],
       "promosso_il": "2026-09-20T22:30:00+02:00",
       "articolo": "/notizie/schedina-vincente-20-settembre-2026.html"
+    },
+    {
+      "id": "L4-1",
+      "settimana": "2026-09-19",
+      "livello_rischio": 4,
+      "quota_combinata": 5.29,
+      "eventi": [
+        { "partita": "Spezia - Vis Pesaro", "pronostico": "Vittoria Spezia", "risultato": "3-1" },
+        { "partita": "Fiorentina - Napoli", "pronostico": "Gol/Gol", "risultato": "1-1" },
+        { "partita": "Porto - Benfica", "pronostico": "Gol/Gol", "risultato": "3-1" },
+        { "partita": "Feyenoord - FC Utrecht", "pronostico": "Vittoria Feyenoord", "risultato": "5-0" }
+      ],
+      "promosso_il": "2026-09-22T00:20:00+02:00",
+      "articolo": "/notizie/schedina-vincente-21-settembre-2026.html"
     }
   ]
 }
