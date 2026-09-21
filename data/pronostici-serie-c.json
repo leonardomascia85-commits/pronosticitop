@@ -293,7 +293,7 @@
         "probabilita": 0.64
       },
       "nota": "Il Trento è imbattuto dopo 5 giornate (9 punti, 3 pareggi) con una difesa solida (3 gol subiti); la Pro Vercelli ha lo stesso numero di reti fatte (5) ma una retroguardia più fragile (6 subiti).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-21T21:19:44+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Trento o pareggio",
@@ -328,7 +328,7 @@
         "probabilita": 0.55
       },
       "nota": "Il Treviso ha uno dei migliori attacchi del girone (7 gol in 5 gare) e gioca in casa; il Desenzano Calvina ha già incassato 6 reti nelle prime 5 uscite.",
-      "risultato": {"stato": "secondo_tempo", "punteggio": "0-0", "aggiornato": "2026-09-21T20:20:49+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-0", "aggiornato": "2026-09-21T21:19:44+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Treviso o pareggio",
