@@ -258,7 +258,7 @@
         "probabilita": 0.72
       },
       "nota": "Le Dolomiti Bellunesi sono imbattute (9 punti, 3 pareggi) e vantano una delle migliori difese del girone, alla pari del capolista Cittadella (2 gol subiti in 5 gare); il Lumezzane arriva da un rendimento altalenante (1V-2N-2P).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-21T20:20:49+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Dolomiti Bellunesi o pareggio",
@@ -328,7 +328,7 @@
         "probabilita": 0.55
       },
       "nota": "Il Treviso ha uno dei migliori attacchi del girone (7 gol in 5 gare) e gioca in casa; il Desenzano Calvina ha già incassato 6 reti nelle prime 5 uscite.",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "secondo_tempo", "punteggio": "0-0", "aggiornato": "2026-09-21T20:20:49+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Treviso o pareggio",
@@ -588,7 +588,7 @@
         "probabilita": 0.56
       },
       "nota": "Il Livorno ha 10 punti e 3 vittorie nelle prime 5 gare; la Guidonia Montecelio resta comunque solida in casa con una buona difesa (4 gol subiti).",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "0-2", "aggiornato": "2026-09-21T20:20:49+00:00"},
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Guidonia Montecelio o pareggio",
@@ -623,7 +623,7 @@
         "probabilita": 0.56
       },
       "nota": "La Pianese ha il peggior attacco del girone (1 solo gol in 5 gare); la Sambenedettese, pur ultima, ha già segnato 6 reti ma ne ha subite 10, tra le peggiori difese del gruppo.",
-      "risultato": {"stato": "in_corso", "punteggio": null, "aggiornato": "2026-09-21T19:20:15+00:00"},
+      "risultato": {"stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-21T20:20:49+00:00"},
       "pick_dc": {
         "esito": "12",
         "etichetta": "Pianese o Sambenedettese",
