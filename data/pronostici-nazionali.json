@@ -1,0 +1,183 @@
+{
+  "campionato": "Nazionali",
+  "giornata": "UEFA Nations League 2026/27 — 1ª giornata (Lega A)",
+  "periodo": "24-26 settembre 2026",
+  "aggiornato": "2026-09-22T10:30:00+02:00",
+  "partite": [
+    {
+      "casa": "Olanda",
+      "trasferta": "Germania",
+      "data": "2026-09-24T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "3V-2N-0P (ultime 5), 9° nel ranking",
+      "forma_trasferta": "attacco prolifico, media 3.1 gol/partita nelle ultime uscite",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Olanda",
+        "probabilita": 0.42
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.68
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.62
+      },
+      "nota": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Serbia",
+      "trasferta": "Grecia",
+      "data": "2026-09-24T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "2V-0N-3P (ultime 5), 40° nel ranking",
+      "forma_trasferta": "0V-3N-2P (ultime 5), attacco fermo a 2 gol nelle ultime 5",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Serbia",
+        "probabilita": 0.46
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.62
+      },
+      "nota": "Due nazionali reduci da un periodo opaco; la maggiore vena realizzativa della Serbia la rende leggermente favorita in un match da pochi gol.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Portogallo",
+      "trasferta": "Galles",
+      "data": "2026-09-24T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "2V-2N-1P (ultime 5), 7° nel ranking",
+      "forma_trasferta": "match da outsider del girone",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Portogallo",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Il Portogallo di Cristiano Ronaldo parte nettamente favorito contro un Galles chiamato a un'impresa in trasferta.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Norvegia",
+      "trasferta": "Danimarca",
+      "data": "2026-09-24T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "3V-0N-2P (ultime 5), quarti di finale al Mondiale 2026",
+      "forma_trasferta": "nazionale in ricostruzione, ricambio generazionale in corso",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Norvegia",
+        "probabilita": 0.43
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Norvegia o pareggio",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "nota": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Italia",
+      "trasferta": "Belgio",
+      "data": "2026-09-25T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "3V-1N-1P (ultime 5), 15° nel ranking",
+      "forma_trasferta": "avversario di alta fascia, girone con Francia e Turchia",
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Italia o pareggio",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Esordio degli azzurri nella Nations League 2026/27 all'Olimpico: equilibrio quasi totale nei modelli (1-X-2 vicinissimi), l'Italia sfrutta il fattore campo per restare imbattuta.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Turchia",
+      "trasferta": "Francia",
+      "data": "2026-09-25T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "3V-0N-2P (ultime 5), 27° nel ranking, trascinata da Yıldız e Güler",
+      "forma_trasferta": "rosa più profonda, riferimento offensivo Mbappé",
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Francia",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Repubblica Ceca",
+      "trasferta": "Croazia",
+      "data": "2026-09-26T20:45:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "girone impegnativo con Inghilterra e Spagna",
+      "forma_trasferta": "nazionale di lunga tradizione internazionale",
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Croazia",
+        "probabilita": 0.66
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.70
+      },
+      "nota": "Match apertissimo secondo i modelli (1-X-2 praticamente equidistanti): copertura sulla doppia chance esterna in un confronto da pochi gol attesi.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    },
+    {
+      "casa": "Inghilterra",
+      "trasferta": "Spagna",
+      "data": "2026-09-26T20:45:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "4V-0N-1P (ultime 5), 4° nel ranking, terzo posto al Mondiale 2026",
+      "forma_trasferta": "campione del mondo in carica",
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Inghilterra o pareggio",
+        "probabilita": 0.65
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.60
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58
+      },
+      "nota": "Il big match della giornata a Wembley: Inghilterra reduce dal terzo posto mondiale contro la Spagna campione del mondo in carica, equilibrio pressoché perfetto nei modelli.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+    }
+  ]
+}
