@@ -356,6 +356,8 @@ footer.site .fresp{margin-top:10px;font-size:12px}
 .cat-mercato{background:rgba(63,111,184,.14);color:#3f6fb8;border:1px solid rgba(63,111,184,.3)}
 .cat-anteprima{background:rgba(47,158,92,.14);color:#2f9e54;border:1px solid rgba(47,158,92,.3)}
 .cat-postpartita{background:rgba(184,121,31,.14);color:#b8791f;border:1px solid rgba(184,121,31,.3)}
+.cat-risultati{background:rgba(124,95,196,.14);color:#7c5fc4;border:1px solid rgba(124,95,196,.3)}
+.cat-programma{background:rgba(31,156,156,.14);color:#1f9c9c;border:1px solid rgba(31,156,156,.3)}
 
 .news-hero-cover{width:100%;border-radius:var(--radius);overflow:hidden;margin:18px 0 26px;border:1px solid var(--border)}
 .news-hero-cover svg{display:block;width:100%;height:auto}
