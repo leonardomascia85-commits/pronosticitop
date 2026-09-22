@@ -59,14 +59,14 @@ header.site{
   display:flex;align-items:center;justify-content:center;font-size:16px;
   box-shadow:0 2px 10px rgba(63,111,184,.4);
 }
-nav.mainnav{display:flex;align-items:center;gap:22px}
-nav.mainnav a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;transition:color .15s}
+nav.mainnav{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px 15px}
+nav.mainnav a{color:var(--muted);text-decoration:none;font-size:13.5px;font-weight:500;white-space:nowrap;transition:color .15s}
 nav.mainnav a:hover{color:var(--text)}
 nav.mainnav a.active{color:var(--text)}
 .navtoggle{display:none;background:none;border:1px solid var(--border);border-radius:8px;color:var(--text);width:38px;height:38px;cursor:pointer;font-size:18px}
 
 .navdrop{position:relative}
-.navdrop-btn{background:none;border:none;color:var(--muted);font-size:14px;font-weight:500;cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:4px;font-family:inherit;transition:color .15s}
+.navdrop-btn{background:none;border:none;color:var(--muted);font-size:13.5px;font-weight:500;cursor:pointer;padding:0;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;font-family:inherit;transition:color .15s}
 .navdrop-btn:hover{color:var(--text)}
 .navdrop-btn .caret{font-size:10px;transition:transform .15s}
 .navdrop-btn[aria-expanded="true"] .caret{transform:rotate(180deg)}

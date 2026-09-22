@@ -162,6 +162,7 @@ PTCampionato.render('/data/pronostici-nazionali.json');
   }
   var STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
   var RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio', 8:'Rischio alto' };
+  var MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol' };
 
   function fmtPct(x){ return Math.round(x*100) + '%'; }
 
@@ -185,18 +186,20 @@ PTCampionato.render('/data/pronostici-nazionali.json');
         if(li.state === 'pending') resTxt = '⏳';
         else if(li.state === 'live') resTxt = '<span class="ev-live"><span class="live-dot"></span>' + li.faseLabel + (li.punteggio ? ' ' + li.punteggio : '') + '</span>';
         else resTxt = (li.state==='win' ? '✅' : '❌') + (li.punteggio ? ' ' + li.punteggio : '');
+        var mercatoLabel = ev.mercato === 'DC' ? (ev.esito_pick || 'DC') : (MARKET_LABELS[ev.mercato] || ev.mercato);
         return '<tr>' +
           '<td><div class="ev-match">' + ev.partita + '</div><div class="ev-league">' + (ev.girone || 'Nazionali') + '</div></td>' +
-          '<td class="ev-pick">' + ev.pronostico + '<br><span class="ev-league">' + ev.mercato + '</span></td>' +
+          '<td class="ev-pick">' + ev.pronostico + '<br><span class="ev-league">' + mercatoLabel + '</span></td>' +
           '<td class="ev-p">' + fmtPct(ev.probabilita_stimata) + '</td>' +
           '<td class="ev-res">' + resTxt + '</td>' +
         '</tr>';
       }).join('');
+      var probMedia = sch.eventi.reduce(function(s,e){ return s + e.probabilita_stimata; }, 0) / sch.eventi.length;
       html += '<div class="card' + (st === 'win' ? ' is-winner' : '') + '">' +
         '<div class="card-head">' +
           '<span class="name">Schedina ' + sch.eventi.length + 'E — Nazionali</span>' +
           '<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ' + sch.quota_combinata.toFixed(2) + '</span>' +
-          '<span class="prob">Prob. combinata ' + fmtPct(sch.probabilita_combinata) + '</span>' +
+          '<span class="prob">Prob. media ' + fmtPct(probMedia) + '</span>' +
           '<span class="status-pill status-' + st + '">' + STATUS_LABELS[st] + '</span>' +
         '</div>' +
         '<table class="events">' + rows + '</table>' +
