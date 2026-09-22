@@ -84,6 +84,7 @@
 
 <main>
   <div class="ad-slot">Spazio pubblicitario</div>
+  <div id="nazionaliSchedineRoot"></div>
   <div class="giornata-banner" id="giornataLabel">Caricamento…</div>
   <div class="matches-grid" id="matchesRoot"></div>
   <div class="ad-slot">Spazio pubblicitario</div>
@@ -121,6 +122,90 @@ document.addEventListener('click', function(){
   document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
 });
 PTCampionato.render('/data/pronostici-nazionali.json');
+
+(function(){
+  var STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T' };
+
+  function parseScore(punteggio){
+    if(!punteggio) return null;
+    var parts = punteggio.split('-').map(function(x){ return parseInt(x,10); });
+    if(parts.length !== 2 || isNaN(parts[0]) || isNaN(parts[1])) return null;
+    return { home: parts[0], away: parts[1] };
+  }
+  function actualEsiti(score){
+    if(!score) return null;
+    return {
+      '1X2': score.home > score.away ? '1' : (score.home < score.away ? '2' : 'X'),
+      'OU25': (score.home + score.away) > 2.5 ? 'over' : 'under',
+      'OU35': (score.home + score.away) > 3.5 ? 'over' : 'under',
+      'GGNG': (score.home > 0 && score.away > 0) ? 'gol' : 'nogol'
+    };
+  }
+  function liveInfo(ev, lookup){
+    var risultato = lookup[ev.partita];
+    if(!risultato || risultato.stato === 'non_iniziata') return { state:'pending' };
+    var score = parseScore(risultato.punteggio);
+    var actual = actualEsiti(score);
+    if(risultato.stato === 'finale'){
+      if(!actual) return { state:'pending' };
+      var won = ev.mercato === 'DC' ? ev.esito_pick.indexOf(actual['1X2']) !== -1 : actual[ev.mercato] === ev.esito_pick;
+      return { state: won ? 'win' : 'lose', punteggio: risultato.punteggio };
+    }
+    return { state:'live', punteggio: risultato.punteggio, faseLabel: STATUS_LABELS_LIVE[risultato.stato] || 'LIVE' };
+  }
+  function schedinaStatusLive(sch, lookup){
+    var states = sch.eventi.map(function(e){ return liveInfo(e, lookup).state; });
+    if(states.some(function(s){ return s==='lose'; })) return 'lose';
+    if(states.every(function(s){ return s==='win'; })) return 'win';
+    if(states.some(function(s){ return s==='live'; })) return 'live';
+    return 'pending';
+  }
+  var STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
+  var RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio', 8:'Rischio alto' };
+
+  function fmtPct(x){ return Math.round(x*100) + '%'; }
+
+  Promise.all([
+    fetch('/data/nazionali-schedine.json').then(function(r){ if(!r.ok) throw new Error('no'); return r.json(); }),
+    fetch('/data/pronostici-nazionali.json').then(function(r){ return r.json(); })
+  ]).then(function(res){
+    var data = res[0], matchesData = res[1];
+    var lookup = {};
+    (matchesData.partite || []).forEach(function(p){ lookup[p.casa + ' - ' + p.trasferta] = p.risultato; });
+
+    var root = document.getElementById('nazionaliSchedineRoot');
+    if(!data.schedine || !data.schedine.length){ return; }
+
+    var html = '<div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>Schedine consigliate — Nazionali</h2></div><div class="cards">';
+    data.schedine.forEach(function(sch, idx){
+      var st = schedinaStatusLive(sch, lookup);
+      var rows = sch.eventi.map(function(ev){
+        var li = liveInfo(ev, lookup);
+        var resTxt;
+        if(li.state === 'pending') resTxt = '⏳';
+        else if(li.state === 'live') resTxt = '<span class="ev-live"><span class="live-dot"></span>' + li.faseLabel + (li.punteggio ? ' ' + li.punteggio : '') + '</span>';
+        else resTxt = (li.state==='win' ? '✅' : '❌') + (li.punteggio ? ' ' + li.punteggio : '');
+        return '<tr>' +
+          '<td><div class="ev-match">' + ev.partita + '</div><div class="ev-league">' + (ev.girone || 'Nazionali') + '</div></td>' +
+          '<td class="ev-pick">' + ev.pronostico + '<br><span class="ev-league">' + ev.mercato + '</span></td>' +
+          '<td class="ev-p">' + fmtPct(ev.probabilita_stimata) + '</td>' +
+          '<td class="ev-res">' + resTxt + '</td>' +
+        '</tr>';
+      }).join('');
+      html += '<div class="card' + (st === 'win' ? ' is-winner' : '') + '">' +
+        '<div class="card-head">' +
+          '<span class="name">Schedina ' + sch.eventi.length + 'E — Nazionali</span>' +
+          '<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ' + sch.quota_combinata.toFixed(2) + '</span>' +
+          '<span class="prob">Prob. combinata ' + fmtPct(sch.probabilita_combinata) + '</span>' +
+          '<span class="status-pill status-' + st + '">' + STATUS_LABELS[st] + '</span>' +
+        '</div>' +
+        '<table class="events">' + rows + '</table>' +
+      '</div>';
+    });
+    html += '</div>';
+    root.innerHTML = html;
+  }).catch(function(){});
+})();
 </script>
 </body>
 </html>
