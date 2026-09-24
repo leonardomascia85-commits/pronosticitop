@@ -27,7 +27,7 @@
         "probabilita": 0.62
       },
       "nota": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": "0-1", "aggiornato": "2026-09-24T22:20:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-25T00:25:00+02:00" }
     },
     {
       "casa": "Serbia",
@@ -47,7 +47,7 @@
         "probabilita": 0.62
       },
       "nota": "Due nazionali reduci da un periodo opaco; la maggiore vena realizzativa della Serbia la rende leggermente favorita in un match da pochi gol.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": null, "aggiornato": "2026-09-24T22:20:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-25T00:25:00+02:00" }
     },
     {
       "casa": "Portogallo",
@@ -67,7 +67,7 @@
         "probabilita": 0.54
       },
       "nota": "Il Portogallo di Cristiano Ronaldo parte nettamente favorito contro un Galles chiamato a un'impresa in trasferta.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": null, "aggiornato": "2026-09-24T22:20:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "1-0", "aggiornato": "2026-09-25T00:25:00+02:00" }
     },
     {
       "casa": "Norvegia",
@@ -92,7 +92,7 @@
         "probabilita": 0.56
       },
       "nota": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": null, "aggiornato": "2026-09-24T22:20:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "3-2", "aggiornato": "2026-09-25T00:25:00+02:00" }
     },
     {
       "casa": "Italia",
