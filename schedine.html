@@ -286,14 +286,14 @@ function renderWeek(week, lookup){
   }
 
   const byLevel = {};
-  (week.schedine||[]).forEach(s => { (byLevel[s.livello_rischio] = byLevel[s.livello_rischio] || []).push(s); });
+  (week.schedine||[]).filter(s => s.stato !== 'archiviata').forEach(s => { (byLevel[s.livello_rischio] = byLevel[s.livello_rischio] || []).push(s); });
 
   const content = document.getElementById('content');
   content.innerHTML = '';
 
   const levels = Object.keys(byLevel).map(Number).sort((a,b)=>a-b);
   if(!levels.length){
-    content.innerHTML = '<div class="empty">Nessuna schedina disponibile per questo turno.</div>';
+    content.innerHTML = '<div class="empty">Le schedine di questo turno sono concluse: a breve saranno pubblicate le nuove.</div>';
     return;
   }
 
@@ -414,7 +414,7 @@ async function init(){
     const lookup = await buildLiveLookup(data);
     renderWeek(data, lookup);
     const statEl = document.getElementById('statSchedine');
-    if(statEl && data.schedine) statEl.textContent = data.schedine.length;
+    if(statEl && data.schedine) statEl.textContent = data.schedine.filter(s => s.stato !== 'archiviata').length;
   }
 
   select.addEventListener('change', () => loadWeek(select.value));
