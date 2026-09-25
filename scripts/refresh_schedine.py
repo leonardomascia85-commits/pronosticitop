@@ -1,10 +1,10 @@
-"""Archivia le schedine (nelle schedine principali del sito, non Nazionali) i cui
-eventi sono TUTTI terminati, registrando il risultato reale di ciascun evento, e
-pubblica al loro posto una nuova schedina allo stesso livello di rischio pescando
-dagli eventi non ancora iniziati attualmente disponibili nei file dati dei
-campionati. Se in quel momento non ci sono abbastanza partite future per un
-livello, la schedina viene comunque archiviata ma non sostituita in questa
-esecuzione (verra' ritentata alla prossima).
+"""Archivia le schedine (sia quelle principali multi-campionato sia quelle della
+sezione Nazionali) i cui eventi sono TUTTI terminati, registrando il risultato
+reale di ciascun evento, e pubblica al loro posto una nuova schedina allo
+stesso livello di rischio pescando dagli eventi non ancora iniziati
+attualmente disponibili. Se in quel momento non ci sono abbastanza partite
+future per un livello, la schedina viene comunque archiviata ma non sostituita
+in questa esecuzione (verra' ritentata alla prossima).
 
 Uso: python3 scripts/refresh_schedine.py dalla root del repo.
 Dopo l'esecuzione: validare con python3 -m json.tool sui file segnalati come
@@ -49,6 +49,12 @@ def load_results():
         d = json.load(open(path, encoding='utf-8'))
         for p in d.get('partite', []):
             lookup[name + '||' + p['casa'] + ' - ' + p['trasferta']] = p.get('risultato', {})
+
+    naz_path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
+    if os.path.exists(naz_path):
+        d = json.load(open(naz_path, encoding='utf-8'))
+        for p in d.get('partite', []):
+            lookup['Nazionali||' + p['casa'] + ' - ' + p['trasferta']] = p.get('risultato', {})
     return lookup
 
 
@@ -163,6 +169,62 @@ def build_pool():
     return pool
 
 
+def build_pool_nazionali():
+    path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
+    if not os.path.exists(path):
+        return []
+    d = json.load(open(path, encoding='utf-8'))
+    pool = []
+    for p in d.get('partite', []):
+        if p.get('risultato', {}).get('stato') != 'non_iniziata':
+            continue
+        try:
+            kickoff = datetime.datetime.fromisoformat(p['data'])
+        except Exception:
+            continue
+        if kickoff <= NOW:
+            continue
+        markets = []
+        if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
+        if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
+        if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
+        if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
+        if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
+        if not markets:
+            continue
+        best = max(markets, key=lambda m: m[1]['probabilita'])
+        pool.append({
+            'partita': f"{p['casa']} - {p['trasferta']}",
+            'campionato': 'Nazionali',
+            'girone': p.get('girone'),
+            'data': p['data'],
+            'mercato': best[0],
+            'pronostico': best[1]['etichetta'],
+            'esito_pick': best[1]['esito'],
+            'probabilita_stimata': round(best[1]['probabilita'], 2),
+            'quota_stimata': round(1 / best[1]['probabilita'], 2),
+            'confidenza_dati': confidenza(best[1]['probabilita']),
+            'motivazione': p['nota'],
+            'esito': None,
+            'risultato_reale': None,
+        })
+    pool.sort(key=lambda x: -x['probabilita_stimata'])
+    return pool
+
+
+def pick_combo_nazionali(pool, n):
+    """Pool delle Nazionali sempre piccolo (una sola finestra alla volta):
+    prende semplicemente i migliori n eventi per probabilita' stimata."""
+    if len(pool) < n:
+        return None
+    return pool[:n]
+
+
+def is_nazionali_schedina(sch):
+    eventi = sch.get('eventi') or []
+    return bool(eventi) and all(e.get('campionato') == 'Nazionali' for e in eventi)
+
+
 def combo_prob(events):
     p = 1.0
     for e in events:
@@ -217,6 +279,7 @@ def main():
     settimane = json.load(open(settimane_path, encoding='utf-8'))
     lookup = load_results()
     pool = None
+    pool_naz = None
     changed_files = []
     summary = []
 
@@ -244,11 +307,18 @@ def main():
             file_changed = True
             summary.append(f"{fn}: {sch['id']} archiviata ({sch['esito_finale']})")
 
-            if pool is None:
-                pool = build_pool()
             n = len(sch['eventi'])
             level = sch['livello_rischio']
-            combo = pick_combo(pool, n, level)
+            nazionale = is_nazionali_schedina(sch)
+            if nazionale:
+                if pool_naz is None:
+                    pool_naz = build_pool_nazionali()
+                combo = pick_combo_nazionali(pool_naz, n)
+            else:
+                if pool is None:
+                    pool = build_pool()
+                combo = pick_combo(pool, n, level)
+
             if combo:
                 pc = combo_prob(combo)
                 new_id = next_id([s['id'] for s in data['schedine']], level)
@@ -261,7 +331,10 @@ def main():
                     'eventi': combo,
                 })
                 used = {e['partita'] for e in combo}
-                pool = [e for e in pool if e['partita'] not in used]
+                if nazionale:
+                    pool_naz = [e for e in pool_naz if e['partita'] not in used]
+                else:
+                    pool = [e for e in pool if e['partita'] not in used]
                 summary.append(f"{fn}: nuova schedina {new_id} pubblicata ({n} eventi, prob {pc:.3f})")
             else:
                 summary.append(f"{fn}: nessuna sostituta pubblicata per livello {level} "

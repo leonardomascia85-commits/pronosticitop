@@ -1,6 +1,11 @@
 {
   "settimane": [
     {
+      "id": "nazionali-2026-09-24",
+      "titolo": "Nazionali — Nations League, 1ª giornata (Lega A)",
+      "file": "nazionali-schedine.json"
+    },
+    {
       "id": "2026-09-19",
       "titolo": "Weekend 19–21 settembre 2026",
       "file": "2026-09-19.json"

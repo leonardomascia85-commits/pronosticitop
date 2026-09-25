@@ -2,7 +2,7 @@
   "id": "2026-09-15",
   "titolo": "Weekend 18–20 settembre 2026",
   "generato_il": "2026-09-13",
-  "aggiornato_il": "2026-09-13 (finestra ristretta al weekend venerdi-sabato-domenica)",
+  "aggiornato_il": "2026-09-25",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Serie A",
@@ -31,8 +31,8 @@
           "quota_stimata": 1.11,
           "confidenza_dati": "ALTA",
           "motivazione": "Union Berlin 1pt/3 (0V-1N-2P, -6 diff. reti), tra le peggiori difese del campionato; Bayern nettamente più forte.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "Roma - Inter",
@@ -44,8 +44,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "MEDIA",
           "motivazione": "Copertura doppia chance sulla gara equilibrata Roma 2ª / Inter 3ª a pari punti (9pt/3 entrambe).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Fiorentina - Napoli",
@@ -57,8 +57,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "MEDIA",
           "motivazione": "Fiorentina 15° (peggior difesa tra le big, allenatore appena esonerato) contro Napoli 12°.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Juventus - Atalanta",
@@ -70,10 +70,13 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Juventus 8° con 7pt e miglior difesa del campionato (4-1 gol) contro Atalanta 9° (6pt).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-09-25T05:26:09.705826+00:00"
     },
     {
       "id": "L4-2",
@@ -271,8 +274,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "MEDIA",
           "motivazione": "Copertura doppia chance sulla gara equilibrata Roma 2ª / Inter 3ª a pari punti (9pt/3 entrambe).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Bournemouth - Liverpool",
@@ -284,8 +287,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Liverpool 18 vittorie su 22 precedenti, 6pt senza sconfitte; Bournemouth 3pt (0V-3N-1P).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Venezia - Lazio",
@@ -297,8 +300,8 @@
           "quota_stimata": 1.33,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio 1ª in classifica con 10pt/4, Venezia 20ª e ultima con 0pt/4 dopo 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Palermo - Padova",
@@ -310,8 +313,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "MEDIA",
           "motivazione": "Palermo 1° con 9pt/3 (striscia di 3 vittorie, 7-3 gol); Padova 6° con 7pt/4. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Manchester City - Sunderland",
@@ -323,10 +326,13 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "MEDIA",
           "motivazione": "Manchester City 2° (9pt, 7-2 gol) contro Sunderland 14° (4pt, 3-5 gol).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-3"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-09-25T05:26:09.705826+00:00"
     },
     {
       "id": "L5-2",
@@ -563,8 +569,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Arsenal 1° imbattuto con 12pt (4V-0N-0P); imbattuto nelle ultime 7 sfide dirette (5V-2N).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Roma - Inter",
@@ -576,8 +582,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "MEDIA",
           "motivazione": "Copertura doppia chance sulla gara equilibrata Roma 2ª / Inter 3ª a pari punti (9pt/3 entrambe).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Bournemouth - Liverpool",
@@ -589,8 +595,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Liverpool 18 vittorie su 22 precedenti, 6pt senza sconfitte; Bournemouth 3pt (0V-3N-1P).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Udinese - Cagliari",
@@ -602,8 +608,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA",
           "motivazione": "Cagliari 4° con 9pt/4 (ottima forma), Udinese solo 11° con 4pt/3.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Venezia - Lazio",
@@ -615,8 +621,8 @@
           "quota_stimata": 1.33,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio 1ª in classifica con 10pt/4, Venezia 20ª e ultima con 0pt/4 dopo 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Milan - Lecce",
@@ -628,10 +634,13 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Milan 5° (8pt, 7-4 gol) contro Lecce 14° (3pt, 2-5 gol); quota di mercato Milan 1.39 conferma il forte squilibrio.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-09-25T05:26:09.705826+00:00"
     },
     {
       "id": "L6-2",

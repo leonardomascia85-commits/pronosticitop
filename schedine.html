@@ -185,12 +185,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
-const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto' };
+const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto', 8:'Rischio alto' };
 const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
   'Ligue 1':'#2f5fa8', 'Liga Portugal':'#2f9e54', 'Eredivisie':'#e8720c',
-  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b'
+  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b', 'Nazionali':'#3f6fb8'
 };
 function leagueBadge(name){
   const c = LEAGUE_COLORS[name] || '#5b6472';
@@ -212,7 +212,8 @@ const LEAGUE_FILES = {
   'Premier League':'pronostici-premier-league.json', 'La Liga':'pronostici-la-liga.json',
   'Bundesliga':'pronostici-bundesliga.json', 'Ligue 1':'pronostici-ligue-1.json',
   'Liga Portugal':'pronostici-liga-portugal.json', 'Eredivisie':'pronostici-eredivisie.json',
-  'Brasileirão':'pronostici-brasileirao.json', 'Champions League':'pronostici-champions-league.json'
+  'Brasileirão':'pronostici-brasileirao.json', 'Champions League':'pronostici-champions-league.json',
+  'Nazionali':'pronostici-nazionali.json'
 };
 
 function parseScore(punteggio){
