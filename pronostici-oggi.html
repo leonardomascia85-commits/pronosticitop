@@ -130,7 +130,8 @@ const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
   'Ligue 1':'#2f5fa8', 'Liga Portugal':'#2f9e54', 'Eredivisie':'#e8720c',
-  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b', 'Europa League':'#c97a1f', 'Conference League':'#2f9e54'
+  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b', 'Europa League':'#c97a1f', 'Conference League':'#2f9e54',
+  'Nazionali':'#3f6fb8'
 };
 function leagueBadge(name){
   const c = LEAGUE_COLORS[name] || '#5b6472';
@@ -218,6 +219,13 @@ async function loadTodayMatches(todayKey){
       (comp.partite||[]).forEach(p => {
         if(romeDateKey(p.data) === todayKey) matches.push(Object.assign({}, p, { campionato: comp.nome }));
       });
+    });
+  } catch(e){ /* file non disponibile */ }
+
+  try{
+    const d = await fetch('/data/pronostici-nazionali.json').then(r=>r.json());
+    (d.partite||[]).forEach(p => {
+      if(romeDateKey(p.data) === todayKey) matches.push(Object.assign({}, p, { campionato: 'Nazionali' }));
     });
   } catch(e){ /* file non disponibile */ }
 
