@@ -177,7 +177,7 @@
         "probabilita": 0.62
       },
       "nota": "Esordio degli azzurri nella Nations League 2026/27 all'Olimpico: equilibrio quasi totale nei modelli (1-X-2 vicinissimi), l'Italia sfrutta il fattore campo per restare imbattuta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": { "stato": "secondo_tempo", "punteggio": "2-2", "aggiornato": "2026-09-25T22:20:00+02:00" }
     },
     {
       "casa": "Turchia",
@@ -212,7 +212,7 @@
         "probabilita": 0.66
       },
       "nota": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": { "stato": "secondo_tempo", "punteggio": "0-1", "aggiornato": "2026-09-25T22:20:00+02:00" }
     },
     {
       "casa": "Repubblica Ceca",
