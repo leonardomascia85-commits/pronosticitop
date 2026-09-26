@@ -3,7 +3,7 @@
   "titolo": "Nazionali — UEFA Nations League 2026/27 — 1ª giornata (Lega A)",
   "periodo": "24-26 settembre 2026",
   "generato_il": "2026-09-22",
-  "aggiornato_il": "2026-09-22",
+  "aggiornato_il": "2026-09-26",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite sugli eventi reali della finestra nazionali in corso (stessi dati pubblicati in /nazionali.html: ranking, forma recente, gol fatti/subiti). Ogni evento usa il mercato (1X2, doppia chance, Under/Over, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le schedine combinano sempre gli eventi con la probabilita' stimata piu' alta disponibile nel turno.",
   "schedine": [
@@ -25,8 +25,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Turchia - Francia",
@@ -40,8 +40,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Repubblica Ceca - Croazia",
@@ -55,8 +55,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Match apertissimo secondo i modelli (1-X-2 praticamente equidistanti): copertura sulla doppia chance esterna in un confronto da pochi gol attesi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Olanda - Germania",
@@ -70,10 +70,13 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-09-26T22:18:43.388714+00:00"
     },
     {
       "id": "L5-1",
@@ -93,8 +96,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Turchia - Francia",
@@ -108,8 +111,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Repubblica Ceca - Croazia",
@@ -123,8 +126,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Match apertissimo secondo i modelli (1-X-2 praticamente equidistanti): copertura sulla doppia chance esterna in un confronto da pochi gol attesi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Olanda - Germania",
@@ -138,8 +141,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Italia - Belgio",
@@ -153,10 +156,13 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Esordio degli azzurri nella Nations League 2026/27 all'Olimpico: equilibrio quasi totale nei modelli (1-X-2 vicinissimi), l'Italia sfrutta il fattore campo per restare imbattuta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-09-26T22:18:43.388714+00:00"
     },
     {
       "id": "L8-1",
@@ -176,8 +182,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Turchia - Francia",
@@ -191,8 +197,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Repubblica Ceca - Croazia",
@@ -206,8 +212,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Match apertissimo secondo i modelli (1-X-2 praticamente equidistanti): copertura sulla doppia chance esterna in un confronto da pochi gol attesi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Olanda - Germania",
@@ -221,8 +227,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Italia - Belgio",
@@ -236,8 +242,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Esordio degli azzurri nella Nations League 2026/27 all'Olimpico: equilibrio quasi totale nei modelli (1-X-2 vicinissimi), l'Italia sfrutta il fattore campo per restare imbattuta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Inghilterra - Spagna",
@@ -251,8 +257,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata a Wembley: Inghilterra reduce dal terzo posto mondiale contro la Spagna campione del mondo in carica, equilibrio pressoché perfetto nei modelli.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Serbia - Grecia",
@@ -266,8 +272,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Due nazionali reduci da un periodo opaco; la maggiore vena realizzativa della Serbia la rende leggermente favorita in un match da pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Portogallo - Galles",
@@ -281,10 +287,13 @@
           "quota_stimata": 1.82,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Portogallo di Cristiano Ronaldo parte nettamente favorito contro un Galles chiamato a un'impresa in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-09-26T22:18:43.388714+00:00"
     }
   ]
 }
