@@ -317,7 +317,7 @@
         "probabilita": 0.68
       },
       "nota": "2ª giornata ravvicinata rispetto alla prima: la Serbia, reduce dal ko interno, ospita un'Olanda nettamente favorita nei modelli nonostante il pareggio d'esordio.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": { "stato": "in_corso", "punteggio": "0-0", "aggiornato": "2026-09-27T18:18:00+02:00" }
     },
     {
       "casa": "Germania",
@@ -387,7 +387,7 @@
         "probabilita": 0.76
       },
       "nota": "La Danimarca gioca in casa contro il fanalino di coda del girone dopo il ko con la Norvegia: match abbordabile secondo i modelli, ma da pochi gol attesi.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": { "stato": "in_corso", "punteggio": "0-0", "aggiornato": "2026-09-27T18:18:00+02:00" }
     },
     {
       "casa": "Norvegia",
