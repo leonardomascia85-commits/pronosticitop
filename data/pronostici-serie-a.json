@@ -1,300 +1,148 @@
 {
   "campionato": "Serie A",
-  "giornata": "5ª giornata",
-  "periodo": "18-20 settembre 2026",
-  "aggiornato": "2026-09-14",
+  "giornata": "6ª giornata",
+  "periodo": "9-12 ottobre 2026",
+  "aggiornato": "2026-09-27",
   "partite": [
     {
-      "casa": "Monza",
-      "trasferta": "Sassuolo",
-      "data": "2026-09-18T20:45:00+02:00",
-      "forma_casa": "L-D-L (ultime 3)",
-      "forma_trasferta": "W-D-W (ultime 3)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Sassuolo",
-        "probabilita": 0.48
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.62
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.64
-      },
-      "nota": "Monza ancora senza vittorie e con una difesa che ha concesso 7 gol nelle ultime 3; Sassuolo in buona forma, reduce dal successo sulla Juventus.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-09-19T08:47:56Z"
-      }
+      "casa": "Genoa",
+      "trasferta": "Fiorentina",
+      "data": "2026-10-10T15:00:00+02:00",
+      "forma_casa": "1 pt in 5 gare (ultimo), sconfitta 1-2 vs Parma nell'ultimo turno",
+      "forma_trasferta": "forma esatta non trovata, pareggio 1-1 vs Napoli nell'ultimo turno",
+      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Fiorentina", "probabilita": 0.46 },
+      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Fiorentina", "probabilita": 0.70 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "nota": "Il Genoa resta fermo a 1 punto dopo 5 giornate; la Fiorentina, pur imprecisa in avanti, parte favorita nei modelli.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Bologna",
-      "trasferta": "Torino",
-      "data": "2026-09-19T15:00:00+02:00",
-      "forma_casa": "L-D-L (ultime 3)",
-      "forma_trasferta": "L-W-L (ultime 3)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Bologna",
-        "probabilita": 0.42
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.6
-      },
-      "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.55
-      },
-      "nota": "Bologna ancora a secco di vittorie ma in casa; entrambe le squadre segnano poco nelle ultime uscite.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-09-19T20:30:00Z"
-      }
+      "casa": "Inter",
+      "trasferta": "Parma",
+      "data": "2026-10-10T18:00:00+02:00",
+      "forma_casa": "13 pt (2°), pareggio 2-2 vs Roma nell'ultimo turno",
+      "forma_trasferta": "forma esatta non trovata, vittoria 2-1 vs Genoa nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Inter", "probabilita": 0.56 },
+      "pick_dc": { "esito": "1X", "etichetta": "Inter o pareggio", "probabilita": 0.78 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "nota": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Udinese",
-      "trasferta": "Cagliari",
-      "data": "2026-09-19T15:00:00+02:00",
-      "forma_casa": "W-L-L (ultime 3)",
-      "forma_trasferta": "L-W-W (ultime 3)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Cagliari",
-        "probabilita": 0.4
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.63
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
-      },
-      "nota": "Udinese ha subito 9 gol nelle ultime 3 gare; Cagliari in ripresa ma senza Felici, out per infortunio al crociato.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-09-19T15:18:18Z"
-      }
+      "casa": "Napoli",
+      "trasferta": "Frosinone",
+      "data": "2026-10-10T20:45:00+02:00",
+      "forma_casa": "7 pt, pareggio 1-1 vs Fiorentina nell'ultimo turno",
+      "forma_trasferta": "10 pt (6°), vittoria 2-1 vs Como nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Napoli", "probabilita": 0.46 },
+      "pick_dc": { "esito": "1X", "etichetta": "Napoli o pareggio", "probabilita": 0.72 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.60 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "nota": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Roma",
-      "trasferta": "Inter",
-      "data": "2026-09-19T18:00:00+02:00",
-      "forma_casa": "W-W-W (ultime 3)",
-      "forma_trasferta": "W-W-W (ultime 3)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Roma",
-        "probabilita": 0.46
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "nota": "Sfida al vertice tra le uniche due squadre a punteggio pieno: Roma ha la miglior difesa del campionato (1 gol subito in 3 gare), Inter la fase difensiva più permeabile tra le prime (5 subiti).",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-09-19T18:17:46Z"
-      }
+      "casa": "Como",
+      "trasferta": "Roma",
+      "data": "2026-10-11T12:30:00+02:00",
+      "forma_casa": "10 pt (8°), sconfitta vs Frosinone nell'ultimo turno",
+      "forma_trasferta": "13 pt (1°), pareggio 2-2 vs Inter nell'ultimo turno",
+      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Roma", "probabilita": 0.50 },
+      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Roma", "probabilita": 0.76 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "nota": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Venezia",
-      "trasferta": "Lazio",
-      "data": "2026-09-19T20:45:00+02:00",
-      "forma_casa": "0 pt in 4 gare (0V-0N-4P), 4-11",
-      "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 6-3",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Lazio",
-        "probabilita": 0.62
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "nota": "Venezia è l'unica squadra ancora a 0 punti e ha la peggior difesa del campionato (9 gol subiti in 3 gare); Lazio imbattuta nelle ultime 3.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-09-19T21:17:29Z"
-      }
+      "casa": "Lazio",
+      "trasferta": "Monza",
+      "data": "2026-10-11T15:00:00+02:00",
+      "forma_casa": "13 pt (3°), vittoria 2-0 vs Venezia nell'ultimo turno",
+      "forma_trasferta": "forma esatta non trovata, vittoria 2-1 vs Sassuolo nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Lazio", "probabilita": 0.54 },
+      "pick_dc": { "esito": "1X", "etichetta": "Lazio o pareggio", "probabilita": 0.78 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "nota": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Fiorentina",
-      "trasferta": "Napoli",
-      "data": "2026-09-20T12:30:00+02:00",
-      "forma_casa": "3 pt in 4 gare (1V-0N-3P), 5-11",
-      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 6-5",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Napoli",
-        "probabilita": 0.57
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.62
-      },
-      "nota": "Entrambe reduci da una vittoria dopo un avvio complicato; la difesa viola resta fragile (7 gol subiti nelle ultime 3).",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-09-20T12:22:19Z"
-      }
+      "casa": "Lecce",
+      "trasferta": "Bologna",
+      "data": "2026-10-11T15:00:00+02:00",
+      "forma_casa": "6 pt, sconfitta 0-3 vs Milan nell'ultimo turno",
+      "forma_trasferta": "2 pt, pareggio 1-1 vs Torino nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Lecce", "probabilita": 0.42 },
+      "pick_dc": { "esito": "1X", "etichetta": "Lecce o pareggio", "probabilita": 0.68 },
+      "pick_gg": { "esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52 },
+      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.56 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.74 },
+      "nota": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Frosinone",
-      "trasferta": "Como",
-      "data": "2026-09-20T15:00:00+02:00",
-      "forma_casa": "7 pt in 4 gare (2V-1N-1P), 7-4",
-      "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 9-4",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Como",
-        "probabilita": 0.5
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.55
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.64
-      },
-      "nota": "Sfida tra le due squadre più in forma del campionato: Como è ancora imbattuto, il Frosinone è reduce da 2 vittorie e un pareggio in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-09-20T15:19:36Z"
-      }
+      "casa": "Sassuolo",
+      "trasferta": "Milan",
+      "data": "2026-10-11T18:00:00+02:00",
+      "forma_casa": "7 pt, sconfitta 1-2 vs Monza nell'ultimo turno",
+      "forma_trasferta": "11 pt (5°), vittoria 3-0 vs Lecce nell'ultimo turno",
+      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Milan", "probabilita": 0.50 },
+      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Milan", "probabilita": 0.76 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "nota": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Parma",
-      "trasferta": "Genoa",
-      "data": "2026-09-20T15:00:00+02:00",
-      "forma_casa": "1 pt in 4 gare (0V-1N-3P), 2-6",
-      "forma_trasferta": "1 pt in 4 gare (0V-1N-3P), 2-8",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Parma",
-        "probabilita": 0.55
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "nota": "Scontro salvezza tra le due peggiori attacchi del campionato (2 gol segnati a testa nelle ultime 3 gare).",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-09-20T15:19:36Z"
-      }
+      "casa": "Cagliari",
+      "trasferta": "Juventus",
+      "data": "2026-10-11T20:45:00+02:00",
+      "forma_casa": "12 pt (4°), vittoria 1-0 vs Udinese nell'ultimo turno",
+      "forma_trasferta": "10 pt (7°), vittoria 2-0 vs Atalanta nell'ultimo turno",
+      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Juventus", "probabilita": 0.40 },
+      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Juventus", "probabilita": 0.66 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "nota": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Juventus",
-      "trasferta": "Atalanta",
-      "data": "2026-09-20T18:00:00+02:00",
-      "forma_casa": "7 pt in 4 gare (2V-1N-1P), 6-4",
-      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 5-5",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Juventus",
-        "probabilita": 0.48
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.54
-      },
-      "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.5
-      },
-      "nota": "Juventus in emergenza infortuni (out Thuram, Locatelli e Boga) e Atalanta ancora in fase di rodaggio dopo il mercato: entrambe hanno comunque segnato in ognuna delle ultime 3 gare.",
-      "risultato": {"stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-20T19:21:57+00:00"},
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Juventus o Atalanta",
-        "probabilita": 0.74
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.75
-      }
+      "casa": "Atalanta",
+      "trasferta": "Venezia",
+      "data": "2026-10-12T18:30:00+02:00",
+      "forma_casa": "6 pt, sconfitta 0-2 vs Juventus nell'ultimo turno",
+      "forma_trasferta": "0 pt (ultimo), sconfitta 0-2 vs Lazio nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Atalanta", "probabilita": 0.58 },
+      "pick_dc": { "esito": "1X", "etichetta": "Atalanta o pareggio", "probabilita": 0.82 },
+      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
+      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "nota": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     },
     {
-      "casa": "Milan",
-      "trasferta": "Lecce",
-      "data": "2026-09-20T20:45:00+02:00",
-      "forma_casa": "8 pt in 4 gare (2V-2N-0P), 7-4",
-      "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 5-7",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Milan",
-        "probabilita": 0.57
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.55
-      },
-      "nota": "Milan ancora imbattuto, Lecce ha la difesa più fragile tra le squadre di metà classifica (7 gol subiti nelle ultime 3).",
-      "risultato": {"stato": "finale", "punteggio": "3-0", "aggiornato": "2026-09-20T21:17:07+00:00"},
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Milan o pareggio",
-        "probabilita": 0.8
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.66
-      }
+      "casa": "Torino",
+      "trasferta": "Udinese",
+      "data": "2026-10-12T20:45:00+02:00",
+      "forma_casa": "forma esatta non trovata, pareggio 1-1 vs Bologna nell'ultimo turno",
+      "forma_trasferta": "forma esatta non trovata, sconfitta 0-1 vs Cagliari nell'ultimo turno",
+      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Torino", "probabilita": 0.42 },
+      "pick_dc": { "esito": "1X", "etichetta": "Torino o pareggio", "probabilita": 0.68 },
+      "pick_gg": { "esito": "nogol", "etichetta": "No Gol", "probabilita": 0.52 },
+      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54 },
+      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.72 },
+      "nota": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
     }
   ]
 }

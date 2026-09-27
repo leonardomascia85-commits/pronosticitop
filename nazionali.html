@@ -176,10 +176,11 @@ PTCampionato.render('/data/pronostici-nazionali.json');
     (matchesData.partite || []).forEach(function(p){ lookup[p.casa + ' - ' + p.trasferta] = p.risultato; });
 
     var root = document.getElementById('nazionaliSchedineRoot');
-    if(!data.schedine || !data.schedine.length){ return; }
+    var attive = (data.schedine || []).filter(function(sch){ return sch.stato !== 'archiviata'; });
+    if(!attive.length){ return; }
 
     var html = '<div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>Schedine consigliate — Nazionali</h2></div><div class="cards">';
-    data.schedine.forEach(function(sch, idx){
+    attive.forEach(function(sch, idx){
       var st = schedinaStatusLive(sch, lookup);
       var rows = sch.eventi.map(function(ev){
         var li = liveInfo(ev, lookup);
