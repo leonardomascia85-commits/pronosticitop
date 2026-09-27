@@ -352,7 +352,7 @@
         "probabilita": 0.66
       },
       "nota": "Germania favorita in casa nonostante il pareggio d'esordio; la Grecia arriva però in fiducia dopo il successo esterno sulla Serbia.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": "0-0", "aggiornato": "2026-09-27T22:18:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "0-1", "aggiornato": "2026-09-28T00:18:00+02:00" }
     },
     {
       "casa": "Danimarca",
@@ -422,7 +422,7 @@
         "probabilita": 0.60
       },
       "nota": "Scontro al vertice del girone tra le due vincenti della 1ª giornata: il fattore Haaland in casa contro un Portogallo di Ronaldo favorito di misura nei modelli.",
-      "risultato": { "stato": "secondo_tempo", "punteggio": "1-2", "aggiornato": "2026-09-27T22:18:00+02:00" }
+      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-28T00:18:00+02:00" }
     },
     {
       "casa": "Belgio",
