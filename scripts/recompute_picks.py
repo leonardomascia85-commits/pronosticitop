@@ -9,12 +9,19 @@ Poisson sul numero di gol per derivare le probabilita' di ogni mercato:
 - Under/Over 3.5
 - Gol/No Gol (entrambe segnano)
 
-Si assume che i gol delle due squadre siano variabili Poisson indipendenti
-con media pari al gol atteso stimato (approccio standard nei modelli di
-previsione calcistica, es. modello di Poisson indipendente/Dixon-Coles
-semplificato). Da qui si costruisce la matrice di probabilita' di ogni
-risultato esatto (0-0, 1-0, 0-1, ... fino a 8-8) e si sommano le celle
-pertinenti per ciascun mercato — niente piu' formule lineari improvvisate.
+Si assume che i gol delle due squadre siano variabili Poisson con media pari
+al gol atteso stimato, corrette con il fattore di dipendenza Dixon-Coles
+(Dixon & Coles, 1997) sui punteggi bassi: un Poisson indipendente puro
+sottostima sistematicamente 0-0 e 1-1 e sovrastima 1-0 e 0-1 (lo si vede
+anche nella nostra calibrazione: l'1X2 risulta storicamente sottostimato
+proprio sui pareggi). La correzione usa un parametro rho fissato su valori
+tipici di letteratura (non stimato su uno storico nostro, che non abbiamo
+ancora abbastanza ampio da poter fittare in modo affidabile) e si applica
+solo alle 4 celle 0-0/1-0/0-1/1-1 della matrice, rinormalizzando poi l'intera
+matrice cosi' che le probabilita' tornino a sommare a 1. Da qui si costruisce
+la matrice di probabilita' di ogni risultato esatto (0-0, 1-0, 0-1, ... fino
+a 8-8) e si sommano le celle pertinenti per ciascun mercato — niente piu'
+formule lineari improvvisate.
 
 Richiede che forma_casa/forma_trasferta siano nel formato "X pt in Y gare
 (VV-NN-PP), GF-GA". Se il forma_casa/forma_trasferta di una partita e'
@@ -54,10 +61,27 @@ def clamp(x, lo, hi): return max(lo, min(hi, x))
 def poisson_pmf(k, lam):
     return math.exp(-lam) * lam**k / math.factorial(k)
 
-def score_grid(exp_home, exp_away):
+# Parametro di dipendenza Dixon-Coles per la correzione sui punteggi bassi.
+# Valore fissato (non fittato su uno storico proprio): in linea con i valori
+# tipici riportati in letteratura per i campionati europei (circa -0.05/-0.20).
+DIXON_COLES_RHO = -0.10
+
+def dc_tau(x, y, lam, mu, rho):
+    if x == 0 and y == 0: return 1 - lam*mu*rho
+    if x == 0 and y == 1: return 1 + lam*rho
+    if x == 1 and y == 0: return 1 + mu*rho
+    if x == 1 and y == 1: return 1 - rho
+    return 1.0
+
+def score_grid(exp_home, exp_away, rho=DIXON_COLES_RHO):
     ph = [poisson_pmf(h, exp_home) for h in range(MAX_GOALS)]
     pa = [poisson_pmf(a, exp_away) for a in range(MAX_GOALS)]
-    return [[ph[h]*pa[a] for a in range(MAX_GOALS)] for h in range(MAX_GOALS)]
+    grid = [[ph[h]*pa[a] for a in range(MAX_GOALS)] for h in range(MAX_GOALS)]
+    for x in range(2):
+        for y in range(2):
+            grid[x][y] *= dc_tau(x, y, exp_home, exp_away, rho)
+    total = sum(sum(row) for row in grid)
+    return [[c/total for c in row] for row in grid]
 
 def compute_picks(casa, trasferta, forma_casa, forma_trasferta):
     fc = parse_forma(forma_casa)
