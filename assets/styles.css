@@ -154,7 +154,6 @@ select{
 }
 
 .banner{background:var(--panel2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-bottom:22px;font-size:14px;color:var(--muted)}
-.ad-slot{background:var(--panel);border:1px dashed var(--border);border-radius:var(--radius);padding:20px;margin:24px 0;text-align:center;color:var(--muted-soft);font-size:12px;letter-spacing:.03em;text-transform:uppercase}
 
 /* risk scheme (quick overview at top of page) */
 .risk-scheme{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}
@@ -382,6 +381,16 @@ footer.site .fresp{margin-top:10px;font-size:12px}
 }
 .status-pill.status-win{
   background:var(--green);color:#fff;box-shadow:0 0 0 3px rgba(47,158,92,.18);
+}
+.card.is-playable{
+  border:1px solid rgba(63,111,184,.45);
+  box-shadow:0 8px 24px rgba(63,111,184,.10);
+  position:relative;
+}
+.card.is-playable::before{
+  content:'🎯 ANCORA GIOCABILE';
+  display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;
+  color:#fff;background:var(--accent);padding:4px 12px;border-radius:20px;margin-bottom:10px;
 }
 .win-banner{
   background:linear-gradient(135deg, rgba(47,158,92,.12), rgba(184,121,31,.08));

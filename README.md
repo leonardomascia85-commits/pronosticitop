@@ -31,8 +31,9 @@ Dominio: pronosticitop.it (+ pronosticitop.com).
 ## Da fare prima del lancio pubblico
 
 - [ ] Collegare il dominio pronosticitop.it (DNS) all'hosting statico scelto
-- [ ] Richiedere l'approvazione Google AdSense e inserire lo script reale
-      (attualmente ci sono solo placeholder `<div class="ad-slot">`)
+- [ ] Attendere l'approvazione Google AdSense (richiesta già inviata); lo
+      script è già presente su tutte le pagine, si useranno gli Auto ads
+      (nessun placeholder `ad-slot` nel markup: le posizioni le sceglie Google)
 - [ ] Sostituire `G-XXXXXXXXXX` in `cookie-banner.js` con l'ID Google Analytics
       reale, quando creato
 - [ ] Verificare testo legale (termini/privacy) con un consulente prima del

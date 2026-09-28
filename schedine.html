@@ -122,8 +122,6 @@
     </a>
   </div>
 
-  <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
-
   <div class="selectrow">
     <select id="weekSelect"></select>
   </div>
@@ -131,8 +129,6 @@
   <div id="banner" class="banner" style="display:none"></div>
 
   <div id="content"></div>
-
-  <div class="ad-slot" id="ad-mid">Spazio pubblicitario</div>
 
   <details id="storicoBox">
     <summary><svg class="icon" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Storico &amp; percentuale di successo</summary>
@@ -277,6 +273,9 @@ function schedinaStatus(sch){
   if(sch.eventi.every(e=>e.esito==='vinto')) return 'win';
   return 'pending';
 }
+function isGiocabile(sch, lookup){
+  return sch.eventi.every(e => liveInfo(e, lookup).state === 'pending');
+}
 
 function renderWeek(week, lookup){
   const banner = document.getElementById('banner');
@@ -304,15 +303,18 @@ function renderWeek(week, lookup){
     group.className = 'risk-group';
     group.id = 'risk-' + level;
     const label = RISK_LABELS[level] || '';
-    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">Dalla più sicura (#1) alla più rischiosa</span></div>`;
+    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">Dalla più sicura (#1) alla più rischiosa · le schedine ancora giocabili sono in evidenza</span></div>`;
 
     const cards = document.createElement('div');
     cards.className = 'cards';
 
-    byLevel[level].forEach((sch, idx) => {
+    const items = byLevel[level].map((sch, idx) => ({ sch, idx, giocabile: isGiocabile(sch, lookup) }));
+    items.sort((a, b) => (a.giocabile === b.giocabile) ? (a.idx - b.idx) : (a.giocabile ? -1 : 1));
+
+    items.forEach(({ sch, idx, giocabile }) => {
       const st = schedinaStatusLive(sch, lookup);
       const card = document.createElement('div');
-      card.className = 'card' + (st === 'win' ? ' is-winner' : '');
+      card.className = 'card' + (st === 'win' ? ' is-winner' : '') + (giocabile ? ' is-playable' : '');
       let rows = sch.eventi.map(ev => {
         const li = liveInfo(ev, lookup);
         let resTxt;

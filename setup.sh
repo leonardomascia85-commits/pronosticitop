@@ -37,7 +37,6 @@ cat > index.html << 'PTEOF_index_html'
   select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:14px}
   .selectrow{text-align:center;margin-bottom:22px}
   .banner{background:var(--panel2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:20px;font-size:14px;color:var(--muted)}
-  .ad-slot{background:var(--panel2);border:1px dashed var(--border);border-radius:var(--radius);padding:18px;margin:22px 0;text-align:center;color:var(--muted);font-size:13px}
   .risk-group{margin-bottom:28px}
   .risk-title{display:flex;align-items:center;gap:10px;margin:22px 0 12px}
   .risk-title h2{font-size:16px;margin:0}
@@ -95,8 +94,6 @@ cat > index.html << 'PTEOF_index_html'
 </div>
 
 <main>
-  <div class="ad-slot" id="ad-top">Spazio pubblicitario</div>
-
   <div class="selectrow">
     <select id="weekSelect"></select>
   </div>
@@ -104,8 +101,6 @@ cat > index.html << 'PTEOF_index_html'
   <div id="banner" class="banner" style="display:none"></div>
 
   <div id="content"></div>
-
-  <div class="ad-slot" id="ad-mid">Spazio pubblicitario</div>
 
   <details id="storicoBox">
     <summary>📊 Storico &amp; percentuale di successo</summary>
@@ -739,8 +734,9 @@ Dominio: pronosticitop.it (+ pronosticitop.com).
 ## Da fare prima del lancio pubblico
 
 - [ ] Collegare il dominio pronosticitop.it (DNS) all'hosting statico scelto
-- [ ] Richiedere l'approvazione Google AdSense e inserire lo script reale
-      (attualmente ci sono solo placeholder `<div class="ad-slot">`)
+- [ ] Attendere l'approvazione Google AdSense (richiesta già inviata); lo
+      script è già presente su tutte le pagine, si useranno gli Auto ads
+      (nessun placeholder `ad-slot` nel markup: le posizioni le sceglie Google)
 - [ ] Sostituire `G-XXXXXXXXXX` in `cookie-banner.js` con l'ID Google Analytics
       reale, quando creato
 - [ ] Verificare testo legale (termini/privacy) con un consulente prima del
