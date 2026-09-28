@@ -177,6 +177,13 @@ function liveResultHTML(risultato, best){
   return `<span class="ev-live"><span class="live-dot"></span>${STATUS_LABELS_LIVE[risultato.stato]||'LIVE'}${risultato.punteggio ? ' '+risultato.punteggio : ''}</span>`;
 }
 
+// Oltre questa probabilita' un pick non è più considerato "di valore": Doppia
+// chance e Under 3.5 coprono più esiti e hanno quasi sempre la probabilità più
+// alta, ma con una quota troppo bassa per essere un pronostico interessante.
+// Tra i mercati entro il tetto si sceglie comunque il più alto; se nessuno
+// rientra (partita a senso unico) si torna al più probabile in assoluto.
+const MAX_PROB_PICK = 0.65;
+
 function bestPick(m){
   const opts = [
     { market: '1X2', label: 'Esito', pick: m.pick_1x2 },
@@ -187,7 +194,8 @@ function bestPick(m){
   ].filter(o => o.pick);
   if(!opts.length) return null;
   opts.sort((a,b) => b.pick.probabilita - a.pick.probabilita);
-  return opts[0];
+  const valueOpts = opts.filter(o => o.pick.probabilita <= MAX_PROB_PICK);
+  return valueOpts.length ? valueOpts[0] : opts[0];
 }
 
 const FLAT_FILES = {
@@ -262,7 +270,7 @@ async function init(){
         <span class="schedina-pill">${matches.length} partite</span>
       </div>
       <div class="schedina-list">${rows}</div>
-      <div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Under/Over 2.5 o Gol/No Gol) con la probabilità stimata più alta tra i tre.</div>
+      <div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Doppia Chance, Under/Over 2.5, Under/Over 3.5 o Gol/No Gol) con il miglior equilibrio tra probabilità stimata e quota: evitiamo di scegliere sempre i mercati con probabilità altissima ma quota troppo bassa (es. doppia chance), a parità di affidabilità dei dati preferiamo un pronostico con una quota più interessante.</div>
     </div>`;
   } catch(e){
     content.innerHTML = '<div class="empty">Dati non disponibili al momento.</div>';

@@ -120,6 +120,17 @@
     );
   }
 
+  // Probabilita' massima oltre la quale un pick non viene piu' considerato "di valore":
+  // Doppia chance e Under 3.5 coprono piu' esiti e quindi hanno quasi sempre la
+  // probabilita' stimata piu' alta, ma con una quota troppo bassa per essere un
+  // pronostico interessante. Tra i mercati con probabilita' entro questo tetto si
+  // sceglie comunque il piu' alto (resta il pick con dati migliori), cosi' da avere
+  // un mix piu' vario tra Esito secco, Under/Over e Gol/No Gol invece di appiattirsi
+  // sempre sul mercato piu' "coperto". Se nessun mercato rientra nel tetto (partita
+  // a senso unico) si torna al piu' probabile in assoluto, per non forzare un pick
+  // debole solo per varieta'.
+  var MAX_PROB_PICK = 0.65;
+
   function bestPick(m) {
     var opts = [
       { market: 'Esito', pick: m.pick_1x2 },
@@ -130,7 +141,8 @@
     ].filter(function (o) { return o.pick; });
     if (!opts.length) return null;
     opts.sort(function (a, b) { return b.pick.probabilita - a.pick.probabilita; });
-    return opts[0];
+    var valueOpts = opts.filter(function (o) { return o.pick.probabilita <= MAX_PROB_PICK; });
+    return valueOpts.length ? valueOpts[0] : opts[0];
   }
 
   function groupByGirone(partite) {
@@ -178,7 +190,7 @@
           '<span class="schedina-pill combo">Combinata ' + pct(combinata) + '</span>' +
         '</div>' +
         '<div class="schedina-list">' + rows + '</div>' +
-        '<div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Under/Over 2.5 o Gol/No Gol) con la probabilità stimata più alta tra i tre.</div>' +
+        '<div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Doppia Chance, Under/Over 2.5, Under/Over 3.5 o Gol/No Gol) con il miglior equilibrio tra probabilità stimata e quota: evitiamo di scegliere sempre i mercati con probabilità altissima ma quota troppo bassa (es. doppia chance), a parità di affidabilità dei dati preferiamo un pronostico con una quota più interessante.</div>' +
       '</div>'
     );
   }
