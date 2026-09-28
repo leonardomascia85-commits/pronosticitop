@@ -321,12 +321,13 @@ function renderWeek(week, lookup){
         if(li.state === 'pending') resTxt = '⏳';
         else if(li.state === 'live') resTxt = `<span class="ev-live"><span class="live-dot"></span>${li.faseLabel}${li.punteggio ? ' ' + li.punteggio : ''}</span>`;
         else resTxt = (li.state==='win' ? '✅' : '❌') + (li.punteggio ? ' ' + li.punteggio : '');
+        const pickText = ev.mercato === 'DC' ? ev.esito_pick : ev.pronostico;
         return `<tr>
           <td>
             <div class="ev-match">${ev.partita}</div>
             <div class="ev-league">${leagueBadge(ev.campionato)} ${fmtDate(ev.data)}</div>
           </td>
-          <td class="ev-pick">${ev.pronostico}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
+          <td class="ev-pick">${pickText}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
           <td class="ev-p">${fmtPct(ev.probabilita_stimata)}${ev.quota_stimata ? '<br><span class="ev-league">@'+ev.quota_stimata.toFixed(2)+'</span>' : ''}${ev.confidenza_dati ? '<br><span class="ev-league">dati: '+ev.confidenza_dati+'</span>' : ''}</td>
           <td class="ev-res">${resTxt}</td>
         </tr>`;

@@ -198,9 +198,10 @@ function competizioneCardHTML(comp){
   const rows = comp.partite.map(p => {
     const best = bestPick(p);
     somma += best.pick.probabilita; combinata *= best.pick.probabilita; n++;
+    const pickText = best.market === 'DC' ? best.pick.esito : best.pick.etichetta;
     return `<div class="schedina-item">
       <div class="schedina-match">${p.casa} — ${p.trasferta}<div class="ev-league" style="margin-top:2px">${fmtDate(p.data)}</div></div>
-      <div class="schedina-pick">${best.pick.etichetta} ${liveResultHTML(p, best)}<span class="schedina-market">${best.label}</span></div>
+      <div class="schedina-pick">${pickText} ${liveResultHTML(p, best)}<span class="schedina-market">${best.label}</span></div>
       <div class="schedina-prob">${pct(best.pick.probabilita)}</div>
     </div>`;
   }).join('');

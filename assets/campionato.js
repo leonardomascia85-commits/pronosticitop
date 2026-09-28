@@ -114,7 +114,7 @@
     return (
       '<div class="pick-box">' +
         '<div class="pick-label">Doppia chance</div>' +
-        '<div class="pick-value">' + pick.etichetta + dcResultHTML(pick.esito, actualEsito1x2, risultato) + '</div>' +
+        '<div class="pick-value">' + pick.esito + dcResultHTML(pick.esito, actualEsito1x2, risultato) + '</div>' +
         '<div class="pick-prob">' + pct(pick.probabilita) + '</div>' +
       '</div>'
     );
@@ -160,10 +160,11 @@
       } else {
         resultHTML = pickResultHTML(best.pick.esito, actual ? actual[marketKey] : null, m.risultato);
       }
+      var pickText = best.market === 'Doppia chance' ? best.pick.esito : best.pick.etichetta;
       rows += (
         '<div class="schedina-item">' +
           '<div class="schedina-match">' + m.casa + ' — ' + m.trasferta + '</div>' +
-          '<div class="schedina-pick">' + best.pick.etichetta + resultHTML + '<span class="schedina-market">' + best.market + '</span></div>' +
+          '<div class="schedina-pick">' + pickText + resultHTML + '<span class="schedina-market">' + best.market + '</span></div>' +
           '<div class="schedina-prob">' + pct(best.pick.probabilita) + '</div>' +
         '</div>'
       );

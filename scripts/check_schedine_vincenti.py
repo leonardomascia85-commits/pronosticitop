@@ -122,6 +122,7 @@ def main():
                 eventi_dettaglio.append({
                     'partita': e['partita'], 'campionato': e['campionato'],
                     'pronostico': e['pronostico'], 'mercato': e['mercato'],
+                    'esito_pick': e.get('esito_pick'),
                     'risultato': li.get('punteggio'),
                 })
             nuove.append({

@@ -149,7 +149,7 @@ function schedinaCardHTML(sch){
       <div class="ev-match">${ev.partita}</div>
       <div class="ev-league">${leagueBadge(ev.campionato)} ${fmtDate(ev.data)}</div>
     </td>
-    <td class="ev-pick">${ev.pronostico}<br><span class="ev-league">${MARKET_LABELS[ev.mercato] || ev.mercato}</span></td>
+    <td class="ev-pick">${ev.mercato === 'DC' ? ev.esito_pick : ev.pronostico}<br><span class="ev-league">${MARKET_LABELS[ev.mercato] || ev.mercato}</span></td>
     <td class="ev-p">${fmtPct(ev.probabilita_stimata)}</td>
     <td class="ev-res">✅ ${ev.risultato_reale || ''}</td>
   </tr>`).join('');

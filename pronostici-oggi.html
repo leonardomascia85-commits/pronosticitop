@@ -233,9 +233,10 @@ async function loadTodayMatches(todayKey){
 function matchRowHTML(m){
   const best = bestPick(m);
   if(!best) return '';
+  const pickText = best.market === 'DC' ? best.pick.esito : best.pick.etichetta;
   return `<div class="schedina-item">
     <div class="schedina-match">${leagueBadge(m.campionato)} ${m.casa} — ${m.trasferta}<div class="ev-league" style="margin-top:2px">ore ${fmtTime(m.data)}</div></div>
-    <div class="schedina-pick">${best.pick.etichetta} ${liveResultHTML(m.risultato, best)}<span class="schedina-market">${best.label}</span></div>
+    <div class="schedina-pick">${pickText} ${liveResultHTML(m.risultato, best)}<span class="schedina-market">${best.label}</span></div>
     <div class="schedina-prob">${pct(best.pick.probabilita)}</div>
   </div>`;
 }

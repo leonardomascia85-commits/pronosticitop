@@ -43,7 +43,11 @@ def from_ultima():
     data = {
         'livello': win['livello_rischio'],
         'quota': win.get('quota_combinata'),
-        'eventi': [{'partita': e['partita'], 'pronostico': e['pronostico'], 'risultato': e.get('risultato')} for e in win['eventi']],
+        'eventi': [{
+            'partita': e['partita'],
+            'pronostico': e['esito_pick'] if e.get('mercato') == 'DC' and e.get('esito_pick') else e['pronostico'],
+            'risultato': e.get('risultato'),
+        } for e in win['eventi']],
     }
     out = os.path.join(ROOT, 'social', 'output', 'schedina-vincente-%s-%s.png' % (win['settimana'], win['id']))
     render(data, out)

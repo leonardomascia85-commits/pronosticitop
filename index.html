@@ -193,7 +193,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
     if(giorni > 10) return;
     var el = document.getElementById('winBanner');
     var lista = (win.eventi || []).map(function(e){
-      return '<li>' + e.partita + ' — ' + e.pronostico + (e.risultato ? ' (' + e.risultato + ')' : '') + '</li>';
+      var testo = (e.mercato === 'DC' && e.esito_pick) ? e.esito_pick : e.pronostico;
+      return '<li>' + e.partita + ' — ' + testo + (e.risultato ? ' (' + e.risultato + ')' : '') + '</li>';
     }).join('');
     el.innerHTML =
       '<div class="wb-head"><span class="wb-trophy">🏆</span>' +
