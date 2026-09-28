@@ -492,7 +492,7 @@
         "probabilita": 0.72
       },
       "nota": "Sfida tra le due sconfitte della 1ª giornata: gli azzurri cercano il riscatto in una trasferta ostica, in un match equilibrato secondo i modelli.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": { "stato": "in_corso", "punteggio": "0-0", "aggiornato": "2026-09-28T20:18:00+02:00" }
     },
     {
       "casa": "Repubblica Ceca",
