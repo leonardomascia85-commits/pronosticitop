@@ -213,11 +213,17 @@ def build_pool_nazionali():
 
 
 def pick_combo_nazionali(pool, n):
-    """Pool delle Nazionali sempre piccolo (una sola finestra alla volta):
-    prende semplicemente i migliori n eventi per probabilita' stimata."""
+    """Pool delle Nazionali sempre piccolo (una sola finestra alla volta). Per il
+    livello piu' basso prende i migliori n eventi (la combo piu' sicura); per i
+    livelli successivi, se non deve necessariamente includere tutto il pool,
+    prende invece gli ultimi n per evitare che gli stessi eventi piu' quotati
+    finiscano in ogni schedina (altrimenti un solo risultato a sorpresa fa
+    perdere tutte le schedine contemporaneamente)."""
     if len(pool) < n:
         return None
-    return pool[:n]
+    if n >= len(pool) or n <= 4:
+        return pool[:n]
+    return pool[-n:]
 
 
 def is_nazionali_schedina(sch):

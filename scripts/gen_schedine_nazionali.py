@@ -62,7 +62,12 @@ def combo_prob(events):
 
 def build_level(level, n_events):
     n = min(n_events, len(pool))
-    combo = pool[:n]
+    # Il livello piu' basso prende i migliori n eventi (combo piu' sicura); i
+    # livelli successivi, quando non devono includere per forza tutto il pool,
+    # prendono invece gli ultimi n: evita che gli stessi eventi piu' quotati
+    # finiscano in ogni schedina, cosi' un solo risultato a sorpresa non fa
+    # perdere tutte le schedine contemporaneamente.
+    combo = pool[:n] if (n >= len(pool) or n <= 4) else pool[-n:]
     pc = combo_prob(combo)
     return {
         'id': f'L{level}-1',

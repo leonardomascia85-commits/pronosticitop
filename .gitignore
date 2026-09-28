@@ -1,1 +1,3 @@
 social/output/
+__pycache__/
+*.pyc
