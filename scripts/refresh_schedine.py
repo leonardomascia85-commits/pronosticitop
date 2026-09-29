@@ -236,6 +236,92 @@ def build_pool_nazionali():
     return pool
 
 
+def build_matches_nazionali():
+    """Come build_pool_nazionali, ma tiene TUTTI e 5 i mercati di ogni partita
+    (non solo il migliore): serve a build_multimarket_levels_nazionali per
+    costruire schedine sulle stesse partite con mercati diversi per livello."""
+    path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
+    if not os.path.exists(path):
+        return []
+    d = json.load(open(path, encoding='utf-8'))
+    matches = []
+    for p in d.get('partite', []):
+        if p.get('risultato', {}).get('stato') != 'non_iniziata':
+            continue
+        try:
+            kickoff = datetime.datetime.fromisoformat(p['data'])
+        except Exception:
+            continue
+        if kickoff <= NOW:
+            continue
+        markets = []
+        if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
+        if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
+        if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
+        if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
+        if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
+        if not markets:
+            continue
+        markets.sort(key=lambda m: -m[1]['probabilita'])
+        matches.append((p, markets))
+    return matches
+
+
+# Soglia sotto la quale il pool di partite Nazionali disponibili e' troppo
+# piccolo per costruire, per ogni livello di rischio, una combinazione di
+# eventi davvero diversa dalle altre (es. una sola finestra di Nations League
+# con poche gare). In quel caso build_multimarket_levels_nazionali usa le
+# STESSE partite in tutti i livelli, variando pero' il mercato scelto per
+# ciascuna: il piu' probabile per il livello basso, via via uno meno
+# probabile (ma reale, mai inventato) salendo di rischio fino al livello
+# alto. Cosi' le quattro schedine restano diverse (e "crescenti" in rischio,
+# dalla piu' sicura alla piu' rischiosa) anche quando gli eventi in gioco
+# sono sempre gli stessi.
+POOL_PICCOLO_SOGLIA = 8
+LIVELLI_MULTIMARKET = (4, 5, 6, 7)
+
+
+def combo_prob(events):
+    p = 1.0
+    for e in events:
+        p *= e['probabilita_stimata']
+    return p
+
+
+def build_multimarket_levels_nazionali(matches):
+    """matches: output di build_matches_nazionali(). Ritorna fino a 4 schedine
+    (livelli 4/5/6/7 = basso/medio-basso/medio-alto/alto), tutte con le stesse
+    partite ma un rango di probabilita' diverso per il mercato di ciascuna."""
+    schedine = []
+    for rank, level in enumerate(LIVELLI_MULTIMARKET):
+        eventi = []
+        for p, markets in matches:
+            mkt_code, pick = markets[min(rank, len(markets) - 1)]
+            eventi.append({
+                'partita': f"{p['casa']} - {p['trasferta']}",
+                'campionato': 'Nazionali',
+                'girone': p.get('girone'),
+                'data': p['data'],
+                'mercato': mkt_code,
+                'pronostico': pick['etichetta'],
+                'esito_pick': pick['esito'],
+                'probabilita_stimata': round(pick['probabilita'], 2),
+                'quota_stimata': round(1 / pick['probabilita'], 2),
+                'confidenza_dati': confidenza(pick['probabilita']),
+                'motivazione': p['nota'],
+                'esito': None,
+                'risultato_reale': None,
+            })
+        pc = combo_prob(eventi)
+        schedine.append({
+            'livello_rischio': level,
+            'quota_combinata': round(1 / pc, 2),
+            'probabilita_combinata': round(pc, 3),
+            'eventi': eventi,
+        })
+    return schedine
+
+
 def pick_combo_nazionali(pool, n):
     """Pool delle Nazionali sempre piccolo (una sola finestra alla volta). Per il
     livello piu' basso prende i migliori n eventi (la combo piu' sicura); per i
@@ -253,13 +339,6 @@ def pick_combo_nazionali(pool, n):
 def is_nazionali_schedina(sch):
     eventi = sch.get('eventi') or []
     return bool(eventi) and all(e.get('campionato') == 'Nazionali' for e in eventi)
-
-
-def combo_prob(events):
-    p = 1.0
-    for e in events:
-        p *= e['probabilita_stimata']
-    return p
 
 
 def pick_combo(pool, n, level):
