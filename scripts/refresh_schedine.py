@@ -438,6 +438,27 @@ def main():
     changed_files = []
     summary = []
 
+    # Eventi gia' usati in schedine ATTIVE (non archiviate) esistenti prima di
+    # questa esecuzione: build_pool()/build_pool_nazionali() includono tutte
+    # le partite non_iniziata future, comprese quelle di una schedina attiva
+    # rimasta invariata in questo giro (es. L4-3 non tocca nulla se nessuno
+    # dei suoi eventi e' ancora finale). Senza escluderle, una NUOVA sostituta
+    # (es. L4-4 al posto di L4-2 archiviata) può finire per riproporre gli
+    # stessi identici eventi di una schedina gia' pubblicata (es. L4-3),
+    # mostrando due schedine duplicate sul sito.
+    eventi_attivi_club, eventi_attivi_naz = set(), set()
+    for w in settimane.get('settimane', []):
+        path = os.path.join(DATA_DIR, w['file'])
+        if not os.path.exists(path):
+            continue
+        d = json.load(open(path, encoding='utf-8'))
+        for sch in d.get('schedine', []):
+            if sch.get('stato') == 'archiviata':
+                continue
+            target = eventi_attivi_naz if is_nazionali_schedina(sch) else eventi_attivi_club
+            for e in sch.get('eventi', []):
+                target.add(e['partita'])
+
     for w in settimane.get('settimane', []):
         fn = w['file']
         path = os.path.join(DATA_DIR, fn)
@@ -468,10 +489,12 @@ def main():
             if nazionale:
                 if pool_naz is None:
                     pool_naz = build_pool_nazionali()
+                    pool_naz = [e for e in pool_naz if e['partita'] not in eventi_attivi_naz]
                 combo = pick_combo_nazionali(pool_naz, n)
             else:
                 if pool is None:
                     pool = build_pool()
+                    pool = [e for e in pool if e['partita'] not in eventi_attivi_club]
                 combo = pick_combo(pool, n, level)
 
             if combo:
