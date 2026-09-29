@@ -28,6 +28,20 @@ def confidenza(prob):
     if prob >= 0.52: return 'MEDIA'
     return 'BASSA'
 
+# Doppia chance e Under/Over 3.5 coprono piu' esiti possibili e hanno quasi
+# sempre la probabilita' stimata piu' alta a prescindere dai dati specifici
+# della partita: usati come mercato di riserva (solo se nessuno degli altri
+# tre supera il 50%) cosi' Esito secco, Under/Over 2.5 e Gol/No Gol restano
+# rappresentati, invece di sparire sempre dietro la doppia chance.
+MERCATI_RISERVA = ('DC', 'OU35')
+SOGLIA_MERCATI_PRIMARI = 0.50
+
+def pick_best_market(markets):
+    primari = [m for m in markets if m[0] not in MERCATI_RISERVA and m[1]['probabilita'] >= SOGLIA_MERCATI_PRIMARI]
+    if primari:
+        return max(primari, key=lambda m: m[1]['probabilita'])
+    return max(markets, key=lambda m: m[1]['probabilita'])
+
 import datetime
 NOW = datetime.datetime.now(datetime.timezone.utc)
 
@@ -46,7 +60,7 @@ for fn, name in LEAGUES.items():
         if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
         if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
         if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
-        best = max(markets, key=lambda m: m[1]['probabilita'])
+        best = pick_best_market(markets)
         pool.append({
             'partita': f"{p['casa']} - {p['trasferta']}",
             'campionato': name,
@@ -68,6 +82,8 @@ print(f"Pool size: {len(pool)}")
 random.seed(7)
 
 def diverse_pick(eligible, n):
+    if len(eligible) < n:
+        return None
     by_league = collections.defaultdict(list)
     for e in eligible:
         by_league[e['campionato']].append(e)
@@ -140,11 +156,16 @@ def build_level(level, n_events, n_variants, elig_threshold, min_threshold):
         })
     return schedine
 
+# Soglie ricalibrate su un pool che ora esclude doppia chance e Under 3.5 dal
+# ruolo di mercato "migliore" (pick_best_market): senza il loro gonfiamento
+# artificiale della probabilita', il grosso degli eventi sta nella fascia
+# 0.52-0.62 invece che 0.55-0.90, quindi le vecchie soglie (fino a 0.70 per
+# il livello piu' basso) non trovavano piu' abbastanza eventi eleggibili.
 schedine = []
-schedine += build_level(4, 4, 4, elig_threshold=0.70, min_threshold=0.65)
-schedine += build_level(5, 5, 4, elig_threshold=0.65, min_threshold=0.60)
-schedine += build_level(6, 6, 3, elig_threshold=0.58, min_threshold=0.55)
-schedine += build_level(7, 7, 3, elig_threshold=0.55, min_threshold=0.52)
+schedine += build_level(4, 4, 4, elig_threshold=0.60, min_threshold=0.56)
+schedine += build_level(5, 5, 4, elig_threshold=0.56, min_threshold=0.53)
+schedine += build_level(6, 6, 3, elig_threshold=0.53, min_threshold=0.51)
+schedine += build_level(7, 7, 3, elig_threshold=0.51, min_threshold=0.50)
 
 today = NOW.date().isoformat()
 out = {

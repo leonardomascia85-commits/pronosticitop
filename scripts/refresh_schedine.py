@@ -30,7 +30,12 @@ LEAGUES = {
 
 NOW = datetime.datetime.now(datetime.timezone.utc)
 
-THRESHOLDS = {4: (0.70, 0.65), 5: (0.65, 0.60), 6: (0.58, 0.55), 7: (0.55, 0.52)}
+# Soglie ricalibrate su un pool che esclude doppia chance e Under 3.5 dal
+# ruolo di mercato "migliore" (pick_best_market): senza il loro gonfiamento
+# artificiale della probabilita', il grosso degli eventi sta nella fascia
+# 0.52-0.62 invece che 0.55-0.90, quindi le vecchie soglie (fino a 0.70 per
+# il livello piu' basso) non trovavano piu' abbastanza eventi eleggibili.
+THRESHOLDS = {4: (0.60, 0.56), 5: (0.56, 0.53), 6: (0.53, 0.51), 7: (0.51, 0.50)}
 
 
 def confidenza(prob):
@@ -38,6 +43,25 @@ def confidenza(prob):
     if prob >= 0.56: return 'MEDIA-ALTA'
     if prob >= 0.52: return 'MEDIA'
     return 'BASSA'
+
+
+# Doppia chance e Under/Over 3.5 coprono piu' esiti possibili e quindi hanno
+# quasi sempre la probabilita' stimata piu' alta, a prescindere dai dati
+# specifici della partita: se li lasciamo competere sulla sola probabilita'
+# finiscono per essere scelti in quasi tutte le partite, schiacciando Esito
+# secco, Under/Over 2.5 e Gol/No Gol (che restano piu' informativi sulla
+# partita, anche se numericamente un po' piu' bassi). Per questo li usiamo
+# come pronostico "di riserva": solo se nessuno degli altri tre mercati
+# raggiunge almeno il 50% di probabilita' (partita davvero equilibrata),
+# torniamo al piu' probabile in assoluto.
+MERCATI_RISERVA = ('DC', 'OU35')
+SOGLIA_MERCATI_PRIMARI = 0.50
+
+def pick_best_market(markets):
+    primari = [m for m in markets if m[0] not in MERCATI_RISERVA and m[1]['probabilita'] >= SOGLIA_MERCATI_PRIMARI]
+    if primari:
+        return max(primari, key=lambda m: m[1]['probabilita'])
+    return max(markets, key=lambda m: m[1]['probabilita'])
 
 
 def load_results():
@@ -150,7 +174,7 @@ def build_pool():
             if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
             if not markets:
                 continue
-            best = max(markets, key=lambda m: m[1]['probabilita'])
+            best = pick_best_market(markets)
             pool.append({
                 'partita': f"{p['casa']} - {p['trasferta']}",
                 'campionato': name,
@@ -192,7 +216,7 @@ def build_pool_nazionali():
         if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
         if not markets:
             continue
-        best = max(markets, key=lambda m: m[1]['probabilita'])
+        best = pick_best_market(markets)
         pool.append({
             'partita': f"{p['casa']} - {p['trasferta']}",
             'campionato': 'Nazionali',

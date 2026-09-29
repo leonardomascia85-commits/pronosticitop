@@ -15,6 +15,20 @@ def confidenza(prob):
     if prob >= 0.52: return 'MEDIA'
     return 'BASSA'
 
+# Doppia chance e Under/Over 3.5 coprono piu' esiti possibili e hanno quasi
+# sempre la probabilita' stimata piu' alta a prescindere dai dati specifici
+# della partita: usati come mercato di riserva (solo se nessuno degli altri
+# tre supera il 50%) cosi' Esito secco, Under/Over 2.5 e Gol/No Gol restano
+# rappresentati, invece di sparire sempre dietro la doppia chance.
+MERCATI_RISERVA = ('DC', 'OU35')
+SOGLIA_MERCATI_PRIMARI = 0.50
+
+def pick_best_market(markets):
+    primari = [m for m in markets if m[0] not in MERCATI_RISERVA and m[1]['probabilita'] >= SOGLIA_MERCATI_PRIMARI]
+    if primari:
+        return max(primari, key=lambda m: m[1]['probabilita'])
+    return max(markets, key=lambda m: m[1]['probabilita'])
+
 NOW = datetime.datetime.now(datetime.timezone.utc)
 
 d = json.load(open(os.path.join(DATA_DIR, "pronostici-nazionali.json"), encoding="utf-8"))
@@ -32,7 +46,7 @@ for p in d['partite']:
     if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
     if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
     if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
-    best = max(markets, key=lambda m: m[1]['probabilita'])
+    best = pick_best_market(markets)
     pool.append({
         'partita': f"{p['casa']} - {p['trasferta']}",
         'campionato': 'Nazionali',
