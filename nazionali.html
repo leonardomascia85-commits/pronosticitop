@@ -180,11 +180,7 @@ PTCampionato.render('/data/pronostici-nazionali.json');
     var attive = (data.schedine || []).filter(function(sch){ return sch.stato !== 'archiviata'; });
     if(!attive.length){ return; }
 
-    var html = '<div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>Schedine consigliate — Nazionali</h2><span class="risk-order-note">le schedine ancora giocabili sono in evidenza</span></div><div class="cards">';
-    var items = attive.map(function(sch, idx){ return { sch: sch, idx: idx, giocabile: isGiocabile(sch, lookup) }; });
-    items.sort(function(a, b){ return (a.giocabile === b.giocabile) ? (a.idx - b.idx) : (a.giocabile ? -1 : 1); });
-    items.forEach(function(item){
-      var sch = item.sch, giocabile = item.giocabile;
+    function cardHTML(sch, giocabile){
       var st = schedinaStatusLive(sch, lookup);
       var rows = sch.eventi.map(function(ev){
         var li = liveInfo(ev, lookup);
@@ -202,7 +198,7 @@ PTCampionato.render('/data/pronostici-nazionali.json');
         '</tr>';
       }).join('');
       var probMedia = sch.eventi.reduce(function(s,e){ return s + e.probabilita_stimata; }, 0) / sch.eventi.length;
-      html += '<div class="card' + (st === 'win' ? ' is-winner' : '') + (giocabile ? ' is-playable' : '') + '">' +
+      return '<div class="card' + (st === 'win' ? ' is-winner' : '') + (giocabile ? ' is-playable' : '') + '">' +
         '<div class="card-head">' +
           '<span class="name">Schedina ' + sch.eventi.length + 'E — Nazionali</span>' +
           '<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ' + sch.quota_combinata.toFixed(2) + '</span>' +
@@ -211,8 +207,24 @@ PTCampionato.render('/data/pronostici-nazionali.json');
         '</div>' +
         '<table class="events">' + rows + '</table>' +
       '</div>';
+    }
+
+    var byLevel = {};
+    attive.forEach(function(sch, idx){
+      var lvl = sch.livello_rischio;
+      (byLevel[lvl] = byLevel[lvl] || []).push({ sch: sch, idx: idx, giocabile: isGiocabile(sch, lookup) });
     });
-    html += '</div>';
+    var levels = Object.keys(byLevel).map(Number).sort(function(a,b){ return a - b; });
+
+    var html = '';
+    levels.forEach(function(level){
+      var items = byLevel[level];
+      items.sort(function(a, b){ return (a.giocabile === b.giocabile) ? (a.idx - b.idx) : (a.giocabile ? -1 : 1); });
+      var label = RISK_LABELS[level] || '';
+      html += '<div class="risk-title risk-' + level + '"><span class="risk-dot"></span><h2>' + level + ' eventi — Nazionali</h2><span class="risk-pill">' + label + '</span><span class="risk-order-note">le schedine ancora giocabili sono in evidenza</span></div><div class="cards">';
+      items.forEach(function(item){ html += cardHTML(item.sch, item.giocabile); });
+      html += '</div>';
+    });
     root.innerHTML = html;
   }).catch(function(){});
 })();

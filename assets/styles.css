@@ -16,6 +16,12 @@
   --green:#2f9e5c;
   --amber:#b8791f;
   --red:#c23c4c;
+  /* colori dei 4 livelli di rischio delle schedine: basso=verde,
+     medio-basso=celeste, medio(-alto)=arancione chiaro, alto=rosso chiaro */
+  --risk4:#2f9e5c;
+  --risk5:#1ea7c9;
+  --risk6:#e0902f;
+  --risk7:#e2566a;
   --radius:16px;
   --radius-sm:10px;
   --shadow:0 8px 24px rgba(20,25,35,.08);
@@ -166,14 +172,14 @@ select{
 .risk-scheme-n{font-family:'Manrope',sans-serif;font-size:26px;font-weight:800;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:4px}
 .risk-scheme-label{font-size:13px;font-weight:700}
 .risk-scheme-desc{font-size:11.5px;color:var(--muted-soft)}
-.scheme-4 .risk-scheme-n{background:rgba(47,158,92,.12);color:var(--green)}
+.scheme-4 .risk-scheme-n{background:rgba(47,158,92,.12);color:var(--risk4)}
 .scheme-4:hover{border-color:rgba(47,158,92,.4)}
-.scheme-5 .risk-scheme-n{background:rgba(63,111,184,.12);color:#3f6fb8}
-.scheme-5:hover{border-color:rgba(63,111,184,.4)}
-.scheme-6 .risk-scheme-n{background:rgba(184,121,31,.12);color:var(--amber)}
-.scheme-6:hover{border-color:rgba(184,121,31,.4)}
-.scheme-7 .risk-scheme-n{background:rgba(194,60,76,.12);color:#c23c4c}
-.scheme-7:hover{border-color:rgba(194,60,76,.4)}
+.scheme-5 .risk-scheme-n{background:rgba(30,167,201,.12);color:var(--risk5)}
+.scheme-5:hover{border-color:rgba(30,167,201,.4)}
+.scheme-6 .risk-scheme-n{background:rgba(224,144,47,.12);color:var(--risk6)}
+.scheme-6:hover{border-color:rgba(224,144,47,.4)}
+.scheme-7 .risk-scheme-n{background:rgba(226,86,106,.12);color:var(--risk7)}
+.scheme-7:hover{border-color:rgba(226,86,106,.4)}
 @media (max-width:640px){
   .risk-scheme{grid-template-columns:repeat(2,1fr)}
 }
@@ -202,10 +208,11 @@ select{
 .risk-pill{font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid var(--border);color:var(--muted);font-weight:600}
 .risk-order-note{font-size:11.5px;color:var(--muted-soft);margin-left:auto}
 @media (max-width:560px){ .risk-order-note{width:100%;margin-left:0;margin-top:2px} }
-.risk-4 .risk-dot{background:var(--green)} .risk-4 .risk-pill{color:var(--green);border-color:rgba(47,158,92,.35);background:rgba(47,158,92,.08)}
-.risk-5 .risk-dot{background:var(--accent)} .risk-5 .risk-pill{color:#3f6fb8;border-color:rgba(63,111,184,.35);background:rgba(63,111,184,.08)}
-.risk-6 .risk-dot{background:var(--amber)} .risk-6 .risk-pill{color:var(--amber);border-color:rgba(184,121,31,.35);background:rgba(184,121,31,.08)}
-.risk-7 .risk-dot{background:var(--red)} .risk-7 .risk-pill{color:#c23c4c;border-color:rgba(194,60,76,.35);background:rgba(194,60,76,.08)}
+.risk-4 .risk-dot{background:var(--risk4)} .risk-4 .risk-pill{color:var(--risk4);border-color:rgba(47,158,92,.35);background:rgba(47,158,92,.08)}
+.risk-5 .risk-dot{background:var(--risk5)} .risk-5 .risk-pill{color:var(--risk5);border-color:rgba(30,167,201,.35);background:rgba(30,167,201,.08)}
+.risk-6 .risk-dot{background:var(--risk6)} .risk-6 .risk-pill{color:var(--risk6);border-color:rgba(224,144,47,.35);background:rgba(224,144,47,.08)}
+.risk-7 .risk-dot{background:var(--risk7)} .risk-7 .risk-pill{color:var(--risk7);border-color:rgba(226,86,106,.35);background:rgba(226,86,106,.08)}
+.risk-8 .risk-dot{background:var(--risk7)} .risk-8 .risk-pill{color:var(--risk7);border-color:rgba(226,86,106,.35);background:rgba(226,86,106,.08)}
 
 /* cards */
 .cards{display:grid;gap:14px}
