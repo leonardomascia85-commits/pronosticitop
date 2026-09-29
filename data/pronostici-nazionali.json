@@ -1,8 +1,8 @@
 {
   "campionato": "Nazionali",
-  "giornata": "UEFA Nations League 2026/27 — 1ª e 2ª giornata (Lega A)",
-  "periodo": "24-29 settembre 2026",
-  "aggiornato": "2026-09-27T04:30:00+02:00",
+  "giornata": "UEFA Nations League 2026/27 — 1ª-4ª giornata (Lega A)",
+  "periodo": "24 settembre - 6 ottobre 2026",
+  "aggiornato": "2026-09-29T04:30:00+02:00",
   "partite": [
     {
       "casa": "Olanda",
@@ -19,7 +19,7 @@
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Olanda o pareggio",
-        "probabilita": 0.70
+        "probabilita": 0.7
       },
       "pick_gg": {
         "esito": "gol",
@@ -37,7 +37,11 @@
         "probabilita": 0.72
       },
       "nota": "Apertura della Nations League 2026/27: Olanda leggermente favorita in casa, ma il confronto è storicamente ricco di gol da entrambe le parti.",
-      "risultato": { "stato": "finale", "punteggio": "1-1", "aggiornato": "2026-09-25T00:25:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-09-25T00:25:00+02:00"
+      }
     },
     {
       "casa": "Serbia",
@@ -69,10 +73,14 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.80
+        "probabilita": 0.8
       },
       "nota": "Due nazionali reduci da un periodo opaco; la maggiore vena realizzativa della Serbia la rende leggermente favorita in un match da pochi gol.",
-      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-25T00:25:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-25T00:25:00+02:00"
+      }
     },
     {
       "casa": "Portogallo",
@@ -107,7 +115,11 @@
         "probabilita": 0.74
       },
       "nota": "Il Portogallo di Cristiano Ronaldo parte nettamente favorito contro un Galles chiamato a un'impresa in trasferta.",
-      "risultato": { "stato": "finale", "punteggio": "1-0", "aggiornato": "2026-09-25T00:25:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-09-25T00:25:00+02:00"
+      }
     },
     {
       "casa": "Norvegia",
@@ -139,10 +151,14 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "nota": "La Norvegia di Haaland arriva da un buon Mondiale, la Danimarca è nel pieno di un ricambio generazionale: fattore campo dalla parte scandinava di casa.",
-      "risultato": { "stato": "finale", "punteggio": "3-2", "aggiornato": "2026-09-25T00:25:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-09-25T00:25:00+02:00"
+      }
     },
     {
       "casa": "Italia",
@@ -177,7 +193,11 @@
         "probabilita": 0.62
       },
       "nota": "Esordio degli azzurri nella Nations League 2026/27 all'Olimpico: equilibrio quasi totale nei modelli (1-X-2 vicinissimi), l'Italia sfrutta il fattore campo per restare imbattuta.",
-      "risultato": { "stato": "finale", "punteggio": "0-2", "aggiornato": "2026-09-26T00:22:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-09-26T00:22:00+02:00"
+      }
     },
     {
       "casa": "Turchia",
@@ -212,7 +232,11 @@
         "probabilita": 0.66
       },
       "nota": "La Francia ha il margine più alto nei modelli, ma tempi di preparazione ridotti e fattore campo turco a Bursa consigliano una copertura sulla doppia chance piuttosto che il successo secco.",
-      "risultato": { "stato": "finale", "punteggio": "0-1", "aggiornato": "2026-09-26T00:22:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-26T00:22:00+02:00"
+      }
     },
     {
       "casa": "Repubblica Ceca",
@@ -244,10 +268,14 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.70
+        "probabilita": 0.7
       },
       "nota": "Match apertissimo secondo i modelli (1-X-2 praticamente equidistanti): copertura sulla doppia chance esterna in un confronto da pochi gol attesi.",
-      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-27T00:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-27T00:18:00+02:00"
+      }
     },
     {
       "casa": "Inghilterra",
@@ -269,7 +297,7 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "pick_uo": {
         "esito": "over",
@@ -282,7 +310,11 @@
         "probabilita": 0.66
       },
       "nota": "Il big match della giornata a Wembley: Inghilterra reduce dal terzo posto mondiale contro la Spagna campione del mondo in carica, equilibrio pressoché perfetto nei modelli.",
-      "risultato": { "stato": "finale", "punteggio": "2-3", "aggiornato": "2026-09-27T00:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-09-27T00:18:00+02:00"
+      }
     },
     {
       "casa": "Serbia",
@@ -317,7 +349,11 @@
         "probabilita": 0.68
       },
       "nota": "2ª giornata ravvicinata rispetto alla prima: la Serbia, reduce dal ko interno, ospita un'Olanda nettamente favorita nei modelli nonostante il pareggio d'esordio.",
-      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-27T20:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-27T20:18:00+02:00"
+      }
     },
     {
       "casa": "Germania",
@@ -352,7 +388,11 @@
         "probabilita": 0.66
       },
       "nota": "Germania favorita in casa nonostante il pareggio d'esordio; la Grecia arriva però in fiducia dopo il successo esterno sulla Serbia.",
-      "risultato": { "stato": "finale", "punteggio": "0-1", "aggiornato": "2026-09-28T00:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-28T00:18:00+02:00"
+      }
     },
     {
       "casa": "Danimarca",
@@ -387,7 +427,11 @@
         "probabilita": 0.76
       },
       "nota": "La Danimarca gioca in casa contro il fanalino di coda del girone dopo il ko con la Norvegia: match abbordabile secondo i modelli, ma da pochi gol attesi.",
-      "risultato": { "stato": "finale", "punteggio": "2-0", "aggiornato": "2026-09-27T20:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-09-27T20:18:00+02:00"
+      }
     },
     {
       "casa": "Norvegia",
@@ -419,10 +463,14 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "nota": "Scontro al vertice del girone tra le due vincenti della 1ª giornata: il fattore Haaland in casa contro un Portogallo di Ronaldo favorito di misura nei modelli.",
-      "risultato": { "stato": "finale", "punteggio": "1-2", "aggiornato": "2026-09-28T00:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-09-28T00:18:00+02:00"
+      }
     },
     {
       "casa": "Belgio",
@@ -434,7 +482,7 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Francia",
-        "probabilita": 0.40
+        "probabilita": 0.4
       },
       "pick_dc": {
         "esito": "X2",
@@ -444,7 +492,7 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "pick_uo": {
         "esito": "over",
@@ -457,7 +505,11 @@
         "probabilita": 0.66
       },
       "nota": "Le due vincenti della 1ª giornata si affrontano in casa del Belgio: Francia leggermente favorita nei modelli per il ranking più alto, ma partita apertissima.",
-      "risultato": { "stato": "finale", "punteggio": "0-1", "aggiornato": "2026-09-29T00:18:17+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-09-29T00:18:17+02:00"
+      }
     },
     {
       "casa": "Turchia",
@@ -474,7 +526,7 @@
       "pick_dc": {
         "esito": "X2",
         "etichetta": "Pareggio o Italia",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "pick_gg": {
         "esito": "gol",
@@ -492,7 +544,11 @@
         "probabilita": 0.72
       },
       "nota": "Sfida tra le due sconfitte della 1ª giornata: gli azzurri cercano il riscatto in una trasferta ostica, in un match equilibrato secondo i modelli.",
-      "risultato": { "stato": "finale", "punteggio": "1-4", "aggiornato": "2026-09-28T22:18:00+02:00" }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-09-28T22:18:00+02:00"
+      }
     },
     {
       "casa": "Repubblica Ceca",
@@ -504,7 +560,7 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Inghilterra",
-        "probabilita": 0.50
+        "probabilita": 0.5
       },
       "pick_dc": {
         "esito": "X2",
@@ -527,7 +583,11 @@
         "probabilita": 0.68
       },
       "nota": "L'Inghilterra arriva in fiducia dopo aver battuto i campioni del mondo in carica: favorita in trasferta contro una Repubblica Ceca già battuta all'esordio.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Spagna",
@@ -549,7 +609,7 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.60
+        "probabilita": 0.6
       },
       "pick_uo": {
         "esito": "over",
@@ -562,7 +622,635 @@
         "probabilita": 0.66
       },
       "nota": "La Spagna campione del mondo vuole reagire subito in casa dopo la sconfitta d'esordio, contro una Croazia reduce dal successo sulla Repubblica Ceca.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Germania",
+      "trasferta": "Serbia",
+      "data": "2026-10-01T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "12° nel ranking FIFA, 1 pt in 2 gare (0V-1N-1P): pareggio 1-1 in casa con l'Olanda, poi sconfitta 0-1 in casa con la Grecia",
+      "forma_trasferta": "37° nel ranking FIFA, 0 pt in 2 gare (0V-0N-2P): sconfitta 1-2 in casa con la Grecia, poi 1-2 in casa con l'Olanda",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Germania",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Germania o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.81
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "La Germania cerca il primo successo del girone dopo il pareggio e la sconfitta d'esordio, contro una Serbia ancora a secco di punti.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Grecia",
+      "trasferta": "Olanda",
+      "data": "2026-10-01T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "46° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): vittoria 2-1 in trasferta sulla Serbia, poi 1-0 in trasferta sulla Germania",
+      "forma_trasferta": "9° nel ranking FIFA, 4 pt in 2 gare (1V-1N-0P): pareggio 1-1 in casa con la Germania, poi vittoria 2-1 in trasferta sulla Serbia",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Grecia",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Grecia o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.81
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "La Grecia, sorprendente capolista a punteggio pieno, ospita l'Olanda reduce da pareggio e vittoria: match che vale il primo posto del girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Danimarca",
+      "trasferta": "Portogallo",
+      "data": "2026-10-01T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "nazionale in ricostruzione, 3 pt in 2 gare (1V-0N-1P): sconfitta 2-3 in trasferta con la Norvegia, poi vittoria 2-0 in casa sul Galles",
+      "forma_trasferta": "7° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): vittoria 1-0 in casa sul Galles, poi 2-1 in trasferta sulla Norvegia",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Portogallo",
+        "probabilita": 0.37
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Danimarca o Portogallo",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.71
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "La Danimarca, in ripresa dopo il ko d'esordio, sfida il Portogallo capolista a punteggio pieno del girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Norvegia",
+      "trasferta": "Galles",
+      "data": "2026-10-01T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "19° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): vittoria 3-2 in casa sulla Danimarca, poi sconfitta 1-2 in casa col Portogallo",
+      "forma_trasferta": "outsider del girone, 0 pt in 2 gare (0V-0N-2P): sconfitta 0-1 in trasferta col Portogallo, poi 0-2 in trasferta con la Danimarca",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Norvegia",
+        "probabilita": 0.59
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Norvegia o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "La Norvegia di Haaland, reduce da una sconfitta di misura, ospita un Galles ancora a secco di gol e di punti nel girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Belgio",
+      "trasferta": "Turchia",
+      "data": "2026-10-02T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "8° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): vittoria 2-0 in trasferta sull'Italia, poi sconfitta 0-1 in casa con la Francia",
+      "forma_trasferta": "27° nel ranking FIFA, 0 pt in 2 gare (0V-0N-2P): sconfitta 0-1 in casa con la Francia, poi 1-4 in casa con l'Italia",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Belgio",
+        "probabilita": 0.71
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Belgio o pareggio",
+        "probabilita": 0.9
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.68
+      },
+      "nota": "Il Belgio, in equilibrio 3 punti su 6, ospita una Turchia ancora senza punti e con la peggior differenza reti del girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Francia",
+      "trasferta": "Italia",
+      "data": "2026-10-02T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "3° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): 1-0 in trasferta sulla Turchia, poi 1-0 in trasferta sul Belgio",
+      "forma_trasferta": "15° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): sconfitta 0-2 in casa con il Belgio, poi vittoria 4-1 in trasferta sulla Turchia",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Francia",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Francia o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.81
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "La Francia capolista a punteggio pieno ospita un'Italia in crescita dopo il poker rifilato alla Turchia.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Croazia",
+      "trasferta": "Inghilterra",
+      "data": "2026-10-03T18:00:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "13° nel ranking FIFA, 3 pt in 1 gara (1V-0N-0P): vittoria 2-1 in trasferta sulla Repubblica Ceca alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "forma_trasferta": "4° nel ranking FIFA, 0 pt in 1 gara (0V-0N-1P): sconfitta 2-3 in casa con la Spagna alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Croazia",
+        "probabilita": 0.65
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Croazia o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.7
+      },
+      "nota": "La Croazia, vincente all'esordio, ospita un'Inghilterra reduce dal ko interno con la Spagna: entrambe cercano ancora il primo vero equilibrio del girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Spagna",
+      "trasferta": "Repubblica Ceca",
+      "data": "2026-10-03T20:45:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "1° nel ranking FIFA, 3 pt in 1 gara (1V-0N-0P): vittoria 3-2 in trasferta sull'Inghilterra alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "forma_trasferta": "ranking FIFA non disponibile, 0 pt in 1 gara (0V-0N-1P): sconfitta 1-2 in casa con la Croazia alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Spagna",
+        "probabilita": 0.65
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Spagna o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.7
+      },
+      "nota": "La Spagna campione del mondo, vincente all'esordio, ospita una Repubblica Ceca già battuta alla 1ª giornata.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Grecia",
+      "trasferta": "Germania",
+      "data": "2026-10-04T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "46° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): vittoria 2-1 in trasferta sulla Serbia, poi 1-0 in trasferta sulla Germania",
+      "forma_trasferta": "12° nel ranking FIFA, 1 pt in 2 gare (0V-1N-1P): pareggio 1-1 in casa con l'Olanda, poi sconfitta 0-1 in casa con la Grecia",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Grecia",
+        "probabilita": 0.58
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Grecia o pareggio",
+        "probabilita": 0.88
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.73
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.89
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.72
+      },
+      "nota": "Ritorno immediato tra le due squadre del match d'apertura: la Grecia capolista ospita una Germania ancora a caccia della prima vittoria.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Olanda",
+      "trasferta": "Serbia",
+      "data": "2026-10-04T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "9° nel ranking FIFA, 4 pt in 2 gare (1V-1N-0P): pareggio 1-1 in casa con la Germania, poi vittoria 2-1 in trasferta sulla Serbia",
+      "forma_trasferta": "37° nel ranking FIFA, 0 pt in 2 gare (0V-0N-2P): sconfitta 1-2 in casa con la Grecia, poi 1-2 in casa con l'Olanda",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Olanda",
+        "probabilita": 0.59
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Olanda o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: l'Olanda, reduce da pareggio e vittoria, ospita una Serbia ancora a secco di punti.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Portogallo",
+      "trasferta": "Norvegia",
+      "data": "2026-10-04T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "7° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): vittoria 1-0 in casa sul Galles, poi 2-1 in trasferta sulla Norvegia",
+      "forma_trasferta": "19° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): vittoria 3-2 in casa sulla Danimarca, poi sconfitta 1-2 in casa col Portogallo",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Portogallo",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Portogallo o pareggio",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: il Portogallo capolista a punteggio pieno ospita la Norvegia di Haaland.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Galles",
+      "trasferta": "Danimarca",
+      "data": "2026-10-04T20:45:00+02:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "outsider del girone, 0 pt in 2 gare (0V-0N-2P): sconfitta 0-1 in trasferta col Portogallo, poi 0-2 in trasferta con la Danimarca",
+      "forma_trasferta": "nazionale in ricostruzione, 3 pt in 2 gare (1V-0N-1P): sconfitta 2-3 in trasferta con la Norvegia, poi vittoria 2-0 in casa sul Galles",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Danimarca",
+        "probabilita": 0.55
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "pareggio o Danimarca",
+        "probabilita": 0.82
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.77
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: il Galles, ancora a secco di punti e di gol, ospita una Danimarca in ripresa.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Francia",
+      "trasferta": "Belgio",
+      "data": "2026-10-05T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "3° nel ranking FIFA, 6 pt in 2 gare (2V-0N-0P): 1-0 in trasferta sulla Turchia, poi 1-0 in trasferta sul Belgio",
+      "forma_trasferta": "8° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): vittoria 2-0 in trasferta sull'Italia, poi sconfitta 0-1 in casa con la Francia",
+      "pick_1x2": {
+        "esito": "X",
+        "etichetta": "Pareggio",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Francia o pareggio",
+        "probabilita": 0.82
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.86
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.9
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.78
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: la Francia capolista a punteggio pieno ospita il Belgio, sconfitto proprio dai transalpini nell'ultimo turno.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Italia",
+      "trasferta": "Turchia",
+      "data": "2026-10-05T20:45:00+02:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "15° nel ranking FIFA, 3 pt in 2 gare (1V-0N-1P): sconfitta 0-2 in casa con il Belgio, poi vittoria 4-1 in trasferta sulla Turchia",
+      "forma_trasferta": "27° nel ranking FIFA, 0 pt in 2 gare (0V-0N-2P): sconfitta 0-1 in casa con la Francia, poi 1-4 in casa con l'Italia",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Italia",
+        "probabilita": 0.7
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Italia o pareggio",
+        "probabilita": 0.88
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.65
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: l'Italia, reduce dal poker alla Turchia in trasferta, la ospita ora a Bologna da favorita.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Croazia",
+      "trasferta": "Spagna",
+      "data": "2026-10-06T20:45:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "13° nel ranking FIFA, 3 pt in 1 gara (1V-0N-0P): vittoria 2-1 in trasferta sulla Repubblica Ceca alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "forma_trasferta": "1° nel ranking FIFA, 3 pt in 1 gara (1V-0N-0P): vittoria 3-2 in trasferta sull'Inghilterra alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Croazia",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Croazia o Spagna",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.76
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.75
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: la Croazia, vincente all'esordio, ospita la Spagna campione del mondo capolista del girone.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Inghilterra",
+      "trasferta": "Repubblica Ceca",
+      "data": "2026-10-06T20:45:00+02:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "4° nel ranking FIFA, 0 pt in 1 gara (0V-0N-1P): sconfitta 2-3 in casa con la Spagna alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "forma_trasferta": "ranking FIFA non disponibile, 0 pt in 1 gara (0V-0N-1P): sconfitta 1-2 in casa con la Croazia alla 1ª giornata (2ª giornata in corso il 29/9)",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Inghilterra",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Inghilterra o Repubblica Ceca",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.76
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.75
+      },
+      "nota": "Ritorno tra le due squadre della 2ª giornata: l'Inghilterra, corsara in casa della Spagna, ospita a Wembley la Repubblica Ceca.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     }
   ]
 }
