@@ -584,9 +584,9 @@
       },
       "nota": "L'Inghilterra arriva in fiducia dopo aver battuto i campioni del mondo in carica: favorita in trasferta contro una Repubblica Ceca già battuta all'esordio.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-09-29T22:18:28+02:00"
       }
     },
     {
@@ -623,9 +623,9 @@
       },
       "nota": "La Spagna campione del mondo vuole reagire subito in casa dopo la sconfitta d'esordio, contro una Croazia reduce dal successo sulla Repubblica Ceca.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-09-29T22:18:28+02:00"
       }
     },
     {
