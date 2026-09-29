@@ -238,8 +238,9 @@ def build_pool_nazionali():
 
 def build_matches_nazionali():
     """Come build_pool_nazionali, ma tiene TUTTI e 5 i mercati di ogni partita
-    (non solo il migliore): serve a build_multimarket_levels_nazionali per
-    costruire schedine sulle stesse partite con mercati diversi per livello."""
+    (non solo il migliore): serve a build_nazionali_levels per costruire le
+    schedine dei 4 livelli di rischio con mercati diversi quando una partita
+    deve ricomparire in piu' livelli."""
     path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
     if not os.path.exists(path):
         return []
@@ -267,18 +268,7 @@ def build_matches_nazionali():
     return matches
 
 
-# Soglia sotto la quale il pool di partite Nazionali disponibili e' troppo
-# piccolo per costruire, per ogni livello di rischio, una combinazione di
-# eventi davvero diversa dalle altre (es. una sola finestra di Nations League
-# con poche gare). In quel caso build_multimarket_levels_nazionali usa le
-# STESSE partite in tutti i livelli, variando pero' il mercato scelto per
-# ciascuna: il piu' probabile per il livello basso, via via uno meno
-# probabile (ma reale, mai inventato) salendo di rischio fino al livello
-# alto. Cosi' le quattro schedine restano diverse (e "crescenti" in rischio,
-# dalla piu' sicura alla piu' rischiosa) anche quando gli eventi in gioco
-# sono sempre gli stessi.
-POOL_PICCOLO_SOGLIA = 8
-LIVELLI_MULTIMARKET = (4, 5, 6, 7)
+LIVELLI_NAZIONALI = (4, 5, 6, 7)  # basso, medio-basso, medio-alto, alto: eventi crescenti
 
 
 def combo_prob(events):
@@ -288,30 +278,86 @@ def combo_prob(events):
     return p
 
 
-def build_multimarket_levels_nazionali(matches):
-    """matches: output di build_matches_nazionali(). Ritorna fino a 4 schedine
-    (livelli 4/5/6/7 = basso/medio-basso/medio-alto/alto), tutte con le stesse
-    partite ma un rango di probabilita' diverso per il mercato di ciascuna."""
-    schedine = []
-    for rank, level in enumerate(LIVELLI_MULTIMARKET):
+def _evento_nazionale(p, mkt_code, pick):
+    return {
+        'partita': f"{p['casa']} - {p['trasferta']}",
+        'campionato': 'Nazionali',
+        'girone': p.get('girone'),
+        'data': p['data'],
+        'mercato': mkt_code,
+        'pronostico': pick['etichetta'],
+        'esito_pick': pick['esito'],
+        'probabilita_stimata': round(pick['probabilita'], 2),
+        'quota_stimata': round(1 / pick['probabilita'], 2),
+        'confidenza_dati': confidenza(pick['probabilita']),
+        'motivazione': p['nota'],
+        'esito': None,
+        'risultato_reale': None,
+    }
+
+
+def build_nazionali_levels(matches):
+    """matches: output di build_matches_nazionali() (partite con tutti e 5 i
+    mercati, ordinati per probabilita' decrescente). Costruisce fino a 4
+    schedine (livelli 4/5/6/7 = basso/medio-basso/medio-alto/alto, con un
+    numero di eventi via via crescente).
+
+    Per ogni partita, la prima volta che viene usata si sceglie con
+    pick_best_market() (doppia chance e Under 3.5 restano di riserva, per
+    non far dominare un solo mercato all'interno della stessa schedina); le
+    volte successive, se la stessa partita deve ricomparire in un livello
+    piu' alto perche' il pool e' piccolo, si passa al miglior mercato REALE
+    tra quelli non ancora mostrati per quella partita (mai lo stesso). Ad
+    ogni passo si sceglie comunque, tra le partite non ancora usate nel
+    livello corrente, quella con l'offerta disponibile piu' alta: quando il
+    pool e' ampio le partite mai usate vincono quasi sempre, quindi la
+    diversificazione tra le quattro schedine emerge da sola; il riutilizzo
+    di una partita scatta solo quando serve davvero.
+
+    Alla fine le schedine costruite vengono riordinate per probabilita'
+    combinata decrescente e rietichettate sui livelli 4/5/6/7, cosi' che il
+    risultato finale sia sempre "crescente" in rischio dalla piu' sicura
+    alla piu' rischiosa, indipendentemente da eventuali partite ripetute con
+    un mercato via via meno prevedibile."""
+    if not matches:
+        return []
+    stato = []
+    for p, markets in matches:
+        key = p['casa'] + ' - ' + p['trasferta']
+        primo_codice, primo_pick = pick_best_market(markets)
+        resto = [m for m in markets if m[0] != primo_codice]
+        offerte = [(primo_codice, primo_pick)] + resto
+        stato.append({'p': p, 'markets': offerte, 'idx': 0, 'key': key})
+
+    grezze = []
+    for n in (4, 5, 6, 7):
         eventi = []
-        for p, markets in matches:
-            mkt_code, pick = markets[min(rank, len(markets) - 1)]
-            eventi.append({
-                'partita': f"{p['casa']} - {p['trasferta']}",
-                'campionato': 'Nazionali',
-                'girone': p.get('girone'),
-                'data': p['data'],
-                'mercato': mkt_code,
-                'pronostico': pick['etichetta'],
-                'esito_pick': pick['esito'],
-                'probabilita_stimata': round(pick['probabilita'], 2),
-                'quota_stimata': round(1 / pick['probabilita'], 2),
-                'confidenza_dati': confidenza(pick['probabilita']),
-                'motivazione': p['nota'],
-                'esito': None,
-                'risultato_reale': None,
-            })
+        used_this_level = set()
+        while len(eventi) < n:
+            migliore = None
+            for s in stato:
+                if s['key'] in used_this_level or s['idx'] >= len(s['markets']):
+                    continue
+                mkt_code, pick = s['markets'][s['idx']]
+                if migliore is None or pick['probabilita'] > migliore[1]['probabilita']:
+                    migliore = (mkt_code, pick, s)
+            if migliore is None:
+                break  # nessuna offerta rimasta per nessuna partita
+            mkt_code, pick, s = migliore
+            eventi.append(_evento_nazionale(s['p'], mkt_code, pick))
+            used_this_level.add(s['key'])
+            s['idx'] += 1
+        if eventi:
+            grezze.append(eventi)
+
+    # Riordina per rischio reale (probabilita' combinata decrescente) e
+    # rietichetta sui livelli 4/5/6/7: garantisce che il risultato pubblicato
+    # sia sempre crescente in rischio, anche nei rari casi limite in cui una
+    # partita ripetuta con un mercato meno probabile in assoluto (ma comunque
+    # alto per quella specifica partita) alterasse l'ordine "naturale".
+    grezze.sort(key=lambda eventi: -combo_prob(eventi))
+    schedine = []
+    for level, eventi in zip(LIVELLI_NAZIONALI, grezze):
         pc = combo_prob(eventi)
         schedine.append({
             'livello_rischio': level,
