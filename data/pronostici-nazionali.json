@@ -662,9 +662,9 @@
       },
       "nota": "La Germania cerca il primo successo del girone dopo il pareggio e la sconfitta d'esordio, contro una Serbia ancora a secco di punti.",
       "risultato": {
-        "stato": "secondo_tempo",
+        "stato": "finale",
         "punteggio": "2-0",
-        "aggiornato": "2026-10-01T20:19:54Z"
+        "aggiornato": "2026-10-01T22:19:22Z"
       }
     },
     {
@@ -701,9 +701,9 @@
       },
       "nota": "La Grecia, sorprendente capolista a punteggio pieno, ospita l'Olanda reduce da pareggio e vittoria: match che vale il primo posto del girone.",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-01T20:19:54Z"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-01T22:19:22Z"
       }
     },
     {
@@ -740,9 +740,9 @@
       },
       "nota": "La Danimarca, in ripresa dopo il ko d'esordio, sfida il Portogallo capolista a punteggio pieno del girone.",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "2-3",
-        "aggiornato": "2026-10-01T20:19:54Z"
+        "stato": "finale",
+        "punteggio": "2-4",
+        "aggiornato": "2026-10-01T22:19:22Z"
       }
     },
     {
@@ -779,9 +779,9 @@
       },
       "nota": "La Norvegia di Haaland, reduce da una sconfitta di misura, ospita un Galles ancora a secco di gol e di punti nel girone.",
       "risultato": {
-        "stato": "secondo_tempo",
+        "stato": "finale",
         "punteggio": "1-2",
-        "aggiornato": "2026-10-01T20:19:54Z"
+        "aggiornato": "2026-10-01T22:19:22Z"
       }
     },
     {
