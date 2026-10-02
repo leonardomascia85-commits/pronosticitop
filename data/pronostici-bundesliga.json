@@ -10,13 +10,43 @@
       "data": "2026-10-09T20:30:00+02:00",
       "forma_casa": "1° posto, 12 pt (4V-0N-0P)",
       "forma_trasferta": "8° posto, 7 pt (2V-1N-1P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Borussia Dortmund", "probabilita": 0.62 },
-      "pick_dc": { "esito": "1X", "etichetta": "Borussia Dortmund o pareggio", "probabilita": 0.84 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Borussia Dortmund",
+        "probabilita": 0.62
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Borussia Dortmund o pareggio",
+        "probabilita": 0.84
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
       "nota": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.59,
+        "corner_attesi_totali": 9.0
+      }
     },
     {
       "casa": "TSG Hoffenheim",
@@ -24,13 +54,43 @@
       "data": "2026-10-10T15:30:00+02:00",
       "forma_casa": "14° posto, 3 pt (1V-0N-3P)",
       "forma_trasferta": "16° posto, 3 pt (1V-0N-3P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Hoffenheim", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Hoffenheim o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Hoffenheim",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Hoffenheim o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Scontro diretto in zona bassa tra due squadre appaiate a 3 punti: leggero favore per il fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.59,
+        "corner_attesi_totali": 10.4
+      }
     },
     {
       "casa": "FC Augsburg",
@@ -38,13 +98,43 @@
       "data": "2026-10-10T15:30:00+02:00",
       "forma_casa": "4° posto, 7 pt (2V-1N-1P)",
       "forma_trasferta": "2° posto, 10 pt (3V-1N-0P)",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Bayern München", "probabilita": 0.56 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Bayern München", "probabilita": 0.80 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.58 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.56 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Bayern München",
+        "probabilita": 0.56
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Bayern München",
+        "probabilita": 0.8
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.56
+      },
       "nota": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.72,
+        "corner_attesi_totali": 11.6
+      }
     },
     {
       "casa": "1. FSV Mainz 05",
@@ -52,13 +142,43 @@
       "data": "2026-10-10T15:30:00+02:00",
       "forma_casa": "6° posto, 7 pt (2V-1N-1P)",
       "forma_trasferta": "5° posto, 7 pt (2V-1N-1P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Mainz 05", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Mainz 05 o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Mainz 05",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Mainz 05 o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Due squadre appaiate a 7 punti: match equilibrato con leggero favore per il Mainz in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.7,
+        "corner_attesi_totali": 11.4
+      }
     },
     {
       "casa": "1. FC Union Berlin",
@@ -66,13 +186,43 @@
       "data": "2026-10-10T15:30:00+02:00",
       "forma_casa": "17° posto, 1 pt (0V-1N-3P)",
       "forma_trasferta": "7° posto, 7 pt (2V-1N-1P)",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Elversberg", "probabilita": 0.48 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Elversberg", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Elversberg",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Elversberg",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
       "nota": "L'Union Berlino, penultimo con un solo punto, ospita un Elversberg in miglior forma: trasferta favorevole.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.59,
+        "corner_attesi_totali": 10.4
+      }
     },
     {
       "casa": "SC Paderborn 07",
@@ -80,13 +230,43 @@
       "data": "2026-10-10T15:30:00+02:00",
       "forma_casa": "12° posto, 4 pt (1V-1N-2P)",
       "forma_trasferta": "15° posto, 3 pt (1V-0N-3P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Paderborn 07", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Paderborn 07 o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Paderborn 07",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Paderborn 07 o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Il Paderborn, con qualche punto in più, parte leggermente favorito in casa contro lo Stuttgart.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.71,
+        "corner_attesi_totali": 11.5
+      }
     },
     {
       "casa": "RB Leipzig",
@@ -94,13 +274,43 @@
       "data": "2026-10-10T18:30:00+02:00",
       "forma_casa": "9° posto, 6 pt (2V-0N-2P)",
       "forma_trasferta": "10° posto, 5 pt (1V-2N-1P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria RB Leipzig", "probabilita": 0.44 },
-      "pick_dc": { "esito": "1X", "etichetta": "RB Leipzig o pareggio", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria RB Leipzig",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "RB Leipzig o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Match equilibrato di metà classifica: il Lipsia parte leggermente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.66,
+        "corner_attesi_totali": 11.0
+      }
     },
     {
       "casa": "1. FC Köln",
@@ -108,13 +318,43 @@
       "data": "2026-10-11T15:30:00+02:00",
       "forma_casa": "13° posto, 4 pt (1V-1N-2P)",
       "forma_trasferta": "18° posto (ultimo), 0 pt (0V-0N-4P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Köln", "probabilita": 0.54 },
-      "pick_dc": { "esito": "1X", "etichetta": "Köln o pareggio", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Köln",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Köln o pareggio",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.8,
+        "corner_attesi_totali": 12.5
+      }
     },
     {
       "casa": "SC Freiburg",
@@ -122,13 +362,43 @@
       "data": "2026-10-11T17:30:00+02:00",
       "forma_casa": "3° posto, 10 pt (3V-1N-0P)",
       "forma_trasferta": "11° posto, 5 pt (1V-2N-1P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Freiburg", "probabilita": 0.56 },
-      "pick_dc": { "esito": "1X", "etichetta": "Freiburg o pareggio", "probabilita": 0.80 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Freiburg",
+        "probabilita": 0.56
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Freiburg o pareggio",
+        "probabilita": 0.8
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.51,
+        "corner_attesi_totali": 9.8
+      }
     }
   ]
 }
