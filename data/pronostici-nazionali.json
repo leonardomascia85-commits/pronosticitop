@@ -818,9 +818,9 @@
       },
       "nota": "Il Belgio, in equilibrio 3 punti su 6, ospita una Turchia ancora senza punti e con la peggior differenza reti del girone.",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-02T20:18:42Z"
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-02T22:18:36Z"
       }
     },
     {
@@ -857,9 +857,9 @@
       },
       "nota": "La Francia capolista a punteggio pieno ospita un'Italia in crescita dopo il poker rifilato alla Turchia.",
       "risultato": {
-        "stato": "secondo_tempo",
+        "stato": "finale",
         "punteggio": "1-1",
-        "aggiornato": "2026-10-02T20:18:42Z"
+        "aggiornato": "2026-10-02T22:18:36Z"
       }
     },
     {
