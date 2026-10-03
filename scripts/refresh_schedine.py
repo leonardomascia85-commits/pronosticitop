@@ -82,7 +82,10 @@ def load_results():
     return lookup
 
 
-def actual_esiti(punteggio):
+CORNER_LINE = 9.5  # linea fissa usata da pick_corner (vedi build_pool/aggiunta mercato corner)
+
+
+def actual_esiti(punteggio, corner=None):
     if not punteggio:
         return None
     parts = punteggio.split('-')
@@ -92,12 +95,21 @@ def actual_esiti(punteggio):
         home, away = int(parts[0]), int(parts[1])
     except ValueError:
         return None
-    return {
+    esiti = {
         '1X2': '1' if home > away else ('2' if home < away else 'X'),
         'OU25': 'over' if (home + away) > 2.5 else 'under',
         'OU35': 'over' if (home + away) > 3.5 else 'under',
         'GGNG': 'gol' if (home > 0 and away > 0) else 'nogol',
     }
+    if corner:
+        cparts = corner.split('-')
+        if len(cparts) == 2:
+            try:
+                c_home, c_away = int(cparts[0]), int(cparts[1])
+                esiti['CORNER'] = 'over' if (c_home + c_away) > CORNER_LINE else 'under'
+            except ValueError:
+                pass
+    return esiti
 
 
 MERCATO_ALIAS = {
@@ -105,6 +117,7 @@ MERCATO_ALIAS = {
     'OU25': 'OU25', 'Under/Over 2.5': 'OU25',
     'OU35': 'OU35', 'Under/Over 3.5': 'OU35',
     'GGNG': 'GGNG', 'Gol/No Gol': 'GGNG',
+    'CORNER': 'CORNER',
 }
 
 
@@ -119,7 +132,7 @@ def resolve_pick(ev):
     if mercato in ('1X2', 'DC'):
         token = testo.split(' ', 1)[0].split('(', 1)[0].strip()
         return mercato, token or None
-    if mercato == 'OU25' or mercato == 'OU35':
+    if mercato in ('OU25', 'OU35', 'CORNER'):
         low = testo.lower()
         if low.startswith('over'): return mercato, 'over'
         if low.startswith('under'): return mercato, 'under'
@@ -133,15 +146,19 @@ def resolve_pick(ev):
 
 
 def event_outcome(ev, lookup):
-    """Ritorna (esito, punteggio). esito e' None se la partita non e' ancora finale."""
+    """Ritorna (esito, punteggio). esito e' None se la partita non e' ancora
+    finale, o se il mercato e' CORNER ma il conteggio corner reale non e'
+    ancora stato raccolto (il punteggio gol da solo non basta a risolverlo)."""
     ris = lookup.get(ev['campionato'] + '||' + ev['partita'])
     if not ris or ris.get('stato') != 'finale':
         return None, None
-    actual = actual_esiti(ris.get('punteggio'))
-    if not actual:
-        return None, None
     mercato, esito_pick = resolve_pick(ev)
     if not esito_pick:
+        return None, None
+    if mercato == 'CORNER' and not ris.get('corner'):
+        return None, None  # finale ma corner non ancora raccolto: ritenta al prossimo giro
+    actual = actual_esiti(ris.get('punteggio'), ris.get('corner'))
+    if not actual:
         return None, None
     if mercato == 'DC':
         won = actual['1X2'] in esito_pick
