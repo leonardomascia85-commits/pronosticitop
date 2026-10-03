@@ -122,7 +122,14 @@
     </a>
   </div>
 
-  <div class="selectrow">
+  <div class="section-tabs" id="sectionTabs">
+    <button class="section-tab active" data-section="misto" type="button">Miste</button>
+    <button class="section-tab" data-section="solo_gol" type="button">Solo Gol/No Gol</button>
+    <button class="section-tab" data-section="solo_under" type="button">Solo Under/Over</button>
+    <button class="section-tab" data-section="solo_corner" type="button">Solo Corner</button>
+  </div>
+
+  <div class="selectrow" id="selectRow">
     <select id="weekSelect"></select>
   </div>
 
@@ -180,7 +187,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   });
 })();
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto', 8:'Rischio alto' };
 const LEAGUE_COLORS = {
@@ -249,9 +256,16 @@ async function buildLiveLookup(week){
 function liveInfo(ev, lookup){
   const risultato = lookup[ev.campionato + '||' + ev.partita];
   if(!risultato || risultato.stato === 'non_iniziata') return { state:'pending' };
-  const score = parseScore(risultato.punteggio);
-  const actual = actualEsiti(score);
   if(risultato.stato === 'finale'){
+    if(ev.mercato === 'CORNER'){
+      if(!risultato.corner || !ev.esito_pick) return { state:'pending' };
+      const cparts = risultato.corner.split('-').map(x=>parseInt(x,10));
+      if(cparts.length !== 2 || isNaN(cparts[0]) || isNaN(cparts[1])) return { state:'pending' };
+      const actualCorner = (cparts[0] + cparts[1]) > 9.5 ? 'over' : 'under';
+      return { state: actualCorner === ev.esito_pick ? 'win' : 'lose', punteggio: risultato.corner };
+    }
+    const score = parseScore(risultato.punteggio);
+    const actual = actualEsiti(score);
     if(!actual || !ev.esito_pick) return { state:'pending' };
     const won = ev.mercato === 'DC' ? ev.esito_pick.indexOf(actual['1X2']) !== -1 : actual[ev.mercato] === ev.esito_pick;
     return { state: won ? 'win' : 'lose', punteggio: risultato.punteggio };
@@ -396,23 +410,25 @@ async function renderStorico(weeks){
     </table>`;
 }
 
+const SEZIONI_FILES = {
+  solo_gol: 'schedine-solo-gol.json',
+  solo_under: 'schedine-solo-under.json',
+  solo_corner: 'schedine-solo-corner.json',
+};
+const SEZIONI_NOTE = {
+  solo_gol: 'Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita (nessun altro mercato in questa sezione).',
+  solo_under: 'Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol per ogni partita (nessun altro mercato in questa sezione).',
+  solo_corner: "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo, disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1.",
+};
+
 async function init(){
   const idx = await fetch('/data/settimane.json').then(r=>r.json()).catch(()=>({settimane:[]}));
   const weeks = idx.settimane || [];
   const select = document.getElementById('weekSelect');
-
-  if(!weeks.length){
-    document.getElementById('content').innerHTML = '<div class="empty">Non ci sono ancora schedine pubblicate.</div>';
-    document.getElementById('storicoBody').innerHTML = '<div class="empty">Nessun dato storico ancora disponibile.</div>';
-    select.style.display = 'none';
-    return;
-  }
-
-  weeks.forEach(w => {
-    const opt = document.createElement('option');
-    opt.value = w.file; opt.textContent = w.titolo;
-    select.appendChild(opt);
-  });
+  const selectRow = document.getElementById('selectRow');
+  const storicoBox = document.getElementById('storicoBox');
+  const banner = document.getElementById('banner');
+  const content = document.getElementById('content');
 
   async function loadWeek(file){
     const data = await fetch('/data/' + file).then(r=>r.json());
@@ -422,9 +438,64 @@ async function init(){
     if(statEl && data.schedine) statEl.textContent = data.schedine.filter(s => s.stato !== 'archiviata').length;
   }
 
-  select.addEventListener('change', () => loadWeek(select.value));
-  await loadWeek(weeks[0].file);
-  renderStorico(weeks);
+  let mistoReady = false;
+  async function initMisto(){
+    if(mistoReady) return;
+    mistoReady = true;
+    if(!weeks.length){
+      content.innerHTML = '<div class="empty">Non ci sono ancora schedine pubblicate.</div>';
+      document.getElementById('storicoBody').innerHTML = '<div class="empty">Nessun dato storico ancora disponibile.</div>';
+      select.style.display = 'none';
+      return;
+    }
+    weeks.forEach(w => {
+      const opt = document.createElement('option');
+      opt.value = w.file; opt.textContent = w.titolo;
+      select.appendChild(opt);
+    });
+    select.addEventListener('change', () => loadWeek(select.value));
+    await loadWeek(weeks[0].file);
+    renderStorico(weeks);
+  }
+
+  const sezioneCache = {};
+  async function loadSezione(kind){
+    if(!sezioneCache[kind]){
+      try{
+        sezioneCache[kind] = await fetch('/data/' + SEZIONI_FILES[kind]).then(r=>{ if(!r.ok) throw new Error('no'); return r.json(); });
+      } catch(e){
+        content.innerHTML = '<div class="empty">Le schedine di questa sezione non sono ancora disponibili.</div>';
+        return;
+      }
+    }
+    const data = sezioneCache[kind];
+    const lookup = await buildLiveLookup(data);
+    renderWeek(data, lookup);
+    if(SEZIONI_NOTE[kind]){
+      banner.style.display = 'block';
+      banner.textContent = SEZIONI_NOTE[kind];
+    }
+  }
+
+  document.querySelectorAll('.section-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if(btn.classList.contains('active')) return;
+      document.querySelectorAll('.section-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const section = btn.dataset.section;
+      if(section === 'misto'){
+        selectRow.style.display = '';
+        storicoBox.style.display = '';
+        initMisto().then(() => { if(weeks.length) loadWeek(select.value || weeks[0].file); });
+      } else {
+        selectRow.style.display = 'none';
+        storicoBox.style.display = 'none';
+        loadSezione(section);
+      }
+    });
+  });
+
+  await initMisto();
 }
 
 init();

@@ -210,6 +210,108 @@ def build_pool():
     return pool
 
 
+# Leghe con il campo pick_corner (vedi 'Aggiunge mercato corner...'): solo
+# queste alimentano il pool "solo corner", le altre non hanno il dato.
+CORNER_LEAGUES = {
+    'pronostici-serie-a.json': 'Serie A',
+    'pronostici-premier-league.json': 'Premier League',
+    'pronostici-la-liga.json': 'La Liga',
+    'pronostici-bundesliga.json': 'Bundesliga',
+    'pronostici-ligue-1.json': 'Ligue 1',
+}
+
+# Le 3 sezioni tematiche a mercato singolo: campo pick_* sorgente, codice
+# mercato canonico, e il sottoinsieme di file campionato da cui pescare.
+SEZIONI_TEMATICHE = {
+    'solo_gol': ('pick_gg', 'GGNG', LEAGUES),
+    'solo_under': ('pick_uo', 'OU25', LEAGUES),
+    'solo_corner': ('pick_corner', 'CORNER', CORNER_LEAGUES),
+}
+
+
+def build_pool_single_market(pick_field, mercato_code, league_files):
+    """Pool di una sezione tematica a mercato singolo: un solo evento per
+    partita, preso sempre dallo stesso campo pick_* (nessuna scelta tra
+    mercati diversi, a differenza di build_pool())."""
+    pool = []
+    for fn, name in league_files.items():
+        path = os.path.join(DATA_DIR, fn)
+        if not os.path.exists(path):
+            continue
+        d = json.load(open(path, encoding='utf-8'))
+        for p in d.get('partite', []):
+            if p.get('risultato', {}).get('stato') != 'non_iniziata':
+                continue
+            pick = p.get(pick_field)
+            if not pick:
+                continue
+            try:
+                kickoff = datetime.datetime.fromisoformat(p['data'])
+            except Exception:
+                continue
+            if kickoff <= NOW:
+                continue
+            pool.append({
+                'partita': f"{p['casa']} - {p['trasferta']}",
+                'campionato': name,
+                'data': p['data'],
+                'mercato': mercato_code,
+                'pronostico': pick['etichetta'],
+                'esito_pick': pick['esito'],
+                'probabilita_stimata': round(pick['probabilita'], 2),
+                'quota_stimata': round(1 / pick['probabilita'], 2),
+                'confidenza_dati': confidenza(pick['probabilita']),
+                'motivazione': p['nota'],
+                'esito': None,
+                'risultato_reale': None,
+            })
+    pool.sort(key=lambda x: -x['probabilita_stimata'])
+    return pool
+
+
+def build_single_market_levels(pool, levels=(4, 5, 6, 7)):
+    """pool: eventi di build_pool_single_market(), gia' ordinati per
+    probabilita' decrescente (un solo evento per partita, nessun mercato di
+    riserva a cui attingere). Quando il pool e' abbastanza grande da coprire
+    tutti e 4 i livelli senza ripetizioni (>= 4+5+6+7=22 partite) li riempie
+    con gruppi di partite completamente disgiunti, dalle piu' probabili (per
+    il livello piu' basso) alle meno probabili; quando e' piccolo, riusa le
+    stesse partite tra livelli solo se non bastano quelle ancora inedite. Il
+    risultato e' sempre riordinato per rischio crescente, come
+    build_nazionali_levels()."""
+    if not pool:
+        return []
+    totale = sum(levels)
+    grezze = []
+    if len(pool) >= totale:
+        cursore = 0
+        for n in levels:
+            grezze.append(pool[cursore:cursore + n])
+            cursore += n
+    else:
+        usate = set()
+        for n in levels:
+            eventi = [e for e in pool if e['partita'] not in usate][:n]
+            if len(eventi) < n:
+                extra = [e for e in pool if e not in eventi][:n - len(eventi)]
+                eventi = eventi + extra
+            for e in eventi:
+                usate.add(e['partita'])
+            if eventi:
+                grezze.append(eventi)
+    grezze.sort(key=lambda eventi: -combo_prob(eventi))
+    schedine = []
+    for level, eventi in zip(levels, grezze):
+        pc = combo_prob(eventi)
+        schedine.append({
+            'livello_rischio': level,
+            'quota_combinata': round(1 / pc, 2),
+            'probabilita_combinata': round(pc, 3),
+            'eventi': eventi,
+        })
+    return schedine
+
+
 def build_pool_nazionali():
     path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
     if not os.path.exists(path):
@@ -530,6 +632,80 @@ def main():
                     pool_naz = [e for e in pool_naz if e['partita'] not in used]
                 else:
                     pool = [e for e in pool if e['partita'] not in used]
+                summary.append(f"{fn}: nuova schedina {new_id} pubblicata ({n} eventi, prob {pc:.3f})")
+            else:
+                summary.append(f"{fn}: nessuna sostituta pubblicata per livello {level} "
+                                f"(eventi futuri disponibili insufficienti)")
+
+        if file_changed:
+            data['aggiornato_il'] = NOW.date().isoformat()
+            with open(path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            changed_files.append(fn)
+
+    # Sezioni tematiche a mercato singolo (Solo Gol/No Gol, Solo Under/Over,
+    # Solo Corner): file perpetui a parte, non elencati in settimane.json
+    # (non sono un "turno" ma schede fisse della pagina schedine), con la
+    # stessa logica archivia-e-sostituisci delle altre, una sezione alla
+    # volta con il proprio pool a mercato singolo.
+    SEZIONI_FILES = {
+        'solo_gol': 'schedine-solo-gol.json',
+        'solo_under': 'schedine-solo-under.json',
+        'solo_corner': 'schedine-solo-corner.json',
+    }
+    for kind, fn in SEZIONI_FILES.items():
+        path = os.path.join(DATA_DIR, fn)
+        if not os.path.exists(path):
+            continue
+        data = json.load(open(path, encoding='utf-8'))
+        file_changed = False
+        pick_field, mercato_code, league_files = SEZIONI_TEMATICHE[kind]
+
+        eventi_attivi = set()
+        for sch in data.get('schedine', []):
+            if sch.get('stato') != 'archiviata':
+                for e in sch.get('eventi', []):
+                    eventi_attivi.add(e['partita'])
+
+        pool_sezione = None
+        for sch in data.get('schedine', []):
+            if sch.get('stato') == 'archiviata':
+                continue
+            outcomes = [event_outcome(ev, lookup) for ev in sch['eventi']]
+            if any(esito is None for esito, _ in outcomes):
+                continue
+
+            for ev, (esito, punteggio) in zip(sch['eventi'], outcomes):
+                ev['esito'] = esito
+                ev['risultato_reale'] = punteggio
+            sch['stato'] = 'archiviata'
+            sch['esito_finale'] = 'vinta' if all(e == 'vinto' for e, _ in outcomes) else 'persa'
+            sch['archiviata_il'] = NOW.isoformat()
+            file_changed = True
+            summary.append(f"{fn}: {sch['id']} archiviata ({sch['esito_finale']})")
+
+            if pool_sezione is None:
+                pool_sezione = build_pool_single_market(pick_field, mercato_code, league_files)
+                pool_sezione = [e for e in pool_sezione if e['partita'] not in eventi_attivi]
+
+            n = len(sch['eventi'])
+            level = sch['livello_rischio']
+            combo = pool_sezione[:n] if len(pool_sezione) >= n else None
+
+            if combo:
+                pc = combo_prob(combo)
+                new_id = next_id([s['id'] for s in data['schedine']], level)
+                data['schedine'].append({
+                    'id': new_id,
+                    'livello_rischio': level,
+                    'quota_combinata': round(1 / pc, 2),
+                    'probabilita_combinata': round(pc, 3),
+                    'stato': 'pubblicata',
+                    'eventi': combo,
+                })
+                used = {e['partita'] for e in combo}
+                eventi_attivi |= used
+                pool_sezione = [e for e in pool_sezione if e['partita'] not in used]
                 summary.append(f"{fn}: nuova schedina {new_id} pubblicata ({n} eventi, prob {pc:.3f})")
             else:
                 summary.append(f"{fn}: nessuna sostituta pubblicata per livello {level} "
