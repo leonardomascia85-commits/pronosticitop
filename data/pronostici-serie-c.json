@@ -818,9 +818,9 @@
       },
       "nota": "La Cavese, in gran forma dopo un 4-2, ospita una Casertana ancora imbattuta: match equilibrato con leggero favore casalingo.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-03T16:25:00Z"
       }
     },
     {
