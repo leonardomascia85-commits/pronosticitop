@@ -935,9 +935,9 @@
       },
       "nota": "La Spagna campione del mondo, vincente all'esordio, ospita una Repubblica Ceca già battuta alla 1ª giornata.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-04T00:20:00Z"
       }
     },
     {

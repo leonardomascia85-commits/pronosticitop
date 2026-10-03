@@ -116,9 +116,9 @@
       },
       "nota": "La Folgore Caratese arriva in casa dopo il successo sul Lumezzane, leggermente favorita.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-04T00:20:00Z"
       }
     },
     {
@@ -155,9 +155,9 @@
       },
       "nota": "L'Ospitaletto, in gran forma, ospita un Renate in difficoltà e ancora fermo a 2 punti: netto favorito nei modelli.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-04T00:20:00Z"
       }
     },
     {
@@ -194,9 +194,9 @@
       },
       "nota": "Match dai contorni incerti per assenza di dati aggiornati sul Carpi: leggero favore per la Pro Vercelli in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-04T00:20:00Z"
       }
     },
     {
@@ -974,9 +974,9 @@
       },
       "nota": "Il Crotone, ultimo in classifica, arriva però da una vittoria a sorpresa: il Catania resta comunque favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-04T00:20:00Z"
       }
     },
     {
