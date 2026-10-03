@@ -896,9 +896,9 @@
       },
       "nota": "La Croazia, vincente all'esordio, ospita un'Inghilterra reduce dal ko interno con la Spagna: entrambe cercano ancora il primo vero equilibrio del girone.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-7",
+        "aggiornato": "2026-10-03T18:20:00Z"
       }
     },
     {
