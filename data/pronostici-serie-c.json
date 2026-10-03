@@ -11,13 +11,37 @@
       "data": "2026-10-03T14:30:00+02:00",
       "forma_casa": "1° posto, 21 pt in 7 gare (7V-0N-0P), miglior forma del girone",
       "forma_trasferta": "posizione esatta non trovata, vittoria 5-0 nell'ultimo turno",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Cittadella", "probabilita": 0.62 },
-      "pick_dc": { "esito": "1X", "etichetta": "Cittadella o pareggio", "probabilita": 0.84 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Cittadella",
+        "probabilita": 0.62
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Cittadella o pareggio",
+        "probabilita": 0.84
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
       "nota": "Il Cittadella capolista è ancora a punteggio pieno dopo 7 giornate: nettamente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-03T14:20:51Z"
+      }
     },
     {
       "girone": "A",
@@ -26,13 +50,37 @@
       "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "10 punti, centrocampo classifica",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Arzignano", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Arzignano o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Arzignano",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Arzignano o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "L'Arzignano, di centrocampo classifica, parte leggermente favorito in casa in un match dai contorni incerti.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -41,13 +89,37 @@
       "data": "2026-10-03T20:30:00+02:00",
       "forma_casa": "vittoria 2-1 su Lumezzane nell'ultimo turno",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Folgore Caratese", "probabilita": 0.44 },
-      "pick_dc": { "esito": "1X", "etichetta": "Folgore Caratese o pareggio", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Folgore Caratese",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Folgore Caratese o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "La Folgore Caratese arriva in casa dopo il successo sul Lumezzane, leggermente favorita.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -56,13 +128,37 @@
       "data": "2026-10-03T20:30:00+02:00",
       "forma_casa": "2°/3° posto, 14 pt (una gara in meno), ottima forma",
       "forma_trasferta": "zona bassa classifica, 2 pt in 6 gare, forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Ospitaletto Franciacorta", "probabilita": 0.60 },
-      "pick_dc": { "esito": "1X", "etichetta": "Ospitaletto o pareggio", "probabilita": 0.82 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Ospitaletto Franciacorta",
+        "probabilita": 0.6
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Ospitaletto o pareggio",
+        "probabilita": 0.82
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "L'Ospitaletto, in gran forma, ospita un Renate in difficoltà e ancora fermo a 2 punti: netto favorito nei modelli.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -71,13 +167,37 @@
       "data": "2026-10-03T20:30:00+02:00",
       "forma_casa": "pareggio 1-1 nell'ultimo turno",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Pro Vercelli", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Pro Vercelli o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Pro Vercelli",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Pro Vercelli o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Match dai contorni incerti per assenza di dati aggiornati sul Carpi: leggero favore per la Pro Vercelli in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -86,13 +206,37 @@
       "data": "2026-10-04T12:30:00+02:00",
       "forma_casa": "sconfitta 0-3 vs Cittadella nell'ultimo turno",
       "forma_trasferta": "2°/3° posto, 14 pt (una gara in meno), ottima forma",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Union Brescia", "probabilita": 0.54 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Union Brescia", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Union Brescia",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Union Brescia",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Lecco, reduce da un pesante 0-3, ospita un Union Brescia nettamente in palla e favorito.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -101,13 +245,37 @@
       "data": "2026-10-04T12:30:00+02:00",
       "forma_casa": "9 punti, centrocampo classifica",
       "forma_trasferta": "zona bassa, 3 pt in 7 gare, pareggio nell'ultimo turno",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Treviso", "probabilita": 0.48 },
-      "pick_dc": { "esito": "1X", "etichetta": "Treviso o pareggio", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Treviso",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Treviso o pareggio",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Il Treviso, di metà classifica, ospita una Giana Erminio in zona bassa: favorito di misura in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -116,13 +284,37 @@
       "data": "2026-10-04T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Dolomiti Bellunesi", "probabilita": 0.40 },
-      "pick_dc": { "esito": "1X", "etichetta": "Dolomiti Bellunesi o pareggio", "probabilita": 0.66 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.50 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Dolomiti Bellunesi",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Dolomiti Bellunesi o pareggio",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -131,13 +323,37 @@
       "data": "2026-10-04T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "sconfitta 1-2 nell'ultimo turno, forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Juventus Next Gen", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Juventus Next Gen o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Juventus Next Gen",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Juventus Next Gen o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Il Lumezzane arriva da una sconfitta e in un momento negativo: leggero favore per la Juventus Next Gen in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "A",
@@ -146,13 +362,37 @@
       "data": "2026-10-04T20:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "4° posto, 13 pt, ottima forma",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Trento", "probabilita": 0.46 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Trento", "probabilita": 0.72 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Trento",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Trento",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Il Trento, quarto in classifica e in buona forma, parte leggermente favorito in trasferta contro l'Alcione Milano.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -161,13 +401,37 @@
       "data": "2026-10-03T14:30:00+02:00",
       "forma_casa": "circa 7 punti, dato aggiornato non trovato oltre la 5ª giornata",
       "forma_trasferta": "circa 7 punti, dato aggiornato non trovato oltre la 5ª giornata",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Gubbio", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Gubbio o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Gubbio",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Gubbio o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Derby umbro tra due squadre appaiate in classifica secondo l'ultimo dato disponibile: match aperto con leggero favore per il fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-10-03T14:20:51Z"
+      }
     },
     {
       "girone": "B",
@@ -176,13 +440,37 @@
       "data": "2026-10-03T14:30:00+02:00",
       "forma_casa": "zona bassa, circa 4 punti (dato datato)",
       "forma_trasferta": "pareggio 0-0 vs Torres nell'ultimo turno, difesa solida",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Vado", "probabilita": 0.38 },
-      "pick_dc": { "esito": "1X", "etichetta": "Vado o pareggio", "probabilita": 0.64 },
-      "pick_gg": { "esito": "nogol", "etichetta": "No Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.74 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Vado",
+        "probabilita": 0.38
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Vado o pareggio",
+        "probabilita": 0.64
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.74
+      },
       "nota": "Il Vado, in zona bassa, ospita un Forlì reduce da uno 0-0 che conferma una difesa solida: match da pochi gol.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-03T14:20:51Z"
+      }
     },
     {
       "girone": "B",
@@ -191,13 +479,37 @@
       "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "2° posto, 15 pt, imbattuto, vittoria 4-0 nell'ultimo turno",
       "forma_trasferta": "zona retrocessione, circa 1 punto (dato datato), forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Grosseto", "probabilita": 0.64 },
-      "pick_dc": { "esito": "1X", "etichetta": "Grosseto o pareggio", "probabilita": 0.86 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.60 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Grosseto",
+        "probabilita": 0.64
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Grosseto o pareggio",
+        "probabilita": 0.86
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6
+      },
       "nota": "Il Grosseto, secondo e imbattuto, reduce da un netto 4-0: nettamente favorito in casa contro una Sambenedettese in zona retrocessione.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -206,13 +518,37 @@
       "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "5° posto, 14 pt, vittoria 3-2 nell'ultimo turno",
       "forma_trasferta": "circa 5 punti (dato datato)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Livorno", "probabilita": 0.50 },
-      "pick_dc": { "esito": "1X", "etichetta": "Livorno o pareggio", "probabilita": 0.76 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Livorno",
+        "probabilita": 0.5
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Livorno o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
       "nota": "Il Livorno, in forma e quinto in classifica, parte favorito in casa contro il Pescara.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -221,13 +557,37 @@
       "data": "2026-10-04T14:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "ultimo posto, 1 pt in 6 gare, forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Atalanta U23", "probabilita": 0.50 },
-      "pick_dc": { "esito": "1X", "etichetta": "Atalanta U23 o pareggio", "probabilita": 0.76 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Atalanta U23",
+        "probabilita": 0.5
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Atalanta U23 o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
       "nota": "Il Vis Pesaro è ultimo con un solo punto in 6 gare: l'Atalanta U23 parte favorita in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -236,13 +596,37 @@
       "data": "2026-10-04T14:30:00+02:00",
       "forma_casa": "circa 7 punti (dato datato)",
       "forma_trasferta": "pareggio 0-0 nell'ultimo turno, difesa solida",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Campobasso", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Campobasso o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "nogol", "etichetta": "No Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.74 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Campobasso",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Campobasso o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.74
+      },
       "nota": "La Torres arriva da uno 0-0 che conferma solidità difensiva: match da pochi gol atteso al Campobasso.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -251,13 +635,37 @@
       "data": "2026-10-04T14:30:00+02:00",
       "forma_casa": "circa 8 punti (dato datato)",
       "forma_trasferta": "sconfitta 0-4 nell'ultimo turno, forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Guidonia Montecelio", "probabilita": 0.54 },
-      "pick_dc": { "esito": "1X", "etichetta": "Guidonia Montecelio o pareggio", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Guidonia Montecelio",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Guidonia Montecelio o pareggio",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Pineto arriva da un pesante 0-4: la Guidonia Montecelio parte favorita in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -266,13 +674,37 @@
       "data": "2026-10-04T14:30:00+02:00",
       "forma_casa": "sconfitta 2-3 nell'ultimo turno, forma negativa",
       "forma_trasferta": "3° posto, 14 pt, imbattuto",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Ravenna", "probabilita": 0.52 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Ravenna", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Ravenna",
+        "probabilita": 0.52
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Ravenna",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
       "nota": "Il Ravenna, terzo e ancora imbattuto, fa visita a una Pianese reduce da una sconfitta: trasferta favorevole sulla carta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -281,13 +713,37 @@
       "data": "2026-10-04T17:30:00+02:00",
       "forma_casa": "4° posto, 14 pt, imbattuto — scontro diretto di vertice",
       "forma_trasferta": "1° posto, 16 pt, imbattuta, miglior forma del girone",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Spezia", "probabilita": 0.42 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Spezia", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.60 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Spezia",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Spezia",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
       "nota": "Scontro diretto al vertice tra le due squadre ancora imbattute del girone: la capolista Spezia parte leggermente favorita.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "B",
@@ -296,13 +752,37 @@
       "data": "2026-10-04T20:30:00+02:00",
       "forma_casa": "circa 5 punti (dato datato)",
       "forma_trasferta": "circa 3 punti, zona bassa (dato datato)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Latina", "probabilita": 0.44 },
-      "pick_dc": { "esito": "1X", "etichetta": "Latina o pareggio", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Latina",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Latina o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Il Latina, meglio piazzato secondo l'ultimo dato disponibile, parte leggermente favorito in casa contro l'Ostiamare.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -311,13 +791,37 @@
       "data": "2026-10-03T14:30:00+02:00",
       "forma_casa": "vittoria 4-2 nell'ultimo turno, ottima forma",
       "forma_trasferta": "4° posto, 12 pt, imbattuta",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Cavese", "probabilita": 0.44 },
-      "pick_dc": { "esito": "1X", "etichetta": "Cavese o pareggio", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.60 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Cavese",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Cavese o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
       "nota": "La Cavese, in gran forma dopo un 4-2, ospita una Casertana ancora imbattuta: match equilibrato con leggero favore casalingo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -326,13 +830,37 @@
       "data": "2026-10-03T14:30:00+02:00",
       "forma_casa": "2° posto, 15 pt, prima sconfitta stagionale nell'ultimo turno dopo 5 vittorie",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Sorrento", "probabilita": 0.52 },
-      "pick_dc": { "esito": "1X", "etichetta": "Sorrento o pareggio", "probabilita": 0.76 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Sorrento",
+        "probabilita": 0.52
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Sorrento o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Sorrento, secondo in classifica, cerca il pronto riscatto in casa dopo la prima sconfitta stagionale.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-03T14:20:51Z"
+      }
     },
     {
       "girone": "C",
@@ -341,13 +869,37 @@
       "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Giugliano", "probabilita": 0.40 },
-      "pick_dc": { "esito": "1X", "etichetta": "Giugliano o pareggio", "probabilita": 0.66 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.50 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Giugliano",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Giugliano o pareggio",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.5
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -356,13 +908,37 @@
       "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Inter U23", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Inter U23 o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Inter U23",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Inter U23 o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -371,13 +947,37 @@
       "data": "2026-10-03T20:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "ultimo posto, 0 pt in 7 gare, ma vittoria a sorpresa 2-1 nell'ultimo turno",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Catania", "probabilita": 0.48 },
-      "pick_dc": { "esito": "1X", "etichetta": "Catania o pareggio", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Catania",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Catania o pareggio",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
       "nota": "Il Crotone, ultimo in classifica, arriva però da una vittoria a sorpresa: il Catania resta comunque favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -386,13 +986,37 @@
       "data": "2026-10-04T14:30:00+02:00",
       "forma_casa": "penultimo, 2 pt, sconfitta 0-1 in casa nell'ultimo turno",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Foggia", "probabilita": 0.42 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Foggia", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.70 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Foggia",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Foggia",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
       "nota": "Il Cosenza, penultimo e reduce da un ko interno, ospita un Foggia lievemente favorito nei modelli.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -401,13 +1025,37 @@
       "data": "2026-10-04T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "sconfitta 4-2 nell'ultimo turno, forma negativa",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Monopoli", "probabilita": 0.48 },
-      "pick_dc": { "esito": "1X", "etichetta": "Monopoli o pareggio", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Monopoli",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Monopoli o pareggio",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
       "nota": "Il Savoia arriva da una pesante sconfitta: il Monopoli parte leggermente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -416,13 +1064,37 @@
       "data": "2026-10-04T20:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "dato non trovato",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Audace Cerignola", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Audace Cerignola o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Audace Cerignola",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Audace Cerignola o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -431,13 +1103,37 @@
       "data": "2026-10-04T20:30:00+02:00",
       "forma_casa": "3° posto, 13 pt, miglior attacco del girone",
       "forma_trasferta": "5° posto, 12 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Potenza", "probabilita": 0.46 },
-      "pick_dc": { "esito": "1X", "etichetta": "Potenza o pareggio", "probabilita": 0.72 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.60 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Potenza",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Potenza o pareggio",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
       "nota": "Derby lucano tra due squadre di vertice del girone: il Potenza, miglior attacco, leggermente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "girone": "C",
@@ -446,13 +1142,37 @@
       "data": "2026-10-04T20:30:00+02:00",
       "forma_casa": "sconfitta 2-1 nell'ultimo turno, forma negativa",
       "forma_trasferta": "1° posto, 16 pt, vittoria 1-0 nell'ultimo turno — capolista in trasferta",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Bari", "probabilita": 0.52 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Bari", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Bari",
+        "probabilita": 0.52
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Bari",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
       "nota": "Il Bari capolista fa visita a una Salernitana reduce dal ko: i pugliesi partono favoriti per proseguire la marcia in vetta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     }
   ]
 }
