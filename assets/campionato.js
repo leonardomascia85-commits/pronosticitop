@@ -155,6 +155,53 @@
     return { groups: groups, order: order };
   }
 
+  // Solo partite non ancora iniziate: una schedina consigliata guarda avanti,
+  // non ha senso includere partite gia' finite o in corso.
+  function nonFinaleMatches(partite) {
+    return partite.filter(function (m) {
+      return !m.risultato || !m.risultato.stato || m.risultato.stato === 'non_iniziata';
+    });
+  }
+
+  // Ordina per affidabilita' decrescente usando la probabilita' del miglior
+  // pick di ciascuna partita (stesso criterio di bestPick).
+  function sortByBestProb(partite) {
+    return partite
+      .map(function (m) { return { match: m, best: bestPick(m) }; })
+      .filter(function (x) { return x.best; })
+      .sort(function (a, b) { return b.best.pick.probabilita - a.best.pick.probabilita; })
+      .map(function (x) { return x.match; });
+  }
+
+  // Costruisce N schedine "top": per ogni girone prende le `perGironeTop`
+  // partite non ancora iniziate piu' affidabili, poi le divide in parti
+  // uguali tra le `schedine` schedine richieste (la prima quota, la piu'
+  // affidabile di ogni girone, va alla schedina #1, e cosi' via). Con un solo
+  // girone e schedine:1 e' semplicemente "le N partite piu' affidabili del
+  // campionato in un'unica schedina".
+  function topSchedineHTML(data, opts) {
+    var grouped = groupByGirone(data.partite);
+    var perGironeTop = opts.perGironeTop || 4;
+    var nSchedine = opts.schedine || 1;
+    var perSlice = Math.ceil(perGironeTop / nSchedine);
+    var liste = [];
+    for (var s = 0; s < nSchedine; s++) liste.push([]);
+    grouped.order.forEach(function (key) {
+      var top = sortByBestProb(nonFinaleMatches(grouped.groups[key])).slice(0, perGironeTop);
+      for (var s = 0; s < nSchedine; s++) {
+        liste[s] = liste[s].concat(top.slice(s * perSlice, (s + 1) * perSlice));
+      }
+    });
+    var html = '';
+    liste.forEach(function (lista, i) {
+      var titolo = nSchedine > 1
+        ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili (2 per girone)'
+        : 'Schedina consigliata — ' + data.campionato;
+      html += schedinaCardHTML(lista, titolo);
+    });
+    return html;
+  }
+
   function schedinaCardHTML(partite, titolo) {
     var rows = '', combinata = 1, somma = 0, n = 0;
     partite.forEach(function (m) {
@@ -185,7 +232,7 @@
     return (
       '<div class="schedina-card">' +
         '<div class="schedina-head">' +
-          '<span class="schedina-title">Schedina consigliata — ' + titolo + '</span>' +
+          '<span class="schedina-title">' + titolo + '</span>' +
           '<span class="schedina-pill">Media ' + pct(somma / n) + '</span>' +
           '<span class="schedina-pill combo">Combinata ' + pct(combinata) + '</span>' +
         '</div>' +
@@ -198,13 +245,13 @@
   function schedineHTML(data) {
     var grouped = groupByGirone(data.partite);
     return grouped.order.map(function (key) {
-      var titolo = key === '_all' ? data.campionato : data.campionato + ' — Girone ' + key;
+      var titolo = 'Schedina consigliata — ' + (key === '_all' ? data.campionato : data.campionato + ' — Girone ' + key);
       return schedinaCardHTML(grouped.groups[key], titolo);
     }).join('');
   }
 
   window.PTCampionato = {
-    render: function (dataUrl, rootId, bannerId) {
+    render: function (dataUrl, rootId, bannerId, opts) {
       var root = document.getElementById(rootId || 'matchesRoot');
       var banner = document.getElementById(bannerId || 'giornataLabel');
       fetch(dataUrl)
@@ -222,7 +269,7 @@
           }
           var schedineEl = document.createElement('div');
           schedineEl.id = 'schedineConsigliate';
-          schedineEl.innerHTML = schedineHTML(data);
+          schedineEl.innerHTML = (opts && opts.schedina) ? topSchedineHTML(data, opts.schedina) : schedineHTML(data);
           root.parentNode.insertBefore(schedineEl, root);
           root.innerHTML = data.partite.map(matchCardHTML).join('');
         })
