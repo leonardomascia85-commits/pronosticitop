@@ -320,7 +320,7 @@
       "girone": "A",
       "casa": "Juventus Next Gen",
       "trasferta": "Lumezzane",
-      "data": "2026-10-04T17:30:00+02:00",
+      "data": "2026-10-13T16:00:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "sconfitta 1-2 nell'ultimo turno, forma negativa",
       "pick_1x2": {
@@ -662,9 +662,9 @@
       },
       "nota": "Il Pineto arriva da un pesante 0-4: la Guidonia Montecelio parte favorita in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-04T16:20:00Z"
       }
     },
     {
@@ -701,9 +701,9 @@
       },
       "nota": "Il Ravenna, terzo e ancora imbattuto, fa visita a una Pianese reduce da una sconfitta: trasferta favorevole sulla carta.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-04T16:20:00Z"
       }
     },
     {
