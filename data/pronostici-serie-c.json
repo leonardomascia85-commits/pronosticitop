@@ -233,9 +233,9 @@
       },
       "nota": "Il Lecco, reduce da un pesante 0-3, ospita un Union Brescia nettamente in palla e favorito.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-04T12:20:00Z"
       }
     },
     {
@@ -272,9 +272,9 @@
       },
       "nota": "Il Treviso, di metà classifica, ospita una Giana Erminio in zona bassa: favorito di misura in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-04T12:20:00Z"
       }
     },
     {
