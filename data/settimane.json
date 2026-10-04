@@ -1,14 +1,14 @@
 {
   "settimane": [
     {
-      "id": "nazionali-2026-09-24",
-      "titolo": "Nazionali — Nations League, 1ª-4ª giornata (Lega A)",
-      "file": "nazionali-schedine.json"
-    },
-    {
       "id": "2026-10-03",
       "titolo": "Turno del 3-12 ottobre 2026 (post sosta nazionali)",
       "file": "2026-10-03.json"
+    },
+    {
+      "id": "nazionali-2026-09-24",
+      "titolo": "Nazionali — Nations League, 1ª-4ª giornata (Lega A)",
+      "file": "nazionali-schedine.json"
     },
     {
       "id": "2026-09-19",
