@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under/Over 2.5",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-03",
+  "aggiornato_il": "2026-10-04",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol (pick_uo) per ogni partita, scelto in base al dato storico reale delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -155,7 +155,7 @@
       "livello_rischio": 6,
       "quota_combinata": 32.42,
       "probabilita_combinata": 0.031,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Vado - Forlì",
@@ -168,8 +168,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Vado, in zona bassa, ospita un Forlì reduce da uno 0-0 che conferma una difesa solida: match da pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Grosseto - Sambenedettese",
@@ -182,8 +182,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Grosseto, secondo e imbattuto, reduce da un netto 4-0: nettamente favorito in casa contro una Sambenedettese in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Livorno - Pescara",
@@ -196,8 +196,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Livorno, in forma e quinto in classifica, parte favorito in casa contro il Pescara.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Campobasso - Torres",
@@ -210,8 +210,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Torres arriva da uno 0-0 che conferma solidità difensiva: match da pochi gol atteso al Campobasso.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Pianese - Ravenna",
@@ -224,8 +224,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Ravenna, terzo e ancora imbattuto, fa visita a una Pianese reduce da una sconfitta: trasferta favorevole sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Reggiana - Spezia",
@@ -238,10 +238,12 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Scontro diretto al vertice tra le due squadre ancora imbattute del girone: la capolista Spezia parte leggermente favorita.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-04T20:16:24.514010+00:00"
     },
     {
       "id": "L7-1",
@@ -345,6 +347,99 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Flamengo capolista, con un ampio margine in classifica, fa visita a un Santos di metà classifica: nettamente favorito.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-2",
+      "livello_rischio": 6,
+      "quota_combinata": 35.48,
+      "probabilita_combinata": 0.028,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palmeiras - Bahia",
+          "campionato": "Brasileirão",
+          "data": "2026-10-08T21:30:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Palmeiras, secondo in classifica, ospita un Bahia comunque in zona alta: match di cartello con i favori per i padroni di casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Parma",
+          "campionato": "Serie A",
+          "data": "2026-10-10T18:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Napoli - Frosinone",
+          "campionato": "Serie A",
+          "data": "2026-10-10T20:45:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Empoli - Palermo",
+          "campionato": "Serie B",
+          "data": "2026-10-10T15:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Palermo capolista fa visita a un Empoli reduce dal ko con il Modena: i rosanero partono favoriti per allungare la striscia positiva.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Catanzaro - Mantova",
+          "campionato": "Serie B",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
           "esito": null,
           "risultato_reale": null
         }

@@ -740,9 +740,9 @@
       },
       "nota": "Scontro diretto al vertice tra le due squadre ancora imbattute del girone: la capolista Spezia parte leggermente favorita.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-04T20:20:00Z"
       }
     },
     {
@@ -1130,9 +1130,9 @@
       },
       "nota": "Derby lucano tra due squadre di vertice del girone: il Potenza, miglior attacco, leggermente favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-04T20:20:00Z"
       }
     },
     {
