@@ -311,9 +311,9 @@
       },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-04T18:20:00Z"
       }
     },
     {
@@ -1022,7 +1022,7 @@
       "girone": "C",
       "casa": "Monopoli",
       "trasferta": "Savoia",
-      "data": "2026-10-04T17:30:00+02:00",
+      "data": "2026-10-03T17:30:00+02:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "sconfitta 4-2 nell'ultimo turno, forma negativa",
       "pick_1x2": {
@@ -1052,9 +1052,9 @@
       },
       "nota": "Il Savoia arriva da una pesante sconfitta: il Monopoli parte leggermente favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-04T18:20:00Z"
       }
     },
     {
