@@ -181,6 +181,26 @@
   // campionato in un'unica schedina".
   function topSchedineHTML(data, opts) {
     var grouped = groupByGirone(data.partite);
+
+    // Campionato a girone unico con `sizes` esplicite (es. [4,5]): fette
+    // consecutive e senza sovrapposizioni dal pool ordinato per affidabilita',
+    // cosi' ogni schedina resta tra le piu' affidabili disponibili senza
+    // ripetere le stesse partite tra una schedina e l'altra.
+    if (grouped.order.length <= 1 && opts.sizes) {
+      var pool = sortByBestProb(nonFinaleMatches(data.partite));
+      var html1 = '', offset = 0;
+      opts.sizes.forEach(function (n, i) {
+        var slice = pool.slice(offset, offset + n);
+        offset += n;
+        if (!slice.length) return;
+        var titolo = opts.sizes.length > 1
+          ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili'
+          : 'Schedina consigliata — ' + data.campionato;
+        html1 += schedinaCardHTML(slice, titolo);
+      });
+      return html1;
+    }
+
     var perGironeTop = opts.perGironeTop || 4;
     var nSchedine = opts.schedine || 1;
     var perSlice = Math.ceil(perGironeTop / nSchedine);

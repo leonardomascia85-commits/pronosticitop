@@ -119,7 +119,7 @@ document.querySelectorAll('.navdrop-btn').forEach(function(b){
 document.addEventListener('click', function(){
   document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
 });
-PTCampionato.render('/data/pronostici-brasileirao.json', null, null, { schedina: { perGironeTop: 4, schedine: 1 } });
+PTCampionato.render('/data/pronostici-brasileirao.json', null, null, { schedina: { sizes: [4, 5] } });
 </script>
 </body>
 </html>
