@@ -554,7 +554,7 @@
       "girone": "B",
       "casa": "Atalanta U23",
       "trasferta": "Vis Pesaro",
-      "data": "2026-10-04T14:30:00+02:00",
+      "data": "2026-10-28T18:00:00+01:00",
       "forma_casa": "dato non trovato",
       "forma_trasferta": "ultimo posto, 1 pt in 6 gare, forma negativa",
       "pick_1x2": {
@@ -623,9 +623,9 @@
       },
       "nota": "La Torres arriva da uno 0-0 che conferma solidità difensiva: match da pochi gol atteso al Campobasso.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-04T14:20:00Z"
       }
     },
     {
@@ -1013,9 +1013,9 @@
       },
       "nota": "Il Cosenza, penultimo e reduce da un ko interno, ospita un Foggia lievemente favorito nei modelli.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-04T14:20:00Z"
       }
     },
     {
