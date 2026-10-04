@@ -173,51 +173,23 @@
       .map(function (x) { return x.match; });
   }
 
-  // Costruisce N schedine "top": per ogni girone prende le `perGironeTop`
-  // partite non ancora iniziate piu' affidabili, poi le divide in parti
-  // uguali tra le `schedine` schedine richieste (la prima quota, la piu'
-  // affidabile di ogni girone, va alla schedina #1, e cosi' via). Con un solo
-  // girone e schedine:1 e' semplicemente "le N partite piu' affidabili del
-  // campionato in un'unica schedina".
+  // Costruisce N schedine "top" dalle partite non ancora iniziate piu'
+  // affidabili dell'intero campionato (fette consecutive e senza
+  // sovrapposizioni dal pool ordinato per affidabilita', stessa logica per
+  // tutti i campionati, Serie C compresa: nessun vincolo per girone, cosi'
+  // la distribuzione resta sempre bilanciata anche quando un girone ha
+  // poche partite ancora da giocare).
   function topSchedineHTML(data, opts) {
-    var grouped = groupByGirone(data.partite);
-
-    // Campionato a girone unico con `sizes` esplicite (es. [4,5]): fette
-    // consecutive e senza sovrapposizioni dal pool ordinato per affidabilita',
-    // cosi' ogni schedina resta tra le piu' affidabili disponibili senza
-    // ripetere le stesse partite tra una schedina e l'altra.
-    if (grouped.order.length <= 1 && opts.sizes) {
-      var pool = sortByBestProb(nonFinaleMatches(data.partite));
-      var html1 = '', offset = 0;
-      opts.sizes.forEach(function (n, i) {
-        var slice = pool.slice(offset, offset + n);
-        offset += n;
-        if (!slice.length) return;
-        var titolo = opts.sizes.length > 1
-          ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili'
-          : 'Schedina consigliata — ' + data.campionato;
-        html1 += schedinaCardHTML(slice, titolo);
-      });
-      return html1;
-    }
-
-    var perGironeTop = opts.perGironeTop || 4;
-    var nSchedine = opts.schedine || 1;
-    var perSlice = Math.ceil(perGironeTop / nSchedine);
-    var liste = [];
-    for (var s = 0; s < nSchedine; s++) liste.push([]);
-    grouped.order.forEach(function (key) {
-      var top = sortByBestProb(nonFinaleMatches(grouped.groups[key])).slice(0, perGironeTop);
-      for (var s = 0; s < nSchedine; s++) {
-        liste[s] = liste[s].concat(top.slice(s * perSlice, (s + 1) * perSlice));
-      }
-    });
-    var html = '';
-    liste.forEach(function (lista, i) {
-      var titolo = nSchedine > 1
-        ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili (2 per girone)'
+    var pool = sortByBestProb(nonFinaleMatches(data.partite));
+    var html = '', offset = 0;
+    opts.sizes.forEach(function (n, i) {
+      var slice = pool.slice(offset, offset + n);
+      offset += n;
+      if (!slice.length) return;
+      var titolo = opts.sizes.length > 1
+        ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili'
         : 'Schedina consigliata — ' + data.campionato;
-      html += schedinaCardHTML(lista, titolo);
+      html += schedinaCardHTML(slice, titolo);
     });
     return html;
   }
