@@ -974,9 +974,9 @@
       },
       "nota": "Ritorno immediato tra le due squadre del match d'apertura: la Grecia capolista ospita una Germania ancora a caccia della prima vittoria.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-04T22:25:00Z"
       }
     },
     {
@@ -1013,9 +1013,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: l'Olanda, reduce da pareggio e vittoria, ospita una Serbia ancora a secco di punti.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-04T22:25:00Z"
       }
     },
     {
@@ -1052,9 +1052,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: il Portogallo capolista a punteggio pieno ospita la Norvegia di Haaland.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-04T22:25:00Z"
       }
     },
     {
@@ -1091,9 +1091,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: il Galles, ancora a secco di punti e di gol, ospita una Danimarca in ripresa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-04T22:25:00Z"
       }
     },
     {

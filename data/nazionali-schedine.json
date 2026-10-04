@@ -3,7 +3,7 @@
   "titolo": "Nazionali — UEFA Nations League 2026/27 — 1ª-4ª giornata (Lega A)",
   "periodo": "24 settembre - 6 ottobre 2026",
   "generato_il": "2026-09-22",
-  "aggiornato_il": "2026-09-29",
+  "aggiornato_il": "2026-10-04",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite sugli eventi reali della finestra nazionali in corso (stessi dati pubblicati in /nazionali.html: ranking, forma recente, gol fatti/subiti). Ogni evento usa il mercato (1X2, doppia chance, Under/Over, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le schedine combinano sempre gli eventi con la probabilita' stimata piu' alta disponibile nel turno.",
   "schedine": [
@@ -657,7 +657,7 @@
       "livello_rischio": 5,
       "quota_combinata": 15.52,
       "probabilita_combinata": 0.064,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Olanda - Serbia",
@@ -671,8 +671,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Olanda, reduce da pareggio e vittoria, ospita una Serbia ancora a secco di punti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Portogallo - Norvegia",
@@ -686,8 +686,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: il Portogallo capolista a punteggio pieno ospita la Norvegia di Haaland.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Repubblica Ceca - Inghilterra",
@@ -701,8 +701,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Inghilterra arriva in fiducia dopo aver battuto i campioni del mondo in carica: favorita in trasferta contro una Repubblica Ceca già battuta all'esordio.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Danimarca - Portogallo",
@@ -716,8 +716,8 @@
           "quota_stimata": 1.75,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Danimarca, in ripresa dopo il ko d'esordio, sfida il Portogallo capolista a punteggio pieno del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Galles - Danimarca",
@@ -731,17 +731,19 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: il Galles, ancora a secco di punti e di gol, ospita una Danimarca in ripresa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-04T22:15:27.454233+00:00"
     },
     {
       "id": "L8-3",
       "livello_rischio": 8,
       "quota_combinata": 73.06,
       "probabilita_combinata": 0.014,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Grecia - Olanda",
@@ -755,8 +757,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Grecia, sorprendente capolista a punteggio pieno, ospita l'Olanda reduce da pareggio e vittoria: match che vale il primo posto del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Francia - Italia",
@@ -770,8 +772,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Francia capolista a punteggio pieno ospita un'Italia in crescita dopo il poker rifilato alla Turchia.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Norvegia - Galles",
@@ -785,8 +787,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Norvegia di Haaland, reduce da una sconfitta di misura, ospita un Galles ancora a secco di gol e di punti nel girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Olanda - Serbia",
@@ -800,8 +802,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Olanda, reduce da pareggio e vittoria, ospita una Serbia ancora a secco di punti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Portogallo - Norvegia",
@@ -815,8 +817,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: il Portogallo capolista a punteggio pieno ospita la Norvegia di Haaland.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Repubblica Ceca - Inghilterra",
@@ -830,8 +832,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Inghilterra arriva in fiducia dopo aver battuto i campioni del mondo in carica: favorita in trasferta contro una Repubblica Ceca già battuta all'esordio.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Danimarca - Portogallo",
@@ -845,8 +847,8 @@
           "quota_stimata": 1.75,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Danimarca, in ripresa dopo il ko d'esordio, sfida il Portogallo capolista a punteggio pieno del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Galles - Danimarca",
@@ -860,10 +862,12 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: il Galles, ancora a secco di punti e di gol, ospita una Danimarca in ripresa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-04T22:15:27.454233+00:00"
     },
     {
       "id": "L4-4",

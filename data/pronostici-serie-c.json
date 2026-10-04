@@ -779,9 +779,9 @@
       },
       "nota": "Il Latina, meglio piazzato secondo l'ultimo dato disponibile, parte leggermente favorito in casa contro l'Ostiamare.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-04T22:20:00Z"
       }
     },
     {
@@ -1091,9 +1091,9 @@
       },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-04T22:20:00Z"
       }
     },
     {
@@ -1169,9 +1169,9 @@
       },
       "nota": "Il Bari capolista fa visita a una Salernitana reduce dal ko: i pugliesi partono favoriti per proseguire la marcia in vetta.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-04T22:20:00Z"
       }
     }
   ]
