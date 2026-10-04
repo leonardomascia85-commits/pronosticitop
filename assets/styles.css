@@ -168,11 +168,6 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 20px 60px}
 .section-tab .tab-icon{font-size:16px;line-height:1}
 .section-tab:hover{border-color:var(--accent);transform:translateY(-1px)}
 .section-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 6px 16px rgba(63,111,184,.35)}
-.section-tab .tab-new{
-  background:var(--green);color:#fff;font-size:9.5px;font-weight:800;letter-spacing:.03em;
-  padding:2px 7px;border-radius:999px;text-transform:uppercase;line-height:1.5
-}
-.section-tab.active .tab-new{background:#fff;color:var(--accent)}
 @media (max-width:640px){
   .section-tab{font-size:13.5px;padding:10px 14px}
 }
