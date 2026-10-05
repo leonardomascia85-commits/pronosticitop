@@ -163,6 +163,19 @@
     });
   }
 
+  // Le partite di uno stesso turno cadono entro pochi giorni l'una dall'altra:
+  // una partita rinviata a settimane di distanza (es. per la sosta nazionali
+  // o per maltempo) non va mescolata nella stessa schedina con le partite del
+  // turno in corso, anche se ha ancora stato "non_iniziata". Tiene solo le
+  // partite entro SAME_ROUND_WINDOW_DAYS dalla piu' vicina nel tempo.
+  var SAME_ROUND_WINDOW_DAYS = 7;
+  function sameRoundMatches(partite) {
+    if (partite.length <= 1) return partite;
+    var earliest = Math.min.apply(null, partite.map(function (m) { return new Date(m.data).getTime(); }));
+    var windowMs = SAME_ROUND_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+    return partite.filter(function (m) { return new Date(m.data).getTime() - earliest <= windowMs; });
+  }
+
   // Ordina per affidabilita' decrescente usando la probabilita' del miglior
   // pick di ciascuna partita (stesso criterio di bestPick).
   function sortByBestProb(partite) {
@@ -180,7 +193,7 @@
   // la distribuzione resta sempre bilanciata anche quando un girone ha
   // poche partite ancora da giocare).
   function topSchedineHTML(data, opts) {
-    var pool = sortByBestProb(nonFinaleMatches(data.partite));
+    var pool = sortByBestProb(sameRoundMatches(nonFinaleMatches(data.partite)));
     var html = '', offset = 0;
     opts.sizes.forEach(function (n, i) {
       var slice = pool.slice(offset, offset + n);

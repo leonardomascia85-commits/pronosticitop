@@ -81,6 +81,11 @@ print(f"Pool size: {len(pool)}")
 
 random.seed(7)
 
+# Una schedina deve restare dentro un unico turno: partite che cadono a piu'
+# di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di settimane
+# per la sosta nazionali) non vanno mai combinate nella stessa schedina.
+SAME_ROUND_WINDOW_DAYS = 10
+
 def diverse_pick(eligible, n):
     if len(eligible) < n:
         return None
@@ -123,6 +128,8 @@ def build_level(level, n_events, n_variants, elig_threshold, min_threshold):
             tries += 1
             combo = diverse_pick(eligible, n_events)
             if not combo: continue
+            dates = [datetime.datetime.fromisoformat(e['data']) for e in combo]
+            if (max(dates) - min(dates)).days > SAME_ROUND_WINDOW_DAYS: continue
             key = frozenset(e['partita'] for e in combo)
             if key in seen: continue
             seen.add(key)

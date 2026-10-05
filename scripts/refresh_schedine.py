@@ -37,6 +37,21 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 # il livello piu' basso) non trovavano piu' abbastanza eventi eleggibili.
 THRESHOLDS = {4: (0.60, 0.56), 5: (0.56, 0.53), 6: (0.53, 0.51), 7: (0.51, 0.50)}
 
+# Una schedina deve restare dentro un unico turno: partite che cadono a piu'
+# di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di settimane
+# per la sosta nazionali) non vanno mai combinate nella stessa schedina.
+SAME_ROUND_WINDOW_DAYS = 10
+
+
+def _filter_same_round(items, get_date):
+    """Tiene solo gli elementi entro SAME_ROUND_WINDOW_DAYS dal piu' vicino nel
+    tempo, cosi' una partita rinviata di settimane non resta mescolata nello
+    stesso pool di partite del turno in corso. get_date(item) -> datetime."""
+    if len(items) <= 1:
+        return items
+    earliest = min(get_date(i) for i in items)
+    return [i for i in items if (get_date(i) - earliest).days <= SAME_ROUND_WINDOW_DAYS]
+
 
 def confidenza(prob):
     if prob >= 0.62: return 'ALTA'
@@ -281,6 +296,7 @@ def build_single_market_levels(pool, levels=(4, 5, 6, 7)):
     build_nazionali_levels()."""
     if not pool:
         return []
+    pool = _filter_same_round(pool, lambda e: datetime.datetime.fromisoformat(e['data']))
     totale = sum(levels)
     grezze = []
     if len(pool) >= totale:
@@ -440,6 +456,7 @@ def build_nazionali_levels(matches):
     un mercato via via meno prevedibile."""
     if not matches:
         return []
+    matches = _filter_same_round(matches, lambda m: datetime.datetime.fromisoformat(m[0]['data']))
     stato = []
     for p, markets in matches:
         key = p['casa'] + ' - ' + p['trasferta']
@@ -518,27 +535,33 @@ def pick_combo(pool, n, level):
     if len(candidates) < n:
         return None
 
-    by_league = collections.defaultdict(list)
-    for e in candidates:
-        by_league[e['campionato']].append(e)
-    leagues_cycle = list(by_league.keys())
-    random.shuffle(leagues_cycle)
-    chosen, chosen_matches = [], set()
-    li, attempts = 0, 0
-    while len(chosen) < n and attempts < 300:
-        attempts += 1
-        lg = leagues_cycle[li % len(leagues_cycle)]
-        li += 1
-        opts = [e for e in by_league[lg] if e['partita'] not in chosen_matches]
-        if opts:
-            pick = random.choice(opts)
-            chosen.append(pick)
-            chosen_matches.add(pick['partita'])
-    if len(chosen) < n:
-        remaining = [e for e in candidates if e['partita'] not in chosen_matches]
-        random.shuffle(remaining)
-        chosen += remaining[:n - len(chosen)]
-    return chosen if len(chosen) == n else None
+    for _attempt in range(30):
+        by_league = collections.defaultdict(list)
+        for e in candidates:
+            by_league[e['campionato']].append(e)
+        leagues_cycle = list(by_league.keys())
+        random.shuffle(leagues_cycle)
+        chosen, chosen_matches = [], set()
+        li, attempts = 0, 0
+        while len(chosen) < n and attempts < 300:
+            attempts += 1
+            lg = leagues_cycle[li % len(leagues_cycle)]
+            li += 1
+            opts = [e for e in by_league[lg] if e['partita'] not in chosen_matches]
+            if opts:
+                pick = random.choice(opts)
+                chosen.append(pick)
+                chosen_matches.add(pick['partita'])
+        if len(chosen) < n:
+            remaining = [e for e in candidates if e['partita'] not in chosen_matches]
+            random.shuffle(remaining)
+            chosen += remaining[:n - len(chosen)]
+        if len(chosen) != n:
+            continue
+        dates = [datetime.datetime.fromisoformat(e['data']) for e in chosen]
+        if (max(dates) - min(dates)).days <= SAME_ROUND_WINDOW_DAYS:
+            return chosen
+    return None
 
 
 def next_id(existing_ids, level):
