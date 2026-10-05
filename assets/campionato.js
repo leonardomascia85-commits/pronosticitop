@@ -187,22 +187,31 @@
   }
 
   // Costruisce N schedine "top" dalle partite non ancora iniziate piu'
-  // affidabili dell'intero campionato (fette consecutive e senza
-  // sovrapposizioni dal pool ordinato per affidabilita', stessa logica per
-  // tutti i campionati, Serie C compresa: nessun vincolo per girone, cosi'
-  // la distribuzione resta sempre bilanciata anche quando un girone ha
-  // poche partite ancora da giocare).
+  // affidabili dell'intero campionato (stessa logica per tutti i
+  // campionati, Serie C compresa: nessun vincolo per girone). Preferisce
+  // partite non ancora usate in una schedina precedente, cosi' le N
+  // schedine restano il piu' possibile distinte tra loro; quando il pool e'
+  // piccolo (un turno puo' avere anche solo 8-10 partite, non sempre
+  // sufficienti per N schedine da 4/5/6 senza sovrapposizioni) riusa le
+  // partite gia' mostrate pur di avere sempre N schedine, invece di farne
+  // sparire qualcuna.
   function topSchedineHTML(data, opts) {
     var pool = sortByBestProb(sameRoundMatches(nonFinaleMatches(data.partite)));
-    var html = '', offset = 0;
+    if (!pool.length) return '';
+    var html = '', used = {};
     opts.sizes.forEach(function (n, i) {
-      var slice = pool.slice(offset, offset + n);
-      offset += n;
-      if (!slice.length) return;
+      var fresh = pool.filter(function (m) { return !used[m.casa + ' - ' + m.trasferta]; });
+      var list = fresh.slice(0, n);
+      if (list.length < n) {
+        var extra = pool.filter(function (m) { return list.indexOf(m) === -1; }).slice(0, n - list.length);
+        list = list.concat(extra);
+      }
+      if (!list.length) return;
+      list.forEach(function (m) { used[m.casa + ' - ' + m.trasferta] = true; });
       var titolo = opts.sizes.length > 1
         ? 'Schedina ' + data.campionato + ' #' + (i + 1) + ' — i più affidabili'
         : 'Schedina consigliata — ' + data.campionato;
-      html += schedinaCardHTML(slice, titolo);
+      html += schedinaCardHTML(list, titolo);
     });
     return html;
   }
