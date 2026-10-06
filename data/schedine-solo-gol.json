@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Gol/No Gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-03",
+  "aggiornato_il": "2026-10-06",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Gol/No Gol (pick_gg) per ogni partita, scelto in base al dato storico reale delle due squadre (gol fatti/subiti, forma recente). Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
