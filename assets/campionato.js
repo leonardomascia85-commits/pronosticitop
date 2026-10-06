@@ -259,8 +259,10 @@
   function schedineHTML(data) {
     var grouped = groupByGirone(data.partite);
     return grouped.order.map(function (key) {
+      var partite = sortByBestProb(sameRoundMatches(nonFinaleMatches(grouped.groups[key])));
+      if (!partite.length) return '';
       var titolo = 'Schedina consigliata — ' + (key === '_all' ? data.campionato : data.campionato + ' — Girone ' + key);
-      return schedinaCardHTML(grouped.groups[key], titolo);
+      return schedinaCardHTML(partite, titolo);
     }).join('');
   }
 
