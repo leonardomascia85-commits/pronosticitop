@@ -1208,9 +1208,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: la Croazia, vincente all'esordio, ospita la Spagna campione del mondo capolista del girone.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "secondo_tempo",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-06T22:15:55+02:00"
       }
     },
     {
@@ -1247,9 +1247,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: l'Inghilterra, corsara in casa della Spagna, ospita a Wembley la Repubblica Ceca.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "secondo_tempo",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-06T22:15:55+02:00"
       }
     }
   ]
