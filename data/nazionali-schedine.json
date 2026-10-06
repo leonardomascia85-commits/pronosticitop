@@ -1,9 +1,9 @@
 {
   "id": "nazionali-2026-09-22",
-  "titolo": "Nazionali — UEFA Nations League 2026/27 — 1ª-4ª giornata (Lega A)",
+  "titolo": "Nazionali — UEFA Nations League 2026/27 — 5a-6a giornata (Lega A)",
   "periodo": "24 settembre - 6 ottobre 2026",
   "generato_il": "2026-09-22",
-  "aggiornato_il": "2026-10-04",
+  "aggiornato_il": "2026-10-06",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite sugli eventi reali della finestra nazionali in corso (stessi dati pubblicati in /nazionali.html: ranking, forma recente, gol fatti/subiti). Ogni evento usa il mercato (1X2, doppia chance, Under/Over, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le schedine combinano sempre gli eventi con la probabilita' stimata piu' alta disponibile nel turno.",
   "schedine": [
@@ -588,7 +588,7 @@
       "livello_rischio": 4,
       "quota_combinata": 2.58,
       "probabilita_combinata": 0.388,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Francia - Belgio",
@@ -602,8 +602,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: la Francia capolista a punteggio pieno ospita il Belgio, sconfitto proprio dai transalpini nell'ultimo turno.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Croazia - Inghilterra",
@@ -617,8 +617,8 @@
           "quota_stimata": 1.3,
           "confidenza_dati": "ALTA",
           "motivazione": "La Croazia, vincente all'esordio, ospita un'Inghilterra reduce dal ko interno con la Spagna: entrambe cercano ancora il primo vero equilibrio del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-7"
         },
         {
           "partita": "Spagna - Repubblica Ceca",
@@ -632,8 +632,8 @@
           "quota_stimata": 1.3,
           "confidenza_dati": "ALTA",
           "motivazione": "La Spagna campione del mondo, vincente all'esordio, ospita una Repubblica Ceca già battuta alla 1ª giornata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Croazia - Spagna",
@@ -647,10 +647,12 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: la Croazia, vincente all'esordio, ospita la Spagna campione del mondo capolista del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-06T21:51:22.726821+00:00"
     },
     {
       "id": "L5-3",
@@ -874,7 +876,7 @@
       "livello_rischio": 4,
       "quota_combinata": 3.63,
       "probabilita_combinata": 0.276,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Inghilterra - Repubblica Ceca",
@@ -888,8 +890,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Inghilterra, corsara in casa della Spagna, ospita a Wembley la Repubblica Ceca.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Grecia - Germania",
@@ -903,8 +905,8 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno immediato tra le due squadre del match d'apertura: la Grecia capolista ospita una Germania ancora a caccia della prima vittoria.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Belgio - Turchia",
@@ -918,8 +920,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Belgio, in equilibrio 3 punti su 6, ospita una Turchia ancora senza punti e con la peggior differenza reti del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Italia - Turchia",
@@ -933,17 +935,19 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Italia, reduce dal poker alla Turchia in trasferta, la ospita ora a Bologna da favorita.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-06T21:51:22.726821+00:00"
     },
     {
       "id": "L5-4",
       "livello_rischio": 5,
       "quota_combinata": 6.04,
       "probabilita_combinata": 0.165,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Inghilterra - Repubblica Ceca",
@@ -957,8 +961,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Inghilterra, corsara in casa della Spagna, ospita a Wembley la Repubblica Ceca.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Grecia - Germania",
@@ -972,8 +976,8 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno immediato tra le due squadre del match d'apertura: la Grecia capolista ospita una Germania ancora a caccia della prima vittoria.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Belgio - Turchia",
@@ -987,8 +991,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Belgio, in equilibrio 3 punti su 6, ospita una Turchia ancora senza punti e con la peggior differenza reti del girone.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Italia - Turchia",
@@ -1002,8 +1006,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno tra le due squadre della 2ª giornata: l'Italia, reduce dal poker alla Turchia in trasferta, la ospita ora a Bologna da favorita.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Germania - Serbia",
@@ -1017,6 +1021,260 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Germania cerca il primo successo del girone dopo il pareggio e la sconfitta d'esordio, contro una Serbia ancora a secco di punti.",
+          "esito": "vinto",
+          "risultato_reale": "2-0"
+        }
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-06T21:51:22.726821+00:00"
+    },
+    {
+      "id": "L4-5",
+      "livello_rischio": 4,
+      "quota_combinata": 2.69,
+      "probabilita_combinata": 0.372,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Inghilterra - Croazia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 3",
+          "data": "2026-11-12T20:45:00+00:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Inghilterra",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Francia - Turchia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 1",
+          "data": "2026-11-15T20:45:00+01:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Francia",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Francia (1° nel girone) ospita Turchia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Spagna - Inghilterra",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 3",
+          "data": "2026-11-15T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Repubblica Ceca - Spagna",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 3",
+          "data": "2026-11-12T20:45:00+01:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Spagna",
+          "esito_pick": "2",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.41,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Repubblica Ceca (4° nel girone) ospita Spagna (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-5",
+      "livello_rischio": 5,
+      "quota_combinata": 17.64,
+      "probabilita_combinata": 0.057,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Belgio - Italia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 1",
+          "data": "2026-11-15T20:45:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galles - Portogallo",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-17T20:45:00+00:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Portogallo",
+          "esito_pick": "2",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Galles (4° nel girone) ospita Portogallo (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Italia - Francia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 1",
+          "data": "2026-11-12T20:45:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Italia (2° nel girone) ospita Francia (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Norvegia - Galles",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-14T18:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Norvegia (3° nel girone) ospita Galles (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Olanda - Grecia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-13T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.53,
+          "quota_stimata": 1.89,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Olanda (1° nel girone) ospita Grecia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-1",
+      "livello_rischio": 6,
+      "quota_combinata": 12.93,
+      "probabilita_combinata": 0.077,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Danimarca - Norvegia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-17T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Danimarca (2° nel girone) ospita Norvegia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Serbia - Germania",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-13T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Serbia (4° nel girone) ospita Germania (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Portogallo - Danimarca",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-14T20:45:00+00:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Portogallo (1° nel girone) ospita Danimarca (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Germania - Olanda",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-16T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Germania (3° nel girone) ospita Olanda (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Turchia - Belgio",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 1",
+          "data": "2026-11-12T18:00:00+01:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Belgio",
+          "esito_pick": "2",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Turchia (4° nel girone) ospita Belgio (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Grecia - Serbia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-16T20:45:00+02:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Grecia",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Grecia (2° nel girone) ospita Serbia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
           "esito": null,
           "risultato_reale": null
         }

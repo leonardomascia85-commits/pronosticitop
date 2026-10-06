@@ -1,8 +1,8 @@
 {
   "campionato": "Nazionali",
-  "giornata": "UEFA Nations League 2026/27 — 1ª-4ª giornata (Lega A)",
-  "periodo": "24 settembre - 6 ottobre 2026",
-  "aggiornato": "2026-09-29T04:30:00+02:00",
+  "giornata": "UEFA Nations League 2026/27 — 5a-6a giornata (Lega A)",
+  "periodo": "12-17 novembre 2026",
+  "aggiornato": "2026-10-06T23:59:00+02:00",
   "partite": [
     {
       "casa": "Olanda",
@@ -1208,9 +1208,9 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: la Croazia, vincente all'esordio, ospita la Spagna campione del mondo capolista del girone.",
       "risultato": {
-        "stato": "secondo_tempo",
-        "punteggio": null,
-        "aggiornato": "2026-10-06T22:15:55+02:00"
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-06T23:51:17+02:00"
       }
     },
     {
@@ -1247,9 +1247,633 @@
       },
       "nota": "Ritorno tra le due squadre della 2ª giornata: l'Inghilterra, corsara in casa della Spagna, ospita a Wembley la Repubblica Ceca.",
       "risultato": {
-        "stato": "secondo_tempo",
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-06T23:51:17+02:00"
+      }
+    },
+    {
+      "casa": "Italia",
+      "trasferta": "Francia",
+      "data": "2026-11-12T20:45:00+01:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "2° nel girone con 7 punti (2V-1N-1P), 8 gol fatti e 5 subiti in 4 gare",
+      "forma_trasferta": "1° nel girone con 10 punti (3V-1N-0P), 7 gol fatti e 2 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Francia",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Francia o pareggio",
+        "probabilita": 0.64
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Italia (2° nel girone) ospita Francia (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
         "punteggio": null,
-        "aggiornato": "2026-10-06T22:15:55+02:00"
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Turchia",
+      "trasferta": "Belgio",
+      "data": "2026-11-12T18:00:00+01:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "4° nel girone con 0 punti (0V-0N-4P), 2 gol fatti e 11 subiti in 4 gare",
+      "forma_trasferta": "3° nel girone con 6 punti (2V-0N-2P), 6 gol fatti e 5 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Belgio",
+        "probabilita": 0.62
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Belgio o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Turchia (4° nel girone) ospita Belgio (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Inghilterra",
+      "trasferta": "Croazia",
+      "data": "2026-11-12T20:45:00+00:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "2° nel girone con 9 punti (3V-0N-1P), 14 gol fatti e 3 subiti in 4 gare",
+      "forma_trasferta": "3° nel girone con 3 punti (1V-0N-3P), 4 gol fatti e 13 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Inghilterra",
+        "probabilita": 0.84
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Inghilterra o pareggio",
+        "probabilita": 0.92
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.79
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.62
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Repubblica Ceca",
+      "trasferta": "Spagna",
+      "data": "2026-11-12T20:45:00+01:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "4° nel girone con 0 punti (0V-0N-4P), 2 gol fatti e 10 subiti in 4 gare",
+      "forma_trasferta": "1° nel girone con 12 punti (4V-0N-0P), 11 gol fatti e 5 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Spagna",
+        "probabilita": 0.71
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Spagna o pareggio",
+        "probabilita": 0.87
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.66
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Repubblica Ceca (4° nel girone) ospita Spagna (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Serbia",
+      "trasferta": "Germania",
+      "data": "2026-11-13T20:45:00+01:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "4° nel girone con 0 punti (0V-0N-4P), 3 gol fatti e 8 subiti in 4 gare",
+      "forma_trasferta": "3° nel girone con 5 punti (1V-2N-1P), 3 gol fatti e 2 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Germania",
+        "probabilita": 0.52
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Germania o pareggio",
+        "probabilita": 0.81
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.68
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.86
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.64
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Serbia (4° nel girone) ospita Germania (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Olanda",
+      "trasferta": "Grecia",
+      "data": "2026-11-13T20:45:00+01:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "1° nel girone con 8 punti (2V-2N-0P), 7 gol fatti e 5 subiti in 4 gare",
+      "forma_trasferta": "2° nel girone con 8 punti (2V-2N-0P), 5 gol fatti e 3 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Olanda",
+        "probabilita": 0.41
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Olanda o pareggio",
+        "probabilita": 0.67
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.75
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Olanda (1° nel girone) ospita Grecia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Portogallo",
+      "trasferta": "Danimarca",
+      "data": "2026-11-14T20:45:00+00:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "1° nel girone con 12 punti (4V-0N-0P), 9 gol fatti e 4 subiti in 4 gare",
+      "forma_trasferta": "2° nel girone con 6 punti (2V-0N-2P), 7 gol fatti e 7 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Portogallo",
+        "probabilita": 0.57
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Portogallo o pareggio",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.67
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.55
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Portogallo (1° nel girone) ospita Danimarca (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Norvegia",
+      "trasferta": "Galles",
+      "data": "2026-11-14T18:00:00+01:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "3° nel girone con 3 punti (1V-0N-3P), 6 gol fatti e 8 subiti in 4 gare",
+      "forma_trasferta": "4° nel girone con 3 punti (1V-0N-3P), 2 gol fatti e 5 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Norvegia",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Norvegia o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.5
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Norvegia (3° nel girone) ospita Galles (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Belgio",
+      "trasferta": "Italia",
+      "data": "2026-11-15T20:45:00+01:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "3° nel girone con 6 punti (2V-0N-2P), 6 gol fatti e 5 subiti in 4 gare",
+      "forma_trasferta": "2° nel girone con 7 punti (2V-1N-1P), 8 gol fatti e 5 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Italia",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Italia o pareggio",
+        "probabilita": 0.63
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Francia",
+      "trasferta": "Turchia",
+      "data": "2026-11-15T20:45:00+01:00",
+      "girone": "Gruppo 1",
+      "forma_casa": "1° nel girone con 10 punti (3V-1N-0P), 7 gol fatti e 2 subiti in 4 gare",
+      "forma_trasferta": "4° nel girone con 0 punti (0V-0N-4P), 2 gol fatti e 11 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Francia",
+        "probabilita": 0.8
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Francia o pareggio",
+        "probabilita": 0.94
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.67
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.66
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Francia (1° nel girone) ospita Turchia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Spagna",
+      "trasferta": "Inghilterra",
+      "data": "2026-11-15T20:45:00+01:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "1° nel girone con 12 punti (4V-0N-0P), 11 gol fatti e 5 subiti in 4 gare",
+      "forma_trasferta": "2° nel girone con 9 punti (3V-0N-1P), 14 gol fatti e 3 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Inghilterra",
+        "probabilita": 0.47
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Inghilterra o pareggio",
+        "probabilita": 0.67
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.78
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.76
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Croazia",
+      "trasferta": "Repubblica Ceca",
+      "data": "2026-11-15T20:45:00+01:00",
+      "girone": "Gruppo 3",
+      "forma_casa": "3° nel girone con 3 punti (1V-0N-3P), 4 gol fatti e 13 subiti in 4 gare",
+      "forma_trasferta": "4° nel girone con 0 punti (0V-0N-4P), 2 gol fatti e 10 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Croazia",
+        "probabilita": 0.41
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Croazia o pareggio",
+        "probabilita": 0.63
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.71
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.5
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.7
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Croazia (3° nel girone) ospita Repubblica Ceca (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Germania",
+      "trasferta": "Olanda",
+      "data": "2026-11-16T20:45:00+01:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "3° nel girone con 5 punti (1V-2N-1P), 3 gol fatti e 2 subiti in 4 gare",
+      "forma_trasferta": "1° nel girone con 8 punti (2V-2N-0P), 7 gol fatti e 5 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Germania",
+        "probabilita": 0.36
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Germania o pareggio",
+        "probabilita": 0.65
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.64
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.83
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.57
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Germania (3° nel girone) ospita Olanda (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Grecia",
+      "trasferta": "Serbia",
+      "data": "2026-11-16T20:45:00+02:00",
+      "girone": "Gruppo 2",
+      "forma_casa": "2° nel girone con 8 punti (2V-2N-0P), 5 gol fatti e 3 subiti in 4 gare",
+      "forma_trasferta": "4° nel girone con 0 punti (0V-0N-4P), 3 gol fatti e 8 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Grecia",
+        "probabilita": 0.62
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Grecia o pareggio",
+        "probabilita": 0.85
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Grecia (2° nel girone) ospita Serbia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Danimarca",
+      "trasferta": "Norvegia",
+      "data": "2026-11-17T20:45:00+01:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "2° nel girone con 6 punti (2V-0N-2P), 7 gol fatti e 7 subiti in 4 gare",
+      "forma_trasferta": "3° nel girone con 3 punti (1V-0N-3P), 6 gol fatti e 8 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Danimarca",
+        "probabilita": 0.49
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Danimarca o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.69
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.52
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.68
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Danimarca (2° nel girone) ospita Norvegia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Galles",
+      "trasferta": "Portogallo",
+      "data": "2026-11-17T20:45:00+00:00",
+      "girone": "Gruppo 4",
+      "forma_casa": "4° nel girone con 3 punti (1V-0N-3P), 2 gol fatti e 5 subiti in 4 gare",
+      "forma_trasferta": "1° nel girone con 12 punti (4V-0N-0P), 9 gol fatti e 4 subiti in 4 gare",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Portogallo",
+        "probabilita": 0.58
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Portogallo o pareggio",
+        "probabilita": 0.82
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.55
+      },
+      "nota": "Ritorno della fase a gironi (5a-6a giornata): Galles (4° nel girone) ospita Portogallo (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]
