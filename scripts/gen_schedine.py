@@ -81,10 +81,12 @@ print(f"Pool size: {len(pool)}")
 
 random.seed(7)
 
-# Una schedina deve restare dentro un unico turno: partite che cadono a piu'
-# di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di settimane
-# per la sosta nazionali) non vanno mai combinate nella stessa schedina.
-SAME_ROUND_WINDOW_DAYS = 10
+# Una schedina deve restare dentro un unico turno/weekend: partite che cadono
+# a piu' di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di
+# settimane per la sosta nazionali, o il turno successivo di un'altra lega)
+# non vanno mai combinate nella stessa schedina. 4 giorni copre un turno
+# tipico (gio/ven-lun) senza poter scavalcare nel weekend successivo.
+SAME_ROUND_WINDOW_DAYS = 4
 
 def diverse_pick(eligible, n):
     if len(eligible) < n:

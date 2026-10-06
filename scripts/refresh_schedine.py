@@ -37,10 +37,12 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 # il livello piu' basso) non trovavano piu' abbastanza eventi eleggibili.
 THRESHOLDS = {4: (0.60, 0.56), 5: (0.56, 0.53), 6: (0.53, 0.51), 7: (0.51, 0.50)}
 
-# Una schedina deve restare dentro un unico turno: partite che cadono a piu'
-# di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di settimane
-# per la sosta nazionali) non vanno mai combinate nella stessa schedina.
-SAME_ROUND_WINDOW_DAYS = 10
+# Una schedina deve restare dentro un unico turno/weekend: partite che cadono
+# a piu' di SAME_ROUND_WINDOW_DAYS l'una dall'altra (es. una rinviata di
+# settimane per la sosta nazionali, o il turno successivo di un'altra lega)
+# non vanno mai combinate nella stessa schedina. 4 giorni copre un turno
+# tipico (gio/ven-lun) senza poter scavalcare nel weekend successivo.
+SAME_ROUND_WINDOW_DAYS = 4
 
 
 def _filter_same_round(items, get_date):
@@ -543,18 +545,27 @@ def pick_combo(pool, n, level):
         random.shuffle(leagues_cycle)
         chosen, chosen_matches = [], set()
         li, attempts = 0, 0
+        # Per le schedine piu' "popolari" (4/5 eventi) puntiamo a vincerle
+        # davvero: scegliamo sempre l'evento a probabilita' piu' alta
+        # disponibile in ogni lega, non uno a caso. Per i livelli piu'
+        # rischiosi (6/7 eventi) manteniamo la scelta casuale, che da' piu'
+        # varieta' alle schedine via via meno "da vincere a tutti i costi".
+        greedy = n <= 5
         while len(chosen) < n and attempts < 300:
             attempts += 1
             lg = leagues_cycle[li % len(leagues_cycle)]
             li += 1
             opts = [e for e in by_league[lg] if e['partita'] not in chosen_matches]
             if opts:
-                pick = random.choice(opts)
+                pick = max(opts, key=lambda e: e['probabilita_stimata']) if greedy else random.choice(opts)
                 chosen.append(pick)
                 chosen_matches.add(pick['partita'])
         if len(chosen) < n:
             remaining = [e for e in candidates if e['partita'] not in chosen_matches]
-            random.shuffle(remaining)
+            if greedy:
+                remaining.sort(key=lambda e: -e['probabilita_stimata'])
+            else:
+                random.shuffle(remaining)
             chosen += remaining[:n - len(chosen)]
         if len(chosen) != n:
             continue
@@ -637,6 +648,7 @@ def main():
                 if pool is None:
                     pool = build_pool()
                     pool = [e for e in pool if e['partita'] not in eventi_attivi_club]
+                    pool = _filter_same_round(pool, lambda e: datetime.datetime.fromisoformat(e['data']))
                 combo = pick_combo(pool, n, level)
 
             if combo:
@@ -710,6 +722,7 @@ def main():
             if pool_sezione is None:
                 pool_sezione = build_pool_single_market(pick_field, mercato_code, league_files)
                 pool_sezione = [e for e in pool_sezione if e['partita'] not in eventi_attivi]
+                pool_sezione = _filter_same_round(pool_sezione, lambda e: datetime.datetime.fromisoformat(e['data']))
 
             n = len(sch['eventi'])
             level = sch['livello_rischio']
