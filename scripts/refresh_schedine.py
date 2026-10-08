@@ -265,10 +265,12 @@ SEZIONI_TEMATICHE = {
 }
 
 
-def build_pool_single_market(pick_field, mercato_code, league_files):
+def build_pool_single_market(pick_field, mercato_code, league_files, weekend_only=False):
     """Pool di una sezione tematica a mercato singolo: un solo evento per
     partita, preso sempre dallo stesso campo pick_* (nessuna scelta tra
-    mercati diversi, a differenza di build_pool())."""
+    mercati diversi, a differenza di build_pool()). weekend_only=True (usato
+    da solo_gol/solo_under) esclude le partite infrasettimanali, come per la
+    pagina schedine principale; solo_corner resta senza questo vincolo."""
     pool = []
     for fn, name in league_files.items():
         path = os.path.join(DATA_DIR, fn)
@@ -286,6 +288,8 @@ def build_pool_single_market(pick_field, mercato_code, league_files):
             except Exception:
                 continue
             if kickoff <= NOW:
+                continue
+            if weekend_only and kickoff.weekday() not in (4, 5, 6, 0):  # ven-sab-dom-lun
                 continue
             pool.append({
                 'partita': f"{p['casa']} - {p['trasferta']}",
@@ -739,7 +743,9 @@ def main():
             summary.append(f"{fn}: {sch['id']} archiviata ({sch['esito_finale']})")
 
             if pool_sezione is None:
-                pool_sezione = build_pool_single_market(pick_field, mercato_code, league_files)
+                pool_sezione = build_pool_single_market(
+                    pick_field, mercato_code, league_files,
+                    weekend_only=(kind != 'solo_corner'))
                 pool_sezione = [e for e in pool_sezione if e['partita'] not in eventi_attivi]
                 pool_sezione = _filter_same_round(pool_sezione, lambda e: datetime.datetime.fromisoformat(e['data']))
 
