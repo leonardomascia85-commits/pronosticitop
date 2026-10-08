@@ -28,6 +28,23 @@ LEAGUES = {
     'pronostici-brasileirao.json': 'Brasileirão',
 }
 
+# La pagina schedine (multi-campionato) non deve mai includere la Serie C
+# (troppo imprevedibile) e deve restare sempre dentro un singolo weekend:
+# questo e' il pool usato SOLO da build_pool() per quella pagina. load_results()
+# e le sezioni tematiche (solo_gol/solo_under) restano sul dizionario LEAGUES
+# completo sopra, che include ancora la Serie C.
+LEAGUES_SCHEDINE_PRINCIPALI = {
+    'pronostici-serie-a.json': 'Serie A',
+    'pronostici-serie-b.json': 'Serie B',
+    'pronostici-premier-league.json': 'Premier League',
+    'pronostici-la-liga.json': 'La Liga',
+    'pronostici-bundesliga.json': 'Bundesliga',
+    'pronostici-ligue-1.json': 'Ligue 1',
+    'pronostici-liga-portugal.json': 'Liga Portugal',
+    'pronostici-eredivisie.json': 'Eredivisie',
+    'pronostici-brasileirao.json': 'Brasileirão',
+}
+
 NOW = datetime.datetime.now(datetime.timezone.utc)
 
 # Soglie ricalibrate su un pool che esclude doppia chance e Under 3.5 dal
@@ -186,7 +203,7 @@ def event_outcome(ev, lookup):
 
 def build_pool():
     pool = []
-    for fn, name in LEAGUES.items():
+    for fn, name in LEAGUES_SCHEDINE_PRINCIPALI.items():
         path = os.path.join(DATA_DIR, fn)
         if not os.path.exists(path):
             continue
@@ -199,6 +216,8 @@ def build_pool():
             except Exception:
                 continue
             if kickoff <= NOW:
+                continue
+            if kickoff.weekday() not in (4, 5, 6, 0):  # solo ven-sab-dom-lun (weekend): mai partite infrasettimanali
                 continue
             markets = []
             if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))

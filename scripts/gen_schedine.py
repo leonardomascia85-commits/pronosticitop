@@ -12,7 +12,6 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 LEAGUES = {
   'pronostici-serie-a.json': 'Serie A',
   'pronostici-serie-b.json': 'Serie B',
-  'pronostici-serie-c.json': 'Serie C',
   'pronostici-premier-league.json': 'Premier League',
   'pronostici-la-liga.json': 'La Liga',
   'pronostici-bundesliga.json': 'Bundesliga',
@@ -54,6 +53,8 @@ for fn, name in LEAGUES.items():
         kickoff = datetime.datetime.fromisoformat(p['data'])
         if kickoff <= NOW:
             continue  # stato non ancora aggiornato ma partita gia' iniziata/finita: escludi comunque
+        if kickoff.weekday() not in (4, 5, 6, 0):  # solo ven-sab-dom-lun (weekend): mai partite infrasettimanali
+            continue
         markets = []
         if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
         if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
@@ -184,7 +185,7 @@ out = {
     "aggiornato_il": today,
     "stato": "pubblicata",
     "campionati_coperti": sorted(set(e['campionato'] for e in pool)),
-    "nota_dati": "Schedine costruite incrociando eventi reali dai turni in corso di Serie A, Serie B, Serie C, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). Champions League non presente in questo turno (pausa del calendario). Ogni evento usa il mercato (1X2, Under/Over 2.5, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le partite gia' disputate al momento della pubblicazione sono escluse. All'interno di ogni livello di rischio (stesso numero di eventi), le schedine sono ordinate dalla piu' sicura (probabilita' combinata piu' alta, #1) alla piu' rischiosa (probabilita' combinata piu' bassa, ultima).",
+    "nota_dati": "Schedine costruite incrociando eventi reali dai turni del weekend (venerdi'-lunedi') in corso di Serie A, Serie B, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). La Serie C non e' inclusa in questa pagina perche' troppo imprevedibile; le partite infrasettimanali restano escluse a prescindere dal campionato. Champions League non presente in questo turno (pausa del calendario). Ogni evento usa il mercato (1X2, Under/Over 2.5, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le partite gia' disputate al momento della pubblicazione sono escluse. All'interno di ogni livello di rischio (stesso numero di eventi), le schedine sono ordinate dalla piu' sicura (probabilita' combinata piu' alta, #1) alla piu' rischiosa (probabilita' combinata piu' bassa, ultima).",
     "schedine": schedine,
 }
 
