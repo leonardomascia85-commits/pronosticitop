@@ -1,0 +1,498 @@
+{
+ "fonte": "Betaminic, pagine yellow-card-stats-<lega> (tabella All Games: TG partite giocate, YF cartellini gialli medi della squadra, YA cartellini gialli medi degli avversari)",
+ "aggiornato": "2026-10-09",
+ "stagione": "2026/27",
+ "leghe": {
+  "serie-a": {
+   "Venezia": {
+    "tg": 5,
+    "yf": 3.2,
+    "ya": 1.4
+   },
+   "Genoa": {
+    "tg": 5,
+    "yf": 2.0,
+    "ya": 1.6
+   },
+   "Napoli": {
+    "tg": 5,
+    "yf": 0.8,
+    "ya": 1.2
+   },
+   "Udinese": {
+    "tg": 5,
+    "yf": 2.2,
+    "ya": 0.6
+   },
+   "Inter": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 2.0
+   },
+   "Cagliari": {
+    "tg": 5,
+    "yf": 1.0,
+    "ya": 1.2
+   },
+   "Como": {
+    "tg": 5,
+    "yf": 0.8,
+    "ya": 1.8
+   },
+   "Monza": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.4
+   },
+   "Parma": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 2.0
+   },
+   "Frosinone": {
+    "tg": 5,
+    "yf": 2.4,
+    "ya": 2.6
+   },
+   "Atalanta": {
+    "tg": 5,
+    "yf": 0.8,
+    "ya": 0.2
+   },
+   "Torino": {
+    "tg": 5,
+    "yf": 0.8,
+    "ya": 1.2
+   },
+   "Lecce": {
+    "tg": 5,
+    "yf": 2.0,
+    "ya": 0.6
+   },
+   "Juventus": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 2.4
+   },
+   "Sassuolo": {
+    "tg": 5,
+    "yf": 1.4,
+    "ya": 2.0
+   },
+   "Milan": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.4
+   },
+   "Bologna": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.8
+   },
+   "Roma": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.4
+   },
+   "Lazio": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 4.0
+   },
+   "Fiorentina": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.4
+   }
+  },
+  "premier-league": {
+   "Liverpool": {
+    "tg": 5,
+    "yf": 2.4,
+    "ya": 2.0
+   },
+   "Everton": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.8
+   },
+   "Ipswich Town": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 2.0
+   },
+   "Arsenal": {
+    "tg": 5,
+    "yf": 1.4,
+    "ya": 3.4
+   },
+   "Coventry City": {
+    "tg": 5,
+    "yf": 0.8,
+    "ya": 1.6
+   },
+   "Tottenham Hotspur": {
+    "tg": 5,
+    "yf": 1.0,
+    "ya": 1.8
+   },
+   "Sunderland": {
+    "tg": 5,
+    "yf": 2.2,
+    "ya": 1.4
+   },
+   "Leeds United": {
+    "tg": 5,
+    "yf": 1.4,
+    "ya": 2.8
+   },
+   "Manchester United": {
+    "tg": 5,
+    "yf": 1.2,
+    "ya": 2.6
+   },
+   "Crystal Palace": {
+    "tg": 5,
+    "yf": 1.2,
+    "ya": 1.4
+   },
+   "Brentford": {
+    "tg": 5,
+    "yf": 2.2,
+    "ya": 1.6
+   },
+   "Hull City": {
+    "tg": 5,
+    "yf": 3.4,
+    "ya": 0.8
+   },
+   "Nottingham Forest": {
+    "tg": 5,
+    "yf": 2.6,
+    "ya": 1.8
+   },
+   "Brighton & Hove Albion": {
+    "tg": 5,
+    "yf": 2.4,
+    "ya": 1.6
+   },
+   "Manchester City": {
+    "tg": 5,
+    "yf": 1.2,
+    "ya": 1.4
+   },
+   "Newcastle United": {
+    "tg": 5,
+    "yf": 2.4,
+    "ya": 2.4
+   },
+   "Aston Villa": {
+    "tg": 5,
+    "yf": 2.0,
+    "ya": 2.2
+   },
+   "AFC Bournemouth": {
+    "tg": 5,
+    "yf": 2.8,
+    "ya": 1.6
+   },
+   "Fulham": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 0.6
+   },
+   "Chelsea": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 2.8
+   }
+  },
+  "la-liga": {
+   "Deportivo Alavés": {
+    "tg": 7,
+    "yf": 2.0,
+    "ya": 2.29
+   },
+   "Getafe": {
+    "tg": 7,
+    "yf": 3.14,
+    "ya": 2.57
+   },
+   "Valencia": {
+    "tg": 7,
+    "yf": 2.0,
+    "ya": 1.71
+   },
+   "Athletic Club": {
+    "tg": 6,
+    "yf": 1.83,
+    "ya": 1.5
+   },
+   "Celta de Vigo": {
+    "tg": 7,
+    "yf": 1.57,
+    "ya": 2.43
+   },
+   "Real Betis": {
+    "tg": 7,
+    "yf": 1.43,
+    "ya": 2.14
+   },
+   "Real Sociedad": {
+    "tg": 7,
+    "yf": 2.14,
+    "ya": 2.86
+   },
+   "Sevilla": {
+    "tg": 7,
+    "yf": 2.71,
+    "ya": 1.86
+   },
+   "Racing de Santander": {
+    "tg": 7,
+    "yf": 2.57,
+    "ya": 2.43
+   },
+   "Espanyol": {
+    "tg": 7,
+    "yf": 2.86,
+    "ya": 2.14
+   },
+   "Rayo Vallecano": {
+    "tg": 7,
+    "yf": 2.43,
+    "ya": 1.71
+   },
+   "Villarreal": {
+    "tg": 7,
+    "yf": 1.71,
+    "ya": 2.29
+   },
+   "Levante": {
+    "tg": 6,
+    "yf": 0.83,
+    "ya": 2.0
+   },
+   "Deportivo de La Coruña": {
+    "tg": 7,
+    "yf": 1.71,
+    "ya": 2.0
+   },
+   "Elche": {
+    "tg": 7,
+    "yf": 2.43,
+    "ya": 1.57
+   },
+   "Atlético Madrid": {
+    "tg": 7,
+    "yf": 1.71,
+    "ya": 1.71
+   },
+   "Málaga": {
+    "tg": 7,
+    "yf": 2.57,
+    "ya": 1.86
+   },
+   "Real Madrid": {
+    "tg": 7,
+    "yf": 1.57,
+    "ya": 2.86
+   },
+   "Osasuna": {
+    "tg": 7,
+    "yf": 2.43,
+    "ya": 1.71
+   },
+   "FC Barcelona": {
+    "tg": 7,
+    "yf": 1.14,
+    "ya": 1.29
+   }
+  },
+  "bundesliga": {
+   "VfB Stuttgart": {
+    "tg": 4,
+    "yf": 1.5,
+    "ya": 2.5
+   },
+   "FC Bayern München": {
+    "tg": 4,
+    "yf": 1.0,
+    "ya": 2.5
+   },
+   "RB Leipzig": {
+    "tg": 4,
+    "yf": 1.25,
+    "ya": 1.25
+   },
+   "1. FSV Mainz 05": {
+    "tg": 4,
+    "yf": 2.25,
+    "ya": 2.75
+   },
+   "1. FC Köln": {
+    "tg": 4,
+    "yf": 2.0,
+    "ya": 1.25
+   },
+   "1. FC Union Berlin": {
+    "tg": 4,
+    "yf": 2.5,
+    "ya": 2.0
+   },
+   "SV Elversberg": {
+    "tg": 4,
+    "yf": 2.0,
+    "ya": 1.5
+   },
+   "Borussia Dortmund": {
+    "tg": 4,
+    "yf": 2.5,
+    "ya": 2.0
+   },
+   "Borussia Mönchengladbach": {
+    "tg": 4,
+    "yf": 3.0,
+    "ya": 2.0
+   },
+   "SC Paderborn 07": {
+    "tg": 4,
+    "yf": 1.5,
+    "ya": 1.5
+   },
+   "TSG Hoffenheim": {
+    "tg": 4,
+    "yf": 2.0,
+    "ya": 0.5
+   },
+   "Eintracht Frankfurt": {
+    "tg": 4,
+    "yf": 2.25,
+    "ya": 1.25
+   },
+   "Bayer 04 Leverkusen": {
+    "tg": 4,
+    "yf": 1.75,
+    "ya": 2.25
+   },
+   "Hamburger SV": {
+    "tg": 4,
+    "yf": 1.25,
+    "ya": 2.25
+   },
+   "SC Freiburg": {
+    "tg": 4,
+    "yf": 1.75,
+    "ya": 2.25
+   },
+   "FC Augsburg": {
+    "tg": 4,
+    "yf": 1.25,
+    "ya": 1.0
+   },
+   "SV Werder Bremen": {
+    "tg": 4,
+    "yf": 1.25,
+    "ya": 1.25
+   },
+   "FC Schalke 04": {
+    "tg": 4,
+    "yf": 1.0,
+    "ya": 2.0
+   }
+  },
+  "ligue-1": {
+   "Olympique de Marseille": {
+    "tg": 5,
+    "yf": 1.4,
+    "ya": 2.0
+   },
+   "Toulouse FC": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.2
+   },
+   "Le Mans FC": {
+    "tg": 5,
+    "yf": 2.0,
+    "ya": 2.4
+   },
+   "Stade Brestois 29": {
+    "tg": 5,
+    "yf": 1.2,
+    "ya": 1.6
+   },
+   "FC Lorient": {
+    "tg": 5,
+    "yf": 1.0,
+    "ya": 1.4
+   },
+   "Olympique Lyonnais": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.8
+   },
+   "Paris FC": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.2
+   },
+   "RC Strasbourg Alsace": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.6
+   },
+   "RC Lens": {
+    "tg": 5,
+    "yf": 2.0,
+    "ya": 1.4
+   },
+   "ESTAC Troyes": {
+    "tg": 5,
+    "yf": 1.0,
+    "ya": 1.2
+   },
+   "OGC Nice": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 0.8
+   },
+   "AJ Auxerre": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.4
+   },
+   "Angers SCO": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.8
+   },
+   "Le Havre AC": {
+    "tg": 5,
+    "yf": 1.6,
+    "ya": 1.4
+   },
+   "Stade Rennais FC": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 2.4
+   },
+   "LOSC Lille": {
+    "tg": 5,
+    "yf": 1.2,
+    "ya": 1.4
+   },
+   "AS Monaco": {
+    "tg": 5,
+    "yf": 1.8,
+    "ya": 1.2
+   },
+   "Paris Saint-Germain": {
+    "tg": 5,
+    "yf": 1.4,
+    "ya": 1.8
+   }
+  }
+ },
+ "nota_bundesliga": "La pagina Betaminic indica 2025/26, ma squadre (Elversberg, Schalke, Amburgo, Paderborn) e partite giocate (4) corrispondono alla stagione 2026/27."
+}

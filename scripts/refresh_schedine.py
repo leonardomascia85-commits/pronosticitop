@@ -155,6 +155,8 @@ MERCATO_ALIAS = {
     'CORNER': 'CORNER',
     'SEGNA': 'SEGNA',
     'MULTIGOL': 'MULTIGOL',
+    'PT': 'PT',
+    'AMM': 'AMM',
 }
 
 
@@ -182,6 +184,18 @@ def resolve_pick(ev):
     return mercato, None
 
 
+def _somma_coppia(txt):
+    if not txt:
+        return None
+    parts = str(txt).split('-')
+    if len(parts) != 2:
+        return None
+    try:
+        return int(parts[0]) + int(parts[1])
+    except ValueError:
+        return None
+
+
 def event_outcome(ev, lookup):
     """Ritorna (esito, punteggio). esito e' None se la partita non e' ancora
     finale, o se il mercato e' CORNER ma il conteggio corner reale non e'
@@ -205,6 +219,16 @@ def event_outcome(ev, lookup):
     elif mercato == 'MULTIGOL':
         lo, hi = (int(x) for x in esito_pick.split('-'))
         won = lo <= sum(actual['GOALS']) <= hi
+    elif mercato == 'PT':
+        tot = _somma_coppia(ris.get('primo_tempo'))
+        if tot is None:
+            return None, None  # finale ma risultato del primo tempo non ancora raccolto
+        won = (tot >= 1) if esito_pick == 'over05' else (tot <= 1)
+    elif mercato == 'AMM':
+        tot = _somma_coppia(ris.get('ammonizioni'))
+        if tot is None:
+            return None, None  # finale ma ammonizioni non ancora raccolte
+        won = (tot > CARTELLINI_LINE) if esito_pick == 'over' else (tot < CARTELLINI_LINE)
     else:
         won = actual.get(mercato) == esito_pick
     return ('vinto' if won else 'perso'), ris.get('punteggio')
@@ -273,6 +297,8 @@ SEZIONI_TEMATICHE = {
     'solo_corner': ('pick_corner', 'CORNER', CORNER_LEAGUES),
     'solo_segna': ('derived_segna', 'SEGNA', LEAGUES),
     'solo_multigol': ('derived_multigol', 'MULTIGOL', LEAGUES),
+    'solo_primotempo': ('derived_primotempo', 'PT', LEAGUES),
+    'solo_ammonizioni': ('derived_ammonizioni', 'AMM', CORNER_LEAGUES),
 }
 
 
@@ -343,11 +369,82 @@ def fit_lambdas(p):
     return lh, la
 
 
-def derive_pick(p, kind):
+# Primo tempo: quota di gol attesi nel primo tempo rispetto al totale della
+# partita (valore tipico dei campionati europei, circa il 45%); da ricalibrare
+# con i risultati del primo tempo che raccogliamo a fine partita.
+PT_FRACTION = 0.45
+# Ammonizioni: linea fissa sul totale dei cartellini gialli della partita.
+CARTELLINI_LINE = 4.5
+CARTELLINI_PRIOR_GAMES = 6   # peso (in partite) della media di campionato
+CARTELLINI_MAX_AGE_DAYS = 21  # oltre questa eta' i dati squadra non si usano
+CARTELLINI_DISPERSION = 1.4   # varianza/media dei cartellini (arbitro, partita)
+_STATS_FILE_LEAGUE = {
+    'pronostici-serie-a.json': 'serie-a', 'pronostici-premier-league.json': 'premier-league',
+    'pronostici-la-liga.json': 'la-liga', 'pronostici-bundesliga.json': 'bundesliga',
+    'pronostici-ligue-1.json': 'ligue-1',
+}
+_cards_cache = {}
+
+
+def _load_cards_stats():
+    if 'v' not in _cards_cache:
+        v = None
+        path = os.path.join(DATA_DIR, 'stats-cartellini.json')
+        if os.path.exists(path):
+            d = json.load(open(path, encoding='utf-8'))
+            try:
+                age = (NOW.date() - datetime.date.fromisoformat(d['aggiornato'])).days
+            except Exception:
+                age = 10 ** 6
+            if age <= CARTELLINI_MAX_AGE_DAYS:
+                v = d
+        _cards_cache['v'] = v
+    return _cards_cache['v']
+
+
+def _nb_pmf(mean, n=25):
+    p = 1.0 / CARTELLINI_DISPERSION
+    r = mean * p / (1 - p)
+    return [math.exp(math.lgamma(k + r) - math.lgamma(r) - math.lgamma(k + 1) + r * math.log(p) + k * math.log(1 - p))
+            for k in range(n)]
+
+
+def _derive_cartellini(p, fn):
+    stats = _load_cards_stats()
+    lg = _STATS_FILE_LEAGUE.get(fn)
+    if not stats or not lg:
+        return None
+    teams = stats['leghe'].get(lg, {})
+    h, a = teams.get(p['casa']), teams.get(p['trasferta'])
+    if not h or not a:
+        return None
+    mean_y = sum(t['yf'] for t in teams.values()) / len(teams)
+
+    def sh(t, k):
+        return (t[k] * t['tg'] + mean_y * CARTELLINI_PRIOR_GAMES) / (t['tg'] + CARTELLINI_PRIOR_GAMES)
+
+    total = (sh(h, 'yf') + sh(a, 'ya')) / 2 + (sh(a, 'yf') + sh(h, 'ya')) / 2
+    pmf = _nb_pmf(total)
+    p_under = sum(pmf[:int(CARTELLINI_LINE) + 1])
+    if p_under >= 0.5:
+        return {'esito': 'under', 'etichetta': f'Under {CARTELLINI_LINE} ammonizioni', 'probabilita': p_under}
+    return {'esito': 'over', 'etichetta': f'Over {CARTELLINI_LINE} ammonizioni', 'probabilita': 1 - p_under}
+
+
+def derive_pick(p, kind, fn=None):
+    if kind == 'derived_ammonizioni':
+        return _derive_cartellini(p, fn)
     lam = fit_lambdas(p)
     if not lam:
         return None
     lh, la = lam
+    if kind == 'derived_primotempo':
+        m = PT_FRACTION * (lh + la)
+        p_over = 1 - math.exp(-m)
+        p_under15 = math.exp(-m) * (1 + m)
+        if p_over >= p_under15:
+            return {'esito': 'over05', 'etichetta': 'Almeno un gol nel primo tempo', 'probabilita': p_over}
+        return {'esito': 'under15', 'etichetta': 'Al massimo un gol nel primo tempo', 'probabilita': p_under15}
     if kind == 'derived_segna':
         ph, pa = 1 - math.exp(-lh), 1 - math.exp(-la)
         if ph >= pa:
@@ -376,7 +473,7 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
         for p in d.get('partite', []):
             if p.get('risultato', {}).get('stato') != 'non_iniziata':
                 continue
-            pick = derive_pick(p, pick_field) if pick_field.startswith('derived_') else p.get(pick_field)
+            pick = derive_pick(p, pick_field, fn) if pick_field.startswith('derived_') else p.get(pick_field)
             if not pick:
                 continue
             try:
@@ -396,7 +493,7 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
                 'esito_pick': pick['esito'],
                 'probabilita_stimata': round(pick['probabilita'], 2),
                 'quota_stimata': round(1 / pick['probabilita'], 2),
-                'confidenza_dati': confidenza(pick['probabilita']),
+                'confidenza_dati': 'MEDIA' if mercato_code in ('PT', 'AMM') else confidenza(pick['probabilita']),
                 'motivazione': p['nota'],
                 'esito': None,
                 'risultato_reale': None,
@@ -808,6 +905,8 @@ def main():
         'solo_corner': 'schedine-solo-corner.json',
         'solo_segna': 'schedine-solo-segna.json',
         'solo_multigol': 'schedine-solo-multigol.json',
+        'solo_primotempo': 'schedine-solo-primotempo.json',
+        'solo_ammonizioni': 'schedine-solo-ammonizioni.json',
     }
     for kind, fn in SEZIONI_FILES.items():
         path = os.path.join(DATA_DIR, fn)
