@@ -10,7 +10,7 @@ Uso: python3 scripts/refresh_schedine.py dalla root del repo.
 Dopo l'esecuzione: validare con python3 -m json.tool sui file segnalati come
 modificati, poi commit + push.
 """
-import json, datetime, os, random, collections
+import json, datetime, os, random, collections, math
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -134,6 +134,7 @@ def actual_esiti(punteggio, corner=None):
         'OU25': 'over' if (home + away) > 2.5 else 'under',
         'OU35': 'over' if (home + away) > 3.5 else 'under',
         'GGNG': 'gol' if (home > 0 and away > 0) else 'nogol',
+        'GOALS': (home, away),
     }
     if corner:
         cparts = corner.split('-')
@@ -152,6 +153,8 @@ MERCATO_ALIAS = {
     'OU35': 'OU35', 'Under/Over 3.5': 'OU35',
     'GGNG': 'GGNG', 'Gol/No Gol': 'GGNG',
     'CORNER': 'CORNER',
+    'SEGNA': 'SEGNA',
+    'MULTIGOL': 'MULTIGOL',
 }
 
 
@@ -196,6 +199,12 @@ def event_outcome(ev, lookup):
         return None, None
     if mercato == 'DC':
         won = actual['1X2'] in esito_pick
+    elif mercato == 'SEGNA':
+        home, away = actual['GOALS']
+        won = (home > 0) if esito_pick == 'casa' else (away > 0)
+    elif mercato == 'MULTIGOL':
+        lo, hi = (int(x) for x in esito_pick.split('-'))
+        won = lo <= sum(actual['GOALS']) <= hi
     else:
         won = actual.get(mercato) == esito_pick
     return ('vinto' if won else 'perso'), ris.get('punteggio')
@@ -262,7 +271,94 @@ SEZIONI_TEMATICHE = {
     'solo_gol': ('pick_gg', 'GGNG', LEAGUES),
     'solo_under': ('pick_uo', 'OU25', LEAGUES),
     'solo_corner': ('pick_corner', 'CORNER', CORNER_LEAGUES),
+    'solo_segna': ('derived_segna', 'SEGNA', LEAGUES),
+    'solo_multigol': ('derived_multigol', 'MULTIGOL', LEAGUES),
 }
+
+
+# --- Mercati derivati (nessun dato aggiuntivo): "Squadra X segna" e "Multigol".
+# Si ricavano dalle stesse probabilita' gia' pubblicate (1X2, doppia chance,
+# Under/Over 2.5 e 3.5, Gol/No Gol) stimando i gol attesi delle due squadre con
+# una Poisson indipendente: vengono scelti i due valori che meglio riproducono
+# le probabilita' dei pick esistenti, da cui si calcolano i nuovi mercati.
+def _pmf(lam, n=12):
+    out, term = [], math.exp(-lam)
+    for k in range(n):
+        out.append(term)
+        term *= lam / (k + 1)
+    return out
+
+
+def _model_probs(lh, la):
+    ph, pa = _pmf(lh), _pmf(la)
+    p1 = px = p2 = o25 = o35 = gg = 0.0
+    for i, a in enumerate(ph):
+        for j, b in enumerate(pa):
+            q = a * b
+            if i > j: p1 += q
+            elif i == j: px += q
+            else: p2 += q
+            if i + j > 2: o25 += q
+            if i + j > 3: o35 += q
+            if i > 0 and j > 0: gg += q
+    return {'1': p1, 'X': px, '2': p2, '1X': p1 + px, 'X2': px + p2, '12': p1 + p2,
+            'o25': o25, 'o35': o35, 'gg': gg}
+
+
+def _targets(p):
+    t = []
+    if p.get('pick_1x2'): t.append((p['pick_1x2']['esito'], p['pick_1x2']['probabilita']))
+    if p.get('pick_dc'): t.append((p['pick_dc']['esito'], p['pick_dc']['probabilita']))
+    if p.get('pick_uo'): t.append(('o25' if p['pick_uo']['esito'] == 'over' else 'u25', p['pick_uo']['probabilita']))
+    if p.get('pick_uo35'): t.append(('o35' if p['pick_uo35']['esito'] == 'over' else 'u35', p['pick_uo35']['probabilita']))
+    if p.get('pick_gg'): t.append(('gg' if p_gg_is_gol(p) else 'ng', p['pick_gg']['probabilita']))
+    return t
+
+
+def p_gg_is_gol(p):
+    return p['pick_gg']['esito'] == 'gol'
+
+
+def fit_lambdas(p):
+    t = _targets(p)
+    if len(t) < 3:
+        return None
+
+    def loss(lh, la):
+        m = _model_probs(lh, la)
+        m.update({'u25': 1 - m['o25'], 'u35': 1 - m['o35'], 'ng': 1 - m['gg']})
+        return sum((m[k] - v) ** 2 for k, v in t)
+
+    lh, la, step = 1.4, 1.1, 0.5
+    best = loss(lh, la)
+    while step > 0.01:
+        moved = False
+        for dh, da in ((step, 0), (-step, 0), (0, step), (0, -step)):
+            nh, na = min(4.0, max(0.15, lh + dh)), min(4.0, max(0.15, la + da))
+            v = loss(nh, na)
+            if v < best - 1e-12:
+                lh, la, best, moved = nh, na, v, True
+        if not moved:
+            step /= 2
+    return lh, la
+
+
+def derive_pick(p, kind):
+    lam = fit_lambdas(p)
+    if not lam:
+        return None
+    lh, la = lam
+    if kind == 'derived_segna':
+        ph, pa = 1 - math.exp(-lh), 1 - math.exp(-la)
+        if ph >= pa:
+            return {'esito': 'casa', 'etichetta': f"Segna la squadra di casa ({p['casa']})", 'probabilita': ph}
+        return {'esito': 'trasferta', 'etichetta': f"Segna la squadra ospite ({p['trasferta']})", 'probabilita': pa}
+    if kind == 'derived_multigol':
+        tot = _pmf(lh + la, 14)
+        opts = [('1-3', sum(tot[1:4])), ('2-4', sum(tot[2:5]))]
+        esito, prob = max(opts, key=lambda o: o[1])
+        return {'esito': esito, 'etichetta': f'Multigol {esito}', 'probabilita': prob}
+    return None
 
 
 def build_pool_single_market(pick_field, mercato_code, league_files, weekend_only=False):
@@ -280,7 +376,7 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
         for p in d.get('partite', []):
             if p.get('risultato', {}).get('stato') != 'non_iniziata':
                 continue
-            pick = p.get(pick_field)
+            pick = derive_pick(p, pick_field) if pick_field.startswith('derived_') else p.get(pick_field)
             if not pick:
                 continue
             try:
@@ -710,6 +806,8 @@ def main():
         'solo_gol': 'schedine-solo-gol.json',
         'solo_under': 'schedine-solo-under.json',
         'solo_corner': 'schedine-solo-corner.json',
+        'solo_segna': 'schedine-solo-segna.json',
+        'solo_multigol': 'schedine-solo-multigol.json',
     }
     for kind, fn in SEZIONI_FILES.items():
         path = os.path.join(DATA_DIR, fn)

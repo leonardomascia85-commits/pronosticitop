@@ -128,6 +128,8 @@
       <button class="section-tab" data-section="solo_gol" type="button"><span class="tab-icon">🥅</span> Solo Gol/No Gol</button>
       <button class="section-tab" data-section="solo_under" type="button"><span class="tab-icon">📊</span> Solo Under/Over</button>
       <button class="section-tab" data-section="solo_corner" type="button"><span class="tab-icon">🚩</span> Solo Corner</button>
+      <button class="section-tab" data-section="solo_segna" type="button"><span class="tab-icon">🎯</span> Solo Squadra segna</button>
+      <button class="section-tab" data-section="solo_multigol" type="button"><span class="tab-icon">🔢</span> Solo Multigol</button>
     </div>
   </div>
 
@@ -189,7 +191,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   });
 })();
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto', 8:'Rischio alto' };
 const LEAGUE_COLORS = {
@@ -269,6 +271,15 @@ function liveInfo(ev, lookup){
     const score = parseScore(risultato.punteggio);
     const actual = actualEsiti(score);
     if(!actual || !ev.esito_pick) return { state:'pending' };
+    if(ev.mercato === 'SEGNA'){
+      const segna = ev.esito_pick === 'casa' ? score.home > 0 : score.away > 0;
+      return { state: segna ? 'win' : 'lose', punteggio: risultato.punteggio };
+    }
+    if(ev.mercato === 'MULTIGOL'){
+      const r = ev.esito_pick.split('-').map(x=>parseInt(x,10));
+      const tot = score.home + score.away;
+      return { state: (tot >= r[0] && tot <= r[1]) ? 'win' : 'lose', punteggio: risultato.punteggio };
+    }
     const won = ev.mercato === 'DC' ? ev.esito_pick.indexOf(actual['1X2']) !== -1 : actual[ev.mercato] === ev.esito_pick;
     return { state: won ? 'win' : 'lose', punteggio: risultato.punteggio };
   }
@@ -416,11 +427,15 @@ const SEZIONI_FILES = {
   solo_gol: 'schedine-solo-gol.json',
   solo_under: 'schedine-solo-under.json',
   solo_corner: 'schedine-solo-corner.json',
+  solo_segna: 'schedine-solo-segna.json',
+  solo_multigol: 'schedine-solo-multigol.json',
 };
 const SEZIONI_NOTE = {
   solo_gol: 'Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita (nessun altro mercato in questa sezione).',
   solo_under: 'Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol per ogni partita (nessun altro mercato in questa sezione).',
   solo_corner: "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo, disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1.",
+  solo_segna: 'Schedine costruite usando esclusivamente il mercato "Segna la squadra": il pronostico è vinto se la squadra indicata segna almeno un gol (nessun altro mercato in questa sezione).',
+  solo_multigol: 'Schedine costruite usando esclusivamente il mercato Multigol: il pronostico è vinto se il totale dei gol della partita rientra nell\'intervallo indicato, 1-3 oppure 2-4 (nessun altro mercato in questa sezione).',
 };
 
 async function init(){
