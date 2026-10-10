@@ -19,7 +19,7 @@ LEAGUE_FILES = {
     'Serie A': 'pronostici-serie-a.json', 'Serie B': 'pronostici-serie-b.json', 'Serie C': 'pronostici-serie-c.json',
     'Premier League': 'pronostici-premier-league.json', 'La Liga': 'pronostici-la-liga.json',
     'Bundesliga': 'pronostici-bundesliga.json', 'Ligue 1': 'pronostici-ligue-1.json',
-    'Liga Portugal': 'pronostici-liga-portugal.json', 'Eredivisie': 'pronostici-eredivisie.json',
+    'Liga Portugal': 'pronostici-liga-portugal.json', 'Eredivisie': 'pronostici-eredivisie.json', 'Süper Lig': 'pronostici-super-lig.json',
     'Brasileirão': 'pronostici-brasileirao.json', 'Champions League': 'pronostici-champions-league.json'
 }
 

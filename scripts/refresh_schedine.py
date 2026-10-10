@@ -25,6 +25,7 @@ LEAGUES = {
     'pronostici-ligue-1.json': 'Ligue 1',
     'pronostici-liga-portugal.json': 'Liga Portugal',
     'pronostici-eredivisie.json': 'Eredivisie',
+    'pronostici-super-lig.json': 'Süper Lig',
     'pronostici-brasileirao.json': 'Brasileirão',
 }
 
@@ -42,6 +43,7 @@ LEAGUES_SCHEDINE_PRINCIPALI = {
     'pronostici-ligue-1.json': 'Ligue 1',
     'pronostici-liga-portugal.json': 'Liga Portugal',
     'pronostici-eredivisie.json': 'Eredivisie',
+    'pronostici-super-lig.json': 'Süper Lig',
     'pronostici-brasileirao.json': 'Brasileirão',
 }
 

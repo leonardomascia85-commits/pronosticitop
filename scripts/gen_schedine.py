@@ -18,6 +18,7 @@ LEAGUES = {
   'pronostici-ligue-1.json': 'Ligue 1',
   'pronostici-liga-portugal.json': 'Liga Portugal',
   'pronostici-eredivisie.json': 'Eredivisie',
+    'pronostici-super-lig.json': 'Süper Lig',
   'pronostici-brasileirao.json': 'Brasileirão',
 }
 
@@ -185,7 +186,7 @@ out = {
     "aggiornato_il": today,
     "stato": "pubblicata",
     "campionati_coperti": sorted(set(e['campionato'] for e in pool)),
-    "nota_dati": "Schedine costruite incrociando eventi reali dai turni del weekend (venerdi'-lunedi') in corso di Serie A, Serie B, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). La Serie C non e' inclusa in questa pagina perche' troppo imprevedibile; le partite infrasettimanali restano escluse a prescindere dal campionato. Champions League non presente in questo turno (pausa del calendario). Ogni evento usa il mercato (1X2, Under/Over 2.5, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le partite gia' disputate al momento della pubblicazione sono escluse. All'interno di ogni livello di rischio (stesso numero di eventi), le schedine sono ordinate dalla piu' sicura (probabilita' combinata piu' alta, #1) alla piu' rischiosa (probabilita' combinata piu' bassa, ultima).",
+    "nota_dati": "Schedine costruite incrociando eventi reali dai turni del weekend (venerdi'-lunedi') in corso di Serie A, Serie B, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie, Süper Lig e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). La Serie C non e' inclusa in questa pagina perche' troppo imprevedibile; le partite infrasettimanali restano escluse a prescindere dal campionato. Champions League non presente in questo turno (pausa del calendario). Ogni evento usa il mercato (1X2, Under/Over 2.5, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le partite gia' disputate al momento della pubblicazione sono escluse. All'interno di ogni livello di rischio (stesso numero di eventi), le schedine sono ordinate dalla piu' sicura (probabilita' combinata piu' alta, #1) alla piu' rischiosa (probabilita' combinata piu' bassa, ultima).",
     "schedine": schedine,
 }
 
