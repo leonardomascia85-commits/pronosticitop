@@ -263,7 +263,7 @@ async function buildLiveLookup(week){
 
 function liveInfo(ev, lookup){
   const risultato = lookup[ev.campionato + '||' + ev.partita];
-  if(!risultato || risultato.stato === 'non_iniziata') return { state:'pending' };
+  if(!risultato || risultato.stato === 'non_iniziata' || risultato.stato === 'sospesa') return { state:'pending' };
   if(risultato.stato === 'finale'){
     if(ev.mercato === 'CORNER'){
       if(!risultato.corner || !ev.esito_pick) return { state:'pending' };
@@ -300,7 +300,7 @@ function liveInfo(ev, lookup){
   // in_corso, intervallo, secondo_tempo
   return { state:'live', punteggio: risultato.punteggio, faseLabel: STATUS_LABELS_LIVE[risultato.stato] || 'LIVE' };
 }
-const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T' };
+const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T', live:'IN CORSO' };
 
 function schedinaStatusLive(sch, lookup){
   const states = sch.eventi.map(e => liveInfo(e, lookup).state);

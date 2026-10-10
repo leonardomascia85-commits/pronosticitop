@@ -18,7 +18,8 @@
     intervallo: 'INTERVALLO',
     secondo_tempo: 'LIVE · 2° tempo',
     finale: 'FINALE',
-    sospesa: 'SOSPESA'
+    sospesa: 'SOSPESA',
+    live: 'IN CORSO'
   };
 
   function parseScore(punteggio) {
