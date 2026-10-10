@@ -433,7 +433,8 @@ def riempi_fasce(schedine, partite=None, seed=0):
             usate_livello = {e['partita'] for x in schedine if x.get('stato') != 'archiviata'
                              and x['livello_rischio'] == level for e in x['eventi']}
             usate = {e['partita'] for x in schedine if x.get('stato') != 'archiviata' for e in x['eventi']}
-            nuova = build_schedina_fascia(partite, level, fascia, usate_livello, usate, seed=seed)
+            disponibili = [m for m in partite if m[0]['partita'] not in usate_livello]
+            nuova = build_schedina_fascia(disponibili, level, fascia, usate_livello, usate, seed=seed)
             if not nuova:
                 continue
             nuova = {'id': next_id([x['id'] for x in schedine], level), **nuova}
@@ -745,16 +746,23 @@ def _schedina_variante(eventi, level, variante):
     return sch
 
 
-def build_variante(pool, level, variante, escludi=()):
-    """pool ordinato per probabilita' decrescente. 'quota_max' prende sempre i
-    migliori n eventi del turno (l'unico modo di avvicinarsi al tetto di
-    quota); 'libera' prende i migliori n eventi esclusi quelli della
-    'quota_max' dello stesso livello (escludi), cosi' resta a rischio medio
-    senza duplicare l'altra schedina del livello."""
-    candidati = pool if variante == 'quota_max' else [e for e in pool if e['partita'] not in escludi]
-    if len(candidati) < level:
+def build_variante(pool, level, variante, escludi=(), evita=()):
+    """pool ordinato per probabilita' decrescente. Le partite in `escludi`
+    (gia' presenti in un'altra schedina attiva dello STESSO livello) non
+    vengono mai riusate; quelle in `evita` (presenti in schedine di altri
+    livelli) si riusano solo se le partite nuove non bastano. 'quota_max' e
+    'libera' differiscono solo nell'ordine di riempimento: la quota_max viene
+    costruita per prima, quindi prende le partite piu' probabili rimaste."""
+    candidati = [e for e in pool if e['partita'] not in escludi]
+    nuove = [e for e in candidati if e['partita'] not in evita]
+    eventi = nuove[:level]
+    if len(eventi) < level:
+        gia = {e['partita'] for e in eventi}
+        eventi += [e for e in candidati if e['partita'] not in gia][:level - len(eventi)]
+    if len(eventi) < level:
         return None
-    return _schedina_variante(list(candidati[:level]), level, variante)
+    eventi = sorted(eventi, key=lambda e: -e['probabilita_stimata'])
+    return _schedina_variante(list(eventi), level, variante)
 
 
 def build_pool_nazionali():
@@ -1217,10 +1225,13 @@ def main():
                 pool_v = _filter_same_round(pool_v, lambda e: datetime.datetime.fromisoformat(e['data']))
                 # prima tutte le quota_max (usano i migliori eventi), poi le libere
                 for level, variante in sorted(mancanti, key=lambda m: (m[1] != 'quota_max', m[0])):
-                    escludi = {e['partita'] for x in data['schedine']
-                               if x.get('stato') != 'archiviata' and x['livello_rischio'] == level
-                               and x.get('variante') == 'quota_max' for e in x['eventi']}
-                    nuova = build_variante(pool_v, level, variante, escludi)
+                    attive_ora = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
+                    escludi = {e['partita'] for x in attive_ora if x['livello_rischio'] == level for e in x['eventi']}
+                    evita = {e['partita'] for x in attive_ora for e in x['eventi']}
+                    # la quota_max riusa se serve le partite migliori di altri
+                    # livelli (per restare nel tetto di quota), la libera no
+                    nuova = build_variante(pool_v, level, variante, escludi,
+                                           evita if variante == 'libera' else ())
                     if not nuova:
                         summary.append(f"{fn}: nessuna schedina {variante} pubblicata per livello {level} "
                                        f"(eventi futuri disponibili insufficienti)")
