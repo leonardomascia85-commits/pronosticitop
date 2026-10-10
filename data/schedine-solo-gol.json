@@ -11,7 +11,7 @@
       "livello_rischio": 5,
       "quota_combinata": 15.78,
       "probabilita_combinata": 0.063,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sp. Braga - Sporting CP",
@@ -24,8 +24,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Lo Sporting, terzo e ancora imbattuto, fa visita a un Braga solido: favoriti di misura in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Fortuna Sittard - FC Twente",
@@ -52,8 +52,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Genoa resta fermo a 1 punto dopo 5 giornate; la Fiorentina, pur imprecisa in avanti, parte favorita nei modelli.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Inter - Parma",
@@ -66,8 +66,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Como - Roma",
@@ -83,7 +83,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T18:15:19.795520+00:00"
     },
     {
       "id": "L7-1",
@@ -883,6 +885,86 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Twente, quarto in classifica, fa visita a una Fortuna Sittard solida: match equilibrato con leggero favore ospite.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 14.73,
+      "probabilita_combinata": 0.068,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Napoli - Frosinone",
+          "campionato": "Serie A",
+          "data": "2026-10-10T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Roma",
+          "campionato": "Serie A",
+          "data": "2026-10-11T12:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Catanzaro - Mantova",
+          "campionato": "Serie B",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
           "esito": null,
           "risultato_reale": null
         }

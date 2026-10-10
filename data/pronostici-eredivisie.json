@@ -76,9 +76,10 @@
       },
       "nota": "I Go Ahead Eagles, meglio piazzati, partono favoriti in casa contro lo Sparta Rotterdam.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T16:17:10+00:00"
+        "stato": "finale",
+        "punteggio": "3-3",
+        "aggiornato": "2026-10-10T18:15:19+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -114,9 +115,9 @@
       },
       "nota": "Il big match della giornata tra le uniche due squadre ancora imbattute: l'AZ capolista parte leggermente favorito.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T18:15:19+00:00"
       }
     },
     {
@@ -152,9 +153,9 @@
       },
       "nota": "Il Twente, quarto in classifica, fa visita a una Fortuna Sittard solida: match equilibrato con leggero favore ospite.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T18:15:19+00:00"
       }
     },
     {

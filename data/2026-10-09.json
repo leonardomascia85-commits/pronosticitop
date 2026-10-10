@@ -342,7 +342,7 @@
       "quota_max": 5,
       "quota_combinata": 5.0,
       "probabilita_combinata": 0.2,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gençlerbirliği - Amedspor",
@@ -355,8 +355,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gençlerbirliği (13° con 7 punti) ospita Amedspor (2° con 13 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Sunderland - Brighton & Hove Albion",
@@ -369,8 +369,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Brighton, terzo in classifica, fa visita a un Sunderland neopromosso in difficoltà: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Rizespor - Fenerbahçe",
@@ -383,8 +383,8 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Rizespor (8° con 10 punti) ospita Fenerbahçe (6° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -400,7 +400,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T18:15:19.795520+00:00"
     },
     {
       "id": "L6-6",
@@ -1575,6 +1577,74 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-8",
+      "livello_rischio": 4,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 5,
+      "quota_combinata": 4.99,
+      "probabilita_combinata": 0.2,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Real Madrid - Villarreal",
+          "campionato": "La Liga",
+          "data": "2026-10-10T21:00:00+02:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Real Madrid",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "1. FC Köln - Borussia Mönchengladbach",
+          "campionato": "Bundesliga",
+          "data": "2026-10-11T15:30:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Köln o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - AJ Auxerre",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Atalanta o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
           "esito": null,
           "risultato_reale": null
         }

@@ -269,9 +269,9 @@
       },
       "nota": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T18:15:19+00:00"
       }
     },
     {

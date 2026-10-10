@@ -153,9 +153,9 @@
       },
       "nota": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T18:15:19+00:00"
       }
     },
     {

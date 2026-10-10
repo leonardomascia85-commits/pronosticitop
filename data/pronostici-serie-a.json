@@ -82,9 +82,10 @@
       },
       "nota": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T16:17:10+00:00"
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-10T18:15:19+00:00",
+        "primo_tempo": "3-0"
       },
       "pick_corner": {
         "esito": "over",
