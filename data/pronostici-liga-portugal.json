@@ -153,9 +153,10 @@
       },
       "nota": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-10T20:14:59+00:00",
+        "primo_tempo": "1-1"
       }
     },
     {
@@ -191,9 +192,9 @@
       },
       "nota": "Il Viseu, settimo in classifica, ospita un Estoril penultimo e ancora senza vittorie: favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       }
     },
     {

@@ -127,9 +127,9 @@
       },
       "nota": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "over",

@@ -304,9 +304,10 @@
       },
       "nota": "Match equilibrato di metà classifica: il Lipsia parte leggermente favorito in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "6-0",
+        "aggiornato": "2026-10-10T20:14:59+00:00",
+        "primo_tempo": "4-0"
       },
       "pick_corner": {
         "esito": "over",

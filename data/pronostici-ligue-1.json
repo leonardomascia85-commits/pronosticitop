@@ -126,9 +126,9 @@
       },
       "nota": "Il PSG, sesto ma con margine sull'avversario, ospita un Le Mans di metà classifica: parigini favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -170,9 +170,9 @@
       },
       "nota": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -214,9 +214,9 @@
       },
       "nota": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -258,9 +258,9 @@
       },
       "nota": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "over",

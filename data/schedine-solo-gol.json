@@ -92,7 +92,7 @@
       "livello_rischio": 7,
       "quota_combinata": 50.32,
       "probabilita_combinata": 0.02,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Avellino - Sampdoria",
@@ -105,8 +105,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Avellino, nonostante il ko con l'Ascoli, resta favorito in casa contro una Sampdoria ancora in zona bassa di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Arsenal - Leeds United",
@@ -119,8 +119,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Arsenal, secondo con 12 punti, ospita un Leeds neopromosso ma partito bene: i Gunners restano ampiamente favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Aston Villa - Brentford",
@@ -133,8 +133,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Aston Villa fatica in campionato (16°); il Brentford, ancora imbattuto e quarto, parte favorito in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Chelsea - AFC Bournemouth",
@@ -147,8 +147,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Chelsea, decimo ma con qualche punto di margine, ospita un Bournemouth ancora senza vittorie in campionato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "FC Barcelona - Getafe",
@@ -161,8 +161,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Borussia Dortmund - SV Werder Bremen",
@@ -175,8 +175,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "FC Augsburg - FC Bayern München",
@@ -189,10 +189,12 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L5-2",
@@ -965,6 +967,114 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-4",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 49.69,
+      "probabilita_combinata": 0.02,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gaziantep FK - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T16:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hull City - Everton",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sfida molto equilibrata tra due squadre di metà classifica separate da un solo punto e da un unico posto in classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Deportivo de La Coruña",
+          "campionato": "La Liga",
+          "data": "2026-10-11T16:15:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-11T18:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
           "esito": null,
           "risultato_reale": null
         }

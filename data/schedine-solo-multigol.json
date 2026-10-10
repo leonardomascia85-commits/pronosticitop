@@ -214,7 +214,7 @@
       "variante": "quota_max",
       "quota_combinata": 17.27,
       "probabilita_combinata": 0.058,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Bologna",
@@ -241,8 +241,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Torino - Udinese",
@@ -311,12 +311,14 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Ipswich, undicesimo, ospita un Fulham quartultimo e in grande difficoltà: leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L4-1",
@@ -324,7 +326,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.89,
       "probabilita_combinata": 0.204,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Bologna",
@@ -351,8 +353,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Torino - Udinese",
@@ -384,7 +386,9 @@
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L5-1",
@@ -392,7 +396,7 @@
       "variante": "quota_max",
       "quota_combinata": 7.41,
       "probabilita_combinata": 0.135,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Bologna",
@@ -419,8 +423,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Torino - Udinese",
@@ -466,7 +470,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L6-2",
@@ -474,7 +480,7 @@
       "variante": "quota_max",
       "quota_combinata": 11.23,
       "probabilita_combinata": 0.089,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Bologna",
@@ -501,8 +507,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Torino - Udinese",
@@ -562,7 +568,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L4-2",
@@ -803,6 +811,362 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-3",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 5.12,
+      "probabilita_combinata": 0.195,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Lecce - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Padova - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rio Ave - Nacional",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T15:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 7.75,
+      "probabilita_combinata": 0.129,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Lecce - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Padova - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-10-11T21:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T12:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L6-4",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 11.75,
+      "probabilita_combinata": 0.085,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Lecce - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Padova - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-10-11T21:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "ESTAC Troyes - Olympique de Marseille",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "PEC Zwolle - SC Cambuur",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L7-3",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 18.07,
+      "probabilita_combinata": 0.055,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Lecce - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Padova - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-10-11T21:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "ESTAC Troyes - Olympique de Marseille",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Nottingham Forest",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Elche - Celta de Vigo",
+          "campionato": "La Liga",
+          "data": "2026-10-11T14:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
     }
   ]
 }

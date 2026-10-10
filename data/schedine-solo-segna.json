@@ -11,7 +11,7 @@
       "livello_rischio": 4,
       "quota_combinata": 1.63,
       "probabilita_combinata": 0.613,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Getafe",
@@ -24,8 +24,8 @@
           "quota_stimata": 1.1,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Borussia Dortmund - SV Werder Bremen",
@@ -38,8 +38,8 @@
           "quota_stimata": 1.13,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Marítimo - FC Porto",
@@ -52,8 +52,8 @@
           "quota_stimata": 1.14,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Augsburg - FC Bayern München",
@@ -66,10 +66,12 @@
           "quota_stimata": 1.15,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-10T20:14:59.458102+00:00"
     },
     {
       "id": "L5-1",
@@ -707,6 +709,72 @@
       ],
       "quota_max": 7,
       "quota_rispettata": true
+    },
+    {
+      "id": "L4-3",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.96,
+      "probabilita_combinata": 0.51,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Real Betis - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-11T18:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Real Betis)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.18,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - FC Schalke 04",
+          "campionato": "Bundesliga",
+          "data": "2026-10-11T17:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (SC Freiburg)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.18,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "1. FC Köln - Borussia Mönchengladbach",
+          "campionato": "Bundesliga",
+          "data": "2026-10-11T15:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (1. FC Köln)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Göztepe)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

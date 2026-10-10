@@ -231,9 +231,10 @@
       },
       "nota": "Il Pisa, con qualche punto in più in classifica, parte leggermente favorito in trasferta contro un Vicenza reduce dal ko con l'Hellas Verona.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T16:17:10+00:00"
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-10T20:14:59+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -269,9 +270,10 @@
       },
       "nota": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-10T20:14:59+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {

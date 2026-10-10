@@ -171,9 +171,9 @@
       },
       "nota": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -215,9 +215,9 @@
       },
       "nota": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T20:14:59+00:00"
       },
       "pick_corner": {
         "esito": "over",
