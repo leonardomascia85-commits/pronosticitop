@@ -82,9 +82,9 @@
       },
       "nota": "L'Aston Villa fatica in campionato (16°); il Brentford, ancora imbattuto e quarto, parte favorito in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T14:14:17+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -126,9 +126,9 @@
       },
       "nota": "Il Chelsea, decimo ma con qualche punto di margine, ospita un Bournemouth ancora senza vittorie in campionato.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T14:14:17+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -170,9 +170,9 @@
       },
       "nota": "L'Ipswich, undicesimo, ospita un Fulham quartultimo e in grande difficoltà: leggero favore casalingo.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T14:14:17+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -214,9 +214,9 @@
       },
       "nota": "Il Brighton, terzo in classifica, fa visita a un Sunderland neopromosso in difficoltà: favoriti in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T14:14:17+00:00"
       },
       "pick_corner": {
         "esito": "under",
