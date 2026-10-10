@@ -203,6 +203,8 @@ def event_outcome(ev, lookup):
     finale, o se il mercato e' CORNER ma il conteggio corner reale non e'
     ancora stato raccolto (il punteggio gol da solo non basta a risolverlo)."""
     ris = lookup.get(ev['campionato'] + '||' + ev['partita'])
+    if ris and ris.get('stato') == 'sospesa':
+        return 'annullato', 'sospesa'  # partita sospesa: evento annullato, non decide la schedina
     if not ris or ris.get('stato') != 'finale':
         return None, None
     mercato, esito_pick = resolve_pick(ev)
@@ -1090,7 +1092,7 @@ def main():
                 ev['esito'] = esito
                 ev['risultato_reale'] = punteggio
             sch['stato'] = 'archiviata'
-            sch['esito_finale'] = 'vinta' if all(e == 'vinto' for e, _ in outcomes) else 'persa'
+            sch['esito_finale'] = 'vinta' if all(e in ('vinto', 'annullato') for e, _ in outcomes) else 'persa'
             sch['archiviata_il'] = NOW.isoformat()
             file_changed = True
             summary.append(f"{fn}: {sch['id']} archiviata ({sch['esito_finale']})")
@@ -1183,7 +1185,7 @@ def main():
                 ev['esito'] = esito
                 ev['risultato_reale'] = punteggio
             sch['stato'] = 'archiviata'
-            sch['esito_finale'] = 'vinta' if all(e == 'vinto' for e, _ in outcomes) else 'persa'
+            sch['esito_finale'] = 'vinta' if all(e in ('vinto', 'annullato') for e, _ in outcomes) else 'persa'
             sch['archiviata_il'] = NOW.isoformat()
             file_changed = True
             summary.append(f"{fn}: {sch['id']} archiviata ({sch['esito_finale']})")

@@ -17,7 +17,8 @@
     in_corso: 'LIVE · 1° tempo',
     intervallo: 'INTERVALLO',
     secondo_tempo: 'LIVE · 2° tempo',
-    finale: 'FINALE'
+    finale: 'FINALE',
+    sospesa: 'SOSPESA'
   };
 
   function parseScore(punteggio) {
@@ -48,6 +49,7 @@
   function pickResultHTML(pickEsito, actualEsito, risultato) {
     var stato = risultato ? risultato.stato : 'non_iniziata';
     if (stato === 'non_iniziata' || !stato) return '';
+    if (stato === 'sospesa') return '<span class="pick-result">⏸️ sospesa</span>';
     if (stato === 'finale') {
       if (actualEsito == null) return '';
       var win = pickEsito === actualEsito;
@@ -63,6 +65,7 @@
   function dcResultHTML(pickEsito, actualEsito1x2, risultato) {
     var stato = risultato ? risultato.stato : 'non_iniziata';
     if (stato === 'non_iniziata' || !stato) return '';
+    if (stato === 'sospesa') return '<span class="pick-result">⏸️ sospesa</span>';
     if (stato === 'finale') {
       if (actualEsito1x2 == null) return '';
       var win = pickEsito.indexOf(actualEsito1x2) !== -1;
@@ -74,7 +77,7 @@
 
   function statusBadgeHTML(risultato) {
     if (!risultato || risultato.stato === 'non_iniziata' || !STATUS_LABELS[risultato.stato]) return '';
-    var cls = risultato.stato === 'finale' ? 'status-finale' : 'status-live';
+    var cls = (risultato.stato === 'finale' || risultato.stato === 'sospesa') ? 'status-finale' : 'status-live';
     return '<span class="match-status ' + cls + '">' + STATUS_LABELS[risultato.stato] + (risultato.punteggio ? ' · ' + risultato.punteggio : '') + '</span>';
   }
 

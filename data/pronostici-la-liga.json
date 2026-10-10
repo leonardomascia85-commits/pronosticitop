@@ -82,9 +82,10 @@
       },
       "nota": "Due squadre appaiate a 8 punti: match equilibrato con leggero favore per il fattore campo del Rayo.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "sospesa",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T13:42:20+00:00",
+        "nota": "Partita sospesa definitivamente dall'arbitro per il lancio di oggetti in campo dagli spalti."
       },
       "pick_corner": {
         "esito": "over",
