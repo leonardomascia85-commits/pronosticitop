@@ -438,3 +438,7 @@ footer.site .fresp{margin-top:10px;font-size:12px}
   border:1px solid rgba(47,158,92,.4);border-radius:20px;padding:6px 14px;
 }
 .win-banner .wb-actions a:hover{background:rgba(47,158,92,.1)}
+.league-intro{max-width:880px;margin:36px auto 10px;padding:22px 26px;background:var(--panel);border:1px solid var(--border);border-radius:16px;line-height:1.7}
+.league-intro h2{font-size:18px;margin:18px 0 8px}
+.league-intro h2:first-child{margin-top:0}
+.league-intro p{margin:0 0 10px;color:var(--text)}
