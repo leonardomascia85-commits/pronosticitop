@@ -37,9 +37,10 @@
       },
       "nota": "Il Lione, secondo in classifica, fa visita a un Lens in difficoltà: favoriti in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-10T10:15:40+00:00",
+        "primo_tempo": "1-0"
       },
       "pick_corner": {
         "esito": "over",

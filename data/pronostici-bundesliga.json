@@ -37,9 +37,10 @@
       },
       "nota": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-10T10:15:40+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",

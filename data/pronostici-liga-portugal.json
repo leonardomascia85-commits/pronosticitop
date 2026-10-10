@@ -10,13 +10,38 @@
       "data": "2026-10-09T18:45:00+01:00",
       "forma_casa": "12° posto, 8 pt (2V-2N-3P)",
       "forma_trasferta": "9° posto, 8 pt (2V-2N-2P su 6 giornate)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Moreirense", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Moreirense o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Moreirense",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Moreirense o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Due squadre appaiate a 8 punti: match equilibrato con leggero favore per il fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-10T10:16:19+00:00",
+        "primo_tempo": "0-0"
+      }
     },
     {
       "casa": "Sp. Braga",
@@ -24,13 +49,38 @@
       "data": "2026-10-09T20:15:00+01:00",
       "forma_casa": "6° posto, 11 pt (3V-2N-1P su 6 giornate)",
       "forma_trasferta": "3° posto, 15 pt (4V-3N-0P)",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Sporting CP", "probabilita": 0.48 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Sporting CP", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Sporting CP",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Sporting CP",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
       "nota": "Lo Sporting, terzo e ancora imbattuto, fa visita a un Braga solido: favoriti di misura in trasferta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-10-10T10:16:19+00:00",
+        "primo_tempo": "1-0"
+      }
     },
     {
       "casa": "Casa Pia",
@@ -38,13 +88,37 @@
       "data": "2026-10-10T15:30:00+01:00",
       "forma_casa": "17° posto, 4 pt (1V-1N-5P)",
       "forma_trasferta": "4° posto, 15 pt (4V-3N-0P)",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Santa Clara", "probabilita": 0.54 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Santa Clara", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Santa Clara",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Santa Clara",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Santa Clara, quarto e ancora imbattuto, fa visita a una Casa Pia in zona bassa: favoriti in trasferta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Marítimo",
@@ -52,13 +126,37 @@
       "data": "2026-10-10T18:00:00+01:00",
       "forma_casa": "11° posto, 8 pt (2V-2N-3P)",
       "forma_trasferta": "1° posto, 21 pt (7V-0N-0P), ancora imbattuto",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Porto", "probabilita": 0.62 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Porto", "probabilita": 0.84 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Porto",
+        "probabilita": 0.62
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Porto",
+        "probabilita": 0.84
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
       "nota": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Académico Viseu",
@@ -66,13 +164,37 @@
       "data": "2026-10-10T20:30:00+01:00",
       "forma_casa": "7° posto, 11 pt (3V-2N-2P)",
       "forma_trasferta": "18° posto, 2 pt (0V-2N-5P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Académico Viseu", "probabilita": 0.54 },
-      "pick_dc": { "esito": "1X", "etichetta": "Académico Viseu o pareggio", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Académico Viseu",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Académico Viseu o pareggio",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Il Viseu, settimo in classifica, ospita un Estoril penultimo e ancora senza vittorie: favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Rio Ave",
@@ -80,13 +202,37 @@
       "data": "2026-10-11T15:30:00+01:00",
       "forma_casa": "16° posto, 4 pt (1V-1N-5P)",
       "forma_trasferta": "15° posto, 4 pt (1V-1N-5P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Rio Ave", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Rio Ave o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.52 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Rio Ave",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Rio Ave o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
       "nota": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Benfica",
@@ -94,13 +240,37 @@
       "data": "2026-10-11T18:00:00+01:00",
       "forma_casa": "2° posto, 16 pt (5V-1N-1P)",
       "forma_trasferta": "14° posto, 5 pt (1V-2N-4P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Benfica", "probabilita": 0.60 },
-      "pick_dc": { "esito": "1X", "etichetta": "Benfica o pareggio", "probabilita": 0.82 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.55 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.60 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Benfica",
+        "probabilita": 0.6
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Benfica o pareggio",
+        "probabilita": 0.82
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6
+      },
       "nota": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Arouca",
@@ -108,13 +278,37 @@
       "data": "2026-10-11T20:30:00+01:00",
       "forma_casa": "5° posto, 11 pt (3V-2N-2P)",
       "forma_trasferta": "8° posto, 10 pt (2V-4N-1P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Arouca", "probabilita": 0.44 },
-      "pick_dc": { "esito": "1X", "etichetta": "Arouca o pareggio", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Arouca",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Arouca o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
       "nota": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Famalicão",
@@ -122,13 +316,37 @@
       "data": "2026-10-12T20:15:00+01:00",
       "forma_casa": "13° posto, 7 pt (1V-4N-2P)",
       "forma_trasferta": "10° posto, 8 pt (2V-2N-3P)",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Famalicão", "probabilita": 0.42 },
-      "pick_dc": { "esito": "1X", "etichetta": "Famalicão o pareggio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Famalicão",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Famalicão o pareggio",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
       "nota": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     }
   ]
 }
