@@ -397,7 +397,6 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
         nomi = {e['partita'] for e in eventi}
         key = (-len(nomi & set(gia_usate_livello)),
                sum(e['mercato'] not in MERCATI_RISERVA for e in eventi),
-               -len(nomi & set(gia_usate)),
                q)
         if best_key is None or key > best_key:
             best, best_key = eventi, key
@@ -1246,10 +1245,9 @@ def main():
                     attive_ora = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
                     escludi = {e['partita'] for x in attive_ora if x['livello_rischio'] == level for e in x['eventi']}
                     evita = {e['partita'] for x in attive_ora for e in x['eventi']}
-                    # la quota_max riusa se serve le partite migliori di altri
-                    # livelli (per restare nel tetto di quota), la libera no
-                    nuova = build_variante(pool_v, level, variante, escludi,
-                                           evita if variante == 'libera' else ())
+                    # una partita puo' ripetersi tra livelli diversi (4, 5, 6, 7
+                    # eventi) ma mai due volte nello stesso livello
+                    nuova = build_variante(pool_v, level, variante, escludi)
                     if not nuova:
                         summary.append(f"{fn}: nessuna schedina {variante} pubblicata per livello {level} "
                                        f"(eventi futuri disponibili insufficienti)")
