@@ -171,7 +171,7 @@
       "livello_rischio": 7,
       "quota_combinata": 60.03,
       "probabilita_combinata": 0.017,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Chelsea - AFC Bournemouth",
@@ -254,8 +254,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il PSV, terzo in classifica, ospita un Heerenveen di metà classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Santos - Flamengo",
@@ -271,7 +271,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T11:02:13.021951+00:00"
     },
     {
       "id": "L4-2",
@@ -798,6 +800,114 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La Virtus Entella gioca in casa contro una Juve Stabia penalizzata in classifica per irregolarità amministrative e ancora in cerca di ritmo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-3",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 54.92,
+      "probabilita_combinata": 0.018,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Samsunspor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-10T16:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Samsunspor (16° con 4 punti) ospita Trabzonspor (7° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rizespor - Fenerbahçe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-10T19:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.57,
+          "quota_stimata": 1.75,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Rizespor (8° con 10 punti) ospita Fenerbahçe (6° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Lecce - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Südtirol - Ascoli",
+          "campionato": "Serie B",
+          "data": "2026-10-10T15:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Scontro tra due squadre in ottima forma: Südtirol secondo in classifica ospita un Ascoli reduce anch'esso da una vittoria larga.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Virtus Entella - Juve Stabia",
+          "campionato": "Serie B",
+          "data": "2026-10-10T15:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "La Virtus Entella gioca in casa contro una Juve Stabia penalizzata in classifica per irregolarità amministrative e ancora in cerca di ritmo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arezzo - Cremonese",
+          "campionato": "Serie B",
+          "data": "2026-10-10T19:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Leeds United",
+          "campionato": "Premier League",
+          "data": "2026-10-10T12:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "L'Arsenal, secondo con 12 punti, ospita un Leeds neopromosso ma partito bene: i Gunners restano ampiamente favoriti.",
           "esito": null,
           "risultato_reale": null
         }

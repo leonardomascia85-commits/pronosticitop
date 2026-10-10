@@ -75,10 +75,13 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T11:02:13.021951+00:00"
     },
     {
       "id": "L5-1",
@@ -125,8 +128,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "FC Barcelona - Getafe",
@@ -156,7 +159,10 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T11:02:13.021951+00:00"
     },
     {
       "id": "L5-3",
@@ -1501,6 +1507,74 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-6",
+      "livello_rischio": 4,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 7,
+      "quota_combinata": 6.82,
+      "probabilita_combinata": 0.147,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Augsburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-10T15:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Marítimo - FC Porto",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-10T18:00:00+01:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Porto",
+          "esito_pick": "2",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Barcelona - Getafe",
+          "campionato": "La Liga",
+          "data": "2026-10-10T18:30:00+02:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Barcelona",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Benfica - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T18:00:00+01:00",
+          "mercato": "1X2",
+          "pronostico": "Vittoria Benfica",
+          "esito_pick": "1",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
           "esito": null,
           "risultato_reale": null
         }

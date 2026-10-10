@@ -723,7 +723,8 @@ def build_single_market_levels(pool, levels=(4, 5, 6, 7)):
 #     livello da 4), costruita con i migliori eventi non gia' usati dalle
 #     altre schedine attive della sezione, cosi' le due varianti dello stesso
 #     livello non si sovrappongono.
-SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner')
+SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner', 'solo_segna',
+                    'solo_multigol', 'solo_primotempo', 'solo_ammonizioni')
 LIVELLI_VARIANTI = (4, 5, 6, 7)
 
 
@@ -1056,7 +1057,9 @@ def main():
             if sch.get('stato') == 'archiviata':
                 continue
             outcomes = [event_outcome(ev, lookup) for ev in sch['eventi']]
-            if any(esito is None for esito, _ in outcomes):
+            # una schedina con almeno un evento perso e' gia' persa: si archivia
+            # subito e si sostituisce, senza aspettare le partite rimaste
+            if any(esito is None for esito, _ in outcomes) and not any(esito == 'perso' for esito, _ in outcomes):
                 continue  # almeno una partita non ancora conclusa
 
             for ev, (esito, punteggio) in zip(sch['eventi'], outcomes):
@@ -1147,7 +1150,9 @@ def main():
             if sch.get('stato') == 'archiviata':
                 continue
             outcomes = [event_outcome(ev, lookup) for ev in sch['eventi']]
-            if any(esito is None for esito, _ in outcomes):
+            # una schedina con almeno un evento perso e' gia' persa: si archivia
+            # subito e si sostituisce, senza aspettare le partite rimaste
+            if any(esito is None for esito, _ in outcomes) and not any(esito == 'perso' for esito, _ in outcomes):
                 continue
 
             for ev, (esito, punteggio) in zip(sch['eventi'], outcomes):
