@@ -366,8 +366,8 @@
       "id": "L4-2",
       "livello_rischio": 4,
       "variante": "libera",
-      "quota_combinata": 3.83,
-      "probabilita_combinata": 0.261,
+      "quota_combinata": 4.17,
+      "probabilita_combinata": 0.24,
       "stato": "pubblicata",
       "eventi": [
         {
@@ -385,34 +385,6 @@
           "risultato_reale": null
         },
         {
-          "partita": "FC Augsburg - FC Bayern München",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "CORNER",
-          "pronostico": "Over 9.5 corner",
-          "esito_pick": "over",
-          "probabilita_stimata": 0.72,
-          "quota_stimata": 1.39,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "SC Paderborn 07 - VfB Stuttgart",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "CORNER",
-          "pronostico": "Over 9.5 corner",
-          "esito_pick": "over",
-          "probabilita_stimata": 0.71,
-          "quota_stimata": 1.41,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Il Paderborn, con qualche punto in più, parte leggermente favorito in casa contro lo Stuttgart.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
           "partita": "Stade Brestois 29 - Angers SCO",
           "campionato": "Ligue 1",
           "data": "2026-10-10T20:45:00+02:00",
@@ -423,30 +395,6 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
-        }
-      ]
-    },
-    {
-      "id": "L5-2",
-      "livello_rischio": 5,
-      "variante": "libera",
-      "quota_combinata": 6.89,
-      "probabilita_combinata": 0.145,
-      "stato": "pubblicata",
-      "eventi": [
-        {
-          "partita": "1. FSV Mainz 05 - Bayer 04 Leverkusen",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "CORNER",
-          "pronostico": "Over 9.5 corner",
-          "esito_pick": "over",
-          "probabilita_stimata": 0.7,
-          "quota_stimata": 1.43,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Due squadre appaiate a 7 punti: match equilibrato con leggero favore per il Mainz in casa.",
           "esito": null,
           "risultato_reale": null
         },
@@ -477,7 +425,17 @@
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
           "esito": null,
           "risultato_reale": null
-        },
+        }
+      ]
+    },
+    {
+      "id": "L5-2",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 8.11,
+      "probabilita_combinata": 0.123,
+      "stato": "pubblicata",
+      "eventi": [
         {
           "partita": "Paris Saint-Germain - Le Mans FC",
           "campionato": "Ligue 1",
@@ -505,17 +463,7 @@
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
           "esito": null,
           "risultato_reale": null
-        }
-      ]
-    },
-    {
-      "id": "L6-2",
-      "livello_rischio": 6,
-      "variante": "libera",
-      "quota_combinata": 15.05,
-      "probabilita_combinata": 0.066,
-      "stato": "pubblicata",
-      "eventi": [
+        },
         {
           "partita": "Real Madrid - Villarreal",
           "campionato": "La Liga",
@@ -557,7 +505,17 @@
           "motivazione": "L'Aston Villa fatica in campionato (16°); il Brentford, ancora imbattuto e quarto, parte favorito in trasferta.",
           "esito": null,
           "risultato_reale": null
-        },
+        }
+      ]
+    },
+    {
+      "id": "L6-2",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 19.11,
+      "probabilita_combinata": 0.052,
+      "stato": "pubblicata",
+      "eventi": [
         {
           "partita": "Deportivo Alavés - Atlético Madrid",
           "campionato": "La Liga",
@@ -599,17 +557,7 @@
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
           "esito": null,
           "risultato_reale": null
-        }
-      ]
-    },
-    {
-      "id": "L7-2",
-      "livello_rischio": 7,
-      "variante": "libera",
-      "quota_combinata": 37.59,
-      "probabilita_combinata": 0.027,
-      "stato": "pubblicata",
-      "eventi": [
+        },
         {
           "partita": "Sassuolo - Milan",
           "campionato": "Serie A",
@@ -651,7 +599,17 @@
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
           "esito": null,
           "risultato_reale": null
-        },
+        }
+      ]
+    },
+    {
+      "id": "L7-2",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 58.21,
+      "probabilita_combinata": 0.017,
+      "stato": "pubblicata",
+      "eventi": [
         {
           "partita": "Sunderland - Brighton & Hove Albion",
           "campionato": "Premier League",
@@ -667,34 +625,6 @@
           "risultato_reale": null
         },
         {
-          "partita": "TSG Hoffenheim - Hamburger SV",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "CORNER",
-          "pronostico": "Over 9.5 corner",
-          "esito_pick": "over",
-          "probabilita_stimata": 0.59,
-          "quota_stimata": 1.69,
-          "confidenza_dati": "MEDIA-ALTA",
-          "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 3 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "1. FC Union Berlin - SV Elversberg",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "CORNER",
-          "pronostico": "Over 9.5 corner",
-          "esito_pick": "over",
-          "probabilita_stimata": 0.59,
-          "quota_stimata": 1.69,
-          "confidenza_dati": "MEDIA-ALTA",
-          "motivazione": "L'Union Berlino, penultimo con un solo punto, ospita un Elversberg in miglior forma: trasferta favorevole.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
           "partita": "Chelsea - AFC Bournemouth",
           "campionato": "Premier League",
           "data": "2026-10-10T15:00:00+01:00",
@@ -705,6 +635,76 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Chelsea, decimo ma con qualche punto di margine, ospita un Bournemouth ancora senza vittorie in campionato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "CORNER",
+          "pronostico": "Under 9.5 corner",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "ESTAC Troyes - Olympique de Marseille",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "CORNER",
+          "pronostico": "Under 9.5 corner",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hull City - Everton",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "CORNER",
+          "pronostico": "Under 9.5 corner",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.82,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Sfida molto equilibrata tra due squadre di metà classifica separate da un solo punto e da un unico posto in classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Parma",
+          "campionato": "Serie A",
+          "data": "2026-10-10T18:00:00+02:00",
+          "mercato": "CORNER",
+          "pronostico": "Over 9.5 corner",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "CORNER",
+          "pronostico": "Under 9.5 corner",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.53,
+          "quota_stimata": 1.89,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
           "esito": null,
           "risultato_reale": null
         }

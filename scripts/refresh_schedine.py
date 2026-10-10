@@ -390,7 +390,7 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
         if (max(dates) - min(dates)).days > SAME_ROUND_WINDOW_DAYS:
             continue
         q = 1 / combo_prob(eventi)
-        if not (lo < q <= hi):
+        if not (lo < q <= hi) or not _rispetta_limiti(eventi):
             continue
         nomi = {e['partita'] for e in eventi}
         key = (-len(nomi & set(gia_usate_livello)),
@@ -724,6 +724,18 @@ def build_single_market_levels(pool, levels=(4, 5, 6, 7)):
 #     livello da 4), costruita con i migliori eventi non gia' usati dalle
 #     altre schedine attive della sezione, cosi' le due varianti dello stesso
 #     livello non si sovrappongono.
+# Campionati con dati ancora scarsi (Süper Lig: stime basate solo sulla
+# classifica delle prime giornate, senza uno storico dei nostri pronostici):
+# al massimo MAX_EVENTI_LIMITATI eventi per schedina, cosi' le loro
+# probabilita' (piu' incerte) non dominano le combinazioni.
+CAMPIONATI_LIMITATI = ('Süper Lig',)
+MAX_EVENTI_LIMITATI = 1
+
+
+def _rispetta_limiti(eventi):
+    return sum(e['campionato'] in CAMPIONATI_LIMITATI for e in eventi) <= MAX_EVENTI_LIMITATI
+
+
 SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner', 'solo_segna',
                     'solo_multigol', 'solo_primotempo', 'solo_ammonizioni')
 LIVELLI_VARIANTI = (4, 5, 6, 7)
@@ -755,10 +767,14 @@ def build_variante(pool, level, variante, escludi=(), evita=()):
     costruita per prima, quindi prende le partite piu' probabili rimaste."""
     candidati = [e for e in pool if e['partita'] not in escludi]
     nuove = [e for e in candidati if e['partita'] not in evita]
-    eventi = nuove[:level]
-    if len(eventi) < level:
-        gia = {e['partita'] for e in eventi}
-        eventi += [e for e in candidati if e['partita'] not in gia][:level - len(eventi)]
+    eventi = []
+    for gruppo in (nuove, candidati):
+        for e in gruppo:
+            if len(eventi) >= level:
+                break
+            if e in eventi or not _rispetta_limiti(eventi + [e]):
+                continue
+            eventi.append(e)
     if len(eventi) < level:
         return None
     eventi = sorted(eventi, key=lambda e: -e['probabilita_stimata'])

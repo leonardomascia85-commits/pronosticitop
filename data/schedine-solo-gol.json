@@ -550,8 +550,8 @@
       "id": "L4-3",
       "livello_rischio": 4,
       "variante": "quota_max",
-      "quota_combinata": 5.79,
-      "probabilita_combinata": 0.173,
+      "quota_combinata": 6.29,
+      "probabilita_combinata": 0.159,
       "stato": "pubblicata",
       "eventi": [
         {
@@ -583,20 +583,6 @@
           "risultato_reale": null
         },
         {
-          "partita": "Gaziantep FK - Çorum FK",
-          "campionato": "Süper Lig",
-          "data": "2026-10-11T16:00:00+03:00",
-          "mercato": "GGNG",
-          "pronostico": "Gol",
-          "esito_pick": "gol",
-          "probabilita_stimata": 0.63,
-          "quota_stimata": 1.59,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
           "partita": "Feyenoord - AZ Alkmaar",
           "campionato": "Eredivisie",
           "data": "2026-10-10T18:45:00+02:00",
@@ -607,6 +593,20 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata tra le uniche due squadre ancora imbattute: l'AZ capolista parte leggermente favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Parma",
+          "campionato": "Serie A",
+          "data": "2026-10-10T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "L'Inter seconda in classifica ospita un Parma reduce dal primo successo stagionale: nerazzurri nettamente favoriti in casa.",
           "esito": null,
           "risultato_reale": null
         }

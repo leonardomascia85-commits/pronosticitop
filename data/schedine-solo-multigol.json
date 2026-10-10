@@ -566,8 +566,8 @@
       "id": "L4-2",
       "livello_rischio": 4,
       "variante": "libera",
-      "quota_combinata": 6.45,
-      "probabilita_combinata": 0.155,
+      "quota_combinata": 6.56,
+      "probabilita_combinata": 0.153,
       "stato": "pubblicata",
       "eventi": [
         {
@@ -581,20 +581,6 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "I Go Ahead Eagles, meglio piazzati, partono favoriti in casa contro lo Sparta Rotterdam.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "1. FC Union Berlin - SV Elversberg",
-          "campionato": "Bundesliga",
-          "data": "2026-10-10T15:30:00+02:00",
-          "mercato": "MULTIGOL",
-          "pronostico": "Multigol 1-3",
-          "esito_pick": "1-3",
-          "probabilita_stimata": 0.63,
-          "quota_stimata": 1.6,
-          "confidenza_dati": "ALTA",
-          "motivazione": "L'Union Berlino, penultimo con un solo punto, ospita un Elversberg in miglior forma: trasferta favorevole.",
           "esito": null,
           "risultato_reale": null
         },
@@ -625,17 +611,7 @@
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
           "esito": null,
           "risultato_reale": null
-        }
-      ]
-    },
-    {
-      "id": "L5-2",
-      "livello_rischio": 5,
-      "variante": "libera",
-      "quota_combinata": 10.92,
-      "probabilita_combinata": 0.092,
-      "stato": "pubblicata",
-      "eventi": [
+        },
         {
           "partita": "Como - Roma",
           "campionato": "Serie A",
@@ -649,7 +625,17 @@
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
           "esito": null,
           "risultato_reale": null
-        },
+        }
+      ]
+    },
+    {
+      "id": "L5-2",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 10.92,
+      "probabilita_combinata": 0.092,
+      "stato": "pubblicata",
+      "eventi": [
         {
           "partita": "Lazio - Monza",
           "campionato": "Serie A",
@@ -703,6 +689,20 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "L.R. Vicenza - Pisa",
+          "campionato": "Serie B",
+          "data": "2026-10-10T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Pisa, con qualche punto in più in classifica, parte leggermente favorito in trasferta contro un Vicenza reduce dal ko con l'Hellas Verona.",
           "esito": null,
           "risultato_reale": null
         }
