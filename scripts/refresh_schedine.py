@@ -548,6 +548,53 @@ def build_single_market_levels(pool, levels=(4, 5, 6, 7)):
     return schedine
 
 
+# --- Sezioni con due varianti per livello (richiesta dell'utente): per Solo
+# Gol/No Gol, Solo Under/Over e Solo Corner ogni livello (4, 5, 6 e 7 eventi)
+# ha DUE schedine attive:
+#   - 'quota_max': la combinazione piu' probabile possibile, con l'obiettivo di
+#     restare entro una quota combinata pari al numero di eventi (4 eventi ->
+#     quota massima 4, 5 -> 5, 6 -> 6, 7 -> 7). Se nemmeno gli eventi piu'
+#     probabili del turno bastano a restare sotto il tetto, si pubblica
+#     comunque la combinazione con la quota piu' bassa possibile e lo si
+#     segnala con quota_rispettata=False: le probabilita' non vengono mai
+#     gonfiate per rientrare nel tetto.
+#   - 'libera': scelta del modello con rischio medio (basso-medio per il
+#     livello da 4), costruita con i migliori eventi non gia' usati dalle
+#     altre schedine attive della sezione, cosi' le due varianti dello stesso
+#     livello non si sovrappongono.
+SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner')
+LIVELLI_VARIANTI = (4, 5, 6, 7)
+
+
+def _schedina_variante(eventi, level, variante):
+    pc = combo_prob(eventi)
+    quota = round(1 / pc, 2)
+    sch = {
+        'livello_rischio': level,
+        'variante': variante,
+        'quota_combinata': quota,
+        'probabilita_combinata': round(pc, 3),
+        'stato': 'pubblicata',
+        'eventi': eventi,
+    }
+    if variante == 'quota_max':
+        sch['quota_max'] = level
+        sch['quota_rispettata'] = quota <= level
+    return sch
+
+
+def build_variante(pool, level, variante, escludi=()):
+    """pool ordinato per probabilita' decrescente. 'quota_max' prende sempre i
+    migliori n eventi del turno (l'unico modo di avvicinarsi al tetto di
+    quota); 'libera' prende i migliori n eventi esclusi quelli della
+    'quota_max' dello stesso livello (escludi), cosi' resta a rischio medio
+    senza duplicare l'altra schedina del livello."""
+    candidati = pool if variante == 'quota_max' else [e for e in pool if e['partita'] not in escludi]
+    if len(candidati) < level:
+        return None
+    return _schedina_variante(list(candidati[:level]), level, variante)
+
+
 def build_pool_nazionali():
     path = os.path.join(DATA_DIR, 'pronostici-nazionali.json')
     if not os.path.exists(path):
@@ -950,6 +997,9 @@ def main():
 
             n = len(sch['eventi'])
             level = sch['livello_rischio']
+            if kind in SEZIONI_VARIANTI:
+                # la sostituta viene creata dal riempimento delle varianti qui sotto
+                continue
             combo = pool_sezione[:n] if len(pool_sezione) >= n else None
 
             if combo:
@@ -970,6 +1020,40 @@ def main():
             else:
                 summary.append(f"{fn}: nessuna sostituta pubblicata per livello {level} "
                                 f"(eventi futuri disponibili insufficienti)")
+
+        if kind in SEZIONI_VARIANTI:
+            # Riempie le varianti mancanti: per ogni livello deve esserci una
+            # schedina attiva 'quota_max' e una 'libera'. Le schedine attive
+            # senza campo 'variante' (create prima di questo schema) occupano
+            # il posto della 'libera' finche' non si concludono.
+            attive = [x for x in data.get('schedine', []) if x.get('stato') != 'archiviata']
+            mancanti = []
+            for level in LIVELLI_VARIANTI:
+                del_livello = [x for x in attive if x['livello_rischio'] == level]
+                if not any(x.get('variante') == 'quota_max' for x in del_livello):
+                    mancanti.append((level, 'quota_max'))
+                if not any(x.get('variante', 'libera') == 'libera' for x in del_livello):
+                    mancanti.append((level, 'libera'))
+            if mancanti:
+                pool_v = build_pool_single_market(
+                    pick_field, mercato_code, league_files,
+                    weekend_only=(kind != 'solo_corner'))
+                pool_v = _filter_same_round(pool_v, lambda e: datetime.datetime.fromisoformat(e['data']))
+                # prima tutte le quota_max (usano i migliori eventi), poi le libere
+                for level, variante in sorted(mancanti, key=lambda m: (m[1] != 'quota_max', m[0])):
+                    escludi = {e['partita'] for x in data['schedine']
+                               if x.get('stato') != 'archiviata' and x['livello_rischio'] == level
+                               and x.get('variante') == 'quota_max' for e in x['eventi']}
+                    nuova = build_variante(pool_v, level, variante, escludi)
+                    if not nuova:
+                        summary.append(f"{fn}: nessuna schedina {variante} pubblicata per livello {level} "
+                                       f"(eventi futuri disponibili insufficienti)")
+                        continue
+                    nuova = {'id': next_id([x['id'] for x in data['schedine']], level), **nuova}
+                    data['schedine'].append(nuova)
+                    file_changed = True
+                    summary.append(f"{fn}: nuova schedina {nuova['id']} ({variante}) pubblicata, "
+                                   f"quota {nuova['quota_combinata']}")
 
         if file_changed:
             data['aggiornato_il'] = NOW.date().isoformat()

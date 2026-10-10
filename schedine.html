@@ -343,16 +343,19 @@ function renderWeek(week, lookup){
     const group = document.createElement('div');
     group.className = 'risk-group';
     group.id = 'risk-' + level;
-    const label = RISK_LABELS[level] || '';
+    const conVarianti = byLevel[level].some(s => s.variante);
+    const label = conVarianti ? (level === 4 ? 'Rischio basso-medio' : 'Rischio medio') : (RISK_LABELS[level] || '');
     group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">Dalla più sicura (#1) alla più rischiosa · le schedine ancora giocabili sono in evidenza</span></div>`;
 
     const cards = document.createElement('div');
     cards.className = 'cards';
 
     const items = byLevel[level].map((sch, idx) => ({ sch, idx, giocabile: isGiocabile(sch, lookup) }));
-    items.sort((a, b) => (a.giocabile === b.giocabile) ? (a.idx - b.idx) : (a.giocabile ? -1 : 1));
+    const ordineVariante = sch => sch.variante === 'quota_max' ? 0 : 1;
+    items.sort((a, b) => (a.giocabile !== b.giocabile) ? (a.giocabile ? -1 : 1)
+      : (ordineVariante(a.sch) - ordineVariante(b.sch)) || (a.idx - b.idx));
 
-    items.forEach(({ sch, idx, giocabile }) => {
+    items.forEach(({ sch, idx, giocabile }, pos) => {
       const st = schedinaStatusLive(sch, lookup);
       const card = document.createElement('div');
       card.className = 'card' + (st === 'win' ? ' is-winner' : '') + (giocabile ? ' is-playable' : '');
@@ -377,11 +380,20 @@ function renderWeek(week, lookup){
       const probMedia = sch.eventi.reduce((s,e)=>s+e.probabilita_stimata,0) / sch.eventi.length;
       const nLeghe = new Set(sch.eventi.map(e=>e.campionato)).size;
       const leagueTxt = nLeghe > 1 ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">${nLeghe} campionati</span>` : '';
+      let varianteTxt = '';
+      if(sch.variante === 'quota_max'){
+        varianteTxt = sch.quota_rispettata
+          ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">Quota massima ${sch.quota_max}</span>`
+          : `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)" title="Nessuna combinazione di questo turno resta sotto quota ${sch.quota_max}: questa è la quota più bassa possibile">Obiettivo quota ${sch.quota_max} · la più bassa possibile</span>`;
+      } else if(sch.variante === 'libera'){
+        varianteTxt = `<span class="prob">Scelta del modello · ${level === 4 ? 'rischio basso-medio' : 'rischio medio'}</span>`;
+      }
       const quotaTxt = sch.quota_combinata ? `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
       card.innerHTML = `
         <div class="card-head">
-          <span class="name">Schedina ${level}E — #${idx+1}</span>
+          <span class="name">Schedina ${level}E — #${pos+1}</span>
           ${quotaTxt}
+          ${varianteTxt}
           <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
           ${leagueTxt}
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
@@ -447,9 +459,9 @@ const SEZIONI_FILES = {
   solo_ammonizioni: 'schedine-solo-ammonizioni.json',
 };
 const SEZIONI_NOTE = {
-  solo_gol: 'Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita (nessun altro mercato in questa sezione).',
-  solo_under: 'Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol per ogni partita (nessun altro mercato in questa sezione).',
-  solo_corner: "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo, disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1.",
+  solo_gol: 'Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
+  solo_under: 'Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol per ogni partita (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
+  solo_corner: "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo, disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.",
   solo_segna: 'Schedine costruite usando esclusivamente il mercato "Segna la squadra": il pronostico è vinto se la squadra indicata segna almeno un gol (nessun altro mercato in questa sezione).',
   solo_multigol: 'Schedine costruite usando esclusivamente il mercato Multigol: il pronostico è vinto se il totale dei gol della partita rientra nell\'intervallo indicato, 1-3 oppure 2-4 (nessun altro mercato in questa sezione).',
   solo_primotempo: 'Schedine costruite usando esclusivamente il mercato dei gol nel primo tempo: "almeno un gol" oppure "al massimo un gol". Il risultato del primo tempo viene registrato dopo la partita, quindi gli eventi possono restare in attesa più a lungo.',
