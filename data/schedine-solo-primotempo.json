@@ -78,7 +78,7 @@
       "livello_rischio": 7,
       "quota_combinata": 8.34,
       "probabilita_combinata": 0.12,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Chelsea - AFC Bournemouth",
@@ -105,8 +105,8 @@
           "quota_stimata": 1.34,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -133,8 +133,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "MEDIA",
           "motivazione": "Lo Sporting, terzo e ancora imbattuto, fa visita a un Braga solido: favoriti di misura in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Fortuna Sittard - FC Twente",
@@ -178,7 +178,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T22:14:43.910643+00:00"
     },
     {
       "id": "L4-2",
@@ -608,7 +610,7 @@
       "variante": "libera",
       "quota_combinata": 4.39,
       "probabilita_combinata": 0.228,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Çorum FK",
@@ -663,8 +665,8 @@
           "quota_stimata": 1.34,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -680,7 +682,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T22:14:43.910643+00:00"
     },
     {
       "id": "L6-2",
@@ -688,7 +692,7 @@
       "variante": "libera",
       "quota_combinata": 5.93,
       "probabilita_combinata": 0.169,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Çorum FK",
@@ -729,8 +733,8 @@
           "quota_stimata": 1.34,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -771,6 +775,290 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T22:14:43.910643+00:00"
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 4.51,
+      "probabilita_combinata": 0.222,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gaziantep FK - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T16:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Catanzaro - Mantova",
+          "campionato": "Serie B",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Roma",
+          "campionato": "Serie A",
+          "data": "2026-10-11T12:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-3",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 6.26,
+      "probabilita_combinata": 0.16,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gaziantep FK - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T16:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Roma",
+          "campionato": "Serie A",
+          "data": "2026-10-11T12:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Deportivo de La Coruña",
+          "campionato": "La Liga",
+          "data": "2026-10-11T16:15:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-3",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 8.69,
+      "probabilita_combinata": 0.115,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gaziantep FK - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T16:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Roma",
+          "campionato": "Serie A",
+          "data": "2026-10-11T12:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Deportivo de La Coruña",
+          "campionato": "La Liga",
+          "data": "2026-10-11T16:15:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-11T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
           "esito": null,
           "risultato_reale": null
         }

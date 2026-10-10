@@ -115,9 +115,9 @@
       },
       "nota": "Il big match della giornata tra le uniche due squadre ancora imbattute: l'AZ capolista parte leggermente favorito.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-10T22:14:43+00:00"
       }
     },
     {
@@ -153,9 +153,9 @@
       },
       "nota": "Il Twente, quarto in classifica, fa visita a una Fortuna Sittard solida: match equilibrato con leggero favore ospite.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T18:15:19+00:00"
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-10T22:14:43+00:00"
       }
     },
     {
@@ -191,9 +191,9 @@
       },
       "nota": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T20:14:59+00:00"
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-10T22:14:43+00:00"
       }
     },
     {
