@@ -11,7 +11,7 @@
       "livello_rischio": 6,
       "quota_combinata": 13.26,
       "probabilita_combinata": 0.075,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -38,8 +38,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Málaga, neopromosso e ultimo in classifica senza vittorie, ospita un Espanyol favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -66,8 +66,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 3 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "SC Paderborn 07 - VfB Stuttgart",
@@ -80,8 +80,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Paderborn, con qualche punto in più, parte leggermente favorito in casa contro lo Stuttgart.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -97,7 +97,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T16:17:01.096040+00:00"
     },
     {
       "id": "L7-1",
@@ -703,6 +705,100 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Pisa, con qualche punto in più in classifica, parte leggermente favorito in trasferta contro un Vicenza reduce dal ko con l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-3",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 15.28,
+      "probabilita_combinata": 0.065,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Crystal Palace - Nottingham Forest",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Elche - Celta de Vigo",
+          "campionato": "La Liga",
+          "data": "2026-10-11T14:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Brestois 29 - Angers SCO",
+          "campionato": "Ligue 1",
+          "data": "2026-10-10T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "confidenza_dati": "ALTA",
+          "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Catanzaro - Mantova",
+          "campionato": "Serie B",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-10-10T17:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Manchester United ospita un Tottenham ultimo in classifica: derby d'annata con lo United favorito.",
           "esito": null,
           "risultato_reale": null
         }

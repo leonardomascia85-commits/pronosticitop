@@ -77,9 +77,10 @@
       },
       "nota": "Alanyaspor (5° con 11 punti) ospita Erzurumspor (14° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -115,9 +116,10 @@
       },
       "nota": "Samsunspor (16° con 4 punti) ospita Trabzonspor (7° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-3"
       }
     },
     {
@@ -153,9 +155,9 @@
       },
       "nota": "Rizespor (8° con 10 punti) ospita Fenerbahçe (6° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T16:17:10+00:00"
       }
     },
     {

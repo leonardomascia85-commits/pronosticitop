@@ -376,7 +376,7 @@
       "variante": "quota_max",
       "quota_combinata": 25.94,
       "probabilita_combinata": 0.039,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -445,8 +445,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gençlerbirliği (13° con 7 punti) ospita Amedspor (2° con 13 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -473,12 +473,14 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Scontro tra due squadre in ottima forma: Südtirol secondo in classifica ospita un Ascoli reduce anch'esso da una vittoria larga.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T16:17:01.096040+00:00"
     },
     {
       "id": "L4-2",
@@ -486,7 +488,7 @@
       "variante": "libera",
       "quota_combinata": 7.59,
       "probabilita_combinata": 0.132,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gençlerbirliği - Amedspor",
@@ -499,8 +501,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gençlerbirliği (13° con 7 punti) ospita Amedspor (2° con 13 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -527,8 +529,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Scontro tra due squadre in ottima forma: Südtirol secondo in classifica ospita un Ascoli reduce anch'esso da una vittoria larga.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Samsunspor - Trabzonspor",
@@ -541,10 +543,12 @@
           "quota_stimata": 1.69,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Samsunspor (16° con 4 punti) ospita Trabzonspor (7° con 10 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-10T16:17:01.096040+00:00"
     },
     {
       "id": "L4-3",
@@ -703,6 +707,182 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-3",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 31.16,
+      "probabilita_combinata": 0.032,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Feyenoord - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-10T18:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata tra le uniche due squadre ancora imbattute: l'AZ capolista parte leggermente favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Napoli - Frosinone",
+          "campionato": "Serie A",
+          "data": "2026-10-10T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Roma",
+          "campionato": "Serie A",
+          "data": "2026-10-11T12:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-4",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 9.82,
+      "probabilita_combinata": 0.102,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Konyaspor - Başakşehir",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T13:30:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Konyaspor (15° con 4 punti) ospita Başakşehir (12° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-10-10T17:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Manchester United ospita un Tottenham ultimo in classifica: derby d'annata con lo United favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hull City - Everton",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sfida molto equilibrata tra due squadre di metà classifica separate da un solo punto e da un unico posto in classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
           "esito": null,
           "risultato_reale": null
         }

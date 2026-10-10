@@ -76,9 +76,10 @@
       },
       "nota": "Due squadre appaiate a 7 punti: il Benevento arriva in casa con la vittoria più recente delle due.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -114,9 +115,9 @@
       },
       "nota": "Il Palermo capolista fa visita a un Empoli reduce dal ko con il Modena: i rosanero partono favoriti per allungare la striscia positiva.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "2-4",
+        "aggiornato": "2026-10-10T16:17:01+00:00"
       }
     },
     {
@@ -152,9 +153,10 @@
       },
       "nota": "Scontro tra due squadre in ottima forma: Südtirol secondo in classifica ospita un Ascoli reduce anch'esso da una vittoria larga.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -190,9 +192,10 @@
       },
       "nota": "La Virtus Entella gioca in casa contro una Juve Stabia penalizzata in classifica per irregolarità amministrative e ancora in cerca di ritmo.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -228,9 +231,9 @@
       },
       "nota": "Il Pisa, con qualche punto in più in classifica, parte leggermente favorito in trasferta contro un Vicenza reduce dal ko con l'Hellas Verona.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T16:17:10+00:00"
       }
     },
     {

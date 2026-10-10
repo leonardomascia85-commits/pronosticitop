@@ -82,9 +82,9 @@
       },
       "nota": "Il Lille, quarto in classifica, ospita il fanalino di coda Le Havre: ampiamente favorito.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-10T16:17:10+00:00"
       },
       "pick_corner": {
         "esito": "under",

@@ -82,9 +82,9 @@
       },
       "nota": "Scontro diretto in zona bassa tra due squadre appaiate a 3 punti: leggero favore per il fattore campo.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-10-10T16:17:01+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -126,9 +126,9 @@
       },
       "nota": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-10T16:17:01+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -170,9 +170,9 @@
       },
       "nota": "Due squadre appaiate a 7 punti: match equilibrato con leggero favore per il Mainz in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "3-4",
+        "aggiornato": "2026-10-10T16:17:01+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -214,9 +214,10 @@
       },
       "nota": "L'Union Berlino, penultimo con un solo punto, ospita un Elversberg in miglior forma: trasferta favorevole.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "over",
@@ -258,9 +259,10 @@
       },
       "nota": "Il Paderborn, con qualche punto in più, parte leggermente favorito in casa contro lo Stuttgart.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:48:30+00:00"
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-10T16:17:01+00:00",
+        "primo_tempo": "0-1"
       },
       "pick_corner": {
         "esito": "over",
