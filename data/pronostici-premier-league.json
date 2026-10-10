@@ -37,9 +37,9 @@
       },
       "nota": "L'Arsenal, secondo con 12 punti, ospita un Leeds neopromosso ma partito bene: i Gunners restano ampiamente favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "secondo_tempo",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-10T13:25:14+00:00"
       },
       "pick_corner": {
         "esito": "under",
