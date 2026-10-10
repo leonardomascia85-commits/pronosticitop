@@ -281,6 +281,167 @@ def build_pool():
     return pool
 
 
+# --- Pagina Schedine (multi-campionato): quattro fasce di rischio per ogni
+# livello di eventi, ognuna con una quota massima fissata dall'utente.
+# Per 4 eventi: quota massima 3 (rischio basso), 5 (medio), 7 (medio-alto) e
+# 9 (alto); per 5 eventi 4/6/8/10; con lo stesso passo proporzionale 5/7/9/11
+# per 6 eventi e 6/8/10/12 per 7 eventi. Ogni schedina deve cadere nella
+# propria fascia, cioe' tra la quota massima della fascia precedente e la
+# propria, cosi' le quattro schedine di un livello hanno rischi davvero diversi.
+QUOTE_MAX_FASCE = {4: (3, 5, 7, 9), 5: (4, 6, 8, 10), 6: (5, 7, 9, 11), 7: (6, 8, 10, 12)}
+RISCHIO_FASCE = ('Rischio basso', 'Rischio medio', 'Rischio medio-alto', 'Rischio alto')
+MERCATI_PICK = (('1X2', 'pick_1x2'), ('DC', 'pick_dc'), ('OU25', 'pick_uo'),
+                ('OU35', 'pick_uo35'), ('GGNG', 'pick_gg'))
+
+
+def build_pool_tutti_mercati():
+    """Come build_pool() (stessi campionati, solo weekend, solo partite future)
+    ma con TUTTI i mercati di ogni partita con probabilita' almeno del 50%:
+    servono per costruire schedine dentro una fascia di quota precisa."""
+    partite = []
+    for fn, name in LEAGUES_SCHEDINE_PRINCIPALI.items():
+        path = os.path.join(DATA_DIR, fn)
+        if not os.path.exists(path):
+            continue
+        d = json.load(open(path, encoding='utf-8'))
+        for p in d.get('partite', []):
+            if p.get('risultato', {}).get('stato') != 'non_iniziata':
+                continue
+            try:
+                kickoff = datetime.datetime.fromisoformat(p['data'])
+            except Exception:
+                continue
+            if kickoff <= NOW or kickoff.weekday() not in (4, 5, 6, 0):
+                continue
+            eventi = []
+            for code, field in MERCATI_PICK:
+                pick = p.get(field)
+                if not pick or pick['probabilita'] < 0.5:
+                    continue
+                eventi.append({
+                    'partita': f"{p['casa']} - {p['trasferta']}",
+                    'campionato': name,
+                    'data': p['data'],
+                    'mercato': code,
+                    'pronostico': pick['etichetta'],
+                    'esito_pick': pick['esito'],
+                    'probabilita_stimata': round(pick['probabilita'], 2),
+                    'quota_stimata': round(1 / pick['probabilita'], 2),
+                    'confidenza_dati': confidenza(pick['probabilita']),
+                    'motivazione': p['nota'],
+                    'esito': None,
+                    'risultato_reale': None,
+                })
+            if eventi:
+                partite.append(eventi)
+    partite = _filter_same_round(partite, lambda m: datetime.datetime.fromisoformat(m[0]['data']))
+    return partite
+
+
+def fascia_da_quota(level, quota):
+    for i, qmax in enumerate(QUOTE_MAX_FASCE[level]):
+        if quota <= qmax:
+            return i + 1
+    return len(QUOTE_MAX_FASCE[level])
+
+
+def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usate=(), seed=0, tentativi=12000):
+    """Ricerca casuale (riproducibile) della combinazione di `level` partite
+    diverse, un mercato per partita, con quota combinata nella fascia
+    (quota massima fascia precedente, quota massima fascia]. Tra le valide
+    preferisce: meno partite in comune con le altre schedine dello stesso
+    livello, piu' mercati "primari" (esito, Under/Over 2.5, Gol/No Gol),
+    meno partite in comune con il resto della pagina, quota piu' vicina al
+    tetto. Restituisce None se nessuna combinazione rientra nella fascia."""
+    import random
+    caps = QUOTE_MAX_FASCE[level]
+    hi = caps[fascia - 1]
+    lo = caps[fascia - 2] if fascia > 1 else 1.0
+    if len(partite) < level:
+        return None
+    rng = random.Random(f"{seed}-{level}-{fascia}")
+    # per le fasce basse servono partite con almeno un mercato molto
+    # probabile: meta' dei tentativi pesca solo tra le partite migliori
+    migliori = sorted(partite, key=lambda m: -max(e['probabilita_stimata'] for e in m))[:2 * level + 6]
+    best, best_key = None, None
+    for t in range(tentativi):
+        base = migliori if (t % 2 and len(migliori) >= level) else partite
+        scelta = rng.sample(base, level)
+        mercati = [sorted(m, key=lambda e: -e['probabilita_stimata']) for m in scelta]
+        idx = [rng.randrange(len(m)) for m in mercati]
+        # riparazione: sposta un evento alla volta su un mercato piu' (o meno)
+        # probabile della stessa partita finche' la quota entra nella fascia
+        for _ in range(3 * level):
+            q = 1 / combo_prob([m[i] for m, i in zip(mercati, idx)])
+            if q > hi:
+                mobili = [k for k, i in enumerate(idx) if i > 0]
+                if not mobili:
+                    break
+                k = rng.choice(mobili); idx[k] -= 1
+            elif q <= lo:
+                mobili = [k for k, i in enumerate(idx) if i < len(mercati[k]) - 1]
+                if not mobili:
+                    break
+                k = rng.choice(mobili); idx[k] += 1
+            else:
+                break
+        eventi = [m[i] for m, i in zip(mercati, idx)]
+        dates = [datetime.datetime.fromisoformat(e['data']) for e in eventi]
+        if (max(dates) - min(dates)).days > SAME_ROUND_WINDOW_DAYS:
+            continue
+        q = 1 / combo_prob(eventi)
+        if not (lo < q <= hi):
+            continue
+        nomi = {e['partita'] for e in eventi}
+        key = (-len(nomi & set(gia_usate_livello)),
+               sum(e['mercato'] not in MERCATI_RISERVA for e in eventi),
+               -len(nomi & set(gia_usate)),
+               q)
+        if best_key is None or key > best_key:
+            best, best_key = eventi, key
+    if not best:
+        return None
+    best = sorted(best, key=lambda e: e['data'])
+    pc = combo_prob(best)
+    return {
+        'livello_rischio': level,
+        'fascia': fascia,
+        'rischio': RISCHIO_FASCE[fascia - 1],
+        'quota_max': hi,
+        'quota_combinata': round(1 / pc, 2),
+        'probabilita_combinata': round(pc, 3),
+        'stato': 'pubblicata',
+        'eventi': best,
+    }
+
+
+def riempi_fasce(schedine, partite=None, seed=0):
+    """Aggiunge a `schedine` (lista del turno, modificata sul posto) le
+    schedine mancanti: per ogni livello 4-7 deve esserci una schedina attiva
+    per ciascuna delle 4 fasce. Le schedine attive senza campo 'fascia'
+    (create prima di questo schema) occupano la fascia corrispondente alla
+    loro quota finche' non si concludono. Restituisce gli id aggiunti."""
+    if partite is None:
+        partite = build_pool_tutti_mercati()
+    aggiunte = []
+    for level in sorted(QUOTE_MAX_FASCE):
+        attive = [x for x in schedine if x.get('stato') != 'archiviata' and x['livello_rischio'] == level]
+        occupate = {x.get('fascia') or fascia_da_quota(level, x['quota_combinata']) for x in attive}
+        for fascia in range(1, len(QUOTE_MAX_FASCE[level]) + 1):
+            if fascia in occupate:
+                continue
+            usate_livello = {e['partita'] for x in schedine if x.get('stato') != 'archiviata'
+                             and x['livello_rischio'] == level for e in x['eventi']}
+            usate = {e['partita'] for x in schedine if x.get('stato') != 'archiviata' for e in x['eventi']}
+            nuova = build_schedina_fascia(partite, level, fascia, usate_livello, usate, seed=seed)
+            if not nuova:
+                continue
+            nuova = {'id': next_id([x['id'] for x in schedine], level), **nuova}
+            schedine.append(nuova)
+            aggiunte.append(nuova['id'])
+    return aggiunte
+
+
 # Leghe con il campo pick_corner (vedi 'Aggiunge mercato corner...'): solo
 # queste alimentano il pool "solo corner", le altre non hanno il dato.
 CORNER_LEAGUES = {
@@ -877,6 +1038,12 @@ def main():
             for e in sch.get('eventi', []):
                 target.add(e['partita'])
 
+    # Il turno multi-campionato piu' recente (il primo in settimane.json che
+    # non sia delle Nazionali): e' l'unico in cui riempi_fasce() pubblica le
+    # schedine mancanti.
+    turno_club_corrente = next((w['file'] for w in settimane.get('settimane', [])
+                                if not w['file'].startswith('nazionali')), None)
+
     for w in settimane.get('settimane', []):
         fn = w['file']
         path = os.path.join(DATA_DIR, fn)
@@ -910,11 +1077,9 @@ def main():
                     pool_naz = [e for e in pool_naz if e['partita'] not in eventi_attivi_naz]
                 combo = pick_combo_nazionali(pool_naz, n)
             else:
-                if pool is None:
-                    pool = build_pool()
-                    pool = [e for e in pool if e['partita'] not in eventi_attivi_club]
-                    pool = _filter_same_round(pool, lambda e: datetime.datetime.fromisoformat(e['data']))
-                combo = pick_combo(pool, n, level)
+                # la sostituta viene creata da riempi_fasce() qui sotto, nella
+                # fascia di quota rimasta libera
+                continue
 
             if combo:
                 pc = combo_prob(combo)
@@ -936,6 +1101,12 @@ def main():
             else:
                 summary.append(f"{fn}: nessuna sostituta pubblicata per livello {level} "
                                 f"(eventi futuri disponibili insufficienti)")
+
+        if fn == turno_club_corrente:
+            aggiunte = riempi_fasce(data['schedine'], seed=NOW.date().isoformat())
+            if aggiunte:
+                file_changed = True
+                summary.append(f"{fn}: nuove schedine a fasce di quota pubblicate: {', '.join(aggiunte)}")
 
         if file_changed:
             data['aggiornato_il'] = NOW.date().isoformat()

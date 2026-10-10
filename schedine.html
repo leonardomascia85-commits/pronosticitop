@@ -344,14 +344,16 @@ function renderWeek(week, lookup){
     group.className = 'risk-group';
     group.id = 'risk-' + level;
     const conVarianti = byLevel[level].some(s => s.variante);
-    const label = conVarianti ? (level === 4 ? 'Rischio basso-medio' : 'Rischio medio') : (RISK_LABELS[level] || '');
-    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">Dalla più sicura (#1) alla più rischiosa · le schedine ancora giocabili sono in evidenza</span></div>`;
+    const conFasce = byLevel[level].some(s => s.fascia);
+    const label = conFasce ? 'Quattro fasce di rischio' : conVarianti ? (level === 4 ? 'Rischio basso-medio' : 'Rischio medio') : (RISK_LABELS[level] || '');
+    const notaOrdine = conFasce ? 'Dal rischio basso al rischio alto, ognuna con la sua quota massima · le schedine ancora giocabili sono in evidenza' : 'Dalla più sicura (#1) alla più rischiosa · le schedine ancora giocabili sono in evidenza';
+    group.innerHTML = `<div class="risk-title risk-${level}"><span class="risk-dot"></span><h2>${level} eventi</h2><span class="risk-pill">${label}</span><span class="risk-order-note">${notaOrdine}</span></div>`;
 
     const cards = document.createElement('div');
     cards.className = 'cards';
 
     const items = byLevel[level].map((sch, idx) => ({ sch, idx, giocabile: isGiocabile(sch, lookup) }));
-    const ordineVariante = sch => sch.variante === 'quota_max' ? 0 : 1;
+    const ordineVariante = sch => sch.fascia ? sch.fascia : (sch.variante === 'quota_max' ? 0 : (sch.variante ? 1 : 9));
     items.sort((a, b) => (a.giocabile !== b.giocabile) ? (a.giocabile ? -1 : 1)
       : (ordineVariante(a.sch) - ordineVariante(b.sch)) || (a.idx - b.idx));
 
@@ -381,7 +383,13 @@ function renderWeek(week, lookup){
       const nLeghe = new Set(sch.eventi.map(e=>e.campionato)).size;
       const leagueTxt = nLeghe > 1 ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">${nLeghe} campionati</span>` : '';
       let varianteTxt = '';
-      if(sch.variante === 'quota_max'){
+      if(sch.fascia){
+        const coloriFascia = {1:'var(--green)', 2:'#3f6fb8', 3:'var(--amber)', 4:'#b8324f'};
+        const cf = coloriFascia[sch.fascia] || 'var(--muted)';
+        varianteTxt = `<span class="prob" style="background:color-mix(in srgb, ${cf} 14%, transparent);color:${cf}">${sch.rischio} · quota max ${sch.quota_max}</span>`;
+      } else if(conFasce){
+        varianteTxt = `<span class="prob">Schedina pubblicata prima delle fasce di quota</span>`;
+      } else if(sch.variante === 'quota_max'){
         varianteTxt = sch.quota_rispettata
           ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">Quota massima ${sch.quota_max}</span>`
           : `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)" title="Nessuna combinazione di questo turno resta sotto quota ${sch.quota_max}: questa è la quota più bassa possibile">Obiettivo quota ${sch.quota_max} · la più bassa possibile</span>`;

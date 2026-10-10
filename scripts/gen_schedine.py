@@ -172,11 +172,14 @@ def build_level(level, n_events, n_variants, elig_threshold, min_threshold):
 # artificiale della probabilita', il grosso degli eventi sta nella fascia
 # 0.52-0.62 invece che 0.55-0.90, quindi le vecchie soglie (fino a 0.70 per
 # il livello piu' basso) non trovavano piu' abbastanza eventi eleggibili.
+# Quattro fasce di quota per ogni livello (4, 5, 6 e 7 eventi), con le quote
+# massime fissate dall'utente: vedi QUOTE_MAX_FASCE in refresh_schedine.py,
+# che usa la stessa funzione per sostituire le schedine concluse.
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import refresh_schedine
 schedine = []
-schedine += build_level(4, 4, 4, elig_threshold=0.60, min_threshold=0.56)
-schedine += build_level(5, 5, 4, elig_threshold=0.56, min_threshold=0.53)
-schedine += build_level(6, 6, 3, elig_threshold=0.53, min_threshold=0.51)
-schedine += build_level(7, 7, 3, elig_threshold=0.51, min_threshold=0.50)
+refresh_schedine.riempi_fasce(schedine, seed=NOW.date().isoformat())
 
 today = NOW.date().isoformat()
 out = {
@@ -186,7 +189,7 @@ out = {
     "aggiornato_il": today,
     "stato": "pubblicata",
     "campionati_coperti": sorted(set(e['campionato'] for e in pool)),
-    "nota_dati": "Schedine costruite incrociando eventi reali dai turni del weekend (venerdi'-lunedi') in corso di Serie A, Serie B, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie, Süper Lig e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). La Serie C non e' inclusa in questa pagina perche' troppo imprevedibile; le partite infrasettimanali restano escluse a prescindere dal campionato. Champions League non presente in questo turno (pausa del calendario). Ogni evento usa il mercato (1X2, Under/Over 2.5, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le partite gia' disputate al momento della pubblicazione sono escluse. All'interno di ogni livello di rischio (stesso numero di eventi), le schedine sono ordinate dalla piu' sicura (probabilita' combinata piu' alta, #1) alla piu' rischiosa (probabilita' combinata piu' bassa, ultima).",
+    "nota_dati": "Schedine costruite incrociando eventi reali dai turni del weekend (venerdi'-lunedi') in corso di Serie A, Serie B, Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Eredivisie, Süper Lig e Brasileirão (stessi dati statistici verificati pubblicati nelle pagine di ogni campionato: forma, gol fatti/subiti, classifica). La Serie C non e' inclusa in questa pagina perche' troppo imprevedibile; le partite infrasettimanali restano escluse a prescindere dal campionato. Champions League non presente in questo turno (pausa del calendario). Per ogni numero di eventi ci sono quattro schedine, una per fascia di rischio, ciascuna con una quota massima: per 4 eventi 3, 5, 7 e 9; per 5 eventi 4, 6, 8 e 10; per 6 eventi 5, 7, 9 e 11; per 7 eventi 6, 8, 10 e 12. Per restare nella fascia ogni evento puo' usare uno qualsiasi dei mercati della partita (1X2, doppia chance, Under/Over 2.5 e 3.5, Gol/No Gol). Le partite gia' disputate al momento della pubblicazione sono escluse. Le schedine di ogni livello sono ordinate dalla fascia a rischio basso alla fascia a rischio alto.",
     "schedine": schedine,
 }
 
