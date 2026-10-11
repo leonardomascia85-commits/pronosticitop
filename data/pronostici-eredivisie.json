@@ -229,9 +229,9 @@
       },
       "nota": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T12:15:03+00:00"
       }
     },
     {

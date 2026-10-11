@@ -172,9 +172,9 @@
       },
       "nota": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T12:15:03+00:00"
       },
       "pick_corner": {
         "esito": "under",
