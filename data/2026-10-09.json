@@ -418,7 +418,7 @@
       "quota_max": 9,
       "quota_combinata": 8.99,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gençlerbirliği - Amedspor",
@@ -431,8 +431,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gençlerbirliği (13° con 7 punti) ospita Amedspor (2° con 13 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "FC Augsburg - FC Bayern München",
@@ -445,8 +445,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Liverpool - Manchester City",
@@ -459,8 +459,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Stade Rennais FC - AJ Auxerre",
@@ -473,8 +473,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -487,8 +487,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -504,7 +504,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L5-6",
@@ -2226,7 +2228,7 @@
       "quota_max": 10,
       "quota_combinata": 9.95,
       "probabilita_combinata": 0.1,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Como - Roma",
@@ -2239,8 +2241,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Lazio - Monza",
@@ -2253,8 +2255,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -2267,8 +2269,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Liverpool - Manchester City",
@@ -2281,8 +2283,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Beşiktaş - Kocaelispor",
@@ -2326,7 +2328,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L4-9",
@@ -2336,7 +2340,7 @@
       "quota_max": 9,
       "quota_combinata": 8.97,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Liverpool - Manchester City",
@@ -2349,8 +2353,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -2394,7 +2398,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L5-12",
@@ -2747,6 +2753,74 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-10",
+      "livello_rischio": 4,
+      "fascia": 4,
+      "rischio": "Rischio alto",
+      "quota_max": 9,
+      "quota_combinata": 8.99,
+      "probabilita_combinata": 0.111,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-10-11T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.53,
+          "quota_stimata": 1.89,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
           "esito": null,
           "risultato_reale": null
         }

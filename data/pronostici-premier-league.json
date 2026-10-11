@@ -392,9 +392,10 @@
       },
       "nota": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T15:46:28+00:00"
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-11T18:14:17+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",

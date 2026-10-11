@@ -188,7 +188,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.96,
       "probabilita_combinata": 0.338,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -215,8 +215,8 @@
           "quota_stimata": 1.29,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -243,12 +243,14 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L5-1",
@@ -256,7 +258,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.0,
       "probabilita_combinata": 0.25,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -283,8 +285,8 @@
           "quota_stimata": 1.29,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -311,8 +313,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -325,12 +327,14 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L6-1",
@@ -338,7 +342,7 @@
       "variante": "quota_max",
       "quota_combinata": 5.41,
       "probabilita_combinata": 0.185,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -365,8 +369,8 @@
           "quota_stimata": 1.29,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -393,8 +397,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -407,8 +411,8 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -421,12 +425,14 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L7-2",
@@ -434,7 +440,7 @@
       "variante": "quota_max",
       "quota_combinata": 7.31,
       "probabilita_combinata": 0.137,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -461,8 +467,8 @@
           "quota_stimata": 1.29,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -489,8 +495,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -503,8 +509,8 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -517,8 +523,8 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -536,7 +542,9 @@
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L4-3",
@@ -544,7 +552,7 @@
       "variante": "libera",
       "quota_combinata": 3.25,
       "probabilita_combinata": 0.308,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Çorum FK",
@@ -557,8 +565,8 @@
           "quota_stimata": 1.31,
           "confidenza_dati": "MEDIA",
           "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -571,8 +579,8 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -585,8 +593,8 @@
           "quota_stimata": 1.36,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -602,7 +610,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T18:14:20.709003+00:00"
     },
     {
       "id": "L5-2",
@@ -1347,6 +1357,318 @@
           "quota_stimata": 1.38,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-4",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 3.25,
+      "probabilita_combinata": 0.307,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-5",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 4.65,
+      "probabilita_combinata": 0.215,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.41,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L6-5",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 7.12,
+      "probabilita_combinata": 0.14,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.41,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Al massimo un gol nel primo tempo",
+          "esito_pick": "under15",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-10-11T21:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-5",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 3.88,
+      "probabilita_combinata": 0.257,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.38,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.41,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Al massimo un gol nel primo tempo",
+          "esito_pick": "under15",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
           "esito": null,
           "risultato_reale": null
         }
