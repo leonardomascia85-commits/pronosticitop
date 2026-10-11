@@ -1910,7 +1910,7 @@
       "variante": "libera",
       "quota_combinata": 9.31,
       "probabilita_combinata": 0.107,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sassuolo - Milan",
@@ -1923,8 +1923,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -1937,8 +1937,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Beşiktaş - Kocaelispor",
@@ -1951,8 +1951,8 @@
           "quota_stimata": 1.75,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -1965,10 +1965,12 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     },
     {
       "id": "L5-7",
@@ -2410,7 +2412,7 @@
       "variante": "quota_max",
       "quota_combinata": 60.52,
       "probabilita_combinata": 0.017,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -2437,8 +2439,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -2507,12 +2509,14 @@
           "quota_stimata": 1.92,
           "confidenza_dati": "MEDIA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     }
   ]
 }

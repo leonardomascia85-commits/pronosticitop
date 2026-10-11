@@ -1123,7 +1123,7 @@
       "variante": "libera",
       "quota_combinata": 65.05,
       "probabilita_combinata": 0.015,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Çorum FK",
@@ -1136,8 +1136,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -1150,8 +1150,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1192,8 +1192,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1206,8 +1206,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -1220,10 +1220,12 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     },
     {
       "id": "L7-6",
@@ -1535,7 +1537,7 @@
       "variante": "libera",
       "quota_combinata": 11.76,
       "probabilita_combinata": 0.085,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cagliari - Juventus",
@@ -1548,8 +1550,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1593,7 +1595,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     },
     {
       "id": "L5-5",
@@ -1601,7 +1605,7 @@
       "variante": "libera",
       "quota_combinata": 21.78,
       "probabilita_combinata": 0.046,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cagliari - Juventus",
@@ -1614,8 +1618,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1670,10 +1674,12 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     },
     {
       "id": "L6-4",
@@ -1681,7 +1687,7 @@
       "variante": "libera",
       "quota_combinata": 41.09,
       "probabilita_combinata": 0.024,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cagliari - Juventus",
@@ -1694,8 +1700,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1750,6 +1756,74 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": "vinto",
+          "risultato_reale": "0-2"
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.53,
+          "quota_stimata": 1.89,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
+    },
+    {
+      "id": "L4-4",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 11.98,
+      "probabilita_combinata": 0.083,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
           "esito": null,
           "risultato_reale": null
         },
@@ -1764,6 +1838,86 @@
           "quota_stimata": 1.89,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-6",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 23.04,
+      "probabilita_combinata": 0.043,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.53,
+          "quota_stimata": 1.89,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.52,
+          "quota_stimata": 1.92,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
           "esito": null,
           "risultato_reale": null
         }

@@ -2414,7 +2414,7 @@
       "quota_max": 8,
       "quota_combinata": 8.0,
       "probabilita_combinata": 0.125,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Real Betis - Osasuna",
@@ -2427,8 +2427,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Beşiktaş - Kocaelispor",
@@ -2441,8 +2441,8 @@
           "quota_stimata": 1.75,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -2455,8 +2455,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2486,7 +2486,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T20:49:52.444401+00:00"
     },
     {
       "id": "L5-13",

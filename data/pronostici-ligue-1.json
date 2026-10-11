@@ -396,9 +396,10 @@
       },
       "nota": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-11T20:49:52+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",

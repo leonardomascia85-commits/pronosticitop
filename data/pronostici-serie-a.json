@@ -352,9 +352,10 @@
       },
       "nota": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-11T20:49:52+00:00",
+        "primo_tempo": "1-0"
       },
       "pick_corner": {
         "esito": "over",
