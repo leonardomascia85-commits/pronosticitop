@@ -305,9 +305,9 @@
       },
       "nota": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:33:56+00:00"
       },
       "pick_corner": {
         "esito": "over",
