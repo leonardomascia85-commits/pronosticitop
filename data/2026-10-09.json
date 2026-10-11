@@ -780,7 +780,7 @@
       "quota_max": 7,
       "quota_combinata": 7.0,
       "probabilita_combinata": 0.143,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Ajax - NEC Nijmegen",
@@ -793,8 +793,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -807,8 +807,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -821,8 +821,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -835,10 +835,12 @@
           "quota_stimata": 1.82,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T19:13:38.354425+00:00"
     },
     {
       "id": "L4-7",
@@ -2821,6 +2823,74 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-11",
+      "livello_rischio": 4,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 7,
+      "quota_combinata": 6.96,
+      "probabilita_combinata": 0.144,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
           "esito": null,
           "risultato_reale": null
         }

@@ -78,7 +78,7 @@
       "livello_rischio": 5,
       "quota_combinata": 2.1,
       "probabilita_combinata": 0.476,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -91,8 +91,8 @@
           "quota_stimata": 1.15,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Arsenal - Leeds United",
@@ -105,8 +105,8 @@
           "quota_stimata": 1.17,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Arsenal, secondo con 12 punti, ospita un Leeds neopromosso ma partito bene: i Gunners restano ampiamente favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Madrid - Villarreal",
@@ -119,8 +119,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -133,8 +133,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "PSV - sc Heerenveen",
@@ -147,10 +147,12 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il PSV, terzo in classifica, ospita un Heerenveen di metà classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-11T19:13:38.354425+00:00"
     },
     {
       "id": "L6-2",
@@ -1087,6 +1089,86 @@
           "quota_stimata": 1.3,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 2.87,
+      "probabilita_combinata": 0.348,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Göztepe)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Sevilla)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Newcastle United)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Arouca)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Famalicão)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
           "esito": null,
           "risultato_reale": null
         }
