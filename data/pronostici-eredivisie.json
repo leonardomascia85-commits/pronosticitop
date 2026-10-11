@@ -306,9 +306,10 @@
       },
       "nota": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-11T15:46:28+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
