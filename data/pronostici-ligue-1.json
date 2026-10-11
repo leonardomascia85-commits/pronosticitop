@@ -82,9 +82,10 @@
       },
       "nota": "Il Lille, quarto in classifica, ospita il fanalino di coda Le Havre: ampiamente favorito.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T16:17:10+00:00"
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-11T00:14:42+00:00",
+        "primo_tempo": "1-0"
       },
       "pick_corner": {
         "esito": "under",
@@ -170,9 +171,10 @@
       },
       "nota": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T20:14:59+00:00"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-11T00:14:42+00:00",
+        "primo_tempo": "2-0"
       },
       "pick_corner": {
         "esito": "under",
@@ -214,9 +216,10 @@
       },
       "nota": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T20:14:59+00:00"
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-11T00:14:42+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",
@@ -258,9 +261,10 @@
       },
       "nota": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T20:14:59+00:00"
+        "stato": "finale",
+        "punteggio": "5-1",
+        "aggiornato": "2026-10-11T00:14:42+00:00",
+        "primo_tempo": "4-0"
       },
       "pick_corner": {
         "esito": "over",

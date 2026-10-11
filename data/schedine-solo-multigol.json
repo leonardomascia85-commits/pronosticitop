@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-10",
+  "aggiornato_il": "2026-10-11",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol (totale gol della partita compreso tra 1 e 3 oppure tra 2 e 4), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -644,7 +644,7 @@
       "variante": "libera",
       "quota_combinata": 8.49,
       "probabilita_combinata": 0.118,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -699,8 +699,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -716,7 +716,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T00:14:42.570835+00:00"
     },
     {
       "id": "L6-3",
@@ -724,7 +726,7 @@
       "variante": "libera",
       "quota_combinata": 13.26,
       "probabilita_combinata": 0.075,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -765,8 +767,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -810,7 +812,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T00:14:42.570835+00:00"
     },
     {
       "id": "L4-3",
@@ -1167,6 +1171,180 @@
       ],
       "quota_max": 7,
       "quota_rispettata": false
+    },
+    {
+      "id": "L5-4",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 8.49,
+      "probabilita_combinata": 0.118,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "ESTAC Troyes - Olympique de Marseille",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Nottingham Forest",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Elche - Celta de Vigo",
+          "campionato": "La Liga",
+          "data": "2026-10-11T14:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rio Ave - Nacional",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T15:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Telstar - ADO Den Haag",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-5",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 13.47,
+      "probabilita_combinata": 0.074,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Crystal Palace - Nottingham Forest",
+          "campionato": "Premier League",
+          "data": "2026-10-11T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Elche - Celta de Vigo",
+          "campionato": "La Liga",
+          "data": "2026-10-11T14:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rio Ave - Nacional",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T15:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T12:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Telstar - ADO Den Haag",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "OGC Nice - RC Strasbourg Alsace",
+          "campionato": "Ligue 1",
+          "data": "2026-10-11T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }
