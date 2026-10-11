@@ -307,9 +307,9 @@
       },
       "nota": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T16:14:53+00:00"
       },
       "pick_corner": {
         "esito": "under",

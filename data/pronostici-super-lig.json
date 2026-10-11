@@ -271,9 +271,9 @@
       },
       "nota": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T16:14:53+00:00"
       }
     },
     {
