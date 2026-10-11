@@ -193,9 +193,10 @@
       },
       "nota": "Konyaspor (15° con 4 punti) ospita Başakşehir (12° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T12:15:03+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-11T14:10:04+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -231,9 +232,9 @@
       },
       "nota": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       }
     },
     {

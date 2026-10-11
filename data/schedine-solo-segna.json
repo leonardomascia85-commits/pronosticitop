@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-10",
+  "aggiornato_il": "2026-10-11",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -252,7 +252,7 @@
       "variante": "libera",
       "quota_combinata": 3.6,
       "probabilita_combinata": 0.278,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Ajax - NEC Nijmegen",
@@ -265,8 +265,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -293,8 +293,8 @@
           "quota_stimata": 1.21,
           "confidenza_dati": "ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Lazio - Monza",
@@ -349,10 +349,12 @@
           "quota_stimata": 1.21,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Brighton, terzo in classifica, fa visita a un Sunderland neopromosso in difficoltà: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L4-2",
@@ -771,6 +773,114 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-4",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 3.87,
+      "probabilita_combinata": 0.258,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Göztepe)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Milan)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Manchester City)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Sevilla)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Padova - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-11T17:15:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Padova)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Modena)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Newcastle United)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
           "esito": null,
           "risultato_reale": null
         }

@@ -229,9 +229,10 @@
       },
       "nota": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T12:15:03+00:00"
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-11T14:10:04+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -267,9 +268,9 @@
       },
       "nota": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       }
     },
     {
@@ -305,9 +306,9 @@
       },
       "nota": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       }
     },
     {

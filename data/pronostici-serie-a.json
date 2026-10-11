@@ -172,9 +172,10 @@
       },
       "nota": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T12:15:03+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-11T14:10:04+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",
@@ -216,9 +217,9 @@
       },
       "nota": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -260,9 +261,9 @@
       },
       "nota": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       },
       "pick_corner": {
         "esito": "under",

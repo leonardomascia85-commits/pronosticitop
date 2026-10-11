@@ -260,9 +260,10 @@
       },
       "nota": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T12:15:03+00:00"
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-11T14:10:04+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",

@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Gol/No Gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-10",
+  "aggiornato_il": "2026-10-11",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Gol/No Gol (pick_gg) per ogni partita, scelto in base al dato storico reale delle due squadre (gol fatti/subiti, forma recente). Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -812,7 +812,7 @@
       "variante": "libera",
       "quota_combinata": 26.27,
       "probabilita_combinata": 0.038,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Como - Roma",
@@ -825,8 +825,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -895,10 +895,12 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Twente, quarto in classifica, fa visita a una Fortuna Sittard solida: match equilibrato con leggero favore ospite.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L5-3",
@@ -1096,7 +1098,7 @@
       "variante": "quota_max",
       "quota_combinata": 6.72,
       "probabilita_combinata": 0.149,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1137,8 +1139,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1156,7 +1158,9 @@
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L5-4",
@@ -1164,7 +1168,7 @@
       "variante": "quota_max",
       "quota_combinata": 11.59,
       "probabilita_combinata": 0.086,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1205,8 +1209,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1238,7 +1242,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L6-3",
@@ -1342,7 +1348,7 @@
       "variante": "quota_max",
       "quota_combinata": 35.68,
       "probabilita_combinata": 0.028,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1383,8 +1389,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1444,7 +1450,9 @@
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L5-5",
@@ -1521,6 +1529,360 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-6",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 6.96,
+      "probabilita_combinata": 0.144,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L5-6",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 12.0,
+      "probabilita_combinata": 0.083,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Deportivo de La Coruña",
+          "campionato": "La Liga",
+          "data": "2026-10-11T16:15:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L7-6",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 38.28,
+      "probabilita_combinata": 0.026,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Benfica - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T18:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Excelsior - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-10-11T16:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre appaiate a 11 punti: match equilibrato con leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L6-4",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 28.67,
+      "probabilita_combinata": 0.035,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sassuolo - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-11T18:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-10-11T20:45:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Kocaelispor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-11T19:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.57,
+          "quota_stimata": 1.75,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Benfica - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T18:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
           "esito": null,
           "risultato_reale": null
         }

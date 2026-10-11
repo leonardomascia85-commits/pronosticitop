@@ -844,7 +844,7 @@
       "quota_max": 9,
       "quota_combinata": 8.97,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Como - Roma",
@@ -857,8 +857,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Telstar - ADO Den Haag",
@@ -902,7 +902,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T14:10:04.475730+00:00"
     },
     {
       "id": "L5-7",
@@ -2305,6 +2307,74 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-9",
+      "livello_rischio": 4,
+      "fascia": 4,
+      "rischio": "Rischio alto",
+      "quota_max": 9,
+      "quota_combinata": 8.97,
+      "probabilita_combinata": 0.111,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Liverpool - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-10-11T16:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-10-11T19:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arouca - Estrela da Amadora",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-11T20:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.52,
+          "quota_stimata": 1.92,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
           "esito": null,
           "risultato_reale": null
         }

@@ -349,9 +349,9 @@
       },
       "nota": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T14:10:04+00:00"
       },
       "pick_corner": {
         "esito": "over",
