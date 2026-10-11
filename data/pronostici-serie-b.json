@@ -348,9 +348,10 @@
       },
       "nota": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T15:21:02+00:00"
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-11T17:29:15+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {

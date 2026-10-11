@@ -708,7 +708,7 @@
       "quota_max": 3,
       "quota_combinata": 2.99,
       "probabilita_combinata": 0.334,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -721,8 +721,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Padova - Carrarese",
@@ -735,8 +735,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -766,7 +766,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T17:29:15.375853+00:00"
     },
     {
       "id": "L4-6",
@@ -1276,7 +1278,7 @@
       "quota_max": 6,
       "quota_combinata": 5.98,
       "probabilita_combinata": 0.167,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -1289,8 +1291,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Lecce - Bologna",
@@ -1303,8 +1305,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1317,8 +1319,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -1331,8 +1333,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -1376,7 +1378,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T17:29:15.375853+00:00"
     },
     {
       "id": "L7-6",
@@ -1858,7 +1862,7 @@
       "quota_max": 6,
       "quota_combinata": 5.92,
       "probabilita_combinata": 0.169,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Liverpool - Manchester City",
@@ -1899,8 +1903,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1930,7 +1934,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T17:29:15.375853+00:00"
     },
     {
       "id": "L5-11",
@@ -2024,7 +2030,7 @@
       "quota_max": 5,
       "quota_combinata": 4.98,
       "probabilita_combinata": 0.201,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lazio - Monza",
@@ -2037,8 +2043,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -2051,8 +2057,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Sociedad - Deportivo de La Coruña",
@@ -2065,8 +2071,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Padova - Carrarese",
@@ -2079,8 +2085,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -2110,7 +2116,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T17:29:15.375853+00:00"
     },
     {
       "id": "L6-11",

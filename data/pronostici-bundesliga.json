@@ -394,9 +394,10 @@
       },
       "nota": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T15:46:28+00:00"
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-11T17:29:15+00:00",
+        "primo_tempo": "1-1"
       },
       "pick_corner": {
         "esito": "over",
