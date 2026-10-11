@@ -302,9 +302,10 @@
       },
       "nota": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-11T15:20:48+00:00",
+        "primo_tempo": "2-1"
       },
       "pick_corner": {
         "esito": "under",
@@ -346,9 +347,10 @@
       },
       "nota": "Sfida molto equilibrata tra due squadre di metà classifica separate da un solo punto e da un unico posto in classifica.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-11T15:21:02+00:00",
+        "primo_tempo": "0-0"
       },
       "pick_corner": {
         "esito": "under",

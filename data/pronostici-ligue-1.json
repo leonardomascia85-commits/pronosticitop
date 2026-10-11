@@ -306,9 +306,10 @@
       },
       "nota": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-11T15:21:02+00:00",
+        "primo_tempo": "1-1"
       },
       "pick_corner": {
         "esito": "under",
@@ -350,9 +351,9 @@
       },
       "nota": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T15:21:02+00:00"
       },
       "pick_corner": {
         "esito": "over",

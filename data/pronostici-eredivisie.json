@@ -268,9 +268,9 @@
       },
       "nota": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-11T15:21:02+00:00"
       }
     },
     {
@@ -344,9 +344,9 @@
       },
       "nota": "Due squadre appaiate a 11 punti: match equilibrato con leggero favore per il fattore campo.",
       "risultato": {
-        "stato": "non_iniziata",
+        "stato": "live",
         "punteggio": null,
-        "aggiornato": null
+        "aggiornato": "2026-10-11T15:21:02+00:00"
       }
     }
   ]

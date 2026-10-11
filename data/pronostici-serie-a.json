@@ -262,9 +262,10 @@
       },
       "nota": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-11T15:20:48+00:00",
+        "primo_tempo": "0-1"
       },
       "pick_corner": {
         "esito": "under",
