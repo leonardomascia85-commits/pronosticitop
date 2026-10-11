@@ -394,9 +394,9 @@
       },
       "nota": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-11T21:10:10+00:00"
       },
       "pick_corner": {
         "esito": "over",

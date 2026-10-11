@@ -2772,7 +2772,7 @@
       "quota_max": 9,
       "quota_combinata": 8.99,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cagliari - Juventus",
@@ -2785,8 +2785,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -2799,8 +2799,8 @@
           "quota_stimata": 1.89,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -2830,7 +2830,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T21:10:10.813660+00:00"
     },
     {
       "id": "L4-11",

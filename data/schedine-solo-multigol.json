@@ -980,7 +980,7 @@
       "variante": "quota_max",
       "quota_combinata": 11.75,
       "probabilita_combinata": 0.085,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Bologna",
@@ -993,8 +993,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Torino - Udinese",
@@ -1021,8 +1021,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -1035,8 +1035,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1049,8 +1049,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "PEC Zwolle - SC Cambuur",
@@ -1063,12 +1063,14 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T21:10:10.813660+00:00"
     },
     {
       "id": "L7-3",
@@ -1562,7 +1564,7 @@
       "variante": "libera",
       "quota_combinata": 5.79,
       "probabilita_combinata": 0.173,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Racing de Santander - Valencia",
@@ -1575,8 +1577,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1589,8 +1591,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -1617,10 +1619,12 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T21:10:10.813660+00:00"
     },
     {
       "id": "L5-6",
@@ -1986,7 +1990,7 @@
       "variante": "quota_max",
       "quota_combinata": 8.91,
       "probabilita_combinata": 0.112,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Torino - Udinese",
@@ -2013,8 +2017,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -2027,8 +2031,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2060,7 +2064,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T21:10:10.813660+00:00"
     },
     {
       "id": "L7-6",
@@ -2336,6 +2342,184 @@
         }
       ],
       "quota_max": 4,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L5-8",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 9.79,
+      "probabilita_combinata": 0.102,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L6-8",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 16.31,
+      "probabilita_combinata": 0.061,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.48,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.68,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
       "quota_rispettata": false
     }
   ]
