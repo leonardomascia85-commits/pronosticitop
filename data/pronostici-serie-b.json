@@ -387,9 +387,10 @@
       },
       "nota": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-11T19:54:10+00:00",
+        "primo_tempo": "1-2"
       }
     }
   ]

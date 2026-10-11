@@ -600,7 +600,7 @@
       "quota_max": 12,
       "quota_combinata": 11.54,
       "probabilita_combinata": 0.087,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Chelsea - AFC Bournemouth",
@@ -613,8 +613,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Chelsea, decimo ma con qualche punto di margine, ospita un Bournemouth ancora senza vittorie in campionato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Casa Pia - Santa Clara",
@@ -627,8 +627,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Santa Clara, quarto e ancora imbattuto, fa visita a una Casa Pia in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "LOSC Lille - Le Havre AC",
@@ -641,8 +641,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Lille, quarto in classifica, ospita il fanalino di coda Le Havre: ampiamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Arezzo - Cremonese",
@@ -655,8 +655,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Arezzo, reduce da una pesante sconfitta, ospita una Cremonese solida in difesa (0-0 nell'ultimo turno): equilibrio atteso, pochi gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "FC Utrecht - Willem II",
@@ -669,8 +669,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -683,8 +683,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -697,10 +697,12 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-11T19:54:10.812204+00:00"
     },
     {
       "id": "L4-5",
