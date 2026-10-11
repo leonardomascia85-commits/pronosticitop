@@ -217,9 +217,10 @@
       },
       "nota": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
       "risultato": {
-        "stato": "live",
-        "punteggio": null,
-        "aggiornato": "2026-10-11T14:10:04+00:00"
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-11T14:55:20+00:00",
+        "primo_tempo": "2-0"
       },
       "pick_corner": {
         "esito": "under",
