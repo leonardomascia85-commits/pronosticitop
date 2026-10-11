@@ -2498,7 +2498,7 @@
       "quota_max": 10,
       "quota_combinata": 9.98,
       "probabilita_combinata": 0.1,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sassuolo - Milan",
@@ -2511,8 +2511,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -2525,8 +2525,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -2539,8 +2539,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -2553,8 +2553,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2570,7 +2570,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T22:00:47.392859+00:00"
     },
     {
       "id": "L6-12",
@@ -2842,7 +2844,7 @@
       "quota_max": 7,
       "quota_combinata": 6.96,
       "probabilita_combinata": 0.144,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -2855,8 +2857,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2897,6 +2899,158 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-11T22:00:47.392859+00:00"
+    },
+    {
+      "id": "L4-12",
+      "livello_rischio": 4,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 7,
+      "quota_combinata": 7.0,
+      "probabilita_combinata": 0.143,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eyüpspor - Göztepe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-12T20:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Famalicão o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.79,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-14",
+      "livello_rischio": 5,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 6,
+      "quota_combinata": 5.91,
+      "probabilita_combinata": 0.169,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atalanta - Venezia",
+          "campionato": "Serie A",
+          "data": "2026-10-12T18:30:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Atalanta o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coventry City - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-12T20:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Newcastle United",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.35,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Famalicão - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-12T20:15:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Famalicão o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Udinese",
+          "campionato": "Serie A",
+          "data": "2026-10-12T20:45:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-12T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Sevilla",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
           "esito": null,
           "risultato_reale": null
         }

@@ -309,9 +309,10 @@
       },
       "nota": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-11T22:00:47+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {
