@@ -337,7 +337,6 @@ function renderWeek(week, lookup){
 
   const content = document.getElementById('content');
   content.innerHTML = '';
-  renderArchiviate(week, lookup);
 
   const levels = Object.keys(byLevel).map(Number).sort((a,b)=>a-b);
   if(!levels.length){
@@ -421,37 +420,70 @@ function renderWeek(week, lookup){
   });
 }
 
-function renderArchiviate(week, lookup){
+const ARCH_TIPI = [
+  ['misto', 'Miste', null],
+  ['solo_gol', 'Solo Gol/No Gol', 'schedine-solo-gol.json'],
+  ['solo_under', 'Solo Under/Over', 'schedine-solo-under.json'],
+  ['solo_corner', 'Solo Corner', 'schedine-solo-corner.json'],
+  ['solo_segna', 'Solo Squadra segna', 'schedine-solo-segna.json'],
+  ['solo_multigol', 'Solo Multigol', 'schedine-solo-multigol.json'],
+  ['solo_primotempo', 'Solo Primo tempo', 'schedine-solo-primotempo.json'],
+  ['solo_ammonizioni', 'Solo Ammonizioni', 'schedine-solo-ammonizioni.json'],
+];
+const archCache = {};
+function archCardHtml(sch, lookup){
+  const vinta = sch.esito_finale === 'vinta';
+  const rows = sch.eventi.map(ev => {
+    let esito = ev.esito, reale = ev.risultato_reale;
+    if(!esito){
+      const li = liveInfo(ev, lookup || {});
+      if(li.state === 'win') { esito = 'vinto'; reale = li.punteggio; }
+      else if(li.state === 'lose') { esito = 'perso'; reale = li.punteggio; }
+    }
+    const icon = esito === 'vinto' ? '✅' : esito === 'perso' ? '❌' : esito === 'annullato' ? '↩️' : '⏳';
+    const pickText = ev.mercato === 'DC' ? ev.esito_pick : ev.pronostico;
+    return `<tr>
+      <td><div class="ev-match">${ev.partita}</div><div class="ev-league">${leagueBadge(ev.campionato)} ${fmtDate(ev.data)}</div></td>
+      <td class="ev-pick">${pickText}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
+      <td class="ev-p">${fmtPct(ev.probabilita_stimata)}</td>
+      <td class="ev-res">${icon}${reale ? ' ' + reale : ''}</td>
+    </tr>`;
+  }).join('');
+  const quota = sch.quota_combinata ? `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
+  return `<div class="card${vinta ? ' is-winner' : ''}" style="margin-bottom:12px">
+    <div class="card-head"><span class="name">Schedina ${sch.livello_rischio}E · ${sch.id}</span>${quota}
+      <span class="status-pill status-${vinta ? 'win' : 'lose'}">${vinta ? 'VINTA' : 'PERSA'}</span></div>
+    <table class="events">${rows}</table></div>`;
+}
+
+// Tutte le schedine concluse, raggruppate per tipologia (Miste, Gol, Under, Corner, Squadra segna, ...)
+async function renderArchiviate(mistoWeek){
   const box = document.getElementById('archBox');
   const body = document.getElementById('archBody');
-  const arch = (week.schedine||[]).filter(s => s.stato === 'archiviata');
-  if(!arch.length){ box.style.display = 'none'; return; }
-  const vinte = arch.filter(s => s.esito_finale === 'vinta').length;
-  document.getElementById('archTitle').textContent = `Schedine concluse e risultati (${arch.length}: ${vinte} ${vinte === 1 ? 'vinta' : 'vinte'}, ${arch.length - vinte} ${arch.length - vinte === 1 ? 'persa' : 'perse'})`;
-  arch.sort((a,b) => (a.livello_rischio - b.livello_rischio) || String(a.id).localeCompare(String(b.id), 'it', {numeric:true}));
-  body.innerHTML = arch.map(sch => {
-    const vinta = sch.esito_finale === 'vinta';
-    const rows = sch.eventi.map(ev => {
-      let esito = ev.esito, reale = ev.risultato_reale;
-      if(!esito){
-        const li = liveInfo(ev, lookup || {});
-        if(li.state === 'win') { esito = 'vinto'; reale = li.punteggio; }
-        else if(li.state === 'lose') { esito = 'perso'; reale = li.punteggio; }
+  const gruppi = [];
+  for(const [key, nome, file] of ARCH_TIPI){
+    let data = null;
+    if(key === 'misto') data = mistoWeek;
+    else {
+      if(!(key in archCache)){
+        archCache[key] = await fetch('/data/' + file).then(r => r.ok ? r.json() : null).catch(() => null);
       }
-      const icon = esito === 'vinto' ? '✅' : esito === 'perso' ? '❌' : esito === 'annullato' ? '↩️' : '⏳';
-      const pickText = ev.mercato === 'DC' ? ev.esito_pick : ev.pronostico;
-      return `<tr>
-        <td><div class="ev-match">${ev.partita}</div><div class="ev-league">${leagueBadge(ev.campionato)} ${fmtDate(ev.data)}</div></td>
-        <td class="ev-pick">${pickText}<br><span class="ev-league">${MARKET_LABELS[ev.mercato]||ev.mercato}</span></td>
-        <td class="ev-p">${fmtPct(ev.probabilita_stimata)}</td>
-        <td class="ev-res">${icon}${reale ? ' ' + reale : ''}</td>
-      </tr>`;
-    }).join('');
-    const quota = sch.quota_combinata ? `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ${sch.quota_combinata.toFixed(2)}</span>` : '';
-    return `<div class="card${vinta ? ' is-winner' : ''}" style="margin-bottom:12px">
-      <div class="card-head"><span class="name">Schedina ${sch.livello_rischio}E · ${sch.id}</span>${quota}
-        <span class="status-pill status-${vinta ? 'win' : 'lose'}">${vinta ? 'VINTA' : 'PERSA'}</span></div>
-      <table class="events">${rows}</table></div>`;
+      data = archCache[key];
+    }
+    if(!data) continue;
+    const arch = (data.schedine||[]).filter(s => s.stato === 'archiviata');
+    if(!arch.length) continue;
+    arch.sort((a,b) => (a.livello_rischio - b.livello_rischio) || String(a.id).localeCompare(String(b.id), 'it', {numeric:true}));
+    gruppi.push({ nome, arch, lookup: await buildLiveLookup(data) });
+  }
+  if(!gruppi.length){ box.style.display = 'none'; return; }
+  const tot = gruppi.reduce((n,g) => n + g.arch.length, 0);
+  const vinte = gruppi.reduce((n,g) => n + g.arch.filter(s => s.esito_finale === 'vinta').length, 0);
+  document.getElementById('archTitle').textContent = `Schedine concluse e risultati (${tot}: ${vinte} ${vinte === 1 ? 'vinta' : 'vinte'}, ${tot - vinte} ${tot - vinte === 1 ? 'persa' : 'perse'})`;
+  body.innerHTML = gruppi.map(g => {
+    const v = g.arch.filter(s => s.esito_finale === 'vinta').length;
+    return `<h3 style="margin:18px 0 10px">${g.nome} <span class="ev-league">· ${g.arch.length} concluse, ${v} ${v === 1 ? 'vinta' : 'vinte'}</span></h3>` +
+      g.arch.map(sch => archCardHtml(sch, g.lookup)).join('');
   }).join('');
   box.style.display = '';
 }
@@ -526,10 +558,13 @@ async function init(){
   const banner = document.getElementById('banner');
   const content = document.getElementById('content');
 
+  let mistoWeekData = null;
   async function loadWeek(file){
     const data = await fetch('/data/' + file).then(r=>r.json());
     const lookup = await buildLiveLookup(data);
     renderWeek(data, lookup);
+    mistoWeekData = data;
+    renderArchiviate(data);
     const statEl = document.getElementById('statSchedine');
     if(statEl && data.schedine) statEl.textContent = data.schedine.filter(s => s.stato !== 'archiviata').length;
   }
@@ -567,6 +602,7 @@ async function init(){
     const data = sezioneCache[kind];
     const lookup = await buildLiveLookup(data);
     renderWeek(data, lookup);
+    renderArchiviate(mistoWeekData);
     if(SEZIONI_NOTE[kind]){
       banner.style.display = 'block';
       banner.textContent = SEZIONI_NOTE[kind];
