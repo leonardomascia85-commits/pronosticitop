@@ -215,6 +215,11 @@ function leagueBadge(name){
 }
 
 function fmtPct(x){ return Math.round(x*100) + '%'; }
+function fmtPctCombinata(eventi){
+  const p = eventi.reduce((a,e) => a * e.probabilita_stimata, 1) * 100;
+  return (p < 10 ? p.toFixed(1).replace('.', ',') : Math.round(p)) + '%';
+}
+
 function fmtDate(iso){
   try{
     const d = new Date(iso);
@@ -407,7 +412,7 @@ function renderWeek(week, lookup){
           <span class="name">Schedina ${level}E — #${pos+1}</span>
           ${quotaTxt}
           ${varianteTxt}
-          <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
+          <span class="prob" title="Probabilità stimata che tutti gli eventi della schedina siano azzeccati (prodotto delle probabilità dei singoli eventi). Probabilità media per evento: ${fmtPct(probMedia)}">Prob. di vincita ${fmtPctCombinata(sch.eventi)}</span>
           ${leagueTxt}
           <span class="status-pill status-${st}">${STATUS_LABELS[st]}</span>
         </div>

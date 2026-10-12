@@ -135,6 +135,11 @@ function leagueBadge(name){
   return `<span class="lg-badge" style="background:${c}1f;color:${c}">${name}</span>`;
 }
 function fmtPct(x){ return Math.round(x*100) + '%'; }
+function fmtPctCombinata(eventi){
+  const p = eventi.reduce((a,e) => a * e.probabilita_stimata, 1) * 100;
+  return (p < 10 ? p.toFixed(1).replace('.', ',') : Math.round(p)) + '%';
+}
+
 function fmtDate(iso){
   try{
     const d = new Date(iso);
@@ -160,7 +165,7 @@ function schedinaCardHTML(sch, tipo){
       <span class="name">Schedina ${sch.eventi.length}E</span>
       ${tipo ? '<span class="prob">' + tipo + '</span>' : ''}
       ${sch.quota_combinata ? '<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)">Quota ' + sch.quota_combinata.toFixed(2) + '</span>' : ''}
-      <span class="prob">Prob. media ${fmtPct(probMedia)}</span>
+      <span class="prob" title="Probabilità stimata che tutti gli eventi della schedina siano azzeccati (prodotto delle probabilità dei singoli eventi). Probabilità media per evento: ${fmtPct(probMedia)}">Prob. di vincita ${fmtPctCombinata(sch.eventi)}</span>
       <span class="status-pill status-win">Vinta</span>
     </div>
     <table class="events">${rows}</table>
