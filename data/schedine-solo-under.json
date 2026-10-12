@@ -1791,7 +1791,7 @@
       "variante": "libera",
       "quota_combinata": 11.98,
       "probabilita_combinata": 0.083,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Atalanta - Venezia",
@@ -1804,8 +1804,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Torino - Udinese",
@@ -1818,8 +1818,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -1846,10 +1846,12 @@
           "quota_stimata": 1.89,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     },
     {
       "id": "L5-6",
@@ -1857,7 +1859,7 @@
       "variante": "libera",
       "quota_combinata": 23.04,
       "probabilita_combinata": 0.043,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Atalanta - Venezia",
@@ -1870,8 +1872,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Torino - Udinese",
@@ -1884,8 +1886,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -1912,8 +1914,8 @@
           "quota_stimata": 1.89,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -1929,7 +1931,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     }
   ]
 }

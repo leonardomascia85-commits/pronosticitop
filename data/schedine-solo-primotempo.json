@@ -2,7 +2,7 @@
   "id": "solo-primotempo-2026-10-09",
   "titolo": "Solo Primo tempo",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-11",
+  "aggiornato_il": "2026-10-12",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato dei gol nel primo tempo (almeno un gol, oppure al massimo un gol), stimato per ogni partita dai gol attesi delle due squadre con una quota di gol nel primo tempo pari al 45% del totale. Il risultato del primo tempo viene registrato a fine partita da fonti verificate: fino ad allora l'evento resta in attesa.",
   "schedine": [
@@ -1518,7 +1518,7 @@
       "variante": "quota_max",
       "quota_combinata": 7.12,
       "probabilita_combinata": 0.14,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1531,8 +1531,8 @@
           "quota_stimata": 1.27,
           "confidenza_dati": "MEDIA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -1545,8 +1545,8 @@
           "quota_stimata": 1.38,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -1559,8 +1559,8 @@
           "quota_stimata": 1.38,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -1587,8 +1587,8 @@
           "quota_stimata": 1.45,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -1606,7 +1606,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     },
     {
       "id": "L4-5",
@@ -1614,7 +1616,7 @@
       "variante": "libera",
       "quota_combinata": 3.88,
       "probabilita_combinata": 0.257,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -1627,8 +1629,8 @@
           "quota_stimata": 1.38,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -1641,8 +1643,8 @@
           "quota_stimata": 1.38,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -1669,10 +1671,12 @@
           "quota_stimata": 1.45,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     }
   ]
 }

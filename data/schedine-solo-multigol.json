@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-11",
+  "aggiornato_il": "2026-10-12",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol (totale gol della partita compreso tra 1 e 3 oppure tra 2 e 4), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -2282,7 +2282,7 @@
       "variante": "quota_max",
       "quota_combinata": 6.26,
       "probabilita_combinata": 0.16,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Torino - Udinese",
@@ -2295,8 +2295,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -2309,8 +2309,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2323,8 +2323,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2342,7 +2342,9 @@
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     },
     {
       "id": "L5-8",
@@ -2350,7 +2352,7 @@
       "variante": "quota_max",
       "quota_combinata": 9.79,
       "probabilita_combinata": 0.102,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Torino - Udinese",
@@ -2363,8 +2365,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -2391,8 +2393,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2405,8 +2407,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2424,7 +2426,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     },
     {
       "id": "L6-8",
@@ -2432,7 +2436,7 @@
       "variante": "quota_max",
       "quota_combinata": 16.31,
       "probabilita_combinata": 0.061,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Torino - Udinese",
@@ -2445,8 +2449,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -2473,8 +2477,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2487,8 +2491,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2515,12 +2519,14 @@
           "quota_stimata": 1.68,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-12T21:00:05.365271+00:00"
     }
   ]
 }

@@ -437,9 +437,10 @@
       },
       "nota": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-1",
+        "aggiornato": "2026-10-12T21:00:05+00:00",
+        "primo_tempo": "1-0"
       },
       "pick_corner": {
         "esito": "under",
