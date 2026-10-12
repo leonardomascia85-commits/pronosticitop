@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-11",
+  "aggiornato_il": "2026-10-12",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -366,7 +366,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.83,
       "probabilita_combinata": 0.547,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -379,8 +379,8 @@
           "quota_stimata": 1.15,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Real Madrid - Villarreal",
@@ -393,8 +393,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -407,8 +407,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -421,12 +421,14 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-12T20:14:29.241052+00:00"
     },
     {
       "id": "L5-2",
@@ -434,7 +436,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.31,
       "probabilita_combinata": 0.433,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Atalanta - Venezia",
@@ -447,8 +449,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -461,8 +463,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -475,8 +477,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -489,8 +491,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Académico Viseu - Estoril",
@@ -503,12 +505,14 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Viseu, settimo in classifica, ospita un Estoril penultimo e ancora senza vittorie: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-12T20:14:29.241052+00:00"
     },
     {
       "id": "L6-3",
@@ -516,7 +520,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.56,
       "probabilita_combinata": 0.391,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -529,8 +533,8 @@
           "quota_stimata": 1.15,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Real Madrid - Villarreal",
@@ -543,8 +547,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -557,8 +561,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -571,8 +575,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -585,8 +589,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Ajax - NEC Nijmegen",
@@ -599,12 +603,14 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-12T20:14:29.241052+00:00"
     },
     {
       "id": "L7-3",
@@ -612,7 +618,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.01,
       "probabilita_combinata": 0.332,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -625,8 +631,8 @@
           "quota_stimata": 1.15,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Real Madrid - Villarreal",
@@ -639,8 +645,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "AS Monaco - Toulouse FC",
@@ -653,8 +659,8 @@
           "quota_stimata": 1.16,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -667,8 +673,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -681,8 +687,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -695,8 +701,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -709,12 +715,14 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-12T20:14:29.241052+00:00"
     },
     {
       "id": "L4-3",
@@ -722,7 +730,7 @@
       "variante": "libera",
       "quota_combinata": 1.96,
       "probabilita_combinata": 0.51,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Real Betis - Osasuna",
@@ -735,8 +743,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "SC Freiburg - FC Schalke 04",
@@ -749,8 +757,8 @@
           "quota_stimata": 1.18,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -763,8 +771,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -777,10 +785,12 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-12T20:14:29.241052+00:00"
     },
     {
       "id": "L7-4",

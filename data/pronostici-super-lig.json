@@ -310,9 +310,10 @@
       },
       "nota": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-4",
+        "aggiornato": "2026-10-12T20:14:29+00:00",
+        "primo_tempo": "0-1"
       }
     }
   ]

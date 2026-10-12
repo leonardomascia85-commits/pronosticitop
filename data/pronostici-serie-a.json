@@ -397,9 +397,10 @@
       },
       "nota": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-12T20:14:29+00:00",
+        "primo_tempo": "3-1"
       },
       "pick_corner": {
         "esito": "under",
