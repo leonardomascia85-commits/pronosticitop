@@ -438,9 +438,10 @@
       },
       "nota": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-3",
+        "aggiornato": "2026-10-12T21:20:35+00:00",
+        "primo_tempo": "0-1"
       },
       "pick_corner": {
         "esito": "under",
