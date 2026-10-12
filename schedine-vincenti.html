@@ -123,7 +123,7 @@ document.addEventListener('click', function(){
   document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
 });
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)' };
 const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
@@ -166,6 +166,26 @@ function schedinaCardHTML(sch){
   </div>`;
 }
 
+// Tipologie mostrate nell'ordine: Miste, Nazionali, poi le sezioni a mercato singolo
+const SEZIONI_VINCENTI = [
+  ['Solo Gol/No Gol', 'schedine-solo-gol.json'],
+  ['Solo Under/Over', 'schedine-solo-under.json'],
+  ['Solo Corner', 'schedine-solo-corner.json'],
+  ['Solo Squadra segna', 'schedine-solo-segna.json'],
+  ['Solo Multigol', 'schedine-solo-multigol.json'],
+  ['Solo Primo tempo', 'schedine-solo-primotempo.json'],
+  ['Solo Ammonizioni', 'schedine-solo-ammonizioni.json'],
+];
+
+function gruppoHTML(titolo, vinte){
+  const ordinate = vinte.slice().sort((a,b) => (a.livello_rischio - b.livello_rischio) || String(a.id).localeCompare(String(b.id), 'it', {numeric:true}));
+  return `<div class="risk-group">
+    <div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>${titolo}</h2></div>
+    <div class="cards">${ordinate.map(schedinaCardHTML).join('')}</div>
+  </div>`;
+}
+const soloVinte = data => (data.schedine || []).filter(s => s.stato === 'archiviata' && s.esito_finale === 'vinta');
+
 async function init(){
   const idx = await fetch('/data/settimane.json').then(r=>r.json()).catch(()=>({settimane:[]}));
   const weeks = idx.settimane || [];
@@ -174,24 +194,32 @@ async function init(){
   let totalWin = 0;
   let html = '';
 
+  // 1) Miste, turno per turno
   for(const w of weeks){
     let data;
-    try{
-      data = await fetch('/data/' + w.file).then(r=>r.json());
-    } catch(e){ continue; }
-
-    const vinte = (data.schedine || []).filter(s => s.stato === 'archiviata' && s.esito_finale === 'vinta');
+    try{ data = await fetch('/data/' + w.file).then(r=>r.json()); } catch(e){ continue; }
+    const vinte = soloVinte(data);
     if(!vinte.length) continue;
-
     totalWin += vinte.length;
-    const byLevel = {};
-    vinte.forEach(s => { (byLevel[s.livello_rischio] = byLevel[s.livello_rischio] || []).push(s); });
-    const levels = Object.keys(byLevel).map(Number).sort((a,b)=>a-b);
+    html += gruppoHTML('Miste · ' + w.titolo, vinte);
+  }
 
-    html += `<div class="risk-group">
-      <div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>${w.titolo}</h2></div>
-      <div class="cards">${levels.map(l => byLevel[l].map(schedinaCardHTML).join('')).join('')}</div>
-    </div>`;
+  // 2) Nazionali
+  try{
+    const naz = await fetch('/data/nazionali-schedine.json').then(r=>r.json());
+    const vinte = soloVinte(naz);
+    if(vinte.length){ totalWin += vinte.length; html += gruppoHTML('Nazionali' + (naz.titolo ? ' · ' + naz.titolo : ''), vinte); }
+  } catch(e){ /* file non disponibile */ }
+
+  // 3) Sezioni a mercato singolo
+  for(const [nome, file] of SEZIONI_VINCENTI){
+    try{
+      const data = await fetch('/data/' + file).then(r=>{ if(!r.ok) throw new Error('no'); return r.json(); });
+      const vinte = soloVinte(data);
+      if(!vinte.length) continue;
+      totalWin += vinte.length;
+      html += gruppoHTML(nome, vinte);
+    } catch(e){ /* sezione non disponibile */ }
   }
 
   document.getElementById('statVinte').textContent = totalWin;
