@@ -1,409 +1,358 @@
 {
   "campionato": "Bundesliga",
-  "giornata": "5ª giornata",
-  "periodo": "9-11 ottobre 2026",
-  "aggiornato": "2026-09-27",
+  "giornata": "6ª giornata",
+  "periodo": "16-18 ottobre 2026",
+  "aggiornato": "2026-10-13",
   "partite": [
     {
-      "casa": "Borussia Dortmund",
-      "trasferta": "SV Werder Bremen",
-      "data": "2026-10-09T20:30:00+02:00",
-      "forma_casa": "1° posto, 12 pt (4V-0N-0P)",
-      "forma_trasferta": "8° posto, 7 pt (2V-1N-1P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Borussia Dortmund",
-        "probabilita": 0.62
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Borussia Dortmund o pareggio",
-        "probabilita": 0.84
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.58
-      },
-      "nota": "Il Borussia Dortmund, ancora a punteggio pieno dopo 4 giornate, ospita un Werder Bremen di metà classifica: netto favorito.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-10T10:15:40+00:00",
-        "primo_tempo": "0-0"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.59,
-        "corner_attesi_totali": 9.0
-      }
-    },
-    {
-      "casa": "TSG Hoffenheim",
-      "trasferta": "Hamburger SV",
-      "data": "2026-10-10T15:30:00+02:00",
-      "forma_casa": "14° posto, 3 pt (1V-0N-3P)",
-      "forma_trasferta": "16° posto, 3 pt (1V-0N-3P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Hoffenheim",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Hoffenheim o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Scontro diretto in zona bassa tra due squadre appaiate a 3 punti: leggero favore per il fattore campo.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-3",
-        "aggiornato": "2026-10-10T16:17:01+00:00"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.59,
-        "corner_attesi_totali": 10.4
-      }
-    },
-    {
-      "casa": "FC Augsburg",
-      "trasferta": "FC Bayern München",
-      "data": "2026-10-10T15:30:00+02:00",
-      "forma_casa": "4° posto, 7 pt (2V-1N-1P)",
-      "forma_trasferta": "2° posto, 10 pt (3V-1N-0P)",
+      "casa": "Eintracht Frankfurt",
+      "trasferta": "1. FC Köln",
+      "data": "2026-10-16T20:30:00+02:00",
+      "forma_casa": "14° posto, 5 pt in 5 gare (1V-2N-2P), 9-16",
+      "forma_trasferta": "10° posto, 7 pt in 5 gare (2V-1N-2P), 8-10",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Bayern München",
-        "probabilita": 0.56
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Bayern München",
-        "probabilita": 0.8
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.56
-      },
-      "nota": "Il Bayern Monaco, secondo in classifica, fa visita a un Augsburg quarto ma di rendimento inferiore: bavaresi favoriti.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-10T16:17:01+00:00"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.72,
-        "corner_attesi_totali": 11.6
-      }
-    },
-    {
-      "casa": "1. FSV Mainz 05",
-      "trasferta": "Bayer 04 Leverkusen",
-      "data": "2026-10-10T15:30:00+02:00",
-      "forma_casa": "6° posto, 7 pt (2V-1N-1P)",
-      "forma_trasferta": "5° posto, 7 pt (2V-1N-1P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Mainz 05",
+        "etichetta": "Vittoria 1. FC Köln",
         "probabilita": 0.42
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Mainz 05 o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "12",
+        "etichetta": "Eintracht Frankfurt o 1. FC Köln",
+        "probabilita": 0.79
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.8
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Due squadre appaiate a 7 punti: match equilibrato con leggero favore per il Mainz in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "3-4",
-        "aggiornato": "2026-10-10T16:17:01+00:00"
-      },
-      "pick_corner": {
         "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.7,
-        "corner_attesi_totali": 11.4
+        "etichetta": "Over 3.5",
+        "probabilita": 0.62
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.78
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "casa": "1. FC Union Berlin",
-      "trasferta": "SV Elversberg",
-      "data": "2026-10-10T15:30:00+02:00",
-      "forma_casa": "17° posto, 1 pt (0V-1N-3P)",
-      "forma_trasferta": "7° posto, 7 pt (2V-1N-1P)",
+      "trasferta": "Borussia Dortmund",
+      "data": "2026-10-17T15:30:00+02:00",
+      "forma_casa": "16° posto, 4 pt in 5 gare (1V-1N-3P), 5-17",
+      "forma_trasferta": "2° posto, 13 pt in 5 gare (4V-1N-0P), 11-4",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Elversberg",
-        "probabilita": 0.48
+        "etichetta": "Vittoria Borussia Dortmund",
+        "probabilita": 0.71
       },
       "pick_dc": {
         "esito": "X2",
-        "etichetta": "Pareggio o Elversberg",
-        "probabilita": 0.74
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
+        "etichetta": "Pareggio o Borussia Dortmund",
+        "probabilita": 0.89
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.69
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.66
+        "probabilita": 0.53
       },
-      "nota": "L'Union Berlino, penultimo con un solo punto, ospita un Elversberg in miglior forma: trasferta favorevole.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Union Berlin 0.97 gol attesi (16° con 4 punti, 5 gol fatti e 17 subiti in 5 gare), Borussia Dortmund 2.58 (2° con 13 punti, 11 fatti e 4 subiti in 5 gare). Somma attesa 3.55 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-10T16:17:01+00:00",
-        "primo_tempo": "0-0"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.59,
-        "corner_attesi_totali": 10.4
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "SC Paderborn 07",
+      "casa": "Hamburger SV",
       "trasferta": "VfB Stuttgart",
-      "data": "2026-10-10T15:30:00+02:00",
-      "forma_casa": "12° posto, 4 pt (1V-1N-2P)",
-      "forma_trasferta": "15° posto, 3 pt (1V-0N-3P)",
+      "data": "2026-10-17T15:30:00+02:00",
+      "forma_casa": "12° posto, 6 pt in 5 gare (2V-0N-3P), 5-15",
+      "forma_trasferta": "11° posto, 6 pt in 5 gare (2V-0N-3P), 8-9",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria VfB Stuttgart",
+        "probabilita": 0.51
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Hamburger SV o VfB Stuttgart",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.7
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.51
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.69
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "SV Werder Bremen",
+      "trasferta": "SC Paderborn 07",
+      "data": "2026-10-17T15:30:00+02:00",
+      "forma_casa": "7° posto, 8 pt in 5 gare (2V-2N-1P), 10-10",
+      "forma_trasferta": "15° posto, 4 pt in 5 gare (1V-1N-3P), 3-7",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Paderborn 07",
+        "etichetta": "Vittoria SV Werder Bremen",
+        "probabilita": 0.51
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "SV Werder Bremen o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 1.84 gol attesi (7° con 8 punti, 10 gol fatti e 10 subiti in 5 gare), SC Paderborn 07 1.20 (15° con 4 punti, 3 fatti e 7 subiti in 5 gare). Somma attesa 3.03 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "FC Schalke 04",
+      "trasferta": "1. FSV Mainz 05",
+      "data": "2026-10-17T15:30:00+02:00",
+      "forma_casa": "13° posto, 5 pt in 5 gare (1V-2N-2P), 4-6",
+      "forma_trasferta": "8° posto, 7 pt in 5 gare (2V-1N-2P), 13-10",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria 1. FSV Mainz 05",
         "probabilita": 0.42
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Paderborn 07 o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Il Paderborn, con qualche punto in più, parte leggermente favorito in casa contro lo Stuttgart.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-10-10T16:17:01+00:00",
-        "primo_tempo": "0-1"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.71,
-        "corner_attesi_totali": 11.5
-      }
-    },
-    {
-      "casa": "RB Leipzig",
-      "trasferta": "Eintracht Frankfurt",
-      "data": "2026-10-10T18:30:00+02:00",
-      "forma_casa": "9° posto, 6 pt (2V-0N-2P)",
-      "forma_trasferta": "10° posto, 5 pt (1V-2N-1P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria RB Leipzig",
-        "probabilita": 0.44
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "RB Leipzig o pareggio",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "12",
+        "etichetta": "FC Schalke 04 o 1. FSV Mainz 05",
+        "probabilita": 0.75
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.63
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.64
+        "probabilita": 0.59
       },
-      "nota": "Match equilibrato di metà classifica: il Lipsia parte leggermente favorito in casa.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Schalke 04 1.51 gol attesi (13° con 5 punti, 4 gol fatti e 6 subiti in 5 gare), 1. FSV Mainz 05 1.75 (8° con 7 punti, 13 fatti e 10 subiti in 5 gare). Somma attesa 3.26 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "6-0",
-        "aggiornato": "2026-10-10T20:14:59+00:00",
-        "primo_tempo": "4-0"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.66,
-        "corner_attesi_totali": 11.0
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "1. FC Köln",
-      "trasferta": "Borussia Mönchengladbach",
-      "data": "2026-10-11T15:30:00+02:00",
-      "forma_casa": "13° posto, 4 pt (1V-1N-2P)",
-      "forma_trasferta": "18° posto (ultimo), 0 pt (0V-0N-4P)",
+      "casa": "SV Elversberg",
+      "trasferta": "FC Augsburg",
+      "data": "2026-10-17T15:30:00+02:00",
+      "forma_casa": "9° posto, 7 pt in 5 gare (2V-1N-2P), 8-8",
+      "forma_trasferta": "6° posto, 8 pt in 5 gare (2V-2N-1P), 13-8",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Köln",
-        "probabilita": 0.54
+        "esito": "2",
+        "etichetta": "Vittoria FC Augsburg",
+        "probabilita": 0.42
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Köln o pareggio",
+        "esito": "12",
+        "etichetta": "SV Elversberg o FC Augsburg",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.71
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.5
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.71
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): SV Elversberg 1.73 gol attesi (9° con 7 punti, 8 gol fatti e 8 subiti in 5 gare), FC Augsburg 1.93 (6° con 8 punti, 13 fatti e 8 subiti in 5 gare). Somma attesa 3.66 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "FC Bayern München",
+      "trasferta": "RB Leipzig",
+      "data": "2026-10-17T18:30:00+02:00",
+      "forma_casa": "3° posto, 11 pt in 5 gare (3V-2N-0P), 16-4",
+      "forma_trasferta": "5° posto, 9 pt in 5 gare (3V-0N-2P), 15-5",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria FC Bayern München",
+        "probabilita": 0.49
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "FC Bayern München o RB Leipzig",
         "probabilita": 0.78
       },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.76
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-11T15:46:28+00:00",
-        "primo_tempo": "1-1"
-      },
-      "pick_corner": {
         "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.8,
-        "corner_attesi_totali": 12.5
+        "etichetta": "Over 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.75
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "SC Freiburg",
-      "trasferta": "FC Schalke 04",
-      "data": "2026-10-11T17:30:00+02:00",
-      "forma_casa": "3° posto, 10 pt (3V-1N-0P)",
-      "forma_trasferta": "11° posto, 5 pt (1V-2N-1P)",
+      "casa": "Bayer 04 Leverkusen",
+      "trasferta": "SC Freiburg",
+      "data": "2026-10-18T15:30:00+02:00",
+      "forma_casa": "4° posto, 10 pt in 5 gare (3V-1N-1P), 14-8",
+      "forma_trasferta": "1° posto, 13 pt in 5 gare (4V-1N-0P), 14-4",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Freiburg",
-        "probabilita": 0.56
+        "esito": "2",
+        "etichetta": "Vittoria SC Freiburg",
+        "probabilita": 0.4
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Freiburg o pareggio",
-        "probabilita": 0.8
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
+        "esito": "12",
+        "etichetta": "Bayer 04 Leverkusen o SC Freiburg",
+        "probabilita": 0.78
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.54
+        "probabilita": 0.76
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Friburgo, terzo e ancora imbattuto, ospita uno Schalke di metà classifica: favoriti in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-11T17:29:15+00:00",
-        "primo_tempo": "1-1"
-      },
-      "pick_corner": {
         "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.51,
-        "corner_attesi_totali": 9.8
+        "etichetta": "Over 3.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.75
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Borussia Mönchengladbach",
+      "trasferta": "TSG Hoffenheim",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "18° posto, 0 pt in 5 gare (0V-0N-5P), 7-18",
+      "forma_trasferta": "17° posto, 3 pt in 5 gare (1V-0N-4P), 9-13",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria TSG Hoffenheim",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Borussia Mönchengladbach o TSG Hoffenheim",
+        "probabilita": 0.8
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.84
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.82
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]

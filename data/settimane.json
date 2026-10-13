@@ -1,6 +1,11 @@
 {
   "settimane": [
     {
+      "id": "2026-10-16",
+      "titolo": "Turno del 16-19 ottobre 2026",
+      "file": "2026-10-16.json"
+    },
+    {
       "id": "2026-10-09",
       "titolo": "Turno del 9-12 ottobre 2026 (post sosta nazionali)",
       "file": "2026-10-09.json"

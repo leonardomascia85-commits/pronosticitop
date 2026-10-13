@@ -57,7 +57,7 @@ def picks(eh, ea, casa, trasf):
     e, t, pr = max([('1', f'Vittoria {casa}', p1), ('X', 'Pareggio', px), ('2', f'Vittoria {trasf}', p2)], key=lambda x: x[2])
     out = {'pick_1x2': {'esito': e, 'etichetta': t, 'probabilita': round(clamp(pr), 2)}}
     e, t, pr = max([('1X', f'{casa} o pareggio', p1 + px), ('12', f'{casa} o {trasf}', p1 + p2),
-                    ('X2', f'pareggio o {trasf}', px + p2)], key=lambda x: x[2])
+                    ('X2', f'Pareggio o {trasf}', px + p2)], key=lambda x: x[2])
     out['pick_dc'] = {'esito': e, 'etichetta': t, 'probabilita': round(clamp(pr), 2)}
     out['pick_uo'] = ({'esito': 'over', 'etichetta': 'Over 2.5', 'probabilita': round(clamp(o25), 2)} if o25 >= .5 else
                       {'esito': 'under', 'etichetta': 'Under 2.5', 'probabilita': round(clamp(1 - o25), 2)})

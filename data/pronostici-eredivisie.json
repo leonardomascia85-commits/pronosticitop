@@ -1,353 +1,358 @@
 {
   "campionato": "Eredivisie",
-  "giornata": "8ª giornata",
-  "periodo": "9-11 ottobre 2026",
-  "aggiornato": "2026-09-27",
+  "giornata": "9ª giornata",
+  "periodo": "16-18 ottobre 2026",
+  "aggiornato": "2026-10-13",
   "partite": [
     {
-      "casa": "PSV",
-      "trasferta": "sc Heerenveen",
-      "data": "2026-10-09T20:00:00+02:00",
-      "forma_casa": "3° posto, 16 pt (5V-1N-1P)",
-      "forma_trasferta": "10° posto, 9 pt (2V-3N-2P)",
+      "casa": "sc Heerenveen",
+      "trasferta": "Excelsior",
+      "data": "2026-10-16T20:00:00+02:00",
+      "forma_casa": "10° posto, 9 pt in 8 gare (2V-3N-3P), 11-11",
+      "forma_trasferta": "9° posto, 11 pt in 8 gare (3V-2N-3P), 16-14",
       "pick_1x2": {
         "esito": "1",
+        "etichetta": "Vittoria sc Heerenveen",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "sc Heerenveen o Excelsior",
+        "probabilita": 0.75
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.69 gol attesi (10° con 9 punti, 11 gol fatti e 11 subiti in 8 gare), Excelsior 1.55 (9° con 11 punti, 16 fatti e 14 subiti in 8 gare). Somma attesa 3.24 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "ADO Den Haag",
+      "trasferta": "PSV",
+      "data": "2026-10-17T16:30:00+02:00",
+      "forma_casa": "17° posto, 3 pt in 8 gare (0V-3N-5P), 9-19",
+      "forma_trasferta": "2° posto, 19 pt in 8 gare (6V-1N-1P), 26-10",
+      "pick_1x2": {
+        "esito": "2",
         "etichetta": "Vittoria PSV",
-        "probabilita": 0.58
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "PSV o pareggio",
-        "probabilita": 0.8
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.6
-      },
-      "nota": "Il PSV, terzo in classifica, ospita un Heerenveen di metà classifica: nettamente favorito.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-10T10:15:40+00:00",
-        "primo_tempo": "1-0"
-      }
-    },
-    {
-      "casa": "Go Ahead Eagles",
-      "trasferta": "Sparta Rotterdam",
-      "data": "2026-10-10T16:30:00+02:00",
-      "forma_casa": "9° posto, 10 pt (2V-4N-1P)",
-      "forma_trasferta": "12° posto, 5 pt (1V-2N-4P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Go Ahead Eagles",
-        "probabilita": 0.46
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Go Ahead Eagles o pareggio",
-        "probabilita": 0.72
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.66
-      },
-      "nota": "I Go Ahead Eagles, meglio piazzati, partono favoriti in casa contro lo Sparta Rotterdam.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "3-3",
-        "aggiornato": "2026-10-10T18:15:19+00:00",
-        "primo_tempo": "0-1"
-      }
-    },
-    {
-      "casa": "Feyenoord",
-      "trasferta": "AZ Alkmaar",
-      "data": "2026-10-10T18:45:00+02:00",
-      "forma_casa": "2° posto, 17 pt (5V-2N-0P), ancora imbattuto",
-      "forma_trasferta": "1° posto, 19 pt (6V-1N-0P), ancora imbattuto",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria AZ Alkmaar",
-        "probabilita": 0.42
+        "probabilita": 0.65
       },
       "pick_dc": {
         "esito": "X2",
-        "etichetta": "Pareggio o AZ Alkmaar",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.62
+        "etichetta": "Pareggio o PSV",
+        "probabilita": 0.84
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.58
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.54
-      },
-      "nota": "Il big match della giornata tra le uniche due squadre ancora imbattute: l'AZ capolista parte leggermente favorito.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-10T22:14:43+00:00"
-      }
-    },
-    {
-      "casa": "Fortuna Sittard",
-      "trasferta": "FC Twente",
-      "data": "2026-10-10T20:00:00+02:00",
-      "forma_casa": "6° posto, 13 pt (4V-1N-2P)",
-      "forma_trasferta": "4° posto, 16 pt (5V-1N-1P)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria FC Twente",
-        "probabilita": 0.44
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o FC Twente",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.55
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "Il Twente, quarto in classifica, fa visita a una Fortuna Sittard solida: match equilibrato con leggero favore ospite.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-10T22:14:43+00:00"
-      }
-    },
-    {
-      "casa": "Ajax",
-      "trasferta": "NEC Nijmegen",
-      "data": "2026-10-10T21:00:00+02:00",
-      "forma_casa": "5° posto, 14 pt (4V-2N-1P)",
-      "forma_trasferta": "11° posto, 8 pt (2V-2N-3P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Ajax",
-        "probabilita": 0.54
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Ajax o pareggio",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-10T22:14:43+00:00"
-      }
-    },
-    {
-      "casa": "FC Utrecht",
-      "trasferta": "Willem II",
-      "data": "2026-10-11T12:15:00+02:00",
-      "forma_casa": "15° posto, 5 pt (1V-2N-4P)",
-      "forma_trasferta": "18° posto (ultimo), 2 pt (0V-2N-5P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria FC Utrecht",
-        "probabilita": 0.48
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "FC Utrecht o pareggio",
         "probabilita": 0.74
       },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.54
+      },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
         "probabilita": 0.68
       },
-      "nota": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
+      "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "3-1",
-        "aggiornato": "2026-10-11T14:10:04+00:00",
-        "primo_tempo": "0-0"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "casa": "Telstar",
-      "trasferta": "ADO Den Haag",
-      "data": "2026-10-11T14:30:00+02:00",
-      "forma_casa": "13° posto, 5 pt (1V-2N-4P)",
-      "forma_trasferta": "17° posto, 2 pt (0V-2N-5P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Telstar",
-        "probabilita": 0.46
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Telstar o pareggio",
-        "probabilita": 0.72
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-11T15:21:02+00:00"
-      }
-    },
-    {
-      "casa": "PEC Zwolle",
-      "trasferta": "SC Cambuur",
-      "data": "2026-10-11T14:30:00+02:00",
-      "forma_casa": "16° posto, 4 pt (1V-1N-5P)",
-      "forma_trasferta": "14° posto, 5 pt (1V-2N-4P)",
+      "trasferta": "Feyenoord",
+      "data": "2026-10-17T20:00:00+02:00",
+      "forma_casa": "15° posto, 6 pt in 8 gare (1V-3N-4P), 7-14",
+      "forma_trasferta": "1° posto, 20 pt in 8 gare (6V-2N-0P), 27-7",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Cambuur",
-        "probabilita": 0.42
+        "etichetta": "Vittoria Feyenoord",
+        "probabilita": 0.68
       },
       "pick_dc": {
         "esito": "X2",
-        "etichetta": "Pareggio o Cambuur",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
+        "etichetta": "Pareggio o Feyenoord",
+        "probabilita": 0.87
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.64
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-10-11T15:46:28+00:00",
-        "primo_tempo": "0-0"
-      }
-    },
-    {
-      "casa": "Excelsior",
-      "trasferta": "FC Groningen",
-      "data": "2026-10-11T16:45:00+02:00",
-      "forma_casa": "7° posto, 11 pt (3V-2N-2P)",
-      "forma_trasferta": "8° posto, 11 pt (3V-2N-2P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Excelsior",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Excelsior o pareggio",
-        "probabilita": 0.68
+        "probabilita": 0.58
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
         "probabilita": 0.56
       },
+      "nota": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Sparta Rotterdam",
+      "trasferta": "Willem II",
+      "data": "2026-10-17T21:00:00+02:00",
+      "forma_casa": "14° posto, 6 pt in 8 gare (1V-3N-4P), 13-20",
+      "forma_trasferta": "18° posto, 2 pt in 8 gare (0V-2N-6P), 7-23",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Sparta Rotterdam",
+        "probabilita": 0.56
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Sparta Rotterdam o Willem II",
+        "probabilita": 0.8
+      },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.76
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.73
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "PEC Zwolle",
+      "trasferta": "Go Ahead Eagles",
+      "data": "2026-10-18T12:15:00+02:00",
+      "forma_casa": "16° posto, 4 pt in 8 gare (1V-1N-6P), 6-21",
+      "forma_trasferta": "8° posto, 11 pt in 8 gare (2V-5N-1P), 19-17",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Go Ahead Eagles",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "PEC Zwolle o Go Ahead Eagles",
+        "probabilita": 0.79
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.74
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.72
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "SC Cambuur",
+      "trasferta": "AZ Alkmaar",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "12° posto, 8 pt in 8 gare (2V-2N-4P), 11-19",
+      "forma_trasferta": "3° posto, 19 pt in 8 gare (6V-1N-1P), 18-8",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria AZ Alkmaar",
+        "probabilita": 0.56
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o AZ Alkmaar",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.66
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.64
+        "probabilita": 0.56
       },
-      "nota": "Due squadre appaiate a 11 punti: match equilibrato con leggero favore per il fattore campo.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 19 subiti in 8 gare), AZ Alkmaar 2.13 (3° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 3.41 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-5",
-        "aggiornato": "2026-10-11T17:05:48+00:00"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "FC Groningen",
+      "trasferta": "Ajax",
+      "data": "2026-10-18T16:45:00+02:00",
+      "forma_casa": "6° posto, 14 pt in 8 gare (4V-2N-2P), 20-14",
+      "forma_trasferta": "5° posto, 15 pt in 8 gare (4V-3N-1P), 22-10",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Ajax",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "FC Groningen o Ajax",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.78
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.77
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "NEC Nijmegen",
+      "trasferta": "Fortuna Sittard",
+      "data": "2026-10-18T20:00:00+02:00",
+      "forma_casa": "11° posto, 9 pt in 8 gare (2V-3N-3P), 13-14",
+      "forma_trasferta": "7° posto, 14 pt in 8 gare (4V-2N-2P), 14-15",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria NEC Nijmegen",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "NEC Nijmegen o Fortuna Sittard",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.68
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.69
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.89 gol attesi (11° con 9 punti, 13 gol fatti e 14 subiti in 8 gare), Fortuna Sittard 1.61 (7° con 14 punti, 14 fatti e 15 subiti in 8 gare). Somma attesa 3.50 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "FC Twente",
+      "trasferta": "FC Utrecht",
+      "data": "2026-10-18T20:00:00+02:00",
+      "forma_casa": "4° posto, 17 pt in 8 gare (5V-2N-1P), 16-8",
+      "forma_trasferta": "13° posto, 8 pt in 8 gare (2V-2N-4P), 14-25",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria FC Twente",
+        "probabilita": 0.68
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "FC Twente o pareggio",
+        "probabilita": 0.86
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.68
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]

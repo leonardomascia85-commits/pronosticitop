@@ -1,453 +1,397 @@
 {
   "campionato": "La Liga",
-  "giornata": "8ª giornata",
-  "periodo": "9-12 ottobre 2026",
-  "aggiornato": "2026-09-27",
+  "giornata": "9ª giornata",
+  "periodo": "16-19 ottobre 2026",
+  "aggiornato": "2026-10-13",
   "partite": [
     {
-      "casa": "Málaga",
-      "trasferta": "Espanyol",
-      "data": "2026-10-09T21:00:00+02:00",
-      "forma_casa": "20° posto (ultimo), 3 pt (0V-3N-4P)",
-      "forma_trasferta": "15° posto, 7 pt (2V-1N-4P)",
+      "casa": "Deportivo de La Coruña",
+      "trasferta": "Levante",
+      "data": "2026-10-16T21:00:00+02:00",
+      "forma_casa": "8° posto, 10 pt in 8 gare (2V-4N-2P), 12-11",
+      "forma_trasferta": "17° posto, 6 pt in 7 gare (1V-3N-3P), 11-15",
       "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Espanyol",
-        "probabilita": 0.44
+        "esito": "1",
+        "etichetta": "Vittoria Deportivo de La Coruña",
+        "probabilita": 0.51
       },
       "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Espanyol",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
+        "esito": "12",
+        "etichetta": "Deportivo de La Coruña o Levante",
+        "probabilita": 0.76
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.64
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7
+        "probabilita": 0.58
       },
-      "nota": "Il Málaga, neopromosso e ultimo in classifica senza vittorie, ospita un Espanyol favorito.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.97 gol attesi (8° con 10 punti, 12 gol fatti e 11 subiti in 8 gare), Levante 1.36 (17° con 6 punti, 11 fatti e 15 subiti in 7 gare). Somma attesa 3.32 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-10T10:16:19+00:00",
-        "primo_tempo": "0-1"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.67,
-        "corner_attesi_totali": 8.4
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Rayo Vallecano",
-      "trasferta": "Athletic Club",
-      "data": "2026-10-10T14:00:00+02:00",
-      "forma_casa": "12° posto, 8 pt",
-      "forma_trasferta": "10° posto, 8 pt in 6 gare (un recupero da giocare)",
+      "casa": "Espanyol",
+      "trasferta": "Atlético Madrid",
+      "data": "2026-10-17T14:00:00+02:00",
+      "forma_casa": "12° posto, 8 pt in 8 gare (2V-2N-4P), 11-11",
+      "forma_trasferta": "2° posto, 19 pt in 8 gare (6V-1N-1P), 18-8",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Rayo Vallecano",
-        "probabilita": 0.4
+        "esito": "2",
+        "etichetta": "Vittoria Atlético Madrid",
+        "probabilita": 0.45
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Rayo Vallecano o pareggio",
+        "esito": "12",
+        "etichetta": "Espanyol o Atlético Madrid",
+        "probabilita": 0.74
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
         "probabilita": 0.66
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Due squadre appaiate a 8 punti: match equilibrato con leggero favore per il fattore campo del Rayo.",
-      "risultato": {
-        "stato": "sospesa",
-        "punteggio": null,
-        "aggiornato": "2026-10-10T13:42:20+00:00",
-        "nota": "Partita sospesa definitivamente dall'arbitro per il lancio di oggetti in campo dagli spalti."
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.68,
-        "corner_attesi_totali": 11.2
-      }
-    },
-    {
-      "casa": "Deportivo Alavés",
-      "trasferta": "Atlético Madrid",
-      "data": "2026-10-10T16:15:00+02:00",
-      "forma_casa": "6° posto, 11 pt (3V-2N-2P)",
-      "forma_trasferta": "2° posto, 16 pt (5V-1N-1P)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Atlético Madrid",
-        "probabilita": 0.52
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Atlético Madrid",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "L'Atlético Madrid, secondo in classifica, fa visita a un Alavés solido ma inferiore per rendimento stagionale.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-10-10T18:15:19+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.62,
-        "corner_attesi_totali": 8.7
-      }
-    },
-    {
-      "casa": "FC Barcelona",
-      "trasferta": "Getafe",
-      "data": "2026-10-10T18:30:00+02:00",
-      "forma_casa": "1° posto, 21 pt (7V-0N-0P)",
-      "forma_trasferta": "11° posto, 8 pt (2V-2N-3P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Barcelona",
-        "probabilita": 0.68
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Barcelona o pareggio",
-        "probabilita": 0.88
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
         "probabilita": 0.6
       },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.54
-      },
-      "nota": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Espanyol 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 11 subiti in 8 gare), Atlético Madrid 1.67 (2° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 2.95 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "3-0",
-        "aggiornato": "2026-10-10T20:14:59+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.5,
-        "corner_attesi_totali": 9.6
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Real Madrid",
-      "trasferta": "Villarreal",
-      "data": "2026-10-10T21:00:00+02:00",
-      "forma_casa": "4° posto, 15 pt (5V-0N-2P)",
-      "forma_trasferta": "9° posto, 8 pt (2V-2N-3P)",
+      "casa": "Villarreal",
+      "trasferta": "Elche",
+      "data": "2026-10-17T16:15:00+02:00",
+      "forma_casa": "11° posto, 8 pt in 8 gare (2V-2N-4P), 13-13",
+      "forma_trasferta": "18° posto, 6 pt in 8 gare (1V-3N-4P), 11-17",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Real Madrid",
-        "probabilita": 0.58
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Real Madrid o pareggio",
-        "probabilita": 0.8
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-10T22:14:43+00:00",
-        "primo_tempo": "0-0"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.66,
-        "corner_attesi_totali": 11.0
-      }
-    },
-    {
-      "casa": "Elche",
-      "trasferta": "Celta de Vigo",
-      "data": "2026-10-11T14:00:00+02:00",
-      "forma_casa": "18° posto, 5 pt (1V-2N-4P)",
-      "forma_trasferta": "14° posto, 7 pt (1V-4N-2P)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Celta de Vigo",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Celta de Vigo",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
+        "etichetta": "Vittoria Villarreal",
         "probabilita": 0.52
       },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-10-11T14:10:04+00:00",
-        "primo_tempo": "0-0"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.67,
-        "corner_attesi_totali": 8.4
-      }
-    },
-    {
-      "casa": "Real Sociedad",
-      "trasferta": "Deportivo de La Coruña",
-      "data": "2026-10-11T16:15:00+02:00",
-      "forma_casa": "8° posto, 10 pt (3V-1N-3P)",
-      "forma_trasferta": "7° posto, 10 pt (2V-4N-1P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Real Sociedad",
-        "probabilita": 0.42
-      },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Real Sociedad o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "12",
+        "etichetta": "Villarreal o Elche",
+        "probabilita": 0.77
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53
+        "probabilita": 0.66
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.64
+        "probabilita": 0.56
       },
-      "nota": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.66
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Villarreal 2.03 gol attesi (11° con 8 punti, 13 gol fatti e 13 subiti in 8 gare), Elche 1.38 (18° con 6 punti, 11 fatti e 17 subiti in 8 gare). Somma attesa 3.41 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "3-2",
-        "aggiornato": "2026-10-11T16:40:20+00:00",
-        "primo_tempo": "2-0"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.62,
-        "corner_attesi_totali": 10.6
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "casa": "Real Betis",
-      "trasferta": "Osasuna",
-      "data": "2026-10-11T18:30:00+02:00",
-      "forma_casa": "3° posto, 16 pt (5V-1N-1P)",
-      "forma_trasferta": "13° posto, 8 pt (2V-2N-3P)",
+      "trasferta": "FC Barcelona",
+      "data": "2026-10-17T18:30:00+02:00",
+      "forma_casa": "3° posto, 19 pt in 8 gare (6V-1N-1P), 14-9",
+      "forma_trasferta": "1° posto, 24 pt in 8 gare (8V-0N-0P), 34-7",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Real Betis",
-        "probabilita": 0.56
+        "esito": "2",
+        "etichetta": "Vittoria FC Barcelona",
+        "probabilita": 0.6
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Real Betis o pareggio",
+        "esito": "12",
+        "etichetta": "Real Betis o FC Barcelona",
         "probabilita": 0.8
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.54
+        "probabilita": 0.75
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "5-2",
-        "aggiornato": "2026-10-11T19:13:38+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.5,
-        "corner_attesi_totali": 9.6
-      }
-    },
-    {
-      "casa": "Racing de Santander",
-      "trasferta": "Valencia",
-      "data": "2026-10-11T21:00:00+02:00",
-      "forma_casa": "16° posto, 7 pt (2V-1N-4P)",
-      "forma_trasferta": "19° posto, 4 pt (1V-1N-5P)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Racing de Santander",
-        "probabilita": 0.44
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Racing de Santander o pareggio",
-        "probabilita": 0.7
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.54
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.52
+        "probabilita": 0.7
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Valencia",
+      "trasferta": "Athletic Club",
+      "data": "2026-10-17T21:00:00+02:00",
+      "forma_casa": "19° posto, 5 pt in 8 gare (1V-2N-5P), 6-15",
+      "forma_trasferta": "10° posto, 8 pt in 6 gare (2V-2N-2P), 7-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Athletic Club",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Athletic Club",
+        "probabilita": 0.76
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Osasuna",
+      "trasferta": "Racing de Santander",
+      "data": "2026-10-18T14:00:00+02:00",
+      "forma_casa": "16° posto, 8 pt in 8 gare (2V-2N-4P), 8-18",
+      "forma_trasferta": "15° posto, 8 pt in 8 gare (2V-2N-4P), 13-23",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Osasuna",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Osasuna o Racing de Santander",
+        "probabilita": 0.78
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.74
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.54
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.74
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Osasuna 2.09 gol attesi (16° con 8 punti, 8 gol fatti e 18 subiti in 8 gare), Racing de Santander 1.78 (15° con 8 punti, 13 fatti e 23 subiti in 8 gare). Somma attesa 3.88 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Celta de Vigo",
+      "trasferta": "Deportivo Alavés",
+      "data": "2026-10-18T16:15:00+02:00",
+      "forma_casa": "9° posto, 8 pt in 8 gare (1V-5N-2P), 8-6",
+      "forma_trasferta": "7° posto, 11 pt in 8 gare (3V-2N-3P), 12-8",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Celta de Vigo",
+        "probabilita": 0.35
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Celta de Vigo o Deportivo Alavés",
+        "probabilita": 0.67
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.65
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.84
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Málaga",
+      "trasferta": "Real Sociedad",
+      "data": "2026-10-18T18:30:00+02:00",
+      "forma_casa": "20° posto, 4 pt in 8 gare (0V-4N-4P), 4-13",
+      "forma_trasferta": "6° posto, 13 pt in 8 gare (4V-1N-3P), 12-15",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Real Sociedad",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Málaga o Real Sociedad",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.71
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Málaga 1.28 gol attesi (20° con 4 punti, 4 gol fatti e 13 subiti in 8 gare), Real Sociedad 1.44 (6° con 13 punti, 12 fatti e 15 subiti in 8 gare). Somma attesa 2.72 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Real Madrid",
+      "trasferta": "Sevilla",
+      "data": "2026-10-18T21:00:00+02:00",
+      "forma_casa": "4° posto, 18 pt in 8 gare (6V-0N-2P), 19-8",
+      "forma_trasferta": "5° posto, 14 pt in 8 gare (4V-2N-2P), 13-12",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Real Madrid",
+        "probabilita": 0.57
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Real Madrid o pareggio",
+        "probabilita": 0.79
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.64
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.58
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Getafe",
+      "trasferta": "Rayo Vallecano",
+      "data": "2026-10-19T21:00:00+02:00",
+      "forma_casa": "14° posto, 8 pt in 8 gare (2V-2N-4P), 4-10",
+      "forma_trasferta": "13° posto, 8 pt in 7 gare (2V-2N-3P), 11-16",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Getafe",
+        "probabilita": 0.41
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Getafe o Rayo Vallecano",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
         "probabilita": 0.53
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-11T21:10:10+00:00"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.62,
-        "corner_attesi_totali": 10.6
-      }
-    },
-    {
-      "casa": "Levante",
-      "trasferta": "Sevilla",
-      "data": "2026-10-12T21:00:00+02:00",
-      "forma_casa": "17° posto, 5 pt in 6 gare (un recupero da giocare)",
-      "forma_trasferta": "5° posto, 13 pt (4V-1N-2P)",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Sevilla",
-        "probabilita": 0.5
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Sevilla",
-        "probabilita": 0.76
+        "probabilita": 0.69
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.56
+        "probabilita": 0.58
       },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "3-3",
-        "aggiornato": "2026-10-12T21:20:35+00:00",
-        "primo_tempo": "0-1"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.74,
-        "corner_attesi_totali": 7.8
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]
