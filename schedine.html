@@ -127,6 +127,7 @@
     <span class="section-tabs-label">Scegli il tipo di schedina</span>
     <div class="section-tabs" id="sectionTabs">
       <button class="section-tab active" data-section="misto" type="button"><span class="tab-icon">⚽</span> Miste</button>
+      <button class="section-tab" data-section="coppe" type="button"><span class="tab-icon">🏆</span> Coppe europee</button>
       <button class="section-tab" data-section="solo_gol" type="button"><span class="tab-icon">🥅</span> Solo Gol/No Gol</button>
       <button class="section-tab" data-section="solo_under" type="button"><span class="tab-icon">📊</span> Solo Under/Over</button>
       <button class="section-tab" data-section="solo_corner" type="button"><span class="tab-icon">🚩</span> Solo Corner</button>
@@ -207,7 +208,7 @@ const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
   'Ligue 1':'#2f5fa8', 'Liga Portugal':'#2f9e54', 'Eredivisie':'#e8720c', 'Süper Lig':'#c8102e',
-  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b', 'Nazionali':'#3f6fb8'
+  'Brasileirão':'#a67c00', 'Champions League':'#1b2a6b', 'Europa League':'#e8720c', 'Conference League':'#1f9d7c', 'Nazionali':'#3f6fb8'
 };
 function leagueBadge(name){
   const c = LEAGUE_COLORS[name] || '#5b6472';
@@ -258,7 +259,16 @@ async function buildLiveLookup(week){
   const lookup = {};
   const campionati = new Set();
   (week.schedine||[]).forEach(s => s.eventi.forEach(e => campionati.add(e.campionato)));
-  await Promise.all([...campionati].map(async camp => {
+  const COPPE = ['Champions League', 'Europa League', 'Conference League'];
+  if([...campionati].some(c => COPPE.includes(c))){
+    try{
+      const d = await fetch('/data/pronostici-coppe-europee.json').then(r=>r.json());
+      (d.competizioni||[]).forEach(comp => (comp.partite||[]).forEach(p => {
+        lookup[comp.nome + '||' + p.casa + ' - ' + p.trasferta] = p.risultato;
+      }));
+    } catch(e){ /* file non disponibile, ignora */ }
+  }
+  await Promise.all([...campionati].filter(c => !COPPE.includes(c)).map(async camp => {
     const file = LEAGUE_FILES[camp];
     if(!file) return;
     try{
@@ -345,7 +355,11 @@ function renderWeek(week, lookup){
 
   const levels = Object.keys(byLevel).map(Number).sort((a,b)=>a-b);
   if(!levels.length){
-    content.innerHTML = '<div class="empty">Le schedine di questo turno sono concluse: a breve saranno pubblicate le nuove.</div>';
+    // La pagina non resta mai vuota: finche' non escono le nuove schedine mostriamo le ultime concluse con i risultati
+    const ultime = (week.schedine||[]).filter(s => s.stato === 'archiviata')
+      .sort((a,b) => String(b.archiviata_il||'').localeCompare(String(a.archiviata_il||''))).slice(0, 8);
+    content.innerHTML = '<div class="empty">Le schedine di questo turno sono concluse: le nuove saranno pubblicate non appena sono disponibili le prossime partite. Intanto qui sotto trovi le ultime concluse, con i risultati.</div>'
+      + ultime.map(sch => archCardHtml(sch, lookup)).join('');
     return;
   }
 
@@ -427,6 +441,7 @@ function renderWeek(week, lookup){
 
 const ARCH_TIPI = [
   ['misto', 'Miste', null],
+  ['coppe', 'Coppe europee', 'schedine-coppe.json'],
   ['solo_gol', 'Solo Gol/No Gol', 'schedine-solo-gol.json'],
   ['solo_under', 'Solo Under/Over', 'schedine-solo-under.json'],
   ['solo_corner', 'Solo Corner', 'schedine-solo-corner.json'],
@@ -536,6 +551,7 @@ async function renderStorico(weeks){
 }
 
 const SEZIONI_FILES = {
+  coppe: 'schedine-coppe.json',
   solo_gol: 'schedine-solo-gol.json',
   solo_under: 'schedine-solo-under.json',
   solo_corner: 'schedine-solo-corner.json',
@@ -545,6 +561,7 @@ const SEZIONI_FILES = {
   solo_ammonizioni: 'schedine-solo-ammonizioni.json',
 };
 const SEZIONI_NOTE = {
+  coppe: 'Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato più supportato dai dati per ogni partita. Si aggiornano da sole: quando le partite finiscono, le schedine concluse passano nell\'elenco sotto e vengono pubblicate le nuove con le prossime partite europee.',
   solo_gol: 'Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_under: 'Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol per ogni partita (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_corner: "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo, disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.",

@@ -33,8 +33,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Marítimo - FC Porto",
@@ -47,8 +47,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Südtirol - Ascoli",
@@ -61,8 +61,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Scontro tra due squadre in ottima forma: Südtirol secondo in classifica ospita un Ascoli reduce anch'esso da una vittoria larga.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Borussia Dortmund - SV Werder Bremen",
@@ -100,8 +100,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Porto, capolista a punteggio pieno dopo 7 giornate, fa visita a un Marítimo di metà classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Excelsior - FC Groningen",
@@ -114,8 +114,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre appaiate a 11 punti: match equilibrato con leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-5"
         },
         {
           "partita": "Borussia Dortmund - SV Werder Bremen",
@@ -142,8 +142,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Barcellona, capolista a punteggio pieno dopo 7 giornate, ospita un Getafe di metà classifica: netto favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Como - Roma",
@@ -156,8 +156,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "La capolista Roma fa visita a un Como reduce dal ko col Frosinone: i giallorossi partono favoriti per blindare il primato.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "stato": "archiviata",
@@ -195,8 +195,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "L'Ajax, quinto in classifica, ospita un NEC Nijmegen di metà bassa classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "L.R. Vicenza - Pisa",
@@ -237,8 +237,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         }
       ],
       "stato": "archiviata",
@@ -276,8 +276,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Lecce - Bologna",
@@ -290,8 +290,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -304,8 +304,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Málaga - Espanyol",
@@ -403,8 +403,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",
@@ -501,8 +501,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "esito_finale": "persa",
@@ -557,8 +557,8 @@
           "quota_stimata": 1.82,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Lazio - Monza",
@@ -571,8 +571,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Gaziantep FK - Çorum FK",
@@ -585,8 +585,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
       ],
       "esito_finale": "persa",
@@ -753,8 +753,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -767,8 +767,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-4"
         }
       ],
       "esito_finale": "persa",
@@ -879,8 +879,8 @@
           "quota_stimata": 1.92,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Liverpool - Manchester City",
@@ -893,8 +893,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Levante - Sevilla",
@@ -907,8 +907,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -1033,8 +1033,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1047,8 +1047,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1061,8 +1061,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -1075,8 +1075,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -1103,8 +1103,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco capolista, ancora imbattuto, ospita un Toulouse di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -1145,8 +1145,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1159,8 +1159,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Benfica - Vitória Guimarães",
@@ -1173,8 +1173,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "esito_finale": "persa",
@@ -1257,8 +1257,8 @@
           "quota_stimata": 1.59,
           "confidenza_dati": "ALTA",
           "motivazione": "Gaziantep FK (10° con 8 punti) ospita Çorum FK (11° con 7 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -1271,8 +1271,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         }
       ],
       "esito_finale": "persa",
@@ -1355,8 +1355,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -1369,8 +1369,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1383,8 +1383,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "esito_finale": "persa",
@@ -1467,8 +1467,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1495,8 +1495,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -1551,8 +1551,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Liverpool - Manchester City",
@@ -1565,8 +1565,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Stade Rennais FC - AJ Auxerre",
@@ -1579,8 +1579,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Beşiktaş - Kocaelispor",
@@ -1593,8 +1593,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1607,8 +1607,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         }
       ],
       "esito_finale": "persa",
@@ -1719,8 +1719,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mönchengladbach è ultimo e ancora a 0 punti dopo 4 giornate: il Köln parte favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Betis - Osasuna",
@@ -1733,8 +1733,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1747,8 +1747,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -1761,8 +1761,8 @@
           "quota_stimata": 1.89,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
       ],
       "esito_finale": "persa",
@@ -1817,8 +1817,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -1831,8 +1831,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -1845,8 +1845,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Levante - Sevilla",
@@ -1859,8 +1859,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -1887,8 +1887,8 @@
           "quota_stimata": 1.67,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Stade Rennais FC - AJ Auxerre",
@@ -1901,8 +1901,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1929,8 +1929,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1943,8 +1943,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "esito_finale": "persa",
@@ -2013,8 +2013,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2027,8 +2027,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2111,8 +2111,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Benfica, secondo in classifica, ospita un Vitória Guimarães di metà bassa classifica: nettamente favorito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -2125,8 +2125,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         }
       ],
       "esito_finale": "persa",
@@ -2209,8 +2209,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -2223,8 +2223,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
       ],
       "esito_finale": "persa",
@@ -2307,8 +2307,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Beşiktaş (3° con 12 punti) ospita Kocaelispor (4° con 12 punti): secondo i dati della classifica i padroni di casa partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -2321,8 +2321,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2335,8 +2335,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2377,8 +2377,8 @@
           "quota_stimata": 1.72,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Arouca - Estrela da Amadora",
@@ -2391,8 +2391,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Match tra due squadre vicine in classifica: l'Arouca parte leggermente favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -2405,8 +2405,8 @@
           "quota_stimata": 1.92,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         }
       ],
       "esito_finale": "persa",
@@ -2475,8 +2475,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Torino - Udinese",
@@ -2489,8 +2489,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -2573,8 +2573,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2671,8 +2671,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2825,8 +2825,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2839,8 +2839,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2881,8 +2881,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -2895,8 +2895,8 @@
           "quota_stimata": 1.85,
           "confidenza_dati": "MEDIA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Torino - Udinese",
@@ -2909,8 +2909,8 @@
           "quota_stimata": 1.39,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -2937,8 +2937,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Eyüpspor - Göztepe",
@@ -2965,8 +2965,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2979,8 +2979,8 @@
           "quota_stimata": 1.79,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -3035,8 +3035,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Torino - Udinese",
@@ -3063,8 +3063,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",

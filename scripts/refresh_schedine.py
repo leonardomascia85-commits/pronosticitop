@@ -115,6 +115,13 @@ def load_results():
         d = json.load(open(naz_path, encoding='utf-8'))
         for p in d.get('partite', []):
             lookup['Nazionali||' + p['casa'] + ' - ' + p['trasferta']] = p.get('risultato', {})
+
+    coppe_path = os.path.join(DATA_DIR, 'pronostici-coppe-europee.json')
+    if os.path.exists(coppe_path):
+        d = json.load(open(coppe_path, encoding='utf-8'))
+        for comp in d.get('competizioni', []):
+            for p in comp.get('partite', []):
+                lookup[comp.get('nome', '') + '||' + p['casa'] + ' - ' + p['trasferta']] = p.get('risultato', {})
     return lookup
 
 
@@ -870,7 +877,7 @@ def combo_prob(events):
 def _evento_nazionale(p, mkt_code, pick):
     return {
         'partita': f"{p['casa']} - {p['trasferta']}",
-        'campionato': 'Nazionali',
+        'campionato': p.get('_campionato', 'Nazionali'),
         'girone': p.get('girone'),
         'data': p['data'],
         'mercato': mkt_code,
@@ -1034,6 +1041,158 @@ def next_id(existing_ids, level):
     return f"{prefix}{(max(nums) + 1) if nums else 1}"
 
 
+# Coppe europee (Champions, Europa e Conference League): sezione dedicata della
+# pagina schedine, file perpetuo data/schedine-coppe.json. Le partite si
+# giocano a meta' settimana, quindi non passano dal filtro "solo weekend" delle
+# altre sezioni; la finestra di un turno e' comunque quella standard.
+COPPE_FILE = 'schedine-coppe.json'
+
+
+def build_matches_coppe():
+    """Come build_matches_nazionali(), ma per tutte le competizioni europee:
+    partite non ancora iniziate con tutti i mercati disponibili."""
+    path = os.path.join(DATA_DIR, 'pronostici-coppe-europee.json')
+    if not os.path.exists(path):
+        return []
+    d = json.load(open(path, encoding='utf-8'))
+    matches = []
+    for comp in d.get('competizioni', []):
+        for p in comp.get('partite', []):
+            if p.get('risultato', {}).get('stato') != 'non_iniziata':
+                continue
+            try:
+                kickoff = datetime.datetime.fromisoformat(p['data'])
+            except Exception:
+                continue
+            if kickoff <= NOW:
+                continue
+            markets = []
+            for code, field in (('1X2', 'pick_1x2'), ('DC', 'pick_dc'), ('OU25', 'pick_uo'),
+                                ('OU35', 'pick_uo35'), ('GGNG', 'pick_gg')):
+                if p.get(field):
+                    markets.append((code, p[field]))
+            if not markets:
+                continue
+            markets.sort(key=lambda m: -m[1]['probabilita'])
+            matches.append(({**p, '_campionato': comp.get('nome')}, markets))
+    return matches
+
+
+# Posizione di partenza (nella classifica delle partite per probabilita'
+# decrescente) di ogni livello: il livello 4 prende le partite piu' sicure, i
+# livelli successivi scivolano verso quelle meno sicure, cosi' le schedine
+# condividono meno partite possibile e il rischio cresce con il livello.
+COPPE_OFFSET = {4: 0, 5: 2, 6: 3, 7: 5}
+
+
+def build_levels_coppe(matches):
+    """matches: output di build_matches_coppe(). Per ogni partita usa il mercato
+    piu' probabile tra tutti quelli disponibili e costruisce una schedina per
+    ogni livello (4/5/6/7 eventi) per cui ci sono abbastanza partite."""
+    if not matches:
+        return []
+    matches = _filter_same_round(matches, lambda m: datetime.datetime.fromisoformat(m[0]['data']))
+    eventi = []
+    for p, markets in matches:
+        code, pick = markets[0]  # markets e' ordinato per probabilita' decrescente
+        eventi.append(_evento_nazionale(p, code, pick))
+    eventi.sort(key=lambda e: -e['probabilita_stimata'])
+    schedine = []
+    for level in LIVELLI_NAZIONALI:
+        if len(eventi) < level:
+            continue
+        start = min(COPPE_OFFSET[level], len(eventi) - level)
+        scelti = eventi[start:start + level]
+        pc = combo_prob(scelti)
+        schedine.append({
+            'livello_rischio': level,
+            'quota_combinata': round(1 / pc, 2),
+            'probabilita_combinata': round(pc, 3),
+            'eventi': [dict(e) for e in scelti],
+        })
+    return schedine
+
+
+def _aggiorna_coppe(summary, lookup):
+    """Archivia le schedine delle coppe concluse e ne pubblica di nuove finche'
+    ci sono partite europee future disponibili. Ritorna True se il file cambia."""
+    path = os.path.join(DATA_DIR, COPPE_FILE)
+    if os.path.exists(path):
+        data = json.load(open(path, encoding='utf-8'))
+    else:
+        data = {'id': 'coppe-europee', 'titolo': 'Coppe europee', 'generato_il': NOW.date().isoformat(),
+                'stato': 'pubblicata', 'schedine': [],
+                'nota_dati': 'Schedine costruite sulle partite di Champions League, Europa League e Conference League '
+                             'del turno in corso, con il mercato piu\' supportato dai dati per ogni partita. '
+                             'Si aggiornano da sole a ogni partita conclusa.'}
+    changed = False
+
+    for sch in data['schedine']:
+        if sch.get('stato') == 'archiviata':
+            continue
+        outcomes = [event_outcome(ev, lookup) for ev in sch['eventi']]
+        if any(e is None for e, _ in outcomes) and not any(e == 'perso' for e, _ in outcomes):
+            continue
+        for ev, (esito, punteggio) in zip(sch['eventi'], outcomes):
+            ev['esito'] = esito
+            ev['risultato_reale'] = punteggio
+        sch['stato'] = 'archiviata'
+        sch['esito_finale'] = 'vinta' if all(e in ('vinto', 'annullato') for e, _ in outcomes) else 'persa'
+        sch['archiviata_il'] = NOW.isoformat()
+        changed = True
+        summary.append(f"{COPPE_FILE}: {sch['id']} archiviata ({sch['esito_finale']})")
+
+    attive = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
+    livelli_presenti = {x['livello_rischio'] for x in attive}
+    if len(livelli_presenti) < len(LIVELLI_NAZIONALI):
+        for nuova in build_levels_coppe(build_matches_coppe()):
+            if nuova['livello_rischio'] in livelli_presenti:
+                continue
+            nuova['id'] = next_id([x['id'] for x in data['schedine']], nuova['livello_rischio'])
+            nuova['stato'] = 'pubblicata'
+            data['schedine'].append(nuova)
+            livelli_presenti.add(nuova['livello_rischio'])
+            changed = True
+            summary.append(f"{COPPE_FILE}: nuova schedina {nuova['id']} pubblicata "
+                           f"({len(nuova['eventi'])} eventi, prob {nuova['probabilita_combinata']:.3f})")
+
+    if changed:
+        data['aggiornato_il'] = NOW.date().isoformat()
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    return changed
+
+
+def backfill_esiti(lookup, files):
+    """Completa esito e risultato_reale degli eventi delle schedine GIA'
+    archiviate che sono rimasti vuoti (schedina persa prima che finissero tutte
+    le partite). Non cambia mai lo stato di una schedina: serve solo a non
+    perdere il risultato reale di ogni evento quando il file della lega viene
+    sostituito dal turno successivo."""
+    toccati = []
+    for fn in files:
+        path = os.path.join(DATA_DIR, fn)
+        if not os.path.exists(path):
+            continue
+        data = json.load(open(path, encoding='utf-8'))
+        mod = False
+        for sch in data.get('schedine', []):
+            if sch.get('stato') != 'archiviata':
+                continue
+            for ev in sch['eventi']:
+                if ev.get('esito') is None:
+                    esito, punteggio = event_outcome(ev, lookup)
+                    if esito is not None:
+                        ev['esito'] = esito
+                        ev['risultato_reale'] = punteggio
+                        mod = True
+        if mod:
+            with open(path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            toccati.append(fn)
+    return toccati
+
+
 def main():
     settimane_path = os.path.join(DATA_DIR, 'settimane.json')
     settimane = json.load(open(settimane_path, encoding='utf-8'))
@@ -1042,6 +1201,14 @@ def main():
     pool_naz = None
     changed_files = []
     summary = []
+
+    tutti_i_file = [w['file'] for w in settimane.get('settimane', [])] + [
+        'schedine-solo-gol.json', 'schedine-solo-under.json', 'schedine-solo-corner.json',
+        'schedine-solo-segna.json', 'schedine-solo-multigol.json', 'schedine-solo-primotempo.json',
+        'schedine-solo-ammonizioni.json', 'schedine-coppe.json']
+    for fn in backfill_esiti(lookup, tutti_i_file):
+        changed_files.append(fn)
+        summary.append(f"{fn}: risultati reali completati negli eventi di schedine gia' archiviate")
 
     # Eventi gia' usati in schedine ATTIVE (non archiviate) esistenti prima di
     # questa esecuzione: build_pool()/build_pool_nazionali() includono tutte
@@ -1263,6 +1430,9 @@ def main():
             with open(path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             changed_files.append(fn)
+
+    if _aggiorna_coppe(summary, lookup):
+        changed_files.append(COPPE_FILE)
 
     print('\n'.join(summary) if summary else 'Nessuna schedina da archiviare in questo momento.')
     print('File modificati:', changed_files)

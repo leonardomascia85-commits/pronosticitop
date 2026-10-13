@@ -24,8 +24,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Málaga - Espanyol",
@@ -52,8 +52,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "TSG Hoffenheim - Hamburger SV",
@@ -94,8 +94,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         }
       ],
       "esito_finale": "persa",
@@ -133,8 +133,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Utrecht - Willem II",
@@ -161,8 +161,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "PEC Zwolle - SC Cambuur",
@@ -175,8 +175,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa: il Cambuur, con qualche punto in più, parte leggermente favorito in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "OGC Nice - RC Strasbourg Alsace",
@@ -189,8 +189,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -203,8 +203,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         }
       ],
       "esito_finale": "persa",
@@ -229,8 +229,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arezzo - Cremonese",
@@ -257,8 +257,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -271,8 +271,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -285,8 +285,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -299,8 +299,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Ipswich Town - Fulham",
@@ -341,8 +341,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arezzo - Cremonese",
@@ -369,8 +369,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -383,8 +383,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "quota_max": 4,
@@ -411,8 +411,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arezzo - Cremonese",
@@ -439,8 +439,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -453,8 +453,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -467,8 +467,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 5,
@@ -495,8 +495,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arezzo - Cremonese",
@@ -523,8 +523,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -537,8 +537,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -551,8 +551,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -565,8 +565,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "quota_max": 6,
@@ -593,8 +593,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -607,8 +607,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -621,8 +621,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -661,8 +661,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -675,8 +675,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -689,8 +689,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -717,8 +717,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         }
       ],
       "esito_finale": "persa",
@@ -743,8 +743,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -757,8 +757,8 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -785,8 +785,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Utrecht - Willem II",
@@ -799,8 +799,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Utrecht ospita il fanalino di coda Willem II, ancora senza vittorie: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Telstar - ADO Den Haag",
@@ -813,8 +813,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         }
       ],
       "esito_finale": "persa",
@@ -853,8 +853,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -867,8 +867,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -909,8 +909,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Torino - Udinese",
@@ -923,8 +923,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -937,8 +937,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -951,8 +951,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "FC Utrecht - Willem II",
@@ -1007,8 +1007,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1091,8 +1091,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Sfida tra due squadre in difficoltà: il Bologna è quasi a secco di punti, il Lecce cerca il rilancio in casa dopo il pesante ko col Milan.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Torino - Udinese",
@@ -1105,8 +1105,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1119,8 +1119,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -1133,8 +1133,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1147,8 +1147,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -1161,8 +1161,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -1203,8 +1203,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -1217,8 +1217,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -1245,8 +1245,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Telstar - ADO Den Haag",
@@ -1259,8 +1259,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         }
       ],
       "esito_finale": "persa",
@@ -1285,8 +1285,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -1313,8 +1313,8 @@
           "quota_stimata": 1.53,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa tra due squadre appaiate a 4 punti: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Utrecht - Willem II",
@@ -1341,8 +1341,8 @@
           "quota_stimata": 1.54,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Telstar, meglio piazzato, ospita un ADO Den Haag in zona bassa: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "OGC Nice - RC Strasbourg Alsace",
@@ -1355,8 +1355,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -1381,8 +1381,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1395,8 +1395,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -1409,8 +1409,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1423,8 +1423,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -1465,8 +1465,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Padova - Carrarese",
@@ -1479,8 +1479,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Padova ospita il fanalino di coda Carrarese, ultimo con un solo punto: match favorevole sulla carta nonostante il ko col Palermo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -1493,8 +1493,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -1507,8 +1507,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Rio Ave - Nacional",
@@ -1535,8 +1535,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1549,8 +1549,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 7,
@@ -1605,8 +1605,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1645,8 +1645,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1673,8 +1673,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1687,8 +1687,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1741,8 +1741,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -1755,8 +1755,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -1769,8 +1769,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1783,8 +1783,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1797,8 +1797,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         }
       ],
       "esito_finale": "persa",
@@ -1823,8 +1823,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1837,8 +1837,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -1851,8 +1851,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -1865,8 +1865,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Real Sociedad - Deportivo de La Coruña",
@@ -1893,8 +1893,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Real Betis, terzo in classifica, ospita un Osasuna di metà classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Levante - Sevilla",
@@ -1907,8 +1907,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -1933,8 +1933,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -1947,8 +1947,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -1961,8 +1961,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -2003,8 +2003,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -2045,8 +2045,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2059,8 +2059,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         }
       ],
       "quota_max": 5,
@@ -2087,8 +2087,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra due squadre reduci rispettivamente da un pareggio e da una sconfitta di misura.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Racing de Santander - Valencia",
@@ -2101,8 +2101,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Racing, neopromosso ma con più punti, ospita un Valencia in forte difficoltà di classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "ESTAC Troyes - Olympique de Marseille",
@@ -2115,8 +2115,8 @@
           "quota_stimata": 1.51,
           "confidenza_dati": "ALTA",
           "motivazione": "Scontro diretto in zona bassa classifica tra due squadre in difficoltà: leggero favore per il Troyes in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Famalicão - Alverca",
@@ -2129,8 +2129,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -2143,8 +2143,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -2157,8 +2157,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -2199,8 +2199,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -2213,8 +2213,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -2227,8 +2227,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Modena - Hellas Verona",
@@ -2255,8 +2255,8 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -2269,8 +2269,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         }
       ],
       "esito_finale": "persa",
@@ -2337,8 +2337,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         }
       ],
       "quota_max": 4,
@@ -2379,8 +2379,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -2421,8 +2421,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         }
       ],
       "quota_max": 5,
@@ -2463,8 +2463,8 @@
           "quota_stimata": 1.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Match equilibrato di metà classifica tra Famalicão e Alverca: leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -2505,8 +2505,8 @@
           "quota_stimata": 1.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Eyüpspor - Göztepe",

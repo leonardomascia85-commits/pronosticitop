@@ -283,8 +283,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Como - Roma",
@@ -311,8 +311,8 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "ALTA",
           "motivazione": "Lazio terza in classifica e in serie positiva, ospita un Monza in ripresa dopo il primo successo stagionale.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -325,8 +325,8 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Catanzaro - Mantova",
@@ -339,8 +339,8 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Mantova, terzo in classifica, fa visita a un Catanzaro penultimo e in piena zona retrocessione: trasferta alla portata sulla carta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Sunderland - Brighton & Hove Albion",
@@ -811,8 +811,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Eyüpspor (18° con 3 punti) ospita Göztepe (17° con 3 punti): secondo i dati della classifica gli ospiti partono favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Sassuolo - Milan",
@@ -825,8 +825,8 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Milan arriva in fiducia dopo il netto successo sul Lecce; il Sassuolo, reduce da un ko a sorpresa, prova a fermarlo in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Liverpool - Manchester City",
@@ -839,8 +839,8 @@
           "quota_stimata": 1.2,
           "confidenza_dati": "ALTA",
           "motivazione": "Il big match della giornata: il Manchester City capolista a punteggio pieno fa visita a un Liverpool ancora imbattuto ad Anfield.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Levante - Sevilla",
@@ -853,8 +853,8 @@
           "quota_stimata": 1.21,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Padova - Carrarese",
@@ -881,8 +881,8 @@
           "quota_stimata": 1.23,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre in serie positiva: il Modena, quarto in classifica, parte leggermente favorito in casa contro l'Hellas Verona.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Coventry City - Newcastle United",
@@ -895,8 +895,8 @@
           "quota_stimata": 1.23,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Newcastle, nono in classifica, fa visita a un Coventry neopromosso in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
       ],
       "esito_finale": "persa",
