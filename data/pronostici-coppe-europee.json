@@ -158,9 +158,10 @@
           "nota": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-4",
+            "aggiornato": "2026-10-14T22:14:53Z",
+            "primo_tempo": "0-3"
           }
         }
       ]

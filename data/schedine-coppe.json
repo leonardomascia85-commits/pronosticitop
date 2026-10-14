@@ -51,8 +51,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "CSKA Sofia - Monaco",
@@ -92,8 +92,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "CSKA Sofia - Monaco",
@@ -122,8 +122,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Arsenal 1.35, Lille 0.92 (0.25 e 0.5 gol subiti a gara, le due migliori difese dei rispettivi campionati). Somma attesa 2.27 gol: gara da pochi gol, Arsenal favorito di misura in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Real Club Celta - Juventus",
@@ -157,7 +157,9 @@
         }
       ],
       "id": "L5-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-14T22:14:54.077363+00:00"
     },
     {
       "livello_rischio": 6,
@@ -404,8 +406,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "CSKA Sofia - Monaco",
@@ -439,6 +441,161 @@
         }
       ],
       "id": "L4-2",
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-14T22:14:54.077363+00:00"
+    },
+    {
+      "livello_rischio": 4,
+      "quota_combinata": 2.27,
+      "probabilita_combinata": 0.441,
+      "eventi": [
+        {
+          "partita": "Brighton & Hove Albion - Kauno Žalgiris",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Brighton o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Forte squilibrio di livello tra una squadra di Premier League e il campione lituano: match che il Brighton parte per dominare largamente.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "CSKA Sofia - Monaco",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Monaco",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Club Celta - Juventus",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Juventus",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SL Benfica - Celtic",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "SL Benfica o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L4-3",
+      "stato": "pubblicata"
+    },
+    {
+      "livello_rischio": 5,
+      "quota_combinata": 3.86,
+      "probabilita_combinata": 0.259,
+      "eventi": [
+        {
+          "partita": "Real Club Celta - Juventus",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Juventus",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SL Benfica - Celtic",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "SL Benfica o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Pafos",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Atalanta o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "confidenza_dati": "ALTA",
+          "motivazione": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Salzburg - AC Milan",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "FC Salzburg o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.35,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Universitatea Craiova - Getafe",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Getafe vive un avvio difficile in Liga (16°, differenza reti -4) mentre la Craiova arriva in buona forma nel campionato rumeno; mancano dati sui gol a gara per un calcolo più preciso.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L5-2",
       "stato": "pubblicata"
     }
   ],
