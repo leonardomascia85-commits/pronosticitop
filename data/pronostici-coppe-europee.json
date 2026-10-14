@@ -41,9 +41,9 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Inter 2.73 gol attesi (miglior attacco della Serie A, difesa solida), Club Brugge 1.70 (attacco discreto ma difesa permeabile). Somma attesa 4.43 gol: gara da tanti gol.",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-4",
+            "aggiornato": "2026-10-14T02:14:59Z"
           }
         },
         {
@@ -70,7 +70,7 @@
           "pick_dc": {
             "esito": "1X",
             "etichetta": "Arsenal o pareggio",
-            "probabilita": 0.80
+            "probabilita": 0.8
           },
           "pick_uo35": {
             "esito": "under",
@@ -80,9 +80,9 @@
           "nota": "Modello a gol attesi: Arsenal 1.35, Lille 0.92 (0.25 e 0.5 gol subiti a gara, le due migliori difese dei rispettivi campionati). Somma attesa 2.27 gol: gara da pochi gol, Arsenal favorito di misura in casa.",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-0",
+            "aggiornato": "2026-10-14T02:14:59Z"
           }
         },
         {
@@ -119,9 +119,9 @@
           "nota": "Modello a gol attesi: Villarreal 1.58, Napoli 1.53 (equilibrio quasi perfetto). Il Villarreal è comunque 17° in Liga con una difesa fragile (1.83 gol subiti a gara): match aperto e probabile Gol/Gol.",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-1",
+            "aggiornato": "2026-10-14T02:14:59Z"
           }
         },
         {
@@ -233,7 +233,7 @@
           "pick_dc": {
             "esito": "X2",
             "etichetta": "Pareggio o Juventus",
-            "probabilita": 0.80
+            "probabilita": 0.8
           },
           "pick_uo35": {
             "esito": "under",
@@ -272,7 +272,7 @@
           "pick_dc": {
             "esito": "1X",
             "etichetta": "SL Benfica o pareggio",
-            "probabilita": 0.80
+            "probabilita": 0.8
           },
           "pick_uo35": {
             "esito": "under",
@@ -311,7 +311,7 @@
           "pick_dc": {
             "esito": "1X",
             "etichetta": "Union Saint-Gilloise o pareggio",
-            "probabilita": 0.70
+            "probabilita": 0.7
           },
           "pick_uo35": {
             "esito": "under",
@@ -396,7 +396,7 @@
           "pick_dc": {
             "esito": "1X",
             "etichetta": "Universitatea Craiova o pareggio",
-            "probabilita": 0.70
+            "probabilita": 0.7
           },
           "pick_uo35": {
             "esito": "under",

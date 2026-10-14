@@ -36,8 +36,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.73 gol attesi (miglior attacco della Serie A, difesa solida), Club Brugge 1.70 (attacco discreto ma difesa permeabile). Somma attesa 4.43 gol: gara da tanti gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-4"
         },
         {
           "partita": "Manchester City - Paris Saint-Germain",
@@ -71,7 +71,9 @@
         }
       ],
       "id": "L4-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-14T02:14:59.604045+00:00"
     },
     {
       "livello_rischio": 5,
@@ -369,8 +371,77 @@
       ],
       "id": "L7-1",
       "stato": "pubblicata"
+    },
+    {
+      "livello_rischio": 4,
+      "quota_combinata": 2.21,
+      "probabilita_combinata": 0.452,
+      "eventi": [
+        {
+          "partita": "Brighton & Hove Albion - Kauno Žalgiris",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Brighton o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Forte squilibrio di livello tra una squadra di Premier League e il campione lituano: match che il Brighton parte per dominare largamente.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester City - Paris Saint-Germain",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-10-14T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Manchester City o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "CSKA Sofia - Monaco",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Monaco",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Club Celta - Juventus",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-10-15T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Juventus",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L4-2",
+      "stato": "pubblicata"
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-10-13"
+  "aggiornato_il": "2026-10-14"
 }
