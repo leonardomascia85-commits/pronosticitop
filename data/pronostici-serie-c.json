@@ -350,9 +350,9 @@
       },
       "nota": "Il Lumezzane arriva da una sconfitta e in un momento negativo: leggero favore per la Juventus Next Gen in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-14T10:15:32Z"
       }
     },
     {
