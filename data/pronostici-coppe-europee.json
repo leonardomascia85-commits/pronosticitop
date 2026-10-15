@@ -368,9 +368,9 @@
           "nota": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-1",
+            "aggiornato": "2026-10-15T22:15:07Z"
           }
         },
         {
