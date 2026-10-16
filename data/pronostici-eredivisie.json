@@ -38,9 +38,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.69 gol attesi (10° con 9 punti, 11 gol fatti e 11 subiti in 8 gare), Excelsior 1.55 (9° con 11 punti, 16 fatti e 14 subiti in 8 gare). Somma attesa 3.24 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-10-16T20:14:41Z"
       }
     },
     {

@@ -39,9 +39,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Çorum FK 1.93 gol attesi (8° con 10 punti, 16 gol fatti e 12 subiti in 7 gare), Rizespor 1.25 (10° con 10 punti, 7 fatti e 9 subiti in 7 gare). Somma attesa 3.18 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-16T20:14:41Z",
+        "primo_tempo": "1-1"
       }
     },
     {
