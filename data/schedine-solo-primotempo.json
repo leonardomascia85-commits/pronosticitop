@@ -2,7 +2,7 @@
   "id": "solo-primotempo-2026-10-09",
   "titolo": "Solo Primo tempo",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-13",
+  "aggiornato_il": "2026-10-16",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato dei gol nel primo tempo (almeno un gol, oppure al massimo un gol), stimato per ogni partita dai gol attesi delle due squadre con una quota di gol nel primo tempo pari al 45% del totale. Il risultato del primo tempo viene registrato a fine partita da fonti verificate: fino ad allora l'evento resta in attesa.",
   "schedine": [
@@ -1688,7 +1688,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.89,
       "probabilita_combinata": 0.528,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -1715,8 +1715,8 @@
           "quota_stimata": 1.17,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -1748,7 +1748,9 @@
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
     },
     {
       "id": "L5-6",
@@ -1756,7 +1758,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.26,
       "probabilita_combinata": 0.443,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -1783,8 +1785,8 @@
           "quota_stimata": 1.17,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -1830,7 +1832,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
     },
     {
       "id": "L6-6",
@@ -1838,7 +1842,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.72,
       "probabilita_combinata": 0.368,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -1865,8 +1869,8 @@
           "quota_stimata": 1.17,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -1926,7 +1930,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
     },
     {
       "id": "L7-5",
@@ -1934,7 +1940,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.27,
       "probabilita_combinata": 0.305,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -1961,8 +1967,8 @@
           "quota_stimata": 1.17,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -2036,7 +2042,9 @@
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
     },
     {
       "id": "L4-7",
@@ -2103,6 +2111,384 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-8",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.94,
+      "probabilita_combinata": 0.515,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T16:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "ADO Den Haag - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-10-17T16:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-7",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 2.31,
+      "probabilita_combinata": 0.433,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T16:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Twente - FC Utrecht",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T20:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L6-7",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 2.78,
+      "probabilita_combinata": 0.359,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T16:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Twente - FC Utrecht",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T20:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Osasuna - Racing de Santander",
+          "campionato": "La Liga",
+          "data": "2026-10-18T14:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Osasuna 2.09 gol attesi (16° con 8 punti, 8 gol fatti e 18 subiti in 8 gare), Racing de Santander 1.78 (15° con 8 punti, 13 fatti e 23 subiti in 8 gare). Somma attesa 3.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-6",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 3.35,
+      "probabilita_combinata": 0.298,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T16:45:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Twente - FC Utrecht",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T20:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Osasuna - Racing de Santander",
+          "campionato": "La Liga",
+          "data": "2026-10-18T14:00:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Osasuna 2.09 gol attesi (16° con 8 punti, 8 gol fatti e 18 subiti in 8 gare), Racing de Santander 1.78 (15° con 8 punti, 13 fatti e 23 subiti in 8 gare). Somma attesa 3.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Bayer 04 Leverkusen - SC Freiburg",
+          "campionato": "Bundesliga",
+          "data": "2026-10-18T15:30:00+02:00",
+          "mercato": "PT",
+          "pronostico": "Almeno un gol nel primo tempo",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }

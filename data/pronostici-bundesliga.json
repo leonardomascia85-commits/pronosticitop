@@ -38,9 +38,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-16T22:14:38Z",
+        "primo_tempo": "0-0"
       }
     },
     {

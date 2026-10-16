@@ -38,9 +38,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Le Mans FC 1.89 gol attesi (14° con 6 punti, 10 gol fatti e 12 subiti in 6 gare), Toulouse FC 1.61 (15° con 6 punti, 9 fatti e 11 subiti in 6 gare). Somma attesa 3.50 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-16T22:14:38Z"
       }
     },
     {

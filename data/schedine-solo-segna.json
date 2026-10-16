@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-13",
+  "aggiornato_il": "2026-10-16",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -1698,7 +1698,7 @@
       "variante": "libera",
       "quota_combinata": 1.88,
       "probabilita_combinata": 0.531,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Real Betis - FC Barcelona",
@@ -1781,10 +1781,12 @@
           "quota_stimata": 1.13,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
     },
     {
       "id": "L7-7",
@@ -1792,7 +1794,7 @@
       "variante": "libera",
       "quota_combinata": 2.19,
       "probabilita_combinata": 0.457,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -1861,8 +1863,8 @@
           "quota_stimata": 1.13,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 2.05 gol attesi (14° con 5 punti, 9 gol fatti e 16 subiti in 5 gare), 1. FC Köln 2.21 (10° con 7 punti, 8 fatti e 10 subiti in 5 gare). Somma attesa 4.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -1889,6 +1891,223 @@
           "quota_stimata": 1.14,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T22:14:38.238176+00:00"
+    },
+    {
+      "id": "L6-7",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 1.88,
+      "probabilita_combinata": 0.531,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Real Betis - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (FC Barcelona)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sparta Rotterdam - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-10-17T21:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Sparta Rotterdam)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Telstar - Feyenoord",
+          "campionato": "Eredivisie",
+          "data": "2026-10-17T20:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Feyenoord)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "PEC Zwolle - Go Ahead Eagles",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T12:15:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Go Ahead Eagles)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Genoa",
+          "campionato": "Serie A",
+          "data": "2026-10-17T20:45:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Roma)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.25 gol attesi (3° con 14 punti, 14 gol fatti e 3 subiti in 6 gare), Genoa 0.61 (17° con 4 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.86 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Bayern München)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-8",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 2.21,
+      "probabilita_combinata": 0.452,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sparta Rotterdam - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-10-17T21:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Sparta Rotterdam)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Telstar - Feyenoord",
+          "campionato": "Eredivisie",
+          "data": "2026-10-17T20:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Feyenoord)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "PEC Zwolle - Go Ahead Eagles",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T12:15:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Go Ahead Eagles)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Genoa",
+          "campionato": "Serie A",
+          "data": "2026-10-17T20:45:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Roma)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.25 gol attesi (3° con 14 punti, 14 gol fatti e 3 subiti in 6 gare), Genoa 0.61 (17° con 4 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.86 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Bayern München - RB Leipzig",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T18:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Bayern München)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Real Madrid)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hamburger SV - VfB Stuttgart",
+          "campionato": "Bundesliga",
+          "data": "2026-10-17T15:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (VfB Stuttgart)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
           "esito": null,
           "risultato_reale": null
         }

@@ -38,9 +38,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Frosinone 1.71 gol attesi (9° con 10 punti, 9 gol fatti e 7 subiti in 6 gare), Sassuolo 1.30 (11° con 8 punti, 10 fatti e 10 subiti in 6 gare). Somma attesa 3.01 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-2",
+        "aggiornato": "2026-10-16T22:14:38Z",
+        "primo_tempo": "3-2"
       }
     },
     {
