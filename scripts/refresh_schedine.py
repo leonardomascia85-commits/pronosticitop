@@ -81,22 +81,126 @@ def confidenza(prob):
     return 'BASSA'
 
 
-# Doppia chance e Under/Over 3.5 coprono piu' esiti possibili e quindi hanno
-# quasi sempre la probabilita' stimata piu' alta, a prescindere dai dati
-# specifici della partita: se li lasciamo competere sulla sola probabilita'
-# finiscono per essere scelti in quasi tutte le partite, schiacciando Esito
-# secco, Under/Over 2.5 e Gol/No Gol (che restano piu' informativi sulla
-# partita, anche se numericamente un po' piu' bassi). Per questo li usiamo
-# come pronostico "di riserva": solo se nessuno degli altri tre mercati
-# raggiunge almeno il 50% di probabilita' (partita davvero equilibrata),
-# torniamo al piu' probabile in assoluto.
-MERCATI_RISERVA = ('DC', 'OU35')
+# --- Calibrazione dei mercati (introdotta dopo l'analisi del 16 ottobre 2026) ---
+# Il confronto tra probabilita' stimate ed esiti reali su 152 partite concluse
+# mostra che il modello sottostima in modo sistematico i mercati "da gol":
+# Over 2.5 stimato 55,7% contro 63,8% reale, Gol 56,8% contro 60,5%. Le
+# probabilita' usate per scegliere e combinare gli eventi vengono quindi
+# corrette con uno scarto per (mercato, esito) calcolato SUGLI STESSI DATI
+# reali del sito (partite concluse in tutti i file + storico), ristretto verso
+# zero quando il campione e' piccolo (CALIB_K) e limitato a +-CALIB_CAP_LOGIT.
+# La probabilita' originale del modello resta nel campo probabilita_modello.
+CALIB_K = 40
+CALIB_CAP_LOGIT = 0.45   # scarto massimo (scala logit) applicabile a un mercato
+PROB_MAX = 0.88          # nessun evento supera l'88%: oltre quel livello il campione non lo sostiene
+# Pendenza della calibrazione: il backtest mostra che le probabilita' stimate
+# molto alte NON si realizzano piu' delle medie (Doppia chance con stima >= 80%:
+# 77% reale; Gol/No Gol: nessun potere discriminante). Per questi mercati si
+# comprime lo scarto dal centro del gruppo; per gli altri solo leggermente.
+PENDENZA_MERCATO = {'1X2': 0.85, 'DC': 0.55, 'OU25': 0.85, 'OU35': 0.85, 'GGNG': 0.5}
+MERCATO_DA_CAMPO = {'pick_1x2': '1X2', 'pick_dc': 'DC', 'pick_uo': 'OU25',
+                    'pick_uo35': 'OU35', 'pick_gg': 'GGNG'}
+_CALIB_CACHE = None
+
+
+def _esito_pick_ok(code, esito, h, a):
+    t = h + a
+    if code == '1X2': return (esito == '1' and h > a) or (esito == 'X' and h == a) or (esito == '2' and h < a)
+    if code == 'DC': return (esito == '1X' and h >= a) or (esito == 'X2' and h <= a) or (esito == '12' and h != a)
+    if code == 'OU25': return t > 2 if esito == 'over' else t <= 2
+    if code == 'OU35': return t > 3 if esito == 'over' else t <= 3
+    if code == 'GGNG': return (h > 0 and a > 0) if esito == 'gol' else not (h > 0 and a > 0)
+    return None
+
+
+def _partite_concluse_tutte():
+    viste, out = set(), []
+    def prendi(p):
+        r = p.get('risultato') or {}
+        if r.get('stato') != 'finale' or not r.get('punteggio'):
+            return
+        k = (p.get('casa'), p.get('trasferta'), p.get('data'))
+        if k in viste:
+            return
+        viste.add(k)
+        out.append(p)
+    for fn in sorted(os.listdir(DATA_DIR)):
+        if not (fn.startswith('pronostici-') and fn.endswith('.json')) and fn != 'storico-partite.json':
+            continue
+        try:
+            d = json.load(open(os.path.join(DATA_DIR, fn), encoding='utf-8'))
+        except Exception:
+            continue
+        for p in d.get('partite', []):
+            prendi(p)
+        for comp in d.get('competizioni', []):
+            for p in comp.get('partite', []):
+                prendi(p)
+    return out
+
+
+def calibrazione_offsets():
+    global _CALIB_CACHE
+    if _CALIB_CACHE is not None:
+        return _CALIB_CACHE
+    acc = collections.defaultdict(lambda: [0, 0, 0.0])
+    for p in _partite_concluse_tutte():
+        try:
+            h, a = map(int, p['risultato']['punteggio'].split('-'))
+        except Exception:
+            continue
+        for campo, code in MERCATO_DA_CAMPO.items():
+            pick = p.get(campo)
+            if not pick:
+                continue
+            ok = _esito_pick_ok(code, pick['esito'], h, a)
+            if ok is None:
+                continue
+            x = acc[(code, pick['esito'])]
+            x[0] += 1; x[1] += ok; x[2] += pick['probabilita']
+    off = {}
+    for k, (n, w, pr) in acc.items():
+        # scarto sulla scala logit (non un +x% piatto): sulle probabilita'
+        # alte l'effetto si smorza da solo e non sfora mai il 100%. Si salva
+        # anche il centro del gruppo (hit rate reale) attorno a cui si
+        # comprime la pendenza (vedi PENDENZA_MERCATO).
+        hit = min(max(w / n, 0.02), 0.98)
+        est = min(max(pr / n, 0.02), 0.98)
+        d = math.log(hit / (1 - hit)) - math.log(est / (1 - est))
+        d = max(-CALIB_CAP_LOGIT, min(CALIB_CAP_LOGIT, d * n / (n + CALIB_K)))
+        off[k] = (d, math.log(est / (1 - est)) + d)
+    _CALIB_CACHE = off
+    return off
+
+
+def pick_calibrato(code, pick):
+    """Copia del pick con la probabilita' corretta dallo storico: scarto del
+    gruppo (mercato, esito) piu' compressione verso il suo hit rate reale."""
+    d, centro = calibrazione_offsets().get((code, pick['esito']), (0.0, None))
+    p0 = min(max(pick['probabilita'], 0.02), 0.98)
+    lg = math.log(p0 / (1 - p0)) + d
+    if centro is not None:
+        lg = centro + PENDENZA_MERCATO.get(code, 1.0) * (lg - centro)
+    p = min(PROB_MAX, max(0.05, 1 / (1 + math.exp(-lg))))
+    return {**pick, 'probabilita': round(p, 3), 'probabilita_modello': pick['probabilita']}
+
+
+def mercati_calibrati(p):
+    """I 5 mercati di una partita come lista (codice, pick calibrato)."""
+    return [(code, pick_calibrato(code, p[campo])) for campo, code in MERCATO_DA_CAMPO.items() if p.get(campo)]
+
+
+# Selezione del mercato per ogni partita: il piu' probabile in assoluto (dopo
+# la calibrazione). Fino al 16/10/2026 Doppia Chance e Under/Over 3.5 erano
+# "di riserva" (scelti solo se nessun altro mercato superava il 50%) per
+# diversificare i mercati. Il backtest sulle 152 partite concluse mostra che
+# quella regola dimezzava la probabilita' di vincita: schedine da 4 eventi
+# vinte 13% contro 37-40% scegliendo sempre l'evento piu' probabile.
+MERCATI_RISERVA = ()
 SOGLIA_MERCATI_PRIMARI = 0.50
 
+
 def pick_best_market(markets):
-    primari = [m for m in markets if m[0] not in MERCATI_RISERVA and m[1]['probabilita'] >= SOGLIA_MERCATI_PRIMARI]
-    if primari:
-        return max(primari, key=lambda m: m[1]['probabilita'])
     return max(markets, key=lambda m: m[1]['probabilita'])
 
 
@@ -263,12 +367,7 @@ def build_pool():
                 continue
             if kickoff.weekday() not in (4, 5, 6, 0):  # solo ven-sab-dom-lun (weekend): mai partite infrasettimanali
                 continue
-            markets = []
-            if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
-            if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
-            if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
-            if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
-            if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
+            markets = mercati_calibrati(p)
             if not markets:
                 continue
             best = pick_best_market(markets)
@@ -281,6 +380,7 @@ def build_pool():
                 'esito_pick': best[1]['esito'],
                 'probabilita_stimata': round(best[1]['probabilita'], 2),
                 'quota_stimata': round(1 / best[1]['probabilita'], 2),
+                'probabilita_modello': round(best[1].get('probabilita_modello', best[1]['probabilita']), 2),
                 'confidenza_dati': confidenza(best[1]['probabilita']),
                 'motivazione': p['nota'],
                 'esito': None,
@@ -325,7 +425,10 @@ def build_pool_tutti_mercati():
             eventi = []
             for code, field in MERCATI_PICK:
                 pick = p.get(field)
-                if not pick or pick['probabilita'] < 0.5:
+                if not pick:
+                    continue
+                pick = pick_calibrato(code, pick)
+                if pick['probabilita'] < 0.5:
                     continue
                 eventi.append({
                     'partita': f"{p['casa']} - {p['trasferta']}",
@@ -336,6 +439,7 @@ def build_pool_tutti_mercati():
                     'esito_pick': pick['esito'],
                     'probabilita_stimata': round(pick['probabilita'], 2),
                     'quota_stimata': round(1 / pick['probabilita'], 2),
+                'probabilita_modello': round(pick.get('probabilita_modello', pick['probabilita']), 2),
                     'confidenza_dati': confidenza(pick['probabilita']),
                     'motivazione': p['nota'],
                     'esito': None,
@@ -358,10 +462,9 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
     """Ricerca casuale (riproducibile) della combinazione di `level` partite
     diverse, un mercato per partita, con quota combinata nella fascia
     (quota massima fascia precedente, quota massima fascia]. Tra le valide
-    preferisce: meno partite in comune con le altre schedine dello stesso
-    livello, piu' mercati "primari" (esito, Under/Over 2.5, Gol/No Gol),
-    meno partite in comune con il resto della pagina, quota piu' vicina al
-    tetto. Restituisce None se nessuna combinazione rientra nella fascia."""
+    preferisce la piu' probabile (quota piu' bassa), con una piccola penalita'
+    per le partite in comune con le altre schedine. Restituisce None se
+    nessuna combinazione rientra nella fascia."""
     import random
     caps = QUOTE_MAX_FASCE[level]
     hi = caps[fascia - 1]
@@ -402,13 +505,50 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
         if not (lo < q <= hi) or not _rispetta_limiti(eventi):
             continue
         nomi = {e['partita'] for e in eventi}
-        key = (-len(nomi & set(gia_usate_livello)),
-               sum(e['mercato'] not in MERCATI_RISERVA for e in eventi),
-               q)
+        # Dentro la fascia si cerca la combinazione PIU' PROBABILE (quota piu'
+        # bassa tra quelle ammesse), non quella piu' vicina al tetto: la
+        # fascia fissa solo il rischio massimo, non quello minimo. Le
+        # sovrapposizioni con le altre schedine costano una piccola penalita'
+        # (un errore su una partita condivisa affonda piu' schedine insieme).
+        pcomb = 1 / q
+        key = (pcomb - 0.02 * len(nomi & set(gia_usate_livello)) - 0.004 * len(nomi & set(gia_usate)),)
         if best_key is None or key > best_key:
             best, best_key = eventi, key
     if not best:
         return None
+
+    # Rifinitura a scalata: dalla migliore trovata a caso prova tutte le
+    # sostituzioni di un singolo evento (altra partita o altro mercato della
+    # stessa partita) e tiene quelle che aumentano la probabilita' restando
+    # dentro la fascia e dentro le regole (finestra del turno, limiti).
+    def punteggio(ev):
+        nomi_ = {e['partita'] for e in ev}
+        return combo_prob(ev) - 0.02 * len(nomi_ & set(gia_usate_livello)) - 0.004 * len(nomi_ & set(gia_usate))
+
+    def valida(ev):
+        if len({e['partita'] for e in ev}) != len(ev) or not _rispetta_limiti(ev):
+            return False
+        ds = [datetime.datetime.fromisoformat(e['data']) for e in ev]
+        if (max(ds) - min(ds)).days > SAME_ROUND_WINDOW_DAYS:
+            return False
+        qq = 1 / combo_prob(ev)
+        return lo < qq <= hi
+
+    tutti = [e for m in partite for e in m]
+    migliorato = True
+    giri = 0
+    while migliorato and giri < 40:
+        migliorato = False
+        giri += 1
+        base = punteggio(best)
+        for i in range(len(best)):
+            for cand in tutti:
+                prova = best[:i] + [cand] + best[i + 1:]
+                if cand is best[i] or not valida(prova):
+                    continue
+                sc = punteggio(prova)
+                if sc > base + 1e-9:
+                    best, base, migliorato = prova, sc, True
     best = sorted(best, key=lambda e: e['data'])
     pc = combo_prob(best)
     return {
@@ -648,6 +788,8 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
             pick = derive_pick(p, pick_field, fn) if pick_field.startswith('derived_') else p.get(pick_field)
             if not pick:
                 continue
+            if pick_field in MERCATO_DA_CAMPO:
+                pick = pick_calibrato(MERCATO_DA_CAMPO[pick_field], pick)
             try:
                 kickoff = datetime.datetime.fromisoformat(p['data'])
             except Exception:
@@ -665,6 +807,7 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
                 'esito_pick': pick['esito'],
                 'probabilita_stimata': round(pick['probabilita'], 2),
                 'quota_stimata': round(1 / pick['probabilita'], 2),
+                'probabilita_modello': round(pick.get('probabilita_modello', pick['probabilita']), 2),
                 'confidenza_dati': 'MEDIA' if mercato_code in ('PT', 'AMM') else confidenza(pick['probabilita']),
                 'motivazione': p['nota'],
                 'esito': None,
@@ -804,12 +947,7 @@ def build_pool_nazionali():
             continue
         if kickoff <= NOW:
             continue
-        markets = []
-        if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
-        if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
-        if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
-        if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
-        if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
+        markets = mercati_calibrati(p)
         if not markets:
             continue
         best = pick_best_market(markets)
@@ -823,6 +961,7 @@ def build_pool_nazionali():
             'esito_pick': best[1]['esito'],
             'probabilita_stimata': round(best[1]['probabilita'], 2),
             'quota_stimata': round(1 / best[1]['probabilita'], 2),
+                'probabilita_modello': round(best[1].get('probabilita_modello', best[1]['probabilita']), 2),
             'confidenza_dati': confidenza(best[1]['probabilita']),
             'motivazione': p['nota'],
             'esito': None,
@@ -851,12 +990,7 @@ def build_matches_nazionali():
             continue
         if kickoff <= NOW:
             continue
-        markets = []
-        if p.get('pick_1x2'): markets.append(('1X2', p['pick_1x2']))
-        if p.get('pick_dc'): markets.append(('DC', p['pick_dc']))
-        if p.get('pick_uo'): markets.append(('OU25', p['pick_uo']))
-        if p.get('pick_uo35'): markets.append(('OU35', p['pick_uo35']))
-        if p.get('pick_gg'): markets.append(('GGNG', p['pick_gg']))
+        markets = mercati_calibrati(p)
         if not markets:
             continue
         markets.sort(key=lambda m: -m[1]['probabilita'])
@@ -885,6 +1019,7 @@ def _evento_nazionale(p, mkt_code, pick):
         'esito_pick': pick['esito'],
         'probabilita_stimata': round(pick['probabilita'], 2),
         'quota_stimata': round(1 / pick['probabilita'], 2),
+                'probabilita_modello': round(pick.get('probabilita_modello', pick['probabilita']), 2),
         'confidenza_dati': confidenza(pick['probabilita']),
         'motivazione': p['nota'],
         'esito': None,
@@ -1066,11 +1201,7 @@ def build_matches_coppe():
                 continue
             if kickoff <= NOW:
                 continue
-            markets = []
-            for code, field in (('1X2', 'pick_1x2'), ('DC', 'pick_dc'), ('OU25', 'pick_uo'),
-                                ('OU35', 'pick_uo35'), ('GGNG', 'pick_gg')):
-                if p.get(field):
-                    markets.append((code, p[field]))
+            markets = mercati_calibrati(p)
             if not markets:
                 continue
             markets.sort(key=lambda m: -m[1]['probabilita'])

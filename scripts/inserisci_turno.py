@@ -15,6 +15,12 @@ spec.json = {
   "partite": [{"casa": "...", "trasferta": "...", "data": "2026-10-17T15:00:00+02:00", "da_confermare": false}],
   "corner": {"Squadra": {"fav": 5.1, "con": 4.8}, ...}   # opzionale: corner a favore/contro a partita
 }
+Campo opzionale "prev" per squadra nella tabella: {"g": 38, "gf": 70, "ga": 40} = stagione
+PRECEDENTE (stessa lega). Se presente, i gol fatti/subiti a gara della squadra non sono piu'
+il solo campione delle prime giornate (4-8 gare, molto rumoroso: nel caso PSG-Manchester City
+del 14/10/2026 il PSG aveva 6 gol in 4 gare e 0.92 gol attesi) ma una media pesata tra la
+stagione in corso e un prior (60% stagione precedente, 40% media del campionato) che pesa
+quanto K_PRIOR partite. Senza "prev" il calcolo resta quello storico (campione grezzo).
 """
 import json, math, os, sys, datetime
 
@@ -23,6 +29,7 @@ MAX_GOALS = 9
 RHO = -0.10
 CAP = 0.90
 CORNER_LINE = 9.5
+K_PRIOR = 6  # peso (in partite) del prior stagione precedente / media campionato
 
 
 def pois(k, lam):
@@ -87,16 +94,37 @@ def corner_pick(c, casa, trasf):
     return {'esito': 'under', 'etichetta': 'Under 9.5 corner', 'probabilita': round(clamp(1 - over), 2), 'corner_attesi_totali': round(tot, 1)}
 
 
+def medie_campionato(tab):
+    g = sum(t['g'] for t in tab.values())
+    return sum(t['gf'] for t in tab.values()) / g if g else 1.4
+
+
+def tassi(t, media):
+    """Gol fatti e subiti a gara della squadra, stabilizzati con il prior
+    della stagione precedente quando disponibile (vedi docstring)."""
+    gf, ga = t['gf'] / t['g'], t['ga'] / t['g']
+    prev = t.get('prev')
+    if not prev or not prev.get('g'):
+        return gf, ga
+    pf = 0.6 * prev['gf'] / prev['g'] + 0.4 * media
+    pa = 0.6 * prev['ga'] / prev['g'] + 0.4 * media
+    n = t['g']
+    return (gf * n + pf * K_PRIOR) / (n + K_PRIOR), (ga * n + pa * K_PRIOR) / (n + K_PRIOR)
+
+
 def main(spec_path):
     spec = json.load(open(spec_path, encoding='utf-8'))
     path = os.path.join(DATA_DIR, spec['file'])
     d = json.load(open(path, encoding='utf-8'))
     tab = spec['tabella']
+    medie = medie_campionato(tab)
     nuove = []
     for m in spec['partite']:
         h, a = tab[m['casa']], tab[m['trasferta']]
-        eh = (h['gf'] / h['g'] + a['ga'] / a['g']) / 2 * 1.08
-        ea = (a['gf'] / a['g'] + h['ga'] / h['g']) / 2 * 0.92
+        gfh, gah = tassi(h, medie)
+        gfa, gaa = tassi(a, medie)
+        eh = (gfh + gaa) / 2 * 1.08
+        ea = (gfa + gah) / 2 * 0.92
         p = {'casa': m['casa'], 'trasferta': m['trasferta'], 'data': m['data'],
              'forma_casa': forma(m['casa'], h), 'forma_trasferta': forma(m['trasferta'], a)}
         p.update(picks(eh, ea, m['casa'], m['trasferta']))
