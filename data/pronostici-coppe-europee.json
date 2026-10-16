@@ -322,9 +322,10 @@
           "nota": "L'Union Saint-Gilloise è capolista incontrastata in Belgio; la Real Sociedad ha ritrovato risultati (vittorie su Espanyol ed Elche, pari a Vigo) dopo un avvio difficile. Mancano dati sui gol fatti/subiti per un calcolo più preciso: confidenza ridotta.",
           "confidenza_dati": "MEDIA-BASSA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-1",
+            "primo_tempo": "0-0",
+            "aggiornato": "2026-10-16T10:16:20Z"
           }
         }
       ]
@@ -407,9 +408,10 @@
           "nota": "Il Getafe vive un avvio difficile in Liga (16°, differenza reti -4) mentre la Craiova arriva in buona forma nel campionato rumeno; mancano dati sui gol a gara per un calcolo più preciso.",
           "confidenza_dati": "MEDIA-BASSA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-1",
+            "primo_tempo": "0-0",
+            "aggiornato": "2026-10-16T10:16:20Z"
           }
         },
         {
@@ -485,9 +487,10 @@
           "nota": "Forte squilibrio di livello tra una squadra di Premier League e il campione lituano: match che il Brighton parte per dominare largamente.",
           "confidenza_dati": "MEDIA-BASSA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "4-0",
+            "primo_tempo": "2-0",
+            "aggiornato": "2026-10-16T10:16:20Z"
           }
         }
       ]
