@@ -66,8 +66,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "id": "L4-1",
@@ -107,8 +107,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arsenal - LOSC Lille",
@@ -137,8 +137,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SL Benfica - Celtic",
@@ -152,8 +152,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
       ],
       "id": "L5-1",
@@ -178,8 +178,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arsenal - LOSC Lille",
@@ -193,8 +193,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Arsenal 1.35, Lille 0.92 (0.25 e 0.5 gol subiti a gara, le due migliori difese dei rispettivi campionati). Somma attesa 2.27 gol: gara da pochi gol, Arsenal favorito di misura in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Real Club Celta - Juventus",
@@ -208,8 +208,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SL Benfica - Celtic",
@@ -223,8 +223,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Pafos",
@@ -238,8 +238,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Villarreal - Napoli",
@@ -253,12 +253,14 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Villarreal 1.58, Napoli 1.53 (equilibrio quasi perfetto). Il Villarreal è comunque 17° in Liga con una difesa fragile (1.83 gol subiti a gara): match aperto e probabile Gol/Gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "id": "L6-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-16T00:15:33.430164+00:00"
     },
     {
       "livello_rischio": 7,
@@ -277,8 +279,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SL Benfica - Celtic",
@@ -292,8 +294,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Pafos",
@@ -307,8 +309,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Villarreal - Napoli",
@@ -322,8 +324,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Villarreal 1.58, Napoli 1.53 (equilibrio quasi perfetto). Il Villarreal è comunque 17° in Liga con una difesa fragile (1.83 gol subiti a gara): match aperto e probabile Gol/Gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "FC Salzburg - AC Milan",
@@ -337,8 +339,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Universitatea Craiova - Getafe",
@@ -372,7 +374,9 @@
         }
       ],
       "id": "L7-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T00:15:33.430164+00:00"
     },
     {
       "livello_rischio": 4,
@@ -421,8 +425,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Real Club Celta - Juventus",
@@ -436,8 +440,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "id": "L4-2",
@@ -531,8 +535,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SL Benfica - Celtic",
@@ -546,8 +550,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Pafos",
@@ -561,8 +565,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "FC Salzburg - AC Milan",
@@ -576,8 +580,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Universitatea Craiova - Getafe",
@@ -596,9 +600,11 @@
         }
       ],
       "id": "L5-2",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-16T00:15:33.430164+00:00"
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-10-14"
+  "aggiornato_il": "2026-10-16"
 }

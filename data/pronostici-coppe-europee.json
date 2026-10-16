@@ -205,9 +205,9 @@
           "nota": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "0-4",
+            "aggiornato": "2026-10-16T00:15:33Z"
           }
         },
         {
@@ -244,9 +244,9 @@
           "nota": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-2",
+            "aggiornato": "2026-10-16T00:15:33Z"
           }
         },
         {
@@ -283,9 +283,9 @@
           "nota": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
           "confidenza_dati": "ALTA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "4-1",
+            "aggiornato": "2026-10-16T00:15:33Z"
           }
         },
         {
@@ -446,9 +446,9 @@
           "nota": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-2",
+            "aggiornato": "2026-10-16T00:15:33Z"
           }
         },
         {
