@@ -449,8 +449,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "PEC Zwolle - Go Ahead Eagles",
@@ -1137,8 +1137,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-4"
         },
         {
           "partita": "Roma - Genoa",
@@ -1360,8 +1360,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "PEC Zwolle - Go Ahead Eagles",
@@ -1829,8 +1829,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-4"
         },
         {
           "partita": "Roma - Genoa",
@@ -2093,7 +2093,7 @@
       "quota_max": 6,
       "quota_combinata": 4.01,
       "probabilita_combinata": 0.25,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Botafogo - Chapecoense",
@@ -2122,8 +2122,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.62 gol attesi (7° con 10 punti, 11 gol fatti e 8 subiti in 6 gare), Cremonese 1.00 (14° con 6 punti, 5 fatti e 7 subiti in 6 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Leeds United - Manchester United",
@@ -2170,7 +2170,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T20:06:49.978796+00:00"
     },
     {
       "id": "L7-7",
@@ -2518,6 +2520,93 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-7",
+      "livello_rischio": 5,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 6,
+      "quota_combinata": 4.01,
+      "probabilita_combinata": 0.249,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Botafogo - Chapecoense",
+          "campionato": "Brasileirão",
+          "data": "2026-10-17T18:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Botafogo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.91 gol attesi (13° con 36 punti, 43 gol fatti e 48 subiti in 30 gare), Chapecoense 1.21 (20° con 18 punti, 30 fatti e 61 subiti in 29 gare). Somma attesa 3.12 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Cambuur - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-18T14:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.4,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 19 subiti in 8 gare), AZ Alkmaar 2.13 (3° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 3.41 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cesena - Avellino",
+          "campionato": "Serie B",
+          "data": "2026-10-18T17:15:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Cesena o Avellino",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cesena 1.26 gol attesi (10° con 7 punti, 7 gol fatti e 8 subiti in 6 gare), Avellino 1.46 (6° con 10 punti, 11 fatti e 7 subiti in 6 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Corinthians - Vitória",
+          "campionato": "Brasileirão",
+          "data": "2026-10-19T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Corinthians o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Parma - Torino",
+          "campionato": "Serie A",
+          "data": "2026-10-19T20:45:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Parma o Torino",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
           "esito": null,
           "risultato_reale": null
         }

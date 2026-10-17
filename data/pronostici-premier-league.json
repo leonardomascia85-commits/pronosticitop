@@ -198,9 +198,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.89 gol attesi (11° con 8 punti, 10 gol fatti e 13 subiti in 6 gare), Aston Villa 1.46 (16° con 5 punti, 6 fatti e 11 subiti in 6 gare). Somma attesa 3.35 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-17T20:20:00Z",
+        "primo_tempo": "0-1"
       }
     },
     {
