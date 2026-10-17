@@ -80,7 +80,8 @@ def conf(prob_dati_ok):
 
 
 def forma(t, s):
-    return f"{s['pos']}° posto, {s['pt']} pt in {s['g']} gare ({s['v']}V-{s['n']}N-{s['p']}P), {s['gf']}-{s['ga']}"
+    vnp = f" ({s['v']}V-{s['n']}N-{s['p']}P)" if all(k in s for k in 'vnp') else ''
+    return f"{s['pos']}° posto, {s['pt']} pt in {s['g']} gare{vnp}, {s['gf']}-{s['ga']}"
 
 
 def corner_pick(c, casa, trasf):

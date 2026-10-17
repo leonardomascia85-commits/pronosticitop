@@ -1,148 +1,399 @@
 {
   "campionato": "Brasileirão",
-  "giornata": "29ª rodada",
-  "periodo": "7-8 ottobre 2026",
-  "aggiornato": "2026-09-27",
+  "giornata": "31ª rodada",
+  "periodo": "16-19 ottobre 2026",
+  "aggiornato": "2026-10-17",
   "partite": [
     {
-      "casa": "Red Bull Bragantino",
-      "trasferta": "Mirassol",
-      "data": "2026-10-07T19:30:00-03:00",
-      "forma_casa": "10° posto, 36 pt",
-      "forma_trasferta": "15° posto, 32 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Bragantino", "probabilita": 0.46 },
-      "pick_dc": { "esito": "1X", "etichetta": "Bragantino o pareggio", "probabilita": 0.72 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
-      "nota": "Il Bragantino, meglio piazzato, parte leggermente favorito in casa contro il Mirassol.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
-    },
-    {
-      "casa": "Internacional",
-      "trasferta": "Corinthians",
-      "data": "2026-10-07T19:30:00-03:00",
-      "forma_casa": "18° posto (zona retrocessione), 28 pt",
-      "forma_trasferta": "14° posto, 32 pt",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Corinthians", "probabilita": 0.44 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Corinthians", "probabilita": 0.70 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.53 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.66 },
-      "nota": "L'Internacional è in piena zona retrocessione: il Corinthians, meglio piazzato, parte favorito in trasferta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
-    },
-    {
-      "casa": "Remo",
-      "trasferta": "Grêmio",
-      "data": "2026-10-07T19:30:00-03:00",
-      "forma_casa": "19° posto (zona retrocessione), 23 pt",
-      "forma_trasferta": "17° posto (zona retrocessione), 29 pt",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Grêmio", "probabilita": 0.42 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Grêmio", "probabilita": 0.68 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "under", "etichetta": "Under 2.5", "probabilita": 0.52 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.68 },
-      "nota": "Scontro diretto salvezza: il Grêmio, con qualche punto in più, parte leggermente favorito in trasferta.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
-    },
-    {
-      "casa": "Vitória",
-      "trasferta": "Chapecoense",
-      "data": "2026-10-07T20:00:00-03:00",
-      "forma_casa": "13° posto, 33 pt",
-      "forma_trasferta": "20° posto (ultimo), 18 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Vitória", "probabilita": 0.58 },
-      "pick_dc": { "esito": "1X", "etichetta": "Vitória o pareggio", "probabilita": 0.80 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.54 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
-      "nota": "La Chapecoense è ultima in classifica: il Vitória parte nettamente favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "casa": "Mirassol",
+      "trasferta": "Internacional",
+      "data": "2026-10-16T20:00:00-03:00",
+      "forma_casa": "14° posto, 33 pt in 30 gare (8V-9N-13P), 34-44",
+      "forma_trasferta": "17° posto, 32 pt in 30 gare (7V-11N-12P), 33-38",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Mirassol",
+        "probabilita": 0.38
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Mirassol o Internacional",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.55
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Mirassol 1.30 gol attesi (14° con 33 punti, 34 gol fatti e 44 subiti in 30 gare), Internacional 1.18 (17° con 32 punti, 33 fatti e 38 subiti in 30 gare). Somma attesa 2.48 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "2-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-17T07:00:00Z"
+      }
     },
     {
       "casa": "Botafogo",
-      "trasferta": "Vasco da Gama",
-      "data": "2026-10-07T20:30:00-03:00",
-      "forma_casa": "12° posto, 35 pt",
-      "forma_trasferta": "16° posto, 31 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Botafogo", "probabilita": 0.46 },
-      "pick_dc": { "esito": "1X", "etichetta": "Botafogo o pareggio", "probabilita": 0.72 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
-      "nota": "Il Botafogo, meglio piazzato, parte leggermente favorito nel derby carioca contro il Vasco da Gama.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "trasferta": "Chapecoense",
+      "data": "2026-10-17T18:00:00-03:00",
+      "forma_casa": "13° posto, 36 pt in 30 gare (9V-9N-12P), 43-48",
+      "forma_trasferta": "20° posto, 18 pt in 29 gare (3V-9N-17P), 30-61",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Botafogo",
+        "probabilita": 0.53
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Botafogo o pareggio",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Botafogo 1.91 gol attesi (13° con 36 punti, 43 gol fatti e 48 subiti in 30 gare), Chapecoense 1.21 (20° con 18 punti, 30 fatti e 61 subiti in 29 gare). Somma attesa 3.12 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
-      "casa": "Cruzeiro",
-      "trasferta": "São Paulo",
-      "data": "2026-10-07T21:30:00-03:00",
-      "forma_casa": "6° posto, 45 pt",
-      "forma_trasferta": "11° posto, 36 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Cruzeiro", "probabilita": 0.50 },
-      "pick_dc": { "esito": "1X", "etichetta": "Cruzeiro o pareggio", "probabilita": 0.76 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
-      "nota": "Il Cruzeiro, sesto in classifica con 9 punti in più del San Paolo, parte favorito in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
-    },
-    {
-      "casa": "Santos",
-      "trasferta": "Flamengo",
-      "data": "2026-10-08T19:30:00-03:00",
-      "forma_casa": "8° posto, 38 pt",
-      "forma_trasferta": "1° posto (capolista), 60 pt",
-      "pick_1x2": { "esito": "2", "etichetta": "Vittoria Flamengo", "probabilita": 0.58 },
-      "pick_dc": { "esito": "X2", "etichetta": "Pareggio o Flamengo", "probabilita": 0.82 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.58 },
-      "nota": "Il Flamengo capolista, con un ampio margine in classifica, fa visita a un Santos di metà classifica: nettamente favorito.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "casa": "Atlético-MG",
+      "trasferta": "Coritiba",
+      "data": "2026-10-17T18:30:00-03:00",
+      "forma_casa": "7° posto, 47 pt in 30 gare (13V-8N-9P), 41-35",
+      "forma_trasferta": "11° posto, 39 pt in 30 gare (10V-9N-11P), 38-48",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Atlético-MG",
+        "probabilita": 0.47
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Atlético-MG o pareggio",
+        "probabilita": 0.75
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.71
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.55
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.60 gol attesi (7° con 47 punti, 41 gol fatti e 35 subiti in 30 gare), Coritiba 1.12 (11° con 39 punti, 38 fatti e 48 subiti in 30 gare). Somma attesa 2.72 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Athletico-PR",
-      "trasferta": "Atlético-MG",
-      "data": "2026-10-08T20:00:00-03:00",
-      "forma_casa": "3° posto, 49 pt",
-      "forma_trasferta": "7° posto, 40 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Athletico-PR", "probabilita": 0.48 },
-      "pick_dc": { "esito": "1X", "etichetta": "Athletico-PR o pareggio", "probabilita": 0.74 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.64 },
-      "nota": "L'Athletico-PR, terzo in classifica, ospita un Atlético Mineiro di metà alta classifica: favoriti in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "trasferta": "Palmeiras",
+      "data": "2026-10-17T19:30:00-03:00",
+      "forma_casa": "3° posto, 53 pt in 30 gare (15V-8N-7P), 49-35",
+      "forma_trasferta": "2° posto, 63 pt in 30 gare (18V-9N-3P), 52-22",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Palmeiras",
+        "probabilita": 0.37
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Athletico-PR o Palmeiras",
+        "probabilita": 0.71
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.73
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.28 gol attesi (3° con 53 punti, 49 gol fatti e 35 subiti in 30 gare), Palmeiras 1.33 (2° con 63 punti, 52 fatti e 22 subiti in 30 gare). Somma attesa 2.61 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "São Paulo",
+      "trasferta": "Vasco da Gama",
+      "data": "2026-10-17T21:00:00-03:00",
+      "forma_casa": "10° posto, 39 pt in 30 gare (11V-6N-13P), 35-35",
+      "forma_trasferta": "15° posto, 35 pt in 29 gare (9V-8N-12P), 36-42",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria São Paulo",
+        "probabilita": 0.43
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "São Paulo o pareggio",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.75
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.41 gol attesi (10° con 39 punti, 35 gol fatti e 35 subiti in 30 gare), Vasco da Gama 1.11 (15° con 35 punti, 36 fatti e 42 subiti in 29 gare). Somma attesa 2.52 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
       "casa": "Fluminense",
-      "trasferta": "Coritiba",
-      "data": "2026-10-08T21:30:00-03:00",
-      "forma_casa": "4° posto, 48 pt",
-      "forma_trasferta": "9° posto, 38 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Fluminense", "probabilita": 0.50 },
-      "pick_dc": { "esito": "1X", "etichetta": "Fluminense o pareggio", "probabilita": 0.76 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.56 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.54 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.62 },
-      "nota": "Il Fluminense, quarto in classifica, ospita un Coritiba di metà classifica: favoriti in casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "trasferta": "Santos",
+      "data": "2026-10-18T16:00:00-03:00",
+      "forma_casa": "4° posto, 51 pt in 30 gare (14V-9N-7P), 48-37",
+      "forma_trasferta": "8° posto, 42 pt in 30 gare (11V-9N-10P), 46-45",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Fluminense",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Fluminense o Santos",
+        "probabilita": 0.74
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Fluminense 1.67 gol attesi (4° con 51 punti, 48 gol fatti e 37 subiti in 30 gare), Santos 1.27 (8° con 42 punti, 46 fatti e 45 subiti in 30 gare). Somma attesa 2.95 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     },
     {
-      "casa": "Palmeiras",
-      "trasferta": "Bahia",
-      "data": "2026-10-08T21:30:00-03:00",
-      "forma_casa": "2° posto, 57 pt",
-      "forma_trasferta": "5° posto, 46 pt",
-      "pick_1x2": { "esito": "1", "etichetta": "Vittoria Palmeiras", "probabilita": 0.54 },
-      "pick_dc": { "esito": "1X", "etichetta": "Palmeiras o pareggio", "probabilita": 0.78 },
-      "pick_gg": { "esito": "gol", "etichetta": "Gol", "probabilita": 0.58 },
-      "pick_uo": { "esito": "over", "etichetta": "Over 2.5", "probabilita": 0.56 },
-      "pick_uo35": { "esito": "under", "etichetta": "Under 3.5", "probabilita": 0.60 },
-      "nota": "Il Palmeiras, secondo in classifica, ospita un Bahia comunque in zona alta: match di cartello con i favori per i padroni di casa.",
-      "risultato": { "stato": "non_iniziata", "punteggio": null, "aggiornato": null }
+      "casa": "Grêmio",
+      "trasferta": "Cruzeiro",
+      "data": "2026-10-18T16:00:00-03:00",
+      "forma_casa": "18° posto, 31 pt in 30 gare (7V-10N-13P), 32-40",
+      "forma_trasferta": "6° posto, 48 pt in 30 gare (14V-6N-10P), 46-44",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Grêmio",
+        "probabilita": 0.37
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Grêmio o Cruzeiro",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.5
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Grêmio 1.37 gol attesi (18° con 31 punti, 32 gol fatti e 40 subiti in 30 gare), Cruzeiro 1.32 (6° con 48 punti, 46 fatti e 44 subiti in 30 gare). Somma attesa 2.69 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Bahia",
+      "trasferta": "Flamengo",
+      "data": "2026-10-18T18:30:00-03:00",
+      "forma_casa": "5° posto, 49 pt in 30 gare (13V-10N-7P), 44-36",
+      "forma_trasferta": "1° posto, 64 pt in 30 gare (19V-7N-4P), 58-25",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Flamengo",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Bahia o Flamengo",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.5
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.72
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Bahia 1.24 gol attesi (5° con 49 punti, 44 gol fatti e 36 subiti in 30 gare), Flamengo 1.44 (1° con 64 punti, 58 fatti e 25 subiti in 30 gare). Somma attesa 2.68 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Remo",
+      "trasferta": "Red Bull Bragantino",
+      "data": "2026-10-18T19:30:00-03:00",
+      "forma_casa": "19° posto, 25 pt in 30 gare (5V-10N-15P), 33-48",
+      "forma_trasferta": "9° posto, 40 pt in 30 gare (11V-7N-12P), 38-35",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Red Bull Bragantino",
+        "probabilita": 0.38
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Remo o Red Bull Bragantino",
+        "probabilita": 0.71
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.75
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Remo 1.22 gol attesi (19° con 25 punti, 33 gol fatti e 48 subiti in 30 gare), Red Bull Bragantino 1.32 (9° con 40 punti, 38 fatti e 35 subiti in 30 gare). Somma attesa 2.54 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Corinthians",
+      "trasferta": "Vitória",
+      "data": "2026-10-19T20:00:00-03:00",
+      "forma_casa": "16° posto, 32 pt in 30 gare (8V-8N-14P), 31-38",
+      "forma_trasferta": "12° posto, 36 pt in 30 gare (10V-6N-14P), 33-44",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Corinthians",
+        "probabilita": 0.41
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Corinthians o pareggio",
+        "probabilita": 0.71
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.77
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.5
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
     }
   ]
 }
