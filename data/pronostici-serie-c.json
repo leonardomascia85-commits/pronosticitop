@@ -360,9 +360,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 0.96 gol attesi (17° con 6 punti, 9 gol fatti e 13 subiti in 9 gare), Treviso 1.07 (7° con 13 punti, 8 fatti e 7 subiti in 9 gare). Somma attesa 2.03 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-17T18:20:00Z"
       }
     },
     {
@@ -400,9 +400,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Potenza 2.04 gol attesi (1° con 22 punti, 24 gol fatti e 12 subiti in 9 gare), Catania 1.48 (4° con 16 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.52 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-17T18:20:00Z",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -440,9 +441,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Salernitana 1.46 gol attesi (9° con 13 punti, 12 gol fatti e 10 subiti in 9 gare), Scafatese 1.26 (8° con 13 punti, 13 fatti e 11 subiti in 8 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-17T18:20:00Z"
       }
     },
     {

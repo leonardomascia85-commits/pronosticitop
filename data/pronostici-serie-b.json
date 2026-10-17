@@ -236,9 +236,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Mantova 1.80 gol attesi (2° con 14 punti, 13 gol fatti e 6 subiti in 6 gare), Palermo 1.53 (1° con 16 punti, 14 fatti e 7 subiti in 6 gare). Somma attesa 3.33 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-17T18:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

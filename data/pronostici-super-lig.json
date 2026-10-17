@@ -199,9 +199,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 1.93 gol attesi (4° con 13 punti, 19 gol fatti e 6 subiti in 7 gare), Alanyaspor 0.92 (6° con 12 punti, 8 fatti e 6 subiti in 7 gare). Somma attesa 2.85 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-17T18:20:00Z"
       }
     },
     {

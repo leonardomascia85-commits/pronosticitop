@@ -118,9 +118,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bologna 1.17 gol attesi (14° con 5 punti, 5 gol fatti e 7 subiti in 6 gare), Inter 1.92 (1° con 16 punti, 18 fatti e 8 subiti in 6 gare). Somma attesa 3.09 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-10-17T18:20:00Z",
+        "primo_tempo": "1-1"
       }
     },
     {
