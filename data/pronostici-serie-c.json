@@ -1,30 +1,985 @@
 {
   "campionato": "Serie C",
-  "giornata": "8ª giornata (Gironi A, B, C)",
-  "periodo": "3-4 ottobre 2026",
-  "aggiornato": "2026-09-27",
+  "giornata": "10ª giornata (Gironi A, B, C)",
+  "periodo": "16-19 ottobre 2026 (più due recuperi del 27-28 ottobre)",
+  "aggiornato": "2026-10-17",
   "partite": [
     {
       "girone": "A",
-      "casa": "Cittadella",
-      "trasferta": "Albinoleffe",
-      "data": "2026-10-03T14:30:00+02:00",
-      "forma_casa": "1° posto, 21 pt in 7 gare (7V-0N-0P), miglior forma del girone",
-      "forma_trasferta": "posizione esatta non trovata, vittoria 5-0 nell'ultimo turno",
+      "casa": "Pro Vercelli",
+      "trasferta": "Lecco",
+      "data": "2026-10-16T20:30:00+02:00",
+      "forma_casa": "15° posto, 9 pt in 10 gare (2V-3N-5P), 8-18",
+      "forma_trasferta": "8° posto, 13 pt in 10 gare (3V-4N-3P), 12-9",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Lecco",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Lecco",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.8
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.54
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Pro Vercelli 0.92 gol attesi (15° con 9 punti, 8 gol fatti e 18 subiti in 10 gare), Lecco 1.38 (8° con 13 punti, 12 fatti e 9 subiti in 10 gare). Somma attesa 2.30 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "0-5",
+        "aggiornato": "2026-10-17T07:00:00Z"
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Livorno",
+      "trasferta": "Grosseto",
+      "data": "2026-10-16T20:30:00+02:00",
+      "forma_casa": "4° posto, 16 pt in 10 gare (4V-4N-2P), 15-14",
+      "forma_trasferta": "3° posto, 19 pt in 10 gare (5V-4N-1P), 21-13",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Grosseto",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Livorno o Grosseto",
+        "probabilita": 0.74
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Livorno 1.51 gol attesi (4° con 16 punti, 15 gol fatti e 14 subiti in 10 gare), Grosseto 1.61 (3° con 19 punti, 21 fatti e 13 subiti in 10 gare). Somma attesa 3.12 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "finale",
+        "punteggio": "4-4",
+        "aggiornato": "2026-10-17T07:00:00Z"
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Carpi",
+      "trasferta": "Lumezzane",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "18° posto, 6 pt in 9 gare (1V-3N-5P), 11-19",
+      "forma_trasferta": "11° posto, 12 pt in 9 gare (3V-3N-3P), 10-11",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Lumezzane",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Carpi o Lumezzane",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Carpi 1.32 gol attesi (18° con 6 punti, 11 gol fatti e 19 subiti in 9 gare), Lumezzane 1.48 (11° con 12 punti, 10 fatti e 11 subiti in 9 gare). Somma attesa 2.80 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Guidonia Montecelio",
+      "trasferta": "Forlì",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "7° posto, 13 pt in 9 gare (3V-4N-2P), 11-8",
+      "forma_trasferta": "11° posto, 11 pt in 9 gare (2V-5N-2P), 14-13",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Cittadella",
-        "probabilita": 0.62
+        "etichetta": "Vittoria Guidonia Montecelio",
+        "probabilita": 0.43
       },
       "pick_dc": {
         "esito": "1X",
-        "etichetta": "Cittadella o pareggio",
-        "probabilita": 0.84
+        "etichetta": "Guidonia Montecelio o pareggio",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Guidonia Montecelio 1.44 gol attesi (7° con 13 punti, 11 gol fatti e 8 subiti in 9 gare), Forlì 1.12 (11° con 11 punti, 14 fatti e 13 subiti in 9 gare). Somma attesa 2.56 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Pianese",
+      "trasferta": "Pineto",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "17° posto, 7 pt in 9 gare (1V-4N-4P), 6-10",
+      "forma_trasferta": "16° posto, 7 pt in 8 gare (1V-4N-3P), 6-11",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Pianese",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Pianese o pareggio",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.69
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.86
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Pianese 1.10 gol attesi (17° con 7 punti, 6 gol fatti e 10 subiti in 9 gare), Pineto 0.86 (16° con 7 punti, 6 fatti e 11 subiti in 8 gare). Somma attesa 1.96 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Reggiana",
+      "trasferta": "Torres",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "6° posto, 14 pt in 8 gare (4V-2N-2P), 12-7",
+      "forma_trasferta": "5° posto, 15 pt in 9 gare (4V-3N-2P), 11-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Reggiana",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Reggiana o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Reggiana 1.41 gol attesi (6° con 14 punti, 12 gol fatti e 7 subiti in 8 gare), Torres 0.96 (5° con 15 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.37 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Vado",
+      "trasferta": "Sambenedettese",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "12° posto, 11 pt in 9 gare (3V-2N-4P), 8-8",
+      "forma_trasferta": "19° posto, 6 pt in 9 gare (1V-3N-5P), 12-15",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Vado",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Vado o pareggio",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.57
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Vado 1.38 gol attesi (12° con 11 punti, 8 gol fatti e 8 subiti in 9 gare), Sambenedettese 1.02 (19° con 6 punti, 12 fatti e 15 subiti in 9 gare). Somma attesa 2.40 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Inter U23",
+      "trasferta": "Monopoli",
+      "data": "2026-10-17T14:30:00+02:00",
+      "forma_casa": "7° posto, 13 pt in 8 gare (4V-1N-3P), 16-13",
+      "forma_trasferta": "12° posto, 12 pt in 9 gare (3V-3N-3P), 7-7",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Inter U23",
+        "probabilita": 0.45
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Inter U23 o pareggio",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.73
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Inter U23 1.50 gol attesi (7° con 13 punti, 16 gol fatti e 13 subiti in 8 gare), Monopoli 1.11 (12° con 12 punti, 7 fatti e 7 subiti in 9 gare). Somma attesa 2.61 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Folgore Caratese",
+      "trasferta": "Treviso",
+      "data": "2026-10-17T17:30:00+02:00",
+      "forma_casa": "17° posto, 6 pt in 9 gare (1V-3N-5P), 9-13",
+      "forma_trasferta": "7° posto, 13 pt in 9 gare (3V-4N-2P), 8-7",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Treviso",
+        "probabilita": 0.36
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Treviso",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.67
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.85
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 0.96 gol attesi (17° con 6 punti, 9 gol fatti e 13 subiti in 9 gare), Treviso 1.07 (7° con 13 punti, 8 fatti e 7 subiti in 9 gare). Somma attesa 2.03 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Potenza",
+      "trasferta": "Catania",
+      "data": "2026-10-17T17:30:00+02:00",
+      "forma_casa": "1° posto, 22 pt in 9 gare (7V-1N-1P), 24-12",
+      "forma_trasferta": "4° posto, 16 pt in 9 gare (5V-1N-3P), 17-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Potenza",
+        "probabilita": 0.5
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Potenza o Catania",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.68
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.53
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.68
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Potenza 2.04 gol attesi (1° con 22 punti, 24 gol fatti e 12 subiti in 9 gare), Catania 1.48 (4° con 16 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.52 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Salernitana",
+      "trasferta": "Scafatese",
+      "data": "2026-10-17T17:30:00+02:00",
+      "forma_casa": "9° posto, 13 pt in 9 gare (3V-4N-2P), 12-10",
+      "forma_trasferta": "8° posto, 13 pt in 8 gare (3V-4N-1P), 13-11",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Salernitana",
+        "probabilita": 0.41
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Salernitana o Scafatese",
+        "probabilita": 0.72
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.51
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.71
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
         "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Salernitana 1.46 gol attesi (9° con 13 punti, 12 gol fatti e 10 subiti in 9 gare), Scafatese 1.26 (8° con 13 punti, 13 fatti e 11 subiti in 8 gare). Somma attesa 2.72 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Campobasso",
+      "trasferta": "Perugia",
+      "data": "2026-10-18T12:30:00+02:00",
+      "forma_casa": "9° posto, 12 pt in 9 gare (3V-3N-3P), 13-14",
+      "forma_trasferta": "8° posto, 13 pt in 9 gare (4V-1N-4P), 9-14",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Campobasso",
+        "probabilita": 0.47
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Campobasso o pareggio",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Campobasso 1.62 gol attesi (9° con 12 punti, 13 gol fatti e 14 subiti in 9 gare), Perugia 1.18 (8° con 13 punti, 9 fatti e 14 subiti in 9 gare). Somma attesa 2.80 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Latina",
+      "trasferta": "Vis Pesaro",
+      "data": "2026-10-18T12:30:00+02:00",
+      "forma_casa": "13° posto, 10 pt in 9 gare (2V-4N-3P), 9-10",
+      "forma_trasferta": "20° posto, 4 pt in 8 gare (1V-1N-6P), 10-19",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Latina",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Latina o pareggio",
+        "probabilita": 0.79
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.67
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Latina 1.82 gol attesi (13° con 10 punti, 9 gol fatti e 10 subiti in 9 gare), Vis Pesaro 1.09 (20° con 4 punti, 10 fatti e 19 subiti in 8 gare). Somma attesa 2.91 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Gubbio",
+      "trasferta": "Atalanta U23",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "18° posto, 7 pt in 9 gare (2V-1N-6P), 10-18",
+      "forma_trasferta": "14° posto, 9 pt in 8 gare (3V-0N-5P), 8-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Gubbio",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Gubbio o Atalanta U23",
+        "probabilita": 0.73
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Gubbio 1.48 gol attesi (18° con 7 punti, 10 gol fatti e 18 subiti in 9 gare), Atalanta U23 1.38 (14° con 9 punti, 8 fatti e 13 subiti in 8 gare). Somma attesa 2.86 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Ravenna",
+      "trasferta": "Spezia",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "2° posto, 20 pt in 9 gare (6V-2N-1P), 16-5",
+      "forma_trasferta": "1° posto, 25 pt in 9 gare (8V-1N-0P), 17-4",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Ravenna",
+        "probabilita": 0.36
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Ravenna o Spezia",
+        "probabilita": 0.69
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.59
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Ravenna 1.20 gol attesi (2° con 20 punti, 16 gol fatti e 5 subiti in 9 gare), Spezia 1.12 (1° con 25 punti, 17 fatti e 4 subiti in 9 gare). Somma attesa 2.32 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Audace Cerignola",
+      "trasferta": "Savoia",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "6° posto, 14 pt in 9 gare (4V-2N-3P), 14-9",
+      "forma_trasferta": "15° posto, 10 pt in 9 gare (2V-4N-3P), 11-12",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Audace Cerignola",
+        "probabilita": 0.49
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Audace Cerignola o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.74
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Audace Cerignola 1.56 gol attesi (6° con 14 punti, 14 gol fatti e 9 subiti in 9 gare), Savoia 1.02 (15° con 10 punti, 11 fatti e 12 subiti in 9 gare). Somma attesa 2.58 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Cavese",
+      "trasferta": "Casarano",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "11° posto, 12 pt in 9 gare (3V-3N-3P), 15-15",
+      "forma_trasferta": "14° posto, 11 pt in 9 gare (3V-2N-4P), 10-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Cavese",
+        "probabilita": 0.46
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Cavese o Casarano",
+        "probabilita": 0.74
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Cavese 1.68 gol attesi (11° con 12 punti, 15 gol fatti e 15 subiti in 9 gare), Casarano 1.28 (14° con 11 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.96 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Cosenza",
+      "trasferta": "Altamura",
+      "data": "2026-10-18T14:30:00+02:00",
+      "forma_casa": "19° posto, 5 pt in 9 gare (1V-2N-6P), 7-19",
+      "forma_trasferta": "17° posto, 8 pt in 9 gare (2V-2N-5P), 4-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Cosenza",
+        "probabilita": 0.35
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Cosenza o Altamura",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.58
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.78
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.5
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Cosenza 1.20 gol attesi (19° con 5 punti, 7 gol fatti e 19 subiti in 9 gare), Altamura 1.18 (17° con 8 punti, 4 fatti e 13 subiti in 9 gare). Somma attesa 2.38 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Bari",
+      "trasferta": "Crotone",
+      "data": "2026-10-18T15:00:00+02:00",
+      "forma_casa": "2° posto, 19 pt in 9 gare (6V-1N-2P), 13-6",
+      "forma_trasferta": "20° posto, 0 pt in 9 gare (1V-3N-5P), 10-15",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Bari",
+        "probabilita": 0.57
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Bari o pareggio",
+        "probabilita": 0.83
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.76
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Bari 1.68 gol attesi (2° con 19 punti, 13 gol fatti e 6 subiti in 9 gare), Crotone 0.82 (20° con 0 punti, 10 fatti e 15 subiti in 9 gare). Somma attesa 2.50 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Ospitaletto Franciacorta",
+      "trasferta": "Pergolettese",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "3° posto, 18 pt in 9 gare (5V-3N-1P), 15-6",
+      "forma_trasferta": "12° posto, 11 pt in 9 gare (2V-5N-2P), 5-6",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Ospitaletto Franciacorta",
+        "probabilita": 0.52
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Ospitaletto Franciacorta o pareggio",
+        "probabilita": 0.85
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.72
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.89
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.68
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Albinoleffe",
+      "trasferta": "Novara",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "9° posto, 12 pt in 9 gare (3V-3N-3P), 14-13",
+      "forma_trasferta": "14° posto, 9 pt in 9 gare (2V-3N-4P), 8-12",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Albinoleffe",
+        "probabilita": 0.47
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Albinoleffe o pareggio",
+        "probabilita": 0.75
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.51
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.73
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Albinoleffe 1.56 gol attesi (9° con 12 punti, 14 gol fatti e 13 subiti in 9 gare), Novara 1.07 (14° con 9 punti, 8 fatti e 12 subiti in 9 gare). Somma attesa 2.63 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Alcione Milano",
+      "trasferta": "Desenzano",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "10° posto, 12 pt in 9 gare (2V-6N-1P), 13-14",
+      "forma_trasferta": "6° posto, 13 pt in 9 gare (3V-4N-2P), 8-7",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Alcione Milano",
+        "probabilita": 0.36
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Alcione Milano o Desenzano",
+        "probabilita": 0.69
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.59
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Alcione Milano 1.20 gol attesi (10° con 12 punti, 13 gol fatti e 14 subiti in 9 gare), Desenzano 1.12 (6° con 13 punti, 8 fatti e 7 subiti in 9 gare). Somma attesa 2.32 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "B",
+      "casa": "Pescara",
+      "trasferta": "Ostiamare",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "10° posto, 12 pt in 9 gare (3V-3N-3P), 11-12",
+      "forma_trasferta": "15° posto, 9 pt in 9 gare (2V-3N-4P), 9-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Pescara",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Pescara o pareggio",
+        "probabilita": 0.7
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.59
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Pescara 1.26 gol attesi (10° con 12 punti, 11 gol fatti e 12 subiti in 9 gare), Ostiamare 1.07 (15° con 9 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.33 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Barletta",
+      "trasferta": "Picerno",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "16° posto, 8 pt in 9 gare (1V-5N-3P), 12-15",
+      "forma_trasferta": "10° posto, 12 pt in 9 gare (4V-0N-5P), 17-17",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Barletta",
+        "probabilita": 0.4
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Barletta o Picerno",
+        "probabilita": 0.75
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.66
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.67
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Barletta 1.74 gol attesi (16° con 8 punti, 12 gol fatti e 15 subiti in 9 gare), Picerno 1.64 (10° con 12 punti, 17 fatti e 17 subiti in 9 gare). Somma attesa 3.38 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Sorrento",
+      "trasferta": "Casertana",
+      "data": "2026-10-18T17:30:00+02:00",
+      "forma_casa": "3° posto, 18 pt in 9 gare (6V-0N-3P), 14-10",
+      "forma_trasferta": "5° posto, 15 pt in 9 gare (4V-3N-2P), 15-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Sorrento",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Sorrento o Casertana",
+        "probabilita": 0.73
       },
       "pick_uo": {
         "esito": "over",
@@ -34,504 +989,197 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.66
-      },
-      "nota": "Il Cittadella capolista è ancora a punteggio pieno dopo 7 giornate: nettamente favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-10-03T14:20:51Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Arzignano Valchiampo",
-      "trasferta": "Pergolettese",
-      "data": "2026-10-03T17:30:00+02:00",
-      "forma_casa": "10 punti, centrocampo classifica",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Arzignano",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Arzignano o pareggio",
-        "probabilita": 0.68
+        "probabilita": 0.67
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.54
+        "probabilita": 0.59
       },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "L'Arzignano, di centrocampo classifica, parte leggermente favorito in casa in un match dai contorni incerti.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Sorrento 1.62 gol attesi (3° con 18 punti, 14 gol fatti e 10 subiti in 9 gare), Casertana 1.28 (5° con 15 punti, 15 fatti e 13 subiti in 9 gare). Somma attesa 2.90 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-03T20:20:00Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "girone": "A",
-      "casa": "Folgore Caratese",
-      "trasferta": "Desenzano",
-      "data": "2026-10-03T20:30:00+02:00",
-      "forma_casa": "vittoria 2-1 su Lumezzane nell'ultimo turno",
-      "forma_trasferta": "dato non trovato",
+      "casa": "Cittadella",
+      "trasferta": "Arzignano Valchiampo",
+      "data": "2026-10-19T20:30:00+02:00",
+      "forma_casa": "1° posto, 24 pt in 9 gare (8V-0N-1P), 16-4",
+      "forma_trasferta": "5° posto, 17 pt in 9 gare (5V-2N-2P), 14-10",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Folgore Caratese",
-        "probabilita": 0.44
+        "etichetta": "Vittoria Cittadella",
+        "probabilita": 0.51
       },
       "pick_dc": {
         "esito": "1X",
-        "etichetta": "Folgore Caratese o pareggio",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "La Folgore Caratese arriva in casa dopo il successo sul Lumezzane, leggermente favorita.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-10-04T00:20:00Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Ospitaletto Franciacorta",
-      "trasferta": "Renate",
-      "data": "2026-10-03T20:30:00+02:00",
-      "forma_casa": "2°/3° posto, 14 pt (una gara in meno), ottima forma",
-      "forma_trasferta": "zona bassa classifica, 2 pt in 6 gare, forma negativa",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Ospitaletto Franciacorta",
-        "probabilita": 0.6
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Ospitaletto o pareggio",
-        "probabilita": 0.82
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "L'Ospitaletto, in gran forma, ospita un Renate in difficoltà e ancora fermo a 2 punti: netto favorito nei modelli.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-04T00:20:00Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Pro Vercelli",
-      "trasferta": "Carpi",
-      "data": "2026-10-03T20:30:00+02:00",
-      "forma_casa": "pareggio 1-1 nell'ultimo turno",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Pro Vercelli",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Pro Vercelli o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
+        "etichetta": "Cittadella o pareggio",
+        "probabilita": 0.79
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.52
+        "probabilita": 0.55
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Match dai contorni incerti per assenza di dati aggiornati sul Carpi: leggero favore per la Pro Vercelli in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-04T00:20:00Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Lecco",
-      "trasferta": "Union Brescia",
-      "data": "2026-10-04T12:30:00+02:00",
-      "forma_casa": "sconfitta 0-3 vs Cittadella nell'ultimo turno",
-      "forma_trasferta": "2°/3° posto, 14 pt (una gara in meno), ottima forma",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Union Brescia",
-        "probabilita": 0.54
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Union Brescia",
-        "probabilita": 0.78
+        "probabilita": 0.76
       },
       "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51
       },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Lecco, reduce da un pesante 0-3, ospita un Union Brescia nettamente in palla e favorito.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-04T12:20:00Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Treviso",
-      "trasferta": "Giana Erminio",
-      "data": "2026-10-04T12:30:00+02:00",
-      "forma_casa": "9 punti, centrocampo classifica",
-      "forma_trasferta": "zona bassa, 3 pt in 7 gare, pareggio nell'ultimo turno",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Treviso",
-        "probabilita": 0.48
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Treviso o pareggio",
-        "probabilita": 0.74
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Il Treviso, di metà classifica, ospita una Giana Erminio in zona bassa: favorito di misura in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-10-04T12:20:00Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "girone": "A",
       "casa": "Dolomiti Bellunesi",
-      "trasferta": "Novara",
-      "data": "2026-10-04T17:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "dato non trovato",
+      "trasferta": "Trento",
+      "data": "2026-10-19T20:30:00+02:00",
+      "forma_casa": "13° posto, 10 pt in 9 gare (2V-4N-3P), 7-9",
+      "forma_trasferta": "4° posto, 17 pt in 9 gare (4V-5N-0P), 12-5",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Dolomiti Bellunesi",
-        "probabilita": 0.4
+        "esito": "2",
+        "etichetta": "Vittoria Trento",
+        "probabilita": 0.42
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Dolomiti Bellunesi o pareggio",
-        "probabilita": 0.66
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.5
+        "esito": "X2",
+        "etichetta": "Pareggio o Trento",
+        "probabilita": 0.77
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.52
+        "probabilita": 0.73
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7
+        "probabilita": 0.89
       },
-      "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.65
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-10-04T18:20:00Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "A",
+      "casa": "Giana Erminio",
+      "trasferta": "Union Brescia",
+      "data": "2026-10-19T20:30:00+02:00",
+      "forma_casa": "19° posto, 5 pt in 9 gare (0V-5N-4P), 8-12",
+      "forma_trasferta": "2° posto, 19 pt in 9 gare (5V-4N-0P), 16-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Union Brescia",
+        "probabilita": 0.5
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Union Brescia",
+        "probabilita": 0.79
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.6
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.81
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.56
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
       "girone": "A",
       "casa": "Juventus Next Gen",
-      "trasferta": "Lumezzane",
-      "data": "2026-10-13T16:00:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "sconfitta 1-2 nell'ultimo turno, forma negativa",
+      "trasferta": "Renate",
+      "data": "2026-10-19T20:30:00+02:00",
+      "forma_casa": "16° posto, 7 pt in 9 gare (1V-4N-4P), 8-15",
+      "forma_trasferta": "20° posto, 4 pt in 9 gare (0V-4N-5P), 8-14",
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Juventus Next Gen",
-        "probabilita": 0.42
+        "probabilita": 0.39
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Juventus Next Gen o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Il Lumezzane arriva da una sconfitta e in un momento negativo: leggero favore per la Juventus Next Gen in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-10-14T10:15:32Z"
-      }
-    },
-    {
-      "girone": "A",
-      "casa": "Alcione Milano",
-      "trasferta": "Trento",
-      "data": "2026-10-04T20:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "4° posto, 13 pt, ottima forma",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Trento",
-        "probabilita": 0.46
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Trento",
-        "probabilita": 0.72
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Il Trento, quarto in classifica e in buona forma, parte leggermente favorito in trasferta contro l'Alcione Milano.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-05T00:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Gubbio",
-      "trasferta": "Perugia",
-      "data": "2026-10-03T14:30:00+02:00",
-      "forma_casa": "circa 7 punti, dato aggiornato non trovato oltre la 5ª giornata",
-      "forma_trasferta": "circa 7 punti, dato aggiornato non trovato oltre la 5ª giornata",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Gubbio",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Gubbio o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
+        "esito": "12",
+        "etichetta": "Juventus Next Gen o Renate",
+        "probabilita": 0.7
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Derby umbro tra due squadre appaiate in classifica secondo l'ultimo dato disponibile: match aperto con leggero favore per il fattore campo.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-3",
-        "aggiornato": "2026-10-03T14:20:51Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Vado",
-      "trasferta": "Forlì",
-      "data": "2026-10-03T14:30:00+02:00",
-      "forma_casa": "zona bassa, circa 4 punti (dato datato)",
-      "forma_trasferta": "pareggio 0-0 vs Torres nell'ultimo turno, difesa solida",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Vado",
-        "probabilita": 0.38
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Vado o pareggio",
-        "probabilita": 0.64
-      },
-      "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
         "probabilita": 0.54
       },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.56
-      },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.74
-      },
-      "nota": "Il Vado, in zona bassa, ospita un Forlì reduce da uno 0-0 che conferma una difesa solida: match da pochi gol.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-03T14:20:51Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Grosseto",
-      "trasferta": "Sambenedettese",
-      "data": "2026-10-03T17:30:00+02:00",
-      "forma_casa": "2° posto, 15 pt, imbattuto, vittoria 4-0 nell'ultimo turno",
-      "forma_trasferta": "zona retrocessione, circa 1 punto (dato datato), forma negativa",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Grosseto",
-        "probabilita": 0.64
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Grosseto o pareggio",
-        "probabilita": 0.86
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.6
-      },
-      "nota": "Il Grosseto, secondo e imbattuto, reduce da un netto 4-0: nettamente favorito in casa contro una Sambenedettese in zona retrocessione.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-3",
-        "aggiornato": "2026-10-03T18:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Livorno",
-      "trasferta": "Pescara",
-      "data": "2026-10-03T17:30:00+02:00",
-      "forma_casa": "5° posto, 14 pt, vittoria 3-2 nell'ultimo turno",
-      "forma_trasferta": "circa 5 punti (dato datato)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Livorno",
-        "probabilita": 0.5
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Livorno o pareggio",
         "probabilita": 0.76
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.58
+        "probabilita": 0.52
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "girone": "C",
+      "casa": "Giugliano",
+      "trasferta": "Foggia",
+      "data": "2026-10-19T20:30:00+02:00",
+      "forma_casa": "18° posto, 7 pt in 9 gare (2V-1N-6P), 12-22",
+      "forma_trasferta": "13° posto, 11 pt in 9 gare (3V-2N-4P), 9-10",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Foggia",
+        "probabilita": 0.42
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Giugliano o Foggia",
+        "probabilita": 0.73
       },
       "pick_uo": {
         "esito": "over",
@@ -541,13 +1189,19 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.62
+        "probabilita": 0.67
       },
-      "nota": "Il Livorno, in forma e quinto in classifica, parte favorito in casa contro il Pescara.",
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
+      "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-10-03T18:20:00Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
@@ -590,318 +1244,6 @@
       }
     },
     {
-      "girone": "B",
-      "casa": "Campobasso",
-      "trasferta": "Torres",
-      "data": "2026-10-04T14:30:00+02:00",
-      "forma_casa": "circa 7 punti (dato datato)",
-      "forma_trasferta": "pareggio 0-0 nell'ultimo turno, difesa solida",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Campobasso",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Campobasso o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.74
-      },
-      "nota": "La Torres arriva da uno 0-0 che conferma solidità difensiva: match da pochi gol atteso al Campobasso.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-04T14:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Guidonia Montecelio",
-      "trasferta": "Pineto",
-      "data": "2026-10-04T14:30:00+02:00",
-      "forma_casa": "circa 8 punti (dato datato)",
-      "forma_trasferta": "sconfitta 0-4 nell'ultimo turno, forma negativa",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Guidonia Montecelio",
-        "probabilita": 0.54
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Guidonia Montecelio o pareggio",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Pineto arriva da un pesante 0-4: la Guidonia Montecelio parte favorita in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-04T16:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Pianese",
-      "trasferta": "Ravenna",
-      "data": "2026-10-04T14:30:00+02:00",
-      "forma_casa": "sconfitta 2-3 nell'ultimo turno, forma negativa",
-      "forma_trasferta": "3° posto, 14 pt, imbattuto",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Ravenna",
-        "probabilita": 0.52
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Ravenna",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "Il Ravenna, terzo e ancora imbattuto, fa visita a una Pianese reduce da una sconfitta: trasferta favorevole sulla carta.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-04T16:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Reggiana",
-      "trasferta": "Spezia",
-      "data": "2026-10-04T17:30:00+02:00",
-      "forma_casa": "4° posto, 14 pt, imbattuto — scontro diretto di vertice",
-      "forma_trasferta": "1° posto, 16 pt, imbattuta, miglior forma del girone",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Spezia",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Spezia",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.58
-      },
-      "nota": "Scontro diretto al vertice tra le due squadre ancora imbattute del girone: la capolista Spezia parte leggermente favorita.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-10-04T20:20:00Z"
-      }
-    },
-    {
-      "girone": "B",
-      "casa": "Latina",
-      "trasferta": "Ostiamare",
-      "data": "2026-10-04T20:30:00+02:00",
-      "forma_casa": "circa 5 punti (dato datato)",
-      "forma_trasferta": "circa 3 punti, zona bassa (dato datato)",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Latina",
-        "probabilita": 0.44
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Latina o pareggio",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Il Latina, meglio piazzato secondo l'ultimo dato disponibile, parte leggermente favorito in casa contro l'Ostiamare.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-04T22:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Cavese",
-      "trasferta": "Casertana",
-      "data": "2026-10-03T14:30:00+02:00",
-      "forma_casa": "vittoria 4-2 nell'ultimo turno, ottima forma",
-      "forma_trasferta": "4° posto, 12 pt, imbattuta",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Cavese",
-        "probabilita": 0.44
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Cavese o pareggio",
-        "probabilita": 0.7
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.58
-      },
-      "nota": "La Cavese, in gran forma dopo un 4-2, ospita una Casertana ancora imbattuta: match equilibrato con leggero favore casalingo.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-03T16:25:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Sorrento",
-      "trasferta": "Casarano",
-      "data": "2026-10-03T14:30:00+02:00",
-      "forma_casa": "2° posto, 15 pt, prima sconfitta stagionale nell'ultimo turno dopo 5 vittorie",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Sorrento",
-        "probabilita": 0.52
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Sorrento o pareggio",
-        "probabilita": 0.76
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64
-      },
-      "nota": "Il Sorrento, secondo in classifica, cerca il pronto riscatto in casa dopo la prima sconfitta stagionale.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-03T14:20:51Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Giugliano",
-      "trasferta": "Barletta",
-      "data": "2026-10-03T17:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Giugliano",
-        "probabilita": 0.4
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Giugliano o pareggio",
-        "probabilita": 0.66
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.5
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-03T18:20:00Z"
-      }
-    },
-    {
       "girone": "C",
       "casa": "Inter U23",
       "trasferta": "Scafatese",
@@ -938,240 +1280,6 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Catania",
-      "trasferta": "Crotone",
-      "data": "2026-10-03T20:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "ultimo posto, 0 pt in 7 gare, ma vittoria a sorpresa 2-1 nell'ultimo turno",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Catania",
-        "probabilita": 0.48
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Catania o pareggio",
-        "probabilita": 0.74
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.54
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.66
-      },
-      "nota": "Il Crotone, ultimo in classifica, arriva però da una vittoria a sorpresa: il Catania resta comunque favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-04T00:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Cosenza",
-      "trasferta": "Foggia",
-      "data": "2026-10-04T14:30:00+02:00",
-      "forma_casa": "penultimo, 2 pt, sconfitta 0-1 in casa nell'ultimo turno",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Foggia",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Foggia",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.7
-      },
-      "nota": "Il Cosenza, penultimo e reduce da un ko interno, ospita un Foggia lievemente favorito nei modelli.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-10-04T14:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Monopoli",
-      "trasferta": "Savoia",
-      "data": "2026-10-03T17:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "sconfitta 4-2 nell'ultimo turno, forma negativa",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Monopoli",
-        "probabilita": 0.48
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Monopoli o pareggio",
-        "probabilita": 0.74
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.55
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "Il Savoia arriva da una pesante sconfitta: il Monopoli parte leggermente favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-10-04T18:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Audace Cerignola",
-      "trasferta": "Altamura",
-      "data": "2026-10-04T20:30:00+02:00",
-      "forma_casa": "dato non trovato",
-      "forma_trasferta": "dato non trovato",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Audace Cerignola",
-        "probabilita": 0.42
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Audace Cerignola o pareggio",
-        "probabilita": 0.68
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.52
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.52
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.68
-      },
-      "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-10-04T22:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Potenza",
-      "trasferta": "Picerno",
-      "data": "2026-10-04T20:30:00+02:00",
-      "forma_casa": "3° posto, 13 pt, miglior attacco del girone",
-      "forma_trasferta": "5° posto, 12 pt",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Potenza",
-        "probabilita": 0.46
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Potenza o pareggio",
-        "probabilita": 0.72
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.58
-      },
-      "nota": "Derby lucano tra due squadre di vertice del girone: il Potenza, miglior attacco, leggermente favorito in casa.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-10-04T20:20:00Z"
-      }
-    },
-    {
-      "girone": "C",
-      "casa": "Salernitana",
-      "trasferta": "Bari",
-      "data": "2026-10-04T20:30:00+02:00",
-      "forma_casa": "sconfitta 2-1 nell'ultimo turno, forma negativa",
-      "forma_trasferta": "1° posto, 16 pt, vittoria 1-0 nell'ultimo turno — capolista in trasferta",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Bari",
-        "probabilita": 0.52
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Bari",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.54
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62
-      },
-      "nota": "Il Bari capolista fa visita a una Salernitana reduce dal ko: i pugliesi partono favoriti per proseguire la marcia in vetta.",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-04T22:20:00Z"
       }
     }
   ]

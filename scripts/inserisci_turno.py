@@ -128,6 +128,8 @@ def main(spec_path):
         ea = (gfa + gah) / 2 * 0.92
         p = {'casa': m['casa'], 'trasferta': m['trasferta'], 'data': m['data'],
              'forma_casa': forma(m['casa'], h), 'forma_trasferta': forma(m['trasferta'], a)}
+        if m.get('girone'):
+            p = dict({'girone': m['girone']}, **p)
         p.update(picks(eh, ea, m['casa'], m['trasferta']))
         nota = (f"Modello a gol attesi (con vantaggio casa): {m['casa']} {eh:.2f} gol attesi "
                 f"({h['pos']}° con {h['pt']} punti, {h['gf']} gol fatti e {h['ga']} subiti in {h['g']} gare), "
