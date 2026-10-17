@@ -119,9 +119,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Carpi 1.32 gol attesi (18° con 6 punti, 11 gol fatti e 19 subiti in 9 gare), Lumezzane 1.48 (11° con 12 punti, 10 fatti e 11 subiti in 9 gare). Somma attesa 2.80 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -159,9 +159,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Guidonia Montecelio 1.44 gol attesi (7° con 13 punti, 11 gol fatti e 8 subiti in 9 gare), Forlì 1.12 (11° con 11 punti, 14 fatti e 13 subiti in 9 gare). Somma attesa 2.56 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -199,9 +199,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pianese 1.10 gol attesi (17° con 7 punti, 6 gol fatti e 10 subiti in 9 gare), Pineto 0.86 (16° con 7 punti, 6 fatti e 11 subiti in 8 gare). Somma attesa 1.96 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -239,9 +239,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Reggiana 1.41 gol attesi (6° con 14 punti, 12 gol fatti e 7 subiti in 8 gare), Torres 0.96 (5° con 15 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.37 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -279,9 +279,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vado 1.38 gol attesi (12° con 11 punti, 8 gol fatti e 8 subiti in 9 gare), Sambenedettese 1.02 (19° con 6 punti, 12 fatti e 15 subiti in 9 gare). Somma attesa 2.40 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {

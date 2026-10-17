@@ -78,9 +78,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Union Berlin 0.97 gol attesi (16° con 4 punti, 5 gol fatti e 17 subiti in 5 gare), Borussia Dortmund 2.58 (2° con 13 punti, 11 fatti e 4 subiti in 5 gare). Somma attesa 3.55 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -117,9 +117,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-17T16:20:00Z"
       }
     },
     {
@@ -156,9 +156,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 1.84 gol attesi (7° con 8 punti, 10 gol fatti e 10 subiti in 5 gare), SC Paderborn 07 1.20 (15° con 4 punti, 3 fatti e 7 subiti in 5 gare). Somma attesa 3.03 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-17T16:20:00Z",
+        "primo_tempo": "0-2"
       }
     },
     {
@@ -195,9 +196,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Schalke 04 1.51 gol attesi (13° con 5 punti, 4 gol fatti e 6 subiti in 5 gare), 1. FSV Mainz 05 1.75 (8° con 7 punti, 13 fatti e 10 subiti in 5 gare). Somma attesa 3.26 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-17T16:20:00Z",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -234,9 +236,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SV Elversberg 1.73 gol attesi (9° con 7 punti, 8 gol fatti e 8 subiti in 5 gare), FC Augsburg 1.93 (6° con 8 punti, 13 fatti e 8 subiti in 5 gare). Somma attesa 3.66 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-3",
+        "aggiornato": "2026-10-17T16:20:00Z",
+        "primo_tempo": "3-1"
       }
     },
     {

@@ -119,9 +119,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.39 gol attesi (13° con 8 punti, 7 gol fatti e 15 subiti in 7 gare), Galatasaray 2.04 (1° con 16 punti, 16 fatti e 11 subiti in 7 gare). Somma attesa 3.43 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-17T16:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -158,9 +159,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Amedspor 1.93 gol attesi (3° con 14 punti, 17 gol fatti e 9 subiti in 7 gare), Konyaspor 0.85 (16° con 5 punti, 4 fatti e 8 subiti in 7 gare). Somma attesa 2.78 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-17T16:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

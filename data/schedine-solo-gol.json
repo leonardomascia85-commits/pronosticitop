@@ -3253,8 +3253,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Elversberg 1.73 gol attesi (9° con 7 punti, 8 gol fatti e 8 subiti in 5 gare), FC Augsburg 1.93 (6° con 8 punti, 13 fatti e 8 subiti in 5 gare). Somma attesa 3.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Real Betis - FC Barcelona",
@@ -3281,8 +3281,8 @@
           "quota_stimata": 1.45,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Le Mans FC - Toulouse FC",
@@ -3335,8 +3335,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Elversberg 1.73 gol attesi (9° con 7 punti, 8 gol fatti e 8 subiti in 5 gare), FC Augsburg 1.93 (6° con 8 punti, 13 fatti e 8 subiti in 5 gare). Somma attesa 3.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Real Betis - FC Barcelona",
@@ -3363,8 +3363,8 @@
           "quota_stimata": 1.45,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Le Mans FC - Toulouse FC",
@@ -3812,8 +3812,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Elversberg 1.73 gol attesi (9° con 7 punti, 8 gol fatti e 8 subiti in 5 gare), FC Augsburg 1.93 (6° con 8 punti, 13 fatti e 8 subiti in 5 gare). Somma attesa 3.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "PEC Zwolle - Go Ahead Eagles",
@@ -3872,8 +3872,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "RC Strasbourg Alsace - Paris Saint-Germain",
@@ -3959,8 +3959,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.51 gol attesi (12° con 6 punti, 5 gol fatti e 15 subiti in 5 gare), VfB Stuttgart 2.12 (11° con 6 punti, 8 fatti e 9 subiti in 5 gare). Somma attesa 3.63 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "RC Strasbourg Alsace - Paris Saint-Germain",
