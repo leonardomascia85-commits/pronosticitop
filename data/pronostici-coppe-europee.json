@@ -1,496 +1,414 @@
 {
-  "aggiornato": "2026-09-19",
+  "aggiornato": "2026-10-17",
   "nota_metodo": "Pronostico calcolato con un modello a gol attesi: per ogni squadra si stima il gol atteso come media tra i propri gol fatti a gara e i gol subiti a gara dall'avversario (dati reali della stagione in corso), con una correzione per il fattore campo (+8% alla squadra di casa, -8% alla squadra in trasferta). Dalla somma dei gol attesi si deriva la probabilita' di Over/Under 2.5 e 3.5 e di Gol/No Gol; dalla differenza si deriva la probabilita' 1X2 e Doppia Chance. Per i campionati esteri minori senza statistiche gol dettagliate si usa il differenziale punti-a-partita, con confidenza dei dati piu' bassa indicata esplicitamente.",
   "competizioni": [
     {
       "nome": "Champions League",
-      "giornata": "Giornata 2 (fase campionato)",
-      "periodo": "13-14 ottobre 2026",
+      "giornata": "Giornata 3 (fase campionato)",
+      "periodo": "20-21 ottobre 2026",
       "partite": [
         {
-          "casa": "Inter",
-          "trasferta": "Club Brugge",
-          "data": "2026-10-13T21:00:00+02:00",
-          "forma_casa": "12 pt in 4 gare (4V-0N-0P), 13-6 in Serie A",
-          "forma_trasferta": "3V nelle ultime 5 in campionato, 11-9",
+          "casa": "Liverpool",
+          "trasferta": "Villarreal",
+          "data": "2026-10-20T21:00:00+02:00",
+          "forma_casa": "9° posto, 9 pt in 6 gare (2V-3N-1P), 7-7 in Premier League",
+          "forma_trasferta": "11° posto, 8 pt in 8 gare (2V-2N-4P), 13-13 in La Liga",
           "pick_1x2": {
             "esito": "1",
-            "etichetta": "Vittoria Inter",
-            "probabilita": 0.62
-          },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.66
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.66
+            "etichetta": "Vittoria Liverpool",
+            "probabilita": 0.41
           },
           "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Inter o pareggio",
-            "probabilita": 0.82
-          },
-          "pick_uo35": {
-            "esito": "over",
-            "etichetta": "Over 3.5",
-            "probabilita": 0.56
-          },
-          "nota": "Modello a gol attesi (con vantaggio casa): Inter 2.73 gol attesi (miglior attacco della Serie A, difesa solida), Club Brugge 1.70 (attacco discreto ma difesa permeabile). Somma attesa 4.43 gol: gara da tanti gol.",
-          "confidenza_dati": "ALTA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "3-4",
-            "aggiornato": "2026-10-14T02:14:59Z"
-          }
-        },
-        {
-          "casa": "Arsenal",
-          "trasferta": "LOSC Lille",
-          "data": "2026-10-13T21:00:00+02:00",
-          "forma_casa": "12 pt in 4 gare (4V-0N-0P), 8-1",
-          "forma_trasferta": "10 pt in 4 gare (3V-1N-0P), 7-2",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Arsenal",
-            "probabilita": 0.55
-          },
-          "pick_uo": {
-            "esito": "under",
-            "etichetta": "Under 2.5",
-            "probabilita": 0.52
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.56
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Arsenal o pareggio",
-            "probabilita": 0.8
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.76
-          },
-          "nota": "Modello a gol attesi: Arsenal 1.35, Lille 0.92 (0.25 e 0.5 gol subiti a gara, le due migliori difese dei rispettivi campionati). Somma attesa 2.27 gol: gara da pochi gol, Arsenal favorito di misura in casa.",
-          "confidenza_dati": "ALTA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "3-0",
-            "aggiornato": "2026-10-14T02:14:59Z"
-          }
-        },
-        {
-          "casa": "Villarreal",
-          "trasferta": "Napoli",
-          "data": "2026-10-13T21:00:00+02:00",
-          "forma_casa": "5 pt in 6 gare (1V-2N-3P), 10-11",
-          "forma_trasferta": "6 pt in 4 gare (2V-0N-2P), 6-5",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Villarreal",
-            "probabilita": 0.51
-          },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.56
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.65
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Villarreal o pareggio",
-            "probabilita": 0.74
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.54
-          },
-          "nota": "Modello a gol attesi: Villarreal 1.58, Napoli 1.53 (equilibrio quasi perfetto). Il Villarreal è comunque 17° in Liga con una difesa fragile (1.83 gol subiti a gara): match aperto e probabile Gol/Gol.",
-          "confidenza_dati": "ALTA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "3-1",
-            "aggiornato": "2026-10-14T02:14:59Z"
-          }
-        },
-        {
-          "casa": "Manchester City",
-          "trasferta": "Paris Saint-Germain",
-          "data": "2026-10-14T21:00:00+02:00",
-          "forma_casa": "12 pt in 4 gare (4V-0N-0P), 8-2",
-          "forma_trasferta": "5 pt in 4 gare (1V-2N-1P), 6-6",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Manchester City",
-            "probabilita": 0.62
+            "esito": "12",
+            "etichetta": "Liverpool o Villarreal",
+            "probabilita": 0.73
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
             "probabilita": 0.53
           },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.69
+          },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.56
+            "probabilita": 0.58
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Liverpool 1.52 gol attesi (7 gol fatti e 7 subiti in 6 gare di Premier League), Villarreal 1.29 (13 fatti e 13 subiti in 8 gare di La Liga). Somma attesa 2.81 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
+        },
+        {
+          "casa": "Paris Saint-Germain",
+          "trasferta": "FC Barcelona",
+          "data": "2026-10-20T21:00:00+02:00",
+          "forma_casa": "6° posto, 11 pt in 6 gare (3V-2N-1P), 11-8 in Ligue 1",
+          "forma_trasferta": "1° posto, 24 pt in 8 gare (8V-0N-0P), 34-7 in La Liga",
+          "pick_1x2": {
+            "esito": "2",
+            "etichetta": "Vittoria FC Barcelona",
+            "probabilita": 0.5
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "Paris Saint-Germain o FC Barcelona",
+            "probabilita": 0.77
+          },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.68
+          },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.54
+          },
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.68
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.47 gol attesi (11 gol fatti e 8 subiti in 6 gare di Ligue 1), FC Barcelona 2.02 (34 fatti e 7 subiti in 8 gare di La Liga). Somma attesa 3.49 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
+        },
+        {
+          "casa": "Bayern München",
+          "trasferta": "Arsenal",
+          "data": "2026-10-21T21:00:00+02:00",
+          "forma_casa": "3° posto, 11 pt in 5 gare (3V-2N-0P), 16-4 in Bundesliga",
+          "forma_trasferta": "2° posto, 15 pt in 6 gare (5V-0N-1P), 10-5 in Premier League",
+          "pick_1x2": {
+            "esito": "1",
+            "etichetta": "Vittoria Bayern München",
+            "probabilita": 0.5
           },
           "pick_dc": {
             "esito": "1X",
-            "etichetta": "Manchester City o pareggio",
-            "probabilita": 0.82
+            "etichetta": "Bayern München o pareggio",
+            "probabilita": 0.75
+          },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.58
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
             "probabilita": 0.64
           },
-          "nota": "Modello a gol attesi: Manchester City 1.89 (a punteggio pieno, 0.5 gol subiti a gara), PSG 0.92 (avvio opaco in Ligue 1, 5 pt in 4 gare). Netto favore City.",
-          "confidenza_dati": "ALTA",
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.6
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Bayern München 1.80 gol attesi (16 gol fatti e 4 subiti in 5 gare di Bundesliga), Arsenal 1.22 (10 fatti e 5 subiti in 6 gare di Premier League). Somma attesa 3.02 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "finale",
-            "punteggio": "2-4",
-            "aggiornato": "2026-10-14T22:14:53Z",
-            "primo_tempo": "0-3"
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
+        },
+        {
+          "casa": "Real Madrid",
+          "trasferta": "RB Leipzig",
+          "data": "2026-10-21T21:00:00+02:00",
+          "forma_casa": "4° posto, 18 pt in 8 gare (6V-0N-2P), 19-8 in La Liga",
+          "forma_trasferta": "5° posto, 9 pt in 5 gare (3V-0N-2P), 15-5 in Bundesliga",
+          "pick_1x2": {
+            "esito": "1",
+            "etichetta": "Vittoria Real Madrid",
+            "probabilita": 0.42
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "Real Madrid o RB Leipzig",
+            "probabilita": 0.75
+          },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.63
+          },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.6
+          },
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.65
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Real Madrid 1.71 gol attesi (19 gol fatti e 8 subiti in 8 gare di La Liga), RB Leipzig 1.52 (15 fatti e 5 subiti in 5 gare di Bundesliga). Somma attesa 3.23 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
           }
         }
       ]
     },
     {
       "nome": "Europa League",
-      "giornata": "Giornata 2 (fase campionato)",
-      "periodo": "15 ottobre 2026",
+      "giornata": "Giornata 3 (fase campionato)",
+      "periodo": "22 ottobre 2026",
       "partite": [
         {
-          "casa": "FC Salzburg",
-          "trasferta": "AC Milan",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "2V nelle ultime 5 in campionato, 9-7",
-          "forma_trasferta": "8 pt in 4 gare (2V-2N-0P), 7-4",
+          "casa": "Juventus",
+          "trasferta": "Rennes",
+          "data": "2026-10-22T18:45:00+02:00",
+          "forma_casa": "6° posto, 11 pt in 6 gare (3V-2N-1P), 9-5 in Serie A",
+          "forma_trasferta": "3° posto, 13 pt in 6 gare (4V-1N-1P), 12-10 in Ligue 1",
           "pick_1x2": {
             "esito": "1",
-            "etichetta": "Vittoria FC Salzburg",
-            "probabilita": 0.51
+            "etichetta": "Vittoria Juventus",
+            "probabilita": 0.44
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "Juventus o Rennes",
+            "probabilita": 0.73
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.55
+            "probabilita": 0.56
+          },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.67
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.64
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "FC Salzburg o pareggio",
-            "probabilita": 0.74
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.58
-          },
-          "nota": "Modello a gol attesi: Salzburg 1.51, Milan 1.45 (equilibrio quasi perfetto, con il fattore campo che compensa il miglior avvio di stagione del Milan in Serie A).",
-          "confidenza_dati": "ALTA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "0-4",
-            "aggiornato": "2026-10-16T00:15:33Z"
-          }
-        },
-        {
-          "casa": "Real Club Celta",
-          "trasferta": "Juventus",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "4 pt, 16° in Liga, nessuna vittoria nelle ultime 6 gare",
-          "forma_trasferta": "7 pt in 4 gare (2V-1N-1P), 7-4",
-          "pick_1x2": {
-            "esito": "2",
-            "etichetta": "Vittoria Juventus",
-            "probabilita": 0.58
-          },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.52
-          },
-          "pick_gg": {
-            "esito": "nogol",
-            "etichetta": "No Gol",
-            "probabilita": 0.52
-          },
-          "pick_dc": {
-            "esito": "X2",
-            "etichetta": "Pareggio o Juventus",
-            "probabilita": 0.8
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.66
-          },
-          "nota": "Il Celta Vigo è 16° in Liga e reduce dalla striscia di risultati utili più negativa del campionato (nessuna vittoria in 6 gare); differenziale punti a partita nettamente a favore della Juventus.",
-          "confidenza_dati": "MEDIA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "1-2",
-            "aggiornato": "2026-10-16T00:15:33Z"
-          }
-        },
-        {
-          "casa": "SL Benfica",
-          "trasferta": "Celtic",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "16 pt in 6 gare (5V-1N-0P), 21-4",
-          "forma_trasferta": "18 pt in 6 gare (6V-0N-0P), 14-3",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria SL Benfica",
             "probabilita": 0.59
           },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.6
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.63
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "SL Benfica o pareggio",
-            "probabilita": 0.8
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.54
-          },
-          "nota": "Modello a gol attesi: Benfica 2.16 (miglior attacco d'Europa in questo momento, 3.5 gol a gara), Celtic 1.38 (a punteggio pieno in Scozia ma in trasferta). Somma attesa 3.54 gol.",
-          "confidenza_dati": "ALTA",
+          "nota": "Modello a gol attesi (con vantaggio casa): Juventus 1.61 gol attesi (9 gol fatti e 5 subiti in 6 gare di Serie A), Rennes 1.30 (12 fatti e 10 subiti in 6 gare di Ligue 1). Somma attesa 2.91 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "finale",
-            "punteggio": "4-1",
-            "aggiornato": "2026-10-16T00:15:33Z"
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
           }
         },
         {
-          "casa": "Union Saint-Gilloise",
-          "trasferta": "Real Sociedad",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "16 pt, 1ª in classifica in Belgio",
-          "forma_trasferta": "7 pt in 5 gare, in ripresa dopo 2 sconfitte iniziali",
+          "casa": "Hoffenheim",
+          "trasferta": "Lyon",
+          "data": "2026-10-22T21:00:00+02:00",
+          "forma_casa": "17° posto, 3 pt in 5 gare (1V-0N-4P), 9-13 in Bundesliga",
+          "forma_trasferta": "4° posto, 11 pt in 6 gare (3V-2N-1P), 11-4 in Ligue 1",
           "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Union Saint-Gilloise",
-            "probabilita": 0.46
+            "esito": "2",
+            "etichetta": "Vittoria Lyon",
+            "probabilita": 0.42
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "Hoffenheim o Lyon",
+            "probabilita": 0.74
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.52
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.52
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Union Saint-Gilloise o pareggio",
-            "probabilita": 0.7
+            "probabilita": 0.59
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
+            "probabilita": 0.64
+          },
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
             "probabilita": 0.62
           },
-          "nota": "L'Union Saint-Gilloise è capolista incontrastata in Belgio; la Real Sociedad ha ritrovato risultati (vittorie su Espanyol ed Elche, pari a Vigo) dopo un avvio difficile. Mancano dati sui gol fatti/subiti per un calcolo più preciso: confidenza ridotta.",
-          "confidenza_dati": "MEDIA-BASSA",
+          "nota": "Modello a gol attesi (con vantaggio casa): Hoffenheim 1.41 gol attesi (9 gol fatti e 13 subiti in 5 gare di Bundesliga), Lyon 1.64 (11 fatti e 4 subiti in 6 gare di Ligue 1). Somma attesa 3.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "finale",
-            "punteggio": "1-1",
-            "primo_tempo": "0-0",
-            "aggiornato": "2026-10-16T10:16:20Z"
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
+        },
+        {
+          "casa": "AFC Bournemouth",
+          "trasferta": "AC Milan",
+          "data": "2026-10-22T21:00:00+02:00",
+          "forma_casa": "18° posto, 3 pt in 6 gare (0V-3N-3P), 7-13 in Premier League",
+          "forma_trasferta": "5° posto, 12 pt in 6 gare (3V-3N-0P), 11-5 in Serie A",
+          "pick_1x2": {
+            "esito": "2",
+            "etichetta": "Vittoria AC Milan",
+            "probabilita": 0.42
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "AFC Bournemouth o AC Milan",
+            "probabilita": 0.73
+          },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.54
+          },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.68
+          },
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.59
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.30 gol attesi (7 gol fatti e 13 subiti in 6 gare di Premier League), AC Milan 1.56 (11 fatti e 5 subiti in 6 gare di Serie A). Somma attesa 2.86 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Orario da confermare.",
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
+          }
+        },
+        {
+          "casa": "Beşiktaş",
+          "trasferta": "Crystal Palace",
+          "data": "2026-10-22T21:00:00+02:00",
+          "forma_casa": "2° posto, 15 pt in 7 gare (5V-0N-2P), 16-8 in Süper Lig",
+          "forma_trasferta": "12° posto, 7 pt in 6 gare (2V-1N-3P), 9-12 in Premier League",
+          "pick_1x2": {
+            "esito": "1",
+            "etichetta": "Vittoria Beşiktaş",
+            "probabilita": 0.52
+          },
+          "pick_dc": {
+            "esito": "1X",
+            "etichetta": "Beşiktaş o pareggio",
+            "probabilita": 0.76
+          },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.62
+          },
+          "pick_uo35": {
+            "esito": "under",
+            "etichetta": "Under 3.5",
+            "probabilita": 0.61
+          },
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.62
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.93 gol attesi (16 gol fatti e 8 subiti in 7 gare di Süper Lig), Crystal Palace 1.25 (9 fatti e 12 subiti in 6 gare di Premier League). Somma attesa 3.18 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Orario da confermare.",
+          "confidenza_dati": "MEDIA",
+          "risultato": {
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
           }
         }
       ]
     },
     {
       "nome": "Conference League",
-      "giornata": "Giornata 1 (fase campionato)",
-      "periodo": "15 ottobre 2026",
+      "giornata": "Giornata 2 (fase campionato)",
+      "periodo": "22 ottobre 2026",
       "partite": [
         {
-          "casa": "Atalanta",
-          "trasferta": "Pafos",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "6 pt in 4 gare (2V-0N-2P), 5-7",
-          "forma_trasferta": "Buona forma nel campionato cipriota (vittorie su Karmiotissa e AEK Larnaca)",
+          "casa": "Ajax",
+          "trasferta": "Atalanta",
+          "data": "2026-10-22T21:00:00+02:00",
+          "forma_casa": "5° posto, 15 pt in 8 gare (4V-3N-1P), 22-10 in Eredivisie",
+          "forma_trasferta": "10° posto, 9 pt in 6 gare (3V-0N-3P), 8-8 in Serie A",
           "pick_1x2": {
             "esito": "1",
-            "etichetta": "Vittoria Atalanta",
-            "probabilita": 0.54
-          },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.56
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.54
+            "etichetta": "Vittoria Ajax",
+            "probabilita": 0.52
           },
           "pick_dc": {
             "esito": "1X",
-            "etichetta": "Atalanta o pareggio",
+            "etichetta": "Ajax o pareggio",
             "probabilita": 0.76
           },
+          "pick_uo": {
+            "esito": "over",
+            "etichetta": "Over 2.5",
+            "probabilita": 0.61
+          },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
             "probabilita": 0.62
           },
-          "nota": "L'Atalanta attraversa un momento opaco in Serie A con una difesa poco solida in questo avvio (1.75 gol subiti a gara); il divario di livello col campione di Cipro resta comunque ampio, ma con meno margine del solito.",
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.61
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Ajax 1.91 gol attesi (22 gol fatti e 10 subiti in 8 gare di Eredivisie), Atalanta 1.23 (8 fatti e 8 subiti in 6 gare di Serie A). Somma attesa 3.14 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "finale",
-            "punteggio": "3-1",
-            "aggiornato": "2026-10-15T22:15:07Z"
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
           }
         },
         {
-          "casa": "Universitatea Craiova",
-          "trasferta": "Getafe",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "Buona forma in campionato (4-0 sulla Universitatea Cluj, vittoria sul Corvinul)",
-          "forma_trasferta": "16° in Liga, 5 pt in 6 gare, differenza reti -4 (3-7)",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Universitatea Craiova",
-            "probabilita": 0.46
-          },
-          "pick_uo": {
-            "esito": "under",
-            "etichetta": "Under 2.5",
-            "probabilita": 0.52
-          },
-          "pick_gg": {
-            "esito": "nogol",
-            "etichetta": "No Gol",
-            "probabilita": 0.5
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Universitatea Craiova o pareggio",
-            "probabilita": 0.7
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.72
-          },
-          "nota": "Il Getafe vive un avvio difficile in Liga (16°, differenza reti -4) mentre la Craiova arriva in buona forma nel campionato rumeno; mancano dati sui gol a gara per un calcolo più preciso.",
-          "confidenza_dati": "MEDIA-BASSA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "1-1",
-            "primo_tempo": "0-0",
-            "aggiornato": "2026-10-16T10:16:20Z"
-          }
-        },
-        {
-          "casa": "CSKA Sofia",
-          "trasferta": "Monaco",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "Tra le prime posizioni del campionato bulgaro",
-          "forma_trasferta": "1° in Ligue 1, reduce dalle vittorie su PSG e Lens",
+          "casa": "Monaco",
+          "trasferta": "SC Freiburg",
+          "data": "2026-10-22T21:00:00+02:00",
+          "forma_casa": "1° posto, 14 pt in 6 gare (4V-2N-0P), 10-5 in Ligue 1",
+          "forma_trasferta": "1° posto, 13 pt in 5 gare (4V-1N-0P), 14-4 in Bundesliga",
           "pick_1x2": {
             "esito": "2",
-            "etichetta": "Vittoria Monaco",
-            "probabilita": 0.62
+            "etichetta": "Vittoria SC Freiburg",
+            "probabilita": 0.37
+          },
+          "pick_dc": {
+            "esito": "12",
+            "etichetta": "Monaco o SC Freiburg",
+            "probabilita": 0.73
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.54
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.52
-          },
-          "pick_dc": {
-            "esito": "X2",
-            "etichetta": "Pareggio o Monaco",
-            "probabilita": 0.82
+            "probabilita": 0.55
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.62
+            "probabilita": 0.67
           },
-          "nota": "Il Monaco è capolista della Ligue 1 e in gran forma (ha appena battuto PSG e Lens); distacco di livello netto con il campionato bulgaro giustifica una probabilità alta nonostante la trasferta.",
+          "pick_gg": {
+            "esito": "gol",
+            "etichetta": "Gol",
+            "probabilita": 0.6
+          },
+          "nota": "Modello a gol attesi (con vantaggio casa): Monaco 1.44 gol attesi (10 gol fatti e 5 subiti in 6 gare di Ligue 1), SC Freiburg 1.45 (14 fatti e 4 subiti in 5 gare di Bundesliga). Somma attesa 2.89 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "finale",
-            "punteggio": "1-2",
-            "aggiornato": "2026-10-16T00:15:33Z"
-          }
-        },
-        {
-          "casa": "Brighton & Hove Albion",
-          "trasferta": "Kauno Žalgiris",
-          "data": "2026-10-15T21:00:00+02:00",
-          "forma_casa": "7 pt in 4 gare (2V-1N-1P), 13-5",
-          "forma_trasferta": "Campione di Lituania, distacco di livello con la Premier League",
-          "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Brighton",
-            "probabilita": 0.64
-          },
-          "pick_uo": {
-            "esito": "over",
-            "etichetta": "Over 2.5",
-            "probabilita": 0.58
-          },
-          "pick_gg": {
-            "esito": "gol",
-            "etichetta": "Gol",
-            "probabilita": 0.5
-          },
-          "pick_dc": {
-            "esito": "1X",
-            "etichetta": "Brighton o pareggio",
-            "probabilita": 0.84
-          },
-          "pick_uo35": {
-            "esito": "under",
-            "etichetta": "Under 3.5",
-            "probabilita": 0.56
-          },
-          "nota": "Forte squilibrio di livello tra una squadra di Premier League e il campione lituano: match che il Brighton parte per dominare largamente.",
-          "confidenza_dati": "MEDIA-BASSA",
-          "risultato": {
-            "stato": "finale",
-            "punteggio": "4-0",
-            "primo_tempo": "2-0",
-            "aggiornato": "2026-10-16T10:16:20Z"
+            "stato": "non_iniziata",
+            "punteggio": null,
+            "aggiornato": null
           }
         }
       ]
