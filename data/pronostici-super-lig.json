@@ -79,9 +79,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Erzurumspor 1.77 gol attesi (14° con 8 punti, 3 gol fatti e 11 subiti in 7 gare), Eyüpspor 0.85 (18° con 3 punti, 2 fatti e 20 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "primo_tempo": "1-0",
+        "aggiornato": "2026-10-17T14:20:00Z"
       }
     },
     {

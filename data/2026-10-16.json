@@ -2,7 +2,7 @@
   "id": "2026-10-16",
   "titolo": "Turno del 16-19 ottobre 2026",
   "generato_il": "2026-10-13",
-  "aggiornato_il": "2026-10-16",
+  "aggiornato_il": "2026-10-17",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -492,7 +492,7 @@
       "quota_max": 8,
       "quota_combinata": 6.0,
       "probabilita_combinata": 0.167,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Espanyol - Atlético Madrid",
@@ -506,8 +506,8 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Espanyol 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 11 subiti in 8 gare), Atlético Madrid 1.67 (2° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 2.95 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "SV Werder Bremen - SC Paderborn 07",
@@ -569,7 +569,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T14:07:36.885425+00:00"
     },
     {
       "id": "L5-4",
@@ -1864,6 +1866,93 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-5",
+      "livello_rischio": 5,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 8,
+      "quota_combinata": 6.02,
+      "probabilita_combinata": 0.166,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atlético-MG - Coritiba",
+          "campionato": "Brasileirão",
+          "data": "2026-10-17T18:30:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Atlético-MG o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.60 gol attesi (7° con 47 punti, 41 gol fatti e 35 subiti in 30 gare), Coritiba 1.12 (11° con 39 punti, 38 fatti e 48 subiti in 30 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Athletico-PR - Palmeiras",
+          "campionato": "Brasileirão",
+          "data": "2026-10-17T19:30:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Athletico-PR o Palmeiras",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.28 gol attesi (3° con 53 punti, 49 gol fatti e 35 subiti in 30 gare), Palmeiras 1.33 (2° con 63 punti, 52 fatti e 22 subiti in 30 gare). Somma attesa 2.61 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Südtirol",
+          "campionato": "Serie B",
+          "data": "2026-10-18T15:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Südtirol",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Le Havre AC - AJ Auxerre",
+          "campionato": "Ligue 1",
+          "data": "2026-10-18T17:15:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.63,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.80 gol attesi (18° con 2 punti, 4 gol fatti e 8 subiti in 6 gare), AJ Auxerre 1.23 (16° con 6 punti, 8 fatti e 16 subiti in 6 gare). Somma attesa 3.03 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Bahia - Flamengo",
+          "campionato": "Brasileirão",
+          "data": "2026-10-18T18:30:00-03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.59,
+          "quota_stimata": 1.69,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.24 gol attesi (5° con 49 punti, 44 gol fatti e 36 subiti in 30 gare), Flamengo 1.44 (1° con 64 punti, 58 fatti e 25 subiti in 30 gare). Somma attesa 2.68 gol.",
           "esito": null,
           "risultato_reale": null
         }
