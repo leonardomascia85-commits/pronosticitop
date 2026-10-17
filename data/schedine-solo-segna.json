@@ -1237,8 +1237,8 @@
           "quota_stimata": 1.09,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.52 gol attesi (1° con 18 punti, 16 gol fatti e 5 subiti in 6 gare), Ipswich Town 1.07 (10° con 9 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.59 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "1. FC Union Berlin - Borussia Dortmund",
@@ -1307,8 +1307,8 @@
           "quota_stimata": 1.09,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.52 gol attesi (1° con 18 punti, 16 gol fatti e 5 subiti in 6 gare), Ipswich Town 1.07 (10° con 9 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.59 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "1. FC Union Berlin - Borussia Dortmund",
@@ -1391,8 +1391,8 @@
           "quota_stimata": 1.09,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.52 gol attesi (1° con 18 punti, 16 gol fatti e 5 subiti in 6 gare), Ipswich Town 1.07 (10° con 9 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.59 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "1. FC Union Berlin - Borussia Dortmund",
@@ -1433,8 +1433,8 @@
           "quota_stimata": 1.08,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 6,
@@ -1489,8 +1489,8 @@
           "quota_stimata": 1.09,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.52 gol attesi (1° con 18 punti, 16 gol fatti e 5 subiti in 6 gare), Ipswich Town 1.07 (10° con 9 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.59 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "1. FC Union Berlin - Borussia Dortmund",
@@ -1531,8 +1531,8 @@
           "quota_stimata": 1.08,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Betis - FC Barcelona",

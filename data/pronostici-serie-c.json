@@ -319,9 +319,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Inter U23 1.50 gol attesi (7° con 13 punti, 16 gol fatti e 13 subiti in 8 gare), Monopoli 1.11 (12° con 12 punti, 7 fatti e 7 subiti in 9 gare). Somma attesa 2.61 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-4",
+        "aggiornato": "2026-10-17T17:20:00Z",
+        "primo_tempo": "1-2"
       }
     },
     {

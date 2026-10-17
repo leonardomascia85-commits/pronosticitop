@@ -77,9 +77,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-17T17:20:00Z",
+        "primo_tempo": "0-1"
       }
     },
     {

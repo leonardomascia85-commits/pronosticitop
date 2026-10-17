@@ -118,9 +118,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Villarreal 2.03 gol attesi (11° con 8 punti, 13 gol fatti e 13 subiti in 8 gare), Elche 1.38 (18° con 6 punti, 11 fatti e 17 subiti in 8 gare). Somma attesa 3.41 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-17T17:20:00Z"
       }
     },
     {
