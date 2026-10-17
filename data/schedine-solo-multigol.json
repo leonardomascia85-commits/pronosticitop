@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-13",
+  "aggiornato_il": "2026-10-17",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol (totale gol della partita compreso tra 1 e 3 oppure tra 2 e 4), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -2780,7 +2780,7 @@
       "variante": "quota_max",
       "quota_combinata": 12.15,
       "probabilita_combinata": 0.082,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Celta de Vigo - Deportivo Alavés",
@@ -2877,12 +2877,14 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T22:07:10.513901+00:00"
     },
     {
       "id": "L4-8",
@@ -2890,7 +2892,7 @@
       "variante": "libera",
       "quota_combinata": 4.48,
       "probabilita_combinata": 0.223,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Juventus - Lazio",
@@ -2931,8 +2933,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Parma - Torino",
@@ -2948,7 +2950,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T22:07:10.513901+00:00"
     },
     {
       "id": "L5-10",
@@ -2956,7 +2960,7 @@
       "variante": "libera",
       "quota_combinata": 6.88,
       "probabilita_combinata": 0.145,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Tottenham Hotspur - Coventry City",
@@ -2983,8 +2987,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Parma - Torino",
@@ -3011,8 +3015,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fulham 1.08 gol attesi (20° con 2 punti, 6 gol fatti e 10 subiti in 6 gare), Hull City 1.38 (8° con 9 punti, 8 fatti e 6 subiti in 6 gare). Somma attesa 2.46 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Leeds United - Manchester United",
@@ -3028,7 +3032,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T22:07:10.513901+00:00"
     },
     {
       "id": "L6-10",
@@ -3036,7 +3042,7 @@
       "variante": "libera",
       "quota_combinata": 11.07,
       "probabilita_combinata": 0.09,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Valencia - Athletic Club",
@@ -3049,8 +3055,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Parma - Torino",
@@ -3077,8 +3083,8 @@
           "quota_stimata": 1.47,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fulham 1.08 gol attesi (20° con 2 punti, 6 gol fatti e 10 subiti in 6 gare), Hull City 1.38 (8° con 9 punti, 8 fatti e 6 subiti in 6 gare). Somma attesa 2.46 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Leeds United - Manchester United",
@@ -3105,8 +3111,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Erzurumspor 1.77 gol attesi (14° con 8 punti, 3 gol fatti e 11 subiti in 7 gare), Eyüpspor 0.85 (18° con 3 punti, 2 fatti e 20 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Monza - Cagliari",
@@ -3122,7 +3128,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-17T22:07:10.513901+00:00"
     },
     {
       "id": "L7-8",
@@ -3227,6 +3235,378 @@
           "quota_stimata": 1.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.71 gol attesi (4° con 10 punti, 12 gol fatti e 6 subiti in 6 gare), Liverpool 1.00 (9° con 9 punti, 7 fatti e 7 subiti in 6 gare). Somma attesa 2.71 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-9",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 10.4,
+      "probabilita_combinata": 0.096,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Ospitaletto Franciacorta - Pergolettese",
+          "campionato": "Serie C",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Südtirol",
+          "campionato": "Serie B",
+          "data": "2026-10-18T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Celta de Vigo - Deportivo Alavés",
+          "campionato": "La Liga",
+          "data": "2026-10-18T16:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.4,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Lorient - AS Monaco",
+          "campionato": "Ligue 1",
+          "data": "2026-10-18T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.41,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 0.99 gol attesi (8° con 8 punti, 6 gol fatti e 6 subiti in 6 gare), AS Monaco 1.23 (1° con 14 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.22 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giana Erminio - Union Brescia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Nottingham Forest - Arsenal",
+          "campionato": "Premier League",
+          "data": "2026-10-18T16:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 0.90 gol attesi (15° con 5 punti, 5 gol fatti e 8 subiti in 6 gare), Arsenal 1.38 (2° con 15 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.28 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-9",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 3.72,
+      "probabilita_combinata": 0.269,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Ospitaletto Franciacorta - Pergolettese",
+          "campionato": "Serie C",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Südtirol",
+          "campionato": "Serie B",
+          "data": "2026-10-18T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giana Erminio - Union Brescia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-11",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 5.4,
+      "probabilita_combinata": 0.185,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Ospitaletto Franciacorta - Pergolettese",
+          "campionato": "Serie C",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Südtirol",
+          "campionato": "Serie B",
+          "data": "2026-10-18T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giana Erminio - Union Brescia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ravenna - Spezia",
+          "campionato": "Serie C",
+          "data": "2026-10-18T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.20 gol attesi (2° con 20 punti, 16 gol fatti e 5 subiti in 9 gare), Spezia 1.12 (1° con 25 punti, 17 fatti e 4 subiti in 9 gare). Somma attesa 2.32 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-11",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 7.82,
+      "probabilita_combinata": 0.128,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Ospitaletto Franciacorta - Pergolettese",
+          "campionato": "Serie C",
+          "data": "2026-10-18T17:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Südtirol",
+          "campionato": "Serie B",
+          "data": "2026-10-18T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.39,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giana Erminio - Union Brescia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ravenna - Spezia",
+          "campionato": "Serie C",
+          "data": "2026-10-18T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.20 gol attesi (2° con 20 punti, 16 gol fatti e 5 subiti in 9 gare), Spezia 1.12 (1° con 25 punti, 17 fatti e 4 subiti in 9 gare). Somma attesa 2.32 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cosenza - Altamura",
+          "campionato": "Serie C",
+          "data": "2026-10-18T14:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cosenza 1.20 gol attesi (19° con 5 punti, 7 gol fatti e 19 subiti in 9 gare), Altamura 1.18 (17° con 8 punti, 4 fatti e 13 subiti in 9 gare). Somma attesa 2.38 gol.",
           "esito": null,
           "risultato_reale": null
         }

@@ -158,9 +158,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Roma 2.25 gol attesi (3° con 14 punti, 14 gol fatti e 3 subiti in 6 gare), Genoa 0.61 (17° con 4 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.86 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-17T22:20:00Z"
       }
     },
     {

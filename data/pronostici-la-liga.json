@@ -196,9 +196,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Valencia 0.95 gol attesi (19° con 5 punti, 6 gol fatti e 15 subiti in 8 gare), Athletic Club 1.40 (10° con 8 punti, 7 fatti e 6 subiti in 6 gare). Somma attesa 2.34 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-17T22:20:00Z"
       }
     },
     {
