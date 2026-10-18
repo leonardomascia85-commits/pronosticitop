@@ -64,14 +64,35 @@ THRESHOLDS = {4: (0.60, 0.56), 5: (0.56, 0.53), 6: (0.53, 0.51), 7: (0.51, 0.50)
 SAME_ROUND_WINDOW_DAYS = 4
 
 
+def _chiave_weekend(d):
+    """Venerdi' del weekend (ven-sab-dom-lun) a cui appartiene la data locale d."""
+    giorno = d.date()
+    return giorno - datetime.timedelta(days=(giorno.weekday() - 4) % 7 if giorno.weekday() >= 4 else 3)
+
+
+def stesso_turno(dates):
+    """True se tutte le date appartengono allo stesso turno. Se sono tutte in
+    giorni di weekend (ven-sab-dom-lun) DEVONO essere nello stesso weekend: un
+    lunedi' e il venerdi' successivo (4 giorni e poche ore) sono weekend diversi
+    e non vanno mai combinati. Per i turni infrasettimanali (coppe, nazionali)
+    vale la finestra di SAME_ROUND_WINDOW_DAYS giorni esatti."""
+    dates = list(dates)
+    if not dates:
+        return True
+    if all(d.weekday() in (4, 5, 6, 0) for d in dates):
+        return len({_chiave_weekend(d) for d in dates}) == 1
+    return (max(dates) - min(dates)).total_seconds() <= SAME_ROUND_WINDOW_DAYS * 86400
+
+
 def _filter_same_round(items, get_date):
-    """Tiene solo gli elementi entro SAME_ROUND_WINDOW_DAYS dal piu' vicino nel
-    tempo, cosi' una partita rinviata di settimane non resta mescolata nello
-    stesso pool di partite del turno in corso. get_date(item) -> datetime."""
+    """Tiene solo gli elementi dello stesso turno/weekend del piu' vicino nel
+    tempo, cosi' una partita rinviata di settimane o il weekend successivo non
+    restano mescolati nello stesso pool. get_date(item) -> datetime."""
     if len(items) <= 1:
         return items
-    earliest = min(get_date(i) for i in items)
-    return [i for i in items if (get_date(i) - earliest).days <= SAME_ROUND_WINDOW_DAYS]
+    earliest_item = min(items, key=get_date)
+    earliest = get_date(earliest_item)
+    return [i for i in items if stesso_turno([earliest, get_date(i)])]
 
 
 def confidenza(prob):
@@ -499,7 +520,7 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
                 break
         eventi = [m[i] for m, i in zip(mercati, idx)]
         dates = [datetime.datetime.fromisoformat(e['data']) for e in eventi]
-        if (max(dates) - min(dates)).days > SAME_ROUND_WINDOW_DAYS:
+        if not stesso_turno(dates):
             continue
         q = 1 / combo_prob(eventi)
         if not (lo < q <= hi) or not _rispetta_limiti(eventi):
@@ -529,7 +550,7 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
         if len({e['partita'] for e in ev}) != len(ev) or not _rispetta_limiti(ev):
             return False
         ds = [datetime.datetime.fromisoformat(e['data']) for e in ev]
-        if (max(ds) - min(ds)).days > SAME_ROUND_WINDOW_DAYS:
+        if not stesso_turno(ds):
             return False
         qq = 1 / combo_prob(ev)
         return lo < qq <= hi
@@ -1164,7 +1185,9 @@ def pick_combo(pool, n, level):
         if len(chosen) != n:
             continue
         dates = [datetime.datetime.fromisoformat(e['data']) for e in chosen]
-        if (max(dates) - min(dates)).days <= SAME_ROUND_WINDOW_DAYS:
+        # Nazionali: una schedina non puo' scavalcare le due giornate della
+        # stessa pausa (es. gio 12 e mar 17 novembre): al massimo 3 giorni e mezzo.
+        if stesso_turno(dates) and (max(dates) - min(dates)).total_seconds() <= 3.5 * 86400:
             return chosen
     return None
 
