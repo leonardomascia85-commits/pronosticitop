@@ -603,9 +603,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ravenna 1.20 gol attesi (2° con 20 punti, 16 gol fatti e 5 subiti in 9 gare), Spezia 1.12 (1° con 25 punti, 17 fatti e 4 subiti in 9 gare). Somma attesa 2.32 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-18T16:35:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -643,9 +644,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Audace Cerignola 1.56 gol attesi (6° con 14 punti, 14 gol fatti e 9 subiti in 9 gare), Savoia 1.02 (15° con 10 punti, 11 fatti e 12 subiti in 9 gare). Somma attesa 2.58 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-10-18T16:35:00Z"
       }
     },
     {
@@ -683,9 +684,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cavese 1.68 gol attesi (11° con 12 punti, 15 gol fatti e 15 subiti in 9 gare), Casarano 1.28 (14° con 11 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.96 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-2",
+        "aggiornato": "2026-10-18T16:35:00Z"
       }
     },
     {
@@ -723,9 +724,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cosenza 1.20 gol attesi (19° con 5 punti, 7 gol fatti e 19 subiti in 9 gare), Altamura 1.18 (17° con 8 punti, 4 fatti e 13 subiti in 9 gare). Somma attesa 2.38 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-10-18T16:35:00Z"
       }
     },
     {

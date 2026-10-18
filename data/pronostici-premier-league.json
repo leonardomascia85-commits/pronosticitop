@@ -238,9 +238,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.71 gol attesi (18° con 3 punti, 7 gol fatti e 13 subiti in 6 gare), Sunderland 1.46 (17° con 4 punti, 6 fatti e 12 subiti in 6 gare). Somma attesa 3.17 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-18T16:35:00Z",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -277,9 +278,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.70 gol attesi (3° con 13 punti, 18 gol fatti e 5 subiti in 6 gare), Crystal Palace 1.07 (12° con 7 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.77 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-0",
+        "aggiornato": "2026-10-18T16:35:00Z",
+        "primo_tempo": "3-0"
       }
     },
     {
@@ -316,9 +318,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Leeds United 1.53 gol attesi (7° con 9 punti, 8 gol fatti e 5 subiti in 6 gare), Manchester United 1.07 (13° con 6 punti, 9 fatti e 9 subiti in 6 gare). Somma attesa 2.60 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-18T16:35:00Z",
+        "primo_tempo": "0-1"
       }
     },
     {

@@ -140,8 +140,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.70 gol attesi (3° con 13 punti, 18 gol fatti e 5 subiti in 6 gare), Crystal Palace 1.07 (12° con 7 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Celta de Vigo - Deportivo Alavés",
@@ -950,8 +950,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.71 gol attesi (18° con 3 punti, 7 gol fatti e 13 subiti in 6 gare), Sunderland 1.46 (17° con 4 punti, 6 fatti e 12 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "SC Cambuur - AZ Alkmaar",
@@ -1171,8 +1171,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.70 gol attesi (3° con 13 punti, 18 gol fatti e 5 subiti in 6 gare), Crystal Palace 1.07 (12° con 7 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -1394,8 +1394,8 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.71 gol attesi (18° con 3 punti, 7 gol fatti e 13 subiti in 6 gare), Sunderland 1.46 (17° con 4 punti, 6 fatti e 12 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Real Madrid - Sevilla",
@@ -1513,8 +1513,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.53 gol attesi (7° con 9 punti, 8 gol fatti e 5 subiti in 6 gare), Manchester United 1.07 (13° con 6 punti, 9 fatti e 9 subiti in 6 gare). Somma attesa 2.60 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Fiorentina - Como",
@@ -1867,8 +1867,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.70 gol attesi (3° con 13 punti, 18 gol fatti e 5 subiti in 6 gare), Crystal Palace 1.07 (12° con 7 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -2147,8 +2147,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.53 gol attesi (7° con 9 punti, 8 gol fatti e 5 subiti in 6 gare), Manchester United 1.07 (13° con 6 punti, 9 fatti e 9 subiti in 6 gare). Somma attesa 2.60 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cesena - Avellino",
