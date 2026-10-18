@@ -3431,6 +3431,93 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-11",
+      "livello_rischio": 5,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 6,
+      "quota_combinata": 4.07,
+      "probabilita_combinata": 0.245,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Real Madrid o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Monza - Cagliari",
+          "campionato": "Serie A",
+          "data": "2026-10-19T18:30:00+02:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 1.08 gol attesi (16° con 4 punti, 9 gol fatti e 15 subiti in 6 gare), Cagliari 1.61 (4° con 13 punti, 6 fatti e 3 subiti in 6 gare). Somma attesa 2.69 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Tottenham Hotspur - Coventry City",
+          "campionato": "Premier League",
+          "data": "2026-10-19T20:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Tottenham Hotspur o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Corinthians - Vitória",
+          "campionato": "Brasileirão",
+          "data": "2026-10-19T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Corinthians o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "VfB Stuttgart - Borussia Mönchengladbach",
+          "campionato": "Bundesliga",
+          "data": "2026-10-23T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 2.52 gol attesi (13° con 6 punti, 8 gol fatti e 10 subiti in 6 gare), Borussia Mönchengladbach 1.38 (18° con 0 punti, 8 fatti e 20 subiti in 6 gare). Somma attesa 3.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }
