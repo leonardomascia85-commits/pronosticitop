@@ -197,9 +197,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.41 gol attesi (10° con 39 punti, 35 gol fatti e 35 subiti in 30 gare), Vasco da Gama 1.11 (15° con 35 punti, 36 fatti e 42 subiti in 29 gare). Somma attesa 2.52 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-18T10:20:00Z"
       }
     },
     {
