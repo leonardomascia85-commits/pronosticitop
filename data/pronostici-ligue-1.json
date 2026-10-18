@@ -196,9 +196,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.35 gol attesi (12° con 7 punti, 7 gol fatti e 10 subiti in 6 gare), Olympique de Marseille 1.46 (13° con 6 punti, 9 fatti e 8 subiti in 6 gare). Somma attesa 2.81 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-5",
+        "aggiornato": "2026-10-18T16:20:00Z",
+        "primo_tempo": "1-2"
       }
     },
     {

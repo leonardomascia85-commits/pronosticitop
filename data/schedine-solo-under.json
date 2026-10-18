@@ -2178,8 +2178,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 6,
@@ -2276,8 +2276,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -2305,7 +2305,7 @@
       "variante": "libera",
       "quota_combinata": 3.04,
       "probabilita_combinata": 0.329,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -2318,8 +2318,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Bayer 04 Leverkusen - SC Freiburg",
@@ -2332,8 +2332,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -2346,8 +2346,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Real Betis - FC Barcelona",
@@ -2360,10 +2360,12 @@
           "quota_stimata": 1.33,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.42 gol attesi (3° con 19 punti, 14 gol fatti e 9 subiti in 8 gare), FC Barcelona 2.47 (1° con 24 punti, 34 fatti e 7 subiti in 8 gare). Somma attesa 3.89 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-18T16:08:01.873955+00:00"
     },
     {
       "id": "L5-8",
@@ -2384,8 +2386,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -2996,8 +2998,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -3519,6 +3521,76 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-9",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 4.54,
+      "probabilita_combinata": 0.22,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.42,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Trabzonspor - Beşiktaş",
+          "campionato": "Süper Lig",
+          "data": "2026-10-19T20:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.85 gol attesi (5° con 13 punti, 16 gol fatti e 5 subiti in 7 gare), Beşiktaş 1.38 (2° con 15 punti, 16 fatti e 8 subiti in 7 gare). Somma attesa 3.23 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sampdoria - Arezzo",
+          "campionato": "Serie B",
+          "data": "2026-10-18T19:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.5,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
           "esito": null,
           "risultato_reale": null
         }

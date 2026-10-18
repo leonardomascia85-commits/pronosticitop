@@ -316,9 +316,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Juve Stabia 0.72 gol attesi (20° con 2 punti, 5 gol fatti e 8 subiti in 6 gare), Südtirol 1.30 (4° con 12 punti, 9 fatti e 3 subiti in 6 gare). Somma attesa 2.02 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-18T16:20:00Z",
+        "primo_tempo": "1-0"
       }
     },
     {

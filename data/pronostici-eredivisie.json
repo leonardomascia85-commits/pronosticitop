@@ -236,9 +236,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 19 subiti in 8 gare), AZ Alkmaar 2.13 (3° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 3.41 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-18T16:20:00Z"
       }
     },
     {

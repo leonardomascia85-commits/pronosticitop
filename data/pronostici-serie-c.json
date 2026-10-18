@@ -562,9 +562,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gubbio 1.48 gol attesi (18° con 7 punti, 10 gol fatti e 18 subiti in 9 gare), Atalanta U23 1.38 (14° con 9 punti, 8 fatti e 13 subiti in 8 gare). Somma attesa 2.86 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-18T16:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -762,9 +763,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bari 1.68 gol attesi (2° con 19 punti, 13 gol fatti e 6 subiti in 9 gare), Crotone 0.82 (20° con 0 punti, 10 fatti e 15 subiti in 9 gare). Somma attesa 2.50 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-18T16:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

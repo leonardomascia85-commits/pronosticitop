@@ -278,9 +278,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Kocaelispor 1.77 gol attesi (7° con 12 punti, 8 gol fatti e 6 subiti in 7 gare), Göztepe 1.38 (15° con 6 punti, 15 fatti e 15 subiti in 7 gare). Somma attesa 3.15 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-18T16:20:00Z",
+        "primo_tempo": "0-1"
       }
     },
     {
