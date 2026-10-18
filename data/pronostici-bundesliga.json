@@ -356,9 +356,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-18T18:20:00Z",
+        "primo_tempo": "0-1"
       }
     }
   ]

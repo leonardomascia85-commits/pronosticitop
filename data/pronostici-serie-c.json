@@ -805,9 +805,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-10-18T18:20:00Z"
       }
     },
     {
@@ -845,9 +845,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Albinoleffe 1.56 gol attesi (9° con 12 punti, 14 gol fatti e 13 subiti in 9 gare), Novara 1.07 (14° con 9 punti, 8 fatti e 12 subiti in 9 gare). Somma attesa 2.63 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-18T18:20:00Z"
       }
     },
     {
@@ -885,9 +885,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Alcione Milano 1.20 gol attesi (10° con 12 punti, 13 gol fatti e 14 subiti in 9 gare), Desenzano 1.12 (6° con 13 punti, 8 fatti e 7 subiti in 9 gare). Somma attesa 2.32 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-1",
+        "aggiornato": "2026-10-18T18:20:00Z"
       }
     },
     {
@@ -925,9 +925,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pescara 1.26 gol attesi (10° con 12 punti, 11 gol fatti e 12 subiti in 9 gare), Ostiamare 1.07 (15° con 9 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.33 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-18T18:20:00Z"
       }
     },
     {

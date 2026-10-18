@@ -278,9 +278,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Milan 1.71 gol attesi (5° con 12 punti, 11 gol fatti e 5 subiti in 6 gare), Atalanta 1.00 (10° con 9 punti, 8 fatti e 8 subiti in 6 gare). Somma attesa 2.71 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-18T18:20:00Z",
+        "primo_tempo": "2-0"
       }
     },
     {

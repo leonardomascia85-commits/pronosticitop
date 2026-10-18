@@ -358,9 +358,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 0.90 gol attesi (15° con 5 punti, 5 gol fatti e 8 subiti in 6 gare), Arsenal 1.38 (2° con 15 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.28 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-18T18:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

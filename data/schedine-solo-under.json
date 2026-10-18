@@ -1954,8 +1954,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Eintracht Frankfurt - 1. FC Köln",
@@ -1982,8 +1982,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2024,8 +2024,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Eintracht Frankfurt - 1. FC Köln",
@@ -2052,8 +2052,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2108,8 +2108,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Eintracht Frankfurt - 1. FC Köln",
@@ -2136,8 +2136,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2206,8 +2206,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Eintracht Frankfurt - 1. FC Köln",
@@ -2234,8 +2234,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2675,8 +2675,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -2690,8 +2690,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2938,8 +2938,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -2953,8 +2953,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -3232,7 +3232,7 @@
       "variante": "libera",
       "quota_combinata": 5.87,
       "probabilita_combinata": 0.17,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "NEC Nijmegen - Fortuna Sittard",
@@ -3261,8 +3261,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Barletta - Picerno",
@@ -3309,7 +3309,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-18T18:07:35.241746+00:00"
     },
     {
       "id": "L6-8",
@@ -3317,7 +3319,7 @@
       "variante": "libera",
       "quota_combinata": 8.63,
       "probabilita_combinata": 0.116,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "NEC Nijmegen - Fortuna Sittard",
@@ -3346,8 +3348,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Barletta - Picerno",
@@ -3409,7 +3411,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-18T18:07:35.241746+00:00"
     },
     {
       "id": "L7-12",
@@ -3417,7 +3421,7 @@
       "variante": "libera",
       "quota_combinata": 14.71,
       "probabilita_combinata": 0.068,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Ospitaletto Franciacorta - Pergolettese",
@@ -3431,8 +3435,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.26 gol attesi (3° con 18 punti, 15 gol fatti e 6 subiti in 9 gare), Pergolettese 0.56 (12° con 11 punti, 5 fatti e 6 subiti in 9 gare). Somma attesa 1.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Barletta - Picerno",
@@ -3521,10 +3525,12 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-18T18:07:35.241746+00:00"
     },
     {
       "id": "L4-9",
@@ -3591,6 +3597,306 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-11",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 7.67,
+      "probabilita_combinata": 0.13,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Trabzonspor - Beşiktaş",
+          "campionato": "Süper Lig",
+          "data": "2026-10-19T20:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.85 gol attesi (5° con 13 punti, 16 gol fatti e 5 subiti in 7 gare), Beşiktaş 1.38 (2° con 15 punti, 16 fatti e 8 subiti in 7 gare). Somma attesa 3.23 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giugliano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fluminense - Santos",
+          "campionato": "Brasileirão",
+          "data": "2026-10-18T16:00:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fluminense 1.67 gol attesi (4° con 51 punti, 48 gol fatti e 37 subiti in 30 gare), Santos 1.27 (8° con 42 punti, 46 fatti e 45 subiti in 30 gare). Somma attesa 2.95 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-9",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 12.57,
+      "probabilita_combinata": 0.08,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Trabzonspor - Beşiktaş",
+          "campionato": "Süper Lig",
+          "data": "2026-10-19T20:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.85 gol attesi (5° con 13 punti, 16 gol fatti e 5 subiti in 7 gare), Beşiktaş 1.38 (2° con 15 punti, 16 fatti e 8 subiti in 7 gare). Somma attesa 3.23 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giugliano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fluminense - Santos",
+          "campionato": "Brasileirão",
+          "data": "2026-10-18T16:00:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fluminense 1.67 gol attesi (4° con 51 punti, 48 gol fatti e 37 subiti in 30 gare), Santos 1.27 (8° con 42 punti, 46 fatti e 45 subiti in 30 gare). Somma attesa 2.95 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Getafe - Rayo Vallecano",
+          "campionato": "La Liga",
+          "data": "2026-10-19T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.65,
+          "probabilita_modello": 0.53,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-13",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 21.68,
+      "probabilita_combinata": 0.046,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Dolomiti Bellunesi - Trento",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-10-18T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.44,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Trabzonspor - Beşiktaş",
+          "campionato": "Süper Lig",
+          "data": "2026-10-19T20:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.85 gol attesi (5° con 13 punti, 16 gol fatti e 5 subiti in 7 gare), Beşiktaş 1.38 (2° con 15 punti, 16 fatti e 8 subiti in 7 gare). Somma attesa 3.23 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giugliano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fluminense - Santos",
+          "campionato": "Brasileirão",
+          "data": "2026-10-18T16:00:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fluminense 1.67 gol attesi (4° con 51 punti, 48 gol fatti e 37 subiti in 30 gare), Santos 1.27 (8° con 42 punti, 46 fatti e 45 subiti in 30 gare). Somma attesa 2.95 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Getafe - Rayo Vallecano",
+          "campionato": "La Liga",
+          "data": "2026-10-19T21:00:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.65,
+          "probabilita_modello": 0.53,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Monza - Cagliari",
+          "campionato": "Serie A",
+          "data": "2026-10-19T18:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.58,
+          "quota_stimata": 1.72,
+          "probabilita_modello": 0.5,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 1.08 gol attesi (16° con 4 punti, 9 gol fatti e 15 subiti in 6 gare), Cagliari 1.61 (4° con 13 punti, 6 fatti e 3 subiti in 6 gare). Somma attesa 2.69 gol. Orario da confermare.",
           "esito": null,
           "risultato_reale": null
         }

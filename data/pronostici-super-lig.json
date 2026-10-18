@@ -318,9 +318,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Başakşehir 1.54 gol attesi (11° con 8 punti, 10 gol fatti e 11 subiti in 7 gare), Gaziantep FK 1.18 (12° con 8 punti, 7 fatti e 10 subiti in 7 gare). Somma attesa 2.73 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-18T18:20:00Z",
+        "primo_tempo": "1-0"
       }
     },
     {

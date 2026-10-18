@@ -276,9 +276,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-18T18:20:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

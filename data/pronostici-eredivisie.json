@@ -275,9 +275,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-5",
+        "aggiornato": "2026-10-18T18:20:00Z"
       }
     },
     {
