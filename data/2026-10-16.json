@@ -3672,6 +3672,93 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-12",
+      "livello_rischio": 5,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 8,
+      "quota_combinata": 6.01,
+      "probabilita_combinata": 0.166,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Remo - Red Bull Bragantino",
+          "campionato": "Brasileirão",
+          "data": "2026-10-18T19:30:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Remo o Red Bull Bragantino",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Remo 1.22 gol attesi (19° con 25 punti, 33 gol fatti e 48 subiti in 30 gare), Red Bull Bragantino 1.32 (9° con 40 punti, 38 fatti e 35 subiti in 30 gare). Somma attesa 2.54 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Go Ahead Eagles - Telstar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-23T20:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Go Ahead Eagles o Telstar",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Go Ahead Eagles 2.28 gol attesi (9° con 11 punti, 20 gol fatti e 21 subiti in 9 gare), Telstar 1.58 (16° con 6 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.86 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Empoli - L.R. Vicenza",
+          "campionato": "Serie B",
+          "data": "2026-10-23T20:30:00+02:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.70 gol attesi (14° con 7 punti, 7 gol fatti e 11 subiti in 7 gare), L.R. Vicenza 1.31 (17° con 6 punti, 9 fatti e 15 subiti in 7 gare). Somma attesa 3.01 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Vitória Guimarães - Marítimo",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-23T20:45:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "No Gol",
+          "esito_pick": "nogol",
+          "probabilita_stimata": 0.52,
+          "quota_stimata": 1.92,
+          "probabilita_modello": 0.51,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória Guimarães 1.28 gol attesi (15° con 5 punti, 5 gol fatti e 10 subiti in 8 gare), Marítimo 1.09 (12° con 8 punti, 9 fatti e 14 subiti in 8 gare). Somma attesa 2.38 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Brestois 29 - OGC Nice",
+          "campionato": "Ligue 1",
+          "data": "2026-10-23T20:45:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Stade Brestois 29 o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.70 gol attesi (10° con 9 punti, 13 gol fatti e 10 subiti in 7 gare), OGC Nice 1.05 (13° con 8 punti, 6 fatti e 9 subiti in 7 gare). Somma attesa 2.75 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

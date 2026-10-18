@@ -6148,6 +6148,755 @@
    },
    "campionato": "Serie B",
    "giornata": "7ª giornata"
+  },
+  {
+   "casa": "sc Heerenveen",
+   "trasferta": "Excelsior",
+   "data": "2026-10-16T20:00:00+02:00",
+   "forma_casa": "10° posto, 9 pt in 8 gare (2V-3N-3P), 11-11",
+   "forma_trasferta": "9° posto, 11 pt in 8 gare (3V-2N-3P), 16-14",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria sc Heerenveen",
+    "probabilita": 0.4
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "sc Heerenveen o Excelsior",
+    "probabilita": 0.75
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.63
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.59
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.65
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.69 gol attesi (10° con 9 punti, 11 gol fatti e 11 subiti in 8 gare), Excelsior 1.55 (9° con 11 punti, 16 fatti e 14 subiti in 8 gare). Somma attesa 3.24 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-0",
+    "aggiornato": "2026-10-16T20:14:41Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "ADO Den Haag",
+   "trasferta": "PSV",
+   "data": "2026-10-17T16:30:00+02:00",
+   "forma_casa": "17° posto, 3 pt in 8 gare (0V-3N-5P), 9-19",
+   "forma_trasferta": "2° posto, 19 pt in 8 gare (6V-1N-1P), 26-10",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria PSV",
+    "probabilita": 0.65
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o PSV",
+    "probabilita": 0.84
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.74
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.54
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.68
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.28 gol attesi (17° con 3 punti, 9 gol fatti e 19 subiti in 8 gare), PSV 2.59 (2° con 19 punti, 26 fatti e 10 subiti in 8 gare). Somma attesa 3.87 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-10-17T17:20:00Z",
+    "primo_tempo": "0-1"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "Telstar",
+   "trasferta": "Feyenoord",
+   "data": "2026-10-17T20:00:00+02:00",
+   "forma_casa": "15° posto, 6 pt in 8 gare (1V-3N-4P), 7-14",
+   "forma_trasferta": "1° posto, 20 pt in 8 gare (6V-2N-0P), 27-7",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Feyenoord",
+    "probabilita": 0.68
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o Feyenoord",
+    "probabilita": 0.87
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.64
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.58
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.56
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-4",
+    "aggiornato": "2026-10-17T20:20:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "Sparta Rotterdam",
+   "trasferta": "Willem II",
+   "data": "2026-10-17T21:00:00+02:00",
+   "forma_casa": "14° posto, 6 pt in 8 gare (1V-3N-4P), 13-20",
+   "forma_trasferta": "18° posto, 2 pt in 8 gare (0V-2N-6P), 7-23",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Sparta Rotterdam",
+    "probabilita": 0.56
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Sparta Rotterdam o Willem II",
+    "probabilita": 0.8
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.76
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.56
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.73
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-2",
+    "primo_tempo": "1-1",
+    "aggiornato": "2026-10-17T22:20:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "PEC Zwolle",
+   "trasferta": "Go Ahead Eagles",
+   "data": "2026-10-18T12:15:00+02:00",
+   "forma_casa": "16° posto, 4 pt in 8 gare (1V-1N-6P), 6-21",
+   "forma_trasferta": "8° posto, 11 pt in 8 gare (2V-5N-1P), 19-17",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Go Ahead Eagles",
+    "probabilita": 0.54
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "PEC Zwolle o Go Ahead Eagles",
+    "probabilita": 0.79
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.74
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.54
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.72
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-1",
+    "aggiornato": "2026-10-18T14:20:00Z",
+    "primo_tempo": "0-1"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "SC Cambuur",
+   "trasferta": "AZ Alkmaar",
+   "data": "2026-10-18T14:30:00+02:00",
+   "forma_casa": "12° posto, 8 pt in 8 gare (2V-2N-4P), 11-19",
+   "forma_trasferta": "3° posto, 19 pt in 8 gare (6V-1N-1P), 18-8",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria AZ Alkmaar",
+    "probabilita": 0.56
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o AZ Alkmaar",
+    "probabilita": 0.78
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.66
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.56
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.65
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.28 gol attesi (12° con 8 punti, 11 gol fatti e 19 subiti in 8 gare), AZ Alkmaar 2.13 (3° con 19 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 3.41 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-10-18T16:20:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "FC Groningen",
+   "trasferta": "Ajax",
+   "data": "2026-10-18T16:45:00+02:00",
+   "forma_casa": "6° posto, 14 pt in 8 gare (4V-2N-2P), 20-14",
+   "forma_trasferta": "5° posto, 15 pt in 8 gare (4V-3N-1P), 22-10",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Ajax",
+    "probabilita": 0.4
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "FC Groningen o Ajax",
+    "probabilita": 0.78
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.78
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.58
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.77
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-5",
+    "aggiornato": "2026-10-18T18:20:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "NEC Nijmegen",
+   "trasferta": "Fortuna Sittard",
+   "data": "2026-10-18T20:00:00+02:00",
+   "forma_casa": "11° posto, 9 pt in 8 gare (2V-3N-3P), 13-14",
+   "forma_trasferta": "7° posto, 14 pt in 8 gare (4V-2N-2P), 14-15",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria NEC Nijmegen",
+    "probabilita": 0.44
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "NEC Nijmegen o Fortuna Sittard",
+    "probabilita": 0.76
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.68
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.54
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.69
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.89 gol attesi (11° con 9 punti, 13 gol fatti e 14 subiti in 8 gare), Fortuna Sittard 1.61 (7° con 14 punti, 14 fatti e 15 subiti in 8 gare). Somma attesa 3.50 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "primo_tempo": "1-1",
+    "aggiornato": "2026-10-18T22:20:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "FC Twente",
+   "trasferta": "FC Utrecht",
+   "data": "2026-10-18T20:00:00+02:00",
+   "forma_casa": "4° posto, 17 pt in 8 gare (5V-2N-1P), 16-8",
+   "forma_trasferta": "13° posto, 8 pt in 8 gare (2V-2N-4P), 14-25",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria FC Twente",
+    "probabilita": 0.68
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "FC Twente o pareggio",
+    "probabilita": 0.86
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.77
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.57
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.68
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "primo_tempo": "1-0",
+    "aggiornato": "2026-10-18T20:15:00Z"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "Le Mans FC",
+   "trasferta": "Toulouse FC",
+   "data": "2026-10-16T20:45:00+02:00",
+   "forma_casa": "14° posto, 6 pt in 6 gare (1V-3N-2P), 10-12",
+   "forma_trasferta": "15° posto, 6 pt in 6 gare (1V-3N-2P), 9-11",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Le Mans FC",
+    "probabilita": 0.44
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Le Mans FC o Toulouse FC",
+    "probabilita": 0.76
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.68
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.54
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.69
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Le Mans FC 1.89 gol attesi (14° con 6 punti, 10 gol fatti e 12 subiti in 6 gare), Toulouse FC 1.61 (15° con 6 punti, 9 fatti e 11 subiti in 6 gare). Somma attesa 3.50 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-3",
+    "aggiornato": "2026-10-16T22:14:38Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "RC Strasbourg Alsace",
+   "trasferta": "Paris Saint-Germain",
+   "data": "2026-10-17T17:15:00+02:00",
+   "forma_casa": "11° posto, 7 pt in 6 gare (2V-1N-3P), 11-12",
+   "forma_trasferta": "6° posto, 11 pt in 6 gare (3V-2N-1P), 11-8",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Paris Saint-Germain",
+    "probabilita": 0.39
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "RC Strasbourg Alsace o Paris Saint-Germain",
+    "probabilita": 0.76
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.67
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.54
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.69
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): RC Strasbourg Alsace 1.71 gol attesi (11° con 7 punti, 11 gol fatti e 12 subiti in 6 gare), Paris Saint-Germain 1.76 (6° con 11 punti, 11 fatti e 8 subiti in 6 gare). Somma attesa 3.47 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-3",
+    "aggiornato": "2026-10-17T18:20:00Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "LOSC Lille",
+   "trasferta": "Stade Brestois 29",
+   "data": "2026-10-17T20:45:00+02:00",
+   "forma_casa": "2° posto, 13 pt in 6 gare (4V-1N-1P), 9-4",
+   "forma_trasferta": "7° posto, 8 pt in 6 gare (2V-2N-2P), 12-9",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria LOSC Lille",
+    "probabilita": 0.45
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "LOSC Lille o Stade Brestois 29",
+    "probabilita": 0.73
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.54
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.68
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.58
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.62 gol attesi (2° con 13 punti, 9 gol fatti e 4 subiti in 6 gare), Stade Brestois 29 1.23 (7° con 8 punti, 12 fatti e 9 subiti in 6 gare). Somma attesa 2.85 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-1",
+    "primo_tempo": "1-0",
+    "aggiornato": "2026-10-17T22:20:00Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "ESTAC Troyes",
+   "trasferta": "RC Lens",
+   "data": "2026-10-17T20:45:00+02:00",
+   "forma_casa": "17° posto, 4 pt in 6 gare (1V-1N-4P), 4-13",
+   "forma_trasferta": "10° posto, 7 pt in 6 gare (2V-1N-3P), 11-10",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria RC Lens",
+    "probabilita": 0.5
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "ESTAC Troyes o RC Lens",
+    "probabilita": 0.75
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.6
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.62
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.61
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): ESTAC Troyes 1.26 gol attesi (17° con 4 punti, 4 gol fatti e 13 subiti in 6 gare), RC Lens 1.84 (10° con 7 punti, 11 fatti e 10 subiti in 6 gare). Somma attesa 3.10 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-3",
+    "primo_tempo": "1-2",
+    "aggiornato": "2026-10-17T22:20:00Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "Angers SCO",
+   "trasferta": "Olympique de Marseille",
+   "data": "2026-10-18T15:00:00+02:00",
+   "forma_casa": "12° posto, 7 pt in 6 gare (2V-1N-3P), 7-10",
+   "forma_trasferta": "13° posto, 6 pt in 6 gare (2V-0N-4P), 9-8",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Olympique de Marseille",
+    "probabilita": 0.39
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Angers SCO o Olympique de Marseille",
+    "probabilita": 0.72
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.53
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.69
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.58
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.35 gol attesi (12° con 7 punti, 7 gol fatti e 10 subiti in 6 gare), Olympique de Marseille 1.46 (13° con 6 punti, 9 fatti e 8 subiti in 6 gare). Somma attesa 2.81 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-5",
+    "aggiornato": "2026-10-18T16:20:00Z",
+    "primo_tempo": "1-2"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "Paris FC",
+   "trasferta": "Stade Rennais FC",
+   "data": "2026-10-18T17:15:00+02:00",
+   "forma_casa": "5° posto, 11 pt in 6 gare (3V-2N-1P), 8-4",
+   "forma_trasferta": "3° posto, 13 pt in 6 gare (4V-1N-1P), 12-10",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Paris FC",
+    "probabilita": 0.45
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Paris FC o Stade Rennais FC",
+    "probabilita": 0.73
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.54
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.68
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.58
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Paris FC 1.62 gol attesi (5° con 11 punti, 8 gol fatti e 4 subiti in 6 gare), Stade Rennais FC 1.23 (3° con 13 punti, 12 fatti e 10 subiti in 6 gare). Somma attesa 2.85 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-3",
+    "aggiornato": "2026-10-18T18:40:00Z",
+    "primo_tempo": "2-1"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "FC Lorient",
+   "trasferta": "AS Monaco",
+   "data": "2026-10-18T17:15:00+02:00",
+   "forma_casa": "8° posto, 8 pt in 6 gare (2V-2N-2P), 6-6",
+   "forma_trasferta": "1° posto, 14 pt in 6 gare (4V-2N-0P), 10-5",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria AS Monaco",
+    "probabilita": 0.4
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o AS Monaco",
+    "probabilita": 0.72
+   },
+   "pick_uo": {
+    "esito": "under",
+    "etichetta": "Under 2.5",
+    "probabilita": 0.62
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.82
+   },
+   "pick_gg": {
+    "esito": "nogol",
+    "etichetta": "No Gol",
+    "probabilita": 0.54
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): FC Lorient 0.99 gol attesi (8° con 8 punti, 6 gol fatti e 6 subiti in 6 gare), AS Monaco 1.23 (1° con 14 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.22 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-10-18T18:40:00Z",
+    "primo_tempo": "0-0"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "Le Havre AC",
+   "trasferta": "AJ Auxerre",
+   "data": "2026-10-18T17:15:00+02:00",
+   "forma_casa": "18° posto, 2 pt in 6 gare (0V-2N-4P), 4-8",
+   "forma_trasferta": "16° posto, 6 pt in 6 gare (2V-0N-4P), 8-16",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Le Havre AC",
+    "probabilita": 0.5
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Le Havre AC o pareggio",
+    "probabilita": 0.75
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.58
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.64
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.6
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.80 gol attesi (18° con 2 punti, 4 gol fatti e 8 subiti in 6 gare), AJ Auxerre 1.23 (16° con 6 punti, 8 fatti e 16 subiti in 6 gare). Somma attesa 3.03 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-3",
+    "aggiornato": "2026-10-18T18:40:00Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
+  },
+  {
+   "casa": "Olympique Lyonnais",
+   "trasferta": "OGC Nice",
+   "data": "2026-10-18T20:45:00+02:00",
+   "forma_casa": "4° posto, 11 pt in 6 gare (3V-2N-1P), 11-4",
+   "forma_trasferta": "9° posto, 8 pt in 6 gare (2V-2N-2P), 5-7",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Olympique Lyonnais",
+    "probabilita": 0.59
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Olympique Lyonnais o pareggio",
+    "probabilita": 0.85
+   },
+   "pick_uo": {
+    "esito": "under",
+    "etichetta": "Under 2.5",
+    "probabilita": 0.59
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.8
+   },
+   "pick_gg": {
+    "esito": "nogol",
+    "etichetta": "No Gol",
+    "probabilita": 0.59
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.62 gol attesi (4° con 11 punti, 11 gol fatti e 4 subiti in 6 gare), OGC Nice 0.69 (9° con 8 punti, 5 fatti e 7 subiti in 6 gare). Somma attesa 2.31 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "primo_tempo": "2-1",
+    "aggiornato": "2026-10-18T22:20:00Z"
+   },
+   "campionato": "Ligue 1",
+   "giornata": "7ª giornata"
   }
  ]
 }
