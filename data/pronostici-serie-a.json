@@ -198,9 +198,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Udinese 1.89 gol attesi (15° con 4 punti, 9 gol fatti e 13 subiti in 6 gare), Lecce 1.46 (13° con 6 punti, 6 fatti e 12 subiti in 6 gare). Somma attesa 3.35 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-18T14:20:00Z",
+        "primo_tempo": "0-2"
       }
     },
     {

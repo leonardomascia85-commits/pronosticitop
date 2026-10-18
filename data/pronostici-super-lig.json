@@ -238,9 +238,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.77 gol attesi (9° con 10 punti, 8 gol fatti e 8 subiti in 7 gare), Samsunspor 0.92 (17° con 4 punti, 6 fatti e 15 subiti in 7 gare). Somma attesa 2.69 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-1",
+        "aggiornato": "2026-10-18T14:20:00Z",
+        "primo_tempo": "2-1"
       }
     },
     {

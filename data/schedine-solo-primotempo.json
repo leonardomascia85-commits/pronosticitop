@@ -2037,8 +2037,8 @@
           "quota_stimata": 1.21,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Osasuna 2.09 gol attesi (16° con 8 punti, 8 gol fatti e 18 subiti in 8 gare), Racing de Santander 1.78 (15° con 8 punti, 13 fatti e 23 subiti in 8 gare). Somma attesa 3.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "quota_max": 7,
