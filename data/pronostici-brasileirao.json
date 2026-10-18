@@ -78,9 +78,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Botafogo 1.91 gol attesi (13° con 36 punti, 43 gol fatti e 48 subiti in 30 gare), Chapecoense 1.21 (20° con 18 punti, 30 fatti e 61 subiti in 29 gare). Somma attesa 3.12 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-18T00:15:00Z",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -117,9 +118,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.60 gol attesi (7° con 47 punti, 41 gol fatti e 35 subiti in 30 gare), Coritiba 1.12 (11° con 39 punti, 38 fatti e 48 subiti in 30 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-18T00:15:00Z"
       }
     },
     {

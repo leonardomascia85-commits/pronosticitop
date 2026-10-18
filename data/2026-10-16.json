@@ -2109,8 +2109,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.91 gol attesi (13° con 36 punti, 43 gol fatti e 48 subiti in 30 gare), Chapecoense 1.21 (20° con 18 punti, 30 fatti e 61 subiti in 29 gare). Somma attesa 3.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Pisa - Cremonese",
