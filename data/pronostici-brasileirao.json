@@ -157,9 +157,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.28 gol attesi (3° con 53 punti, 49 gol fatti e 35 subiti in 30 gare), Palmeiras 1.33 (2° con 63 punti, 52 fatti e 22 subiti in 30 gare). Somma attesa 2.61 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "primo_tempo": "0-2",
+        "aggiornato": "2026-10-18T02:20:00Z"
       }
     },
     {
