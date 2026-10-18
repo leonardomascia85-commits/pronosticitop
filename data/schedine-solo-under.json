@@ -3276,8 +3276,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Barletta 1.74 gol attesi (16° con 8 punti, 12 gol fatti e 15 subiti in 9 gare), Picerno 1.64 (10° con 12 punti, 17 fatti e 17 subiti in 9 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3363,8 +3363,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Barletta 1.74 gol attesi (16° con 8 punti, 12 gol fatti e 15 subiti in 9 gare), Picerno 1.64 (10° con 12 punti, 17 fatti e 17 subiti in 9 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3450,8 +3450,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Barletta 1.74 gol attesi (16° con 8 punti, 12 gol fatti e 15 subiti in 9 gare), Picerno 1.64 (10° con 12 punti, 17 fatti e 17 subiti in 9 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Trento",

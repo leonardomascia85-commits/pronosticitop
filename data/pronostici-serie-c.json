@@ -965,9 +965,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Barletta 1.74 gol attesi (16° con 8 punti, 12 gol fatti e 15 subiti in 9 gare), Picerno 1.64 (10° con 12 punti, 17 fatti e 17 subiti in 9 gare). Somma attesa 3.38 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-18T18:40:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -1005,9 +1006,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sorrento 1.62 gol attesi (3° con 18 punti, 14 gol fatti e 10 subiti in 9 gare), Casertana 1.28 (5° con 15 punti, 15 fatti e 13 subiti in 9 gare). Somma attesa 2.90 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-18T18:40:00Z",
+        "primo_tempo": "0-0"
       }
     },
     {

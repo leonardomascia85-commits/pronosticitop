@@ -2807,8 +2807,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 0.99 gol attesi (8° con 8 punti, 6 gol fatti e 6 subiti in 6 gare), AS Monaco 1.23 (1° con 14 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.22 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Nottingham Forest - Arsenal",
@@ -3322,8 +3322,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 0.99 gol attesi (8° con 8 punti, 6 gol fatti e 6 subiti in 6 gare), AS Monaco 1.23 (1° con 14 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.22 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
