@@ -1209,8 +1209,8 @@
           "quota_stimata": 1.07,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Brighton & Hove Albion - Crystal Palace",
@@ -1279,8 +1279,8 @@
           "quota_stimata": 1.07,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Brighton & Hove Albion - Crystal Palace",
@@ -1363,8 +1363,8 @@
           "quota_stimata": 1.07,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Brighton & Hove Albion - Crystal Palace",
@@ -1461,8 +1461,8 @@
           "quota_stimata": 1.07,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Brighton & Hove Albion - Crystal Palace",
@@ -2135,7 +2135,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.41,
       "probabilita_combinata": 0.708,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2149,8 +2149,8 @@
           "probabilita_modello": 0.94,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Brighton & Hove Albion - Crystal Palace",
@@ -2164,8 +2164,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.70 gol attesi (3° con 13 punti, 18 gol fatti e 5 subiti in 6 gare), Crystal Palace 1.07 (12° con 7 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Telstar - Feyenoord",
@@ -2179,8 +2179,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 0.95 gol attesi (15° con 6 punti, 7 gol fatti e 14 subiti in 8 gare), Feyenoord 2.36 (1° con 20 punti, 27 fatti e 7 subiti in 8 gare). Somma attesa 3.30 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-4"
         },
         {
           "partita": "PEC Zwolle - Go Ahead Eagles",
@@ -2194,12 +2194,14 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-18T20:07:54.744463+00:00"
     },
     {
       "id": "L5-6",
@@ -2876,6 +2878,78 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-8",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 2.15,
+      "probabilita_combinata": 0.465,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "VfB Stuttgart - Borussia Mönchengladbach",
+          "campionato": "Bundesliga",
+          "data": "2026-10-23T20:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (VfB Stuttgart)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 2.52 gol attesi (13° con 6 punti, 8 gol fatti e 10 subiti in 6 gare), Borussia Mönchengladbach 1.38 (18° con 0 punti, 8 fatti e 20 subiti in 6 gare). Somma attesa 3.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Empoli - L.R. Vicenza",
+          "campionato": "Serie B",
+          "data": "2026-10-23T20:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Empoli)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.70 gol attesi (14° con 7 punti, 7 gol fatti e 11 subiti in 7 gare), L.R. Vicenza 1.31 (17° con 6 punti, 9 fatti e 15 subiti in 7 gare). Somma attesa 3.01 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cittadella - Arzignano Valchiampo",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Cittadella)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Giugliano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-10-19T20:30:00+02:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Foggia)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
     }
   ]
 }
