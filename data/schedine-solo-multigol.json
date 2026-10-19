@@ -2688,7 +2688,7 @@
       "variante": "quota_max",
       "quota_combinata": 8.39,
       "probabilita_combinata": 0.119,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Celta de Vigo - Deportivo Alavés",
@@ -2701,8 +2701,8 @@
           "quota_stimata": 1.4,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.08 gol attesi (9° con 8 punti, 8 gol fatti e 6 subiti in 8 gare), Deportivo Alavés 1.04 (7° con 11 punti, 12 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "FC Lorient - AS Monaco",
@@ -2729,8 +2729,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 0.90 gol attesi (15° con 5 punti, 5 gol fatti e 8 subiti in 6 gare), Arsenal 1.38 (2° con 15 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.28 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Olympique Lyonnais - OGC Nice",
@@ -2757,8 +2757,8 @@
           "quota_stimata": 1.46,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.17 gol attesi (6° con 11 punti, 9 gol fatti e 5 subiti in 6 gare), Lazio 1.23 (2° con 16 punti, 11 fatti e 4 subiti in 6 gare). Somma attesa 2.40 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Tottenham Hotspur - Coventry City",
@@ -2771,12 +2771,14 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-19T22:07:57.217165+00:00"
     },
     {
       "id": "L7-7",
@@ -2867,8 +2869,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Valencia - Athletic Club",
@@ -2923,8 +2925,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Valencia - Athletic Club",
@@ -2951,8 +2953,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
       ],
       "esito_finale": "persa",
@@ -2977,8 +2979,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Valencia - Athletic Club",
@@ -3005,8 +3007,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fulham - Hull City",
@@ -3073,8 +3075,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fulham - Hull City",
@@ -3155,8 +3157,8 @@
           "quota_stimata": 1.48,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fulham - Hull City",
@@ -3281,8 +3283,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Juve Stabia - Südtirol",
@@ -3341,8 +3343,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Nottingham Forest - Arsenal",
@@ -3400,8 +3402,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Juve Stabia - Südtirol",
@@ -3430,8 +3432,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -3472,8 +3474,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Juve Stabia - Südtirol",
@@ -3502,8 +3504,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Ravenna - Spezia",
@@ -3559,8 +3561,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Juve Stabia - Südtirol",
@@ -3589,8 +3591,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Ravenna - Spezia",
@@ -3732,7 +3734,7 @@
       "variante": "quota_max",
       "quota_combinata": 12.7,
       "probabilita_combinata": 0.079,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3746,8 +3748,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
@@ -3761,8 +3763,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Olympique Lyonnais - OGC Nice",
@@ -3791,8 +3793,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.17 gol attesi (6° con 11 punti, 9 gol fatti e 5 subiti in 6 gare), Lazio 1.23 (2° con 16 punti, 11 fatti e 4 subiti in 6 gare). Somma attesa 2.40 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Tottenham Hotspur - Coventry City",
@@ -3806,8 +3808,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Parma - Torino",
@@ -3821,8 +3823,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Cittadella - Arzignano Valchiampo",
@@ -3836,12 +3838,14 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-19T22:07:57.217165+00:00"
     },
     {
       "id": "L4-10",
@@ -3849,7 +3853,7 @@
       "variante": "libera",
       "quota_combinata": 4.11,
       "probabilita_combinata": 0.243,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3863,8 +3867,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
@@ -3878,8 +3882,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Juventus - Lazio",
@@ -3893,8 +3897,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.17 gol attesi (6° con 11 punti, 9 gol fatti e 5 subiti in 6 gare), Lazio 1.23 (2° con 16 punti, 11 fatti e 4 subiti in 6 gare). Somma attesa 2.40 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Tottenham Hotspur - Coventry City",
@@ -3908,10 +3912,12 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-19T22:07:57.217165+00:00"
     },
     {
       "id": "L5-12",
@@ -3919,7 +3925,7 @@
       "variante": "libera",
       "quota_combinata": 6.13,
       "probabilita_combinata": 0.163,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3933,8 +3939,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
@@ -3948,8 +3954,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Tottenham Hotspur - Coventry City",
@@ -3963,8 +3969,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Parma - Torino",
@@ -3978,8 +3984,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Cittadella - Arzignano Valchiampo",
@@ -3993,10 +3999,12 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-19T22:07:57.217165+00:00"
     },
     {
       "id": "L7-11",
@@ -4033,8 +4041,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Remo - Red Bull Bragantino",
@@ -4108,8 +4116,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -4222,8 +4230,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Monza - Cagliari",
@@ -4252,8 +4260,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.50 gol attesi (14° con 8 punti, 4 gol fatti e 10 subiti in 8 gare), Rayo Vallecano 1.30 (13° con 8 punti, 11 fatti e 16 subiti in 7 gare). Somma attesa 2.80 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Giugliano - Foggia",
@@ -4267,8 +4275,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 5,

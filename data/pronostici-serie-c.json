@@ -1047,9 +1047,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -1087,9 +1088,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "0-2"
       }
     },
     {
@@ -1127,9 +1129,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -1167,9 +1170,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "1-1"
       }
     },
     {
@@ -1207,9 +1211,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Giugliano 1.32 gol attesi (18° con 7 punti, 12 gol fatti e 22 subiti in 9 gare), Foggia 1.58 (13° con 11 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.90 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "2-1"
       }
     },
     {

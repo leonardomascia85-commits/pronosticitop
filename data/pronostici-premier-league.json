@@ -398,9 +398,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.26 gol attesi (19° con 3 punti, 3 gol fatti e 9 subiti in 6 gare), Coventry City 1.07 (14° con 6 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.33 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-19T22:07:57Z",
+        "primo_tempo": "1-0"
       }
     }
   ]
