@@ -2,7 +2,7 @@
   "id": "2026-10-16",
   "titolo": "Turno del 16-19 ottobre 2026",
   "generato_il": "2026-10-13",
-  "aggiornato_il": "2026-10-18",
+  "aggiornato_il": "2026-10-19",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -1979,8 +1979,8 @@
           "probabilita_modello": 0.56,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.24 gol attesi (5° con 49 punti, 44 gol fatti e 36 subiti in 30 gare), Flamengo 1.44 (1° con 64 punti, 58 fatti e 25 subiti in 30 gare). Somma attesa 2.68 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-3"
         }
       ],
       "esito_finale": "persa",
@@ -2495,8 +2495,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.24 gol attesi (5° con 49 punti, 44 gol fatti e 36 subiti in 30 gare), Flamengo 1.44 (1° con 64 punti, 58 fatti e 25 subiti in 30 gare). Somma attesa 2.68 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "NEC Nijmegen - Fortuna Sittard",
@@ -2910,8 +2910,8 @@
           "probabilita_modello": 0.53,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Remo 1.22 gol attesi (19° con 25 punti, 33 gol fatti e 48 subiti in 30 gare), Red Bull Bragantino 1.32 (9° con 40 punti, 38 fatti e 35 subiti in 30 gare). Somma attesa 2.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -3231,7 +3231,7 @@
       "quota_max": 5,
       "quota_combinata": 3.59,
       "probabilita_combinata": 0.279,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Grêmio - Cruzeiro",
@@ -3245,8 +3245,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Grêmio 1.37 gol attesi (18° con 31 punti, 32 gol fatti e 40 subiti in 30 gare), Cruzeiro 1.32 (6° con 48 punti, 46 fatti e 44 subiti in 30 gare). Somma attesa 2.69 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Bahia - Flamengo",
@@ -3260,8 +3260,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.24 gol attesi (5° con 49 punti, 44 gol fatti e 36 subiti in 30 gare), Flamengo 1.44 (1° con 64 punti, 58 fatti e 25 subiti in 30 gare). Somma attesa 2.68 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Remo - Red Bull Bragantino",
@@ -3275,8 +3275,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Remo 1.22 gol attesi (19° con 25 punti, 33 gol fatti e 48 subiti in 30 gare), Red Bull Bragantino 1.32 (9° con 40 punti, 38 fatti e 35 subiti in 30 gare). Somma attesa 2.54 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Real Madrid - Sevilla",
@@ -3290,8 +3290,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.09 gol attesi (4° con 18 punti, 19 gol fatti e 8 subiti in 8 gare), Sevilla 1.21 (5° con 14 punti, 13 fatti e 12 subiti in 8 gare). Somma attesa 3.30 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Trabzonspor - Beşiktaş",
@@ -3323,7 +3323,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-19T02:07:11.579236+00:00"
     },
     {
       "id": "L7-10",
