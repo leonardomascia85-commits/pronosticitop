@@ -6897,6 +6897,383 @@
    },
    "campionato": "Ligue 1",
    "giornata": "7ª giornata"
+  },
+  {
+   "casa": "Çorum FK",
+   "trasferta": "Rizespor",
+   "data": "2026-10-16T20:00:00+03:00",
+   "forma_casa": "8° posto, 10 pt in 7 gare (3V-1N-3P), 16-12",
+   "forma_trasferta": "10° posto, 10 pt in 7 gare (3V-1N-3P), 7-9",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Çorum FK",
+    "probabilita": 0.52
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Çorum FK o pareggio",
+    "probabilita": 0.76
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.62
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.61
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.62
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Çorum FK 1.93 gol attesi (8° con 10 punti, 16 gol fatti e 12 subiti in 7 gare), Rizespor 1.25 (10° con 10 punti, 7 fatti e 9 subiti in 7 gare). Somma attesa 3.18 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-10-16T20:14:41Z",
+    "primo_tempo": "1-1"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Erzurumspor",
+   "trasferta": "Eyüpspor",
+   "data": "2026-10-17T13:30:00+03:00",
+   "forma_casa": "14° posto, 8 pt in 7 gare (2V-2N-3P), 3-11",
+   "forma_trasferta": "18° posto, 3 pt in 7 gare (1V-0N-6P), 2-20",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Erzurumspor",
+    "probabilita": 0.58
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Erzurumspor o pareggio",
+    "probabilita": 0.83
+   },
+   "pick_uo": {
+    "esito": "under",
+    "etichetta": "Under 2.5",
+    "probabilita": 0.51
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.73
+   },
+   "pick_gg": {
+    "esito": "nogol",
+    "etichetta": "No Gol",
+    "probabilita": 0.51
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Erzurumspor 1.77 gol attesi (14° con 8 punti, 3 gol fatti e 11 subiti in 7 gare), Eyüpspor 0.85 (18° con 3 punti, 2 fatti e 20 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-0",
+    "primo_tempo": "1-0",
+    "aggiornato": "2026-10-17T14:20:00Z"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Gençlerbirliği",
+   "trasferta": "Galatasaray",
+   "data": "2026-10-17T16:00:00+03:00",
+   "forma_casa": "13° posto, 8 pt in 7 gare (2V-2N-3P), 7-15",
+   "forma_trasferta": "1° posto, 16 pt in 7 gare (5V-1N-1P), 16-11",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Galatasaray",
+    "probabilita": 0.52
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Gençlerbirliği o Galatasaray",
+    "probabilita": 0.77
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.67
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.55
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.66
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.39 gol attesi (13° con 8 punti, 7 gol fatti e 15 subiti in 7 gare), Galatasaray 2.04 (1° con 16 punti, 16 fatti e 11 subiti in 7 gare). Somma attesa 3.43 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-1",
+    "aggiornato": "2026-10-17T16:20:00Z",
+    "primo_tempo": "0-0"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Amedspor",
+   "trasferta": "Konyaspor",
+   "data": "2026-10-17T16:00:00+03:00",
+   "forma_casa": "3° posto, 14 pt in 7 gare (4V-2N-1P), 17-9",
+   "forma_trasferta": "16° posto, 5 pt in 7 gare (1V-2N-4P), 4-8",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Amedspor",
+    "probabilita": 0.62
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Amedspor o pareggio",
+    "probabilita": 0.85
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.53
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.7
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.5
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Amedspor 1.93 gol attesi (3° con 14 punti, 17 gol fatti e 9 subiti in 7 gare), Konyaspor 0.85 (16° con 5 punti, 4 fatti e 8 subiti in 7 gare). Somma attesa 2.78 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-10-17T16:20:00Z",
+    "primo_tempo": "0-0"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Fenerbahçe",
+   "trasferta": "Alanyaspor",
+   "data": "2026-10-17T19:00:00+03:00",
+   "forma_casa": "4° posto, 13 pt in 7 gare (4V-1N-2P), 19-6",
+   "forma_trasferta": "6° posto, 12 pt in 7 gare (3V-3N-1P), 8-6",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Fenerbahçe",
+    "probabilita": 0.6
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Fenerbahçe o pareggio",
+    "probabilita": 0.84
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.54
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.68
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.52
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 1.93 gol attesi (4° con 13 punti, 19 gol fatti e 6 subiti in 7 gare), Alanyaspor 0.92 (6° con 12 punti, 8 fatti e 6 subiti in 7 gare). Somma attesa 2.85 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-0",
+    "aggiornato": "2026-10-17T18:20:00Z"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Kasımpaşa",
+   "trasferta": "Samsunspor",
+   "data": "2026-10-18T13:30:00+03:00",
+   "forma_casa": "9° posto, 10 pt in 7 gare (2V-4N-1P), 8-8",
+   "forma_trasferta": "17° posto, 4 pt in 7 gare (1V-1N-5P), 6-15",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Kasımpaşa",
+    "probabilita": 0.56
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Kasımpaşa o pareggio",
+    "probabilita": 0.82
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.5
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.72
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.51
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.77 gol attesi (9° con 10 punti, 8 gol fatti e 8 subiti in 7 gare), Samsunspor 0.92 (17° con 4 punti, 6 fatti e 15 subiti in 7 gare). Somma attesa 2.69 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-1",
+    "aggiornato": "2026-10-18T14:20:00Z",
+    "primo_tempo": "2-1"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Kocaelispor",
+   "trasferta": "Göztepe",
+   "data": "2026-10-18T16:00:00+03:00",
+   "forma_casa": "7° posto, 12 pt in 7 gare (4V-0N-3P), 8-6",
+   "forma_trasferta": "15° posto, 6 pt in 7 gare (1V-3N-3P), 15-15",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Kocaelispor",
+    "probabilita": 0.46
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Kocaelispor o Göztepe",
+    "probabilita": 0.75
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.61
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.61
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.63
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Kocaelispor 1.77 gol attesi (7° con 12 punti, 8 gol fatti e 6 subiti in 7 gare), Göztepe 1.38 (15° con 6 punti, 15 fatti e 15 subiti in 7 gare). Somma attesa 3.15 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "aggiornato": "2026-10-18T16:20:00Z",
+    "primo_tempo": "0-1"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Başakşehir",
+   "trasferta": "Gaziantep FK",
+   "data": "2026-10-18T19:00:00+03:00",
+   "forma_casa": "11° posto, 8 pt in 7 gare (2V-2N-3P), 10-11",
+   "forma_trasferta": "12° posto, 8 pt in 7 gare (2V-2N-3P), 7-10",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Başakşehir",
+    "probabilita": 0.44
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Başakşehir o Gaziantep FK",
+    "probabilita": 0.72
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.51
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.71
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.56
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Başakşehir 1.54 gol attesi (11° con 8 punti, 10 gol fatti e 11 subiti in 7 gare), Gaziantep FK 1.18 (12° con 8 punti, 7 fatti e 10 subiti in 7 gare). Somma attesa 2.73 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-10-18T18:20:00Z",
+    "primo_tempo": "1-0"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
+  },
+  {
+   "casa": "Trabzonspor",
+   "trasferta": "Beşiktaş",
+   "data": "2026-10-19T20:00:00+03:00",
+   "forma_casa": "5° posto, 13 pt in 7 gare (4V-1N-2P), 16-5",
+   "forma_trasferta": "2° posto, 15 pt in 7 gare (5V-0N-2P), 16-8",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Trabzonspor",
+    "probabilita": 0.48
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Trabzonspor o Beşiktaş",
+    "probabilita": 0.75
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.63
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.6
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.64
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.85 gol attesi (5° con 13 punti, 16 gol fatti e 5 subiti in 7 gare), Beşiktaş 1.38 (2° con 15 punti, 16 fatti e 8 subiti in 7 gare). Somma attesa 3.23 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-0",
+    "aggiornato": "2026-10-19T20:07:31Z",
+    "primo_tempo": "1-0"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "8ª giornata"
   }
  ]
 }
