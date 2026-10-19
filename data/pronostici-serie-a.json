@@ -1,29 +1,263 @@
 {
   "campionato": "Serie A",
-  "giornata": "7ª giornata",
-  "periodo": "16-19 ottobre 2026",
-  "aggiornato": "2026-10-13",
+  "giornata": "8ª giornata",
+  "periodo": "23-25 ottobre 2026",
+  "aggiornato": "2026-10-19",
   "partite": [
     {
-      "casa": "Frosinone",
-      "trasferta": "Sassuolo",
-      "data": "2026-10-16T20:45:00+02:00",
-      "forma_casa": "9° posto, 10 pt in 6 gare (3V-1N-2P), 9-7",
-      "forma_trasferta": "11° posto, 8 pt in 6 gare (2V-2N-2P), 10-10",
+      "casa": "Torino",
+      "trasferta": "Monza",
+      "data": "2026-10-23T20:45:00+02:00",
+      "forma_casa": "10° posto, 10 pt in 7 gare (3V-1N-3P), 10-9",
+      "forma_trasferta": "14° posto, 7 pt in 7 gare (2V-1N-4P), 13-15",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Frosinone",
-        "probabilita": 0.46
+        "etichetta": "Vittoria Torino",
+        "probabilita": 0.48
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Frosinone o Sassuolo",
+        "etichetta": "Torino o Monza",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.66
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.56
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.66
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Torino 1.93 gol attesi (10° con 10 punti, 10 gol fatti e 9 subiti in 7 gare), Monza 1.45 (14° con 7 punti, 13 fatti e 15 subiti in 7 gare). Somma attesa 3.37 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Cagliari",
+      "trasferta": "Bologna",
+      "data": "2026-10-24T15:00:00+02:00",
+      "forma_casa": "7° posto, 13 pt in 7 gare (4V-1N-2P), 6-7",
+      "forma_trasferta": "15° posto, 5 pt in 7 gare (1V-2N-4P), 6-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Cagliari",
+        "probabilita": 0.44
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Cagliari o pareggio",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.65
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.84
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.58
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Como",
+      "trasferta": "Sassuolo",
+      "data": "2026-10-24T15:00:00+02:00",
+      "forma_casa": "5° posto, 14 pt in 7 gare (4V-2N-1P), 12-7",
+      "forma_trasferta": "13° posto, 8 pt in 7 gare (2V-2N-3P), 12-14",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Como",
+        "probabilita": 0.54
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Como o pareggio",
+        "probabilita": 0.77
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.59
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Como 2.01 gol attesi (5° con 14 punti, 12 gol fatti e 7 subiti in 7 gare), Sassuolo 1.25 (13° con 8 punti, 12 fatti e 14 subiti in 7 gare). Somma attesa 3.25 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Napoli",
+      "trasferta": "Roma",
+      "data": "2026-10-24T18:00:00+02:00",
+      "forma_casa": "9° posto, 10 pt in 7 gare (3V-1N-3P), 10-7",
+      "forma_trasferta": "3° posto, 17 pt in 7 gare (5V-2N-0P), 16-3",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Roma",
+        "probabilita": 0.48
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Roma",
+        "probabilita": 0.76
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.75
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.51
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Napoli 1.00 gol attesi (9° con 10 punti, 10 gol fatti e 7 subiti in 7 gare), Roma 1.51 (3° con 17 punti, 16 fatti e 3 subiti in 7 gare). Somma attesa 2.51 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Lazio",
+      "trasferta": "Parma",
+      "data": "2026-10-24T20:45:00+02:00",
+      "forma_casa": "2° posto, 19 pt in 7 gare (6V-1N-0P), 14-4",
+      "forma_trasferta": "19° posto, 4 pt in 7 gare (1V-1N-5P), 4-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Lazio",
+        "probabilita": 0.73
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Lazio o pareggio",
+        "probabilita": 0.9
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.73
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.63
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Lazio 2.08 gol attesi (2° con 19 punti, 14 gol fatti e 4 subiti in 7 gare), Parma 0.53 (19° con 4 punti, 4 fatti e 13 subiti in 7 gare). Somma attesa 2.61 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Inter",
+      "trasferta": "Fiorentina",
+      "data": "2026-10-25T12:30:00+01:00",
+      "forma_casa": "1° posto, 19 pt in 7 gare (6V-1N-0P), 21-9",
+      "forma_trasferta": "18° posto, 4 pt in 7 gare (1V-1N-5P), 8-17",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Inter",
+        "probabilita": 0.74
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Inter o pareggio",
+        "probabilita": 0.89
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.77
+      },
+      "pick_uo35": {
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.57
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Inter 2.93 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.12 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.05 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Atalanta",
+      "trasferta": "Frosinone",
+      "data": "2026-10-25T15:00:00+01:00",
+      "forma_casa": "11° posto, 9 pt in 7 gare (3V-0N-4P), 10-11",
+      "forma_trasferta": "6° posto, 13 pt in 7 gare (4V-1N-2P), 13-9",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Frosinone",
+        "probabilita": 0.39
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Atalanta o Frosinone",
         "probabilita": 0.74
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.58
+        "probabilita": 0.59
       },
       "pick_uo35": {
         "esito": "under",
@@ -33,112 +267,31 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.61
+        "probabilita": 0.62
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Frosinone 1.71 gol attesi (9° con 10 punti, 9 gol fatti e 7 subiti in 6 gare), Sassuolo 1.30 (11° con 8 punti, 10 fatti e 10 subiti in 6 gare). Somma attesa 3.01 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Atalanta 1.47 gol attesi (11° con 9 punti, 10 gol fatti e 11 subiti in 7 gare), Frosinone 1.58 (6° con 13 punti, 13 fatti e 9 subiti in 7 gare). Somma attesa 3.04 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "4-2",
-        "aggiornato": "2026-10-16T22:14:38Z",
-        "primo_tempo": "3-2"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Venezia",
-      "trasferta": "Napoli",
-      "data": "2026-10-17T15:00:00+02:00",
-      "forma_casa": "20° posto, 0 pt in 6 gare (0V-0N-6P), 5-16",
-      "forma_trasferta": "8° posto, 10 pt in 6 gare (3V-1N-2P), 10-6",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Napoli",
-        "probabilita": 0.6
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Napoli",
-        "probabilita": 0.83
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.57
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.65
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.55
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Venezia 0.99 gol attesi (20° con 0 punti, 5 gol fatti e 16 subiti in 6 gare), Napoli 1.99 (8° con 10 punti, 10 fatti e 6 subiti in 6 gare). Somma attesa 2.98 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-10-17T16:20:00Z",
-        "primo_tempo": "0-0"
-      }
-    },
-    {
-      "casa": "Bologna",
-      "trasferta": "Inter",
-      "data": "2026-10-17T18:00:00+02:00",
-      "forma_casa": "14° posto, 5 pt in 6 gare (1V-2N-3P), 5-7",
-      "forma_trasferta": "1° posto, 16 pt in 6 gare (5V-1N-0P), 18-8",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Inter",
-        "probabilita": 0.54
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Inter",
-        "probabilita": 0.78
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.6
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.63
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.6
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Bologna 1.17 gol attesi (14° con 5 punti, 5 gol fatti e 7 subiti in 6 gare), Inter 1.92 (1° con 16 punti, 18 fatti e 8 subiti in 6 gare). Somma attesa 3.09 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-3",
-        "aggiornato": "2026-10-17T18:20:00Z",
-        "primo_tempo": "1-1"
-      }
-    },
-    {
-      "casa": "Roma",
-      "trasferta": "Genoa",
-      "data": "2026-10-17T20:45:00+02:00",
-      "forma_casa": "3° posto, 14 pt in 6 gare (4V-2N-0P), 14-3",
-      "forma_trasferta": "17° posto, 4 pt in 6 gare (1V-1N-4P), 5-11",
+      "casa": "Genoa",
+      "trasferta": "Venezia",
+      "data": "2026-10-25T15:00:00+01:00",
+      "forma_casa": "17° posto, 4 pt in 7 gare (1V-1N-5P), 5-13",
+      "forma_trasferta": "20° posto, 3 pt in 7 gare (1V-0N-6P), 6-16",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Roma",
-        "probabilita": 0.74
+        "etichetta": "Vittoria Genoa",
+        "probabilita": 0.45
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Roma o pareggio",
-        "probabilita": 0.9
+        "esito": "12",
+        "etichetta": "Genoa o Venezia",
+        "probabilita": 0.73
       },
       "pick_uo": {
         "esito": "over",
@@ -151,194 +304,33 @@
         "probabilita": 0.68
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.58
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Roma 2.25 gol attesi (3° con 14 punti, 14 gol fatti e 3 subiti in 6 gare), Genoa 0.61 (17° con 4 punti, 5 fatti e 11 subiti in 6 gare). Somma attesa 2.86 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "primo_tempo": "0-0",
-        "aggiornato": "2026-10-17T22:20:00Z"
-      }
-    },
-    {
-      "casa": "Udinese",
-      "trasferta": "Lecce",
-      "data": "2026-10-18T12:30:00+02:00",
-      "forma_casa": "15° posto, 4 pt in 6 gare (1V-1N-4P), 9-13",
-      "forma_trasferta": "13° posto, 6 pt in 6 gare (2V-0N-4P), 6-12",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Udinese",
-        "probabilita": 0.47
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Udinese o Lecce",
-        "probabilita": 0.76
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.65
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.57
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.66
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Udinese 1.89 gol attesi (15° con 4 punti, 9 gol fatti e 13 subiti in 6 gare), Lecce 1.46 (13° con 6 punti, 6 fatti e 12 subiti in 6 gare). Somma attesa 3.35 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-3",
-        "aggiornato": "2026-10-18T14:20:00Z",
-        "primo_tempo": "0-2"
-      }
-    },
-    {
-      "casa": "Fiorentina",
-      "trasferta": "Como",
-      "data": "2026-10-18T15:00:00+02:00",
-      "forma_casa": "19° posto, 4 pt in 6 gare (1V-1N-4P), 7-14",
-      "forma_trasferta": "7° posto, 11 pt in 6 gare (3V-2N-1P), 9-6",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Como",
-        "probabilita": 0.5
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Como",
-        "probabilita": 0.76
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.56
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.66
-      },
-      "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
         "probabilita": 0.58
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.17 gol attesi (19° con 4 punti, 7 gol fatti e 14 subiti in 6 gare), Como 1.76 (7° con 11 punti, 9 fatti e 6 subiti in 6 gare). Somma attesa 2.93 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Genoa 1.62 gol attesi (17° con 4 punti, 5 gol fatti e 13 subiti in 7 gare), Venezia 1.25 (20° con 3 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 2.87 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-3",
-        "aggiornato": "2026-10-18T16:20:00Z",
-        "primo_tempo": "0-2"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Milan",
-      "trasferta": "Atalanta",
-      "data": "2026-10-18T18:00:00+02:00",
-      "forma_casa": "5° posto, 12 pt in 6 gare (3V-3N-0P), 11-5",
-      "forma_trasferta": "10° posto, 9 pt in 6 gare (3V-0N-3P), 8-8",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Milan",
-        "probabilita": 0.53
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Milan o pareggio",
-        "probabilita": 0.79
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.51
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.71
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.53
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Milan 1.71 gol attesi (5° con 12 punti, 11 gol fatti e 5 subiti in 6 gare), Atalanta 1.00 (10° con 9 punti, 8 fatti e 8 subiti in 6 gare). Somma attesa 2.71 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "3-2",
-        "aggiornato": "2026-10-18T18:20:00Z",
-        "primo_tempo": "2-0"
-      }
-    },
-    {
-      "casa": "Juventus",
-      "trasferta": "Lazio",
-      "data": "2026-10-18T20:45:00+02:00",
-      "forma_casa": "6° posto, 11 pt in 6 gare (3V-2N-1P), 9-5",
-      "forma_trasferta": "2° posto, 16 pt in 6 gare (5V-1N-0P), 11-4",
+      "casa": "Lecce",
+      "trasferta": "Juventus",
+      "data": "2026-10-25T18:00:00+01:00",
+      "forma_casa": "12° posto, 9 pt in 7 gare (3V-0N-4P), 9-12",
+      "forma_trasferta": "8° posto, 11 pt in 7 gare (3V-2N-2P), 9-8",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Lazio",
-        "probabilita": 0.36
+        "etichetta": "Vittoria Juventus",
+        "probabilita": 0.37
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Juventus o Lazio",
-        "probabilita": 0.7
-      },
-      "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.57
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.78
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.5
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Juventus 1.17 gol attesi (6° con 11 punti, 9 gol fatti e 5 subiti in 6 gare), Lazio 1.23 (2° con 16 punti, 11 fatti e 4 subiti in 6 gare). Somma attesa 2.40 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-3",
-        "primo_tempo": "0-1",
-        "aggiornato": "2026-10-18T22:20:00Z"
-      }
-    },
-    {
-      "casa": "Monza",
-      "trasferta": "Cagliari",
-      "data": "2026-10-19T18:30:00+02:00",
-      "forma_casa": "16° posto, 4 pt in 6 gare (1V-1N-4P), 9-15",
-      "forma_trasferta": "4° posto, 13 pt in 6 gare (4V-1N-1P), 6-3",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Cagliari",
-        "probabilita": 0.48
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Cagliari",
-        "probabilita": 0.76
+        "etichetta": "Lecce o Juventus",
+        "probabilita": 0.72
       },
       "pick_uo": {
         "esito": "over",
@@ -353,55 +345,53 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.54
+        "probabilita": 0.56
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Monza 1.08 gol attesi (16° con 4 punti, 9 gol fatti e 15 subiti in 6 gare), Cagliari 1.61 (4° con 13 punti, 6 fatti e 3 subiti in 6 gare). Somma attesa 2.69 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Lecce 1.31 gol attesi (12° con 9 punti, 9 gol fatti e 12 subiti in 7 gare), Juventus 1.38 (8° con 11 punti, 9 fatti e 8 subiti in 7 gare). Somma attesa 2.69 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "4-0",
-        "aggiornato": "2026-10-19T20:07:31Z",
-        "primo_tempo": "1-0"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Parma",
-      "trasferta": "Torino",
-      "data": "2026-10-19T20:45:00+02:00",
-      "forma_casa": "18° posto, 4 pt in 6 gare (1V-1N-4P), 4-10",
-      "forma_trasferta": "12° posto, 7 pt in 6 gare (2V-1N-3P), 7-9",
+      "casa": "Udinese",
+      "trasferta": "Milan",
+      "data": "2026-10-25T20:45:00+01:00",
+      "forma_casa": "16° posto, 4 pt in 7 gare (1V-1N-5P), 9-16",
+      "forma_trasferta": "4° posto, 15 pt in 7 gare (4V-3N-0P), 14-7",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Torino",
-        "probabilita": 0.38
+        "etichetta": "Vittoria Milan",
+        "probabilita": 0.54
       },
       "pick_dc": {
-        "esito": "12",
-        "etichetta": "Parma o Torino",
-        "probabilita": 0.7
+        "esito": "X2",
+        "etichetta": "Pareggio o Milan",
+        "probabilita": 0.77
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.55
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.62
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.76
+        "probabilita": 0.6
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.52
+        "probabilita": 0.62
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Udinese 1.23 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.97 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.21 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "0-3",
-        "aggiornato": "2026-10-19T22:07:57Z",
-        "primo_tempo": "0-2"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]
