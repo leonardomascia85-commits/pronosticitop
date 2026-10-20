@@ -1,6 +1,11 @@
 {
   "settimane": [
     {
+      "id": "2026-10-23",
+      "titolo": "Turno del 23-26 ottobre 2026",
+      "file": "2026-10-23.json"
+    },
+    {
       "id": "2026-10-16",
       "titolo": "Turno del 16-19 ottobre 2026",
       "file": "2026-10-16.json"
