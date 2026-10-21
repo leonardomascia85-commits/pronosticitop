@@ -1270,6 +1270,23 @@ def build_levels_coppe(matches):
     return schedine
 
 
+def _ricalcola_coppe(summary):
+    """Riporta forma, mercati e nota delle partite di coppa non ancora iniziate
+    alle statistiche piu' recenti dei campionati (vedi coppe_modello.py)."""
+    import copy
+    import coppe_modello
+    path = os.path.join(DATA_DIR, 'pronostici-coppe-europee.json')
+    if not os.path.exists(path):
+        return
+    d = json.load(open(path, encoding='utf-8'))
+    nuovo = copy.deepcopy(d)
+    coppe_modello.ricalcola_non_iniziate(nuovo)
+    if nuovo != d:
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(nuovo, f, ensure_ascii=False, indent=2)
+        summary.append('pronostici-coppe-europee.json: pronostici delle partite non iniziate ricalcolati sui dati recenti')
+
+
 def _aggiorna_coppe(summary, lookup):
     """Archivia le schedine delle coppe concluse e ne pubblica di nuove finche'
     ci sono partite europee future disponibili. Ritorna True se il file cambia."""
@@ -1588,6 +1605,7 @@ def main():
                 json.dump(data, f, ensure_ascii=False, indent=2)
             changed_files.append(fn)
 
+    _ricalcola_coppe(summary)
     if _aggiorna_coppe(summary, lookup):
         changed_files.append(COPPE_FILE)
 
