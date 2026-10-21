@@ -152,12 +152,14 @@ function fmtDate(iso){
 const COMP_COLORS = { 'Champions League':'#1b2a6b', 'Europa League':'#c97a1f', 'Conference League':'#2f9e54' };
 const STATUS_LABELS_LIVE = { in_corso:'LIVE · 1T', intervallo:'INTERVALLO', secondo_tempo:'LIVE · 2T' };
 
-// Oltre questa probabilita' un pick non è più considerato "di valore": Doppia
-// chance e Under 3.5 coprono più esiti e hanno quasi sempre la probabilità più
-// alta, ma con una quota troppo bassa per essere un pronostico interessante.
-// Tra i mercati entro il tetto si sceglie comunque il più alto; se nessuno
-// rientra (partita a senso unico) si torna al più probabile in assoluto.
-const MAX_PROB_PICK = 0.65;
+// Doppia chance e Under 3.5 coprono piu' esiti e hanno quasi sempre la probabilita'
+// piu' alta a prescindere dai dati della partita: restano mercati di riserva e si
+// scelgono solo se nessuno tra Esito, Under/Over 2.5 e Gol/No Gol arriva al 50%.
+// Tra i mercati primari si sceglie il piu' probabile (a parita': Gol/No Gol, poi
+// Under/Over 2.5, poi Esito), come nel generatore delle schedine. Nessun tetto di
+// probabilita': escludere il mercato piu' probabile lasciava pick piu' deboli.
+const SOGLIA_PRIMARI = 0.50;
+const PRIORITA_PARITA = { GGNG: 0, OU25: 1, '1X2': 2, DC: 3, OU35: 4 };
 
 function bestPick(p){
   const opts = [
@@ -167,9 +169,9 @@ function bestPick(p){
     { market: 'OU35', label: 'Under/Over 3.5', pick: p.pick_uo35 },
     { market: 'GGNG', label: 'Gol/No Gol', pick: p.pick_gg }
   ].filter(o => o.pick);
-  opts.sort((a,b) => b.pick.probabilita - a.pick.probabilita);
-  const valueOpts = opts.filter(o => o.pick.probabilita <= MAX_PROB_PICK);
-  return valueOpts.length ? valueOpts[0] : opts[0];
+  opts.sort((a,b) => (b.pick.probabilita - a.pick.probabilita) || (PRIORITA_PARITA[a.market] - PRIORITA_PARITA[b.market]));
+  const primari = opts.filter(o => o.market !== 'DC' && o.market !== 'OU35' && o.pick.probabilita >= SOGLIA_PRIMARI);
+  return primari.length ? primari[0] : opts[0];
 }
 
 function parseScore(punteggio){
@@ -223,7 +225,7 @@ function competizioneCardHTML(comp){
     </div>
     <div style="font-size:12.5px;color:var(--muted-soft);margin:-6px 0 12px">${comp.periodo}</div>
     <div class="schedina-list">${rows}</div>
-    <div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Doppia Chance, Under/Over 2.5, Under/Over 3.5 o Gol/No Gol) con il miglior equilibrio tra probabilità stimata e quota, calcolata con il modello a gol attesi: evitiamo di scegliere sempre i mercati con probabilità altissima ma quota troppo bassa (es. doppia chance), a parità di affidabilità dei dati preferiamo un pronostico con una quota più interessante.</div>
+    <div class="schedina-disclaimer">Per ogni partita è indicato il mercato (Esito, Doppia Chance, Under/Over 2.5, Under/Over 3.5 o Gol/No Gol) il più probabile tra Esito, Under/Over 2.5 e Gol/No Gol, calcolato con il modello a gol attesi; Doppia Chance e Under/Over 3.5 restano mercati di riserva, scelti solo se nessuno dei tre arriva al 50%.</div>
   </div>`;
 }
 
