@@ -286,9 +286,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Bayern München 2.26 gol attesi (16 gol fatti e 4 subiti in 5 gare di Bundesliga), Arsenal 1.30 (10 fatti e 5 subiti in 6 gare di Premier League). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-2",
+            "aggiornato": "2026-10-21T22:07:39Z",
+            "primo_tempo": "1-1"
           }
         },
         {
@@ -330,9 +331,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.02 gol attesi (19 gol fatti e 8 subiti in 8 gare di La Liga), RB Leipzig 1.91 (15 fatti e 5 subiti in 5 gare di Bundesliga). Somma attesa 3.93 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "4-1",
+            "aggiornato": "2026-10-21T22:07:39Z",
+            "primo_tempo": "1-0"
           }
         },
         {
@@ -374,9 +376,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Real Betis 1.69 gol attesi (16 gol fatti e 14 subiti in 9 gare di La Liga), Feyenoord 2.51 (31 fatti e 10 subiti in 9 gare di Eredivisie). Somma attesa 4.20 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-0",
+            "aggiornato": "2026-10-21T22:07:39Z",
+            "primo_tempo": "0-0"
           }
         }
       ]
