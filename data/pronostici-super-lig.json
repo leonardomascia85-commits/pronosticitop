@@ -14,29 +14,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Alanyaspor",
-        "probabilita": 0.35
+        "probabilita": 0.38,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Alanyaspor o Kocaelispor",
-        "probabilita": 0.67
+        "probabilita": 0.71,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.65
+        "probabilita": 0.54,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.84
+        "probabilita": 0.75,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.56
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.53,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.32 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.21 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.53 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -53,29 +58,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Kasımpaşa",
-        "probabilita": 0.65
+        "probabilita": 0.55,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "X2",
-        "etichetta": "Pareggio o Kasımpaşa",
-        "probabilita": 0.88
+        "etichetta": "pareggio o Kasımpaşa",
+        "probabilita": 0.79,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.51
+        "probabilita": 0.57,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.71
+        "probabilita": 0.66,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.54
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.74 gol attesi (18° con 3 punti, 2 gol fatti e 22 subiti in 8 gare), Kasımpaşa 1.96 (7° con 13 punti, 12 fatti e 9 subiti in 8 gare). Somma attesa 2.70 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Eyüpspor 1.08 gol attesi (18° con 3 punti, 2 gol fatti e 22 subiti in 8 gare), Kasımpaşa 1.87 (7° con 13 punti, 12 fatti e 9 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -92,29 +102,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Gaziantep FK",
-        "probabilita": 0.42
+        "probabilita": 0.43,
+        "modello": "v2"
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Gaziantep FK o pareggio",
-        "probabilita": 0.73
+        "esito": "12",
+        "etichetta": "Gaziantep FK o Erzurumspor",
+        "probabilita": 0.72,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.61
+        "probabilita": 0.51,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.81
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.54
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.28 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 0.98 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.26 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -131,29 +146,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Amedspor",
-        "probabilita": 0.6
+        "probabilita": 0.55,
+        "modello": "v2"
       },
       "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Amedspor",
-        "probabilita": 0.83
+        "esito": "12",
+        "etichetta": "Samsunspor o Amedspor",
+        "probabilita": 0.77,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.62
+        "probabilita": 0.67,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.6
+        "probabilita": 0.55,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.59
+        "probabilita": 0.65,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.08 gol attesi (17° con 4 punti, 7 gol fatti e 19 subiti in 8 gare), Amedspor 2.13 (2° con 17 punti, 18 fatti e 9 subiti in 8 gare). Somma attesa 3.21 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.32 gol attesi (17° con 4 punti, 7 gol fatti e 19 subiti in 8 gare), Amedspor 2.11 (2° con 17 punti, 18 fatti e 9 subiti in 8 gare). Somma attesa 3.43 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -170,29 +190,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Konyaspor",
-        "probabilita": 0.45
+        "probabilita": 0.45,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Konyaspor o pareggio",
-        "probabilita": 0.76
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.6
+        "probabilita": 0.51,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.81
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.54
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.35 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 0.92 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.27 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -209,29 +234,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Göztepe",
-        "probabilita": 0.4
+        "probabilita": 0.41,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Göztepe o Çorum FK",
-        "probabilita": 0.78
+        "probabilita": 0.78,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.76
+        "probabilita": 0.77,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "over",
         "etichetta": "Over 3.5",
-        "probabilita": 0.56
+        "probabilita": 0.58,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.75
+        "probabilita": 0.76,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Göztepe 2.03 gol attesi (13° con 9 punti, 17 gol fatti e 16 subiti in 8 gare), Çorum FK 1.96 (6° con 13 punti, 18 fatti e 13 subiti in 8 gare). Somma attesa 3.98 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Göztepe 2.09 gol attesi (13° con 9 punti, 17 gol fatti e 16 subiti in 8 gare), Çorum FK 1.98 (6° con 13 punti, 18 fatti e 13 subiti in 8 gare). Somma attesa 4.07 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -248,29 +278,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Beşiktaş",
-        "probabilita": 0.51
+        "probabilita": 0.5,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Beşiktaş o Başakşehir",
-        "probabilita": 0.76
+        "probabilita": 0.76,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.61
+        "probabilita": 0.65,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.61
+        "probabilita": 0.57,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.62
+        "probabilita": 0.65,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.89 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.27 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.16 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -287,29 +322,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Trabzonspor",
-        "probabilita": 0.55
+        "probabilita": 0.5,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "X2",
-        "etichetta": "Pareggio o Trabzonspor",
-        "probabilita": 0.81
+        "etichetta": "pareggio o Trabzonspor",
+        "probabilita": 0.76,
+        "modello": "v2"
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.75
+        "probabilita": 0.66,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.51
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Rizespor 0.88 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.67 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.54 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -326,29 +366,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Fenerbahçe",
-        "probabilita": 0.45
+        "probabilita": 0.44,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Galatasaray o Fenerbahçe",
-        "probabilita": 0.76
+        "probabilita": 0.77,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.67
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.55
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.52,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.68
+        "probabilita": 0.73,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.55 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 1.90 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",

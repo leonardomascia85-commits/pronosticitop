@@ -13,29 +13,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Deportivo Alavés",
-        "probabilita": 0.61
+        "probabilita": 0.56,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Deportivo Alavés o pareggio",
-        "probabilita": 0.85
+        "probabilita": 0.81,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.5
+        "probabilita": 0.56,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.72
+        "probabilita": 0.66,
+        "modello": "v2"
       },
       "pick_gg": {
-        "esito": "nogol",
-        "etichetta": "No Gol",
-        "probabilita": 0.52
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.56,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Deportivo Alavés 1.86 gol attesi (7° con 11 punti, 13 gol fatti e 10 subiti in 9 gare), Málaga 0.82 (20° con 4 punti, 6 fatti e 18 subiti in 9 gare). Somma attesa 2.68 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Deportivo Alavés 1.89 gol attesi (7° con 11 punti, 13 gol fatti e 10 subiti in 9 gare), Málaga 1.04 (20° con 4 punti, 6 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -52,29 +57,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Rayo Vallecano",
-        "probabilita": 0.44
+        "probabilita": 0.44,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Rayo Vallecano o Elche",
-        "probabilita": 0.76
+        "probabilita": 0.76,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.65
+        "probabilita": 0.67,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.57
+        "probabilita": 0.55,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.67
+        "probabilita": 0.68,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Rayo Vallecano 1.83 gol attesi (13° con 9 punti, 12 gol fatti e 17 subiti in 8 gare), Elche 1.54 (18° con 7 punti, 11 fatti e 17 subiti in 9 gare). Somma attesa 3.37 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Rayo Vallecano 1.87 gol attesi (13° con 9 punti, 12 gol fatti e 17 subiti in 8 gare), Elche 1.57 (18° con 7 punti, 11 fatti e 17 subiti in 9 gare). Somma attesa 3.44 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -91,29 +101,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Espanyol",
-        "probabilita": 0.45
+        "probabilita": 0.42,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Racing de Santander o Espanyol",
-        "probabilita": 0.75
+        "probabilita": 0.76,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.65
+        "probabilita": 0.67,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.57
+        "probabilita": 0.55,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.66
+        "probabilita": 0.68,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.50 gol attesi (16° con 8 punti, 13 gol fatti e 25 subiti in 9 gare), Espanyol 1.84 (15° con 8 punti, 11 fatti e 12 subiti in 9 gare). Somma attesa 3.34 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.62 gol attesi (16° con 8 punti, 13 gol fatti e 25 subiti in 9 gare), Espanyol 1.80 (15° con 8 punti, 11 fatti e 12 subiti in 9 gare). Somma attesa 3.42 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -130,29 +145,34 @@
       "pick_1x2": {
         "esito": "2",
         "etichetta": "Vittoria Villarreal",
-        "probabilita": 0.42
+        "probabilita": 0.4,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Valencia o Villarreal",
-        "probabilita": 0.71
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.53
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.74
+        "probabilita": 0.68,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.53
+        "probabilita": 0.59,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Valencia 1.14 gol attesi (19° con 6 punti, 6 gol fatti e 15 subiti in 9 gare), Villarreal 1.43 (12° con 9 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 2.57 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Valencia 1.35 gol attesi (19° con 6 punti, 6 gol fatti e 15 subiti in 9 gare), Villarreal 1.50 (12° con 9 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 2.85 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -169,29 +189,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Atlético Madrid",
-        "probabilita": 0.55
+        "probabilita": 0.54,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Atlético Madrid o pareggio",
-        "probabilita": 0.79
+        "probabilita": 0.78,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.56
+        "probabilita": 0.62,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.66
+        "probabilita": 0.6,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.57
+        "probabilita": 0.62,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.86 gol attesi (2° con 22 punti, 19 gol fatti e 8 subiti in 9 gare), Deportivo de La Coruña 1.07 (9° con 11 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 2.93 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.98 gol attesi (2° con 22 punti, 19 gol fatti e 8 subiti in 9 gare), Deportivo de La Coruña 1.23 (9° con 11 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -208,29 +233,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Athletic Club",
-        "probabilita": 0.48
+        "probabilita": 0.47,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
         "etichetta": "Athletic Club o pareggio",
-        "probabilita": 0.81
+        "probabilita": 0.77,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.72
+        "probabilita": 0.59,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.88
+        "probabilita": 0.79,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "nogol",
         "etichetta": "No Gol",
-        "probabilita": 0.65
+        "probabilita": 0.53,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.20 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.65 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 1.85 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.41 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.93 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 2.34 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -247,29 +277,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Celta de Vigo",
-        "probabilita": 0.42
+        "probabilita": 0.42,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Celta de Vigo o Real Betis",
-        "probabilita": 0.71
+        "probabilita": 0.73,
+        "modello": "v2"
       },
       "pick_uo": {
-        "esito": "under",
-        "etichetta": "Under 2.5",
-        "probabilita": 0.51
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.56,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.73
+        "probabilita": 0.67,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.54
+        "probabilita": 0.59,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.44 gol attesi (8° con 11 punti, 10 gol fatti e 7 subiti in 9 gare), Real Betis 1.18 (4° con 19 punti, 16 fatti e 14 subiti in 9 gare). Somma attesa 2.62 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.58 gol attesi (8° con 11 punti, 10 gol fatti e 7 subiti in 9 gare), Real Betis 1.33 (4° con 19 punti, 16 fatti e 14 subiti in 9 gare). Somma attesa 2.91 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -286,29 +321,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Real Sociedad",
-        "probabilita": 0.49
+        "probabilita": 0.49,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Real Sociedad o Levante",
-        "probabilita": 0.77
+        "probabilita": 0.77,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.71
+        "probabilita": 0.71,
+        "modello": "v2"
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.5
+        "esito": "over",
+        "etichetta": "Over 3.5",
+        "probabilita": 0.51,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.7
+        "probabilita": 0.71,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.10 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.56 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.66 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -325,29 +365,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria FC Barcelona",
-        "probabilita": 0.63
+        "probabilita": 0.62,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "FC Barcelona o Real Madrid",
-        "probabilita": 0.82
+        "probabilita": 0.83,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.83
+        "probabilita": 0.86,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "over",
         "etichetta": "Over 3.5",
-        "probabilita": 0.66
+        "probabilita": 0.72,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.76
+        "probabilita": 0.8,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.88 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.64 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.52 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -364,29 +409,34 @@
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria Sevilla",
-        "probabilita": 0.5
+        "probabilita": 0.49,
+        "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
         "etichetta": "Sevilla o Osasuna",
-        "probabilita": 0.76
+        "probabilita": 0.76,
+        "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.63
+        "probabilita": 0.65,
+        "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.59
+        "probabilita": 0.57,
+        "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.64
+        "probabilita": 0.66,
+        "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Sevilla 1.92 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.33 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.25 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",

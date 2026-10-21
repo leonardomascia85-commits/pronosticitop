@@ -177,7 +177,7 @@ def calibrazione_offsets():
             ok = _esito_pick_ok(code, pick['esito'], h, a)
             if ok is None:
                 continue
-            x = acc[(code, pick['esito'])]
+            x = acc[(pick.get('modello', 'v1'), code, pick['esito'])]
             x[0] += 1; x[1] += ok; x[2] += pick['probabilita']
     off = {}
     for k, (n, w, pr) in acc.items():
@@ -197,7 +197,10 @@ def calibrazione_offsets():
 def pick_calibrato(code, pick):
     """Copia del pick con la probabilita' corretta dallo storico: scarto del
     gruppo (mercato, esito) piu' compressione verso il suo hit rate reale."""
-    d, centro = calibrazione_offsets().get((code, pick['esito']), (0.0, None))
+    # Lo scarto si calcola e si applica per versione del modello: i pick v1
+    # (senza campo 'modello') avevano la sottostima dei gol che la v2 corregge
+    # gia' da se', quindi i loro scarti non vanno applicati ai pick v2.
+    d, centro = calibrazione_offsets().get((pick.get('modello', 'v1'), code, pick['esito']), (0.0, None))
     p0 = min(max(pick['probabilita'], 0.02), 0.98)
     lg = math.log(p0 / (1 - p0)) + d
     if centro is not None:

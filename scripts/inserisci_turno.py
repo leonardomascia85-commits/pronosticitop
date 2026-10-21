@@ -23,6 +23,8 @@ stagione in corso e un prior (60% stagione precedente, 40% media del campionato)
 quanto K_PRIOR partite. Senza "prev" il calcolo resta quello storico (campione grezzo).
 """
 import json, math, os, sys, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import modello_gol
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
 MAX_GOALS = 9
@@ -122,19 +124,20 @@ def main(spec_path):
     nuove = []
     for m in spec['partite']:
         h, a = tab[m['casa']], tab[m['trasferta']]
-        gfh, gah = tassi(h, medie)
-        gfa, gaa = tassi(a, medie)
-        eh = (gfh + gaa) / 2 * 1.08
-        ea = (gfa + gah) / 2 * 0.92
+        eh, ea, boost = modello_gol.gol_attesi(h, a)
         p = {'casa': m['casa'], 'trasferta': m['trasferta'], 'data': m['data'],
              'forma_casa': forma(m['casa'], h), 'forma_trasferta': forma(m['trasferta'], a)}
         if m.get('girone'):
             p = dict({'girone': m['girone']}, **p)
         p.update(picks(eh, ea, m['casa'], m['trasferta']))
+        for _k in ('pick_1x2', 'pick_dc', 'pick_uo', 'pick_uo35', 'pick_gg'):
+            p[_k]['modello'] = modello_gol.MODELLO_VERSIONE
         nota = (f"Modello a gol attesi (con vantaggio casa): {m['casa']} {eh:.2f} gol attesi "
                 f"({h['pos']}° con {h['pt']} punti, {h['gf']} gol fatti e {h['ga']} subiti in {h['g']} gare), "
                 f"{m['trasferta']} {ea:.2f} ({a['pos']}° con {a['pt']} punti, {a['gf']} fatti e {a['ga']} subiti in {a['g']} gare). "
                 f"Somma attesa {eh + ea:.2f} gol.")
+        if boost:
+            nota += ' Correzione per squadra molto offensiva applicata.'
         if m.get('da_confermare'):
             nota += ' Orario da confermare.'
         p['nota'] = nota

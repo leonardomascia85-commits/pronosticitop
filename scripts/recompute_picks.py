@@ -36,15 +36,18 @@ mai risultati gia' giocati o in corso.
 
 Uso: python3 scripts/recompute_picks.py dalla root del repo.
 """
-import json, re, os, math
+import json, re, os, math, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import modello_gol
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 FILES = [
     "pronostici-serie-a.json", "pronostici-serie-b.json", "pronostici-serie-c.json",
     "pronostici-premier-league.json", "pronostici-la-liga.json",
     "pronostici-bundesliga.json", "pronostici-ligue-1.json", "pronostici-liga-portugal.json",
-    "pronostici-eredivisie.json", "pronostici-brasileirao.json",
+    "pronostici-eredivisie.json", "pronostici-brasileirao.json", "pronostici-super-lig.json",
 ]
+COPPE_FILE = "pronostici-coppe-europee.json"
 
 PATTERN = re.compile(r'(\d+)\s*pt in (\d+)\s*gare\s*\((\d+)V-(\d+)N-(\d+)P\),\s*(\d+)-(\d+)')
 MAX_GOALS = 9  # copertura oltre il 99.9% della massa di probabilita' per lambda realistici
@@ -54,7 +57,7 @@ def parse_forma(s):
     if not m: return None
     pt, games, v, n, p, gf, ga = map(int, m.groups())
     if games == 0: return None
-    return {'games': games, 'gf_pg': gf/games, 'ga_pg': ga/games}
+    return {'games': games, 'g': games, 'gf': gf, 'ga': ga, 'gf_pg': gf/games, 'ga_pg': ga/games}
 
 def clamp(x, lo, hi): return max(lo, min(hi, x))
 
@@ -88,8 +91,9 @@ def compute_picks(casa, trasferta, forma_casa, forma_trasferta):
     ft = parse_forma(forma_trasferta)
     if not fc or not ft: return None
 
-    exp_home = (fc['gf_pg'] + ft['ga_pg']) / 2 * 1.08  # vantaggio-casa (~8% gol attesi in piu')
-    exp_away = (ft['gf_pg'] + fc['ga_pg']) / 2 * 0.92  # svantaggio-trasferta
+    # Modello v2 (vedi modello_gol.py): campioni piccoli avvicinati alla media,
+    # correzione della sottostima dei gol e delle squadre molto offensive.
+    exp_home, exp_away, boost = modello_gol.gol_attesi(fc, ft)
 
     grid = score_grid(exp_home, exp_away)
     p1 = sum(grid[h][a] for h in range(MAX_GOALS) for a in range(MAX_GOALS) if h > a)
@@ -131,34 +135,50 @@ def compute_picks(casa, trasferta, forma_casa, forma_trasferta):
         'pick_uo': {'esito': esito_uo, 'etichetta': etich_uo, 'probabilita': round(clamp(prob_uo, 0, CAP), 2)},
         'pick_uo35': {'esito': esito_uo35, 'etichetta': etich_uo35, 'probabilita': round(clamp(prob_uo35, 0, CAP), 2)},
         'pick_gg': {'esito': esito_gg, 'etichetta': etich_gg, 'probabilita': round(clamp(prob_gg, 0, CAP), 2)},
-        'exp_home': round(exp_home,2), 'exp_away': round(exp_away,2),
+        'exp_home': round(exp_home,2), 'exp_away': round(exp_away,2), 'boost': boost,
     }
 
 total_updated = 0
 total_skipped = 0
 total_flipped = 0
-for fn in FILES:
+CAMPI = ('pick_1x2', 'pick_dc', 'pick_uo', 'pick_uo35', 'pick_gg')
+
+
+def aggiorna_partita(fn, p):
+    """Ricalcola i 5 pick di una partita non iniziata e aggiorna i numeri
+    della nota. Restituisce False se mancano i dati."""
+    global total_updated, total_skipped, total_flipped
+    new = compute_picks(p['casa'], p['trasferta'], p['forma_casa'], p['forma_trasferta'])
+    if not new:
+        total_skipped += 1
+        return False
+    old_esito = p['pick_1x2']['esito']
+    if old_esito != new['pick_1x2']['esito']:
+        total_flipped += 1
+        print(f"FLIP [{fn}] {p['casa']}-{p['trasferta']}: {p['pick_1x2']['etichetta']} ({p['pick_1x2']['probabilita']}) -> {new['pick_1x2']['etichetta']} ({new['pick_1x2']['probabilita']})")
+    for campo in CAMPI:
+        p[campo] = dict(new[campo], modello=modello_gol.MODELLO_VERSIONE)
+    nota = p.get('nota', '')
+    nota = re.sub(re.escape(p['casa']) + r' \d+\.\d+ gol attesi', f"{p['casa']} {new['exp_home']:.2f} gol attesi", nota, count=1)
+    nota = re.sub(re.escape(p['trasferta']) + r' \d+\.\d+ \(', f"{p['trasferta']} {new['exp_away']:.2f} (", nota, count=1)
+    nota = re.sub(r'Somma attesa \d+\.\d+ gol', f"Somma attesa {new['exp_home'] + new['exp_away']:.2f} gol", nota, count=1)
+    if new['boost'] and 'molto offensiva' not in nota:
+        nota += ' Correzione per squadra molto offensiva applicata.'
+    p['nota'] = nota
+    total_updated += 1
+    return True
+
+
+for fn in FILES + [COPPE_FILE]:
     path = f"{DATA_DIR}/{fn}"
-    d = json.load(open(path))
+    d = json.load(open(path, encoding='utf-8'))
     changed = False
-    for p in d.get('partite', []):
-        if p.get('risultato', {}).get('stato') != 'non_iniziata':
-            continue
-        new = compute_picks(p['casa'], p['trasferta'], p['forma_casa'], p['forma_trasferta'])
-        if not new:
-            total_skipped += 1
-            continue
-        old_esito = p['pick_1x2']['esito']
-        if old_esito != new['pick_1x2']['esito']:
-            total_flipped += 1
-            print(f"FLIP [{fn}] {p['casa']}-{p['trasferta']}: {p['pick_1x2']['etichetta']} ({p['pick_1x2']['probabilita']}) -> {new['pick_1x2']['etichetta']} ({new['pick_1x2']['probabilita']})")
-        p['pick_1x2'] = new['pick_1x2']
-        p['pick_dc'] = new['pick_dc']
-        p['pick_uo'] = new['pick_uo']
-        p['pick_uo35'] = new['pick_uo35']
-        p['pick_gg'] = new['pick_gg']
-        changed = True
-        total_updated += 1
+    gruppi = [c['partite'] for c in d['competizioni']] if 'competizioni' in d else [d.get('partite', [])]
+    for partite in gruppi:
+        for p in partite:
+            if p.get('risultato', {}).get('stato') != 'non_iniziata':
+                continue
+            changed |= aggiorna_partita(fn, p)
     if changed:
         json.dump(d, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 
