@@ -702,9 +702,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Hoffenheim 1.55 gol attesi (11 gol fatti e 14 subiti in 6 gare di Bundesliga), Lyon 1.84 (13 fatti e 5 subiti in 7 gare di Ligue 1). Somma attesa 3.39 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-0",
+            "aggiornato": "2026-10-22T22:07:34Z",
+            "primo_tempo": "1-0"
           },
           "fonte_stat": {
             "casa": [
@@ -756,9 +757,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.44 gol attesi (9 gol fatti e 13 subiti in 7 gare di Premier League), AC Milan 1.78 (14 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-0",
+            "aggiornato": "2026-10-22T22:07:34Z",
+            "primo_tempo": "2-0"
           },
           "fonte_stat": {
             "casa": [
@@ -810,9 +812,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.31 gol attesi (16 gol fatti e 10 subiti in 8 gare di Süper Lig), Crystal Palace 1.31 (9 fatti e 17 subiti in 7 gare di Premier League). Somma attesa 3.61 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-2",
+            "aggiornato": "2026-10-22T22:07:34Z",
+            "primo_tempo": "1-0"
           },
           "fonte_stat": {
             "casa": [
@@ -871,9 +874,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Ajax 2.61 gol attesi (27 gol fatti e 12 subiti in 9 gare di Eredivisie), Atalanta 1.38 (10 fatti e 11 subiti in 7 gare di Serie A). Somma attesa 3.99 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-0",
+            "aggiornato": "2026-10-22T22:07:34Z",
+            "primo_tempo": "0-0"
           },
           "fonte_stat": {
             "casa": [
@@ -925,9 +929,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Monaco 1.50 gol attesi (10 gol fatti e 6 subiti in 7 gare di Ligue 1), SC Freiburg 1.69 (15 fatti e 6 subiti in 6 gare di Bundesliga). Somma attesa 3.19 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-0",
+            "aggiornato": "2026-10-22T22:07:34Z",
+            "primo_tempo": "1-0"
           },
           "fonte_stat": {
             "casa": [

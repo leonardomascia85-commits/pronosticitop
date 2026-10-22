@@ -818,8 +818,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hoffenheim 1.41 gol attesi (9 gol fatti e 13 subiti in 5 gare di Bundesliga), Lyon 1.64 (11 fatti e 4 subiti in 6 gare di Ligue 1). Somma attesa 3.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Liverpool - Villarreal",
@@ -866,8 +866,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.30 gol attesi (7 gol fatti e 13 subiti in 6 gare di Premier League), AC Milan 1.56 (11 fatti e 5 subiti in 6 gare di Serie A). Somma attesa 2.86 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "id": "L6-2",
@@ -925,8 +925,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hoffenheim 1.41 gol attesi (9 gol fatti e 13 subiti in 5 gare di Bundesliga), Lyon 1.64 (11 fatti e 4 subiti in 6 gare di Ligue 1). Somma attesa 3.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Liverpool - Villarreal",
@@ -973,8 +973,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.30 gol attesi (7 gol fatti e 13 subiti in 6 gare di Premier League), AC Milan 1.56 (11 fatti e 5 subiti in 6 gare di Serie A). Somma attesa 2.86 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Monaco - SC Freiburg",
@@ -989,8 +989,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monaco 1.44 gol attesi (10 gol fatti e 5 subiti in 6 gare di Ligue 1), SC Freiburg 1.45 (14 fatti e 4 subiti in 5 gare di Bundesliga). Somma attesa 2.89 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "id": "L7-2",
