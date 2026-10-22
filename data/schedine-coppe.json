@@ -850,8 +850,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.61 gol attesi (9 gol fatti e 5 subiti in 6 gare di Serie A), Rennes 1.30 (12 fatti e 10 subiti in 6 gare di Ligue 1). Somma attesa 2.91 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "AFC Bournemouth - AC Milan",
@@ -871,7 +871,9 @@
         }
       ],
       "id": "L6-2",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-22T20:06:57.851311+00:00"
     },
     {
       "livello_rischio": 7,
@@ -955,8 +957,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.61 gol attesi (9 gol fatti e 5 subiti in 6 gare di Serie A), Rennes 1.30 (12 fatti e 10 subiti in 6 gare di Ligue 1). Somma attesa 2.91 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "AFC Bournemouth - AC Milan",
@@ -992,9 +994,237 @@
         }
       ],
       "id": "L7-2",
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-22T20:06:57.851311+00:00"
+    },
+    {
+      "livello_rischio": 6,
+      "quota_combinata": 4.62,
+      "probabilita_combinata": 0.216,
+      "eventi": [
+        {
+          "partita": "FC Porto - Napoli",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-04T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "FC Porto o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "RB Leipzig - Manchester City",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-04T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - VfB Stuttgart",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T18:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Galatasaray o VfB Stuttgart",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atlético Madrid - Bayern München",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Atlético Madrid o Bayern München",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Roma",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Manchester United o Roma",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.28 gol attesi (10 gol fatti e 10 subiti in 7 gare di Premier League), Roma 1.79 (16 fatti e 3 subiti in 7 gare di Serie A). Somma attesa 3.07 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Villarreal - Paris Saint-Germain",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Villarreal o Paris Saint-Germain",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.61 gol attesi (13 gol fatti e 13 subiti in 9 gare di La Liga), Paris Saint-Germain 1.65 (14 fatti e 9 subiti in 7 gare di Ligue 1). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L6-3",
+      "stato": "pubblicata"
+    },
+    {
+      "livello_rischio": 7,
+      "quota_combinata": 6.48,
+      "probabilita_combinata": 0.154,
+      "eventi": [
+        {
+          "partita": "RB Leipzig - Manchester City",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-04T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - VfB Stuttgart",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T18:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Galatasaray o VfB Stuttgart",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atlético Madrid - Bayern München",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Atlético Madrid o Bayern München",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Roma",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Manchester United o Roma",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.28 gol attesi (10 gol fatti e 10 subiti in 7 gare di Premier League), Roma 1.79 (16 fatti e 3 subiti in 7 gare di Serie A). Somma attesa 3.07 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Villarreal - Paris Saint-Germain",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-03T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Villarreal o Paris Saint-Germain",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.61 gol attesi (13 gol fatti e 13 subiti in 9 gare di La Liga), Paris Saint-Germain 1.65 (14 fatti e 9 subiti in 7 gare di Ligue 1). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Lens - Como",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-04T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Lens o Como",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Lens 1.76 gol attesi (14 gol fatti e 11 subiti in 7 gare di Ligue 1), Como 1.54 (12 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.31 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Borussia Dortmund - Real Betis",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-04T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Borussia Dortmund o Real Betis",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 1.87 gol attesi (11 gol fatti e 4 subiti in 6 gare di Bundesliga), Real Betis 1.32 (16 fatti e 14 subiti in 9 gare di La Liga). Somma attesa 3.19 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L7-3",
       "stato": "pubblicata"
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-10-17"
+  "aggiornato_il": "2026-10-22"
 }

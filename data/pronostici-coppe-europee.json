@@ -647,9 +647,10 @@
           "nota": "Modello a gol attesi (con vantaggio casa): Juventus 1.81 gol attesi (9 gol fatti e 8 subiti in 7 gare di Serie A), Rennes 1.63 (15 fatti e 14 subiti in 7 gare di Ligue 1). Somma attesa 3.44 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-2",
+            "aggiornato": "2026-10-22T20:06:57Z",
+            "primo_tempo": "1-2"
           },
           "fonte_stat": {
             "casa": [
