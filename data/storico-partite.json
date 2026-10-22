@@ -9344,6 +9344,348 @@
    },
    "campionato": "Champions League",
    "giornata": "Giornata 3 (fase campionato)"
+  },
+  {
+   "casa": "Juventus",
+   "trasferta": "Rennes",
+   "data": "2026-10-22T18:45:00+02:00",
+   "forma_casa": "8° posto, 11 pt in 7 gare (3V-2N-2P), 9-8 in Serie A",
+   "forma_trasferta": "6° posto, 13 pt in 7 gare (4V-1N-2P), 15-14 in Ligue 1",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Juventus",
+    "probabilita": 0.42,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Juventus o Rennes",
+    "probabilita": 0.76,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.68,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Juventus 1.81 gol attesi (9 gol fatti e 8 subiti in 7 gare di Serie A), Rennes 1.63 (15 fatti e 14 subiti in 7 gare di Ligue 1). Somma attesa 3.44 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-10-22T20:06:57Z",
+    "primo_tempo": "1-2"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Serie A",
+     "Juventus"
+    ],
+    "trasferta": [
+     "Ligue 1",
+     "Stade Rennais FC"
+    ]
+   },
+   "campionato": "Europa League",
+   "giornata": "Giornata 3 (fase campionato)"
+  },
+  {
+   "casa": "Hoffenheim",
+   "trasferta": "Lyon",
+   "data": "2026-10-22T21:00:00+02:00",
+   "forma_casa": "14° posto, 6 pt in 6 gare (2V-0N-4P), 11-14 in Bundesliga",
+   "forma_trasferta": "1° posto, 14 pt in 7 gare (4V-2N-1P), 13-5 in Ligue 1",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Lyon",
+    "probabilita": 0.44,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Hoffenheim o Lyon",
+    "probabilita": 0.76,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.56,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Hoffenheim 1.55 gol attesi (11 gol fatti e 14 subiti in 6 gare di Bundesliga), Lyon 1.84 (13 fatti e 5 subiti in 7 gare di Ligue 1). Somma attesa 3.39 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-0",
+    "aggiornato": "2026-10-22T22:07:34Z",
+    "primo_tempo": "1-0"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Bundesliga",
+     "TSG Hoffenheim"
+    ],
+    "trasferta": [
+     "Ligue 1",
+     "Olympique Lyonnais"
+    ]
+   },
+   "campionato": "Europa League",
+   "giornata": "Giornata 3 (fase campionato)"
+  },
+  {
+   "casa": "AFC Bournemouth",
+   "trasferta": "AC Milan",
+   "data": "2026-10-22T21:00:00+02:00",
+   "forma_casa": "15° posto, 6 pt in 7 gare (1V-3N-3P), 9-13 in Premier League",
+   "forma_trasferta": "4° posto, 15 pt in 7 gare (4V-3N-0P), 14-7 in Serie A",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria AC Milan",
+    "probabilita": 0.45,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "AFC Bournemouth o AC Milan",
+    "probabilita": 0.75,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.62,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.64,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.44 gol attesi (9 gol fatti e 13 subiti in 7 gare di Premier League), AC Milan 1.78 (14 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-0",
+    "aggiornato": "2026-10-22T22:07:34Z",
+    "primo_tempo": "2-0"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Premier League",
+     "AFC Bournemouth"
+    ],
+    "trasferta": [
+     "Serie A",
+     "Milan"
+    ]
+   },
+   "campionato": "Europa League",
+   "giornata": "Giornata 3 (fase campionato)"
+  },
+  {
+   "casa": "Beşiktaş",
+   "trasferta": "Crystal Palace",
+   "data": "2026-10-22T21:00:00+02:00",
+   "forma_casa": "5° posto, 15 pt in 8 gare (5V-0N-3P), 16-10 in Süper Lig",
+   "forma_trasferta": "14° posto, 7 pt in 7 gare (2V-1N-4P), 9-17 in Premier League",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Beşiktaş",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Beşiktaş o pareggio",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.7,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.51,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.31 gol attesi (16 gol fatti e 10 subiti in 8 gare di Süper Lig), Crystal Palace 1.31 (9 fatti e 17 subiti in 7 gare di Premier League). Somma attesa 3.61 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-10-22T22:07:34Z",
+    "primo_tempo": "1-0"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Süper Lig",
+     "Beşiktaş"
+    ],
+    "trasferta": [
+     "Premier League",
+     "Crystal Palace"
+    ]
+   },
+   "campionato": "Europa League",
+   "giornata": "Giornata 3 (fase campionato)"
+  },
+  {
+   "casa": "Ajax",
+   "trasferta": "Atalanta",
+   "data": "2026-10-22T21:00:00+02:00",
+   "forma_casa": "4° posto, 18 pt in 9 gare (5V-3N-1P), 27-12 in Eredivisie",
+   "forma_trasferta": "11° posto, 9 pt in 7 gare (3V-0N-4P), 10-11 in Serie A",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Ajax",
+    "probabilita": 0.63,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Ajax o pareggio",
+    "probabilita": 0.82,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.76,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.56,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.7,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Ajax 2.61 gol attesi (27 gol fatti e 12 subiti in 9 gare di Eredivisie), Atalanta 1.38 (10 fatti e 11 subiti in 7 gare di Serie A). Somma attesa 3.99 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-0",
+    "aggiornato": "2026-10-22T22:07:34Z",
+    "primo_tempo": "0-0"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Eredivisie",
+     "Ajax"
+    ],
+    "trasferta": [
+     "Serie A",
+     "Atalanta"
+    ]
+   },
+   "campionato": "Conference League",
+   "giornata": "Giornata 2 (fase campionato)"
+  },
+  {
+   "casa": "Monaco",
+   "trasferta": "SC Freiburg",
+   "data": "2026-10-22T21:00:00+02:00",
+   "forma_casa": "5° posto, 14 pt in 7 gare (4V-2N-1P), 10-6 in Ligue 1",
+   "forma_trasferta": "3° posto, 13 pt in 6 gare (4V-1N-1P), 15-6 in Bundesliga",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria SC Freiburg",
+    "probabilita": 0.41,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Monaco o SC Freiburg",
+    "probabilita": 0.75,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.62,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.64,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Monaco 1.50 gol attesi (10 gol fatti e 6 subiti in 7 gare di Ligue 1), SC Freiburg 1.69 (15 fatti e 6 subiti in 6 gare di Bundesliga). Somma attesa 3.19 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "MEDIA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-0",
+    "aggiornato": "2026-10-22T22:07:34Z",
+    "primo_tempo": "1-0"
+   },
+   "fonte_stat": {
+    "casa": [
+     "Ligue 1",
+     "AS Monaco"
+    ],
+    "trasferta": [
+     "Bundesliga",
+     "SC Freiburg"
+    ]
+   },
+   "campionato": "Conference League",
+   "giornata": "Giornata 2 (fase campionato)"
   }
  ]
 }
