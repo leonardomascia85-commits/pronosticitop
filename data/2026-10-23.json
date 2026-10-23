@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-10-20",
+  "aggiornato_il": "2026-10-23",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -170,7 +170,7 @@
       "quota_max": 7,
       "quota_combinata": 5.0,
       "probabilita_combinata": 0.2,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Alanyaspor - Kocaelispor",
@@ -184,8 +184,8 @@
           "probabilita_modello": 0.56,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Vitória Guimarães - Marítimo",
@@ -232,7 +232,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-23T20:07:26.449945+00:00"
     },
     {
       "id": "L4-15",
@@ -1525,6 +1527,78 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.92 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.33 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.25 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-16",
+      "livello_rischio": 4,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 7,
+      "quota_combinata": 5.02,
+      "probabilita_combinata": 0.199,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palmeiras - Red Bull Bragantino",
+          "campionato": "Brasileirão",
+          "data": "2026-10-24T18:30:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.57,
+          "quota_stimata": 1.74,
+          "probabilita_modello": 0.52,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.72 gol attesi (2° con 66 punti, 54 gol fatti e 22 subiti in 31 gare), Red Bull Bragantino 1.02 (10° con 41 punti, 39 fatti e 36 subiti in 31 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Palermo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hellas Verona - Pisa",
+          "campionato": "Serie B",
+          "data": "2026-10-25T16:15:00+01:00",
+          "mercato": "OU35",
+          "pronostico": "Under 3.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.52,
+          "quota_stimata": 1.92,
+          "probabilita_modello": 0.54,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.77 gol attesi (11° con 8 punti, 14 gol fatti e 12 subiti in 7 gare), Pisa 1.71 (3° con 13 punti, 14 fatti e 9 subiti in 7 gare). Somma attesa 3.48 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Flamengo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

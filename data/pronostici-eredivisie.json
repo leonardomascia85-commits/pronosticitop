@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Go Ahead Eagles 2.32 gol attesi (9° con 11 punti, 20 gol fatti e 21 subiti in 9 gare), Telstar 1.61 (16° con 6 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.93 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-23T20:07:26Z",
+        "primo_tempo": "2-0"
       }
     },
     {

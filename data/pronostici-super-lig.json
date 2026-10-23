@@ -44,9 +44,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.32 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.21 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.53 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-23T20:07:26Z",
+        "primo_tempo": "0-2"
       }
     },
     {
