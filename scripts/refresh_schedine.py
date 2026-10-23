@@ -358,6 +358,7 @@ MERCATO_ALIAS = {
     'MULTIGOL': 'MULTIGOL',
     'PT': 'PT',
     'AMM': 'AMM',
+    'COMBO': 'COMBO',
 }
 
 
@@ -427,6 +428,12 @@ def event_outcome(ev, lookup):
         if tot is None:
             return None, None  # finale ma risultato del primo tempo non ancora raccolto
         won = (tot >= 1) if esito_pick == 'over05' else (tot <= 1)
+    elif mercato == 'COMBO':
+        home, away = actual['GOALS']
+        fn_combo = COMBO_DEF.get(esito_pick)
+        if not fn_combo:
+            return None, None
+        won = fn_combo[1](home, away)
     elif mercato == 'AMM':
         tot = _somma_coppia(ris.get('ammonizioni'))
         if tot is None:
@@ -699,6 +706,7 @@ SEZIONI_TEMATICHE = {
     'solo_multigol': ('derived_multigol', 'MULTIGOL', LEAGUES),
     'solo_primotempo': ('derived_primotempo', 'PT', LEAGUES),
     'solo_ammonizioni': ('derived_ammonizioni', 'AMM', CORNER_LEAGUES),
+    'solo_combo': ('derived_combo', 'COMBO', LEAGUES),
 }
 
 
@@ -831,7 +839,52 @@ def _derive_cartellini(p, fn):
     return {'esito': 'over', 'etichetta': f'Over {CARTELLINI_LINE} ammonizioni', 'probabilita': 1 - p_under}
 
 
+# --- Combo: due mercati sulla stessa partita (es. Gol + Over 2.5). La
+# probabilita' congiunta si calcola sulla distribuzione dei punteggi (Poisson
+# con i gol attesi ricavati dai pick), non moltiplicando le due probabilita':
+# i mercati sono legati tra loro e il prodotto sbaglierebbe. Per ogni partita
+# si sceglie la combo piu' probabile tra quelle con quota stimata >= 1.45.
+COMBO_QUOTA_MIN = 1.45
+COMBO_PROB_MIN = 0.45
+COMBO_DEF = {
+    'gol_o25': ('Gol + Over 2.5', lambda h, a: h > 0 and a > 0 and h + a > 2),
+    'gol_u35': ('Gol + Under 3.5', lambda h, a: h > 0 and a > 0 and h + a < 4),
+    '1x_u35': ('{c} o pareggio + Under 3.5', lambda h, a: h >= a and h + a < 4),
+    'x2_u35': ('Pareggio o {t} + Under 3.5', lambda h, a: h <= a and h + a < 4),
+    '1x_o15': ('{c} o pareggio + Over 1.5', lambda h, a: h >= a and h + a > 1),
+    'x2_o15': ('Pareggio o {t} + Over 1.5', lambda h, a: h <= a and h + a > 1),
+    '12_o15': ('Nessun pareggio + Over 1.5', lambda h, a: h != a and h + a > 1),
+    '1_o15': ('{c} vince + Over 1.5', lambda h, a: h > a and h + a > 1),
+    '2_o15': ('{t} vince + Over 1.5', lambda h, a: a > h and h + a > 1),
+}
+
+
+def _prob_combo(lh, la, fn):
+    ph, pa = _pmf(lh), _pmf(la)
+    return sum(x * y for i, x in enumerate(ph) for j, y in enumerate(pa) if fn(i, j))
+
+
+def derive_combo(p):
+    lam = fit_lambdas(p)
+    if not lam:
+        return None
+    lh, la = lam
+    best = None
+    for key, (etichetta, fn) in COMBO_DEF.items():
+        pr = _prob_combo(lh, la, fn)
+        if pr < COMBO_PROB_MIN or 1 / pr < COMBO_QUOTA_MIN:
+            continue
+        if best is None or pr > best[1]:
+            best = (key, pr, etichetta)
+    if not best:
+        return None
+    key, pr, etichetta = best
+    return {'esito': key, 'etichetta': etichetta.format(c=p['casa'], t=p['trasferta']), 'probabilita': pr}
+
+
 def derive_pick(p, kind, fn=None):
+    if kind == 'derived_combo':
+        return derive_combo(p)
     if kind == 'derived_ammonizioni':
         return _derive_cartellini(p, fn)
     lam = fit_lambdas(p)
@@ -896,7 +949,7 @@ def build_pool_single_market(pick_field, mercato_code, league_files, weekend_onl
                 'probabilita_stimata': round(pick['probabilita'], 2),
                 'quota_stimata': round(1 / pick['probabilita'], 2),
                 'probabilita_modello': round(pick.get('probabilita_modello', pick['probabilita']), 2),
-                'confidenza_dati': 'MEDIA' if mercato_code in ('PT', 'AMM') else confidenza(pick['probabilita']),
+                'confidenza_dati': 'MEDIA' if mercato_code in ('PT', 'AMM', 'COMBO') else confidenza(pick['probabilita']),
                 'motivazione': p['nota'],
                 'esito': None,
                 'risultato_reale': None,
@@ -976,7 +1029,10 @@ def _rispetta_limiti(eventi):
 
 
 SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner', 'solo_segna',
-                    'solo_multigol', 'solo_primotempo', 'solo_ammonizioni')
+                    'solo_multigol', 'solo_primotempo', 'solo_ammonizioni', 'solo_combo')
+# La sezione combo ha quote alte per costruzione: solo livelli 4 e 5, e due
+# schedine 'libera' / 'alternativa' invece del tetto di quota.
+LIVELLI_SEZIONE = {'solo_combo': (4, 5)}
 LIVELLI_VARIANTI = (4, 5, 6, 7)
 
 
@@ -1464,7 +1520,7 @@ def main():
     tutti_i_file = [w['file'] for w in settimane.get('settimane', [])] + [
         'schedine-solo-gol.json', 'schedine-solo-under.json', 'schedine-solo-corner.json',
         'schedine-solo-segna.json', 'schedine-solo-multigol.json', 'schedine-solo-primotempo.json',
-        'schedine-solo-ammonizioni.json', 'schedine-coppe.json']
+        'schedine-solo-ammonizioni.json', 'schedine-solo-combo.json', 'schedine-coppe.json']
     for fn in backfill_esiti(lookup, tutti_i_file):
         changed_files.append(fn)
         summary.append(f"{fn}: risultati reali completati negli eventi di schedine gia' archiviate")
@@ -1581,6 +1637,7 @@ def main():
         'solo_multigol': 'schedine-solo-multigol.json',
         'solo_primotempo': 'schedine-solo-primotempo.json',
         'solo_ammonizioni': 'schedine-solo-ammonizioni.json',
+        'solo_combo': 'schedine-solo-combo.json',
     }
     for kind, fn in SEZIONI_FILES.items():
         path = os.path.join(DATA_DIR, fn)
@@ -1655,10 +1712,11 @@ def main():
             # il posto della 'libera' finche' non si concludono.
             attive = [x for x in data.get('schedine', []) if x.get('stato') != 'archiviata']
             mancanti = []
-            for level in LIVELLI_VARIANTI:
+            for level in LIVELLI_SEZIONE.get(kind, LIVELLI_VARIANTI):
                 del_livello = [x for x in attive if x['livello_rischio'] == level]
-                if not any(x.get('variante') == 'quota_max' for x in del_livello):
-                    mancanti.append((level, 'quota_max'))
+                prima = 'alternativa' if kind == 'solo_combo' else 'quota_max'
+                if not any(x.get('variante') == prima for x in del_livello):
+                    mancanti.append((level, prima))
                 if not any(x.get('variante', 'libera') == 'libera' for x in del_livello):
                     mancanti.append((level, 'libera'))
             if mancanti:
@@ -1667,7 +1725,7 @@ def main():
                     weekend_only=(kind != 'solo_corner'))
                 pool_v = _filter_same_round(pool_v, lambda e: datetime.datetime.fromisoformat(e['data']))
                 # prima tutte le quota_max (usano i migliori eventi), poi le libere
-                for level, variante in sorted(mancanti, key=lambda m: (m[1] != 'quota_max', m[0])):
+                for level, variante in sorted(mancanti, key=lambda m: (m[1] not in ('quota_max', 'alternativa'), m[0])):
                     attive_ora = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
                     escludi = {e['partita'] for x in attive_ora if x['livello_rischio'] == level for e in x['eventi']}
                     evita = {e['partita'] for x in attive_ora for e in x['eventi']}

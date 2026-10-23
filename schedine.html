@@ -135,6 +135,7 @@
       <button class="section-tab" data-section="solo_multigol" type="button"><span class="tab-icon">🔢</span> Solo Multigol</button>
       <button class="section-tab" data-section="solo_primotempo" type="button"><span class="tab-icon">⏱️</span> Solo Primo tempo</button>
       <button class="section-tab" data-section="solo_ammonizioni" type="button"><span class="tab-icon">🟨</span> Solo Ammonizioni</button>
+      <button class="section-tab" data-section="solo_combo" type="button"><span class="tab-icon">🧩</span> Combo</button>
     </div>
   </div>
 
@@ -201,7 +202,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
   });
 })();
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)', 'COMBO':'Combo (due mercati)' };
 const STATUS_LABELS = { pending:'In attesa', win:'Vinto', lose:'Perso', live:'In corso' };
 const RISK_LABELS = { 4:'Rischio basso', 5:'Rischio medio-basso', 6:'Rischio medio-alto', 7:'Rischio alto', 8:'Rischio alto' };
 const LEAGUE_COLORS = {
@@ -281,6 +282,17 @@ async function buildLiveLookup(week){
   return lookup;
 }
 
+const COMBO_FN = {
+  gol_o25: (h,a) => h>0 && a>0 && h+a>2,
+  gol_u35: (h,a) => h>0 && a>0 && h+a<4,
+  '1x_u35': (h,a) => h>=a && h+a<4,
+  x2_u35: (h,a) => h<=a && h+a<4,
+  '1x_o15': (h,a) => h>=a && h+a>1,
+  x2_o15: (h,a) => h<=a && h+a>1,
+  '12_o15': (h,a) => h!==a && h+a>1,
+  '1_o15': (h,a) => h>a && h+a>1,
+  '2_o15': (h,a) => a>h && h+a>1
+};
 function liveInfo(ev, lookup){
   const risultato = lookup[ev.campionato + '||' + ev.partita];
   if(!risultato || risultato.stato === 'non_iniziata' || risultato.stato === 'sospesa') return { state:'pending' };
@@ -304,6 +316,11 @@ function liveInfo(ev, lookup){
         ? (ev.esito_pick === 'over05' ? tot >= 1 : tot <= 1)
         : (ev.esito_pick === 'over' ? tot > 4.5 : tot < 4.5);
       return { state: ok ? 'win' : 'lose', punteggio: raw };
+    }
+    if(ev.mercato === 'COMBO'){
+      const fn = COMBO_FN[ev.esito_pick];
+      if(!fn) return { state:'pending' };
+      return { state: fn(score.home, score.away) ? 'win' : 'lose', punteggio: risultato.punteggio };
     }
     if(ev.mercato === 'SEGNA'){
       const segna = ev.esito_pick === 'casa' ? score.home > 0 : score.away > 0;
@@ -417,6 +434,8 @@ function renderWeek(week, lookup){
         varianteTxt = sch.quota_rispettata
           ? `<span class="prob" style="background:rgba(47,158,92,.14);color:var(--green)">Quota massima ${sch.quota_max}</span>`
           : `<span class="prob" style="background:rgba(184,121,31,.14);color:var(--amber)" title="Nessuna combinazione di questo turno resta sotto quota ${sch.quota_max}: questa è la quota più bassa possibile">Obiettivo quota ${sch.quota_max} · la più bassa possibile</span>`;
+      } else if(sch.variante === 'alternativa'){
+        varianteTxt = `<span class="prob">Alternativa del modello</span>`;
       } else if(sch.variante === 'libera'){
         varianteTxt = `<span class="prob">Scelta del modello · ${level === 4 ? 'rischio basso-medio' : 'rischio medio'}</span>`;
       }
@@ -449,6 +468,7 @@ const ARCH_TIPI = [
   ['solo_multigol', 'Solo Multigol', 'schedine-solo-multigol.json'],
   ['solo_primotempo', 'Solo Primo tempo', 'schedine-solo-primotempo.json'],
   ['solo_ammonizioni', 'Solo Ammonizioni', 'schedine-solo-ammonizioni.json'],
+  ['solo_combo', 'Combo', 'schedine-solo-combo.json'],
 ];
 const archCache = {};
 function archCardHtml(sch, lookup){
@@ -559,6 +579,7 @@ const SEZIONI_FILES = {
   solo_multigol: 'schedine-solo-multigol.json',
   solo_primotempo: 'schedine-solo-primotempo.json',
   solo_ammonizioni: 'schedine-solo-ammonizioni.json',
+  solo_combo: 'schedine-solo-combo.json',
 };
 const SEZIONI_NOTE = {
   coppe: 'Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato più supportato dai dati per ogni partita. Si aggiornano da sole: quando le partite finiscono, le schedine concluse passano nell\'elenco sotto e vengono pubblicate le nuove con le prossime partite europee.',
@@ -568,6 +589,7 @@ const SEZIONI_NOTE = {
   solo_segna: 'Schedine costruite usando esclusivamente il mercato "Segna la squadra": il pronostico è vinto se la squadra indicata segna almeno un gol (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_multigol: 'Schedine costruite usando esclusivamente il mercato Multigol: il pronostico è vinto se il totale dei gol della partita rientra nell\'intervallo indicato, 1-3 oppure 2-4 (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_primotempo: 'Schedine costruite usando esclusivamente il mercato dei gol nel primo tempo: "almeno un gol" oppure "al massimo un gol". Il risultato del primo tempo viene registrato dopo la partita, quindi gli eventi possono restare in attesa più a lungo. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
+  solo_combo: 'Schedine con combo: per ogni partita due mercati insieme (per esempio Gol + Over 2.5, oppure Casa o pareggio + Over 1.5). Il pronostico è vinto solo se entrambi i mercati si avverano. La probabilità è calcolata dal modello sulla distribuzione dei punteggi, non moltiplicando i due mercati, perché sono legati tra loro. Le quote sono stimate dal modello e non sono quote dei bookmaker: a parità di partite sono più alte delle schedine normali, ma si vince meno spesso. Solo schedine da 4 e 5 partite, due per livello.',
   solo_ammonizioni: "Schedine costruite usando esclusivamente il mercato Over/Under 4.5 ammonizioni (cartellini gialli totali), disponibile per Serie A, Premier League, La Liga, Bundesliga e Ligue 1. Le stime usano le medie reali di cartellini di ogni squadra, ma non considerano l'arbitro. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.",
 };
 

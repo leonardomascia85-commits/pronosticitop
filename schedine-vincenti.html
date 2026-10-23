@@ -123,7 +123,7 @@ document.addEventListener('click', function(){
   document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
 });
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)', 'COMBO':'Combo (due mercati)' };
 const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
@@ -182,6 +182,7 @@ const SEZIONI_VINCENTI = [
   ['Solo Multigol', 'schedine-solo-multigol.json'],
   ['Solo Primo tempo', 'schedine-solo-primotempo.json'],
   ['Solo Ammonizioni', 'schedine-solo-ammonizioni.json'],
+  ['Combo', 'schedine-solo-combo.json'],
 ];
 
 const soloVinte = data => (data.schedine || []).filter(s => s.stato === 'archiviata' && s.esito_finale === 'vinta');
