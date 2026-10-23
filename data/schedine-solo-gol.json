@@ -4394,8 +4394,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Trabzonspor - Beşiktaş",
@@ -4498,8 +4498,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Trabzonspor - Beşiktaş",
@@ -4617,8 +4617,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -4689,8 +4689,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Trabzonspor - Beşiktaş",
@@ -5249,8 +5249,8 @@
           "probabilita_modello": 0.5,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -5321,8 +5321,8 @@
           "probabilita_modello": 0.5,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
@@ -5423,8 +5423,8 @@
           "probabilita_modello": 0.5,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Giana Erminio - Union Brescia",

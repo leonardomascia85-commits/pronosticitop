@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-20",
+  "aggiornato_il": "2026-10-23",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol (totale gol della partita compreso tra 1 e 3 oppure tra 2 e 4), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -2715,8 +2715,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 0.99 gol attesi (8° con 8 punti, 6 gol fatti e 6 subiti in 6 gare), AS Monaco 1.23 (1° con 14 punti, 10 fatti e 5 subiti in 6 gare). Somma attesa 2.22 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Nottingham Forest - Arsenal",
@@ -2743,8 +2743,8 @@
           "quota_stimata": 1.44,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.62 gol attesi (4° con 11 punti, 11 gol fatti e 4 subiti in 6 gare), OGC Nice 0.69 (9° con 8 punti, 5 fatti e 7 subiti in 6 gare). Somma attesa 2.31 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Juventus - Lazio",
@@ -3634,7 +3634,7 @@
       "variante": "libera",
       "quota_combinata": 9.29,
       "probabilita_combinata": 0.108,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Dolomiti Bellunesi - Trento",
@@ -3648,8 +3648,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 0.72 gol attesi (13° con 10 punti, 7 gol fatti e 9 subiti in 9 gare), Trento 1.07 (4° con 17 punti, 12 fatti e 5 subiti in 9 gare). Somma attesa 1.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Giana Erminio - Union Brescia",
@@ -3663,8 +3663,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 0.84 gol attesi (19° con 5 punti, 8 gol fatti e 12 subiti in 9 gare), Union Brescia 1.43 (2° con 19 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Parma - Torino",
@@ -3678,8 +3678,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Cittadella - Arzignano Valchiampo",
@@ -3693,8 +3693,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Corinthians - Vitória",
@@ -3708,8 +3708,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Juventus Next Gen - Renate",
@@ -3723,10 +3723,12 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L7-10",
@@ -3778,8 +3780,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.62 gol attesi (4° con 11 punti, 11 gol fatti e 4 subiti in 6 gare), OGC Nice 0.69 (9° con 8 punti, 5 fatti e 7 subiti in 6 gare). Somma attesa 2.31 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Juventus - Lazio",
@@ -4026,8 +4028,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Juventus Next Gen - Renate",
@@ -4129,7 +4131,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.75,
       "probabilita_combinata": 0.211,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Parma - Torino",
@@ -4143,8 +4145,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (18° con 4 punti, 4 gol fatti e 10 subiti in 6 gare), Torino 1.30 (12° con 7 punti, 7 fatti e 9 subiti in 6 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Cittadella - Arzignano Valchiampo",
@@ -4158,8 +4160,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.56 gol attesi (1° con 24 punti, 16 gol fatti e 4 subiti in 9 gare), Arzignano Valchiampo 0.92 (5° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 2.48 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Corinthians - Vitória",
@@ -4173,8 +4175,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Juventus Next Gen - Renate",
@@ -4188,12 +4190,14 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.32 gol attesi (16° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Renate 1.18 (20° con 4 punti, 8 fatti e 14 subiti in 9 gare). Somma attesa 2.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L5-13",
@@ -4215,8 +4219,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.35 gol attesi (16° con 32 punti, 31 gol fatti e 38 subiti in 30 gare), Vitória 1.09 (12° con 36 punti, 33 fatti e 44 subiti in 30 gare). Somma attesa 2.44 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Juventus Next Gen - Renate",
@@ -4855,6 +4859,178 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.23 gol attesi (9° con 9 punti, 8 gol fatti e 7 subiti in 7 gare), Brentford 1.31 (6° con 10 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.55 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-13",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 4.82,
+      "probabilita_combinata": 0.207,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Cremonese - Juve Stabia",
+          "campionato": "Serie B",
+          "data": "2026-10-24T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.42,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cremonese 1.08 gol attesi (16° con 6 punti, 6 gol fatti e 10 subiti in 7 gare), Juve Stabia 1.18 (18° con 5 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 2.26 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Catanzaro - Ascoli",
+          "campionato": "Serie B",
+          "data": "2026-10-24T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.00 gol attesi (19° con 4 punti, 8 gol fatti e 14 subiti in 7 gare), Ascoli 1.45 (6° con 12 punti, 8 fatti e 5 subiti in 7 gare). Somma attesa 2.45 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Avellino - Padova",
+          "campionato": "Serie B",
+          "data": "2026-10-24T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Avellino 1.70 gol attesi (7° con 11 punti, 12 gol fatti e 8 subiti in 7 gare), Padova 0.92 (15° con 7 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L6-14",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 12.11,
+      "probabilita_combinata": 0.083,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Catanzaro - Ascoli",
+          "campionato": "Serie B",
+          "data": "2026-10-24T17:15:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.00 gol attesi (19° con 4 punti, 8 gol fatti e 14 subiti in 7 gare), Ascoli 1.45 (6° con 12 punti, 8 fatti e 5 subiti in 7 gare). Somma attesa 2.45 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Avellino - Padova",
+          "campionato": "Serie B",
+          "data": "2026-10-24T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Avellino 1.70 gol attesi (7° con 11 punti, 12 gol fatti e 8 subiti in 7 gare), Padova 0.92 (15° con 7 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gaziantep FK - Erzurumspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-24T16:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Modena - Cesena",
+          "campionato": "Serie B",
+          "data": "2026-10-24T15:00:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Modena 1.62 gol attesi (4° con 13 punti, 12 gol fatti e 8 subiti in 7 gare), Cesena 1.05 (12° con 8 punti, 8 fatti e 9 subiti in 7 gare). Somma attesa 2.67 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Everton",
+          "campionato": "Premier League",
+          "data": "2026-10-24T15:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.55 gol attesi (2° con 18 punti, 11 gol fatti e 5 subiti in 7 gare), Everton 1.09 (8° con 10 punti, 8 fatti e 7 subiti in 7 gare). Somma attesa 2.64 gol.",
           "esito": null,
           "risultato_reale": null
         }

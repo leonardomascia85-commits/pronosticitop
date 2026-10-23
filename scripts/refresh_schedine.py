@@ -250,6 +250,14 @@ def load_results():
         for comp in d.get('competizioni', []):
             for p in comp.get('partite', []):
                 lookup[comp.get('nome', '') + '||' + p['casa'] + ' - ' + p['trasferta']] = p.get('risultato', {})
+
+    # partite gia' spostate nello storico: servono ancora per risolvere le schedine aperte
+    storico_path = os.path.join(DATA_DIR, 'storico-partite.json')
+    if os.path.exists(storico_path):
+        d = json.load(open(storico_path, encoding='utf-8'))
+        for p in d.get('partite', []):
+            if p.get('campionato') and p.get('risultato'):
+                lookup.setdefault(p['campionato'] + '||' + p['casa'] + ' - ' + p['trasferta'], p['risultato'])
     return lookup
 
 
@@ -1240,9 +1248,13 @@ def build_matches_coppe():
 # livelli successivi scivolano verso quelle meno sicure, cosi' le schedine
 # condividono meno partite possibile e il rischio cresce con il livello.
 COPPE_OFFSET = {4: 0, 5: 2, 6: 3, 7: 5}
+# Seconda schedina dello stesso livello: parte da una posizione diversa e salta
+# una partita ogni due, cosi' le due schedine non coincidono mai del tutto.
+COPPE_OFFSET_B = {4: 1, 5: 1, 6: 1, 7: 2}
+SCHEDINE_PER_LIVELLO_COPPE = 2
 
 
-def build_levels_coppe(matches):
+def build_levels_coppe(matches, variante=0):
     """matches: output di build_matches_coppe(). Per ogni partita usa il mercato
     piu' probabile tra tutti quelli disponibili e costruisce una schedina per
     ogni livello (4/5/6/7 eventi) per cui ci sono abbastanza partite."""
@@ -1258,8 +1270,16 @@ def build_levels_coppe(matches):
     for level in LIVELLI_NAZIONALI:
         if len(eventi) < level:
             continue
-        start = min(COPPE_OFFSET[level], len(eventi) - level)
-        scelti = eventi[start:start + level]
+        if variante == 0:
+            start = min(COPPE_OFFSET[level], len(eventi) - level)
+            scelti = eventi[start:start + level]
+        else:
+            start = COPPE_OFFSET_B[level]
+            resto = eventi[start:]
+            # una partita ogni tre viene saltata, per differenziare dalla prima
+            scelti = [e for i, e in enumerate(resto) if i % 3 != 2][:level]
+            if len(scelti) < level:
+                continue
         pc = combo_prob(scelti)
         schedine.append({
             'livello_rischio': level,
@@ -1317,15 +1337,24 @@ def _aggiorna_coppe(summary, lookup):
         summary.append(f"{COPPE_FILE}: {sch['id']} archiviata ({sch['esito_finale']})")
 
     attive = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
-    livelli_presenti = {x['livello_rischio'] for x in attive}
-    if len(livelli_presenti) < len(LIVELLI_NAZIONALI):
-        for nuova in build_levels_coppe(build_matches_coppe()):
-            if nuova['livello_rischio'] in livelli_presenti:
+    for variante in range(SCHEDINE_PER_LIVELLO_COPPE):
+        conteggio = {}
+        for x in attive:
+            conteggio[x['livello_rischio']] = conteggio.get(x['livello_rischio'], 0) + 1
+        if all(conteggio.get(l, 0) > variante for l in LIVELLI_NAZIONALI):
+            continue
+        for nuova in build_levels_coppe(build_matches_coppe(), variante):
+            lvl = nuova['livello_rischio']
+            if conteggio.get(lvl, 0) > variante:
                 continue
-            nuova['id'] = next_id([x['id'] for x in data['schedine']], nuova['livello_rischio'])
+            sets = [frozenset(e['partita'] + e['mercato'] for e in x['eventi']) for x in attive if x['livello_rischio'] == lvl]
+            if frozenset(e['partita'] + e['mercato'] for e in nuova['eventi']) in sets:
+                continue
+            nuova['id'] = next_id([x['id'] for x in data['schedine']], lvl)
             nuova['stato'] = 'pubblicata'
             data['schedine'].append(nuova)
-            livelli_presenti.add(nuova['livello_rischio'])
+            attive.append(nuova)
+            conteggio[lvl] = conteggio.get(lvl, 0) + 1
             changed = True
             summary.append(f"{COPPE_FILE}: nuova schedina {nuova['id']} pubblicata "
                            f"({len(nuova['eventi'])} eventi, prob {nuova['probabilita_combinata']:.3f})")

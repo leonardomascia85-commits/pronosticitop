@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under/Over 2.5",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-20",
+  "aggiornato_il": "2026-10-23",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol (pick_uo) per ogni partita, scelto in base al dato storico reale delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -2735,7 +2735,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.8,
       "probabilita_combinata": 0.357,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -2749,8 +2749,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -2764,8 +2764,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2779,8 +2779,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -2794,8 +2794,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "PEC Zwolle - Go Ahead Eagles",
@@ -2809,12 +2809,14 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.55 gol attesi (16° con 4 punti, 6 gol fatti e 21 subiti in 8 gare), Go Ahead Eagles 2.30 (8° con 11 punti, 19 fatti e 17 subiti in 8 gare). Somma attesa 3.85 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L6-7",
@@ -2822,7 +2824,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.64,
       "probabilita_combinata": 0.274,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -2836,8 +2838,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -2851,8 +2853,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -2866,8 +2868,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -2881,8 +2883,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Bayer 04 Leverkusen - SC Freiburg",
@@ -2896,8 +2898,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Manchester City - Ipswich Town",
@@ -2911,12 +2913,14 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.52 gol attesi (1° con 18 punti, 16 gol fatti e 5 subiti in 6 gare), Ipswich Town 1.07 (10° con 9 punti, 9 fatti e 12 subiti in 6 gare). Somma attesa 3.59 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L7-10",
@@ -3043,7 +3047,7 @@
       "variante": "quota_max",
       "quota_combinata": 5.45,
       "probabilita_combinata": 0.184,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -3057,8 +3061,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -3072,8 +3076,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -3087,8 +3091,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Bayern München - RB Leipzig",
@@ -3102,8 +3106,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.27 gol attesi (3° con 11 punti, 16 gol fatti e 4 subiti in 5 gare), RB Leipzig 1.75 (5° con 9 punti, 15 fatti e 5 subiti in 5 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Bayer 04 Leverkusen - SC Freiburg",
@@ -3117,8 +3121,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 1.94 gol attesi (4° con 10 punti, 14 gol fatti e 8 subiti in 5 gare), SC Freiburg 2.02 (1° con 13 punti, 14 fatti e 4 subiti in 5 gare). Somma attesa 3.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sparta Rotterdam - Willem II",
@@ -3132,8 +3136,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 2.43 gol attesi (14° con 6 punti, 13 gol fatti e 20 subiti in 8 gare), Willem II 1.55 (18° con 2 punti, 7 fatti e 23 subiti in 8 gare). Somma attesa 3.98 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "NEC Nijmegen - Fortuna Sittard",
@@ -3147,12 +3151,14 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.89 gol attesi (11° con 9 punti, 13 gol fatti e 14 subiti in 8 gare), Fortuna Sittard 1.61 (7° con 14 punti, 14 fatti e 15 subiti in 8 gare). Somma attesa 3.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L4-8",
@@ -3160,7 +3166,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.59,
       "probabilita_combinata": 0.387,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Borussia Mönchengladbach - TSG Hoffenheim",
@@ -3174,8 +3180,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 2.16 gol attesi (18° con 0 punti, 7 gol fatti e 18 subiti in 5 gare), TSG Hoffenheim 2.48 (17° con 3 punti, 9 fatti e 13 subiti in 5 gare). Somma attesa 4.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Groningen - Ajax",
@@ -3189,8 +3195,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.03 gol attesi (6° con 14 punti, 20 gol fatti e 14 subiti in 8 gare), Ajax 2.07 (5° con 15 punti, 22 fatti e 10 subiti in 8 gare). Somma attesa 4.10 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "FC Twente - FC Utrecht",
@@ -3204,8 +3210,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.77 gol attesi (4° con 17 punti, 16 gol fatti e 8 subiti in 8 gare), FC Utrecht 1.27 (13° con 8 punti, 14 fatti e 25 subiti in 8 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "NEC Nijmegen - Fortuna Sittard",
@@ -3219,12 +3225,14 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.89 gol attesi (11° con 9 punti, 13 gol fatti e 14 subiti in 8 gare), Fortuna Sittard 1.61 (7° con 14 punti, 14 fatti e 15 subiti in 8 gare). Somma attesa 3.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-23T20:32:58.517561+00:00"
     },
     {
       "id": "L5-10",
@@ -3510,8 +3518,8 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Celta de Vigo - Deportivo Alavés",
@@ -3597,8 +3605,8 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.71 gol attesi (18° con 4 punti, 6 gol fatti e 13 subiti in 6 gare), Arezzo 1.46 (12° con 7 punti, 6 fatti e 13 subiti in 6 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -4279,6 +4287,384 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-11",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 2.5,
+      "probabilita_combinata": 0.399,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sparta Rotterdam - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T16:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T17:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-10-25T12:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T15:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-13",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 3.33,
+      "probabilita_combinata": 0.3,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "SC Freiburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T17:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-10-25T12:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T15:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - PEC Zwolle",
+          "campionato": "Eredivisie",
+          "data": "2026-10-24T16:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.23 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.80 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "NEC Nijmegen - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T14:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.03 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 2.04 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L6-11",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 4.33,
+      "probabilita_combinata": 0.231,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "SC Freiburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T17:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-10-25T12:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - PEC Zwolle",
+          "campionato": "Eredivisie",
+          "data": "2026-10-24T16:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.23 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.80 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "NEC Nijmegen - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T14:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.03 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 2.04 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Göztepe - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T19:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 2.09 gol attesi (13° con 9 punti, 17 gol fatti e 16 subiti in 8 gare), Çorum FK 1.98 (6° con 13 punti, 18 fatti e 13 subiti in 8 gare). Somma attesa 4.07 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "1. FSV Mainz 05 - SV Werder Bremen",
+          "campionato": "Bundesliga",
+          "data": "2026-10-24T15:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.28 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.70 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 3.98 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-15",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 5.93,
+      "probabilita_combinata": 0.169,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "SC Freiburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T17:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-10-25T12:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "NEC Nijmegen - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T14:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.03 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 2.04 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Göztepe - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T19:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 2.09 gol attesi (13° con 9 punti, 17 gol fatti e 16 subiti in 8 gare), Çorum FK 1.98 (6° con 13 punti, 18 fatti e 13 subiti in 8 gare). Somma attesa 4.07 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "1. FSV Mainz 05 - SV Werder Bremen",
+          "campionato": "Bundesliga",
+          "data": "2026-10-24T15:30:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.28 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.70 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 3.98 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - RC Strasbourg Alsace",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Willem II - SC Cambuur",
+          "campionato": "Eredivisie",
+          "data": "2026-10-24T18:45:00+02:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Willem II 1.85 gol attesi (18° con 2 punti, 9 gol fatti e 26 subiti in 9 gare), SC Cambuur 1.92 (14° con 9 punti, 13 fatti e 21 subiti in 9 gare). Somma attesa 3.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }
