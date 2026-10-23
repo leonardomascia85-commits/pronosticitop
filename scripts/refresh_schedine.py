@@ -194,6 +194,61 @@ def calibrazione_offsets():
     return off
 
 
+# Secondo livello di calibrazione, appreso dagli errori delle schedine
+# (introdotto il 23 ottobre 2026). La prima calibrazione corregge le stime del
+# modello su TUTTE le partite; ma le gambe che finiscono davvero nelle schedine
+# sono quelle scelte perche' molto probabili, e su di esse alcuni mercati
+# sbagliano ancora in modo sistematico (Under 2.5, No Gol e X2 sovrastimati;
+# Over 2.5 sottostimato). Si confronta quindi, per (mercato, esito), la
+# probabilita' stimata al momento della schedina con l'esito reale delle gambe
+# chiuse, e lo scarto residuo (ristretto con SEL_K, limitato a SEL_CAP) viene
+# applicato alle probabilita' usate per scegliere le gambe nuove.
+SEL_K = 25
+SEL_CAP_LOGIT = 0.5
+_SEL_CACHE = None
+
+
+def residui_selezione():
+    global _SEL_CACHE
+    if _SEL_CACHE is not None:
+        return _SEL_CACHE
+    codici = set(MERCATO_DA_CAMPO.values())
+    acc, viste = collections.defaultdict(lambda: [0, 0, 0.0]), set()
+    for fn in sorted(os.listdir(DATA_DIR)):
+        if fn.startswith('pronostici-') or fn in ('storico-partite.json', 'settimane.json'):
+            continue
+        try:
+            d = json.load(open(os.path.join(DATA_DIR, fn), encoding='utf-8'))
+        except Exception:
+            continue
+        stack = [d]
+        while stack:
+            x = stack.pop()
+            if isinstance(x, dict):
+                if 'eventi' in x and 'livello_rischio' in x:
+                    for e in x['eventi']:
+                        if e.get('mercato') not in codici or e.get('esito') not in ('vinto', 'perso'):
+                            continue
+                        k = (e['partita'], e['mercato'], e.get('esito_pick'))
+                        if k in viste or not e.get('probabilita_stimata'):
+                            continue
+                        viste.add(k)
+                        a = acc[(e['mercato'], e.get('esito_pick'))]
+                        a[0] += 1; a[1] += e['esito'] == 'vinto'; a[2] += e['probabilita_stimata']
+                else:
+                    stack.extend(x.values())
+            elif isinstance(x, list):
+                stack.extend(x)
+    off = {}
+    for k, (n, w, pr) in acc.items():
+        hit = min(max(w / n, 0.02), 0.98)
+        est = min(max(pr / n, 0.02), 0.98)
+        d = math.log(hit / (1 - hit)) - math.log(est / (1 - est))
+        off[k] = max(-SEL_CAP_LOGIT, min(SEL_CAP_LOGIT, d * n / (n + SEL_K)))
+    _SEL_CACHE = off
+    return off
+
+
 def pick_calibrato(code, pick):
     """Copia del pick con la probabilita' corretta dallo storico: scarto del
     gruppo (mercato, esito) piu' compressione verso il suo hit rate reale."""
@@ -205,6 +260,7 @@ def pick_calibrato(code, pick):
     lg = math.log(p0 / (1 - p0)) + d
     if centro is not None:
         lg = centro + PENDENZA_MERCATO.get(code, 1.0) * (lg - centro)
+    lg += residui_selezione().get((code, pick['esito']), 0.0)
     p = min(PROB_MAX, max(0.05, 1 / (1 + math.exp(-lg))))
     return {**pick, 'probabilita': round(p, 3), 'probabilita_modello': pick['probabilita']}
 
