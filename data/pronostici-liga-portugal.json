@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vitória Guimarães 1.47 gol attesi (15° con 5 punti, 5 gol fatti e 10 subiti in 8 gare), Marítimo 1.25 (12° con 8 punti, 9 fatti e 14 subiti in 8 gare). Somma attesa 2.72 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-0",
+        "aggiornato": "2026-10-23T22:09:01Z",
+        "primo_tempo": "1-0"
       }
     },
     {

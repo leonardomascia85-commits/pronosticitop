@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 2.29 gol attesi (13° con 6 punti, 8 gol fatti e 10 subiti in 6 gare), Borussia Mönchengladbach 1.45 (18° con 0 punti, 8 fatti e 20 subiti in 6 gare). Somma attesa 3.74 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-10-23T22:09:01Z",
+        "primo_tempo": "1-1"
       }
     },
     {

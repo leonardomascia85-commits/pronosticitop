@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Deportivo Alavés 1.89 gol attesi (7° con 11 punti, 13 gol fatti e 10 subiti in 9 gare), Málaga 1.04 (20° con 4 punti, 6 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-23T22:09:01Z",
+        "primo_tempo": "0-1"
       }
     },
     {

@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.79 gol attesi (10° con 9 punti, 13 gol fatti e 10 subiti in 7 gare), OGC Nice 1.23 (13° con 8 punti, 6 fatti e 9 subiti in 7 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-23T22:09:01Z"
       }
     },
     {

@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Torino 1.92 gol attesi (10° con 10 punti, 10 gol fatti e 9 subiti in 7 gare), Monza 1.53 (14° con 7 punti, 13 fatti e 15 subiti in 7 gare). Somma attesa 3.45 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-23T22:09:01Z",
+        "primo_tempo": "1-0"
       }
     },
     {

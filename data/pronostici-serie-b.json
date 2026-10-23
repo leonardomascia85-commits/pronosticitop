@@ -38,7 +38,7 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Empoli 1.70 gol attesi (14° con 7 punti, 7 gol fatti e 11 subiti in 7 gare), L.R. Vicenza 1.31 (17° con 6 punti, 9 fatti e 15 subiti in 7 gare). Somma attesa 3.01 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finita",
+        "stato": "finale",
         "punteggio": "0-2",
         "primo_tempo": "0-1",
         "aggiornato": "2026-10-23T20:30:45Z"
