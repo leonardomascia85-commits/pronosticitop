@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cruzeiro 1.84 gol attesi (4° con 51 punti, 50 gol fatti e 46 subiti in 31 gare), Remo 1.29 (19° con 26 punti, 34 fatti e 49 subiti in 31 gare). Somma attesa 3.13 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "primo_tempo": "1-0",
+        "aggiornato": "2026-10-24T02:06:36Z"
       }
     },
     {
