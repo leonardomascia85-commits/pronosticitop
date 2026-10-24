@@ -179,9 +179,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.32 gol attesi (17° con 4 punti, 7 gol fatti e 19 subiti in 8 gare), Amedspor 2.11 (2° con 17 punti, 18 fatti e 9 subiti in 8 gare). Somma attesa 3.43 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-24T20:06:59Z",
+        "primo_tempo": "1-0"
       }
     },
     {

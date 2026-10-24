@@ -236,7 +236,7 @@
       "variante": "libera",
       "quota_combinata": 6.78,
       "probabilita_combinata": 0.148,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Göztepe - Çorum FK",
@@ -310,11 +310,98 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.23 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.80 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": "perso",
+          "risultato_reale": "1-1"
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T20:06:59.302341+00:00"
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 6.78,
+      "probabilita_combinata": 0.148,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Göztepe - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T19:00:00+03:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 2.09 gol attesi (13° con 9 punti, 17 gol fatti e 16 subiti in 8 gare), Çorum FK 1.98 (6° con 13 punti, 18 fatti e 13 subiti in 8 gare). Somma attesa 4.07 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-10-25T14:00:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.81 gol attesi (14° con 7 punti, 9 gol fatti e 17 subiti in 7 gare), Newcastle United 1.73 (11° con 8 punti, 10 fatti e 14 subiti in 7 gare). Somma attesa 3.54 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Brighton & Hove Albion",
+          "campionato": "Premier League",
+          "data": "2026-10-25T14:00:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Pareggio o Brighton & Hove Albion + Over 1.5",
+          "esito_pick": "x2_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.48,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.34 gol attesi (5° con 12 punti, 9 gol fatti e 8 subiti in 7 gare), Brighton & Hove Albion 2.21 (3° con 16 punti, 23 fatti e 5 subiti in 7 gare). Somma attesa 3.55 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T15:30:00+02:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "NEC Nijmegen - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T14:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.03 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 2.04 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }
       ]
     }
   ],
-  "aggiornato_il": "2026-10-23"
+  "aggiornato_il": "2026-10-24"
 }

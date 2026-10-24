@@ -132,9 +132,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.62 gol attesi (16° con 8 punti, 13 gol fatti e 25 subiti in 9 gare), Espanyol 1.80 (15° con 8 punti, 11 fatti e 12 subiti in 9 gare). Somma attesa 3.42 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-24T20:06:59Z"
       }
     },
     {
@@ -176,9 +176,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Valencia 1.35 gol attesi (19° con 6 punti, 6 gol fatti e 15 subiti in 9 gare), Villarreal 1.50 (12° con 9 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 2.85 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-24T20:06:59Z"
       }
     },
     {

@@ -521,8 +521,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.28 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.84 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Alverca - Arouca",
@@ -770,7 +770,7 @@
       "quota_max": 9,
       "quota_combinata": 7.03,
       "probabilita_combinata": 0.142,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Coventry City - Fulham",
@@ -784,8 +784,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Coventry City 1.23 gol attesi (17° con 6 punti, 6 gol fatti e 14 subiti in 7 gare), Fulham 1.38 (18° con 5 punti, 7 fatti e 10 subiti in 7 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Virtus Entella - Mantova",
@@ -799,8 +799,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.39 gol attesi (10° con 9 punti, 10 gol fatti e 8 subiti in 7 gare), Mantova 1.38 (2° con 14 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Chelsea - Tottenham Hotspur",
@@ -814,8 +814,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Chelsea 2.08 gol attesi (4° con 13 punti, 17 gol fatti e 13 subiti in 7 gare), Tottenham Hotspur 1.25 (16° con 6 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 3.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Atalanta - Frosinone",
@@ -862,7 +862,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T20:06:59.302341+00:00"
     },
     {
       "id": "L6-9",

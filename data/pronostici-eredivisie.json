@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.23 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.80 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-24T20:06:59Z"
       }
     },
     {
@@ -132,9 +132,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Willem II 1.85 gol attesi (18° con 2 punti, 9 gol fatti e 26 subiti in 9 gare), SC Cambuur 1.92 (14° con 9 punti, 13 fatti e 21 subiti in 9 gare). Somma attesa 3.77 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-6",
+        "aggiornato": "2026-10-24T20:06:59Z"
       }
     },
     {
