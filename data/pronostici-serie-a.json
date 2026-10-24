@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cagliari 1.44 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 1.09 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.53 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-24T18:08:18Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -132,9 +133,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Como 1.97 gol attesi (5° con 14 punti, 12 gol fatti e 7 subiti in 7 gare), Sassuolo 1.36 (13° con 8 punti, 12 fatti e 14 subiti in 7 gare). Somma attesa 3.33 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-24T18:08:18Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -176,9 +178,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Napoli 1.28 gol attesi (9° con 10 punti, 10 gol fatti e 7 subiti in 7 gare), Roma 1.65 (3° con 17 punti, 16 fatti e 3 subiti in 7 gare). Somma attesa 2.93 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-3",
+        "aggiornato": "2026-10-24T18:08:18Z"
       }
     },
     {

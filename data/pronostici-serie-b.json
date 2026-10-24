@@ -78,9 +78,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Avellino 1.70 gol attesi (7° con 11 punti, 12 gol fatti e 8 subiti in 7 gare), Padova 0.92 (15° con 7 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.62 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-24T18:08:18Z",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -117,9 +118,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cremonese 1.08 gol attesi (16° con 6 punti, 6 gol fatti e 10 subiti in 7 gare), Juve Stabia 1.18 (18° con 5 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 2.26 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-24T18:08:18Z",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -156,9 +158,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Modena 1.62 gol attesi (4° con 13 punti, 12 gol fatti e 8 subiti in 7 gare), Cesena 1.05 (12° con 8 punti, 8 fatti e 9 subiti in 7 gare). Somma attesa 2.67 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-24T18:08:18Z"
       }
     },
     {
@@ -195,9 +197,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.39 gol attesi (10° con 9 punti, 10 gol fatti e 8 subiti in 7 gare), Mantova 1.38 (2° con 14 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.77 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-24T18:08:18Z"
       }
     },
     {

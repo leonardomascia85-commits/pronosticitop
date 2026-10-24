@@ -176,9 +176,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.28 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.70 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 3.98 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-10-24T18:08:18Z",
+        "primo_tempo": "1-2"
       }
     },
     {

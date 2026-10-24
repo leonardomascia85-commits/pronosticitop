@@ -492,7 +492,7 @@
       "quota_max": 8,
       "quota_combinata": 6.0,
       "probabilita_combinata": 0.167,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Avellino - Padova",
@@ -506,8 +506,8 @@
           "probabilita_modello": 0.5,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Avellino 1.70 gol attesi (7° con 11 punti, 12 gol fatti e 8 subiti in 7 gare), Padova 0.92 (15° con 7 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "FC Utrecht - PEC Zwolle",
@@ -551,8 +551,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.00 gol attesi (9° con 10 punti, 10 gol fatti e 7 subiti in 7 gare), Roma 1.51 (3° con 17 punti, 16 fatti e 3 subiti in 7 gare). Somma attesa 2.51 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Stade Rennais FC - RC Strasbourg Alsace",
@@ -569,7 +569,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T18:08:18.284452+00:00"
     },
     {
       "id": "L5-14",
@@ -1267,8 +1269,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Como 2.01 gol attesi (5° con 14 punti, 12 gol fatti e 7 subiti in 7 gare), Sassuolo 1.25 (13° con 8 punti, 12 fatti e 14 subiti in 7 gare). Somma attesa 3.25 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -1282,8 +1284,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "1. FC Köln - FC Schalke 04",
