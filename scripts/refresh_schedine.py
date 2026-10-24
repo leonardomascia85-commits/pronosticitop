@@ -280,8 +280,29 @@ MERCATI_RISERVA = ()
 SOGLIA_MERCATI_PRIMARI = 0.50
 
 
+# Regola delle Miste (23/10/2026): su 93 Miste chiuse la doppia chance e' l'unico
+# mercato la cui stima regge (78% stimato, 80% reale); Gol/No Gol (61% -> 50%)
+# e Esito 1X2 (63% -> 50%) escono molto meno di quanto stimato, perche' scegliere
+# il massimo tra mercati con stime incerte favorisce gli errori ottimisti. Per
+# ogni partita il mercato di base e' la doppia chance; un altro mercato la
+# sostituisce solo se la sua probabilita' calibrata la supera di almeno
+# MARGINE_DC (10 punti).
+MARGINE_DC = 0.10
+
+
+def mercati_ammessi_miste(markets):
+    """markets: lista (codice, pick) con 'probabilita'. Tiene la doppia chance
+    e gli altri mercati che la superano di almeno MARGINE_DC (senza doppia
+    chance, non filtra)."""
+    dc = [m for m in markets if m[0] == 'DC']
+    if not dc:
+        return list(markets)
+    base = dc[0][1]['probabilita']
+    return [m for m in markets if m[0] == 'DC' or m[1]['probabilita'] >= base + MARGINE_DC]
+
+
 def pick_best_market(markets):
-    return max(markets, key=lambda m: m[1]['probabilita'])
+    return max(mercati_ammessi_miste(markets), key=lambda m: m[1]['probabilita'])
 
 
 def load_results():
@@ -518,9 +539,10 @@ def build_pool_tutti_mercati():
             if kickoff <= NOW or kickoff.weekday() not in (4, 5, 6, 0):
                 continue
             eventi = []
+            ammessi = {c for c, _ in mercati_ammessi_miste(mercati_calibrati(p))}
             for code, field in MERCATI_PICK:
                 pick = p.get(field)
-                if not pick:
+                if not pick or code not in ammessi:
                     continue
                 pick = pick_calibrato(code, pick)
                 if pick['probabilita'] < 0.5:
