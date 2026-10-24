@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Rayo Vallecano 1.87 gol attesi (13° con 9 punti, 12 gol fatti e 17 subiti in 8 gare), Elche 1.57 (18° con 7 punti, 11 fatti e 17 subiti in 9 gare). Somma attesa 3.44 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-24T14:06:59Z"
       }
     },
     {

@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.34 gol attesi (12° con 8 punti, 7 gol fatti e 11 subiti in 7 gare), Manchester City 2.05 (1° con 21 punti, 19 fatti e 7 subiti in 7 gare). Somma attesa 3.39 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-24T14:06:59Z",
+        "primo_tempo": "1-0"
       }
     },
     {

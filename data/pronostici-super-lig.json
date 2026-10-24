@@ -89,9 +89,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Eyüpspor 1.08 gol attesi (18° con 3 punti, 2 gol fatti e 22 subiti in 8 gare), Kasımpaşa 1.87 (7° con 13 punti, 12 fatti e 9 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-24T14:06:59Z",
+        "primo_tempo": "0-1"
       }
     },
     {
