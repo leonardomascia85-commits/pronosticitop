@@ -222,9 +222,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Lazio 2.08 gol attesi (2° con 19 punti, 14 gol fatti e 4 subiti in 7 gare), Parma 0.87 (19° con 4 punti, 4 fatti e 13 subiti in 7 gare). Somma attesa 2.95 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "0-0"
       }
     },
     {

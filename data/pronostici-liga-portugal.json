@@ -176,9 +176,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.08 gol attesi (9° con 11 punti, 6 gol fatti e 5 subiti in 7 gare), FC Porto 1.70 (1° con 24 punti, 20 fatti e 4 subiti in 8 gare). Somma attesa 2.78 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "0-0"
       }
     },
     {

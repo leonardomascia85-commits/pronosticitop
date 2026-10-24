@@ -3650,8 +3650,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.25 gol attesi (2° con 14 punti, 11 gol fatti e 4 subiti in 6 gare), Eintracht Frankfurt 1.25 (11° con 8 punti, 10 fatti e 16 subiti in 6 gare). Somma attesa 3.50 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",

@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "1-1"
       }
     },
     {

@@ -176,9 +176,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.49 gol attesi (17° con 6 punti, 11 gol fatti e 20 subiti in 9 gare), sc Heerenveen 1.77 (8° con 12 punti, 15 fatti e 11 subiti in 9 gare). Somma attesa 3.26 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-10-24T22:07:01Z"
       }
     },
     {

@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.40 gol attesi (7° con 9 punti, 16 gol fatti e 11 subiti in 6 gare), SV Elversberg 1.75 (6° con 10 punti, 12 fatti e 11 subiti in 6 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -132,9 +133,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.75 gol attesi (10° con 8 punti, 16 gol fatti e 12 subiti in 6 gare), 1. FC Union Berlin 1.40 (17° con 5 punti, 5 fatti e 17 subiti in 6 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -265,9 +267,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.82 gol attesi (16° con 5 punti, 5 gol fatti e 9 subiti in 6 gare), Hamburger SV 1.30 (9° con 9 punti, 6 fatti e 15 subiti in 6 gare). Somma attesa 3.12 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-24T22:07:01Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -309,9 +312,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.25 gol attesi (2° con 14 punti, 11 gol fatti e 4 subiti in 6 gare), Eintracht Frankfurt 1.25 (11° con 8 punti, 10 fatti e 16 subiti in 6 gare). Somma attesa 3.50 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-24T22:07:01Z"
       }
     },
     {
