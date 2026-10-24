@@ -134,9 +134,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-24T16:07:01Z"
       }
     },
     {

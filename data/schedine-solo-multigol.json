@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-23",
+  "aggiornato_il": "2026-10-24",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol (totale gol della partita compreso tra 1 e 3 oppure tra 2 e 4), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -4714,8 +4714,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.28 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 0.98 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.26 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Vitória Guimarães - Marítimo",
@@ -4771,8 +4771,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.28 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 0.98 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.26 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Vitória Guimarães - Marítimo",
@@ -4946,7 +4946,7 @@
       "variante": "libera",
       "quota_combinata": 12.11,
       "probabilita_combinata": 0.083,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Catanzaro - Ascoli",
@@ -5005,8 +5005,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Modena - Cesena",
@@ -5038,7 +5038,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T16:07:01.545844+00:00"
     },
     {
       "id": "L5-16",
@@ -5046,7 +5048,7 @@
       "variante": "libera",
       "quota_combinata": 7.31,
       "probabilita_combinata": 0.137,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cremonese - Juve Stabia",
@@ -5120,10 +5122,12 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T16:07:01.545844+00:00"
     },
     {
       "id": "L7-14",
@@ -5131,7 +5135,7 @@
       "variante": "libera",
       "quota_combinata": 18.92,
       "probabilita_combinata": 0.053,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Catanzaro - Ascoli",
@@ -5190,8 +5194,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.47 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 1.17 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.64 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Modena - Cesena",
@@ -5235,6 +5239,308 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.39 gol attesi (10° con 9 punti, 10 gol fatti e 8 subiti in 7 gare), Mantova 1.38 (2° con 14 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T16:07:01.545844+00:00"
+    },
+    {
+      "id": "L5-17",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 8.62,
+      "probabilita_combinata": 0.116,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Konyaspor - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T16:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Mirassol - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-10-24T16:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arezzo - Benevento",
+          "campionato": "Serie B",
+          "data": "2026-10-24T19:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Leeds United",
+          "campionato": "Premier League",
+          "data": "2026-10-25T16:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.57,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.23 gol attesi (20° con 4 punti, 6 gol fatti e 14 subiti in 7 gare), Leeds United 1.54 (7° con 10 punti, 9 fatti e 6 subiti in 7 gare). Somma attesa 2.77 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-15",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 13.47,
+      "probabilita_combinata": 0.074,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Konyaspor - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T16:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Mirassol - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-10-24T16:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arezzo - Benevento",
+          "campionato": "Serie B",
+          "data": "2026-10-24T19:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Leeds United",
+          "campionato": "Premier League",
+          "data": "2026-10-25T16:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.57,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.23 gol attesi (20° con 4 punti, 6 gol fatti e 14 subiti in 7 gare), Leeds United 1.54 (7° con 10 punti, 9 fatti e 6 subiti in 7 gare). Somma attesa 2.77 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Estoril - Moreirense",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T15:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.57,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-15",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 21.05,
+      "probabilita_combinata": 0.048,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palermo - Carrarese",
+          "campionato": "Serie B",
+          "data": "2026-10-25T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Konyaspor - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-10-25T16:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Mirassol - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-10-24T16:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arezzo - Benevento",
+          "campionato": "Serie B",
+          "data": "2026-10-24T19:30:00+02:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Leeds United",
+          "campionato": "Premier League",
+          "data": "2026-10-25T16:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.57,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.23 gol attesi (20° con 4 punti, 6 gol fatti e 14 subiti in 7 gare), Leeds United 1.54 (7° con 10 punti, 9 fatti e 6 subiti in 7 gare). Somma attesa 2.77 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Estoril - Moreirense",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T15:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.57,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Vasco da Gama - Corinthians",
+          "campionato": "Brasileirão",
+          "data": "2026-10-24T18:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-3",
+          "esito_pick": "1-3",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.55,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.46 gol attesi (15° con 35 punti, 36 gol fatti e 43 subiti in 30 gare), Corinthians 1.24 (16° con 33 punti, 32 fatti e 39 subiti in 31 gare). Somma attesa 2.70 gol.",
           "esito": null,
           "risultato_reale": null
         }

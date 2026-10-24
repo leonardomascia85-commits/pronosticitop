@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-10-23",
+  "aggiornato_il": "2026-10-24",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -1429,7 +1429,7 @@
       "quota_max": 8,
       "quota_combinata": 6.01,
       "probabilita_combinata": 0.166,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Estrela da Amadora - Casa Pia",
@@ -1458,8 +1458,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.28 gol attesi (14° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Erzurumspor 0.98 (11° con 11 punti, 5 fatti e 11 subiti in 8 gare). Somma attesa 2.26 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Borussia Dortmund - Eintracht Frankfurt",
@@ -1536,7 +1536,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-24T16:07:01.545844+00:00"
     },
     {
       "id": "L4-16",
@@ -1911,6 +1913,123 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.81 gol attesi (14° con 7 punti, 9 gol fatti e 17 subiti in 7 gare), Newcastle United 1.73 (11° con 8 punti, 10 fatti e 14 subiti in 7 gare). Somma attesa 3.54 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-17",
+      "livello_rischio": 7,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 8,
+      "quota_combinata": 6.01,
+      "probabilita_combinata": 0.166,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Arezzo - Benevento",
+          "campionato": "Serie B",
+          "data": "2026-10-24T19:30:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Pareggio o Benevento",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "RC Lens - Paris FC",
+          "campionato": "Ligue 1",
+          "data": "2026-10-24T20:45:00+02:00",
+          "mercato": "DC",
+          "pronostico": "RC Lens o Paris FC",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (8° con 10 punti, 14 gol fatti e 11 subiti in 7 gare), Paris FC 1.54 (3° con 14 punti, 12 fatti e 7 subiti in 7 gare). Somma attesa 3.30 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atlético Madrid - Deportivo de La Coruña",
+          "campionato": "La Liga",
+          "data": "2026-10-24T21:00:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Atlético Madrid o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.98 gol attesi (2° con 22 punti, 19 gol fatti e 8 subiti in 9 gare), Deportivo de La Coruña 1.23 (9° con 11 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sporting CP - Académico Viseu",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T20:30:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Sporting CP o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Udinese o Milan",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "pareggio o Trabzonspor",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Sevilla o Osasuna",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
           "esito": null,
           "risultato_reale": null
         }
