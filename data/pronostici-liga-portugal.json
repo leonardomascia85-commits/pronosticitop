@@ -223,9 +223,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-10-25T18:08:12Z"
       }
     },
     {

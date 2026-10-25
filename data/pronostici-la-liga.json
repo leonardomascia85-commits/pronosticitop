@@ -265,9 +265,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.41 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.93 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 2.34 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-10-25T18:08:12Z",
+        "primo_tempo": "2-0"
       }
     },
     {

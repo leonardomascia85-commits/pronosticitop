@@ -4294,7 +4294,7 @@
       "variante": "quota_max",
       "quota_combinata": 5.24,
       "probabilita_combinata": 0.191,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Athletic Club - Getafe",
@@ -4308,8 +4308,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.20 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.65 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 1.85 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -4323,8 +4323,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Alanyaspor - Kocaelispor",
@@ -4338,8 +4338,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "AS Monaco - LOSC Lille",
@@ -4368,12 +4368,14 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 0.73 gol attesi (9° con 11 punti, 6 gol fatti e 5 subiti in 7 gare), FC Porto 1.48 (1° con 24 punti, 20 fatti e 4 subiti in 8 gare). Somma attesa 2.21 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L6-13",
@@ -4381,7 +4383,7 @@
       "variante": "quota_max",
       "quota_combinata": 7.49,
       "probabilita_combinata": 0.134,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Athletic Club - Getafe",
@@ -4395,8 +4397,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.20 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.65 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 1.85 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -4410,8 +4412,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Alanyaspor - Kocaelispor",
@@ -4425,8 +4427,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "AS Monaco - LOSC Lille",
@@ -4455,8 +4457,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 0.73 gol attesi (9° con 11 punti, 6 gol fatti e 5 subiti in 7 gare), FC Porto 1.48 (1° con 24 punti, 20 fatti e 4 subiti in 8 gare). Somma attesa 2.21 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Cremonese - Juve Stabia",
@@ -4470,12 +4472,14 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cremonese 1.08 gol attesi (16° con 6 punti, 6 gol fatti e 10 subiti in 7 gare), Juve Stabia 1.18 (18° con 5 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 2.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L7-12",
@@ -4483,7 +4487,7 @@
       "variante": "quota_max",
       "quota_combinata": 10.7,
       "probabilita_combinata": 0.093,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Athletic Club - Getafe",
@@ -4497,8 +4501,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.20 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.65 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 1.85 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -4512,8 +4516,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Alanyaspor - Kocaelispor",
@@ -4527,8 +4531,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "AS Monaco - LOSC Lille",
@@ -4557,8 +4561,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 0.73 gol attesi (9° con 11 punti, 6 gol fatti e 5 subiti in 7 gare), FC Porto 1.48 (1° con 24 punti, 20 fatti e 4 subiti in 8 gare). Somma attesa 2.21 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Cremonese - Juve Stabia",
@@ -4572,8 +4576,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cremonese 1.08 gol attesi (16° con 6 punti, 6 gol fatti e 10 subiti in 7 gare), Juve Stabia 1.18 (18° con 5 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 2.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Arsenal - Everton",
@@ -4587,12 +4591,14 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.39 gol attesi (2° con 18 punti, 11 gol fatti e 5 subiti in 7 gare), Everton 0.85 (8° con 10 punti, 8 fatti e 7 subiti in 7 gare). Somma attesa 2.24 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L4-12",
@@ -4600,7 +4606,7 @@
       "variante": "libera",
       "quota_combinata": 3.72,
       "probabilita_combinata": 0.269,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Athletic Club - Getafe",
@@ -4614,8 +4620,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.20 gol attesi (11° con 9 punti, 7 gol fatti e 6 subiti in 7 gare), Getafe 0.65 (14° con 9 punti, 5 fatti e 11 subiti in 9 gare). Somma attesa 1.85 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -4629,8 +4635,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.23 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 0.85 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Alanyaspor - Kocaelispor",
@@ -4644,8 +4650,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.08 gol attesi (9° con 12 punti, 8 gol fatti e 9 subiti in 8 gare), Kocaelispor 1.04 (8° con 12 punti, 9 fatti e 8 subiti in 8 gare). Somma attesa 2.12 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "AS Monaco - LOSC Lille",
@@ -4662,7 +4668,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L5-15",
@@ -4831,8 +4839,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.28 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.15 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.43 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Napoli - Roma",
@@ -4861,8 +4869,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.23 gol attesi (9° con 9 punti, 8 gol fatti e 7 subiti in 7 gare), Brentford 1.31 (6° con 10 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.55 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -5339,7 +5347,7 @@
       "variante": "libera",
       "quota_combinata": 13.47,
       "probabilita_combinata": 0.074,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Palermo - Carrarese",
@@ -5353,8 +5361,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Konyaspor - Gençlerbirliği",
@@ -5368,8 +5376,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Mirassol - São Paulo",
@@ -5383,8 +5391,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Arezzo - Benevento",
@@ -5398,8 +5406,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Sunderland - Leeds United",
@@ -5428,10 +5436,12 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L7-15",
@@ -5528,8 +5538,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Vasco da Gama - Corinthians",
@@ -5556,7 +5566,7 @@
       "variante": "quota_max",
       "quota_combinata": 5.6,
       "probabilita_combinata": 0.178,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Palermo - Carrarese",
@@ -5570,8 +5580,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Konyaspor - Gençlerbirliği",
@@ -5585,8 +5595,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sunderland - Leeds United",
@@ -5615,12 +5625,14 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
     },
     {
       "id": "L7-16",
@@ -5628,7 +5640,7 @@
       "variante": "libera",
       "quota_combinata": 23.52,
       "probabilita_combinata": 0.043,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Palermo - Carrarese",
@@ -5642,8 +5654,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Konyaspor - Gençlerbirliği",
@@ -5657,8 +5669,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sunderland - Leeds United",
@@ -5687,8 +5699,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Lecce - Juventus",
@@ -5717,8 +5729,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.44 gol attesi (9° con 9 punti, 8 gol fatti e 7 subiti in 7 gare), Brentford 1.44 (6° con 10 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.88 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Celta de Vigo - Real Betis",
@@ -5732,6 +5744,456 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.58 gol attesi (8° con 11 punti, 10 gol fatti e 7 subiti in 9 gare), Real Betis 1.33 (4° con 19 punti, 16 fatti e 14 subiti in 9 gare). Somma attesa 2.91 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T18:08:12.339650+00:00"
+    },
+    {
+      "id": "L4-15",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 6.88,
+      "probabilita_combinata": 0.145,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - Olympique Lyonnais",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L5-18",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 11.46,
+      "probabilita_combinata": 0.087,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - Olympique Lyonnais",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L6-16",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 19.11,
+      "probabilita_combinata": 0.052,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - Olympique Lyonnais",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L7-17",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 31.85,
+      "probabilita_combinata": 0.031,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - Olympique Lyonnais",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.64,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Santa Clara - Benfica",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-26T18:45:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-16",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 7.72,
+      "probabilita_combinata": 0.13,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Santa Clara - Benfica",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-26T18:45:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Başakşehir",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 2-4",
+          "esito_pick": "2-4",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.66,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

@@ -268,9 +268,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.81 gol attesi (14° con 7 punti, 9 gol fatti e 17 subiti in 7 gare), Newcastle United 1.73 (11° con 8 punti, 10 fatti e 14 subiti in 7 gare). Somma attesa 3.54 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-25T18:08:12Z"
       }
     },
     {
@@ -312,9 +312,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hull City 1.44 gol attesi (9° con 9 punti, 8 gol fatti e 7 subiti in 7 gare), Brentford 1.44 (6° con 10 punti, 13 fatti e 8 subiti in 7 gare). Somma attesa 2.88 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-25T18:08:12Z"
       }
     },
     {
