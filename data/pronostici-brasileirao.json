@@ -222,9 +222,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.46 gol attesi (15° con 35 punti, 36 gol fatti e 43 subiti in 30 gare), Corinthians 1.24 (16° con 33 punti, 32 fatti e 39 subiti in 31 gare). Somma attesa 2.70 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "primo_tempo": "1-0",
+        "aggiornato": "2026-10-25T10:07:08Z"
       }
     },
     {
@@ -355,9 +356,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Santos 1.64 gol attesi (8° con 45 punti, 48 gol fatti e 46 subiti in 31 gare), Bahia 1.44 (7° con 49 punti, 44 fatti e 39 subiti in 31 gare). Somma attesa 3.08 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "primo_tempo": "0-1",
+        "aggiornato": "2026-10-25T10:07:08Z"
       }
     },
     {

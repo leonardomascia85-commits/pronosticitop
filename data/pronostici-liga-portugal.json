@@ -133,9 +133,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Alverca 1.52 gol attesi (8° con 11 punti, 13 gol fatti e 12 subiti in 8 gare), Arouca 1.42 (5° con 14 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.94 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "primo_tempo": "0-1",
+        "aggiornato": "2026-10-25T10:07:08Z"
       }
     },
     {

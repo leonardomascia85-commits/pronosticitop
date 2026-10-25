@@ -538,8 +538,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Alverca 1.35 gol attesi (8° con 11 punti, 13 gol fatti e 12 subiti in 8 gare), Arouca 1.32 (5° con 14 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.67 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Napoli - Roma",
@@ -1878,8 +1878,8 @@
           "probabilita_modello": 0.56,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.46 gol attesi (15° con 35 punti, 36 gol fatti e 43 subiti in 30 gare), Corinthians 1.24 (16° con 33 punti, 32 fatti e 39 subiti in 31 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Samsunspor - Amedspor",
@@ -1908,8 +1908,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.64 gol attesi (8° con 45 punti, 48 gol fatti e 46 subiti in 31 gare), Bahia 1.44 (7° con 49 punti, 44 fatti e 39 subiti in 31 gare). Somma attesa 3.08 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Crystal Palace - Newcastle United",
