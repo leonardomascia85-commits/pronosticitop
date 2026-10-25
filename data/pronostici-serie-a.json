@@ -312,9 +312,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Atalanta 1.60 gol attesi (11° con 9 punti, 10 gol fatti e 11 subiti in 7 gare), Frosinone 1.62 (6° con 13 punti, 13 fatti e 9 subiti in 7 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-4",
+        "aggiornato": "2026-10-25T16:07:16Z"
       }
     },
     {

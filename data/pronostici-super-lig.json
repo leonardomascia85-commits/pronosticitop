@@ -224,9 +224,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.52 gol attesi (16° con 5 punti, 4 gol fatti e 9 subiti in 8 gare), Gençlerbirliği 1.13 (15° con 8 punti, 7 fatti e 16 subiti in 8 gare). Somma attesa 2.65 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-25T16:07:16Z",
+        "primo_tempo": "1-0"
       }
     },
     {

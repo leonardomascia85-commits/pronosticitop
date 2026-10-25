@@ -3953,8 +3953,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "RB Leipzig - SV Elversberg",
@@ -4025,8 +4025,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "RB Leipzig - SV Elversberg",
@@ -4112,8 +4112,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "RB Leipzig - SV Elversberg",
@@ -4214,8 +4214,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "RB Leipzig - SV Elversberg",
@@ -4902,8 +4902,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.43 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.44 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -4990,7 +4990,7 @@
       "variante": "libera",
       "quota_combinata": 2.58,
       "probabilita_combinata": 0.388,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -5019,8 +5019,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.43 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.44 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -5052,7 +5052,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T16:07:16.551334+00:00"
     },
     {
       "id": "L5-15",
@@ -5060,7 +5062,7 @@
       "variante": "libera",
       "quota_combinata": 3.4,
       "probabilita_combinata": 0.294,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -5089,8 +5091,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.43 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.44 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -5137,7 +5139,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T16:07:16.551334+00:00"
     },
     {
       "id": "L6-13",
@@ -5174,8 +5178,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.43 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.44 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -5451,6 +5455,161 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-13",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 4.16,
+      "probabilita_combinata": 0.24,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - RC Strasbourg Alsace",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - Fenerbahçe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T21:30:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Levante",
+          "campionato": "La Liga",
+          "data": "2026-10-25T18:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-16",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 6.4,
+      "probabilita_combinata": 0.156,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - RC Strasbourg Alsace",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - Fenerbahçe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T21:30:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.67,
+          "quota_stimata": 1.49,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Levante",
+          "campionato": "La Liga",
+          "data": "2026-10-25T18:30:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AJ Auxerre - Le Mans FC",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.97 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.73 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.70 gol.",
           "esito": null,
           "risultato_reale": null
         }

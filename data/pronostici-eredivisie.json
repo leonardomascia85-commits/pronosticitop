@@ -309,9 +309,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): PSV 2.43 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.44 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.87 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-25T16:07:16Z"
       }
     },
     {

@@ -26,7 +26,7 @@
       "quota_max": 3,
       "quota_combinata": 1.92,
       "probabilita_combinata": 0.522,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lazio - Parma",
@@ -40,8 +40,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lazio 2.08 gol attesi (2° con 19 punti, 14 gol fatti e 4 subiti in 7 gare), Parma 0.53 (19° con 4 punti, 4 fatti e 13 subiti in 7 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Inter - Fiorentina",
@@ -55,8 +55,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.93 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.12 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "PSV - Feyenoord",
@@ -70,8 +70,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -88,7 +88,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T16:07:16.551334+00:00"
     },
     {
       "id": "L4-13",
@@ -670,7 +672,7 @@
       "quota_max": 5,
       "quota_combinata": 2.72,
       "probabilita_combinata": 0.368,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Augsburg - 1. FC Union Berlin",
@@ -684,8 +686,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.97 gol attesi (10° con 8 punti, 16 gol fatti e 12 subiti in 6 gare), 1. FC Union Berlin 1.30 (17° con 5 punti, 5 fatti e 17 subiti in 6 gare). Somma attesa 4.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Lazio - Parma",
@@ -699,8 +701,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lazio 2.08 gol attesi (2° con 19 punti, 14 gol fatti e 4 subiti in 7 gare), Parma 0.53 (19° con 4 punti, 4 fatti e 13 subiti in 7 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Inter - Fiorentina",
@@ -714,8 +716,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.93 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.12 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Athletic Club - Getafe",
@@ -744,8 +746,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -762,7 +764,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T16:07:16.551334+00:00"
     },
     {
       "id": "L6-8",
@@ -831,8 +835,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.47 gol attesi (11° con 9 punti, 10 gol fatti e 11 subiti in 7 gare), Frosinone 1.58 (6° con 13 punti, 13 fatti e 9 subiti in 7 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-4"
         },
         {
           "partita": "Sunderland - Leeds United",
@@ -980,7 +984,7 @@
       "quota_max": 6,
       "quota_combinata": 3.31,
       "probabilita_combinata": 0.302,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Augsburg - 1. FC Union Berlin",
@@ -994,8 +998,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.97 gol attesi (10° con 8 punti, 16 gol fatti e 12 subiti in 6 gare), 1. FC Union Berlin 1.30 (17° con 5 punti, 5 fatti e 17 subiti in 6 gare). Somma attesa 4.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Lazio - Parma",
@@ -1009,8 +1013,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lazio 2.08 gol attesi (2° con 19 punti, 14 gol fatti e 4 subiti in 7 gare), Parma 0.53 (19° con 4 punti, 4 fatti e 13 subiti in 7 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Inter - Fiorentina",
@@ -1024,8 +1028,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.93 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.12 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Athletic Club - Getafe",
@@ -1054,8 +1058,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 2.22 gol attesi (3° con 19 punti, 27 gol fatti e 12 subiti in 9 gare), Feyenoord 2.20 (1° con 23 punti, 31 fatti e 10 subiti in 9 gare). Somma attesa 4.42 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "AJ Auxerre - Le Mans FC",
@@ -1087,7 +1091,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T16:07:16.551334+00:00"
     },
     {
       "id": "L7-12",
@@ -1585,8 +1591,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.77 gol attesi (1° con 19 punti, 16 gol fatti e 7 subiti in 7 gare), Carrarese 0.85 (13° con 7 punti, 6 fatti e 7 subiti in 7 gare). Somma attesa 2.63 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Hellas Verona - Pisa",
@@ -2042,6 +2048,180 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-18",
+      "livello_rischio": 4,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 3,
+      "quota_combinata": 2.44,
+      "probabilita_combinata": 0.409,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Olympique de Marseille - Le Havre AC",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Olympique de Marseille o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.97 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 1.18 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sporting CP - Académico Viseu",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T20:30:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Sporting CP o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "FC Barcelona o Real Madrid",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Flamengo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-11",
+      "livello_rischio": 6,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 5,
+      "quota_combinata": 4.4,
+      "probabilita_combinata": 0.227,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Olympique de Marseille - Le Havre AC",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Olympique de Marseille o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.97 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 1.18 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - RC Strasbourg Alsace",
+          "campionato": "Ligue 1",
+          "data": "2026-10-25T17:15:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Stade Rennais FC o RC Strasbourg Alsace",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AZ Alkmaar - FC Twente",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T20:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "AZ Alkmaar o FC Twente",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.36,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.96 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), FC Twente 1.50 (5° con 17 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sporting CP - Académico Viseu",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T20:30:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Sporting CP o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "FC Barcelona o Real Madrid",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Flamengo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }
