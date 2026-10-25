@@ -396,9 +396,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.77 gol attesi (11° con 8 punti, 14 gol fatti e 12 subiti in 7 gare), Pisa 1.71 (3° con 13 punti, 14 fatti e 9 subiti in 7 gare). Somma attesa 3.48 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-25T22:07:20Z",
+        "primo_tempo": "0-0"
       }
     }
   ]

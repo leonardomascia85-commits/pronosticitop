@@ -444,9 +444,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sunderland 1.23 gol attesi (20° con 4 punti, 6 gol fatti e 14 subiti in 7 gare), Leeds United 1.54 (7° con 10 punti, 9 fatti e 6 subiti in 7 gare). Somma attesa 2.77 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-25T22:07:20Z",
+        "primo_tempo": "0-0"
       }
     }
   ]

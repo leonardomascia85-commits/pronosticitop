@@ -85,8 +85,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.88 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.64 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -396,8 +396,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.88 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.64 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -767,8 +767,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.88 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.64 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -856,8 +856,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 0.93 gol attesi (20° con 4 punti, 6 gol fatti e 14 subiti in 7 gare), Leeds United 1.51 (7° con 10 punti, 9 fatti e 6 subiti in 7 gare). Somma attesa 2.44 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "AZ Alkmaar - FC Twente",
@@ -871,8 +871,8 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.80 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), FC Twente 1.38 (5° con 17 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "esito_finale": "persa",
@@ -1094,8 +1094,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.88 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.64 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -1540,8 +1540,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.23 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.97 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sevilla - Osasuna",
@@ -1614,8 +1614,8 @@
           "probabilita_modello": 0.54,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.77 gol attesi (11° con 8 punti, 14 gol fatti e 12 subiti in 7 gare), Pisa 1.71 (3° con 13 punti, 14 fatti e 9 subiti in 7 gare). Somma attesa 3.48 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Flamengo - Atlético-MG",
