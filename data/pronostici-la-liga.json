@@ -310,9 +310,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.58 gol attesi (8° con 11 punti, 10 gol fatti e 7 subiti in 9 gare), Real Betis 1.33 (4° con 19 punti, 16 fatti e 14 subiti in 9 gare). Somma attesa 2.91 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-25T20:07:12Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -354,9 +355,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-25T20:07:12Z",
+        "primo_tempo": "2-1"
       }
     },
     {

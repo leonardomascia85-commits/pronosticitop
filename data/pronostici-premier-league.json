@@ -356,9 +356,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Liverpool 1.34 gol attesi (5° con 12 punti, 9 gol fatti e 8 subiti in 7 gare), Brighton & Hove Albion 2.21 (3° con 16 punti, 23 fatti e 5 subiti in 7 gare). Somma attesa 3.55 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-25T20:07:12Z"
       }
     },
     {
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Manchester United 1.81 gol attesi (13° con 7 punti, 10 gol fatti e 10 subiti in 7 gare), AFC Bournemouth 1.36 (15° con 6 punti, 9 fatti e 13 subiti in 7 gare). Somma attesa 3.17 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-10-25T20:07:12Z"
       }
     },
     {

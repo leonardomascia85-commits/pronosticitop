@@ -401,9 +401,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Lecce 1.50 gol attesi (12° con 9 punti, 9 gol fatti e 12 subiti in 7 gare), Juventus 1.45 (8° con 11 punti, 9 fatti e 8 subiti in 7 gare). Somma attesa 2.95 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-25T20:07:12Z",
+        "primo_tempo": "0-2"
       }
     },
     {

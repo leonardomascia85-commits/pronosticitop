@@ -229,8 +229,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.34 gol attesi (5° con 12 punti, 9 gol fatti e 8 subiti in 7 gare), Brighton & Hove Albion 2.21 (3° con 16 punti, 23 fatti e 5 subiti in 7 gare). Somma attesa 3.55 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         }
       ],
       "esito_finale": "persa",
@@ -286,8 +286,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.34 gol attesi (5° con 12 punti, 9 gol fatti e 8 subiti in 7 gare), Brighton & Hove Albion 2.21 (3° con 16 punti, 23 fatti e 5 subiti in 7 gare). Somma attesa 3.55 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -301,8 +301,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "FC Utrecht - PEC Zwolle",
@@ -373,8 +373,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.34 gol attesi (5° con 12 punti, 9 gol fatti e 8 subiti in 7 gare), Brighton & Hove Albion 2.21 (3° con 16 punti, 23 fatti e 5 subiti in 7 gare). Somma attesa 3.55 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -388,8 +388,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -416,7 +416,7 @@
       "variante": "alternativa",
       "quota_combinata": 4.68,
       "probabilita_combinata": 0.214,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -445,8 +445,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -478,7 +478,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T20:07:12.665523+00:00"
     },
     {
       "id": "L5-4",
@@ -715,6 +717,76 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-5",
+      "livello_rischio": 4,
+      "variante": "alternativa",
+      "quota_combinata": 5.91,
+      "probabilita_combinata": 0.169,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sporting CP - Académico Viseu",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-25T20:30:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Başakşehir",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "COMBO",
+          "pronostico": "Flamengo o pareggio + Over 1.5",
+          "esito_pick": "1x_o15",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.59,
+          "quota_stimata": 1.69,
+          "probabilita_modello": 0.59,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
           "esito": null,
           "risultato_reale": null
         }
