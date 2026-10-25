@@ -267,9 +267,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-25T14:07:03Z"
       }
     },
     {

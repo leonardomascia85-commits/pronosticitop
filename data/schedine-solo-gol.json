@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Gol/No Gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-24",
+  "aggiornato_il": "2026-10-25",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Gol/No Gol (pick_gg) per ogni partita, scelto in base al dato storico reale delle due squadre (gol fatti/subiti, forma recente). Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -6396,7 +6396,7 @@
       "variante": "quota_max",
       "quota_combinata": 9.04,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Feyenoord",
@@ -6470,8 +6470,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.05 gol attesi (6° con 15 punti, 16 gol fatti e 17 subiti in 9 gare), Excelsior 1.71 (10° con 11 punti, 16 fatti e 18 subiti in 9 gare). Somma attesa 3.76 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -6490,7 +6490,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T14:07:03.709159+00:00"
     },
     {
       "id": "L7-19",
@@ -6498,7 +6500,7 @@
       "variante": "quota_max",
       "quota_combinata": 12.91,
       "probabilita_combinata": 0.077,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Feyenoord",
@@ -6587,8 +6589,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.05 gol attesi (6° con 15 punti, 16 gol fatti e 17 subiti in 9 gare), Excelsior 1.71 (10° con 11 punti, 16 fatti e 18 subiti in 9 gare). Somma attesa 3.76 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -6602,6 +6604,227 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T14:07:03.709159+00:00"
+    },
+    {
+      "id": "L6-18",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 12.54,
+      "probabilita_combinata": 0.08,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hellas Verona - Pisa",
+          "campionato": "Serie B",
+          "data": "2026-10-25T16:15:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.77 gol attesi (11° con 8 punti, 14 gol fatti e 12 subiti in 7 gare), Pisa 1.71 (3° con 13 punti, 14 fatti e 9 subiti in 7 gare). Somma attesa 3.48 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - Fenerbahçe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T21:30:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Levante",
+          "campionato": "La Liga",
+          "data": "2026-10-25T18:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AZ Alkmaar - FC Twente",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.96 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), FC Twente 1.50 (5° con 17 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L7-20",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 18.17,
+      "probabilita_combinata": 0.055,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Barcelona - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-10-25T21:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - FC Bayern München",
+          "campionato": "Bundesliga",
+          "data": "2026-10-25T17:30:00+02:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hellas Verona - Pisa",
+          "campionato": "Serie B",
+          "data": "2026-10-25T16:15:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.77 gol attesi (11° con 8 punti, 14 gol fatti e 12 subiti in 7 gare), Pisa 1.71 (3° con 13 punti, 14 fatti e 9 subiti in 7 gare). Somma attesa 3.48 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - Fenerbahçe",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T21:30:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Levante",
+          "campionato": "La Liga",
+          "data": "2026-10-25T18:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AZ Alkmaar - FC Twente",
+          "campionato": "Eredivisie",
+          "data": "2026-10-25T20:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.96 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), FC Twente 1.50 (5° con 17 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Udinese - Milan",
+          "campionato": "Serie A",
+          "data": "2026-10-25T20:45:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.62,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

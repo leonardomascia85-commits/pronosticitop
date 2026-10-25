@@ -920,8 +920,8 @@
           "probabilita_modello": 0.51,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.04 gol attesi (6° con 15 punti, 16 gol fatti e 17 subiti in 9 gare), Excelsior 1.69 (10° con 11 punti, 16 fatti e 18 subiti in 9 gare). Somma attesa 3.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",

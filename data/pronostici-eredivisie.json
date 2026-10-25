@@ -220,9 +220,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.05 gol attesi (6° con 15 punti, 16 gol fatti e 17 subiti in 9 gare), Excelsior 1.71 (10° con 11 punti, 16 fatti e 18 subiti in 9 gare). Somma attesa 3.76 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-25T14:07:03Z"
       }
     },
     {
