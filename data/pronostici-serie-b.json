@@ -236,9 +236,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Südtirol 1.85 gol attesi (5° con 12 punti, 9 gol fatti e 6 subiti in 7 gare), Sampdoria 0.85 (20° con 4 punti, 7 fatti e 15 subiti in 7 gare). Somma attesa 2.71 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-25T00:07:03Z",
+        "primo_tempo": "0-1"
       }
     },
     {

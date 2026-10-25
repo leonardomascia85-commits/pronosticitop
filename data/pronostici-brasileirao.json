@@ -133,9 +133,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Internacional 1.54 gol attesi (17° con 32 punti, 33 gol fatti e 40 subiti in 31 gare), Botafogo 1.35 (11° con 39 punti, 44 fatti e 48 subiti in 31 gare). Somma attesa 2.89 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-25T00:07:03Z"
       }
     },
     {
@@ -177,9 +177,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vitória 1.37 gol attesi (13° con 37 punti, 34 gol fatti e 45 subiti in 31 gare), Athletico-PR 1.49 (3° con 53 punti, 49 fatti e 37 subiti in 31 gare). Somma attesa 2.86 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-25T00:07:03Z",
+        "primo_tempo": "1-1"
       }
     },
     {

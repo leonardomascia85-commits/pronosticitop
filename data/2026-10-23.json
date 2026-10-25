@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-10-24",
+  "aggiornato_il": "2026-10-25",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -876,7 +876,7 @@
       "quota_max": 11,
       "quota_combinata": 9.01,
       "probabilita_combinata": 0.111,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Südtirol - Sampdoria",
@@ -890,8 +890,8 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Südtirol 1.85 gol attesi (5° con 12 punti, 9 gol fatti e 6 subiti in 7 gare), Sampdoria 0.85 (20° con 4 punti, 7 fatti e 15 subiti in 7 gare). Somma attesa 2.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "1. FSV Mainz 05 - SV Werder Bremen",
@@ -905,8 +905,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.34 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.69 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Fortuna Sittard - Excelsior",
@@ -968,7 +968,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T00:07:03.890552+00:00"
     },
     {
       "id": "L7-11",
@@ -1303,8 +1305,8 @@
           "probabilita_modello": 0.52,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.35 gol attesi (12° con 7 punti, 8 gol fatti e 11 subiti in 6 gare), FC Schalke 04 1.15 (15° con 5 punti, 4 fatti e 7 subiti in 6 gare). Somma attesa 2.50 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -1494,8 +1496,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.62 gol attesi (8° con 10 punti, 14 gol fatti e 11 subiti in 7 gare), Paris FC 1.51 (3° con 14 punti, 12 fatti e 7 subiti in 7 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -1815,7 +1817,7 @@
       "quota_max": 12,
       "quota_combinata": 10.09,
       "probabilita_combinata": 0.099,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Modena - Cesena",
@@ -1829,8 +1831,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Modena 1.62 gol attesi (4° con 13 punti, 12 gol fatti e 8 subiti in 7 gare), Cesena 1.05 (12° con 8 punti, 8 fatti e 9 subiti in 7 gare). Somma attesa 2.67 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "1. FC Köln - FC Schalke 04",
@@ -1844,8 +1846,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.53 gol attesi (12° con 7 punti, 8 gol fatti e 11 subiti in 6 gare), FC Schalke 04 1.30 (15° con 5 punti, 4 fatti e 7 subiti in 6 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Mirassol - São Paulo",
@@ -1859,8 +1861,8 @@
           "probabilita_modello": 0.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.37 gol attesi (14° con 36 punti, 36 gol fatti e 44 subiti in 31 gare), São Paulo 1.29 (9° con 42 punti, 36 fatti e 35 subiti in 31 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Vasco da Gama - Corinthians",
@@ -1889,8 +1891,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.32 gol attesi (17° con 4 punti, 7 gol fatti e 19 subiti in 8 gare), Amedspor 2.11 (2° con 17 punti, 18 fatti e 9 subiti in 8 gare). Somma attesa 3.43 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Santos - Bahia",
@@ -1922,7 +1924,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T00:07:03.890552+00:00"
     },
     {
       "id": "L7-17",

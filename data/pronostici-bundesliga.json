@@ -223,9 +223,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.53 gol attesi (12° con 7 punti, 8 gol fatti e 11 subiti in 6 gare), FC Schalke 04 1.30 (15° con 5 punti, 4 fatti e 7 subiti in 6 gare). Somma attesa 2.83 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-25T00:07:03Z",
+        "primo_tempo": "0-0"
       }
     },
     {

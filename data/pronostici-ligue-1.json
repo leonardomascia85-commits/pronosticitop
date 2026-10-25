@@ -131,9 +131,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (8° con 10 punti, 14 gol fatti e 11 subiti in 7 gare), Paris FC 1.54 (3° con 14 punti, 12 fatti e 7 subiti in 7 gare). Somma attesa 3.30 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-25T00:07:03Z",
+        "primo_tempo": "0-1"
       }
     },
     {
