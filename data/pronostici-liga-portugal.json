@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Estrela da Amadora 2.06 gol attesi (10° con 10 punti, 14 gol fatti e 15 subiti in 8 gare), Casa Pia 1.21 (17° con 4 punti, 3 fatti e 17 subiti in 8 gare). Somma attesa 3.27 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-25T02:06:55Z",
+        "primo_tempo": "0-1"
       }
     },
     {

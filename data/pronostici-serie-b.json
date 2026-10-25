@@ -276,9 +276,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.00 gol attesi (19° con 4 punti, 8 gol fatti e 14 subiti in 7 gare), Ascoli 1.45 (6° con 12 punti, 8 fatti e 5 subiti in 7 gare). Somma attesa 2.45 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-6",
+        "aggiornato": "2026-10-25T02:06:55Z",
+        "primo_tempo": "1-4"
       }
     },
     {

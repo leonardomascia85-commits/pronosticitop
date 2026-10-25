@@ -1141,8 +1141,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.00 gol attesi (19° con 4 punti, 8 gol fatti e 14 subiti in 7 gare), Ascoli 1.45 (6° con 12 punti, 8 fatti e 5 subiti in 7 gare). Somma attesa 2.45 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-6"
         },
         {
           "partita": "Gil Vicente - FC Porto",
@@ -1451,8 +1451,8 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estrela da Amadora 2.09 gol attesi (10° con 10 punti, 14 gol fatti e 15 subiti in 8 gare), Casa Pia 1.04 (17° con 4 punti, 3 fatti e 17 subiti in 8 gare). Somma attesa 3.13 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Gaziantep FK - Erzurumspor",
@@ -1556,7 +1556,7 @@
       "quota_max": 7,
       "quota_combinata": 5.02,
       "probabilita_combinata": 0.199,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Palmeiras - Red Bull Bragantino",
@@ -1570,8 +1570,8 @@
           "probabilita_modello": 0.52,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.72 gol attesi (2° con 66 punti, 54 gol fatti e 22 subiti in 31 gare), Red Bull Bragantino 1.02 (10° con 41 punti, 39 fatti e 36 subiti in 31 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Palermo - Carrarese",
@@ -1618,7 +1618,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-25T02:06:55.363010+00:00"
     },
     {
       "id": "L4-17",
