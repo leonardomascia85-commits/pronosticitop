@@ -1,70 +1,25 @@
 {
   "campionato": "Liga Portugal",
-  "giornata": "9ª giornata",
-  "periodo": "23-26 ottobre 2026",
-  "aggiornato": "2026-10-17",
+  "giornata": "10ª giornata",
+  "periodo": "30 ottobre - 2 novembre 2026",
+  "aggiornato": "2026-10-26",
   "partite": [
     {
-      "casa": "Vitória Guimarães",
-      "trasferta": "Marítimo",
-      "data": "2026-10-23T20:45:00+01:00",
-      "forma_casa": "15° posto, 5 pt in 8 gare (1V-2N-5P), 5-10",
-      "forma_trasferta": "12° posto, 8 pt in 8 gare (2V-2N-4P), 9-14",
+      "casa": "Casa Pia",
+      "trasferta": "Sporting CP",
+      "data": "2026-10-30T20:15:00+00:00",
+      "forma_casa": "16° posto, 7 pt in 9 gare (2V-1N-6P), 5-17",
+      "forma_trasferta": "3° posto, 18 pt in 9 gare (5V-3N-1P), 21-11",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Vitória Guimarães",
-        "probabilita": 0.41,
+        "esito": "2",
+        "etichetta": "Vittoria Sporting CP",
+        "probabilita": 0.55,
         "modello": "v2"
       },
       "pick_dc": {
-        "esito": "12",
-        "etichetta": "Vitória Guimarães o Marítimo",
-        "probabilita": 0.72,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.51,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.71,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Vitória Guimarães 1.47 gol attesi (15° con 5 punti, 5 gol fatti e 10 subiti in 8 gare), Marítimo 1.25 (12° con 8 punti, 9 fatti e 14 subiti in 8 gare). Somma attesa 2.72 gol. Orario da confermare.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "5-0",
-        "aggiornato": "2026-10-23T22:09:01Z",
-        "primo_tempo": "1-0"
-      }
-    },
-    {
-      "casa": "Estrela da Amadora",
-      "trasferta": "Casa Pia",
-      "data": "2026-10-24T15:30:00+01:00",
-      "forma_casa": "10° posto, 10 pt in 8 gare (2V-4N-2P), 14-15",
-      "forma_trasferta": "17° posto, 4 pt in 8 gare (1V-1N-6P), 3-17",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Estrela da Amadora",
-        "probabilita": 0.56,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Estrela da Amadora o pareggio",
-        "probabilita": 0.79,
+        "esito": "X2",
+        "etichetta": "Pareggio o Sporting CP",
+        "probabilita": 0.78,
         "modello": "v2"
       },
       "pick_uo": {
@@ -76,7 +31,7 @@
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.59,
+        "probabilita": 0.6,
         "modello": "v2"
       },
       "pick_gg": {
@@ -85,31 +40,118 @@
         "probabilita": 0.62,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Estrela da Amadora 2.06 gol attesi (10° con 10 punti, 14 gol fatti e 15 subiti in 8 gare), Casa Pia 1.21 (17° con 4 punti, 3 fatti e 17 subiti in 8 gare). Somma attesa 3.27 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Casa Pia 1.22 gol attesi (16° con 7 punti, 5 gol fatti e 17 subiti in 9 gare), Sporting CP 2.01 (3° con 18 punti, 21 fatti e 11 subiti in 9 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-10-25T02:06:55Z",
-        "primo_tempo": "0-1"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Alverca",
-      "trasferta": "Arouca",
-      "data": "2026-10-24T18:00:00+01:00",
-      "forma_casa": "8° posto, 11 pt in 8 gare (3V-2N-3P), 13-12",
-      "forma_trasferta": "5° posto, 14 pt in 8 gare (4V-2N-2P), 11-7",
+      "casa": "Moreirense",
+      "trasferta": "Estrela da Amadora",
+      "data": "2026-10-31T15:30:00+00:00",
+      "forma_casa": "10° posto, 11 pt in 9 gare (3V-2N-4P), 11-16",
+      "forma_trasferta": "12° posto, 10 pt in 9 gare (2V-4N-3P), 14-17",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Alverca",
-        "probabilita": 0.39,
+        "etichetta": "Vittoria Moreirense",
+        "probabilita": 0.41,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Alverca o Arouca",
-        "probabilita": 0.73,
+        "etichetta": "Moreirense o Estrela da Amadora",
+        "probabilita": 0.75,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.67,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Moreirense 1.76 gol attesi (10° con 11 punti, 11 gol fatti e 16 subiti in 9 gare), Estrela da Amadora 1.57 (12° con 10 punti, 14 fatti e 17 subiti in 9 gare). Somma attesa 3.33 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "FC Porto",
+      "trasferta": "Estoril",
+      "data": "2026-10-31T20:30:00+00:00",
+      "forma_casa": "1° posto, 27 pt in 9 gare (9V-0N-0P), 21-4",
+      "forma_trasferta": "18° posto, 2 pt in 9 gare (0V-2N-7P), 5-15",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria FC Porto",
+        "probabilita": 0.7,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "FC Porto o pareggio",
+        "probabilita": 0.9,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.58,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Arouca",
+      "trasferta": "Nacional",
+      "data": "2026-11-01T15:30:00+00:00",
+      "forma_casa": "5° posto, 17 pt in 9 gare (5V-2N-2P), 12-7",
+      "forma_trasferta": "15° posto, 7 pt in 9 gare (2V-1N-6P), 10-18",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Arouca",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Arouca o pareggio",
+        "probabilita": 0.79,
         "modello": "v2"
       },
       "pick_uo": {
@@ -127,78 +169,120 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.6,
+        "probabilita": 0.57,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Alverca 1.52 gol attesi (8° con 11 punti, 13 gol fatti e 12 subiti in 8 gare), Arouca 1.42 (5° con 14 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.94 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Arouca 1.85 gol attesi (5° con 17 punti, 12 gol fatti e 7 subiti in 9 gare), Nacional 1.08 (15° con 7 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "primo_tempo": "0-1",
-        "aggiornato": "2026-10-25T10:07:08Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Gil Vicente",
-      "trasferta": "FC Porto",
-      "data": "2026-10-24T20:30:00+01:00",
-      "forma_casa": "9° posto, 11 pt in 7 gare (3V-2N-2P), 6-5",
-      "forma_trasferta": "1° posto, 24 pt in 8 gare (8V-0N-0P), 20-4",
+      "casa": "Académico Viseu",
+      "trasferta": "Rio Ave",
+      "data": "2026-11-01T15:30:00+00:00",
+      "forma_casa": "6° posto, 17 pt in 9 gare (5V-2N-2P), 13-11",
+      "forma_trasferta": "17° posto, 7 pt in 9 gare (2V-1N-6P), 8-21",
       "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria FC Porto",
-        "probabilita": 0.51,
+        "esito": "1",
+        "etichetta": "Vittoria Académico Viseu",
+        "probabilita": 0.57,
         "modello": "v2"
       },
       "pick_dc": {
-        "esito": "X2",
-        "etichetta": "pareggio o FC Porto",
-        "probabilita": 0.77,
+        "esito": "1X",
+        "etichetta": "Académico Viseu o pareggio",
+        "probabilita": 0.8,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.53,
+        "probabilita": 0.62,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7,
+        "probabilita": 0.61,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.55,
+        "probabilita": 0.6,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.08 gol attesi (9° con 11 punti, 6 gol fatti e 5 subiti in 7 gare), FC Porto 1.70 (1° con 24 punti, 20 fatti e 4 subiti in 8 gare). Somma attesa 2.78 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Académico Viseu 2.03 gol attesi (6° con 17 punti, 13 gol fatti e 11 subiti in 9 gare), Rio Ave 1.15 (17° con 7 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.18 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-10-24T22:07:01Z",
-        "primo_tempo": "0-0"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Estoril",
-      "trasferta": "Moreirense",
-      "data": "2026-10-25T15:30:00+00:00",
-      "forma_casa": "18° posto, 2 pt in 8 gare (0V-2N-6P), 4-12",
-      "forma_trasferta": "11° posto, 8 pt in 8 gare (2V-2N-4P), 8-15",
+      "casa": "Marítimo",
+      "trasferta": "Santa Clara",
+      "data": "2026-11-01T18:00:00+00:00",
+      "forma_casa": "14° posto, 8 pt in 9 gare (2V-2N-5P), 9-19",
+      "forma_trasferta": "4° posto, 18 pt in 9 gare (5V-3N-1P), 13-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Santa Clara",
+        "probabilita": 0.47,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Santa Clara",
+        "probabilita": 0.74,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Sp. Braga",
+      "trasferta": "Famalicão",
+      "data": "2026-11-01T20:30:00+00:00",
+      "forma_casa": "9° posto, 11 pt in 8 gare (3V-2N-3P), 8-9",
+      "forma_trasferta": "11° posto, 10 pt in 9 gare (2V-4N-3P), 14-11",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Estoril",
-        "probabilita": 0.4,
+        "etichetta": "Vittoria Sp. Braga",
+        "probabilita": 0.37,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Estoril o Moreirense",
+        "etichetta": "Sp. Braga o Famalicão",
         "probabilita": 0.72,
         "modello": "v2"
       },
@@ -220,176 +304,42 @@
         "probabilita": 0.57,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-3",
-        "aggiornato": "2026-10-25T18:08:12Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     },
     {
-      "casa": "Nacional",
-      "trasferta": "Sp. Braga",
-      "data": "2026-10-25T18:00:00+00:00",
-      "forma_casa": "16° posto, 4 pt in 8 gare (1V-1N-6P), 9-18",
-      "forma_trasferta": "7° posto, 11 pt in 7 gare (3V-2N-2P), 8-8",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Sp. Braga",
-        "probabilita": 0.4,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Nacional o Sp. Braga",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.62,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Nacional 1.43 gol attesi (16° con 4 punti, 9 gol fatti e 18 subiti in 8 gare), Sp. Braga 1.59 (7° con 11 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 3.02 gol. Orario da confermare.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "primo_tempo": "1-0",
-        "aggiornato": "2026-10-26T02:07:10Z"
-      }
-    },
-    {
-      "casa": "Rio Ave",
-      "trasferta": "Famalicão",
-      "data": "2026-10-25T18:00:00+00:00",
-      "forma_casa": "14° posto, 7 pt in 8 gare (2V-1N-5P), 8-17",
-      "forma_trasferta": "13° posto, 7 pt in 8 gare (1V-4N-3P), 10-11",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Famalicão",
-        "probabilita": 0.39,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Rio Ave o Famalicão",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.59,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.62,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Rio Ave 1.47 gol attesi (14° con 7 punti, 8 gol fatti e 17 subiti in 8 gare), Famalicão 1.58 (13° con 7 punti, 10 fatti e 11 subiti in 8 gare). Somma attesa 3.05 gol. Orario da confermare.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-4",
-        "aggiornato": "2026-10-26T00:07:14Z"
-      }
-    },
-    {
-      "casa": "Sporting CP",
-      "trasferta": "Académico Viseu",
-      "data": "2026-10-25T20:30:00+00:00",
-      "forma_casa": "3° posto, 18 pt in 8 gare (5V-3N-0P), 20-9",
-      "forma_trasferta": "6° posto, 14 pt in 8 gare (4V-2N-2P), 11-10",
+      "casa": "Benfica",
+      "trasferta": "Alverca",
+      "data": "2026-11-02T20:15:00+00:00",
+      "forma_casa": "2° posto, 22 pt in 9 gare (7V-1N-1P), 26-8",
+      "forma_trasferta": "7° posto, 11 pt in 9 gare (3V-2N-4P), 13-13",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Sporting CP",
-        "probabilita": 0.56,
+        "etichetta": "Vittoria Benfica",
+        "probabilita": 0.64,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
-        "etichetta": "Sporting CP o pareggio",
-        "probabilita": 0.79,
+        "etichetta": "Benfica o pareggio",
+        "probabilita": 0.84,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.67,
+        "probabilita": 0.72,
         "modello": "v2"
       },
       "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.55,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.65,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "primo_tempo": "0-1",
-        "aggiornato": "2026-10-26T02:07:10Z"
-      }
-    },
-    {
-      "casa": "Santa Clara",
-      "trasferta": "Benfica",
-      "data": "2026-10-26T18:45:00+00:00",
-      "forma_casa": "4° posto, 18 pt in 8 gare (5V-3N-0P), 12-4",
-      "forma_trasferta": "2° posto, 19 pt in 8 gare (6V-1N-1P), 24-7",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Benfica",
-        "probabilita": 0.46,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Santa Clara o Benfica",
-        "probabilita": 0.76,
-        "modello": "v2"
-      },
-      "pick_uo": {
         "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.65,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.57,
+        "etichetta": "Over 3.5",
+        "probabilita": 0.51,
         "modello": "v2"
       },
       "pick_gg": {
@@ -398,13 +348,56 @@
         "probabilita": 0.66,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "primo_tempo": "1-0",
-        "aggiornato": "2026-10-26T22:07:25Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Gil Vicente",
+      "trasferta": "Vitória Guimarães",
+      "data": "2026-11-02T20:15:00+00:00",
+      "forma_casa": "8° posto, 11 pt in 8 gare (3V-2N-3P), 6-6",
+      "forma_trasferta": "13° posto, 8 pt in 9 gare (2V-2N-5P), 10-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Gil Vicente",
+        "probabilita": 0.39,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Gil Vicente o pareggio",
+        "probabilita": 0.7,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.59,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.79,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "nogol",
+        "etichetta": "No Gol",
+        "probabilita": 0.51,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       }
     }
   ]
