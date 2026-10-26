@@ -3811,8 +3811,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Fortuna Sittard - Excelsior",
@@ -3841,8 +3841,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.03 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 2.04 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "esito_finale": "persa",

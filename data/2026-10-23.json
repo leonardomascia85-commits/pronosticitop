@@ -1406,8 +1406,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.04 gol attesi (12° con 10 punti, 15 gol fatti e 16 subiti in 9 gare), FC Groningen 1.94 (7° con 14 punti, 22 fatti e 19 subiti in 9 gare). Somma attesa 3.98 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Konyaspor - Gençlerbirliği",
@@ -1525,8 +1525,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.03 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.15 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.18 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Udinese - Milan",
@@ -1956,7 +1956,7 @@
       "quota_max": 8,
       "quota_combinata": 6.01,
       "probabilita_combinata": 0.166,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Arezzo - Benevento",
@@ -1970,8 +1970,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.16 gol attesi (9° con 10 punti, 8 gol fatti e 14 subiti in 7 gare), Benevento 1.58 (8° con 11 punti, 10 fatti e 7 subiti in 7 gare). Somma attesa 2.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "RC Lens - Paris FC",
@@ -1985,8 +1985,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (8° con 10 punti, 14 gol fatti e 11 subiti in 7 gare), Paris FC 1.54 (3° con 14 punti, 12 fatti e 7 subiti in 7 gare). Somma attesa 3.30 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Atlético Madrid - Deportivo de La Coruña",
@@ -2000,8 +2000,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.98 gol attesi (2° con 22 punti, 19 gol fatti e 8 subiti in 9 gare), Deportivo de La Coruña 1.23 (9° con 11 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -2015,8 +2015,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Udinese - Milan",
@@ -2030,8 +2030,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Udinese 1.44 gol attesi (16° con 4 punti, 9 gol fatti e 16 subiti in 7 gare), Milan 1.92 (4° con 15 punti, 14 fatti e 7 subiti in 7 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Rizespor - Trabzonspor",
@@ -2063,7 +2063,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T02:07:10.745375+00:00"
     },
     {
       "id": "L4-18",
@@ -2073,7 +2075,7 @@
       "quota_max": 3,
       "quota_combinata": 2.44,
       "probabilita_combinata": 0.409,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Olympique de Marseille - Le Havre AC",
@@ -2087,8 +2089,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.97 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 1.18 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -2102,8 +2104,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -2117,8 +2119,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -2135,7 +2137,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T02:07:10.745375+00:00"
     },
     {
       "id": "L6-11",
@@ -2145,7 +2149,7 @@
       "quota_max": 5,
       "quota_combinata": 4.4,
       "probabilita_combinata": 0.227,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Olympique de Marseille - Le Havre AC",
@@ -2159,8 +2163,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.97 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 1.18 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Stade Rennais FC - RC Strasbourg Alsace",
@@ -2174,8 +2178,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "AZ Alkmaar - FC Twente",
@@ -2189,8 +2193,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.96 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), FC Twente 1.50 (5° con 17 punti, 17 fatti e 10 subiti in 9 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -2204,8 +2208,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -2219,8 +2223,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -2237,7 +2241,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T02:07:10.745375+00:00"
     },
     {
       "id": "L5-15",
@@ -2247,7 +2253,7 @@
       "quota_max": 4,
       "quota_combinata": 3.43,
       "probabilita_combinata": 0.292,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -2261,8 +2267,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -2276,8 +2282,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Santa Clara - Benfica",
@@ -2324,7 +2330,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T02:07:10.745375+00:00"
     },
     {
       "id": "L5-16",
@@ -2477,6 +2485,108 @@
           "esito_pick": "12",
           "probabilita_stimata": 0.71,
           "quota_stimata": 1.42,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-12",
+      "livello_rischio": 6,
+      "fascia": 3,
+      "rischio": "Rischio medio-alto",
+      "quota_max": 9,
+      "quota_combinata": 7.45,
+      "probabilita_combinata": 0.134,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Santa Clara - Benfica",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-26T18:45:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Santa Clara o Benfica",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "pareggio o Trabzonspor",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Coritiba o Grêmio",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Flamengo o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - Olympique Lyonnais",
+          "campionato": "Ligue 1",
+          "data": "2026-10-26T20:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Paris Saint-Germain o Olympique Lyonnais",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.74,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Sevilla o Osasuna",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.7,
+          "quota_stimata": 1.43,
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",

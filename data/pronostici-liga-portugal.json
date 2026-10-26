@@ -267,9 +267,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Nacional 1.43 gol attesi (16° con 4 punti, 9 gol fatti e 18 subiti in 8 gare), Sp. Braga 1.59 (7° con 11 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 3.02 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "primo_tempo": "1-0",
+        "aggiornato": "2026-10-26T02:07:10Z"
       }
     },
     {
@@ -355,9 +356,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "primo_tempo": "0-1",
+        "aggiornato": "2026-10-26T02:07:10Z"
       }
     },
     {
