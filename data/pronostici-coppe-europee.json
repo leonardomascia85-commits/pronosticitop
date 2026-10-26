@@ -12,38 +12,38 @@
           "trasferta": "VfB Stuttgart",
           "data": "2026-11-03T18:45:00+01:00",
           "forma_casa": "1° posto, 19 pt in 8 gare (6V-1N-1P), 17-11 in Süper Lig",
-          "forma_trasferta": "13° posto, 6 pt in 6 gare (2V-0N-4P), 8-10 in Bundesliga",
+          "forma_trasferta": "15° posto, 6 pt in 7 gare (2V-0N-5P), 10-13 in Bundesliga",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Galatasaray",
-            "probabilita": 0.53,
+            "probabilita": 0.54,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "12",
             "etichetta": "Galatasaray o VfB Stuttgart",
-            "probabilita": 0.77,
+            "probabilita": 0.78,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.67,
+            "probabilita": 0.69,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.55,
+            "probabilita": 0.52,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.66,
+            "probabilita": 0.67,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.17 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.39 (10 fatti e 13 subiti in 7 gare di Bundesliga). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -66,11 +66,11 @@
           "trasferta": "Inter",
           "data": "2026-11-03T21:00:00+01:00",
           "forma_casa": "1° posto, 23 pt in 9 gare (7V-2N-0P), 31-10 in Eredivisie",
-          "forma_trasferta": "1° posto, 19 pt in 7 gare (6V-1N-0P), 21-9 in Serie A",
+          "forma_trasferta": "1° posto, 22 pt in 8 gare (7V-1N-0P), 23-10 in Serie A",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Feyenoord",
-            "probabilita": 0.53,
+            "probabilita": 0.54,
             "modello": "v2"
           },
           "pick_dc": {
@@ -88,7 +88,7 @@
           "pick_uo35": {
             "esito": "over",
             "etichetta": "Over 3.5",
-            "probabilita": 0.71,
+            "probabilita": 0.7,
             "modello": "v2"
           },
           "pick_gg": {
@@ -97,7 +97,7 @@
             "probabilita": 0.82,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.78 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.04 (21 fatti e 9 subiti in 7 gare di Serie A). Somma attesa 4.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.76 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.02 (23 fatti e 10 subiti in 8 gare di Serie A). Somma attesa 4.78 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -119,39 +119,39 @@
           "casa": "Manchester United",
           "trasferta": "Roma",
           "data": "2026-11-03T21:00:00+01:00",
-          "forma_casa": "13° posto, 7 pt in 7 gare (1V-4N-2P), 10-10 in Premier League",
-          "forma_trasferta": "3° posto, 17 pt in 7 gare (5V-2N-0P), 16-3 in Serie A",
+          "forma_casa": "16° posto, 7 pt in 8 gare (1V-4N-3P), 10-13 in Premier League",
+          "forma_trasferta": "3° posto, 18 pt in 8 gare (5V-3N-0P), 19-6 in Serie A",
           "pick_1x2": {
             "esito": "2",
             "etichetta": "Vittoria Roma",
-            "probabilita": 0.48,
+            "probabilita": 0.51,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "12",
             "etichetta": "Manchester United o Roma",
-            "probabilita": 0.75,
+            "probabilita": 0.76,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.59,
+            "probabilita": 0.63,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.63,
+            "probabilita": 0.59,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.61,
+            "probabilita": 0.64,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Manchester United 1.28 gol attesi (10 gol fatti e 10 subiti in 7 gare di Premier League), Roma 1.79 (16 fatti e 3 subiti in 7 gare di Serie A). Somma attesa 3.07 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Manchester United 1.32 gol attesi (10 gol fatti e 13 subiti in 8 gare di Premier League), Roma 1.92 (19 fatti e 6 subiti in 8 gare di Serie A). Somma attesa 3.25 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -228,11 +228,11 @@
           "trasferta": "Bayern München",
           "data": "2026-11-03T21:00:00+01:00",
           "forma_casa": "2° posto, 22 pt in 9 gare (7V-1N-1P), 19-8 in La Liga",
-          "forma_trasferta": "1° posto, 14 pt in 6 gare (4V-2N-0P), 22-5 in Bundesliga",
+          "forma_trasferta": "1° posto, 17 pt in 7 gare (5V-2N-0P), 25-6 in Bundesliga",
           "pick_1x2": {
             "esito": "2",
             "etichetta": "Vittoria Bayern München",
-            "probabilita": 0.47,
+            "probabilita": 0.48,
             "modello": "v2"
           },
           "pick_dc": {
@@ -256,10 +256,10 @@
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.75,
+            "probabilita": 0.76,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.26 (25 fatti e 6 subiti in 7 gare di Bundesliga). Somma attesa 4.06 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -282,11 +282,11 @@
           "trasferta": "Aston Villa",
           "data": "2026-11-03T21:00:00+01:00",
           "forma_casa": "1° posto, 27 pt in 9 gare (9V-0N-0P), 39-9 in La Liga",
-          "forma_trasferta": "12° posto, 8 pt in 7 gare (2V-2N-3P), 7-11 in Premier League",
+          "forma_trasferta": "9° posto, 11 pt in 8 gare (3V-2N-3P), 9-12 in Premier League",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria FC Barcelona",
-            "probabilita": 0.78,
+            "probabilita": 0.77,
             "modello": "v2"
           },
           "pick_dc": {
@@ -298,7 +298,7 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.81,
+            "probabilita": 0.82,
             "modello": "v2"
           },
           "pick_uo35": {
@@ -310,10 +310,10 @@
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.65,
+            "probabilita": 0.67,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.28 gol attesi (39 gol fatti e 9 subiti in 9 gare di La Liga), Aston Villa 1.13 (7 fatti e 11 subiti in 7 gare di Premier League). Somma attesa 4.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.26 gol attesi (39 gol fatti e 9 subiti in 9 gare di La Liga), Aston Villa 1.16 (9 fatti e 12 subiti in 8 gare di Premier League). Somma attesa 4.42 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -336,17 +336,17 @@
           "trasferta": "Liverpool",
           "data": "2026-11-04T18:45:00+01:00",
           "forma_casa": "3° posto, 16 pt in 8 gare (5V-1N-2P), 22-6 in Süper Lig",
-          "forma_trasferta": "5° posto, 12 pt in 7 gare (3V-3N-1P), 9-8 in Premier League",
+          "forma_trasferta": "4° posto, 15 pt in 8 gare (4V-3N-1P), 11-8 in Premier League",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Fenerbahçe",
-            "probabilita": 0.62,
+            "probabilita": 0.6,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "1X",
             "etichetta": "Fenerbahçe o pareggio",
-            "probabilita": 0.83,
+            "probabilita": 0.82,
             "modello": "v2"
           },
           "pick_uo": {
@@ -367,7 +367,7 @@
             "probabilita": 0.62,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.21 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.17 (11 fatti e 8 subiti in 8 gare di Premier League). Somma attesa 3.38 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -390,7 +390,7 @@
           "trasferta": "Napoli",
           "data": "2026-11-04T21:00:00+01:00",
           "forma_casa": "1° posto, 24 pt in 8 gare (8V-0N-0P), 20-4 in Liga Portugal",
-          "forma_trasferta": "9° posto, 10 pt in 7 gare (3V-1N-3P), 10-7 in Serie A",
+          "forma_trasferta": "10° posto, 11 pt in 8 gare (3V-2N-3P), 13-10 in Serie A",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria FC Porto",
@@ -406,22 +406,22 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.61,
+            "probabilita": 0.65,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.61,
+            "probabilita": 0.57,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.59,
+            "probabilita": 0.62,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): FC Porto 2.16 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.17 (13 fatti e 10 subiti in 8 gare di Serie A). Somma attesa 3.33 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -444,11 +444,11 @@
           "trasferta": "Como",
           "data": "2026-11-04T21:00:00+01:00",
           "forma_casa": "8° posto, 10 pt in 7 gare (3V-1N-3P), 14-11 in Ligue 1",
-          "forma_trasferta": "5° posto, 14 pt in 7 gare (4V-2N-1P), 12-7 in Serie A",
+          "forma_trasferta": "5° posto, 17 pt in 8 gare (5V-2N-1P), 14-7 in Serie A",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Lens",
-            "probabilita": 0.42,
+            "probabilita": 0.4,
             "modello": "v2"
           },
           "pick_dc": {
@@ -466,7 +466,7 @@
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.58,
+            "probabilita": 0.59,
             "modello": "v2"
           },
           "pick_gg": {
@@ -475,7 +475,7 @@
             "probabilita": 0.66,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Lens 1.76 gol attesi (14 gol fatti e 11 subiti in 7 gare di Ligue 1), Como 1.54 (12 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.31 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Lens 1.71 gol attesi (14 gol fatti e 11 subiti in 7 gare di Ligue 1), Como 1.57 (14 fatti e 7 subiti in 8 gare di Serie A). Somma attesa 3.28 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -497,12 +497,12 @@
           "casa": "RB Leipzig",
           "trasferta": "Manchester City",
           "data": "2026-11-04T21:00:00+01:00",
-          "forma_casa": "7° posto, 9 pt in 6 gare (3V-0N-3P), 16-11 in Bundesliga",
-          "forma_trasferta": "1° posto, 21 pt in 7 gare (7V-0N-0P), 19-7 in Premier League",
+          "forma_casa": "5° posto, 12 pt in 7 gare (4V-0N-3P), 20-11 in Bundesliga",
+          "forma_trasferta": "1° posto, 21 pt in 8 gare (7V-0N-1P), 20-9 in Premier League",
           "pick_1x2": {
-            "esito": "2",
-            "etichetta": "Vittoria Manchester City",
-            "probabilita": 0.4,
+            "esito": "1",
+            "etichetta": "Vittoria RB Leipzig",
+            "probabilita": 0.45,
             "modello": "v2"
           },
           "pick_dc": {
@@ -514,7 +514,7 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.79,
+            "probabilita": 0.8,
             "modello": "v2"
           },
           "pick_uo35": {
@@ -529,7 +529,7 @@
             "probabilita": 0.78,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.29 gol attesi (20 gol fatti e 11 subiti in 7 gare di Bundesliga), Manchester City 1.97 (20 fatti e 9 subiti in 8 gare di Premier League). Somma attesa 4.25 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -551,7 +551,7 @@
           "casa": "Borussia Dortmund",
           "trasferta": "Real Betis",
           "data": "2026-11-04T21:00:00+01:00",
-          "forma_casa": "2° posto, 14 pt in 6 gare (4V-2N-0P), 11-4 in Bundesliga",
+          "forma_casa": "2° posto, 17 pt in 7 gare (5V-2N-0P), 12-4 in Bundesliga",
           "forma_trasferta": "4° posto, 19 pt in 9 gare (6V-1N-2P), 16-14 in La Liga",
           "pick_1x2": {
             "esito": "1",
@@ -568,22 +568,22 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.62,
+            "probabilita": 0.6,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.61,
+            "probabilita": 0.63,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.63,
+            "probabilita": 0.61,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 1.87 gol attesi (11 gol fatti e 4 subiti in 6 gare di Bundesliga), Real Betis 1.32 (16 fatti e 14 subiti in 9 gare di La Liga). Somma attesa 3.19 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 1.81 gol attesi (12 gol fatti e 4 subiti in 7 gare di Bundesliga), Real Betis 1.28 (16 fatti e 14 subiti in 9 gare di La Liga). Somma attesa 3.09 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -612,12 +612,12 @@
           "casa": "Crystal Palace",
           "trasferta": "Hoffenheim",
           "data": "2026-11-05T18:45:00+01:00",
-          "forma_casa": "14° posto, 7 pt in 7 gare (2V-1N-4P), 9-17 in Premier League",
-          "forma_trasferta": "14° posto, 6 pt in 6 gare (2V-0N-4P), 11-14 in Bundesliga",
+          "forma_casa": "17° posto, 7 pt in 8 gare (2V-1N-5P), 9-19 in Premier League",
+          "forma_trasferta": "10° posto, 9 pt in 7 gare (3V-0N-4P), 14-14 in Bundesliga",
           "pick_1x2": {
-            "esito": "1",
-            "etichetta": "Vittoria Crystal Palace",
-            "probabilita": 0.4,
+            "esito": "2",
+            "etichetta": "Vittoria Hoffenheim",
+            "probabilita": 0.43,
             "modello": "v2"
           },
           "pick_dc": {
@@ -629,22 +629,22 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.73,
+            "probabilita": 0.72,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "over",
             "etichetta": "Over 3.5",
-            "probabilita": 0.52,
+            "probabilita": 0.51,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.73,
+            "probabilita": 0.72,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.92 gol attesi (9 gol fatti e 17 subiti in 7 gare di Premier League), Hoffenheim 1.86 (11 fatti e 14 subiti in 6 gare di Bundesliga). Somma attesa 3.78 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.75 gol attesi (9 gol fatti e 19 subiti in 8 gare di Premier League), Hoffenheim 1.96 (14 fatti e 14 subiti in 7 gare di Bundesliga). Somma attesa 3.71 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -721,29 +721,29 @@
           "trasferta": "Juventus",
           "data": "2026-11-05T21:00:00+01:00",
           "forma_casa": "2° posto, 20 pt in 9 gare (6V-2N-1P), 20-10 in Eredivisie",
-          "forma_trasferta": "8° posto, 11 pt in 7 gare (3V-2N-2P), 9-8 in Serie A",
+          "forma_trasferta": "7° posto, 14 pt in 8 gare (4V-2N-2P), 11-8 in Serie A",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria AZ Alkmaar",
-            "probabilita": 0.53,
+            "probabilita": 0.51,
             "modello": "v2"
           },
           "pick_dc": {
-            "esito": "1X",
-            "etichetta": "AZ Alkmaar o pareggio",
-            "probabilita": 0.77,
+            "esito": "12",
+            "etichetta": "AZ Alkmaar o Juventus",
+            "probabilita": 0.76,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.63,
+            "probabilita": 0.62,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.59,
+            "probabilita": 0.6,
             "modello": "v2"
           },
           "pick_gg": {
@@ -752,7 +752,7 @@
             "probabilita": 0.63,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.92 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.28 (11 fatti e 8 subiti in 8 gare di Serie A). Somma attesa 3.20 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -774,30 +774,30 @@
           "casa": "Bayer Leverkusen",
           "trasferta": "Marseille",
           "data": "2026-11-05T21:00:00+01:00",
-          "forma_casa": "4° posto, 13 pt in 6 gare (4V-1N-1P), 16-9 in Bundesliga",
+          "forma_casa": "4° posto, 13 pt in 7 gare (4V-1N-2P), 16-12 in Bundesliga",
           "forma_trasferta": "9° posto, 9 pt in 7 gare (3V-0N-4P), 14-10 in Ligue 1",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Bayer Leverkusen",
-            "probabilita": 0.51,
+            "probabilita": 0.46,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "12",
             "etichetta": "Bayer Leverkusen o Marseille",
-            "probabilita": 0.78,
+            "probabilita": 0.77,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.75,
+            "probabilita": 0.73,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "over",
             "etichetta": "Over 3.5",
-            "probabilita": 0.55,
+            "probabilita": 0.53,
             "modello": "v2"
           },
           "pick_gg": {
@@ -806,7 +806,7 @@
             "probabilita": 0.73,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Bayer Leverkusen 2.25 gol attesi (16 gol fatti e 9 subiti in 6 gare di Bundesliga), Marseille 1.67 (14 fatti e 10 subiti in 7 gare di Ligue 1). Somma attesa 3.92 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Bayer Leverkusen 2.08 gol attesi (16 gol fatti e 12 subiti in 7 gare di Bundesliga), Marseille 1.73 (14 fatti e 10 subiti in 7 gare di Ligue 1). Somma attesa 3.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -836,17 +836,17 @@
           "trasferta": "SC Freiburg",
           "data": "2026-11-05T18:45:00+01:00",
           "forma_casa": "4° posto, 16 pt in 8 gare (5V-1N-2P), 18-5 in Süper Lig",
-          "forma_trasferta": "3° posto, 13 pt in 6 gare (4V-1N-1P), 15-6 in Bundesliga",
+          "forma_trasferta": "3° posto, 13 pt in 7 gare (4V-1N-2P), 16-9 in Bundesliga",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Trabzonspor",
-            "probabilita": 0.45,
+            "probabilita": 0.49,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "12",
             "etichetta": "Trabzonspor o SC Freiburg",
-            "probabilita": 0.76,
+            "probabilita": 0.77,
             "modello": "v2"
           },
           "pick_uo": {
@@ -867,7 +867,7 @@
             "probabilita": 0.69,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Trabzonspor 1.93 gol attesi (18 gol fatti e 5 subiti in 8 gare di Süper Lig), SC Freiburg 1.60 (15 fatti e 6 subiti in 6 gare di Bundesliga). Somma attesa 3.53 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Trabzonspor 2.03 gol attesi (18 gol fatti e 5 subiti in 8 gare di Süper Lig), SC Freiburg 1.52 (16 fatti e 9 subiti in 7 gare di Bundesliga). Somma attesa 3.55 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -890,38 +890,38 @@
           "trasferta": "Brighton & Hove Albion",
           "data": "2026-11-05T18:45:00+01:00",
           "forma_casa": "14° posto, 9 pt in 9 gare (2V-3N-4P), 5-11 in La Liga",
-          "forma_trasferta": "3° posto, 16 pt in 7 gare (5V-1N-1P), 23-5 in Premier League",
+          "forma_trasferta": "3° posto, 16 pt in 8 gare (5V-1N-2P), 23-7 in Premier League",
           "pick_1x2": {
             "esito": "2",
             "etichetta": "Vittoria Brighton & Hove Albion",
-            "probabilita": 0.63,
+            "probabilita": 0.59,
             "modello": "v2"
           },
           "pick_dc": {
             "esito": "X2",
             "etichetta": "Pareggio o Brighton & Hove Albion",
-            "probabilita": 0.84,
+            "probabilita": 0.82,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.63,
+            "probabilita": 0.61,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.59,
+            "probabilita": 0.62,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.58,
+            "probabilita": 0.59,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Getafe 1.04 gol attesi (5 gol fatti e 11 subiti in 9 gare di La Liga), Brighton & Hove Albion 2.23 (23 fatti e 5 subiti in 7 gare di Premier League). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Getafe 1.09 gol attesi (5 gol fatti e 11 subiti in 9 gare di La Liga), Brighton & Hove Albion 2.05 (23 fatti e 7 subiti in 8 gare di Premier League). Somma attesa 3.14 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
