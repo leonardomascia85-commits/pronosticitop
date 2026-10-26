@@ -402,9 +402,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "primo_tempo": "0-0",
+        "aggiornato": "2026-10-26T22:07:25Z"
       }
     }
   ]

@@ -401,9 +401,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "primo_tempo": "1-0",
+        "aggiornato": "2026-10-26T22:07:25Z"
       }
     }
   ]

@@ -233,8 +233,8 @@
           "probabilita_modello": 0.55,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.28 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.61 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 2.89 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -663,8 +663,8 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.47 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.45 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 2.91 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         }
       ],
       "esito_finale": "persa",
@@ -1332,8 +1332,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.55 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 1.90 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -1703,8 +1703,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -2297,8 +2297,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Beşiktaş - Başakşehir",

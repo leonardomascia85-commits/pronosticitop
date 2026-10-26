@@ -6497,8 +6497,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 6,
@@ -6616,8 +6616,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 7,
@@ -6675,8 +6675,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Sociedad - Levante",
@@ -6794,8 +6794,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Real Sociedad - Levante",
@@ -6883,8 +6883,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "AZ Alkmaar - FC Twente",
@@ -6972,8 +6972,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Paris Saint-Germain - Olympique Lyonnais",
@@ -6987,8 +6987,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -7074,8 +7074,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Paris Saint-Germain - Olympique Lyonnais",
@@ -7089,8 +7089,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -7350,8 +7350,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Coritiba - Grêmio",
@@ -7393,7 +7393,7 @@
       "variante": "quota_max",
       "quota_combinata": 32.08,
       "probabilita_combinata": 0.031,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -7407,8 +7407,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sevilla - Osasuna",
@@ -7437,8 +7437,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Paris Saint-Germain - Olympique Lyonnais",
@@ -7452,8 +7452,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Coritiba - Grêmio",
@@ -7487,7 +7487,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T22:07:25.898031+00:00"
     }
   ]
 }

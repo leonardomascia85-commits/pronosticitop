@@ -404,9 +404,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "primo_tempo": "2-0",
+        "aggiornato": "2026-10-26T22:07:25Z"
       }
     }
   ]
