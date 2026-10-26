@@ -353,9 +353,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "1-1"
       }
     },
     {

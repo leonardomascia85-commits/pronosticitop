@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under/Over 2.5",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-25",
+  "aggiornato_il": "2026-10-26",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Under/Over 2.5 gol (pick_uo) per ogni partita, scelto in base al dato storico reale delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -4070,8 +4070,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -4157,8 +4157,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -4259,8 +4259,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -4302,7 +4302,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.5,
       "probabilita_combinata": 0.399,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -4316,8 +4316,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SC Freiburg - FC Bayern München",
@@ -4331,8 +4331,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.96 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.30 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Inter - Fiorentina",
@@ -4346,8 +4346,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.85 gol attesi (1° con 19 punti, 21 gol fatti e 9 subiti in 7 gare), Fiorentina 1.27 (18° con 4 punti, 8 fatti e 17 subiti in 7 gare). Somma attesa 4.12 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -4361,12 +4361,14 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.84 gol attesi (14° con 6 punti, 11 gol fatti e 14 subiti in 6 gare), Bayer 04 Leverkusen 2.21 (4° con 13 punti, 16 fatti e 9 subiti in 6 gare). Somma attesa 4.05 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L5-13",
@@ -4656,8 +4658,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Willem II - SC Cambuur",
@@ -4849,8 +4851,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Hellas Verona - Pisa",
@@ -4923,8 +4925,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -5112,8 +5114,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Hellas Verona - Pisa",
@@ -5142,8 +5144,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",
@@ -5199,8 +5201,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "TSG Hoffenheim - Bayer 04 Leverkusen",
@@ -5257,7 +5259,7 @@
       "variante": "libera",
       "quota_combinata": 8.32,
       "probabilita_combinata": 0.12,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -5271,8 +5273,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -5286,8 +5288,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -5316,8 +5318,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "AJ Auxerre - Le Mans FC",
@@ -5331,8 +5333,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.97 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.73 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -5349,7 +5351,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L7-17",
@@ -5386,8 +5390,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Hellas Verona - Pisa",
@@ -5446,8 +5450,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.97 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.73 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -5544,7 +5548,7 @@
       "variante": "libera",
       "quota_combinata": 6.4,
       "probabilita_combinata": 0.156,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -5558,8 +5562,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.06 gol attesi (1° con 27 punti, 39 gol fatti e 9 subiti in 9 gare), Real Madrid 1.83 (3° con 21 punti, 23 fatti e 9 subiti in 9 gare). Somma attesa 4.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Stade Rennais FC - RC Strasbourg Alsace",
@@ -5573,8 +5577,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -5603,8 +5607,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.11 gol attesi (5° con 16 punti, 17 gol fatti e 17 subiti in 9 gare), Levante 1.59 (17° con 7 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.70 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "AJ Auxerre - Le Mans FC",
@@ -5618,10 +5622,12 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.97 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.73 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L5-17",
@@ -6020,6 +6026,78 @@
         }
       ],
       "quota_max": 5,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-14",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 13.51,
+      "probabilita_combinata": 0.074,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Santa Clara - Benfica",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-26T18:45:00+00:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Başakşehir",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.85,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Flamengo - Atlético-MG",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T20:00:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.47,
+          "quota_stimata": 2.13,
+          "probabilita_modello": 0.57,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
       "quota_rispettata": false
     }
   ]

@@ -157,8 +157,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -184,8 +184,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Göztepe - Çorum FK",
@@ -517,8 +517,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Hellas Verona - Pisa",

@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-10-25",
+  "aggiornato_il": "2026-10-26",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -159,8 +159,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -455,8 +455,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.16 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.05 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Real Sociedad - Levante",
@@ -574,8 +574,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.31 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.71 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",
@@ -1079,8 +1079,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 2.01 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.77 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Barcelona - Real Madrid",
@@ -1213,8 +1213,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.93 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 0.99 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 2.91 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         }
       ],
       "esito_finale": "persa",
@@ -1436,8 +1436,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.16 gol attesi (15° con 7 punti, 9 gol fatti e 15 subiti in 7 gare), FC Lorient 1.45 (7° con 11 punti, 7 fatti e 6 subiti in 7 gare). Somma attesa 2.60 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "esito_finale": "persa",
@@ -1644,7 +1644,7 @@
       "quota_max": 5,
       "quota_combinata": 3.01,
       "probabilita_combinata": 0.333,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cremonese - Juve Stabia",
@@ -1658,8 +1658,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cremonese 1.08 gol attesi (16° con 6 punti, 6 gol fatti e 10 subiti in 7 gare), Juve Stabia 1.18 (18° con 5 punti, 8 fatti e 8 subiti in 7 gare). Somma attesa 2.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "SC Paderborn 07 - Hamburger SV",
@@ -1673,8 +1673,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.82 gol attesi (16° con 5 punti, 5 gol fatti e 9 subiti in 6 gare), Hamburger SV 1.30 (9° con 9 punti, 6 fatti e 15 subiti in 6 gare). Somma attesa 3.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Toulouse FC - ESTAC Troyes",
@@ -1688,8 +1688,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Toulouse FC 2.08 gol attesi (11° con 9 punti, 12 gol fatti e 11 subiti in 7 gare), ESTAC Troyes 1.23 (17° con 4 punti, 5 fatti e 16 subiti in 7 gare). Somma attesa 3.31 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -1706,7 +1706,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L7-15",
@@ -1716,7 +1718,7 @@
       "quota_max": 10,
       "quota_combinata": 8.06,
       "probabilita_combinata": 0.124,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Como - Sassuolo",
@@ -1730,8 +1732,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Como 1.97 gol attesi (5° con 14 punti, 12 gol fatti e 7 subiti in 7 gare), Sassuolo 1.36 (13° con 8 punti, 12 fatti e 14 subiti in 7 gare). Somma attesa 3.33 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Cagliari - Bologna",
@@ -1745,8 +1747,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.44 gol attesi (7° con 13 punti, 6 gol fatti e 7 subiti in 7 gare), Bologna 1.09 (15° con 5 punti, 6 fatti e 10 subiti in 7 gare). Somma attesa 2.53 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "RB Leipzig - SV Elversberg",
@@ -1760,8 +1762,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.40 gol attesi (7° con 9 punti, 16 gol fatti e 11 subiti in 6 gare), SV Elversberg 1.75 (6° con 10 punti, 12 fatti e 11 subiti in 6 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Internacional - Botafogo",
@@ -1775,8 +1777,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.54 gol attesi (17° con 32 punti, 33 gol fatti e 40 subiti in 31 gare), Botafogo 1.35 (11° con 39 punti, 44 fatti e 48 subiti in 31 gare). Somma attesa 2.89 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Catanzaro - Ascoli",
@@ -1790,8 +1792,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.00 gol attesi (19° con 4 punti, 8 gol fatti e 14 subiti in 7 gare), Ascoli 1.45 (6° con 12 punti, 8 fatti e 5 subiti in 7 gare). Somma attesa 2.45 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-6"
         },
         {
           "partita": "Estoril - Moreirense",
@@ -1805,8 +1807,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Estoril 1.47 gol attesi (18° con 2 punti, 4 gol fatti e 12 subiti in 8 gare), Moreirense 1.29 (11° con 8 punti, 8 fatti e 15 subiti in 8 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Sparta Rotterdam - Ajax",
@@ -1820,10 +1822,12 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.57 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L7-16",
@@ -2404,6 +2408,78 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-19",
+      "livello_rischio": 4,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 5,
+      "quota_combinata": 3.94,
+      "probabilita_combinata": 0.254,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Santa Clara - Benfica",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-26T18:45:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Santa Clara o Benfica",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.42,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Rizespor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-10-26T19:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "pareggio o Trabzonspor",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.18 gol attesi (12° con 10 punti, 8 gol fatti e 11 subiti in 8 gare), Trabzonspor 1.77 (4° con 16 punti, 18 fatti e 5 subiti in 8 gare). Somma attesa 2.95 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Coritiba - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-10-26T19:30:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Coritiba o Grêmio",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.69,
+          "quota_stimata": 1.45,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sevilla - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-10-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Sevilla o Osasuna",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.71,
+          "quota_stimata": 1.42,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
           "esito": null,
           "risultato_reale": null
         }

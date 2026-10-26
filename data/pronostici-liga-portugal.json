@@ -311,9 +311,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Rio Ave 1.47 gol attesi (14° con 7 punti, 8 gol fatti e 17 subiti in 8 gare), Famalicão 1.58 (13° con 7 punti, 10 fatti e 11 subiti in 8 gare). Somma attesa 3.05 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-4",
+        "aggiornato": "2026-10-26T00:07:14Z"
       }
     },
     {

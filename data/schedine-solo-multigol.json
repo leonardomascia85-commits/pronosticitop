@@ -4353,8 +4353,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.16 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.05 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - FC Porto",
@@ -4442,8 +4442,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.16 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.05 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - FC Porto",
@@ -4546,8 +4546,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.16 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.05 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - FC Porto",
@@ -4665,8 +4665,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.16 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.05 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.21 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",

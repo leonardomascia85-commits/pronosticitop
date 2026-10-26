@@ -87,9 +87,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Toulouse FC 2.08 gol attesi (11° con 9 punti, 12 gol fatti e 11 subiti in 7 gare), ESTAC Troyes 1.23 (17° con 4 punti, 5 fatti e 16 subiti in 7 gare). Somma attesa 3.31 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -176,9 +177,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): AS Monaco 1.39 gol attesi (5° con 14 punti, 10 gol fatti e 6 subiti in 7 gare), LOSC Lille 1.23 (4° con 14 punti, 10 fatti e 5 subiti in 7 gare). Somma attesa 2.62 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "0-1"
       }
     },
     {
@@ -220,9 +222,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.27 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.68 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 3.95 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "2-0"
       }
     },
     {
@@ -264,9 +267,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 1.97 gol attesi (9° con 9 punti, 14 gol fatti e 10 subiti in 7 gare), Le Havre AC 1.18 (18° con 2 punti, 5 fatti e 11 subiti in 7 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-3",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "2-0"
       }
     },
     {
@@ -308,9 +312,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.97 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.73 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.70 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -352,9 +357,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.39 gol attesi (15° con 7 punti, 9 gol fatti e 15 subiti in 7 gare), FC Lorient 1.50 (7° con 11 punti, 7 fatti e 6 subiti in 7 gare). Somma attesa 2.89 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-26T00:07:14Z",
+        "primo_tempo": "0-0"
       }
     },
     {

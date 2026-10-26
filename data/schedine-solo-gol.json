@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Gol/No Gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-25",
+  "aggiornato_il": "2026-10-26",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Gol/No Gol (pick_gg) per ogni partita, scelto in base al dato storico reale delle due squadre (gol fatti/subiti, forma recente). Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -5867,7 +5867,7 @@
       "variante": "libera",
       "quota_combinata": 4.35,
       "probabilita_combinata": 0.23,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Utrecht - PEC Zwolle",
@@ -5881,8 +5881,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.28 gol attesi (11° con 11 punti, 16 gol fatti e 26 subiti in 9 gare), PEC Zwolle 1.84 (15° con 7 punti, 10 fatti e 22 subiti in 9 gare). Somma attesa 4.12 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "1. FSV Mainz 05 - SV Werder Bremen",
@@ -5896,8 +5896,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.34 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.69 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "SC Freiburg - FC Bayern München",
@@ -5911,8 +5911,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.80 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.15 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 3.95 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Stade Rennais FC - RC Strasbourg Alsace",
@@ -5926,10 +5926,12 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.31 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.71 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L5-17",
@@ -5937,7 +5939,7 @@
       "variante": "libera",
       "quota_combinata": 6.39,
       "probabilita_combinata": 0.156,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "1. FSV Mainz 05 - SV Werder Bremen",
@@ -5951,8 +5953,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 2.34 gol attesi (5° con 10 punti, 14 gol fatti e 10 subiti in 6 gare), SV Werder Bremen 1.69 (8° con 9 punti, 12 fatti e 12 subiti in 6 gare). Somma attesa 4.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "SC Freiburg - FC Bayern München",
@@ -5966,8 +5968,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.80 gol attesi (3° con 13 punti, 15 gol fatti e 6 subiti in 6 gare), FC Bayern München 2.15 (1° con 14 punti, 22 fatti e 5 subiti in 6 gare). Somma attesa 3.95 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Stade Rennais FC - RC Strasbourg Alsace",
@@ -5981,8 +5983,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.31 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.71 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -6011,10 +6013,12 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-26T00:07:14.479422+00:00"
     },
     {
       "id": "L6-16",
@@ -6051,8 +6055,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.31 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.71 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -6081,8 +6085,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Göztepe - Çorum FK",
@@ -6111,8 +6115,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 2.01 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.77 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -6138,8 +6142,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 2.31 gol attesi (6° con 13 punti, 15 gol fatti e 14 subiti in 7 gare), RC Strasbourg Alsace 1.71 (14° con 7 punti, 12 fatti e 15 subiti in 7 gare). Somma attesa 4.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "NEC Nijmegen - FC Groningen",
@@ -6168,8 +6172,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.68 gol attesi (13° con 9 punti, 16 gol fatti e 22 subiti in 9 gare), Ajax 2.50 (4° con 18 punti, 27 fatti e 12 subiti in 9 gare). Somma attesa 4.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Göztepe - Çorum FK",
@@ -6198,8 +6202,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 2.01 gol attesi (12° con 9 punti, 11 gol fatti e 17 subiti in 7 gare), Le Mans FC 1.77 (16° con 6 punti, 10 fatti e 15 subiti in 7 gare). Somma attesa 3.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Go Ahead Eagles - Telstar",
