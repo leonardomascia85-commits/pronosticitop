@@ -2,7 +2,7 @@
   "id": "solo-corner-2026-10-03",
   "titolo": "Solo Corner (Over/Under 9.5)",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-10",
+  "aggiornato_il": "2026-10-27",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Over/Under 9.5 calci d'angolo totali (pick_corner), disponibile solo per Serie A, Premier League, La Liga, Bundesliga e Ligue 1 (statistiche corner reali per squadra, fonte Betaminic; probabilita' stimata con modello Poisson sul totale atteso).",
   "schedine": [
@@ -12,7 +12,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.44,
       "probabilita_combinata": 0.409,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Paris FC",
@@ -25,8 +25,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -53,8 +53,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -67,12 +67,14 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L5-1",
@@ -80,7 +82,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.21,
       "probabilita_combinata": 0.311,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Paris FC",
@@ -93,8 +95,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -121,8 +123,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -135,8 +137,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -149,12 +151,14 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L6-1",
@@ -162,7 +166,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.34,
       "probabilita_combinata": 0.23,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Paris FC",
@@ -175,8 +179,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -203,8 +207,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -217,8 +221,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -231,8 +235,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -245,12 +249,14 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L7-1",
@@ -258,7 +264,7 @@
       "variante": "quota_max",
       "quota_combinata": 5.95,
       "probabilita_combinata": 0.168,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Paris FC",
@@ -271,8 +277,8 @@
           "quota_stimata": 1.22,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Paris FC, terzo in classifica, fa visita a un Lorient di metà bassa classifica: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "1. FC Köln - Borussia Mönchengladbach",
@@ -299,8 +305,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Rennes, quinto in classifica, ospita un Auxerre di metà bassa classifica: favoriti in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Atalanta - Venezia",
@@ -313,8 +319,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Venezia resta l'unica squadra a 0 punti: l'Atalanta, pur reduce da un ko, parte largamente favorita in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -327,8 +333,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -341,8 +347,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -355,12 +361,14 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L4-2",
@@ -368,7 +376,7 @@
       "variante": "libera",
       "quota_combinata": 3.43,
       "probabilita_combinata": 0.291,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Crystal Palace - Nottingham Forest",
@@ -381,8 +389,8 @@
           "quota_stimata": 1.32,
           "confidenza_dati": "ALTA",
           "motivazione": "Due squadre di metà bassa classifica molto vicine in punti: match equilibrato con leggero favore casalingo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Levante - Sevilla",
@@ -395,8 +403,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -409,8 +417,8 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -423,10 +431,12 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L5-2",
@@ -434,7 +444,7 @@
       "variante": "libera",
       "quota_combinata": 5.56,
       "probabilita_combinata": 0.18,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Levante - Sevilla",
@@ -447,8 +457,8 @@
           "quota_stimata": 1.35,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Siviglia, quinto in classifica, fa visita a un Levante in zona bassa: favoriti in trasferta.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Napoli - Frosinone",
@@ -461,8 +471,8 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -475,8 +485,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "OGC Nice - RC Strasbourg Alsace",
@@ -489,8 +499,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -503,10 +513,12 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L6-2",
@@ -514,7 +526,7 @@
       "variante": "libera",
       "quota_combinata": 9.3,
       "probabilita_combinata": 0.107,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Napoli - Frosinone",
@@ -527,8 +539,8 @@
           "quota_stimata": 1.37,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Napoli cerca continuità in casa contro un Frosinone in un buon momento di forma, reduce da risultati utili consecutivi.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -541,8 +553,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "OGC Nice - RC Strasbourg Alsace",
@@ -555,8 +567,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -569,8 +581,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Paris Saint-Germain - Le Mans FC",
@@ -583,8 +595,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Il PSG, sesto ma con margine sull'avversario, ospita un Le Mans di metà classifica: parigini favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -597,10 +609,12 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     },
     {
       "id": "L7-2",
@@ -608,7 +622,7 @@
       "variante": "libera",
       "quota_combinata": 16.6,
       "probabilita_combinata": 0.06,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Stade Brestois 29 - Angers SCO",
@@ -621,8 +635,8 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "L'Angers, meglio piazzato, parte leggermente favorito in trasferta contro il Brest.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "OGC Nice - RC Strasbourg Alsace",
@@ -635,8 +649,8 @@
           "quota_stimata": 1.43,
           "confidenza_dati": "ALTA",
           "motivazione": "Lo Strasburgo, ottavo e in miglior forma, parte leggermente favorito in trasferta contro il Nizza.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Elche - Celta de Vigo",
@@ -649,8 +663,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Celta, con qualche punto e posizione migliore, parte leggermente favorito contro un Elche in zona retrocessione.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Paris Saint-Germain - Le Mans FC",
@@ -663,8 +677,8 @@
           "quota_stimata": 1.49,
           "confidenza_dati": "ALTA",
           "motivazione": "Il PSG, sesto ma con margine sull'avversario, ospita un Le Mans di metà classifica: parigini favoriti.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Cagliari - Juventus",
@@ -677,8 +691,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Sorpresa della classifica contro una big in ripresa: il Cagliari 4° affronta in casa una Juventus reduce da 2 successi di fila, equilibrio maggiore di quanto suggerisca la classifica.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Real Madrid - Villarreal",
@@ -691,8 +705,8 @@
           "quota_stimata": 1.52,
           "confidenza_dati": "ALTA",
           "motivazione": "Il Real Madrid, quarto ma con 5 vittorie su 7, ospita un Villarreal di metà classifica: favorito in casa.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Real Sociedad - Deportivo de La Coruña",
@@ -705,10 +719,12 @@
           "quota_stimata": 1.61,
           "confidenza_dati": "ALTA",
           "motivazione": "Le due squadre sono appaiate a 10 punti: match equilibrato, leggero favore per il fattore campo.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T15:54:45.463152+00:00"
     }
   ]
 }

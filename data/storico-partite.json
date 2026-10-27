@@ -130,7 +130,8 @@
     "stato": "finale",
     "punteggio": "3-0",
     "aggiornato": "2026-10-10T22:14:43+00:00",
-    "primo_tempo": "2-0"
+    "primo_tempo": "2-0",
+    "corner": "6-4"
    },
    "pick_corner": {
     "esito": "over",
@@ -365,7 +366,8 @@
     "stato": "finale",
     "punteggio": "1-1",
     "aggiornato": "2026-10-11T20:49:52+00:00",
-    "primo_tempo": "1-0"
+    "primo_tempo": "1-0",
+    "corner": "1-9"
    },
    "pick_corner": {
     "esito": "over",
@@ -412,7 +414,8 @@
     "stato": "finale",
     "punteggio": "3-1",
     "aggiornato": "2026-10-12T20:14:29+00:00",
-    "primo_tempo": "3-1"
+    "primo_tempo": "3-1",
+    "corner": "8-7"
    },
    "pick_corner": {
     "esito": "under",
@@ -783,7 +786,8 @@
     "stato": "finale",
     "punteggio": "3-1",
     "aggiornato": "2026-10-11T15:20:48+00:00",
-    "primo_tempo": "2-1"
+    "primo_tempo": "2-1",
+    "corner": "2-3"
    },
    "pick_corner": {
     "esito": "under",
@@ -1253,7 +1257,8 @@
     "stato": "finale",
     "punteggio": "3-2",
     "aggiornato": "2026-10-11T16:40:20+00:00",
-    "primo_tempo": "2-0"
+    "primo_tempo": "2-0",
+    "corner": "7-10"
    },
    "pick_corner": {
     "esito": "over",
@@ -2048,7 +2053,8 @@
     "stato": "finale",
     "punteggio": "1-0",
     "aggiornato": "2026-10-11T00:14:42+00:00",
-    "primo_tempo": "0-0"
+    "primo_tempo": "0-0",
+    "corner": "3-9"
    },
    "pick_corner": {
     "esito": "under",
@@ -2095,7 +2101,8 @@
     "stato": "finale",
     "punteggio": "5-1",
     "aggiornato": "2026-10-11T00:14:42+00:00",
-    "primo_tempo": "4-0"
+    "primo_tempo": "4-0",
+    "corner": "4-5"
    },
    "pick_corner": {
     "esito": "over",
@@ -2190,7 +2197,8 @@
     "stato": "finale",
     "punteggio": "4-1",
     "aggiornato": "2026-10-11T18:14:17+00:00",
-    "primo_tempo": "1-1"
+    "primo_tempo": "1-1",
+    "corner": "12-5"
    },
    "pick_corner": {
     "esito": "over",
