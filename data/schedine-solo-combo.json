@@ -647,7 +647,7 @@
       "variante": "libera",
       "quota_combinata": 8.76,
       "probabilita_combinata": 0.114,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sevilla - Osasuna",
@@ -661,8 +661,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Santa Clara - Benfica",
@@ -676,8 +676,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Beşiktaş - Başakşehir",
@@ -691,8 +691,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Paris Saint-Germain - Olympique Lyonnais",
@@ -706,8 +706,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.66 gol attesi (2° con 14 punti, 14 gol fatti e 9 subiti in 7 gare), Olympique Lyonnais 1.53 (1° con 14 punti, 13 fatti e 5 subiti in 7 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -721,10 +721,12 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-27T02:08:47.234583+00:00"
     },
     {
       "id": "L4-5",
@@ -732,7 +734,7 @@
       "variante": "alternativa",
       "quota_combinata": 5.91,
       "probabilita_combinata": 0.169,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -746,8 +748,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Beşiktaş - Başakşehir",
@@ -761,8 +763,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 1.97 gol attesi (5° con 15 punti, 16 gol fatti e 10 subiti in 8 gare), Başakşehir 1.37 (10° con 11 punti, 12 fatti e 12 subiti in 8 gare). Somma attesa 3.34 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -776,8 +778,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Coritiba - Grêmio",
@@ -791,10 +793,12 @@
           "probabilita_modello": 0.59,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T02:08:47.234583+00:00"
     },
     {
       "id": "L5-6",
@@ -946,6 +950,161 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.02 gol attesi (1° con 21 punti, 20 gol fatti e 9 subiti in 8 gare), Brighton & Hove Albion 2.02 (3° con 16 punti, 23 fatti e 7 subiti in 8 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-7",
+      "livello_rischio": 4,
+      "variante": "alternativa",
+      "quota_combinata": 4.68,
+      "probabilita_combinata": 0.214,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Racing de Santander - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-11-01T18:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Pareggio o Real Madrid + Over 1.5",
+          "esito_pick": "x2_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.46,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Augsburg - SC Freiburg",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.11 gol attesi (9° con 9 punti, 17 gol fatti e 13 subiti in 7 gare), SC Freiburg 1.92 (3° con 13 punti, 16 fatti e 9 subiti in 7 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SV Werder Bremen - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.48,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.21 gol attesi (6° con 12 punti, 15 gol fatti e 14 subiti in 7 gare), TSG Hoffenheim 1.82 (10° con 9 punti, 14 fatti e 14 subiti in 7 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eintracht Frankfurt - Hamburger SV",
+          "campionato": "Bundesliga",
+          "data": "2026-11-01T17:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-7",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 6.88,
+      "probabilita_combinata": 0.145,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Augsburg - SC Freiburg",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.11 gol attesi (9° con 9 punti, 17 gol fatti e 13 subiti in 7 gare), SC Freiburg 1.92 (3° con 13 punti, 16 fatti e 9 subiti in 7 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SV Werder Bremen - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.48,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.21 gol attesi (6° con 12 punti, 15 gol fatti e 14 subiti in 7 gare), TSG Hoffenheim 1.82 (10° con 9 punti, 14 fatti e 14 subiti in 7 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Eintracht Frankfurt - Hamburger SV",
+          "campionato": "Bundesliga",
+          "data": "2026-11-01T17:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-31T21:00:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Ajax o pareggio + Over 1.5",
+          "esito_pick": "1x_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "PEC Zwolle - ADO Den Haag",
+          "campionato": "Eredivisie",
+          "data": "2026-11-01T12:15:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.88 gol attesi (15° con 8 punti, 11 gol fatti e 23 subiti in 10 gare), ADO Den Haag 1.67 (17° con 6 punti, 13 fatti e 23 subiti in 10 gare). Somma attesa 3.56 gol.",
           "esito": null,
           "risultato_reale": null
         }

@@ -3854,7 +3854,7 @@
       "variante": "libera",
       "quota_combinata": 2.15,
       "probabilita_combinata": 0.465,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -3868,8 +3868,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -3883,8 +3883,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sevilla - Osasuna",
@@ -3898,8 +3898,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -3913,8 +3913,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Santa Clara - Benfica",
@@ -3928,10 +3928,12 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-27T02:08:47.234583+00:00"
     },
     {
       "id": "L6-12",
@@ -3939,7 +3941,7 @@
       "variante": "libera",
       "quota_combinata": 2.76,
       "probabilita_combinata": 0.362,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sporting CP - Académico Viseu",
@@ -3953,8 +3955,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.16 gol attesi (3° con 18 punti, 20 gol fatti e 9 subiti in 8 gare), Académico Viseu 1.29 (6° con 14 punti, 11 fatti e 10 subiti in 8 gare). Somma attesa 3.45 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -3968,8 +3970,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sevilla - Osasuna",
@@ -3983,8 +3985,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -3998,8 +4000,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Santa Clara - Benfica",
@@ -4013,8 +4015,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Coritiba - Grêmio",
@@ -4028,10 +4030,12 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.55 gol attesi (12° con 39 punti, 38 gol fatti e 49 subiti in 31 gare), Grêmio 1.34 (18° con 31 punti, 34 fatti e 44 subiti in 31 gare). Somma attesa 2.89 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-10-27T02:08:47.234583+00:00"
     },
     {
       "id": "L4-11",
@@ -4039,7 +4043,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.89,
       "probabilita_combinata": 0.528,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Galatasaray - Fenerbahçe",
@@ -4053,8 +4057,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 1.75 gol attesi (1° con 19 punti, 17 gol fatti e 11 subiti in 8 gare), Fenerbahçe 2.04 (3° con 16 punti, 22 fatti e 6 subiti in 8 gare). Somma attesa 3.79 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Sevilla - Osasuna",
@@ -4068,8 +4072,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sevilla 1.94 gol attesi (6° con 14 punti, 14 gol fatti e 16 subiti in 9 gare), Osasuna 1.42 (10° con 11 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 3.36 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Flamengo - Atlético-MG",
@@ -4083,8 +4087,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 1.88 gol attesi (1° con 67 punti, 61 gol fatti e 25 subiti in 31 gare), Atlético-MG 1.11 (6° con 50 punti, 42 fatti e 35 subiti in 31 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Santa Clara - Benfica",
@@ -4098,12 +4102,14 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santa Clara 1.47 gol attesi (4° con 18 punti, 12 gol fatti e 4 subiti in 8 gare), Benfica 1.88 (2° con 19 punti, 24 fatti e 7 subiti in 8 gare). Somma attesa 3.35 gol. Orario da confermare. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-10-27T02:08:47.234583+00:00"
     },
     {
       "id": "L5-11",
@@ -4591,6 +4597,263 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-13",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.41,
+      "probabilita_combinata": 0.709,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Benfica - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Benfica)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Sparta Rotterdam",
+          "campionato": "Eredivisie",
+          "data": "2026-11-01T16:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Groningen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.08,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Amedspor - Eyüpspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-01T13:30:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Amedspor)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-31T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Ajax)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-12",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 1.62,
+      "probabilita_combinata": 0.617,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Groningen - Sparta Rotterdam",
+          "campionato": "Eredivisie",
+          "data": "2026-11-01T16:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Groningen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.08,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Amedspor - Eyüpspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-01T13:30:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Amedspor)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-31T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Ajax)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-11-01T18:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Real Madrid)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Bayer 04 Leverkusen - VfB Stuttgart",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Bayer 04 Leverkusen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 2.24 gol attesi (4° con 13 punti, 16 gol fatti e 12 subiti in 7 gare), VfB Stuttgart 1.50 (15° con 6 punti, 10 fatti e 13 subiti in 7 gare). Somma attesa 3.74 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-14",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 1.88,
+      "probabilita_combinata": 0.531,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Amedspor - Eyüpspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-01T13:30:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Amedspor)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-10-31T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Ajax)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Real Madrid",
+          "campionato": "La Liga",
+          "data": "2026-11-01T18:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Real Madrid)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Bayer 04 Leverkusen - VfB Stuttgart",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Bayer 04 Leverkusen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 2.24 gol attesi (4° con 13 punti, 16 gol fatti e 12 subiti in 7 gare), VfB Stuttgart 1.50 (15° con 6 punti, 10 fatti e 13 subiti in 7 gare). Somma attesa 3.74 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SV Werder Bremen - TSG Hoffenheim",
+          "campionato": "Bundesliga",
+          "data": "2026-10-31T15:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (SV Werder Bremen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.21 gol attesi (6° con 12 punti, 15 gol fatti e 14 subiti in 7 gare), TSG Hoffenheim 1.82 (10° con 9 punti, 14 fatti e 14 subiti in 7 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Porto - Estoril",
+          "campionato": "Liga Portugal",
+          "data": "2026-10-31T20:30:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Porto)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }
