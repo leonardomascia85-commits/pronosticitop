@@ -1,354 +1,46 @@
 {
   "campionato": "Serie B",
-  "giornata": "9ª giornata",
-  "periodo": "27-28 ottobre 2026",
-  "aggiornato": "2026-10-26",
+  "giornata": "10ª giornata",
+  "periodo": "31 ottobre - 1 novembre 2026",
+  "aggiornato": "2026-10-28",
   "partite": [
     {
-      "casa": "Benevento",
-      "trasferta": "Catanzaro",
-      "data": "2026-10-27T19:00:00+01:00",
-      "forma_casa": "5° posto, 14 pt in 8 gare, 13-7",
-      "forma_trasferta": "20° posto, 4 pt in 8 gare, 9-20",
+      "casa": "Cremonese",
+      "trasferta": "Benevento",
+      "data": "2026-10-31T15:00:00+01:00",
+      "forma_casa": "15° posto, 9 pt in 9 gare, 8-11",
+      "forma_trasferta": "5° posto, 15 pt in 9 gare, 14-8",
       "pick_1x2": {
-        "esito": "1",
+        "esito": "2",
         "etichetta": "Vittoria Benevento",
-        "probabilita": 0.6,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Benevento o pareggio",
-        "probabilita": 0.82,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.59,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Benevento 2.15 gol attesi (5° con 14 punti, 13 gol fatti e 7 subiti in 8 gare), Catanzaro 1.13 (20° con 4 punti, 9 fatti e 20 subiti in 8 gare). Somma attesa 3.27 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "Ascoli",
-      "trasferta": "Sampdoria",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "4° posto, 15 pt in 8 gare, 14-6",
-      "forma_trasferta": "19° posto, 5 pt in 8 gare, 8-16",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Ascoli",
-        "probabilita": 0.59,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Ascoli o pareggio",
-        "probabilita": 0.82,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.59,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.63,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.57,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Ascoli 2.01 gol attesi (4° con 15 punti, 14 gol fatti e 6 subiti in 8 gare), Sampdoria 1.04 (19° con 5 punti, 8 fatti e 16 subiti in 8 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "Cesena",
-      "trasferta": "Empoli",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "15° posto, 8 pt in 8 gare, 8-12",
-      "forma_trasferta": "17° posto, 7 pt in 8 gare, 7-13",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Cesena",
-        "probabilita": 0.43,
+        "probabilita": 0.39,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Cesena o Empoli",
-        "probabilita": 0.73,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.69,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Cesena 1.56 gol attesi (15° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Empoli 1.25 (17° con 7 punti, 7 fatti e 13 subiti in 8 gare). Somma attesa 2.82 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-1",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "L.R. Vicenza",
-      "trasferta": "Modena",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "13° posto, 9 pt in 8 gare, 11-15",
-      "forma_trasferta": "3° posto, 16 pt in 8 gare, 15-8",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Modena",
-        "probabilita": 0.43,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "L.R. Vicenza o Modena",
-        "probabilita": 0.75,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.62,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.6,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (13° con 9 punti, 11 gol fatti e 15 subiti in 8 gare), Modena 1.74 (3° con 16 punti, 15 fatti e 8 subiti in 8 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-10-28T12:27:06+00:00"
-      }
-    },
-    {
-      "casa": "Mantova",
-      "trasferta": "Cremonese",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "2° posto, 17 pt in 8 gare, 14-8",
-      "forma_trasferta": "18° posto, 6 pt in 8 gare, 6-11",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Mantova",
-        "probabilita": 0.53,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Mantova o pareggio",
-        "probabilita": 0.79,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.69,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.55,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Mantova 1.77 gol attesi (2° con 17 punti, 14 gol fatti e 8 subiti in 8 gare), Cremonese 1.04 (18° con 6 punti, 6 fatti e 11 subiti in 8 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "Padova",
-      "trasferta": "Südtirol",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "9° posto, 10 pt in 8 gare, 7-10",
-      "forma_trasferta": "7° posto, 13 pt in 8 gare, 10-7",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Südtirol",
-        "probabilita": 0.37,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Padova o Südtirol",
+        "etichetta": "Cremonese o Benevento",
         "probabilita": 0.71,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "under",
         "etichetta": "Under 2.5",
-        "probabilita": 0.54,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.75,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
         "probabilita": 0.52,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Padova 1.22 gol attesi (9° con 10 punti, 7 gol fatti e 10 subiti in 8 gare), Südtirol 1.29 (7° con 13 punti, 10 fatti e 7 subiti in 8 gare). Somma attesa 2.52 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "Virtus Entella",
-      "trasferta": "Avellino",
-      "data": "2026-10-27T20:00:00+01:00",
-      "forma_casa": "12° posto, 9 pt in 8 gare, 10-9",
-      "forma_trasferta": "8° posto, 11 pt in 8 gare, 12-9",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Virtus Entella",
-        "probabilita": 0.39,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Virtus Entella o Avellino",
-        "probabilita": 0.72,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.53,
-        "modello": "v2"
-      },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.69,
+        "probabilita": 0.74,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.58,
+        "probabilita": 0.54,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.47 gol attesi (12° con 9 punti, 10 gol fatti e 9 subiti in 8 gare), Avellino 1.33 (8° con 11 punti, 12 fatti e 9 subiti in 8 gare). Somma attesa 2.80 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-10-28T02:07:18+00:00"
-      }
-    },
-    {
-      "casa": "Pisa",
-      "trasferta": "Palermo",
-      "data": "2026-10-28T19:00:00+01:00",
-      "forma_casa": "6° posto, 14 pt in 8 gare, 15-10",
-      "forma_trasferta": "1° posto, 22 pt in 8 gare, 18-8",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Palermo",
-        "probabilita": 0.39,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Pisa o Palermo",
-        "probabilita": 0.76,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.67,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.55,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.68,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Pisa 1.70 gol attesi (6° con 14 punti, 15 gol fatti e 10 subiti in 8 gare), Palermo 1.73 (1° con 22 punti, 18 fatti e 8 subiti in 8 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Cremonese 1.22 gol attesi (15° con 9 punti, 8 gol fatti e 11 subiti in 9 gare), Benevento 1.38 (5° con 15 punti, 14 fatti e 8 subiti in 9 gare). Somma attesa 2.60 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -357,64 +49,20 @@
       }
     },
     {
-      "casa": "Carrarese",
-      "trasferta": "Arezzo",
-      "data": "2026-10-28T20:00:00+01:00",
-      "forma_casa": "16° posto, 7 pt in 8 gare, 7-9",
-      "forma_trasferta": "10° posto, 10 pt in 8 gare, 8-17",
+      "casa": "Modena",
+      "trasferta": "Mantova",
+      "data": "2026-10-31T15:00:00+01:00",
+      "forma_casa": "2° posto, 19 pt in 9 gare, 17-9",
+      "forma_trasferta": "4° posto, 17 pt in 9 gare, 14-10",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Carrarese",
-        "probabilita": 0.49,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Carrarese o pareggio",
-        "probabilita": 0.75,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.55,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.67,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Carrarese 1.71 gol attesi (16° con 7 punti, 7 gol fatti e 9 subiti in 8 gare), Arezzo 1.17 (10° con 10 punti, 8 fatti e 17 subiti in 8 gare). Somma attesa 2.88 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
-      }
-    },
-    {
-      "casa": "Juve Stabia",
-      "trasferta": "Hellas Verona",
-      "data": "2026-10-28T20:00:00+01:00",
-      "forma_casa": "14° posto, 8 pt in 8 gare, 9-8",
-      "forma_trasferta": "11° posto, 9 pt in 8 gare, 15-13",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Juve Stabia",
-        "probabilita": 0.4,
+        "etichetta": "Vittoria Modena",
+        "probabilita": 0.47,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Juve Stabia o Hellas Verona",
+        "etichetta": "Modena o Mantova",
         "probabilita": 0.74,
         "modello": "v2"
       },
@@ -433,10 +81,362 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.62,
+        "probabilita": 0.61,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.61 gol attesi (14° con 8 punti, 9 gol fatti e 8 subiti in 8 gare), Hellas Verona 1.45 (11° con 9 punti, 15 fatti e 13 subiti in 8 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Modena 1.76 gol attesi (2° con 19 punti, 17 gol fatti e 9 subiti in 9 gare), Mantova 1.31 (4° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Südtirol",
+      "trasferta": "Cesena",
+      "data": "2026-10-31T15:00:00+01:00",
+      "forma_casa": "7° posto, 13 pt in 9 gare, 10-9",
+      "forma_trasferta": "11° posto, 11 pt in 9 gare, 10-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Südtirol",
+        "probabilita": 0.45,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Südtirol o pareggio",
+        "probabilita": 0.73,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.5,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.72,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.55,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Südtirol 1.53 gol attesi (7° con 13 punti, 10 gol fatti e 9 subiti in 9 gare), Cesena 1.15 (11° con 11 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.69 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Catanzaro",
+      "trasferta": "Padova",
+      "data": "2026-10-31T17:15:00+01:00",
+      "forma_casa": "20° posto, 5 pt in 9 gare, 10-21",
+      "forma_trasferta": "8° posto, 13 pt in 9 gare, 9-10",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Padova",
+        "probabilita": 0.41,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Catanzaro o Padova",
+        "probabilita": 0.73,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.61,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.40 gol attesi (20° con 5 punti, 10 gol fatti e 21 subiti in 9 gare), Padova 1.57 (8° con 13 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.97 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Sampdoria",
+      "trasferta": "Virtus Entella",
+      "data": "2026-10-31T19:30:00+01:00",
+      "forma_casa": "19° posto, 5 pt in 9 gare, 8-18",
+      "forma_trasferta": "12° posto, 10 pt in 9 gare, 11-10",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Virtus Entella",
+        "probabilita": 0.41,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Sampdoria o Virtus Entella",
+        "probabilita": 0.73,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.68,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.31 gol attesi (19° con 5 punti, 8 gol fatti e 18 subiti in 9 gare), Virtus Entella 1.54 (12° con 10 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.85 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Arezzo",
+      "trasferta": "Ascoli",
+      "data": "2026-11-01T15:00:00+01:00",
+      "forma_casa": "14° posto, 10 pt in 9 gare, 9-19",
+      "forma_trasferta": "3° posto, 18 pt in 9 gare, 16-6",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Ascoli",
+        "probabilita": 0.51,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "X2",
+        "etichetta": "Pareggio o Ascoli",
+        "probabilita": 0.76,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.59,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Arezzo 1.18 gol attesi (14° con 10 punti, 9 gol fatti e 19 subiti in 9 gare), Ascoli 1.78 (3° con 18 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Avellino",
+      "trasferta": "Pisa",
+      "data": "2026-11-01T15:00:00+01:00",
+      "forma_casa": "10° posto, 12 pt in 9 gare, 13-10",
+      "forma_trasferta": "6° posto, 15 pt in 9 gare, 18-13",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Avellino",
+        "probabilita": 0.4,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Avellino o Pisa",
+        "probabilita": 0.75,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Avellino 1.67 gol attesi (10° con 12 punti, 13 gol fatti e 10 subiti in 9 gare), Pisa 1.56 (6° con 15 punti, 18 fatti e 13 subiti in 9 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Empoli",
+      "trasferta": "Juve Stabia",
+      "data": "2026-11-01T15:00:00+01:00",
+      "forma_casa": "18° posto, 7 pt in 9 gare, 8-15",
+      "forma_trasferta": "17° posto, 8 pt in 9 gare, 9-9",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Juve Stabia",
+        "probabilita": 0.37,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Empoli o Juve Stabia",
+        "probabilita": 0.71,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.52,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.73,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Empoli 1.27 gol attesi (18° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Juve Stabia 1.35 (17° con 8 punti, 9 fatti e 9 subiti in 9 gare). Somma attesa 2.61 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Hellas Verona",
+      "trasferta": "Carrarese",
+      "data": "2026-11-01T17:15:00+01:00",
+      "forma_casa": "9° posto, 12 pt in 9 gare, 16-13",
+      "forma_trasferta": "13° posto, 10 pt in 9 gare, 9-10",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Hellas Verona",
+        "probabilita": 0.46,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Hellas Verona o Carrarese",
+        "probabilita": 0.74,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.66,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.69 gol attesi (9° con 12 punti, 16 gol fatti e 13 subiti in 9 gare), Carrarese 1.27 (13° con 10 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      }
+    },
+    {
+      "casa": "Palermo",
+      "trasferta": "L.R. Vicenza",
+      "data": "2026-11-01T19:30:00+01:00",
+      "forma_casa": "1° posto, 23 pt in 9 gare, 21-11",
+      "forma_trasferta": "16° posto, 9 pt in 9 gare, 12-17",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Palermo",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Palermo o pareggio",
+        "probabilita": 0.8,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.71,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.51,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.67,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Palermo 2.34 gol attesi (1° con 23 punti, 21 gol fatti e 11 subiti in 9 gare), L.R. Vicenza 1.31 (16° con 9 punti, 12 fatti e 17 subiti in 9 gare). Somma attesa 3.65 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",

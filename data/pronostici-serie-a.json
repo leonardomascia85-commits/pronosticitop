@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Genoa 1.22 gol attesi (16° con 7 punti, 6 gol fatti e 13 subiti in 8 gare), Juventus 1.46 (7° con 14 punti, 11 fatti e 8 subiti in 8 gare). Somma attesa 2.68 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-28T22:08:07+00:00"
       }
     },
     {
@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Monza 1.79 gol attesi (15° con 7 punti, 15 gol fatti e 18 subiti in 8 gare), Napoli 1.75 (10° con 11 punti, 13 fatti e 10 subiti in 8 gare). Somma attesa 3.54 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-10-28T22:08:07+00:00"
       }
     },
     {
