@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Benevento 2.15 gol attesi (5° con 14 punti, 13 gol fatti e 7 subiti in 8 gare), Catanzaro 1.13 (20° con 4 punti, 9 fatti e 20 subiti in 8 gare). Somma attesa 3.27 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ascoli 2.01 gol attesi (4° con 15 punti, 14 gol fatti e 6 subiti in 8 gare), Sampdoria 1.04 (19° con 5 punti, 8 fatti e 16 subiti in 8 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cesena 1.56 gol attesi (15° con 8 punti, 8 gol fatti e 12 subiti in 8 gare), Empoli 1.25 (17° con 7 punti, 7 fatti e 13 subiti in 8 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Mantova 1.77 gol attesi (2° con 17 punti, 14 gol fatti e 8 subiti in 8 gare), Cremonese 1.04 (18° con 6 punti, 6 fatti e 11 subiti in 8 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Padova 1.22 gol attesi (9° con 10 punti, 7 gol fatti e 10 subiti in 8 gare), Südtirol 1.29 (7° con 13 punti, 10 fatti e 7 subiti in 8 gare). Somma attesa 2.52 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.47 gol attesi (12° con 9 punti, 10 gol fatti e 9 subiti in 8 gare), Avellino 1.33 (8° con 11 punti, 12 fatti e 9 subiti in 8 gare). Somma attesa 2.80 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-28T02:07:18+00:00"
       }
     },
     {
