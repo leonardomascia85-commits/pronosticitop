@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Milan 1.87 gol attesi (4° con 18 punti, 16 gol fatti e 7 subiti in 8 gare), Bologna 1.08 (13° con 8 punti, 8 fatti e 10 subiti in 8 gare). Somma attesa 2.95 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-4",
+        "aggiornato": "2026-10-28T20:07:43+00:00"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Parma 1.66 gol attesi (19° con 4 punti, 5 gol fatti e 15 subiti in 8 gare), Udinese 1.46 (17° con 4 punti, 9 fatti e 18 subiti in 8 gare). Somma attesa 3.12 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-28T20:07:43+00:00"
       }
     },
     {
@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Venezia 1.32 gol attesi (20° con 3 punti, 6 gol fatti e 17 subiti in 8 gare), Inter 2.35 (1° con 22 punti, 23 fatti e 10 subiti in 8 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-28T20:07:43+00:00"
       }
     },
     {
