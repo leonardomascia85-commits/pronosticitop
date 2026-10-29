@@ -519,10 +519,16 @@ MERCATI_PICK = (('1X2', 'pick_1x2'), ('DC', 'pick_dc'), ('OU25', 'pick_uo'),
                 ('OU35', 'pick_uo35'), ('GGNG', 'pick_gg'))
 
 
-def build_pool_tutti_mercati():
-    """Come build_pool() (stessi campionati, solo weekend, solo partite future)
-    ma con TUTTI i mercati di ogni partita con probabilita' almeno del 50%:
-    servono per costruire schedine dentro una fascia di quota precisa."""
+GIORNI_WEEKEND = (4, 5, 6, 0)   # ven-sab-dom-lun
+GIORNI_INFRASETT = (1, 2, 3)    # mar-mer-gio: turno infrasettimanale, a parte
+
+
+def build_pool_tutti_mercati(giorni=GIORNI_WEEKEND):
+    """Come build_pool() (stessi campionati, solo partite future) ma con
+    TUTTI i mercati di ogni partita con probabilita' almeno del 50%: servono
+    per costruire schedine dentro una fascia di quota precisa. `giorni` sceglie
+    il tipo di turno: weekend (ven-lun, default) oppure infrasettimanale
+    (mar-gio); i due turni non si mescolano mai nella stessa schedina."""
     partite = []
     for fn, name in LEAGUES_SCHEDINE_PRINCIPALI.items():
         path = os.path.join(DATA_DIR, fn)
@@ -536,7 +542,7 @@ def build_pool_tutti_mercati():
                 kickoff = datetime.datetime.fromisoformat(p['data'])
             except Exception:
                 continue
-            if kickoff <= NOW or kickoff.weekday() not in (4, 5, 6, 0):
+            if kickoff <= NOW or kickoff.weekday() not in giorni:
                 continue
             eventi = []
             ammessi = {c for c, _ in mercati_ammessi_miste(mercati_calibrati(p))}
@@ -1530,6 +1536,65 @@ def backfill_esiti(lookup, files):
     return toccati
 
 
+def _chiave_infrasett(d):
+    """Lunedi' della settimana a cui appartiene la data locale d: identifica
+    il turno infrasettimanale (mar-gio) di quella settimana."""
+    giorno = d.date()
+    return (giorno - datetime.timedelta(days=giorno.weekday())).isoformat()
+
+
+MESI_IT = ('gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio',
+           'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre')
+
+
+def crea_turno_infrasettimanale(settimane, settimane_path, changed_files, summary):
+    """Se ci sono abbastanza partite future di campionato nel turno
+    infrasettimanale (mar-gio) e per quella settimana non esiste ancora un
+    file dedicato, lo crea e lo mette in cima a settimane.json: le schedine
+    vengono poi riempite da main() nello stesso giro. Il turno infrasettimanale
+    e' sempre separato da quello del weekend (ven-lun)."""
+    pool_inf = build_pool_tutti_mercati(GIORNI_INFRASETT)
+    if len(pool_inf) < 8:  # sotto 8 partite non si riempiono le fasce: turno troppo piccolo
+        return
+    date = sorted(datetime.datetime.fromisoformat(m[0]['data']) for m in pool_inf)
+    chiave = _chiave_infrasett(date[0])
+    for w in settimane.get('settimane', []):
+        p = os.path.join(DATA_DIR, w['file'])
+        if w['file'].startswith('infra-') and os.path.exists(p) and \
+                json.load(open(p, encoding='utf-8')).get('chiave_turno') == chiave:
+            return
+    a, b = date[0], date[-1]
+    periodo = (f"{a.day} {MESI_IT[a.month - 1]} {a.year}" if a.date() == b.date() else
+               f"{a.day}-{b.day} {MESI_IT[a.month - 1]} {a.year}" if a.month == b.month
+               else f"{a.day} {MESI_IT[a.month - 1]} - {b.day} {MESI_IT[b.month - 1]} {a.year}")
+    campionati = sorted({m[0]['campionato'] for m in pool_inf})
+    fn = f"infra-{chiave}.json"
+    data = {
+        'id': f"infra-{chiave}",
+        'titolo': f"Turno infrasettimanale del {periodo}",
+        'generato_il': NOW.date().isoformat(),
+        'aggiornato_il': NOW.date().isoformat(),
+        'stato': 'pubblicata',
+        'chiave_turno': chiave,
+        'campionati_coperti': campionati,
+        'nota_dati': ("Schedine costruite solo con le partite del turno infrasettimanale (martedi'-giovedi') "
+                      "dei campionati per club, tenute separate da quelle del weekend: i due turni non si "
+                      "mescolano mai nella stessa schedina. Stesse regole delle schedine del weekend: quattro "
+                      "fasce di quota per ogni numero di eventi (4, 5, 6 e 7), ogni evento puo' usare uno qualsiasi "
+                      "dei mercati della partita, la Serie C non e' inclusa e le partite gia' disputate sono escluse. "
+                      "Con poche partite nel turno alcune fasce possono restare vuote."),
+        'periodo': periodo,
+        'schedine': [],
+    }
+    with open(os.path.join(DATA_DIR, fn), 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    settimane['settimane'].insert(0, {'id': data['id'], 'titolo': data['titolo'], 'file': fn})
+    with open(settimane_path, 'w', encoding='utf-8') as f:
+        json.dump(settimane, f, ensure_ascii=False, indent=2)
+    changed_files.extend([fn, 'settimane.json'])
+    summary.append(f"{fn}: creato il turno infrasettimanale ({periodo}, {len(pool_inf)} partite)")
+
+
 def main():
     settimane_path = os.path.join(DATA_DIR, 'settimane.json')
     settimane = json.load(open(settimane_path, encoding='utf-8'))
@@ -1572,7 +1637,8 @@ def main():
     # non sia delle Nazionali): e' l'unico in cui riempi_fasce() pubblica le
     # schedine mancanti.
     turno_club_corrente = next((w['file'] for w in settimane.get('settimane', [])
-                                if not w['file'].startswith('nazionali')), None)
+                                if not w['file'].startswith(('nazionali', 'infra-'))), None)
+    crea_turno_infrasettimanale(settimane, settimane_path, changed_files, summary)
 
     for w in settimane.get('settimane', []):
         fn = w['file']
@@ -1639,6 +1705,13 @@ def main():
             if aggiunte:
                 file_changed = True
                 summary.append(f"{fn}: nuove schedine a fasce di quota pubblicate: {', '.join(aggiunte)}")
+        elif fn.startswith('infra-'):
+            pool_inf = build_pool_tutti_mercati(GIORNI_INFRASETT)
+            if pool_inf and _chiave_infrasett(datetime.datetime.fromisoformat(pool_inf[0][0]['data'])) == data.get('chiave_turno'):
+                aggiunte = riempi_fasce(data['schedine'], partite=pool_inf, seed=NOW.date().isoformat())
+                if aggiunte:
+                    file_changed = True
+                    summary.append(f"{fn}: nuove schedine a fasce di quota pubblicate: {', '.join(aggiunte)}")
 
         if file_changed:
             data['aggiornato_il'] = NOW.date().isoformat()
