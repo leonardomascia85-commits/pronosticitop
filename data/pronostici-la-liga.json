@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Villarreal 1.67 gol attesi (10° con 12 punti, 15 gol fatti e 14 subiti in 10 gare), Espanyol 1.32 (17° con 8 punti, 12 fatti e 14 subiti in 10 gare). Somma attesa 2.99 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-30T22:07:15+00:00"
       }
     },
     {

@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): RC Lens 1.67 gol attesi (7° con 13 punti, 16 gol fatti e 12 subiti in 8 gare), LOSC Lille 1.42 (3° con 15 punti, 11 fatti e 6 subiti in 8 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-30T22:07:15+00:00"
       }
     },
     {
