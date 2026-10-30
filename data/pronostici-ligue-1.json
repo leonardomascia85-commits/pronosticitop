@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.37 gol attesi (18° con 2 punti, 8 gol fatti e 15 subiti in 8 gare), Paris Saint-Germain 1.81 (1° con 17 punti, 16 fatti e 9 subiti in 8 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-5",
+        "aggiornato": "2026-10-30T20:07:34+00:00",
+        "primo_tempo": "1-2"
       }
     },
     {

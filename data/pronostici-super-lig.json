@@ -44,9 +44,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.31 gol attesi (14° con 8 punti, 6 gol fatti e 9 subiti in 9 gare), Galatasaray 1.59 (1° con 22 punti, 19 fatti e 12 subiti in 9 gare). Somma attesa 2.90 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-4",
+        "aggiornato": "2026-10-30T20:07:34+00:00",
+        "primo_tempo": "0-2"
       }
     },
     {
