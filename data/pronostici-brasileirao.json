@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fluminense 1.64 gol attesi (5° con 51 punti, 50 gol fatti e 41 subiti in 32 gare), Internacional 1.22 (16° con 35 punti, 36 fatti e 40 subiti in 32 gare). Somma attesa 2.86 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Santos 1.33 gol attesi (8° con 46 punti, 49 gol fatti e 47 subiti in 32 gare), Palmeiras 1.61 (2° con 69 punti, 56 fatti e 22 subiti in 32 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.87 gol attesi (10° con 41 punti, 39 gol fatti e 38 subiti in 32 gare), Chapecoense 1.14 (20° con 21 punti, 32 fatti e 63 subiti in 31 gare). Somma attesa 3.00 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bahia 1.49 gol attesi (7° con 50 punti, 45 gol fatti e 40 subiti in 32 gare), São Paulo 1.22 (9° con 43 punti, 37 fatti e 36 subiti in 32 gare). Somma attesa 2.71 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -219,15 +219,15 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.64 gol attesi (6° con 50 punti, 44 gol fatti e 38 subiti in 32 gare), Cruzeiro 1.38 (4° con 54 punti, 51 fatti e 46 subiti in 32 gare). Somma attesa 3.02 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
       "casa": "Coritiba",
       "trasferta": "Vitória",
-      "data": "2026-10-29T19:30:00-03:00",
+      "data": "2026-10-31T16:00:00-03:00",
       "forma_casa": "12° posto, 39 pt in 32 gare (10V-9N-13P), 38-50",
       "forma_trasferta": "14° posto, 38 pt in 32 gare (10V-8N-14P), 35-46",
       "pick_1x2": {
@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Remo 1.56 gol attesi (19° con 26 punti, 34 gol fatti e 50 subiti in 32 gare), Botafogo 1.45 (11° con 39 punti, 44 fatti e 51 subiti in 32 gare). Somma attesa 3.01 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.27 gol attesi (13° con 38 punti, 39 gol fatti e 45 subiti in 31 gare), Flamengo 1.78 (1° con 70 punti, 64 fatti e 27 subiti in 32 gare). Somma attesa 3.05 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {
@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Grêmio 1.36 gol attesi (17° con 34 punti, 35 gol fatti e 44 subiti in 32 gare), Athletico-PR 1.45 (3° con 54 punti, 50 fatti e 38 subiti in 32 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-30T10:09:46+00:00"
       }
     },
     {

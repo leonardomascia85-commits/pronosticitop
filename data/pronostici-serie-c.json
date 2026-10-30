@@ -1251,9 +1251,9 @@
       },
       "nota": "Il Vis Pesaro è ultimo con un solo punto in 6 gare: l'Atalanta U23 parte favorita in casa.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-30T10:10:06+00:00"
       }
     },
     {
@@ -1290,9 +1290,9 @@
       },
       "nota": "Match senza dati di forma aggiornati per nessuna delle due squadre: leggero vantaggio del fattore campo.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-30T10:10:06+00:00"
       }
     }
   ]
