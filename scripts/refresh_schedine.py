@@ -738,6 +738,8 @@ SEZIONI_TEMATICHE = {
 }
 
 
+SEGNA_OSPITE_MAX = 0.84
+
 # --- Mercati derivati (nessun dato aggiuntivo): "Squadra X segna" e "Multigol".
 # Si ricavano dalle stesse probabilita' gia' pubblicate (1X2, doppia chance,
 # Under/Over 2.5 e 3.5, Gol/No Gol) stimando i gol attesi delle due squadre con
@@ -928,6 +930,9 @@ def derive_pick(p, kind, fn=None):
         return {'esito': 'under15', 'etichetta': 'Al massimo un gol nel primo tempo', 'probabilita': p_under15}
     if kind == 'derived_segna':
         ph, pa = 1 - math.exp(-lh), 1 - math.exp(-la)
+        # backtest su 441 partite concluse: quando il modello da' all'ospite 87%+ di segnare,
+        # segna solo il 68% delle volte (13/19; Solo Segna ospite 25/32). Si limita al 84%.
+        pa = min(pa, SEGNA_OSPITE_MAX)
         if ph >= pa:
             return {'esito': 'casa', 'etichetta': f"Segna la squadra di casa ({p['casa']})", 'probabilita': ph}
         return {'esito': 'trasferta', 'etichetta': f"Segna la squadra ospite ({p['trasferta']})", 'probabilita': pa}
