@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Coritiba 1.54 gol attesi (12° con 39 punti, 38 gol fatti e 50 subiti in 32 gare), Vitória 1.33 (14° con 38 punti, 35 fatti e 46 subiti in 32 gare). Somma attesa 2.87 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T22:06:52+00:00"
       }
     },
     {
