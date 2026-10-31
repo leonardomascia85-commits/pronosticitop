@@ -132,9 +132,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.61 gol attesi (10° con 11 punti, 8 gol fatti e 10 subiti in 8 gare), Stade Rennais FC 1.73 (2° con 16 punti, 18 fatti e 14 subiti in 8 gare). Somma attesa 3.35 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-2",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "3-1"
       }
     },
     {

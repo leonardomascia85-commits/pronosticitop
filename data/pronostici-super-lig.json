@@ -178,9 +178,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.43 gol attesi (5° con 16 punti, 23 gol fatti e 8 subiti in 9 gare), Göztepe 1.55 (10° con 12 punti, 19 fatti e 16 subiti in 9 gare). Somma attesa 3.98 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {

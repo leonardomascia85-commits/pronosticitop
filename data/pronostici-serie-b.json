@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Modena 1.76 gol attesi (2° con 19 punti, 17 gol fatti e 9 subiti in 9 gare), Mantova 1.31 (4° con 17 punti, 14 fatti e 10 subiti in 9 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {

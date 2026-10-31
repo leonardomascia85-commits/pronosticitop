@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.83 gol attesi (1° con 24 punti, 32 gol fatti e 11 subiti in 10 gare), Fortuna Sittard 1.40 (6° con 18 punti, 17 fatti e 17 subiti in 10 gare). Somma attesa 4.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {

@@ -88,9 +88,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 2.24 gol attesi (4° con 13 punti, 16 gol fatti e 12 subiti in 7 gare), VfB Stuttgart 1.50 (15° con 6 punti, 10 fatti e 13 subiti in 7 gare). Somma attesa 3.74 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-4",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "1-2"
       }
     },
     {
@@ -132,9 +133,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.11 gol attesi (9° con 9 punti, 17 gol fatti e 13 subiti in 7 gare), SC Freiburg 1.92 (3° con 13 punti, 16 fatti e 9 subiti in 7 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -176,9 +178,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Borussia Mönchengladbach 1.65 gol attesi (18° con 3 punti, 11 gol fatti e 22 subiti in 7 gare), SC Paderborn 07 1.77 (13° con 8 punti, 6 fatti e 9 subiti in 7 gare). Somma attesa 3.42 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-31T18:08:06+00:00"
       }
     },
     {
@@ -220,9 +222,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.21 gol attesi (6° con 12 punti, 15 gol fatti e 14 subiti in 7 gare), TSG Hoffenheim 1.82 (10° con 9 punti, 14 fatti e 14 subiti in 7 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "0-0"
       }
     },
     {
@@ -264,9 +267,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Schalke 04 1.39 gol attesi (16° con 6 punti, 4 gol fatti e 7 subiti in 7 gare), RB Leipzig 1.94 (5° con 12 punti, 20 fatti e 11 subiti in 7 gare). Somma attesa 3.33 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {

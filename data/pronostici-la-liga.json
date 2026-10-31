@@ -131,9 +131,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Rayo Vallecano 1.31 gol attesi (15° con 9 punti, 12 gol fatti e 20 subiti in 9 gare), Celta de Vigo 1.53 (9° con 12 punti, 10 fatti e 7 subiti in 10 gare). Somma attesa 2.85 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {

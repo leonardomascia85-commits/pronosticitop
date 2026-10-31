@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Manchester City 2.02 gol attesi (1° con 21 punti, 20 gol fatti e 9 subiti in 8 gare), Brighton & Hove Albion 2.02 (3° con 16 punti, 23 fatti e 7 subiti in 8 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-10-31T18:08:06+00:00"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.42 gol attesi (13° con 9 punti, 12 gol fatti e 13 subiti in 8 gare), Leeds United 1.37 (7° con 11 punti, 9 fatti e 6 subiti in 8 gare). Somma attesa 2.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T18:08:06+00:00"
       }
     },
     {
@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Coventry City 1.52 gol attesi (19° con 6 punti, 6 gol fatti e 15 subiti in 8 gare), Sunderland 1.33 (20° con 5 punti, 6 fatti e 14 subiti in 8 gare). Somma attesa 2.85 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-10-31T18:08:06+00:00"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Brentford 1.72 gol attesi (6° con 11 punti, 14 gol fatti e 9 subiti in 8 gare), Nottingham Forest 1.08 (18° con 6 punti, 6 fatti e 10 subiti in 8 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T18:08:06+00:00"
       }
     },
     {
@@ -263,9 +263,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hull City 1.76 gol attesi (10° con 10 punti, 9 gol fatti e 8 subiti in 8 gare), Ipswich Town 1.29 (12° con 10 punti, 12 fatti e 16 subiti in 8 gare). Somma attesa 3.05 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-31T18:08:06+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {
