@@ -443,7 +443,7 @@ def event_outcome(ev, lookup):
         won = (home > 0) if esito_pick == 'casa' else (away > 0)
     elif mercato == 'TOT':
         t = sum(actual['GOALS'])
-        won = {'over15': t >= 2, 'under35': t <= 3, 'under45': t <= 4}[esito_pick]
+        won = {'over05': t >= 1, 'over15': t >= 2, 'under35': t <= 3, 'under45': t <= 4, 'under55': t <= 5}[esito_pick]
     elif mercato == 'MULTIGOL':
         lo, hi = (int(x) for x in esito_pick.split('-'))
         won = lo <= sum(actual['GOALS']) <= hi
@@ -570,6 +570,21 @@ def build_pool_tutti_mercati(giorni=GIORNI_WEEKEND):
                     'motivazione': p['nota'],
                     'esito': None,
                     'risultato_reale': None,
+                })
+            # mercati piu' semplici da centrare (backtest su 441 partite: Over 1.5 81%, Under 4.5 83%,
+            # Multigol 1-5 84%, Segna 77-83%): stessa regola delle altre, devono battere la doppia chance di MARGINE_DC
+            dc = p.get('pick_dc')
+            soglia = (pick_calibrato('DC', dc)['probabilita'] + MARGINE_DC) if dc else 0.5
+            for kind, code in (('derived_over15', 'TOT'), ('derived_under', 'TOT'), ('derived_multigol', 'MULTIGOL'), ('derived_segna', 'SEGNA')):
+                px = derive_pick(p, kind)
+                if not px or px['probabilita'] < max(0.5, soglia):
+                    continue
+                eventi.append({
+                    'partita': f"{p['casa']} - {p['trasferta']}", 'campionato': name, 'data': p['data'],
+                    'mercato': code, 'pronostico': px['etichetta'], 'esito_pick': px['esito'],
+                    'probabilita_stimata': round(px['probabilita'], 2), 'quota_stimata': round(1 / px['probabilita'], 2),
+                    'probabilita_modello': round(px['probabilita'], 2), 'confidenza_dati': confidenza(px['probabilita']),
+                    'motivazione': p['nota'], 'esito': None, 'risultato_reale': None,
                 })
             if eventi:
                 partite.append(eventi)
@@ -738,6 +753,7 @@ SEZIONI_TEMATICHE = {
     'solo_primotempo': ('derived_primotempo', 'PT', LEAGUES),
     'solo_ammonizioni': ('derived_ammonizioni', 'AMM', CORNER_LEAGUES),
     'solo_combo': ('derived_combo', 'COMBO', LEAGUES),
+    'solo_sicure': ('derived_sicuro', 'TOT', LEAGUES),
 }
 
 
@@ -939,6 +955,13 @@ def derive_pick(p, kind, fn=None):
         if ph >= pa:
             return {'esito': 'casa', 'etichetta': f"Segna la squadra di casa ({p['casa']})", 'probabilita': ph}
         return {'esito': 'trasferta', 'etichetta': f"Segna la squadra ospite ({p['trasferta']})", 'probabilita': pa}
+    if kind == 'derived_sicuro':
+        # eventi quasi certi: Over 0.5 (~94%), Under 5.5 (~96%), Over 1.5 se molto probabile
+        tot = _pmf(lh + la, 16)
+        opts = [('over05', 'Over 0.5 gol', 1 - tot[0]), ('under55', 'Under 5.5 gol', sum(tot[:6])),
+                ('over15', 'Over 1.5 gol', 1 - tot[0] - tot[1])]
+        esito, et, prob = max(opts, key=lambda o: o[2])
+        return {'esito': esito, 'etichetta': et, 'probabilita': prob}
     if kind == 'derived_over15':
         # almeno 2 gol: previsto 82%, reale 81% sulle partite concluse (86% con p>=0.85)
         return {'esito': 'over15', 'etichetta': 'Over 1.5 gol', 'probabilita': 1 - sum(_pmf(lh + la, 3)[:2])}
@@ -1074,7 +1097,7 @@ def _rispetta_limiti(eventi):
 
 
 SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner', 'solo_segna',
-                    'solo_multigol', 'solo_primotempo', 'solo_ammonizioni', 'solo_combo')
+                    'solo_multigol', 'solo_primotempo', 'solo_ammonizioni', 'solo_combo', 'solo_sicure')
 # La sezione combo ha quote alte per costruzione: solo livelli 4 e 5, e due
 # schedine 'libera' / 'alternativa' invece del tetto di quota.
 LIVELLI_SEZIONE = {'solo_combo': (4, 5)}
@@ -1630,7 +1653,7 @@ def main():
     tutti_i_file = [w['file'] for w in settimane.get('settimane', [])] + [
         'schedine-solo-gol.json', 'schedine-solo-under.json', 'schedine-solo-corner.json',
         'schedine-solo-segna.json', 'schedine-solo-multigol.json', 'schedine-solo-primotempo.json',
-        'schedine-solo-ammonizioni.json', 'schedine-solo-combo.json', 'schedine-coppe.json']
+        'schedine-solo-ammonizioni.json', 'schedine-solo-combo.json', 'schedine-solo-sicure.json', 'schedine-coppe.json']
     for fn in backfill_esiti(lookup, tutti_i_file):
         changed_files.append(fn)
         summary.append(f"{fn}: risultati reali completati negli eventi di schedine gia' archiviate")
@@ -1756,6 +1779,7 @@ def main():
         'solo_primotempo': 'schedine-solo-primotempo.json',
         'solo_ammonizioni': 'schedine-solo-ammonizioni.json',
         'solo_combo': 'schedine-solo-combo.json',
+        'solo_sicure': 'schedine-solo-sicure.json',
     }
     for kind, fn in SEZIONI_FILES.items():
         path = os.path.join(DATA_DIR, fn)

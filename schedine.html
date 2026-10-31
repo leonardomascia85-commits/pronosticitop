@@ -136,6 +136,7 @@
       <button class="section-tab" data-section="solo_primotempo" type="button"><span class="tab-icon">⏱️</span> Solo Primo tempo</button>
       <button class="section-tab" data-section="solo_ammonizioni" type="button"><span class="tab-icon">🟨</span> Solo Ammonizioni</button>
       <button class="section-tab" data-section="solo_combo" type="button"><span class="tab-icon">🧩</span> Combo</button>
+      <button class="section-tab" data-section="solo_sicure" type="button"><span class="tab-icon">🛡️</span> Solo Sicure</button>
     </div>
   </div>
 
@@ -474,6 +475,7 @@ const ARCH_TIPI = [
   ['solo_primotempo', 'Solo Primo tempo', 'schedine-solo-primotempo.json'],
   ['solo_ammonizioni', 'Solo Ammonizioni', 'schedine-solo-ammonizioni.json'],
   ['solo_combo', 'Combo', 'schedine-solo-combo.json'],
+  ['solo_sicure', 'Solo Sicure', 'schedine-solo-sicure.json'],
 ];
 const archCache = {};
 function archCardHtml(sch, lookup){
@@ -585,6 +587,7 @@ const SEZIONI_FILES = {
   solo_primotempo: 'schedine-solo-primotempo.json',
   solo_ammonizioni: 'schedine-solo-ammonizioni.json',
   solo_combo: 'schedine-solo-combo.json',
+  solo_sicure: 'schedine-solo-sicure.json',
 };
 const SEZIONI_NOTE = {
   coppe: 'Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato più supportato dai dati per ogni partita. Si aggiornano da sole: quando le partite finiscono, le schedine concluse passano nell\'elenco sotto e vengono pubblicate le nuove con le prossime partite europee.',
@@ -594,6 +597,7 @@ const SEZIONI_NOTE = {
   solo_segna: 'Schedine costruite usando esclusivamente il mercato "Segna la squadra": il pronostico è vinto se la squadra indicata segna almeno un gol (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_multigol: 'Schedine costruite usando esclusivamente il mercato Multigol: il pronostico è vinto se il totale dei gol della partita rientra nell\'intervallo indicato, 1-3 oppure 2-4 (nessun altro mercato in questa sezione). Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
   solo_primotempo: 'Schedine costruite usando esclusivamente il mercato dei gol nel primo tempo: "almeno un gol" oppure "al massimo un gol". Il risultato del primo tempo viene registrato dopo la partita, quindi gli eventi possono restare in attesa più a lungo. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.',
+  solo_sicure: 'Schedine con gli eventi quasi certi di ogni partita (Over 0.5, Over 1.5 o Under 5.5 gol, il più probabile): nel backtest su 441 partite concluse hanno una probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto. Livelli da 4, 5, 6 e 7 eventi, due schedine per livello.',
   solo_combo: 'Schedine con combo: per ogni partita due mercati insieme (per esempio Gol + Over 2.5, oppure Casa o pareggio + Over 1.5). Il pronostico è vinto solo se entrambi i mercati si avverano. La probabilità è calcolata dal modello sulla distribuzione dei punteggi, non moltiplicando i due mercati, perché sono legati tra loro. Le quote sono stimate dal modello e non sono quote dei bookmaker: a parità di partite sono più alte delle schedine normali, ma si vince meno spesso. Solo schedine da 4 e 5 partite, due per livello.',
   solo_ammonizioni: "Schedine costruite usando esclusivamente il mercato Over/Under 4.5 ammonizioni (cartellini gialli totali), disponibile per Serie A, Premier League, La Liga, Bundesliga e Ligue 1. Le stime usano le medie reali di cartellini di ogni squadra, ma non considerano l'arbitro. Per ogni livello ci sono due schedine: la prima punta a restare entro una quota pari al numero di eventi (4 eventi → quota 4, 5 → 5, 6 → 6, 7 → 7) usando le partite più probabili del turno; la seconda è una scelta del modello con le migliori partite successive, a rischio basso-medio per 4 eventi e medio per gli altri livelli.",
 };
