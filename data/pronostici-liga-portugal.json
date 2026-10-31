@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Casa Pia 1.22 gol attesi (16° con 7 punti, 5 gol fatti e 17 subiti in 9 gare), Sporting CP 2.01 (3° con 18 punti, 21 fatti e 11 subiti in 9 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-31T00:07:04+00:00",
+        "primo_tempo": "0-1"
       }
     },
     {
