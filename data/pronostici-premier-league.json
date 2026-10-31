@@ -308,9 +308,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.86 gol attesi (14° con 9 punti, 8 gol fatti e 10 subiti in 8 gare), Crystal Palace 1.25 (17° con 7 punti, 9 fatti e 19 subiti in 8 gare). Somma attesa 3.11 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "over",

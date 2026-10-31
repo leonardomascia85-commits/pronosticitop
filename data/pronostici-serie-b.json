@@ -178,9 +178,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.40 gol attesi (20° con 5 punti, 10 gol fatti e 21 subiti in 9 gare), Padova 1.57 (8° con 13 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.97 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       }
     },
     {

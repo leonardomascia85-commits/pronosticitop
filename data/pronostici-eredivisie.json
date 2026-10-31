@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.99 gol attesi (7° con 15 punti, 18 gol fatti e 13 subiti in 10 gare), NEC Nijmegen 1.47 (12° con 11 punti, 17 fatti e 18 subiti in 10 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       }
     },
     {
@@ -132,9 +132,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "7-0",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       }
     },
     {

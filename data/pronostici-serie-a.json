@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Udinese 1.27 gol attesi (17° con 5 punti, 9 gol fatti e 18 subiti in 9 gare), Roma 2.17 (3° con 21 punti, 23 fatti e 8 subiti in 9 gare). Somma attesa 3.44 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-5",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "under",

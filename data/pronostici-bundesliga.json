@@ -312,9 +312,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.49 gol attesi (1° con 17 punti, 25 gol fatti e 6 subiti in 7 gare), Borussia Dortmund 1.32 (2° con 17 punti, 12 fatti e 4 subiti in 7 gare). Somma attesa 3.80 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-31T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "over",

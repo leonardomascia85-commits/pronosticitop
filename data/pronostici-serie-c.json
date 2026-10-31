@@ -44,9 +44,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Albinoleffe 1.54 gol attesi (7° con 17 punti, 19 gol fatti e 17 subiti in 12 gare), Pergolettese 1.25 (8° con 17 punti, 12 fatti e 12 subiti in 12 gare). Somma attesa 2.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -89,9 +89,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Reggiana 1.72 gol attesi (4° con 20 punti, 16 gol fatti e 11 subiti in 12 gare), Sambenedettese 1.19 (16° con 10 punti, 16 fatti e 20 subiti in 12 gare). Somma attesa 2.91 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -134,9 +134,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ospitaletto Franciacorta 1.37 gol attesi (6° con 18 punti, 18 gol fatti e 11 subiti in 11 gare), Trento 1.30 (2° con 23 punti, 17 fatti e 6 subiti in 11 gare). Somma attesa 2.67 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -179,9 +179,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pescara 1.39 gol attesi (5° con 19 punti, 15 gol fatti e 13 subiti in 12 gare), Torres 1.16 (6° con 19 punti, 13 fatti e 12 subiti in 12 gare). Somma attesa 2.55 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -224,9 +224,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Audace Cerignola 1.60 gol attesi (6° con 17 punti, 18 gol fatti e 11 subiti in 11 gare), Catania 1.64 (4° con 19 punti, 24 fatti e 12 subiti in 11 gare). Somma attesa 3.24 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -269,9 +269,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bari 1.56 gol attesi (2° con 21 punti, 14 gol fatti e 7 subiti in 11 gare), Scafatese 1.17 (8° con 17 punti, 17 fatti e 15 subiti in 11 gare). Somma attesa 2.73 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -314,9 +314,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Giugliano 1.56 gol attesi (18° con 10 punti, 15 gol fatti e 29 subiti in 11 gare), Casertana 1.86 (9° con 17 punti, 16 fatti e 14 subiti in 11 gare). Somma attesa 3.42 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -359,9 +359,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sorrento 1.64 gol attesi (3° con 20 punti, 15 gol fatti e 11 subiti in 11 gare), Altamura 1.03 (15° con 12 punti, 9 fatti e 16 subiti in 11 gare). Somma attesa 2.67 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -404,9 +404,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Guidonia Montecelio 1.64 gol attesi (7° con 16 punti, 14 gol fatti e 12 subiti in 11 gare), Perugia 1.27 (9° con 16 punti, 15 fatti e 17 subiti in 11 gare). Somma attesa 2.91 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -449,9 +449,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vado 1.41 gol attesi (10° con 15 punti, 12 gol fatti e 11 subiti in 11 gare), Grosseto 1.59 (3° con 22 punti, 23 fatti e 13 subiti in 11 gare). Somma attesa 3.00 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -494,9 +494,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Barletta 1.29 gol attesi (16° con 11 punti, 13 gol fatti e 16 subiti in 11 gare), Monopoli 1.33 (5° con 18 punti, 13 fatti e 9 subiti in 11 gare). Somma attesa 2.62 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {
@@ -539,9 +539,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cavese 1.94 gol attesi (10° con 15 punti, 20 gol fatti e 18 subiti in 11 gare), Picerno 1.66 (11° con 15 punti, 20 fatti e 18 subiti in 11 gare). Somma attesa 3.61 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-10-31T20:07:48+00:00"
       }
     },
     {

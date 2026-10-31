@@ -6465,8 +6465,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -6554,8 +6554,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -6658,8 +6658,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -7128,8 +7128,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.49 gol attesi (1° con 17 punti, 25 gol fatti e 6 subiti in 7 gare), Borussia Dortmund 1.32 (2° con 17 punti, 12 fatti e 4 subiti in 7 gare). Somma attesa 3.80 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "esito_finale": "persa",
