@@ -376,7 +376,7 @@ MERCATO_ALIAS = {
     'GGNG': 'GGNG', 'Gol/No Gol': 'GGNG',
     'CORNER': 'CORNER',
     'SEGNA': 'SEGNA',
-    'MULTIGOL': 'MULTIGOL',
+    'MULTIGOL': 'MULTIGOL', 'TOT': 'TOT',
     'PT': 'PT',
     'AMM': 'AMM',
     'COMBO': 'COMBO',
@@ -441,6 +441,9 @@ def event_outcome(ev, lookup):
     elif mercato == 'SEGNA':
         home, away = actual['GOALS']
         won = (home > 0) if esito_pick == 'casa' else (away > 0)
+    elif mercato == 'TOT':
+        t = sum(actual['GOALS'])
+        won = {'over15': t >= 2, 'under35': t <= 3, 'under45': t <= 4}[esito_pick]
     elif mercato == 'MULTIGOL':
         lo, hi = (int(x) for x in esito_pick.split('-'))
         won = lo <= sum(actual['GOALS']) <= hi
@@ -727,8 +730,8 @@ CORNER_LEAGUES = {
 # Le 3 sezioni tematiche a mercato singolo: campo pick_* sorgente, codice
 # mercato canonico, e il sottoinsieme di file campionato da cui pescare.
 SEZIONI_TEMATICHE = {
-    'solo_gol': ('pick_gg', 'GGNG', LEAGUES),
-    'solo_under': ('pick_uo', 'OU25', LEAGUES),
+    'solo_gol': ('derived_over15', 'TOT', LEAGUES),
+    'solo_under': ('derived_under', 'TOT', LEAGUES),
     'solo_corner': ('pick_corner', 'CORNER', CORNER_LEAGUES),
     'solo_segna': ('derived_segna', 'SEGNA', LEAGUES),
     'solo_multigol': ('derived_multigol', 'MULTIGOL', LEAGUES),
@@ -936,9 +939,18 @@ def derive_pick(p, kind, fn=None):
         if ph >= pa:
             return {'esito': 'casa', 'etichetta': f"Segna la squadra di casa ({p['casa']})", 'probabilita': ph}
         return {'esito': 'trasferta', 'etichetta': f"Segna la squadra ospite ({p['trasferta']})", 'probabilita': pa}
+    if kind == 'derived_over15':
+        # almeno 2 gol: previsto 82%, reale 81% sulle partite concluse (86% con p>=0.85)
+        return {'esito': 'over15', 'etichetta': 'Over 1.5 gol', 'probabilita': 1 - sum(_pmf(lh + la, 3)[:2])}
+    if kind == 'derived_under':
+        tot = _pmf(lh + la, 14)
+        opts = [('under35', 'Under 3.5 gol', sum(tot[:4])), ('under45', 'Under 4.5 gol', sum(tot[:5]))]
+        esito, et, prob = max(opts, key=lambda o: o[2])
+        return {'esito': esito, 'etichetta': et, 'probabilita': prob}
     if kind == 'derived_multigol':
         tot = _pmf(lh + la, 14)
-        opts = [('1-3', sum(tot[1:4])), ('2-4', sum(tot[2:5]))]
+        # backtest 441 partite: 1-3 e 2-4 (~60%) sono troppo rischiosi, 1-4 e 1-5 vincono 76-84%
+        opts = [('1-4', sum(tot[1:5])), ('1-5', sum(tot[1:6]))]
         esito, prob = max(opts, key=lambda o: o[1])
         return {'esito': esito, 'etichetta': f'Multigol {esito}', 'probabilita': prob}
     return None

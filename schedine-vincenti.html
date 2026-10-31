@@ -123,7 +123,7 @@ document.addEventListener('click', function(){
   document.querySelectorAll('.navdrop-menu.open').forEach(function(m){ m.classList.remove('open'); });
 });
 
-const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)', 'COMBO':'Combo (due mercati)' };
+const MARKET_LABELS = { '1X2':'Esito finale', 'OU25':'Under/Over 2.5', 'OU35':'Under/Over 3.5', 'GGNG':'Gol/No Gol', 'DC':'Doppia chance', 'CORNER':'Over/Under 9.5 corner', 'SEGNA':'Squadra segna', 'MULTIGOL':'Multigol', 'TOT':'Totale gol', 'PT':'Gol nel primo tempo', 'AMM':'Ammonizioni (4.5)', 'COMBO':'Combo (due mercati)' };
 const LEAGUE_COLORS = {
   'Serie A':'#3f6fb8', 'Serie B':'#7c5fc4', 'Serie C':'#1f9d7c',
   'Premier League':'#b8324f', 'La Liga':'#c97a1f', 'Bundesliga':'#3a3f4a',
@@ -175,8 +175,8 @@ function schedinaCardHTML(sch, tipo){
 // Tipologie mostrate nell'ordine: Miste, Nazionali, poi le sezioni a mercato singolo
 const SEZIONI_VINCENTI = [
   ['Coppe europee', 'schedine-coppe.json'],
-  ['Solo Gol/No Gol', 'schedine-solo-gol.json'],
-  ['Solo Under/Over', 'schedine-solo-under.json'],
+  ['Solo Over 1.5', 'schedine-solo-gol.json'],
+  ['Solo Under 3.5/4.5', 'schedine-solo-under.json'],
   ['Solo Corner', 'schedine-solo-corner.json'],
   ['Solo Squadra segna', 'schedine-solo-segna.json'],
   ['Solo Multigol', 'schedine-solo-multigol.json'],
