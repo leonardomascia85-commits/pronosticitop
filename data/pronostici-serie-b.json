@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cremonese 1.22 gol attesi (15° con 9 punti, 8 gol fatti e 11 subiti in 9 gare), Benevento 1.38 (5° con 15 punti, 14 fatti e 8 subiti in 9 gare). Somma attesa 2.60 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T16:07:28+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {
@@ -131,9 +132,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Südtirol 1.53 gol attesi (7° con 13 punti, 10 gol fatti e 9 subiti in 9 gare), Cesena 1.15 (11° con 11 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.69 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-10-31T16:07:28+00:00",
+        "primo_tempo": "1-0"
       }
     },
     {

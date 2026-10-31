@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Chelsea 2.09 gol attesi (5° con 13 punti, 17 gol fatti e 15 subiti in 8 gare), Manchester United 1.50 (16° con 7 punti, 10 fatti e 13 subiti in 8 gare). Somma attesa 3.59 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-10-31T16:07:28+00:00"
       }
     },
     {

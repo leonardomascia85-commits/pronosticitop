@@ -43,9 +43,10 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bologna 2.03 gol attesi (11° con 11 punti, 12 gol fatti e 12 subiti in 9 gare), Monza 1.52 (16° con 7 punti, 16 fatti e 22 subiti in 9 gare). Somma attesa 3.54 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-10-31T16:07:28+00:00",
+        "primo_tempo": "1-1"
       }
     },
     {

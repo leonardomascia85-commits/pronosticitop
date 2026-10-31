@@ -134,9 +134,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Kocaelispor 1.67 gol attesi (7° con 15 punti, 11 gol fatti e 9 subiti in 9 gare), Rizespor 1.19 (13° con 10 punti, 11 fatti e 15 subiti in 9 gare). Somma attesa 2.86 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-10-31T16:07:28+00:00"
       }
     },
     {

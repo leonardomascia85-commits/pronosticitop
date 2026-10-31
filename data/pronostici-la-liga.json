@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Levante 1.40 gol attesi (18° con 7 punti, 13 gol fatti e 18 subiti in 9 gare), Atlético Madrid 1.88 (2° con 25 punti, 20 fatti e 8 subiti in 10 gare). Somma attesa 3.28 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-10-31T16:07:28+00:00"
       }
     },
     {
