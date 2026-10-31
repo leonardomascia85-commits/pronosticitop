@@ -10,6 +10,7 @@ Uso: python3 scripts/refresh_schedine.py dalla root del repo.
 Dopo l'esecuzione: validare con python3 -m json.tool sui file segnalati come
 modificati, poi commit + push.
 """
+import collections
 import json, datetime, os, random, collections, math
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -652,7 +653,7 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
         # sovrapposizioni con le altre schedine costano una piccola penalita'
         # (un errore su una partita condivisa affonda piu' schedine insieme).
         pcomb = 1 / q
-        key = (pcomb - 0.02 * len(nomi & set(gia_usate_livello)) - 0.004 * len(nomi & set(gia_usate)),)
+        key = (pcomb - 0.02 * len(nomi & set(gia_usate_livello)) - 0.01 * len(nomi & set(gia_usate)),)
         if best_key is None or key > best_key:
             best, best_key = eventi, key
     if not best:
@@ -664,7 +665,7 @@ def build_schedina_fascia(partite, level, fascia, gia_usate_livello=(), gia_usat
     # dentro la fascia e dentro le regole (finestra del turno, limiti).
     def punteggio(ev):
         nomi_ = {e['partita'] for e in ev}
-        return combo_prob(ev) - 0.02 * len(nomi_ & set(gia_usate_livello)) - 0.004 * len(nomi_ & set(gia_usate))
+        return combo_prob(ev) - 0.02 * len(nomi_ & set(gia_usate_livello)) - 0.01 * len(nomi_ & set(gia_usate))
 
     def valida(ev):
         if len({e['partita'] for e in ev}) != len(ev) or not _rispetta_limiti(ev):
@@ -1121,6 +1122,9 @@ def _schedina_variante(eventi, level, variante):
     return sch
 
 
+PENALITA_RIUSO = 0.04
+
+
 def build_variante(pool, level, variante, escludi=(), evita=()):
     """pool ordinato per probabilita' decrescente. Le partite in `escludi`
     (gia' presenti in un'altra schedina attiva dello STESSO livello) non
@@ -1129,7 +1133,14 @@ def build_variante(pool, level, variante, escludi=(), evita=()):
     'libera' differiscono solo nell'ordine di riempimento: la quota_max viene
     costruita per prima, quindi prende le partite piu' probabili rimaste."""
     candidati = [e for e in pool if e['partita'] not in escludi]
-    nuove = [e for e in candidati if e['partita'] not in evita]
+    # decorrelazione: lo stesso evento in piu' schedine le fa cadere insieme. Ogni utilizzo gia'
+    # presente nelle schedine attive della sezione costa PENALITA_RIUSO di probabilita' nella
+    # classifica, quindi a parita' si scelgono le partite meno usate (restano ordinate per prob).
+    if isinstance(evita, dict):
+        candidati = sorted(candidati, key=lambda e: -(e['probabilita_stimata'] - PENALITA_RIUSO * evita.get(e['partita'], 0)))
+        nuove = [e for e in candidati if not evita.get(e['partita'])]
+    else:
+        nuove = [e for e in candidati if e['partita'] not in evita]
     eventi = []
     for gruppo in (nuove, candidati):
         for e in gruppo:
@@ -1870,10 +1881,10 @@ def main():
                 for level, variante in sorted(mancanti, key=lambda m: (m[1] not in ('quota_max', 'alternativa'), m[0])):
                     attive_ora = [x for x in data['schedine'] if x.get('stato') != 'archiviata']
                     escludi = {e['partita'] for x in attive_ora if x['livello_rischio'] == level for e in x['eventi']}
-                    evita = {e['partita'] for x in attive_ora for e in x['eventi']}
+                    evita = collections.Counter(e['partita'] for x in attive_ora for e in x['eventi'])
                     # una partita puo' ripetersi tra livelli diversi (4, 5, 6, 7
                     # eventi) ma mai due volte nello stesso livello
-                    nuova = build_variante(pool_v, level, variante, escludi)
+                    nuova = build_variante(pool_v, level, variante, escludi, evita)
                     if not nuova:
                         summary.append(f"{fn}: nessuna schedina {variante} pubblicata per livello {level} "
                                        f"(eventi futuri disponibili insufficienti)")
