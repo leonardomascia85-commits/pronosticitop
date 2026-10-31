@@ -311,6 +311,13 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.5,
+        "corner_attesi_totali": 9.8,
+        "modello": "corner-v2"
       }
     },
     {
@@ -355,6 +362,13 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.56,
+        "corner_attesi_totali": 9.2,
+        "modello": "corner-v2"
       }
     },
     {
@@ -399,6 +413,13 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.55,
+        "corner_attesi_totali": 9.3,
+        "modello": "corner-v2"
       }
     },
     {
@@ -443,6 +464,13 @@
         "stato": "non_iniziata",
         "punteggio": null,
         "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.53,
+        "corner_attesi_totali": 10.0,
+        "modello": "corner-v2"
       }
     }
   ]

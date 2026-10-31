@@ -1596,6 +1596,12 @@ def crea_turno_infrasettimanale(settimane, settimane_path, changed_files, summar
 
 
 def main():
+    try:
+        import aggiorna_corner
+        for _fn in aggiorna_corner.main():
+            print('corner: aggiornato', _fn)
+    except Exception as _e:  # il corner non deve mai bloccare il resto del giro
+        print('corner: aggiornamento non riuscito:', _e)
     settimane_path = os.path.join(DATA_DIR, 'settimane.json')
     settimane = json.load(open(settimane_path, encoding='utf-8'))
     lookup = load_results()
