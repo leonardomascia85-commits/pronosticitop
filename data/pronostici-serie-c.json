@@ -584,9 +584,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cosenza 1.52 gol attesi (19° con 6 punti, 9 gol fatti e 23 subiti in 11 gare), Inter U23 1.88 (7° con 17 punti, 21 fatti e 19 subiti in 11 gare). Somma attesa 3.40 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-01T14:08:05+00:00"
       }
     },
     {

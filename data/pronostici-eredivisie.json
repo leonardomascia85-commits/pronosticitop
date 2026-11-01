@@ -264,9 +264,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.88 gol attesi (15° con 8 punti, 11 gol fatti e 23 subiti in 10 gare), ADO Den Haag 1.67 (17° con 6 punti, 13 fatti e 23 subiti in 10 gare). Somma attesa 3.56 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-01T14:08:05+00:00"
       }
     },
     {

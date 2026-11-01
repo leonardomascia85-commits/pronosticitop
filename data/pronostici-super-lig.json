@@ -223,9 +223,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-1",
+        "aggiornato": "2026-11-01T14:08:05+00:00"
       }
     },
     {
