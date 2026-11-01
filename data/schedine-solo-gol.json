@@ -8892,8 +8892,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.06 gol attesi (8° con 12 punti, 18 gol fatti e 13 subiti in 8 gare), Toulouse FC 1.50 (11° con 10 punti, 12 fatti e 11 subiti in 8 gare). Somma attesa 3.56 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -9273,7 +9273,7 @@
       "variante": "libera",
       "quota_combinata": 3.82,
       "probabilita_combinata": 0.262,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Kasımpaşa - Beşiktaş",
@@ -9287,8 +9287,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.53 gol attesi (6° con 16 punti, 13 gol fatti e 9 subiti in 9 gare), Beşiktaş 1.52 (4° con 18 punti, 18 fatti e 10 subiti in 9 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Lecce - Genoa",
@@ -9302,8 +9302,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lecce 1.53 gol attesi (14° con 9 punti, 10 gol fatti e 19 subiti in 9 gare), Genoa 1.46 (13° con 10 punti, 8 fatti e 13 subiti in 9 gare). Somma attesa 2.99 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Juventus - Napoli",
@@ -9317,8 +9317,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.49 gol attesi (8° con 14 punti, 11 gol fatti e 10 subiti in 9 gare), Napoli 1.50 (7° con 14 punti, 17 fatti e 11 subiti in 9 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Hellas Verona - Carrarese",
@@ -9332,8 +9332,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.69 gol attesi (9° con 12 punti, 16 gol fatti e 13 subiti in 9 gare), Carrarese 1.27 (13° con 10 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Elche - Valencia",
@@ -9347,8 +9347,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Elche 1.76 gol attesi (14° con 10 punti, 14 gol fatti e 17 subiti in 10 gare), Valencia 1.25 (19° con 6 punti, 7 fatti e 17 subiti in 10 gare). Somma attesa 3.01 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Newcastle United - Everton",
@@ -9365,7 +9365,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-01T22:07:25.471515+00:00"
     },
     {
       "id": "L7-26",
@@ -9547,6 +9549,106 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-26",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 3.99,
+      "probabilita_combinata": 0.251,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Benfica - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Deportivo de La Coruña - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-02T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gil Vicente - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.68,
+          "quota_stimata": 1.47,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
           "esito": null,
           "risultato_reale": null
         }

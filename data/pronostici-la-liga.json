@@ -278,9 +278,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.79 gol attesi (7° con 12 punti, 11 gol fatti e 6 subiti in 8 gare), Real Sociedad 1.40 (5° con 19 punti, 19 fatti e 18 subiti in 10 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-01T22:07:23+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -431,9 +431,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Elche 1.76 gol attesi (14° con 10 punti, 14 gol fatti e 17 subiti in 10 gare), Valencia 1.25 (19° con 6 punti, 7 fatti e 17 subiti in 10 gare). Somma attesa 3.01 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-01T22:07:23+00:00"
       },
       "pick_corner": {
         "esito": "under",
