@@ -2,7 +2,7 @@
   "id": "solo-sicure",
   "titolo": "Solo Sicure",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-31",
+  "aggiornato_il": "2026-11-01",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite con gli eventi quasi certi di ogni partita: Over 0.5 gol, Over 1.5 gol o Under 5.5 gol (il più probabile). Backtest su 441 partite concluse: probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto.",
   "schedine": [
@@ -12,7 +12,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.05,
       "probabilita_combinata": 0.951,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -26,8 +26,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -41,8 +41,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -56,8 +56,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Milan - Inter",
@@ -71,12 +71,14 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Milan 1.82 gol attesi (5° con 18 punti, 18 gol fatti e 11 subiti in 9 gare), Inter 2.03 (1° con 25 punti, 25 fatti e 10 subiti in 9 gare). Somma attesa 3.85 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T22:08:40.050240+00:00"
     },
     {
       "id": "L5-1",
@@ -84,7 +86,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.07,
       "probabilita_combinata": 0.932,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -98,8 +100,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -113,8 +115,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -128,8 +130,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Milan - Inter",
@@ -143,8 +145,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Milan 1.82 gol attesi (5° con 18 punti, 18 gol fatti e 11 subiti in 9 gare), Inter 2.03 (1° con 25 punti, 25 fatti e 10 subiti in 9 gare). Somma attesa 3.85 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Frosinone - Torino",
@@ -158,12 +160,14 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Frosinone 2.27 gol attesi (6° con 17 punti, 22 gol fatti e 14 subiti in 9 gare), Torino 1.50 (9° con 13 punti, 14 fatti e 14 subiti in 9 gare). Somma attesa 3.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T22:08:40.050240+00:00"
     },
     {
       "id": "L6-1",
@@ -753,6 +757,165 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-3",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.19,
+      "probabilita_combinata": 0.84,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gil Vicente - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.04,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Novara - Desenzano",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 1.35,
+      "probabilita_combinata": 0.742,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Deportivo de La Coruña - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-02T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Casarano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Casarano 1.45 gol attesi (14° con 14 punti, 13 gol fatti e 18 subiti in 11 gare), Foggia 1.33 (13° con 14 punti, 11 fatti e 13 subiti in 11 gare). Somma attesa 2.78 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Lorient - Stade Brestois 29",
+          "campionato": "Ligue 1",
+          "data": "2026-11-02T14:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gençlerbirliği - Alanyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-02T20:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
     }
   ]
 }

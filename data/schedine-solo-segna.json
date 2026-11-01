@@ -4684,7 +4684,7 @@
       "variante": "libera",
       "quota_combinata": 1.62,
       "probabilita_combinata": 0.617,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -4698,8 +4698,8 @@
           "probabilita_modello": 0.92,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -4713,8 +4713,8 @@
           "probabilita_modello": 0.92,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Ajax - AZ Alkmaar",
@@ -4728,8 +4728,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Racing de Santander - Real Madrid",
@@ -4743,8 +4743,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Bayer 04 Leverkusen - VfB Stuttgart",
@@ -4758,10 +4758,12 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bayer 04 Leverkusen 2.24 gol attesi (4° con 13 punti, 16 gol fatti e 12 subiti in 7 gare), VfB Stuttgart 1.50 (15° con 6 punti, 10 fatti e 13 subiti in 7 gare). Somma attesa 3.74 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T22:08:40.050240+00:00"
     },
     {
       "id": "L6-14",
@@ -5145,6 +5147,91 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-13",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 2.58,
+      "probabilita_combinata": 0.388,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sassuolo - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-02T18:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Sassuolo)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Atalanta)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.18,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Deportivo de La Coruña - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-02T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Deportivo de La Coruña)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Juventus Next Gen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Newcastle United)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
           "esito": null,
           "risultato_reale": null
         }

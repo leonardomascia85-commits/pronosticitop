@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under 3.5 / 4.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-10-31",
+  "aggiornato_il": "2026-11-01",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente i mercati Under 3.5 e Under 4.5 gol (il più probabile per ogni partita). Il backtest su 441 partite concluse mostra che Over/Under 2.5 vinceva circa il 60%, mentre Under 4.5 vince l'83% (84% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -6379,7 +6379,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.17,
       "probabilita_combinata": 0.24,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Willem II",
@@ -6393,8 +6393,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -6408,8 +6408,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -6423,8 +6423,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -6438,12 +6438,14 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T22:08:40.050240+00:00"
     },
     {
       "id": "L5-20",
@@ -6495,8 +6497,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -6584,8 +6586,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -6688,8 +6690,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -7810,6 +7812,78 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-19",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 2.13,
+      "probabilita_combinata": 0.468,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Gençlerbirliği - Alanyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-02T20:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Deportivo de La Coruña - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-02T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
     }
   ]
 }
