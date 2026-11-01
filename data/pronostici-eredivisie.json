@@ -308,9 +308,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Telstar 2.09 gol attesi (16° con 6 punti, 12 gol fatti e 21 subiti in 10 gare), FC Utrecht 1.75 (11° con 12 punti, 17 fatti e 27 subiti in 10 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-2",
+        "aggiornato": "2026-11-01T16:07:31+00:00"
       }
     },
     {
@@ -352,9 +352,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Excelsior 1.55 gol attesi (13° con 11 punti, 16 gol fatti e 19 subiti in 10 gare), FC Twente 1.79 (4° con 20 punti, 19 fatti e 10 subiti in 10 gare). Somma attesa 3.34 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-9",
+        "aggiornato": "2026-11-01T16:07:31+00:00"
       }
     },
     {

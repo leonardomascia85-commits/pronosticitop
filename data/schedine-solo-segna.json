@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-10-27",
+  "aggiornato_il": "2026-11-01",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -4423,7 +4423,7 @@
       "variante": "libera",
       "quota_combinata": 1.27,
       "probabilita_combinata": 0.789,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Willem II",
@@ -4437,8 +4437,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -4452,8 +4452,8 @@
           "probabilita_modello": 0.95,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Feyenoord - Fortuna Sittard",
@@ -4467,8 +4467,8 @@
           "probabilita_modello": 0.94,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.83 gol attesi (1° con 24 punti, 32 gol fatti e 11 subiti in 10 gare), Fortuna Sittard 1.40 (6° con 18 punti, 17 fatti e 17 subiti in 10 gare). Somma attesa 4.23 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Bayern München - Borussia Dortmund",
@@ -4482,10 +4482,12 @@
           "probabilita_modello": 0.92,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.49 gol attesi (1° con 17 punti, 25 gol fatti e 6 subiti in 7 gare), Borussia Dortmund 1.32 (2° con 17 punti, 12 fatti e 4 subiti in 7 gare). Somma attesa 3.80 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T16:07:33.616413+00:00"
     },
     {
       "id": "L7-15",
@@ -4854,6 +4856,76 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-14",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.63,
+      "probabilita_combinata": 0.613,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Palermo - L.R. Vicenza",
+          "campionato": "Serie B",
+          "data": "2026-11-01T19:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Palermo)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 2.34 gol attesi (1° con 23 punti, 21 gol fatti e 11 subiti in 9 gare), L.R. Vicenza 1.31 (16° con 9 punti, 12 fatti e 17 subiti in 9 gare). Somma attesa 3.65 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Potenza - Crotone",
+          "campionato": "Serie C",
+          "data": "2026-11-01T17:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Potenza)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Potenza 2.34 gol attesi (1° con 26 punti, 28 gol fatti e 15 subiti in 11 gare), Crotone 1.20 (20° con 1 punti, 10 fatti e 16 subiti in 11 gare). Somma attesa 3.54 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-02T18:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Sassuolo)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Olympique de Marseille - Toulouse FC",
+          "campionato": "Ligue 1",
+          "data": "2026-11-01T20:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Olympique de Marseille)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.06 gol attesi (8° con 12 punti, 18 gol fatti e 13 subiti in 8 gare), Toulouse FC 1.50 (11° con 10 punti, 12 fatti e 11 subiti in 8 gare). Somma attesa 3.56 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

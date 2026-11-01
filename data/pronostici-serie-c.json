@@ -629,9 +629,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cittadella 1.45 gol attesi (1° con 27 punti, 18 gol fatti e 6 subiti in 11 gare), Treviso 0.97 (5° con 19 punti, 12 fatti e 8 subiti in 11 gare). Somma attesa 2.41 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-01T16:07:31+00:00"
       }
     },
     {
@@ -764,9 +764,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-4",
+        "aggiornato": "2026-11-01T16:07:31+00:00"
       }
     },
     {
@@ -899,9 +899,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Salernitana 1.64 gol attesi (12° con 14 punti, 14 gol fatti e 15 subiti in 11 gare), Savoia 1.27 (17° con 11 punti, 12 fatti e 17 subiti in 11 gare). Somma attesa 2.91 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-01T16:07:31+00:00"
       }
     },
     {
