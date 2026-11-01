@@ -363,9 +363,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Union Berlin 1.50 gol attesi (17° con 6 punti, 6 gol fatti e 18 subiti in 7 gare), 1. FC Köln 1.68 (12° con 8 punti, 8 fatti e 11 subiti in 7 gare). Somma attesa 3.18 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       },
       "pick_corner": {
         "esito": "over",

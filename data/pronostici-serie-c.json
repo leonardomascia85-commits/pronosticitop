@@ -674,9 +674,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Giana Erminio 1.56 gol attesi (15° con 11 punti, 12 gol fatti e 14 subiti in 11 gare), Alcione Milano 1.43 (9° con 15 punti, 18 fatti e 17 subiti in 11 gare). Somma attesa 2.99 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {
@@ -719,9 +719,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 1.21 gol attesi (19° con 7 punti, 11 gol fatti e 17 subiti in 11 gare), Union Brescia 1.58 (3° con 22 punti, 19 fatti e 9 subiti in 11 gare). Somma attesa 2.79 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-4",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {
@@ -809,9 +809,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gubbio 1.84 gol attesi (19° con 7 punti, 10 gol fatti e 21 subiti in 11 gare), Vis Pesaro 1.43 (20° con 4 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.27 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {
@@ -854,9 +854,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {

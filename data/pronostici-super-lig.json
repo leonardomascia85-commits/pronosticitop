@@ -355,9 +355,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.53 gol attesi (6° con 16 punti, 13 gol fatti e 9 subiti in 9 gare), Beşiktaş 1.52 (4° con 18 punti, 18 fatti e 10 subiti in 9 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {

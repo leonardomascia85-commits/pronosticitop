@@ -8950,8 +8950,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gubbio 1.84 gol attesi (19° con 7 punti, 10 gol fatti e 21 subiti in 11 gare), Vis Pesaro 1.43 (20° con 4 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 5,

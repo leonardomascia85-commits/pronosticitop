@@ -1514,8 +1514,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gubbio 1.84 gol attesi (19° con 7 punti, 10 gol fatti e 21 subiti in 11 gare), Vis Pesaro 1.43 (20° con 4 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.27 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "esito_finale": "persa",
@@ -1682,7 +1682,7 @@
       "variante": "libera",
       "quota_combinata": 10.57,
       "probabilita_combinata": 0.095,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "1. FC Union Berlin - 1. FC Köln",
@@ -1696,8 +1696,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FC Union Berlin 1.50 gol attesi (17° con 6 punti, 6 gol fatti e 18 subiti in 7 gare), 1. FC Köln 1.68 (12° con 8 punti, 8 fatti e 11 subiti in 7 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Olympique Lyonnais - Angers SCO",
@@ -1756,6 +1756,93 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.53 gol attesi (6° con 16 punti, 13 gol fatti e 9 subiti in 9 gare), Beşiktaş 1.52 (4° con 18 punti, 18 fatti e 10 subiti in 9 gare). Somma attesa 3.06 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": "perso",
+          "risultato_reale": "2-2"
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-01T18:07:12.623662+00:00"
+    },
+    {
+      "id": "L5-13",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 12.87,
+      "probabilita_combinata": 0.078,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Juventus - Napoli",
+          "campionato": "Serie A",
+          "data": "2026-11-01T20:45:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.65,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.49 gol attesi (8° con 14 punti, 11 gol fatti e 10 subiti in 9 gare), Napoli 1.50 (7° con 14 punti, 17 fatti e 11 subiti in 9 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Elche - Valencia",
+          "campionato": "La Liga",
+          "data": "2026-11-01T21:00:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.61,
+          "quota_stimata": 1.63,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Elche 1.76 gol attesi (14° con 10 punti, 14 gol fatti e 17 subiti in 10 gare), Valencia 1.25 (19° con 6 punti, 7 fatti e 17 subiti in 10 gare). Somma attesa 3.01 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.59,
+          "quota_stimata": 1.69,
+          "probabilita_modello": 0.59,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Benfica - Alverca",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Benfica vince + Over 1.5",
+          "esito_pick": "1_o15",
+          "probabilita_stimata": 0.59,
+          "quota_stimata": 1.7,
+          "probabilita_modello": 0.59,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

@@ -266,9 +266,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Arezzo 1.18 gol attesi (14° con 10 punti, 9 gol fatti e 19 subiti in 9 gare), Ascoli 1.78 (3° con 18 punti, 16 fatti e 6 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {
@@ -310,9 +310,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Avellino 1.67 gol attesi (10° con 12 punti, 13 gol fatti e 10 subiti in 9 gare), Pisa 1.56 (6° con 15 punti, 18 fatti e 13 subiti in 9 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-01T18:07:09+00:00"
       }
     },
     {
