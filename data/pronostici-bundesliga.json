@@ -414,9 +414,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-01T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "over",

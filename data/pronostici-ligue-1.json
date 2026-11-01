@@ -177,9 +177,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.91 gol attesi (5° con 14 punti, 13 gol fatti e 7 subiti in 8 gare), Angers SCO 1.13 (14° con 8 punti, 9 fatti e 15 subiti in 8 gare). Somma attesa 3.03 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-01T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -381,9 +381,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-01T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "under",

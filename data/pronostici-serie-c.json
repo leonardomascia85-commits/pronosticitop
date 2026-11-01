@@ -944,9 +944,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Spezia 1.81 gol attesi (1° con 29 punti, 19 gol fatti e 5 subiti in 11 gare), Atalanta U23 0.97 (11° con 15 punti, 13 fatti e 16 subiti in 11 gare). Somma attesa 2.78 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-01T20:07:33+00:00"
       }
     },
     {

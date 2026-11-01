@@ -410,9 +410,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Liverpool 1.32 gol attesi (4° con 15 punti, 11 gol fatti e 8 subiti in 8 gare), Arsenal 1.33 (2° con 21 punti, 13 fatti e 5 subiti in 8 gare). Somma attesa 2.66 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-01T20:07:17+00:00"
       },
       "pick_corner": {
         "esito": "under",

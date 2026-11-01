@@ -3514,7 +3514,7 @@
       "quota_max": 6,
       "quota_combinata": 4.01,
       "probabilita_combinata": 0.249,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Tottenham Hotspur - Crystal Palace",
@@ -3528,8 +3528,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.86 gol attesi (14° con 9 punti, 8 gol fatti e 10 subiti in 8 gare), Crystal Palace 1.25 (17° con 7 punti, 9 fatti e 19 subiti in 8 gare). Somma attesa 3.11 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "sc Heerenveen - NEC Nijmegen",
@@ -3543,8 +3543,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.99 gol attesi (7° con 15 punti, 18 gol fatti e 13 subiti in 10 gare), NEC Nijmegen 1.47 (12° con 11 punti, 17 fatti e 18 subiti in 10 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "PEC Zwolle - ADO Den Haag",
@@ -3558,8 +3558,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PEC Zwolle 1.88 gol attesi (15° con 8 punti, 11 gol fatti e 23 subiti in 10 gare), ADO Den Haag 1.67 (17° con 6 punti, 13 fatti e 23 subiti in 10 gare). Somma attesa 3.56 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Başakşehir - Samsunspor",
@@ -3573,8 +3573,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 1.98 gol attesi (12° con 11 punti, 12 gol fatti e 14 subiti in 9 gare), Samsunspor 1.27 (17° con 4 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.25 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Getafe - Sevilla",
@@ -3588,10 +3588,12 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.34 gol attesi (16° con 9 punti, 5 gol fatti e 15 subiti in 10 gare), Sevilla 1.50 (6° con 17 punti, 16 fatti e 16 subiti in 10 gare). Somma attesa 2.84 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-01T20:07:35.580254+00:00"
     },
     {
       "id": "L6-15",
@@ -3690,6 +3692,93 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-19",
+      "livello_rischio": 5,
+      "fascia": 2,
+      "rischio": "Rischio medio",
+      "quota_max": 6,
+      "quota_combinata": 4.02,
+      "probabilita_combinata": 0.249,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Sassuolo - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-02T18:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Sassuolo o Fiorentina",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Newcastle United - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-02T20:00:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Newcastle United o Everton",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gençlerbirliği - Alanyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-02T20:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "Gençlerbirliği o Alanyaspor",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Atalanta o Parma",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Deportivo de La Coruña - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-02T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Deportivo de La Coruña o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
           "esito": null,
           "risultato_reale": null
         }

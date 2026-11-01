@@ -6630,8 +6630,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Marítimo - Santa Clara",
@@ -6645,8 +6645,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Coventry City - Sunderland",
@@ -6790,7 +6790,7 @@
       "variante": "quota_max",
       "quota_combinata": 9.76,
       "probabilita_combinata": 0.102,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gençlerbirliği - Alanyaspor",
@@ -6819,8 +6819,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.46 gol attesi (18° con 33 punti, 34 gol fatti e 42 subiti in 32 gare), Mirassol 1.24 (15° con 37 punti, 37 fatti e 45 subiti in 32 gare). Somma attesa 2.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "AFC Bournemouth - Leeds United",
@@ -6834,8 +6834,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.42 gol attesi (13° con 9 punti, 12 gol fatti e 13 subiti in 8 gare), Leeds United 1.37 (7° con 11 punti, 9 fatti e 6 subiti in 8 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Brentford - Nottingham Forest",
@@ -6849,8 +6849,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.72 gol attesi (6° con 11 punti, 14 gol fatti e 9 subiti in 8 gare), Nottingham Forest 1.08 (18° con 6 punti, 6 fatti e 10 subiti in 8 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Paris FC - AS Monaco",
@@ -6864,12 +6864,14 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-01T20:07:35.580254+00:00"
     },
     {
       "id": "L6-19",
@@ -6936,8 +6938,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Marítimo - Santa Clara",
@@ -6951,8 +6953,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Coventry City - Sunderland",
@@ -7070,8 +7072,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Marítimo - Santa Clara",
@@ -7085,8 +7087,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "esito_finale": "persa",
@@ -7127,8 +7129,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.52 gol attesi (6° con 14 punti, 13 gol fatti e 9 subiti in 8 gare), AS Monaco 1.29 (4° con 15 punti, 11 fatti e 7 subiti in 8 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Marítimo - Santa Clara",
@@ -7142,8 +7144,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Lecce - Genoa",
@@ -7157,8 +7159,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lecce 1.53 gol attesi (14° con 9 punti, 10 gol fatti e 19 subiti in 9 gare), Genoa 1.46 (13° con 10 punti, 8 fatti e 13 subiti in 9 gare). Somma attesa 2.99 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Juventus - Napoli",
@@ -7416,8 +7418,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.32 gol attesi (4° con 15 punti, 11 gol fatti e 8 subiti in 8 gare), Arsenal 1.33 (2° con 21 punti, 13 fatti e 5 subiti in 8 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Arezzo - Ascoli",
@@ -7446,8 +7448,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.69 gol attesi (9° con 12 punti, 16 gol fatti e 13 subiti in 9 gare), Carrarese 1.27 (13° con 10 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",
@@ -7769,6 +7771,93 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-23",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 2.03,
+      "probabilita_combinata": 0.493,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Juventus Next Gen - Pro Vercelli",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Casarano - Foggia",
+          "campionato": "Serie C",
+          "data": "2026-11-02T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Casarano 1.45 gol attesi (14° con 14 punti, 13 gol fatti e 18 subiti in 11 gare), Foggia 1.33 (13° con 14 punti, 11 fatti e 13 subiti in 11 gare). Somma attesa 2.78 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Lorient - Stade Brestois 29",
+          "campionato": "Ligue 1",
+          "data": "2026-11-02T14:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gil Vicente - Vitória Guimarães",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-02T20:15:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
     }
   ]
 }

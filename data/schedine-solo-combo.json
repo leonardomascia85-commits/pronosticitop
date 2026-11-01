@@ -880,8 +880,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
       ],
       "esito_finale": "persa",
@@ -979,8 +979,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "FC Augsburg - SC Freiburg",
@@ -1024,8 +1024,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "esito_finale": "persa",
@@ -1081,8 +1081,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Ajax - AZ Alkmaar",
@@ -1238,8 +1238,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Eintracht Frankfurt - Hamburger SV",
@@ -1253,8 +1253,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eintracht Frankfurt 1.97 gol attesi (14° con 8 punti, 10 gol fatti e 17 subiti in 7 gare), Hamburger SV 1.54 (11° con 9 punti, 6 fatti e 16 subiti in 7 gare). Somma attesa 3.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Ajax - AZ Alkmaar",
@@ -1711,8 +1711,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.91 gol attesi (5° con 14 punti, 13 gol fatti e 7 subiti in 8 gare), Angers SCO 1.13 (14° con 8 punti, 9 fatti e 15 subiti in 8 gare). Somma attesa 3.03 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Carpi - Renate",

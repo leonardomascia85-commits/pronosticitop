@@ -6996,8 +6996,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "SV Elversberg - 1. FSV Mainz 05",
@@ -7083,8 +7083,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "SV Elversberg - 1. FSV Mainz 05",

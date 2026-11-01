@@ -265,9 +265,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-01T20:07:33+00:00"
       }
     },
     {

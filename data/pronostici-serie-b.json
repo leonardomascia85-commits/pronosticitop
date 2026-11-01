@@ -398,9 +398,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.69 gol attesi (9° con 12 punti, 16 gol fatti e 13 subiti in 9 gare), Carrarese 1.27 (13° con 10 punti, 9 fatti e 10 subiti in 9 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-01T20:07:17+00:00"
       }
     },
     {
