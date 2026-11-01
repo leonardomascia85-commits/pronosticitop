@@ -1096,8 +1096,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "PEC Zwolle - ADO Den Haag",
@@ -1194,7 +1194,7 @@
       "variante": "alternativa",
       "quota_combinata": 6.78,
       "probabilita_combinata": 0.148,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Olympique de Marseille - Toulouse FC",
@@ -1268,10 +1268,12 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-01T00:07:30.588445+00:00"
     },
     {
       "id": "L4-9",
@@ -1279,7 +1281,7 @@
       "variante": "libera",
       "quota_combinata": 4.82,
       "probabilita_combinata": 0.208,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Ajax - AZ Alkmaar",
@@ -1293,8 +1295,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "PEC Zwolle - ADO Den Haag",
@@ -1341,7 +1343,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-01T00:07:30.588445+00:00"
     },
     {
       "id": "L5-9",
@@ -1427,7 +1431,162 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-10",
+      "livello_rischio": 5,
+      "variante": "alternativa",
+      "quota_combinata": 8.11,
+      "probabilita_combinata": 0.123,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Cosenza - Inter U23",
+          "campionato": "Serie C",
+          "data": "2026-11-01T12:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cosenza 1.52 gol attesi (19° con 6 punti, 9 gol fatti e 23 subiti in 11 gare), Inter U23 1.88 (7° con 17 punti, 21 fatti e 19 subiti in 11 gare). Somma attesa 3.40 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Académico Viseu - Rio Ave",
+          "campionato": "Liga Portugal",
+          "data": "2026-11-01T15:30:00+00:00",
+          "mercato": "COMBO",
+          "pronostico": "Académico Viseu o pareggio + Over 1.5",
+          "esito_pick": "1x_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Académico Viseu 2.03 gol attesi (6° con 17 punti, 13 gol fatti e 11 subiti in 9 gare), Rio Ave 1.15 (17° con 7 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.18 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Excelsior - FC Twente",
+          "campionato": "Eredivisie",
+          "data": "2026-11-01T14:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Excelsior 1.55 gol attesi (13° con 11 punti, 16 gol fatti e 19 subiti in 10 gare), FC Twente 1.79 (4° con 20 punti, 19 fatti e 10 subiti in 10 gare). Somma attesa 3.34 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Başakşehir - Samsunspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-01T16:00:00+03:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.52,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 1.98 gol attesi (12° con 11 punti, 12 gol fatti e 14 subiti in 9 gare), Samsunspor 1.27 (17° con 4 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.25 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Gubbio - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-01T14:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Gubbio 1.84 gol attesi (19° con 7 punti, 10 gol fatti e 21 subiti in 11 gare), Vis Pesaro 1.43 (20° con 4 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.27 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-10",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 5.78,
+      "probabilita_combinata": 0.173,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Telstar - FC Utrecht",
+          "campionato": "Eredivisie",
+          "data": "2026-11-01T14:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 2.09 gol attesi (16° con 6 punti, 12 gol fatti e 21 subiti in 10 gare), FC Utrecht 1.75 (11° con 12 punti, 17 fatti e 27 subiti in 10 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Amedspor - Eyüpspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-01T13:30:00+03:00",
+          "mercato": "COMBO",
+          "pronostico": "Amedspor vince + Over 1.5",
+          "esito_pick": "1_o15",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.55,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Atalanta - Parma",
+          "campionato": "Serie A",
+          "data": "2026-11-02T20:45:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Avellino - Pisa",
+          "campionato": "Serie B",
+          "data": "2026-11-01T15:00:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Avellino 1.67 gol attesi (10° con 12 punti, 13 gol fatti e 10 subiti in 9 gare), Pisa 1.56 (6° con 15 punti, 18 fatti e 13 subiti in 9 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ],
-  "aggiornato_il": "2026-10-31"
+  "aggiornato_il": "2026-11-01"
 }

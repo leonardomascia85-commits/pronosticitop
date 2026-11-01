@@ -6480,8 +6480,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -6569,8 +6569,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -6673,8 +6673,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -6894,8 +6894,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Fenerbahçe - Göztepe",
@@ -6966,8 +6966,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Fenerbahçe - Göztepe",
@@ -7053,8 +7053,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Fenerbahçe - Göztepe",

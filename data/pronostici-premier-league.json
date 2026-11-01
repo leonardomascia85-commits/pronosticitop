@@ -359,9 +359,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.47 gol attesi (9° con 11 punti, 9 gol fatti e 12 subiti in 8 gare), Fulham 1.29 (15° con 8 punti, 8 fatti e 10 subiti in 8 gare). Somma attesa 2.76 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-01T00:07:30+00:00"
       },
       "pick_corner": {
         "esito": "under",

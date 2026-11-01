@@ -133,9 +133,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-11-01T00:07:30+00:00"
       }
     },
     {

@@ -279,9 +279,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): ESTAC Troyes 1.56 gol attesi (17° con 5 punti, 5 gol fatti e 16 subiti in 8 gare), Le Mans FC 1.58 (15° con 7 punti, 11 fatti e 16 subiti in 8 gare). Somma attesa 3.15 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-01T00:07:30+00:00"
       },
       "pick_corner": {
         "esito": "under",
