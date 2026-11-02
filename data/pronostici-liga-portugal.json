@@ -177,9 +177,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Arouca 1.85 gol attesi (5° con 17 punti, 12 gol fatti e 7 subiti in 9 gare), Nacional 1.08 (15° con 7 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-02T00:07:44+00:00"
       }
     },
     {
@@ -221,9 +221,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Académico Viseu 2.03 gol attesi (6° con 17 punti, 13 gol fatti e 11 subiti in 9 gare), Rio Ave 1.15 (17° con 7 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.18 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-02T00:07:44+00:00"
       }
     },
     {
@@ -309,9 +309,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-02T00:07:44+00:00"
       }
     },
     {

@@ -1471,8 +1471,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Académico Viseu 2.03 gol attesi (6° con 17 punti, 13 gol fatti e 11 subiti in 9 gare), Rio Ave 1.15 (17° con 7 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.18 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Excelsior - FC Twente",
@@ -1728,8 +1728,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Carpi 1.68 gol attesi (12° con 12 punti, 16 gol fatti e 21 subiti in 11 gare), Renate 1.36 (20° con 5 punti, 9 fatti e 16 subiti in 11 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-5"
         },
         {
           "partita": "Arouca - Nacional",
@@ -1743,8 +1743,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arouca 1.85 gol attesi (5° con 17 punti, 12 gol fatti e 7 subiti in 9 gare), Nacional 1.08 (15° con 7 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Kasımpaşa - Beşiktaş",

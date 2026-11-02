@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-11-01",
+  "aggiornato_il": "2026-11-02",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -3609,7 +3609,7 @@
       "quota_max": 9,
       "quota_combinata": 7.09,
       "probabilita_combinata": 0.141,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Konyaspor - Galatasaray",
@@ -3623,8 +3623,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.31 gol attesi (14° con 8 punti, 6 gol fatti e 9 subiti in 9 gare), Galatasaray 1.59 (1° con 22 punti, 19 fatti e 12 subiti in 9 gare). Somma attesa 2.90 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Corinthians - Mirassol",
@@ -3638,8 +3638,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.46 gol attesi (18° con 33 punti, 34 gol fatti e 42 subiti in 32 gare), Mirassol 1.24 (15° con 37 punti, 37 fatti e 45 subiti in 32 gare). Somma attesa 2.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "OGC Nice - Stade Rennais FC",
@@ -3653,8 +3653,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.61 gol attesi (10° con 11 punti, 8 gol fatti e 10 subiti in 8 gare), Stade Rennais FC 1.73 (2° con 16 punti, 18 fatti e 14 subiti in 8 gare). Somma attesa 3.35 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Ajax - AZ Alkmaar",
@@ -3668,8 +3668,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.44 gol attesi (2° con 21 punti, 29 gol fatti e 13 subiti in 10 gare), AZ Alkmaar 1.64 (5° con 20 punti, 20 fatti e 12 subiti in 10 gare). Somma attesa 4.07 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Liverpool - Arsenal",
@@ -3683,8 +3683,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.32 gol attesi (4° con 15 punti, 11 gol fatti e 8 subiti in 8 gare), Arsenal 1.33 (2° con 21 punti, 13 fatti e 5 subiti in 8 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Sp. Braga - Famalicão",
@@ -3698,10 +3698,12 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T00:07:46.579276+00:00"
     },
     {
       "id": "L5-19",
