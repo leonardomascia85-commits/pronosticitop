@@ -399,9 +399,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-0",
+        "aggiornato": "2026-11-02T20:07:26+00:00"
       }
     }
   ]

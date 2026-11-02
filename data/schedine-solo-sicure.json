@@ -2,7 +2,7 @@
   "id": "solo-sicure",
   "titolo": "Solo Sicure",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-01",
+  "aggiornato_il": "2026-11-02",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite con gli eventi quasi certi di ogni partita: Over 0.5 gol, Over 1.5 gol o Under 5.5 gol (il più probabile). Backtest su 441 partite concluse: probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto.",
   "schedine": [
@@ -175,7 +175,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.1,
       "probabilita_combinata": 0.913,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -189,8 +189,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -204,8 +204,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -219,8 +219,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Milan - Inter",
@@ -234,8 +234,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Milan 1.82 gol attesi (5° con 18 punti, 18 gol fatti e 11 subiti in 9 gare), Inter 2.03 (1° con 25 punti, 25 fatti e 10 subiti in 9 gare). Somma attesa 3.85 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Frosinone - Torino",
@@ -249,8 +249,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Frosinone 2.27 gol attesi (6° con 17 punti, 22 gol fatti e 14 subiti in 9 gare), Torino 1.50 (9° con 13 punti, 14 fatti e 14 subiti in 9 gare). Somma attesa 3.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -264,12 +264,14 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L7-1",
@@ -277,7 +279,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.12,
       "probabilita_combinata": 0.895,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -291,8 +293,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "SC Cambuur - Go Ahead Eagles",
@@ -306,8 +308,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.26 gol attesi (10° con 12 punti, 19 gol fatti e 22 subiti in 10 gare), Go Ahead Eagles 2.13 (9° con 14 punti, 23 fatti e 23 subiti in 10 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "annullato",
+          "risultato_reale": "sospesa"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -321,8 +323,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Milan - Inter",
@@ -336,8 +338,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Milan 1.82 gol attesi (5° con 18 punti, 18 gol fatti e 11 subiti in 9 gare), Inter 2.03 (1° con 25 punti, 25 fatti e 10 subiti in 9 gare). Somma attesa 3.85 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Frosinone - Torino",
@@ -351,8 +353,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Frosinone 2.27 gol attesi (6° con 17 punti, 22 gol fatti e 14 subiti in 9 gare), Torino 1.50 (9° con 13 punti, 14 fatti e 14 subiti in 9 gare). Somma attesa 3.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -366,8 +368,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Racing de Santander - Real Madrid",
@@ -381,12 +383,14 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L4-2",
@@ -394,7 +398,7 @@
       "variante": "libera",
       "quota_combinata": 1.08,
       "probabilita_combinata": 0.922,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Frosinone - Torino",
@@ -408,8 +412,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Frosinone 2.27 gol attesi (6° con 17 punti, 22 gol fatti e 14 subiti in 9 gare), Torino 1.50 (9° con 13 punti, 14 fatti e 14 subiti in 9 gare). Somma attesa 3.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -423,8 +427,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Racing de Santander - Real Madrid",
@@ -438,8 +442,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "RC Strasbourg Alsace - AJ Auxerre",
@@ -453,10 +457,12 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Strasbourg Alsace 2.00 gol attesi (16° con 7 punti, 12 gol fatti e 18 subiti in 8 gare), AJ Auxerre 1.71 (12° con 10 punti, 12 fatti e 18 subiti in 8 gare). Somma attesa 3.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L5-2",
@@ -886,7 +892,7 @@
         {
           "partita": "FC Lorient - Stade Brestois 29",
           "campionato": "Ligue 1",
-          "data": "2026-11-02T14:45:00+01:00",
+          "data": "2026-11-02T20:45:00+01:00",
           "mercato": "TOT",
           "pronostico": "Under 5.5 gol",
           "esito_pick": "under55",

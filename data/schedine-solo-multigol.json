@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-01",
+  "aggiornato_il": "2026-11-02",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -6484,7 +6484,7 @@
       "variante": "quota_max",
       "quota_combinata": 21.09,
       "probabilita_combinata": 0.047,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -6513,8 +6513,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.32 gol attesi (4° con 15 punti, 11 gol fatti e 8 subiti in 8 gare), Arsenal 1.33 (2° con 21 punti, 13 fatti e 5 subiti in 8 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Aston Villa - Fulham",
@@ -6528,13 +6528,13 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.47 gol attesi (9° con 11 punti, 9 gol fatti e 12 subiti in 8 gare), Fulham 1.29 (15° con 8 punti, 8 fatti e 10 subiti in 8 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Lorient - Stade Brestois 29",
           "campionato": "Ligue 1",
-          "data": "2026-11-02T14:45:00+01:00",
+          "data": "2026-11-02T20:45:00+01:00",
           "mercato": "MULTIGOL",
           "pronostico": "Multigol 1-3",
           "esito_pick": "1-3",
@@ -6558,8 +6558,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Gençlerbirliği - Alanyaspor",
@@ -6573,8 +6573,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "AFC Bournemouth - Leeds United",
@@ -6588,12 +6588,14 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.42 gol attesi (13° con 9 punti, 12 gol fatti e 13 subiti in 8 gare), Leeds United 1.37 (7° con 11 punti, 9 fatti e 6 subiti in 8 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L7-19",
@@ -6718,7 +6720,7 @@
       "variante": "quota_max",
       "quota_combinata": 6.06,
       "probabilita_combinata": 0.165,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sp. Braga - Famalicão",
@@ -6732,8 +6734,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Gençlerbirliği - Alanyaspor",
@@ -6747,8 +6749,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Corinthians - Mirassol",
@@ -6762,8 +6764,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.46 gol attesi (18° con 33 punti, 34 gol fatti e 42 subiti in 32 gare), Mirassol 1.24 (15° con 37 punti, 37 fatti e 45 subiti in 32 gare). Somma attesa 2.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "AFC Bournemouth - Leeds United",
@@ -6777,12 +6779,14 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.42 gol attesi (13° con 9 punti, 12 gol fatti e 13 subiti in 8 gare), Leeds United 1.37 (7° con 11 punti, 9 fatti e 6 subiti in 8 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L5-21",
@@ -6804,8 +6808,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Corinthians - Mirassol",
@@ -7678,7 +7682,7 @@
       "variante": "libera",
       "quota_combinata": 3.11,
       "probabilita_combinata": 0.322,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Newcastle United - Everton",
@@ -7707,8 +7711,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Elche 1.76 gol attesi (14° con 10 punti, 14 gol fatti e 17 subiti in 10 gare), Valencia 1.25 (19° con 6 punti, 7 fatti e 17 subiti in 10 gare). Somma attesa 3.01 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Olympique de Marseille - Toulouse FC",
@@ -7722,8 +7726,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.06 gol attesi (8° con 12 punti, 18 gol fatti e 13 subiti in 8 gare), Toulouse FC 1.50 (11° con 10 punti, 12 fatti e 11 subiti in 8 gare). Somma attesa 3.56 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Palermo - L.R. Vicenza",
@@ -7737,8 +7741,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 2.34 gol attesi (1° con 23 punti, 21 gol fatti e 11 subiti in 9 gare), L.R. Vicenza 1.31 (16° con 9 punti, 12 fatti e 17 subiti in 9 gare). Somma attesa 3.65 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -7752,8 +7756,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Benfica - Alverca",
@@ -7770,7 +7774,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L5-23",
@@ -7813,7 +7819,7 @@
         {
           "partita": "FC Lorient - Stade Brestois 29",
           "campionato": "Ligue 1",
-          "data": "2026-11-02T14:45:00+01:00",
+          "data": "2026-11-02T20:45:00+01:00",
           "mercato": "MULTIGOL",
           "pronostico": "Multigol 1-5",
           "esito_pick": "1-5",

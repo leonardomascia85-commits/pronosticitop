@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-01",
+  "aggiornato_il": "2026-11-02",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -4873,7 +4873,7 @@
       "variante": "libera",
       "quota_combinata": 1.63,
       "probabilita_combinata": 0.613,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Palermo - L.R. Vicenza",
@@ -4887,8 +4887,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 2.34 gol attesi (1° con 23 punti, 21 gol fatti e 11 subiti in 9 gare), L.R. Vicenza 1.31 (16° con 9 punti, 12 fatti e 17 subiti in 9 gare). Somma attesa 3.65 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Potenza - Crotone",
@@ -4902,8 +4902,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Potenza 2.34 gol attesi (1° con 26 punti, 28 gol fatti e 15 subiti in 11 gare), Crotone 1.20 (20° con 1 punti, 10 fatti e 16 subiti in 11 gare). Somma attesa 3.54 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -4917,8 +4917,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Olympique de Marseille - Toulouse FC",
@@ -4932,10 +4932,12 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.06 gol attesi (8° con 12 punti, 18 gol fatti e 13 subiti in 8 gare), Toulouse FC 1.50 (11° con 10 punti, 12 fatti e 11 subiti in 8 gare). Somma attesa 3.56 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L6-15",
@@ -5023,7 +5025,7 @@
         {
           "partita": "FC Lorient - Stade Brestois 29",
           "campionato": "Ligue 1",
-          "data": "2026-11-02T14:45:00+01:00",
+          "data": "2026-11-02T20:45:00+01:00",
           "mercato": "SEGNA",
           "pronostico": "Segna la squadra di casa (FC Lorient)",
           "esito_pick": "casa",
@@ -5043,7 +5045,7 @@
       "variante": "libera",
       "quota_combinata": 5.37,
       "probabilita_combinata": 0.186,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sassuolo - Fiorentina",
@@ -5057,8 +5059,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Atalanta - Parma",
@@ -5102,8 +5104,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Sp. Braga - Famalicão",
@@ -5117,8 +5119,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sp. Braga 1.41 gol attesi (9° con 11 punti, 8 gol fatti e 9 subiti in 8 gare), Famalicão 1.35 (11° con 10 punti, 14 fatti e 11 subiti in 9 gare). Somma attesa 2.76 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Novara - Desenzano",
@@ -5150,7 +5152,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-02T20:07:29.476126+00:00"
     },
     {
       "id": "L5-13",
