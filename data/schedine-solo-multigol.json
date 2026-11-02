@@ -6543,8 +6543,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sp. Braga - Famalicão",
@@ -7208,7 +7208,7 @@
       "variante": "libera",
       "quota_combinata": 1.67,
       "probabilita_combinata": 0.6,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Empoli - Juve Stabia",
@@ -7222,8 +7222,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.27 gol attesi (18° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Juve Stabia 1.35 (17° con 8 punti, 9 fatti e 9 subiti in 9 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7237,8 +7237,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Ravenna - Pineto",
@@ -7252,8 +7252,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Novara - Desenzano",
@@ -7267,10 +7267,12 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T22:07:08.988718+00:00"
     },
     {
       "id": "L5-22",
@@ -7278,7 +7280,7 @@
       "variante": "libera",
       "quota_combinata": 1.89,
       "probabilita_combinata": 0.528,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Empoli - Juve Stabia",
@@ -7292,8 +7294,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.27 gol attesi (18° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Juve Stabia 1.35 (17° con 8 punti, 9 fatti e 9 subiti in 9 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7307,8 +7309,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Ravenna - Pineto",
@@ -7322,8 +7324,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Novara - Desenzano",
@@ -7337,8 +7339,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Liverpool - Arsenal",
@@ -7352,10 +7354,12 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.32 gol attesi (4° con 15 punti, 11 gol fatti e 8 subiti in 8 gare), Arsenal 1.33 (2° con 21 punti, 13 fatti e 5 subiti in 8 gare). Somma attesa 2.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T22:07:08.988718+00:00"
     },
     {
       "id": "L6-21",
@@ -7407,8 +7411,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Liverpool - Arsenal",
@@ -7465,7 +7469,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.31,
       "probabilita_combinata": 0.434,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Lecce - Genoa",
@@ -7479,8 +7483,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lecce 1.53 gol attesi (14° con 9 punti, 10 gol fatti e 19 subiti in 9 gare), Genoa 1.46 (13° con 10 punti, 8 fatti e 13 subiti in 9 gare). Somma attesa 2.99 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Juventus - Napoli",
@@ -7494,8 +7498,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.49 gol attesi (8° con 14 punti, 11 gol fatti e 10 subiti in 9 gare), Napoli 1.50 (7° con 14 punti, 17 fatti e 11 subiti in 9 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Lumezzane - Arzignano Valchiampo",
@@ -7509,8 +7513,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lumezzane 1.33 gol attesi (12° con 12 punti, 12 gol fatti e 16 subiti in 11 gare), Arzignano Valchiampo 1.43 (4° con 20 punti, 16 fatti e 11 subiti in 11 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Livorno - Ostiamare",
@@ -7524,8 +7528,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Livorno 1.60 gol attesi (8° con 16 punti, 16 gol fatti e 16 subiti in 11 gare), Ostiamare 1.23 (17° con 9 punti, 10 fatti e 14 subiti in 11 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Juventus Next Gen - Pro Vercelli",
@@ -7539,8 +7543,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Casarano - Foggia",
@@ -7554,12 +7558,14 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Casarano 1.45 gol attesi (14° con 14 punti, 13 gol fatti e 18 subiti in 11 gare), Foggia 1.33 (13° con 14 punti, 11 fatti e 13 subiti in 11 gare). Somma attesa 2.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T22:07:08.988718+00:00"
     },
     {
       "id": "L7-21",

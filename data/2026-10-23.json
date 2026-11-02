@@ -3091,7 +3091,7 @@
       "quota_max": 8,
       "quota_combinata": 6.01,
       "probabilita_combinata": 0.166,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Manchester City - Brighton & Hove Albion",
@@ -3105,8 +3105,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 2.02 gol attesi (1° con 21 punti, 20 gol fatti e 9 subiti in 8 gare), Brighton & Hove Albion 2.02 (3° con 16 punti, 23 fatti e 7 subiti in 8 gare). Somma attesa 4.04 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "FC Augsburg - SC Freiburg",
@@ -3120,8 +3120,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.11 gol attesi (9° con 9 punti, 17 gol fatti e 13 subiti in 7 gare), SC Freiburg 1.92 (3° con 13 punti, 16 fatti e 9 subiti in 7 gare). Somma attesa 4.03 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Arouca - Nacional",
@@ -3135,8 +3135,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arouca 1.85 gol attesi (5° con 17 punti, 12 gol fatti e 7 subiti in 9 gare), Nacional 1.08 (15° con 7 punti, 10 fatti e 18 subiti in 9 gare). Somma attesa 2.93 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Académico Viseu - Rio Ave",
@@ -3150,8 +3150,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Académico Viseu 2.03 gol attesi (6° con 17 punti, 13 gol fatti e 11 subiti in 9 gare), Rio Ave 1.15 (17° con 7 punti, 8 fatti e 21 subiti in 9 gare). Somma attesa 3.18 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "FC Groningen - Sparta Rotterdam",
@@ -3165,8 +3165,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.62 gol attesi (8° con 15 punti, 24 gol fatti e 21 subiti in 10 gare), Sparta Rotterdam 1.75 (14° con 9 punti, 17 fatti e 24 subiti in 10 gare). Somma attesa 4.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Racing de Santander - Real Madrid",
@@ -3180,8 +3180,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.51 gol attesi (13° con 11 punti, 15 gol fatti e 26 subiti in 10 gare), Real Madrid 2.38 (3° con 24 punti, 25 fatti e 10 subiti in 10 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Deportivo de La Coruña - Osasuna",
@@ -3195,10 +3195,12 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-02T22:07:08.988718+00:00"
     },
     {
       "id": "L7-20",
@@ -3386,8 +3388,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "1. FC Union Berlin - 1. FC Köln",
