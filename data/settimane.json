@@ -1,6 +1,11 @@
 {
   "settimane": [
     {
+      "id": "infra-2026-11-02",
+      "titolo": "Turno infrasettimanale del 3-5 novembre 2026",
+      "file": "infra-2026-11-02.json"
+    },
+    {
       "id": "2026-10-23",
       "titolo": "Turno del 23-26 ottobre 2026",
       "file": "2026-10-23.json"
