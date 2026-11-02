@@ -9404,8 +9404,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Livorno 1.60 gol attesi (8° con 16 punti, 16 gol fatti e 16 subiti in 11 gare), Ostiamare 1.23 (17° con 9 punti, 10 fatti e 14 subiti in 11 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Juventus Next Gen - Pro Vercelli",

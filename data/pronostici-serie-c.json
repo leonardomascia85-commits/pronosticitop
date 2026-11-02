@@ -1079,9 +1079,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Campobasso 1.68 gol attesi (12° con 15 punti, 16 gol fatti e 20 subiti in 11 gare), Forlì 1.56 (15° con 12 punti, 16 fatti e 16 subiti in 11 gare). Somma attesa 3.24 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-02T02:07:10+00:00"
       }
     },
     {
@@ -1124,9 +1124,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-02T02:07:10+00:00"
       }
     },
     {
@@ -1169,9 +1169,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Livorno 1.60 gol attesi (8° con 16 punti, 16 gol fatti e 16 subiti in 11 gare), Ostiamare 1.23 (17° con 9 punti, 10 fatti e 14 subiti in 11 gare). Somma attesa 2.83 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-02T02:07:10+00:00"
       }
     },
     {
