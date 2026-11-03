@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-11-02",
+  "aggiornato_il": "2026-11-03",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -3433,8 +3433,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "esito_finale": "persa",
@@ -3715,7 +3715,7 @@
       "quota_max": 6,
       "quota_combinata": 4.02,
       "probabilita_combinata": 0.249,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sassuolo - Fiorentina",
@@ -3729,8 +3729,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Newcastle United - Everton",
@@ -3744,8 +3744,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Gençlerbirliği - Alanyaspor",
@@ -3759,8 +3759,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Atalanta - Parma",
@@ -3774,8 +3774,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Deportivo de La Coruña - Osasuna",
@@ -3789,10 +3789,12 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T00:08:21.812386+00:00"
     },
     {
       "id": "L4-22",
@@ -3802,7 +3804,7 @@
       "quota_max": 5,
       "quota_combinata": 3.08,
       "probabilita_combinata": 0.325,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Stade Brestois 29",
@@ -3816,8 +3818,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -3831,8 +3833,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Newcastle United - Everton",
@@ -3846,8 +3848,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Atalanta - Parma",
@@ -3861,10 +3863,12 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T00:08:21.812386+00:00"
     },
     {
       "id": "L6-16",
@@ -3874,7 +3878,7 @@
       "quota_max": 7,
       "quota_combinata": 5.01,
       "probabilita_combinata": 0.199,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Lorient - Stade Brestois 29",
@@ -3888,8 +3892,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Sassuolo - Fiorentina",
@@ -3903,8 +3907,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 2.07 gol attesi (15° con 8 punti, 14 gol fatti e 22 subiti in 9 gare), Fiorentina 1.69 (18° con 5 punti, 11 fatti e 21 subiti in 9 gare). Somma attesa 3.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Newcastle United - Everton",
@@ -3918,8 +3922,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Gençlerbirliği - Alanyaspor",
@@ -3933,8 +3937,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.31 gol attesi (16° con 8 punti, 7 gol fatti e 18 subiti in 9 gare), Alanyaspor 1.46 (11° con 12 punti, 9 fatti e 11 subiti in 9 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Atalanta - Parma",
@@ -3948,8 +3952,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Deportivo de La Coruña - Osasuna",
@@ -3963,10 +3967,12 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T00:08:21.812386+00:00"
     }
   ]
 }

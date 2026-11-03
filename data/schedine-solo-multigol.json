@@ -6692,8 +6692,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Villarreal - Espanyol",
@@ -7573,7 +7573,7 @@
       "variante": "libera",
       "quota_combinata": 2.78,
       "probabilita_combinata": 0.36,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Newcastle United - Everton",
@@ -7587,8 +7587,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Elche - Valencia",
@@ -7602,8 +7602,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Elche 1.76 gol attesi (14° con 10 punti, 14 gol fatti e 17 subiti in 10 gare), Valencia 1.25 (19° con 6 punti, 7 fatti e 17 subiti in 10 gare). Somma attesa 3.01 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Marítimo - Santa Clara",
@@ -7617,8 +7617,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Marítimo 1.18 gol attesi (14° con 8 punti, 9 gol fatti e 19 subiti in 9 gare), Santa Clara 1.65 (4° con 18 punti, 13 fatti e 6 subiti in 9 gare). Somma attesa 2.83 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Atalanta - Parma",
@@ -7632,8 +7632,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Carpi - Renate",
@@ -7647,8 +7647,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Carpi 1.68 gol attesi (12° con 12 punti, 16 gol fatti e 21 subiti in 11 gare), Renate 1.36 (20° con 5 punti, 9 fatti e 16 subiti in 11 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-5"
         },
         {
           "partita": "Latina - Pianese",
@@ -7662,8 +7662,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Deportivo de La Coruña - Osasuna",
@@ -7677,10 +7677,12 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.84 gol attesi (11° con 11 punti, 13 gol fatti e 13 subiti in 10 gare), Osasuna 1.21 (12° con 11 punti, 10 fatti e 20 subiti in 10 gare). Somma attesa 3.05 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T00:08:21.812386+00:00"
     },
     {
       "id": "L6-23",
@@ -7702,8 +7704,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.56 gol attesi (8° con 11 punti, 12 gol fatti e 14 subiti in 8 gare), Everton 1.37 (11° con 10 punti, 8 fatti e 9 subiti in 8 gare). Somma attesa 2.94 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Elche - Valencia",
@@ -7777,8 +7779,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "esito_finale": "persa",
@@ -8412,6 +8414,121 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.53 gol attesi (14° con 10 punti, 13 gol fatti e 23 subiti in 9 gare), Paris FC 1.94 (4° con 17 punti, 16 fatti e 10 subiti in 9 gare). Somma attesa 3.47 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-23",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 2.56,
+      "probabilita_combinata": 0.39,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Everton - Coventry City",
+          "campionato": "Premier League",
+          "data": "2026-11-06T20:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Everton 1.62 gol attesi (7° con 13 punti, 9 gol fatti e 9 subiti in 9 gare), Coventry City 1.12 (16° con 9 punti, 9 fatti e 16 subiti in 9 gare). Somma attesa 2.74 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Hull City",
+          "campionato": "Premier League",
+          "data": "2026-11-07T15:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.58 gol attesi (1° con 24 punti, 14 gol fatti e 5 subiti in 9 gare), Hull City 1.04 (11° con 11 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fulham - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-11-07T15:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fulham 1.58 gol attesi (15° con 9 punti, 9 gol fatti e 11 subiti in 9 gare), Newcastle United 1.31 (13° con 11 punti, 12 fatti e 15 subiti in 9 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Nottingham Forest - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-11-07T17:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 1.22 gol attesi (19° con 6 punti, 6 gol fatti e 12 subiti in 9 gare), Manchester City 1.76 (2° con 21 punti, 20 fatti e 10 subiti in 9 gare). Somma attesa 2.98 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Liverpool",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.31 gol attesi (18° con 7 punti, 9 gol fatti e 21 subiti in 9 gare), Liverpool 1.65 (5° con 15 punti, 11 fatti e 9 subiti in 9 gare). Somma attesa 2.96 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Aston Villa",
+          "campionato": "Premier League",
+          "data": "2026-11-08T16:30:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.53 gol attesi (17° con 7 punti, 10 gol fatti e 15 subiti in 9 gare), Aston Villa 1.38 (10° con 12 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.92 gol.",
           "esito": null,
           "risultato_reale": null
         }
