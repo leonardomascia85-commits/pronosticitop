@@ -397,9 +397,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-03T02:06:44+00:00"
       }
     }
   ]

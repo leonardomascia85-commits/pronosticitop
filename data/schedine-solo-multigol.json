@@ -6498,8 +6498,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Liverpool - Arsenal",
@@ -7792,7 +7792,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.03,
       "probabilita_combinata": 0.493,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Juventus Next Gen - Pro Vercelli",
@@ -7806,8 +7806,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus Next Gen 1.60 gol attesi (18° con 10 punti, 11 gol fatti e 18 subiti in 11 gare), Pro Vercelli 1.30 (14° con 12 punti, 10 fatti e 19 subiti in 11 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Casarano - Foggia",
@@ -7821,8 +7821,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Casarano 1.45 gol attesi (14° con 14 punti, 13 gol fatti e 18 subiti in 11 gare), Foggia 1.33 (13° con 14 punti, 11 fatti e 13 subiti in 11 gare). Somma attesa 2.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "FC Lorient - Stade Brestois 29",
@@ -7836,8 +7836,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.47 gol attesi (9° con 12 punti, 7 gol fatti e 6 subiti in 8 gare), Stade Brestois 29 1.30 (13° con 9 punti, 14 fatti e 12 subiti in 8 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -7851,8 +7851,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Atalanta - Parma",
@@ -7866,12 +7866,14 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.91 gol attesi (12° con 11 punti, 16 gol fatti e 17 subiti in 9 gare), Parma 1.27 (19° con 5 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L4-21",
@@ -8533,6 +8535,93 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-25",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 2.39,
+      "probabilita_combinata": 0.418,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Alanyaspor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T18:30:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.17 gol attesi (12° con 12 punti, 9 gol fatti e 16 subiti in 10 gare), Trabzonspor 1.97 (3° con 22 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ipswich Town - AFC Bournemouth",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ipswich Town 1.71 gol attesi (14° con 11 punti, 14 gol fatti e 18 subiti in 9 gare), AFC Bournemouth 1.65 (8° con 12 punti, 14 fatti e 13 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Chelsea",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.49 gol attesi (20° con 5 punti, 7 gol fatti e 17 subiti in 9 gare), Chelsea 1.89 (4° con 16 punti, 19 fatti e 15 subiti in 9 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brighton & Hove Albion - Brentford",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.19 gol attesi (3° con 19 punti, 24 gol fatti e 7 subiti in 9 gare), Brentford 1.33 (6° con 14 punti, 16 fatti e 9 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fortuna Sittard - Telstar",
+          "campionato": "Eredivisie",
+          "data": "2026-11-07T16:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.03 gol attesi (6° con 19 punti, 18 gol fatti e 18 subiti in 11 gare), Telstar 1.50 (16° con 9 punti, 16 fatti e 23 subiti in 11 gare). Somma attesa 3.53 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
     }
   ]
 }

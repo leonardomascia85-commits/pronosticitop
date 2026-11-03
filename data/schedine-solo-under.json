@@ -7143,7 +7143,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.66,
       "probabilita_combinata": 0.603,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Latina - Pianese",
@@ -7157,8 +7157,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -7172,8 +7172,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Cittadella - Treviso",
@@ -7187,8 +7187,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.45 gol attesi (1° con 27 punti, 18 gol fatti e 6 subiti in 11 gare), Treviso 0.97 (5° con 19 punti, 12 fatti e 8 subiti in 11 gare). Somma attesa 2.41 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7202,8 +7202,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Ravenna - Pineto",
@@ -7217,12 +7217,14 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L6-19",
@@ -7230,7 +7232,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.88,
       "probabilita_combinata": 0.531,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Latina - Pianese",
@@ -7244,8 +7246,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -7259,8 +7261,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Cittadella - Treviso",
@@ -7274,8 +7276,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.45 gol attesi (1° con 27 punti, 18 gol fatti e 6 subiti in 11 gare), Treviso 0.97 (5° con 19 punti, 12 fatti e 8 subiti in 11 gare). Somma attesa 2.41 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7289,8 +7291,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Ravenna - Pineto",
@@ -7304,8 +7306,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Empoli - Juve Stabia",
@@ -7319,12 +7321,14 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.27 gol attesi (18° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Juve Stabia 1.35 (17° con 8 punti, 9 fatti e 9 subiti in 9 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L7-21",
@@ -7332,7 +7336,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.14,
       "probabilita_combinata": 0.467,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Latina - Pianese",
@@ -7346,8 +7350,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -7361,8 +7365,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Cittadella - Treviso",
@@ -7376,8 +7380,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.45 gol attesi (1° con 27 punti, 18 gol fatti e 6 subiti in 11 gare), Treviso 0.97 (5° con 19 punti, 12 fatti e 8 subiti in 11 gare). Somma attesa 2.41 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7391,8 +7395,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         },
         {
           "partita": "Ravenna - Pineto",
@@ -7406,8 +7410,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ravenna 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 6 subiti in 11 gare), Pineto 0.83 (14° con 14 punti, 8 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Empoli - Juve Stabia",
@@ -7421,8 +7425,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.27 gol attesi (18° con 7 punti, 8 gol fatti e 15 subiti in 9 gare), Juve Stabia 1.35 (17° con 8 punti, 9 fatti e 9 subiti in 9 gare). Somma attesa 2.61 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Novara - Desenzano",
@@ -7436,12 +7440,14 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Novara 1.33 gol attesi (16° con 10 punti, 10 gol fatti e 16 subiti in 11 gare), Desenzano 1.23 (11° con 13 punti, 10 fatti e 13 subiti in 11 gare). Somma attesa 2.56 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L4-18",
@@ -7449,7 +7455,7 @@
       "variante": "libera",
       "quota_combinata": 1.48,
       "probabilita_combinata": 0.678,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Latina - Pianese",
@@ -7463,8 +7469,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Latina 1.25 gol attesi (13° con 14 punti, 11 gol fatti e 11 subiti in 11 gare), Pianese 0.93 (18° con 9 punti, 6 fatti e 10 subiti in 11 gare). Somma attesa 2.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -7478,8 +7484,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Cittadella - Treviso",
@@ -7493,8 +7499,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cittadella 1.45 gol attesi (1° con 27 punti, 18 gol fatti e 6 subiti in 11 gare), Treviso 0.97 (5° con 19 punti, 12 fatti e 8 subiti in 11 gare). Somma attesa 2.41 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Dolomiti Bellunesi - Lecco",
@@ -7508,10 +7514,12 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Dolomiti Bellunesi 1.17 gol attesi (17° con 10 punti, 8 gol fatti e 14 subiti in 11 gare), Lecco 1.30 (10° con 14 punti, 14 fatti e 11 subiti in 11 gare). Somma attesa 2.47 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-4"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L5-23",
@@ -8260,6 +8268,382 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-25",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 2.16,
+      "probabilita_combinata": 0.464,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Hull City",
+          "campionato": "Premier League",
+          "data": "2026-11-07T15:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.58 gol attesi (1° con 24 punti, 14 gol fatti e 5 subiti in 9 gare), Hull City 1.04 (11° con 11 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Everton - Coventry City",
+          "campionato": "Premier League",
+          "data": "2026-11-06T20:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Everton 1.62 gol attesi (7° con 13 punti, 9 gol fatti e 9 subiti in 9 gare), Coventry City 1.12 (16° con 9 punti, 9 fatti e 16 subiti in 9 gare). Somma attesa 2.74 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fulham - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-11-07T15:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fulham 1.58 gol attesi (15° con 9 punti, 9 gol fatti e 11 subiti in 9 gare), Newcastle United 1.31 (13° con 11 punti, 12 fatti e 15 subiti in 9 gare). Somma attesa 2.89 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Aston Villa",
+          "campionato": "Premier League",
+          "data": "2026-11-08T16:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.53 gol attesi (17° con 7 punti, 10 gol fatti e 15 subiti in 9 gare), Aston Villa 1.38 (10° con 12 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.92 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L6-22",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 3.92,
+      "probabilita_combinata": 0.255,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Nottingham Forest - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-11-07T17:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 1.22 gol attesi (19° con 6 punti, 6 gol fatti e 12 subiti in 9 gare), Manchester City 1.76 (2° con 21 punti, 20 fatti e 10 subiti in 9 gare). Somma attesa 2.98 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Liverpool",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.31 gol attesi (18° con 7 punti, 9 gol fatti e 21 subiti in 9 gare), Liverpool 1.65 (5° con 15 punti, 11 fatti e 9 subiti in 9 gare). Somma attesa 2.96 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Samsunspor - Konyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-07T16:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.42 gol attesi (17° con 4 punti, 10 gol fatti e 26 subiti in 10 gare), Konyaspor 1.53 (15° con 8 punti, 6 fatti e 13 subiti in 10 gare). Somma attesa 2.96 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Mantova - Hellas Verona",
+          "campionato": "Serie B",
+          "data": "2026-11-07T17:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.63 gol attesi (4° con 18 punti, 15 gol fatti e 11 subiti in 10 gare), Hellas Verona 1.51 (5° con 15 punti, 19 fatti e 13 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ascoli - Palermo",
+          "campionato": "Serie B",
+          "data": "2026-11-06T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ascoli 1.63 gol attesi (3° con 19 punti, 16 gol fatti e 6 subiti in 10 gare), Palermo 1.62 (1° con 26 punti, 24 fatti e 12 subiti in 10 gare). Somma attesa 3.25 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Lecce",
+          "campionato": "Serie A",
+          "data": "2026-11-07T15:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Torino 1.92 gol attesi (10° con 13 punti, 14 gol fatti e 16 subiti in 10 gare), Lecce 1.36 (14° con 9 punti, 11 fatti e 21 subiti in 10 gare). Somma attesa 3.28 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-24",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 7.4,
+      "probabilita_combinata": 0.135,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Alanyaspor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T18:30:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.17 gol attesi (12° con 12 punti, 9 gol fatti e 16 subiti in 10 gare), Trabzonspor 1.97 (3° con 22 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Frosinone",
+          "campionato": "Serie A",
+          "data": "2026-11-07T15:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.42 gol attesi (12° con 13 punti, 9 gol fatti e 15 subiti in 10 gare), Frosinone 1.94 (6° con 20 punti, 24 fatti e 14 subiti in 10 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ipswich Town - AFC Bournemouth",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ipswich Town 1.71 gol attesi (14° con 11 punti, 14 gol fatti e 18 subiti in 9 gare), AFC Bournemouth 1.65 (8° con 12 punti, 14 fatti e 13 subiti in 9 gare). Somma attesa 3.36 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Napoli - Lazio",
+          "campionato": "Serie A",
+          "data": "2026-11-08T12:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.35,
+          "probabilita_modello": 0.74,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.51 gol attesi (8° con 14 punti, 17 gol fatti e 13 subiti in 10 gare), Lazio 1.86 (1° con 28 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Chelsea",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.35,
+          "probabilita_modello": 0.74,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.49 gol attesi (20° con 5 punti, 7 gol fatti e 17 subiti in 9 gare), Chelsea 1.89 (4° con 16 punti, 19 fatti e 15 subiti in 9 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Stade Rennais FC - LOSC Lille",
+          "campionato": "Ligue 1",
+          "data": "2026-11-08T15:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.74,
+          "quota_stimata": 1.35,
+          "probabilita_modello": 0.74,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 1.78 gol attesi (5° con 16 punti, 20 gol fatti e 19 subiti in 9 gare), LOSC Lille 1.61 (2° con 18 punti, 12 fatti e 6 subiti in 9 gare). Somma attesa 3.39 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": false
+    },
+    {
+      "id": "L4-21",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 3.48,
+      "probabilita_combinata": 0.288,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Beşiktaş - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T21:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.33,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.12 gol attesi (4° con 19 punti, 20 gol fatti e 12 subiti in 10 gare), Gençlerbirliği 1.25 (14° con 11 punti, 12 fatti e 18 subiti in 10 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Borussia Dortmund - SV Elversberg",
+          "campionato": "Bundesliga",
+          "data": "2026-11-07T15:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.36,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.01 gol attesi (2° con 18 punti, 14 gol fatti e 6 subiti in 8 gare), SV Elversberg 1.43 (7° con 13 punti, 16 fatti e 16 subiti in 8 gare). Somma attesa 3.45 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AJ Auxerre - Paris FC",
+          "campionato": "Ligue 1",
+          "data": "2026-11-07T17:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.73,
+          "quota_stimata": 1.37,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.53 gol attesi (14° con 10 punti, 13 gol fatti e 23 subiti in 9 gare), Paris FC 1.94 (4° con 17 punti, 16 fatti e 10 subiti in 9 gare). Somma attesa 3.47 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brighton & Hove Albion - Brentford",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.72,
+          "quota_stimata": 1.38,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.19 gol attesi (3° con 19 punti, 24 gol fatti e 7 subiti in 9 gare), Brentford 1.33 (6° con 14 punti, 16 fatti e 9 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

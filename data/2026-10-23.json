@@ -2609,7 +2609,7 @@
       "quota_max": 3,
       "quota_combinata": 1.77,
       "probabilita_combinata": 0.566,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Willem II",
@@ -2623,8 +2623,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "FC Porto - Estoril",
@@ -2638,8 +2638,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -2653,8 +2653,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -2668,10 +2668,12 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L5-17",
@@ -2681,7 +2683,7 @@
       "quota_max": 4,
       "quota_combinata": 2.08,
       "probabilita_combinata": 0.481,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "PSV - Willem II",
@@ -2695,8 +2697,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "FC Porto - Estoril",
@@ -2710,8 +2712,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -2725,8 +2727,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -2740,8 +2742,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -2755,10 +2757,12 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L6-13",
@@ -2768,7 +2772,7 @@
       "quota_max": 5,
       "quota_combinata": 2.5,
       "probabilita_combinata": 0.4,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Feyenoord - Fortuna Sittard",
@@ -2782,8 +2786,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.83 gol attesi (1° con 24 punti, 32 gol fatti e 11 subiti in 10 gare), Fortuna Sittard 1.40 (6° con 18 punti, 17 fatti e 17 subiti in 10 gare). Somma attesa 4.23 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "PSV - Willem II",
@@ -2797,8 +2801,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "FC Porto - Estoril",
@@ -2812,8 +2816,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -2827,8 +2831,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -2842,8 +2846,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -2857,10 +2861,12 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L6-14",
@@ -2974,7 +2980,7 @@
       "quota_max": 6,
       "quota_combinata": 3.05,
       "probabilita_combinata": 0.328,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Bayern München - Borussia Dortmund",
@@ -2988,8 +2994,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.49 gol attesi (1° con 17 punti, 25 gol fatti e 6 subiti in 7 gare), Borussia Dortmund 1.32 (2° con 17 punti, 12 fatti e 4 subiti in 7 gare). Somma attesa 3.80 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "PSV - Willem II",
@@ -3003,8 +3009,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.21 gol attesi (3° con 20 punti, 28 gol fatti e 13 subiti in 10 gare), Willem II 1.21 (18° con 2 punti, 10 fatti e 32 subiti in 10 gare). Somma attesa 4.42 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "FC Porto - Estoril",
@@ -3018,8 +3024,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.25 gol attesi (1° con 27 punti, 21 gol fatti e 4 subiti in 9 gare), Estoril 0.77 (18° con 2 punti, 5 fatti e 15 subiti in 9 gare). Somma attesa 3.02 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Amedspor - Eyüpspor",
@@ -3033,8 +3039,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Amedspor 2.54 gol attesi (2° con 20 punti, 20 gol fatti e 10 subiti in 9 gare), Eyüpspor 0.89 (18° con 3 punti, 2 fatti e 23 subiti in 9 gare). Somma attesa 3.43 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "FC Barcelona - Deportivo Alavés",
@@ -3048,8 +3054,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 2.99 gol attesi (1° con 27 punti, 40 gol fatti e 11 subiti in 10 gare), Deportivo Alavés 1.28 (8° con 12 punti, 14 fatti e 11 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         },
         {
           "partita": "Gil Vicente - Vitória Guimarães",
@@ -3063,8 +3069,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gil Vicente 1.26 gol attesi (8° con 11 punti, 6 gol fatti e 6 subiti in 8 gare), Vitória Guimarães 1.08 (13° con 8 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Benfica - Alverca",
@@ -3078,10 +3084,12 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benfica 2.50 gol attesi (2° con 22 punti, 26 gol fatti e 8 subiti in 9 gare), Alverca 1.23 (7° con 11 punti, 13 fatti e 13 subiti in 9 gare). Somma attesa 3.73 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-03T02:06:59.790832+00:00"
     },
     {
       "id": "L7-19",
@@ -3973,6 +3981,384 @@
       ],
       "esito_finale": "vinta",
       "archiviata_il": "2026-11-03T00:08:21.812386+00:00"
+    },
+    {
+      "id": "L4-23",
+      "livello_rischio": 4,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 3,
+      "quota_combinata": 1.53,
+      "probabilita_combinata": 0.655,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Paris Saint-Germain o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Cambuur - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - 1. FC Union Berlin",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "SC Freiburg o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-20",
+      "livello_rischio": 5,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 4,
+      "quota_combinata": 1.75,
+      "probabilita_combinata": 0.57,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Sassuolo",
+          "campionato": "Serie A",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Roma o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Cambuur - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - 1. FC Union Berlin",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "SC Freiburg o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T21:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "Beşiktaş o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.12 gol attesi (4° con 19 punti, 20 gol fatti e 12 subiti in 10 gare), Gençlerbirliği 1.25 (14° con 11 punti, 12 fatti e 18 subiti in 10 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L6-17",
+      "livello_rischio": 6,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 5,
+      "quota_combinata": 2.02,
+      "probabilita_combinata": 0.496,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Juve Stabia - Arezzo",
+          "campionato": "Serie B",
+          "data": "2026-11-07T15:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Juve Stabia o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.72 gol attesi (16° con 9 punti, 11 gol fatti e 11 subiti in 10 gare), Arezzo 1.11 (13° con 11 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Paris Saint-Germain o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Sassuolo",
+          "campionato": "Serie A",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Roma o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Cambuur - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - 1. FC Union Berlin",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "SC Freiburg o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-22",
+      "livello_rischio": 7,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 6,
+      "quota_combinata": 2.35,
+      "probabilita_combinata": 0.426,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Leeds United - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-07T12:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.12,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Hull City",
+          "campionato": "Premier League",
+          "data": "2026-11-07T15:00:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Arsenal o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.58 gol attesi (1° con 24 punti, 14 gol fatti e 5 subiti in 9 gare), Hull City 1.04 (11° con 11 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Sassuolo",
+          "campionato": "Serie A",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Roma o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-07T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Paris Saint-Germain o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brighton & Hove Albion - Brentford",
+          "campionato": "Premier League",
+          "data": "2026-11-08T14:00:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Brighton & Hove Albion o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.19 gol attesi (3° con 19 punti, 24 gol fatti e 7 subiti in 9 gare), Brentford 1.33 (6° con 14 punti, 16 fatti e 9 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Cambuur - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - 1. FC Union Berlin",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "DC",
+          "pronostico": "SC Freiburg o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

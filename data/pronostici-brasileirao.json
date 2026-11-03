@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.58 gol attesi (9° con 44 punti, 42 gol fatti e 38 subiti in 33 gare), Santos 1.32 (8° con 47 punti, 49 fatti e 47 subiti in 33 gare). Somma attesa 2.90 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-03T02:06:44+00:00"
       }
     },
     {
