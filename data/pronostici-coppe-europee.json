@@ -110,9 +110,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "0-3",
+            "aggiornato": "2026-11-03T22:06:58+00:00"
           }
         },
         {
@@ -218,9 +218,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "0-6",
+            "aggiornato": "2026-11-03T22:06:58+00:00"
           }
         },
         {
@@ -272,9 +272,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "0-2",
+            "aggiornato": "2026-11-03T22:06:58+00:00"
           }
         },
         {
@@ -326,9 +326,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-0",
+            "aggiornato": "2026-11-03T22:06:58+00:00"
           }
         },
         {
