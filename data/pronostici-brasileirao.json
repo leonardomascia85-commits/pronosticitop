@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Chapecoense 1.44 gol attesi (20° con 21 punti, 32 gol fatti e 66 subiti in 32 gare), Mirassol 1.56 (16° con 37 punti, 37 fatti e 47 subiti in 33 gare). Somma attesa 3.00 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-04T02:07:04+00:00"
       }
     },
     {
