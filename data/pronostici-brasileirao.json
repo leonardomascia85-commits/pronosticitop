@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Internacional 1.55 gol attesi (18° con 35 punti, 37 gol fatti e 42 subiti in 33 gare), Coritiba 1.25 (11° con 42 punti, 40 fatti e 50 subiti in 33 gare). Somma attesa 2.80 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-04T22:06:50+00:00"
       }
     },
     {

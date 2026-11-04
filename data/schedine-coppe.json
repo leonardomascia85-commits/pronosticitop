@@ -1020,8 +1020,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "RB Leipzig - Manchester City",
@@ -1036,8 +1036,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Galatasaray - VfB Stuttgart",
@@ -1052,8 +1052,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Atlético Madrid - Bayern München",
@@ -1068,8 +1068,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Manchester United - Roma",
@@ -1084,8 +1084,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.28 gol attesi (10 gol fatti e 10 subiti in 7 gare di Premier League), Roma 1.79 (16 fatti e 3 subiti in 7 gare di Serie A). Somma attesa 3.07 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Villarreal - Paris Saint-Germain",
@@ -1100,12 +1100,14 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.61 gol attesi (13 gol fatti e 13 subiti in 9 gare di La Liga), Paris Saint-Germain 1.65 (14 fatti e 9 subiti in 7 gare di Ligue 1). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-6"
         }
       ],
       "id": "L6-3",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-04T22:06:52.637616+00:00"
     },
     {
       "livello_rischio": 7,
@@ -1125,8 +1127,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Galatasaray - VfB Stuttgart",
@@ -1141,8 +1143,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Atlético Madrid - Bayern München",
@@ -1157,8 +1159,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Manchester United - Roma",
@@ -1173,8 +1175,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.28 gol attesi (10 gol fatti e 10 subiti in 7 gare di Premier League), Roma 1.79 (16 fatti e 3 subiti in 7 gare di Serie A). Somma attesa 3.07 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Villarreal - Paris Saint-Germain",
@@ -1189,8 +1191,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.61 gol attesi (13 gol fatti e 13 subiti in 9 gare di La Liga), Paris Saint-Germain 1.65 (14 fatti e 9 subiti in 7 gare di Ligue 1). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-6"
         },
         {
           "partita": "Lens - Como",
@@ -1205,8 +1207,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lens 1.76 gol attesi (14 gol fatti e 11 subiti in 7 gare di Ligue 1), Como 1.54 (12 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.31 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-9"
         },
         {
           "partita": "Borussia Dortmund - Real Betis",
@@ -1221,12 +1223,14 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 1.87 gol attesi (11 gol fatti e 4 subiti in 6 gare di Bundesliga), Real Betis 1.32 (16 fatti e 14 subiti in 9 gare di La Liga). Somma attesa 3.19 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "id": "L7-3",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-04T22:06:52.637616+00:00"
     },
     {
       "livello_rischio": 4,
@@ -1780,5 +1784,5 @@
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-10-23"
+  "aggiornato_il": "2026-11-04"
 }
