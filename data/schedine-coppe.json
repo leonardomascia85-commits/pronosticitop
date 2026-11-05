@@ -1250,8 +1250,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.28 gol attesi (39 gol fatti e 9 subiti in 9 gare di La Liga), Aston Villa 1.13 (7 fatti e 11 subiti in 7 gare di Premier League). Somma attesa 4.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Feyenoord - Inter",
@@ -1266,8 +1266,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.78 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.04 (21 fatti e 9 subiti in 7 gare di Serie A). Somma attesa 4.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fenerbahçe - Liverpool",
@@ -1282,8 +1282,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Getafe - Brighton & Hove Albion",
@@ -1298,12 +1298,14 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.04 gol attesi (5 gol fatti e 11 subiti in 9 gare di La Liga), Brighton & Hove Albion 2.23 (23 fatti e 5 subiti in 7 gare di Premier League). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "id": "L4-5",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-05T22:07:32.819020+00:00"
     },
     {
       "livello_rischio": 5,
@@ -1323,8 +1325,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Getafe - Brighton & Hove Albion",
@@ -1339,8 +1341,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.04 gol attesi (5 gol fatti e 11 subiti in 9 gare di La Liga), Brighton & Hove Albion 2.23 (23 fatti e 5 subiti in 7 gare di Premier League). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "FC Porto - Napoli",
@@ -1355,8 +1357,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "AZ Alkmaar - Juventus",
@@ -1371,8 +1373,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "RB Leipzig - Manchester City",
@@ -1387,12 +1389,14 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.10 gol attesi (16 gol fatti e 11 subiti in 6 gare di Bundesliga), Manchester City 2.13 (19 fatti e 7 subiti in 7 gare di Premier League). Somma attesa 4.22 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         }
       ],
       "id": "L5-4",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-05T22:07:32.819020+00:00"
     },
     {
       "livello_rischio": 4,
@@ -1412,8 +1416,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.78 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.04 (21 fatti e 9 subiti in 7 gare di Serie A). Somma attesa 4.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fenerbahçe - Liverpool",
@@ -1428,8 +1432,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Porto - Napoli",
@@ -1444,8 +1448,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "AZ Alkmaar - Juventus",
@@ -1460,12 +1464,14 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         }
       ],
       "id": "L4-6",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-05T22:07:32.819020+00:00"
     },
     {
       "livello_rischio": 5,
@@ -1485,8 +1491,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.78 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.04 (21 fatti e 9 subiti in 7 gare di Serie A). Somma attesa 4.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fenerbahçe - Liverpool",
@@ -1501,8 +1507,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Porto - Napoli",
@@ -1517,8 +1523,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "AZ Alkmaar - Juventus",
@@ -1533,8 +1539,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Galatasaray - VfB Stuttgart",
@@ -1549,12 +1555,14 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
       ],
       "id": "L5-5",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-05T22:07:32.819020+00:00"
     },
     {
       "livello_rischio": 6,
@@ -1574,8 +1582,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.78 gol attesi (31 gol fatti e 10 subiti in 9 gare di Eredivisie), Inter 2.04 (21 fatti e 9 subiti in 7 gare di Serie A). Somma attesa 4.82 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Fenerbahçe - Liverpool",
@@ -1590,8 +1598,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fenerbahçe 2.27 gol attesi (22 gol fatti e 6 subiti in 8 gare di Süper Lig), Liverpool 1.14 (9 fatti e 8 subiti in 7 gare di Premier League). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "FC Porto - Napoli",
@@ -1606,8 +1614,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Porto 2.07 gol attesi (20 gol fatti e 4 subiti in 8 gare di Liga Portugal), Napoli 1.10 (10 fatti e 7 subiti in 7 gare di Serie A). Somma attesa 3.17 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "AZ Alkmaar - Juventus",
@@ -1622,8 +1630,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Galatasaray - VfB Stuttgart",
@@ -1638,8 +1646,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.09 gol attesi (17 gol fatti e 11 subiti in 8 gare di Süper Lig), VfB Stuttgart 1.36 (8 fatti e 10 subiti in 6 gare di Bundesliga). Somma attesa 3.46 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Atlético Madrid - Bayern München",
@@ -1654,12 +1662,14 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.81 gol attesi (19 gol fatti e 8 subiti in 9 gare di La Liga), Bayern München 2.24 (22 fatti e 5 subiti in 6 gare di Bundesliga). Somma attesa 4.05 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "id": "L6-4",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-05T22:07:32.819020+00:00"
     },
     {
       "livello_rischio": 7,
@@ -1695,8 +1705,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.04 gol attesi (5 gol fatti e 11 subiti in 9 gare di La Liga), Brighton & Hove Albion 2.23 (23 fatti e 5 subiti in 7 gare di Premier League). Somma attesa 3.26 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "AZ Alkmaar - Juventus",
@@ -1711,8 +1721,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 1.98 gol attesi (20 gol fatti e 10 subiti in 9 gare di Eredivisie), Juventus 1.26 (9 fatti e 8 subiti in 7 gare di Serie A). Somma attesa 3.24 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "RB Leipzig - Manchester City",
