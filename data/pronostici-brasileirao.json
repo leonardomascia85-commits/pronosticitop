@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.45 gol attesi (10° con 43 punti, 39 gol fatti e 39 subiti in 33 gare), Corinthians 1.16 (17° con 36 punti, 36 fatti e 42 subiti in 33 gare). Somma attesa 2.61 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-05T10:07:11+00:00"
       }
     },
     {
@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Botafogo 1.50 gol attesi (12° con 39 punti, 45 gol fatti e 53 subiti in 33 gare), Atlético-MG 1.45 (7° con 50 punti, 44 fatti e 39 subiti in 33 gare). Somma attesa 2.95 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-05T10:07:11+00:00"
       }
     },
     {
