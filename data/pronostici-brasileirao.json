@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cruzeiro 1.66 gol attesi (3° con 57 punti, 52 gol fatti e 46 subiti in 33 gare), Bahia 1.41 (6° con 53 punti, 48 fatti e 42 subiti in 33 gare). Somma attesa 3.07 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-11-06T10:06:57+00:00"
       }
     },
     {
