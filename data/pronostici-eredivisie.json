@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Willem II 1.72 gol attesi (18° con 2 punti, 10 gol fatti e 39 subiti in 11 gare), PEC Zwolle 2.06 (14° con 11 punti, 12 fatti e 23 subiti in 11 gare). Somma attesa 3.78 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-06T22:07:31+00:00"
       }
     },
     {

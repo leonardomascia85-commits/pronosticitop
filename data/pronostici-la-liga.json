@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sevilla 1.76 gol attesi (6° con 17 punti, 17 gol fatti e 19 subiti in 11 gare), Deportivo Alavés 1.50 (11° con 12 punti, 15 fatti e 17 subiti in 11 gare). Somma attesa 3.25 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-06T22:07:31+00:00"
       },
       "pick_corner": {
         "esito": "under",

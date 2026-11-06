@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.95 gol attesi (15° con 9 punti, 7 gol fatti e 19 subiti in 8 gare), Borussia Mönchengladbach 1.71 (18° con 4 punti, 11 fatti e 22 subiti in 8 gare). Somma attesa 3.66 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-06T22:07:31+00:00"
       },
       "pick_corner": {
         "esito": "over",

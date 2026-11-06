@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Everton 1.62 gol attesi (7° con 13 punti, 9 gol fatti e 9 subiti in 9 gare), Coventry City 1.12 (16° con 9 punti, 9 fatti e 16 subiti in 9 gare). Somma attesa 2.74 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-06T22:07:31+00:00"
       },
       "pick_corner": {
         "esito": "under",
