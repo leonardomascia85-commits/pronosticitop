@@ -51,7 +51,7 @@
         "esito": "over",
         "etichetta": "Over 9.5 corner",
         "probabilita": 0.6,
-        "corner_attesi_totali": 10.6,
+        "corner_attesi_totali": 10.7,
         "modello": "corner-v2"
       }
     },
@@ -101,8 +101,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.63,
-        "corner_attesi_totali": 10.9,
+        "probabilita": 0.61,
+        "corner_attesi_totali": 10.8,
         "modello": "corner-v2"
       }
     },
@@ -152,8 +152,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.67,
-        "corner_attesi_totali": 11.4,
+        "probabilita": 0.63,
+        "corner_attesi_totali": 11.0,
         "modello": "corner-v2"
       }
     },
@@ -203,8 +203,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.63,
-        "corner_attesi_totali": 11.0,
+        "probabilita": 0.61,
+        "corner_attesi_totali": 10.7,
         "modello": "corner-v2"
       }
     },
@@ -255,7 +255,7 @@
         "esito": "over",
         "etichetta": "Over 9.5 corner",
         "probabilita": 0.57,
-        "corner_attesi_totali": 10.3,
+        "corner_attesi_totali": 10.4,
         "modello": "corner-v2"
       }
     },
@@ -305,8 +305,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.63,
-        "corner_attesi_totali": 10.9,
+        "probabilita": 0.64,
+        "corner_attesi_totali": 11.1,
         "modello": "corner-v2"
       }
     },
@@ -405,10 +405,10 @@
         "aggiornato": null
       },
       "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.51,
-        "corner_attesi_totali": 9.8,
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.54,
+        "corner_attesi_totali": 9.4,
         "modello": "corner-v2"
       }
     },
