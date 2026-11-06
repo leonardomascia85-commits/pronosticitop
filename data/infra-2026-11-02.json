@@ -2,7 +2,7 @@
   "id": "infra-2026-11-02",
   "titolo": "Turno infrasettimanale del 3-5 novembre 2026",
   "generato_il": "2026-11-02",
-  "aggiornato_il": "2026-11-05",
+  "aggiornato_il": "2026-11-06",
   "stato": "pubblicata",
   "chiave_turno": "2026-11-02",
   "campionati_coperti": [
@@ -19,7 +19,7 @@
       "quota_max": 3,
       "quota_combinata": 2.07,
       "probabilita_combinata": 0.483,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Athletico-PR - Vasco da Gama",
@@ -33,8 +33,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.76 gol attesi (5° con 54 punti, 50 gol fatti e 40 subiti in 33 gare), Vasco da Gama 1.24 (13° con 38 punti, 40 fatti e 49 subiti in 32 gare). Somma attesa 3.00 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Flamengo - Grêmio",
@@ -48,8 +48,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 2.06 gol attesi (1° con 73 punti, 68 gol fatti e 28 subiti in 33 gare), Grêmio 1.02 (15° con 37 punti, 37 fatti e 44 subiti in 33 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Botafogo - Atlético-MG",
@@ -63,8 +63,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.50 gol attesi (12° con 39 punti, 45 gol fatti e 53 subiti in 33 gare), Atlético-MG 1.45 (7° con 50 punti, 44 fatti e 39 subiti in 33 gare). Somma attesa 2.95 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Palmeiras - Remo",
@@ -78,10 +78,12 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.88 gol attesi (2° con 70 punti, 56 gol fatti e 22 subiti in 33 gare), Remo 0.93 (19° con 29 punti, 36 fatti e 51 subiti in 33 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-06T02:06:43.476831+00:00"
     },
     {
       "id": "L5-1",
@@ -267,8 +269,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.88 gol attesi (2° con 70 punti, 56 gol fatti e 22 subiti in 33 gare), Remo 0.93 (19° con 29 punti, 36 fatti e 51 subiti in 33 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "6-1"
         }
       ],
       "esito_finale": "persa",

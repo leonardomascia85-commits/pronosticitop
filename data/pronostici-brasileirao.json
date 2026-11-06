@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.88 gol attesi (2° con 70 punti, 56 gol fatti e 22 subiti in 33 gare), Remo 0.93 (19° con 29 punti, 36 fatti e 51 subiti in 33 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "6-1",
+        "aggiornato": "2026-11-06T02:06:43+00:00"
       }
     },
     {
