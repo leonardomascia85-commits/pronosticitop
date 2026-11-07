@@ -10183,8 +10183,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.03 gol attesi (6° con 19 punti, 18 gol fatti e 18 subiti in 11 gare), Telstar 1.50 (16° con 9 punti, 16 fatti e 23 subiti in 11 gare). Somma attesa 3.53 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Borussia Dortmund - SV Elversberg",

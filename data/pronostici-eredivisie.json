@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.03 gol attesi (6° con 19 punti, 18 gol fatti e 18 subiti in 11 gare), Telstar 1.50 (16° con 9 punti, 16 fatti e 23 subiti in 11 gare). Somma attesa 3.53 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       }
     },
     {

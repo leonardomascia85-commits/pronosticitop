@@ -269,9 +269,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Casertana 1.72 gol attesi (10° con 17 punti, 16 gol fatti e 15 subiti in 12 gare), Casarano 1.28 (14° con 15 punti, 15 fatti e 20 subiti in 12 gare). Somma attesa 3.00 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       }
     },
     {
@@ -314,9 +314,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Crotone 1.90 gol attesi (20° con 1 punti, 12 gol fatti e 20 subiti in 12 gare), Giugliano 1.47 (16° con 13 punti, 16 fatti e 29 subiti in 12 gare). Somma attesa 3.37 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       }
     },
     {
@@ -359,9 +359,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Inter U23 1.78 gol attesi (9° con 17 punti, 21 gol fatti e 20 subiti in 12 gare), Salernitana 1.43 (12° con 15 punti, 15 fatti e 16 subiti in 12 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       }
     },
     {

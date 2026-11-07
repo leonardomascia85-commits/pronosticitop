@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Espanyol 1.49 gol attesi (14° con 11 punti, 13 gol fatti e 14 subiti in 11 gare), Deportivo de La Coruña 1.33 (8° con 14 punti, 15 fatti e 14 subiti in 11 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       },
       "pick_corner": {
         "esito": "under",

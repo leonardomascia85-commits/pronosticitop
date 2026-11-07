@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fulham 1.58 gol attesi (15° con 9 punti, 9 gol fatti e 11 subiti in 9 gare), Newcastle United 1.31 (13° con 11 punti, 12 fatti e 15 subiti in 9 gare). Somma attesa 2.89 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -196,9 +196,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Arsenal 1.58 gol attesi (1° con 24 punti, 14 gol fatti e 5 subiti in 9 gare), Hull City 1.04 (11° con 11 punti, 11 fatti e 10 subiti in 9 gare). Somma attesa 2.62 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       },
       "pick_corner": {
         "esito": "over",

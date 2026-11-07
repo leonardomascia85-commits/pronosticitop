@@ -220,9 +220,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.02 gol attesi (1° con 25 punti, 23 gol fatti e 12 subiti in 10 gare), Amedspor 1.89 (2° con 23 punti, 25 fatti e 11 subiti in 10 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-3",
+        "aggiornato": "2026-11-07T18:06:47+00:00"
       }
     },
     {
