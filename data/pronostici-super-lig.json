@@ -132,9 +132,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.42 gol attesi (17° con 4 punti, 10 gol fatti e 26 subiti in 10 gare), Konyaspor 1.53 (15° con 8 punti, 6 fatti e 13 subiti in 10 gare). Somma attesa 2.96 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T16:07:04+00:00"
       }
     },
     {
