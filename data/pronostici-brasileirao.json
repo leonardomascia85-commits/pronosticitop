@@ -439,9 +439,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vitória 1.39 gol attesi (14° con 38 punti, 35 gol fatti e 48 subiti in 33 gare), Fluminense 1.49 (4° con 54 punti, 52 fatti e 42 subiti in 33 gare). Somma attesa 2.88 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-3",
+        "aggiornato": "2026-11-07T02:06:56+00:00"
       }
     }
   ]
