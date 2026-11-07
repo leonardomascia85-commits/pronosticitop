@@ -2,7 +2,7 @@
   "id": "solo-sicure",
   "titolo": "Solo Sicure",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-03",
+  "aggiornato_il": "2026-11-07",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite con gli eventi quasi certi di ogni partita: Over 0.5 gol, Over 1.5 gol o Under 5.5 gol (il più probabile). Backtest su 441 partite concluse: probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto.",
   "schedine": [
@@ -1500,7 +1500,7 @@
       "variante": "libera",
       "quota_combinata": 1.33,
       "probabilita_combinata": 0.751,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Torino - Lecce",
@@ -1514,8 +1514,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Torino 1.92 gol attesi (10° con 13 punti, 14 gol fatti e 16 subiti in 10 gare), Lecce 1.36 (14° con 9 punti, 11 fatti e 21 subiti in 10 gare). Somma attesa 3.28 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Genoa - Milan",
@@ -1559,8 +1559,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ascoli 1.63 gol attesi (3° con 19 punti, 16 gol fatti e 6 subiti in 10 gare), Palermo 1.62 (1° con 26 punti, 24 fatti e 12 subiti in 10 gare). Somma attesa 3.25 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cesena - Catanzaro",
@@ -1574,8 +1574,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cesena 1.84 gol attesi (12° con 12 punti, 11 gol fatti e 14 subiti in 10 gare), Catanzaro 1.28 (20° con 6 punti, 11 fatti e 22 subiti in 10 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Mantova - Hellas Verona",
@@ -1589,8 +1589,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.63 gol attesi (4° con 18 punti, 15 gol fatti e 11 subiti in 10 gare), Hellas Verona 1.51 (5° con 15 punti, 19 fatti e 13 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Leeds United - Tottenham Hotspur",
@@ -1604,10 +1604,12 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.35 gol attesi (12° con 11 punti, 9 gol fatti e 8 subiti in 9 gare), Tottenham Hotspur 1.12 (9° con 12 punti, 10 fatti e 10 subiti in 9 gare). Somma attesa 2.47 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-07T22:06:42.277618+00:00"
     },
     {
       "id": "L4-5",
@@ -1680,6 +1682,121 @@
       ],
       "quota_max": 4,
       "quota_rispettata": true
+    },
+    {
+      "id": "L7-5",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 1.25,
+      "probabilita_combinata": 0.799,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atlético Madrid - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-11-08T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.99,
+          "quota_stimata": 1.01,
+          "probabilita_modello": 0.99,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.83 gol attesi (2° con 28 punti, 22 gol fatti e 8 subiti in 11 gare), FC Barcelona 2.56 (1° con 30 punti, 46 fatti e 12 subiti in 11 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torres - Latina",
+          "campionato": "Serie C",
+          "data": "2026-11-08T12:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Torres 1.28 gol attesi (6° con 20 punti, 13 gol fatti e 12 subiti in 13 gare), Latina 1.06 (12° con 15 punti, 12 fatti e 12 subiti in 12 gare). Somma attesa 2.34 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Savoia - Potenza",
+          "campionato": "Serie C",
+          "data": "2026-11-08T14:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Savoia 1.50 gol attesi (18° con 12 punti, 13 gol fatti e 18 subiti in 12 gare), Potenza 2.13 (1° con 29 punti, 32 fatti e 17 subiti in 12 gare). Somma attesa 3.63 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Rayo Vallecano",
+          "campionato": "La Liga",
+          "data": "2026-11-08T16:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.09 gol attesi (5° con 19 punti, 20 gol fatti e 20 subiti in 11 gare), Rayo Vallecano 1.58 (12° con 12 punti, 15 fatti e 20 subiti in 10 gare). Somma attesa 3.67 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Genoa - Milan",
+          "campionato": "Serie A",
+          "data": "2026-11-08T15:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Genoa 1.38 gol attesi (11° con 13 punti, 10 gol fatti e 14 subiti in 10 gare), Milan 1.73 (5° con 21 punti, 21 fatti e 12 subiti in 10 gare). Somma attesa 3.11 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fiorentina - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-11-08T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.04,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Grosseto - Pescara",
+          "campionato": "Serie C",
+          "data": "2026-11-08T12:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Grosseto 1.85 gol attesi (3° con 23 punti, 25 gol fatti e 15 subiti in 12 gare), Pescara 1.24 (5° con 20 punti, 15 fatti e 13 subiti in 13 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

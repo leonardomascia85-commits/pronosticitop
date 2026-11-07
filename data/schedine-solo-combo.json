@@ -2135,8 +2135,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.01 gol attesi (2° con 18 punti, 14 gol fatti e 6 subiti in 8 gare), SV Elversberg 1.43 (7° con 13 punti, 16 fatti e 16 subiti in 8 gare). Somma attesa 3.45 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "AJ Auxerre - Paris FC",
@@ -2237,8 +2237,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",

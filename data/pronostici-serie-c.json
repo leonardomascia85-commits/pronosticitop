@@ -404,9 +404,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pergolettese 1.46 gol attesi (10° con 17 punti, 14 gol fatti e 15 subiti in 13 gare), Renate 1.21 (19° con 8 punti, 14 fatti e 16 subiti in 12 gare). Somma attesa 2.67 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {

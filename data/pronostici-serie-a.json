@@ -247,9 +247,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       },
       "pick_corner": {
         "esito": "under",

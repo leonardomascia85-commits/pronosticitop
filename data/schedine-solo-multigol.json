@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-03",
+  "aggiornato_il": "2026-11-07",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -8055,7 +8055,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.81,
       "probabilita_combinata": 0.356,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Kasımpaşa",
@@ -8069,8 +8069,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.30 gol attesi (16° con 8 punti, 9 gol fatti e 17 subiti in 10 gare), Kasımpaşa 1.53 (5° con 17 punti, 15 fatti e 11 subiti in 10 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Vitória - Fluminense",
@@ -8084,8 +8084,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória 1.39 gol attesi (14° con 38 punti, 35 gol fatti e 48 subiti in 33 gare), Fluminense 1.49 (4° con 54 punti, 52 fatti e 42 subiti in 33 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Venezia - Udinese",
@@ -8099,8 +8099,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.67 gol attesi (20° con 3 punti, 6 gol fatti e 20 subiti in 10 gare), Udinese 1.50 (19° con 5 punti, 11 fatti e 23 subiti in 10 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Genoa - Milan",
@@ -8144,8 +8144,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cesena 1.84 gol attesi (12° con 12 punti, 11 gol fatti e 14 subiti in 10 gare), Catanzaro 1.28 (20° con 6 punti, 11 fatti e 22 subiti in 10 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Mantova - Hellas Verona",
@@ -8159,12 +8159,14 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.63 gol attesi (4° con 18 punti, 15 gol fatti e 11 subiti in 10 gare), Hellas Verona 1.51 (5° con 15 punti, 19 fatti e 13 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-07T22:06:42.277618+00:00"
     },
     {
       "id": "L4-22",
@@ -8621,6 +8623,123 @@
         }
       ],
       "quota_max": 5,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-24",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 2.5,
+      "probabilita_combinata": 0.399,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Giana Erminio - Cittadella",
+          "campionato": "Serie C",
+          "data": "2026-11-08T14:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 1.10 gol attesi (16° con 11 punti, 13 gol fatti e 17 subiti in 12 gare), Cittadella 1.47 (1° con 30 punti, 19 fatti e 6 subiti in 12 gare). Somma attesa 2.57 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Monopoli - Cosenza",
+          "campionato": "Serie C",
+          "data": "2026-11-08T14:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monopoli 1.72 gol attesi (6° con 19 punti, 13 gol fatti e 9 subiti in 12 gare), Cosenza 0.94 (19° con 9 punti, 10 fatti e 23 subiti in 12 gare). Somma attesa 2.66 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Desenzano - Ospitaletto Franciacorta",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Desenzano 1.17 gol attesi (12° con 13 punti, 10 gol fatti e 14 subiti in 12 gare), Ospitaletto Franciacorta 1.34 (6° con 19 punti, 18 fatti e 11 subiti in 12 gare). Somma attesa 2.52 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pianese - Perugia",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pianese 1.32 gol attesi (16° con 10 punti, 7 gol fatti e 11 subiti in 12 gare), Perugia 1.19 (10° con 17 punti, 16 fatti e 18 subiti in 12 gare). Somma attesa 2.51 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torres - Latina",
+          "campionato": "Serie C",
+          "data": "2026-11-08T12:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Torres 1.28 gol attesi (6° con 20 punti, 13 gol fatti e 12 subiti in 13 gare), Latina 1.06 (12° con 15 punti, 12 fatti e 12 subiti in 12 gare). Somma attesa 2.34 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Lecco - Juventus Next Gen",
+          "campionato": "Serie C",
+          "data": "2026-11-08T14:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Lecco 1.76 gol attesi (9° con 17 punti, 18 gol fatti e 11 subiti in 12 gare), Juventus Next Gen 1.06 (17° con 11 punti, 12 fatti e 19 subiti in 12 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
       "quota_rispettata": true
     }
   ]

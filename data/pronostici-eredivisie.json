@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Excelsior 2.11 gol attesi (15° con 11 punti, 16 gol fatti e 28 subiti in 11 gare), Go Ahead Eagles 2.15 (10° con 14 punti, 23 fatti e 27 subiti in 11 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {

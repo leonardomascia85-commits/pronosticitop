@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       },
       "pick_corner": {
         "esito": "under",

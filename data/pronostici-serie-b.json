@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cesena 1.84 gol attesi (12° con 12 punti, 11 gol fatti e 14 subiti in 10 gare), Catanzaro 1.28 (20° con 6 punti, 11 fatti e 22 subiti in 10 gare). Somma attesa 3.13 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.72 gol attesi (16° con 9 punti, 11 gol fatti e 11 subiti in 10 gare), Arezzo 1.11 (13° con 11 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {
@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Padova 1.59 gol attesi (10° con 14 punti, 10 gol fatti e 11 subiti in 10 gare), Empoli 1.14 (18° con 8 punti, 10 fatti e 17 subiti in 10 gare). Somma attesa 2.73 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pisa 1.66 gol attesi (8° con 15 punti, 18 gol fatti e 15 subiti in 10 gare), Südtirol 1.32 (9° con 14 punti, 11 fatti e 10 subiti in 10 gare). Somma attesa 2.98 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {
@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Mantova 1.63 gol attesi (4° con 18 punti, 15 gol fatti e 11 subiti in 10 gare), Hellas Verona 1.51 (5° con 15 punti, 19 fatti e 13 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {
@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Benevento 1.47 gol attesi (7° con 15 punti, 14 gol fatti e 10 subiti in 10 gare), Avellino 1.28 (6° con 15 punti, 15 fatti e 10 subiti in 10 gare). Somma attesa 2.75 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-07T22:06:42+00:00"
       }
     },
     {

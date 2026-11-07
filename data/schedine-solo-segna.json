@@ -5329,7 +5329,7 @@
       "variante": "libera",
       "quota_combinata": 1.9,
       "probabilita_combinata": 0.528,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Twente - Ajax",
@@ -5358,8 +5358,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Excelsior 2.11 gol attesi (15° con 11 punti, 16 gol fatti e 28 subiti in 11 gare), Go Ahead Eagles 2.15 (10° con 14 punti, 23 fatti e 27 subiti in 11 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "AZ Alkmaar - FC Groningen",
@@ -5406,7 +5406,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-07T22:06:42.277618+00:00"
     },
     {
       "id": "L6-16",
@@ -6074,6 +6076,91 @@
       ],
       "quota_max": 4,
       "quota_rispettata": true
+    },
+    {
+      "id": "L5-16",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 1.99,
+      "probabilita_combinata": 0.504,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Twente - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T14:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Twente)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.22 gol attesi (4° con 23 punti, 28 gol fatti e 10 subiti in 11 gare), Ajax 1.93 (2° con 24 punti, 30 fatti e 13 subiti in 11 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "AZ Alkmaar - FC Groningen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (AZ Alkmaar)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 2.18 gol attesi (5° con 20 punti, 20 gol fatti e 13 subiti in 11 gare), FC Groningen 1.81 (8° con 15 punti, 26 fatti e 24 subiti in 11 gare). Somma attesa 3.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Gençlerbirliği",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T21:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Beşiktaş)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.12 gol attesi (4° con 19 punti, 20 gol fatti e 12 subiti in 10 gare), Gençlerbirliği 1.25 (14° con 11 punti, 12 fatti e 18 subiti in 10 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Como",
+          "campionato": "Serie A",
+          "data": "2026-11-08T18:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Inter)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.08 gol attesi (2° con 25 punti, 26 gol fatti e 13 subiti in 10 gare), Como 1.52 (4° con 23 punti, 18 fatti e 8 subiti in 10 gare). Somma attesa 3.60 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Grosseto - Pescara",
+          "campionato": "Serie C",
+          "data": "2026-11-08T12:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Grosseto)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Grosseto 1.85 gol attesi (3° con 23 punti, 25 gol fatti e 15 subiti in 12 gare), Pescara 1.24 (5° con 20 punti, 15 fatti e 13 subiti in 13 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }
