@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.95 gol attesi (17° con 6 punti, 13 gol fatti e 24 subiti in 11 gare), Sparta Rotterdam 1.86 (11° con 12 punti, 20 fatti e 26 subiti in 11 gare). Somma attesa 3.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-07T20:06:51+00:00"
       }
     },
     {

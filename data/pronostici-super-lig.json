@@ -176,9 +176,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Göztepe 2.10 gol attesi (9° con 15 punti, 21 gol fatti e 17 subiti in 10 gare), Başakşehir 1.61 (10° con 14 punti, 17 fatti e 16 subiti in 10 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-07T20:06:51+00:00"
       }
     },
     {

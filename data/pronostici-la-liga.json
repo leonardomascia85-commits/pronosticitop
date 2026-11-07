@@ -196,9 +196,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Osasuna 1.21 gol attesi (15° con 11 punti, 11 gol fatti e 22 subiti in 11 gare), Athletic Club 1.62 (7° con 15 punti, 13 fatti e 7 subiti in 9 gare). Somma attesa 2.84 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-07T20:06:51+00:00"
       },
       "pick_corner": {
         "esito": "under",
