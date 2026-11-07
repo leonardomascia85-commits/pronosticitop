@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.97 gol attesi (18° con 3 punti, 3 gol fatti e 28 subiti in 10 gare), Kocaelispor 1.78 (8° con 16 punti, 11 fatti e 9 subiti in 10 gare). Somma attesa 2.75 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-07T14:06:55+00:00"
       }
     },
     {
