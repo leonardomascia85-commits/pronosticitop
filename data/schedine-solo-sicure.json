@@ -1249,7 +1249,7 @@
       "variante": "libera",
       "quota_combinata": 1.12,
       "probabilita_combinata": 0.894,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Galatasaray - Amedspor",
@@ -1263,8 +1263,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.02 gol attesi (1° con 25 punti, 23 gol fatti e 12 subiti in 10 gare), Amedspor 1.89 (2° con 23 punti, 25 fatti e 11 subiti in 10 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Borussia Dortmund - SV Elversberg",
@@ -1278,8 +1278,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.01 gol attesi (2° con 18 punti, 14 gol fatti e 6 subiti in 8 gare), SV Elversberg 1.43 (7° con 13 punti, 16 fatti e 16 subiti in 8 gare). Somma attesa 3.45 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "1. FC Köln - Bayer 04 Leverkusen",
@@ -1293,8 +1293,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.76 gol attesi (13° con 9 punti, 9 gol fatti e 12 subiti in 8 gare), Bayer 04 Leverkusen 1.82 (6° con 13 punti, 18 fatti e 16 subiti in 8 gare). Somma attesa 3.58 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SC Freiburg - 1. FC Union Berlin",
@@ -1308,10 +1308,12 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T20:06:57.622450+00:00"
     },
     {
       "id": "L5-5",
@@ -1319,7 +1321,7 @@
       "variante": "libera",
       "quota_combinata": 1.15,
       "probabilita_combinata": 0.868,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Çorum FK - Fenerbahçe",
@@ -1333,8 +1335,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Çorum FK 1.85 gol attesi (7° con 16 punti, 21 gol fatti e 16 subiti in 10 gare), Fenerbahçe 1.97 (6° con 16 punti, 24 fatti e 10 subiti in 10 gare). Somma attesa 3.82 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-5"
         },
         {
           "partita": "Brighton & Hove Albion - Brentford",
@@ -1348,8 +1350,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.19 gol attesi (3° con 19 punti, 24 gol fatti e 7 subiti in 9 gare), Brentford 1.33 (6° con 14 punti, 16 fatti e 9 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sunderland - Chelsea",
@@ -1363,8 +1365,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.49 gol attesi (20° con 5 punti, 7 gol fatti e 17 subiti in 9 gare), Chelsea 1.89 (4° con 16 punti, 19 fatti e 15 subiti in 9 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Toulouse FC - RC Strasbourg Alsace",
@@ -1378,8 +1380,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Toulouse FC 1.89 gol attesi (12° con 10 punti, 12 gol fatti e 13 subiti in 9 gare), RC Strasbourg Alsace 1.62 (13° con 10 punti, 17 fatti e 19 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "AJ Auxerre - Paris FC",
@@ -1393,10 +1395,12 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.53 gol attesi (14° con 10 punti, 13 gol fatti e 23 subiti in 9 gare), Paris FC 1.94 (4° con 17 punti, 16 fatti e 10 subiti in 9 gare). Somma attesa 3.47 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T20:06:57.622450+00:00"
     },
     {
       "id": "L6-4",
@@ -1808,7 +1812,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.3,
       "probabilita_combinata": 0.767,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Desenzano - Ospitaletto Franciacorta",
@@ -1837,8 +1841,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 1.76 gol attesi (20° con 7 punti, 11 gol fatti e 21 subiti in 12 gare), Carpi 1.50 (15° con 12 punti, 16 fatti e 26 subiti in 12 gare). Somma attesa 3.25 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Treviso - Novara",
@@ -1852,8 +1856,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Treviso 1.43 gol attesi (7° con 19 punti, 12 gol fatti e 9 subiti in 12 gare), Novara 0.97 (13° con 13 punti, 11 fatti e 16 subiti in 12 gare). Somma attesa 2.40 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Pianese - Perugia",
@@ -1902,7 +1906,9 @@
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T20:06:57.622450+00:00"
     },
     {
       "id": "L5-6",
@@ -1990,6 +1996,76 @@
       ],
       "quota_max": 5,
       "quota_rispettata": true
+    },
+    {
+      "id": "L4-6",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.24,
+      "probabilita_combinata": 0.806,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Altamura - Cavese",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Altamura 1.54 gol attesi (15° con 15 punti, 11 gol fatti e 17 subiti in 12 gare), Cavese 1.55 (11° con 15 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

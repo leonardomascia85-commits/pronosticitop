@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-08T20:06:57+00:00"
       },
       "pick_corner": {
         "esito": "under",

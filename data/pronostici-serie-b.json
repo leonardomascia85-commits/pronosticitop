@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Carrarese 1.59 gol attesi (15° con 10 punti, 9 gol fatti e 13 subiti in 10 gare), Sampdoria 1.21 (19° con 8 punti, 10 fatti e 18 subiti in 10 gare). Somma attesa 2.80 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-08T20:06:57+00:00"
       }
     },
     {

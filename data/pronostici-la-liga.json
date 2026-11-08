@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Elche 1.56 gol attesi (17° con 10 punti, 14 gol fatti e 18 subiti in 11 gare), Real Betis 1.56 (4° con 23 punti, 18 fatti e 15 subiti in 11 gare). Somma attesa 3.13 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-08T20:06:57+00:00"
       },
       "pick_corner": {
         "esito": "over",
