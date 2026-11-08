@@ -989,9 +989,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Desenzano 1.17 gol attesi (12° con 13 punti, 10 gol fatti e 14 subiti in 12 gare), Ospitaletto Franciacorta 1.34 (6° con 19 punti, 18 fatti e 11 subiti in 12 gare). Somma attesa 2.52 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       }
     },
     {
@@ -1169,9 +1169,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sambenedettese 1.42 gol attesi (17° con 10 punti, 16 gol fatti e 22 subiti in 13 gare), Guidonia Montecelio 1.45 (9° con 17 punti, 15 fatti e 13 subiti in 12 gare). Somma attesa 2.87 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       }
     },
     {

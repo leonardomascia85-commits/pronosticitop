@@ -7881,7 +7881,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.71,
       "probabilita_combinata": 0.586,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Padova - Empoli",
@@ -7895,8 +7895,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Padova 1.59 gol attesi (10° con 14 punti, 10 gol fatti e 11 subiti in 10 gare), Empoli 1.14 (18° con 8 punti, 10 fatti e 17 subiti in 10 gare). Somma attesa 2.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Le Havre AC - FC Lorient",
@@ -7910,8 +7910,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.27 gol attesi (18° con 2 punti, 9 gol fatti e 20 subiti in 9 gare), FC Lorient 1.46 (11° con 12 punti, 7 fatti e 8 subiti in 9 gare). Somma attesa 2.72 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Parma - Bologna",
@@ -7925,8 +7925,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.34 gol attesi (15° con 8 punti, 8 gol fatti e 15 subiti in 10 gare), Bologna 1.43 (9° con 14 punti, 14 fatti e 13 subiti in 10 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Juve Stabia - Arezzo",
@@ -7940,12 +7940,14 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.72 gol attesi (16° con 9 punti, 11 gol fatti e 11 subiti in 10 gare), Arezzo 1.11 (13° con 11 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L6-24",
@@ -8129,8 +8131,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Cesena - Catanzaro",
@@ -8174,7 +8176,7 @@
       "variante": "libera",
       "quota_combinata": 1.81,
       "probabilita_combinata": 0.553,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Kocaelispor",
@@ -8188,8 +8190,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.97 gol attesi (18° con 3 punti, 3 gol fatti e 28 subiti in 10 gare), Kocaelispor 1.78 (8° con 16 punti, 11 fatti e 9 subiti in 10 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "SC Paderborn 07 - Eintracht Frankfurt",
@@ -8203,8 +8205,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Le Mans FC - AS Monaco",
@@ -8218,8 +8220,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Le Mans FC 1.44 gol attesi (17° con 7 punti, 11 gol fatti e 18 subiti in 9 gare), AS Monaco 1.57 (7° con 15 punti, 12 fatti e 10 subiti in 9 gare). Somma attesa 3.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Angers SCO - OGC Nice",
@@ -8233,10 +8235,12 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.44 gol attesi (15° con 8 punti, 9 gol fatti e 17 subiti in 9 gare), OGC Nice 1.57 (8° con 14 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L5-24",
@@ -8244,7 +8248,7 @@
       "variante": "libera",
       "quota_combinata": 2.2,
       "probabilita_combinata": 0.454,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Samsunspor - Konyaspor",
@@ -8258,8 +8262,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.42 gol attesi (17° con 4 punti, 10 gol fatti e 26 subiti in 10 gare), Konyaspor 1.53 (15° con 8 punti, 6 fatti e 13 subiti in 10 gare). Somma attesa 2.96 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Stade Brestois 29 - Olympique Lyonnais",
@@ -8273,8 +8277,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.55 gol attesi (10° con 12 punti, 16 gol fatti e 12 subiti in 9 gare), Olympique Lyonnais 1.46 (3° con 17 punti, 15 fatti e 7 subiti in 9 gare). Somma attesa 3.01 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Torino - Lecce",
@@ -8288,8 +8292,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Torino 1.92 gol attesi (10° con 13 punti, 14 gol fatti e 16 subiti in 10 gare), Lecce 1.36 (14° con 9 punti, 11 fatti e 21 subiti in 10 gare). Somma attesa 3.28 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Ascoli - Palermo",
@@ -8303,8 +8307,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ascoli 1.63 gol attesi (3° con 19 punti, 16 gol fatti e 6 subiti in 10 gare), Palermo 1.62 (1° con 26 punti, 24 fatti e 12 subiti in 10 gare). Somma attesa 3.25 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Cagliari - Frosinone",
@@ -8318,10 +8322,12 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.42 gol attesi (12° con 13 punti, 9 gol fatti e 15 subiti in 10 gare), Frosinone 1.94 (6° con 20 punti, 24 fatti e 14 subiti in 10 gare). Somma attesa 3.36 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L6-25",
@@ -8681,8 +8687,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Desenzano 1.17 gol attesi (12° con 13 punti, 10 gol fatti e 14 subiti in 12 gare), Ospitaletto Franciacorta 1.34 (6° con 19 punti, 18 fatti e 11 subiti in 12 gare). Somma attesa 2.52 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Pianese - Perugia",
@@ -8865,6 +8871,78 @@
         }
       ],
       "quota_max": 7,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L4-23",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.75,
+      "probabilita_combinata": 0.573,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Altamura - Cavese",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Altamura 1.54 gol attesi (15° con 15 punti, 11 gol fatti e 17 subiti in 12 gare), Cavese 1.55 (11° con 15 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
       "quota_rispettata": true
     }
   ]

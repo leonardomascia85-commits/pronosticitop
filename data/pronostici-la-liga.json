@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.67 gol attesi (10° con 12 punti, 10 gol fatti e 10 subiti in 11 gare), Levante 1.18 (19° con 7 punti, 13 fatti e 20 subiti in 10 gare). Somma attesa 2.85 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -451,9 +451,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Villarreal 1.64 gol attesi (9° con 12 punti, 15 gol fatti e 15 subiti in 11 gare), Getafe 1.13 (13° con 12 punti, 8 fatti e 16 subiti in 11 gare). Somma attesa 2.77 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -502,9 +502,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.83 gol attesi (2° con 28 punti, 22 gol fatti e 8 subiti in 11 gare), FC Barcelona 2.56 (1° con 30 punti, 46 fatti e 12 subiti in 11 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "under",

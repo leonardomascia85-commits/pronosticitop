@@ -502,9 +502,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",

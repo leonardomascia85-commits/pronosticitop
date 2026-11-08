@@ -7907,7 +7907,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.87,
       "probabilita_combinata": 0.534,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Padova - Empoli",
@@ -7921,8 +7921,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Padova 1.59 gol attesi (10° con 14 punti, 10 gol fatti e 11 subiti in 10 gare), Empoli 1.14 (18° con 8 punti, 10 fatti e 17 subiti in 10 gare). Somma attesa 2.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Le Havre AC - FC Lorient",
@@ -7936,8 +7936,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.27 gol attesi (18° con 2 punti, 9 gol fatti e 20 subiti in 9 gare), FC Lorient 1.46 (11° con 12 punti, 7 fatti e 8 subiti in 9 gare). Somma attesa 2.72 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Parma - Bologna",
@@ -7951,8 +7951,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Parma 1.34 gol attesi (15° con 8 punti, 8 gol fatti e 15 subiti in 10 gare), Bologna 1.43 (9° con 14 punti, 14 fatti e 13 subiti in 10 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Benevento - Avellino",
@@ -7966,12 +7966,14 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.47 gol attesi (7° con 15 punti, 14 gol fatti e 10 subiti in 10 gare), Avellino 1.28 (6° con 15 punti, 15 fatti e 10 subiti in 10 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L5-24",
@@ -8064,7 +8066,7 @@
       "variante": "libera",
       "quota_combinata": 3.21,
       "probabilita_combinata": 0.311,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Rizespor - Erzurumspor",
@@ -8078,8 +8080,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Rizespor 1.55 gol attesi (13° con 11 punti, 11 gol fatti e 15 subiti in 10 gare), Erzurumspor 1.25 (11° con 14 punti, 9 fatti e 15 subiti in 10 gare). Somma attesa 2.80 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Vitória - Fluminense",
@@ -8093,8 +8095,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória 1.39 gol attesi (14° con 38 punti, 35 gol fatti e 48 subiti in 33 gare), Fluminense 1.49 (4° con 54 punti, 52 fatti e 42 subiti in 33 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Pisa - Südtirol",
@@ -8108,8 +8110,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.66 gol attesi (8° con 15 punti, 18 gol fatti e 15 subiti in 10 gare), Südtirol 1.32 (9° con 14 punti, 11 fatti e 10 subiti in 10 gare). Somma attesa 2.98 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "TSG Hoffenheim - FC Schalke 04",
@@ -8123,8 +8125,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Le Mans FC - AS Monaco",
@@ -8138,8 +8140,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Le Mans FC 1.44 gol attesi (17° con 7 punti, 11 gol fatti e 18 subiti in 9 gare), AS Monaco 1.57 (7° con 15 punti, 12 fatti e 10 subiti in 9 gare). Somma attesa 3.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Angers SCO - OGC Nice",
@@ -8153,10 +8155,12 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.44 gol attesi (15° con 8 punti, 9 gol fatti e 17 subiti in 9 gare), OGC Nice 1.57 (8° con 14 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L7-23",
@@ -8164,7 +8168,7 @@
       "variante": "libera",
       "quota_combinata": 4.66,
       "probabilita_combinata": 0.215,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Gaziantep FK - Kasımpaşa",
@@ -8178,8 +8182,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.30 gol attesi (16° con 8 punti, 9 gol fatti e 17 subiti in 10 gare), Kasımpaşa 1.53 (5° con 17 punti, 15 fatti e 11 subiti in 10 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Stade Brestois 29 - Olympique Lyonnais",
@@ -8193,8 +8197,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.55 gol attesi (10° con 12 punti, 16 gol fatti e 12 subiti in 9 gare), Olympique Lyonnais 1.46 (3° con 17 punti, 15 fatti e 7 subiti in 9 gare). Somma attesa 3.01 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Cesena - Catanzaro",
@@ -8208,8 +8212,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cesena 1.84 gol attesi (12° con 12 punti, 11 gol fatti e 14 subiti in 10 gare), Catanzaro 1.28 (20° con 6 punti, 11 fatti e 22 subiti in 10 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "SC Paderborn 07 - Eintracht Frankfurt",
@@ -8223,8 +8227,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Venezia - Udinese",
@@ -8238,8 +8242,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.67 gol attesi (20° con 3 punti, 6 gol fatti e 20 subiti in 10 gare), Udinese 1.50 (19° con 5 punti, 11 fatti e 23 subiti in 10 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Genoa - Milan",
@@ -8253,8 +8257,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Genoa 1.38 gol attesi (11° con 13 punti, 10 gol fatti e 14 subiti in 10 gare), Milan 1.73 (5° con 21 punti, 21 fatti e 12 subiti in 10 gare). Somma attesa 3.11 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Fiorentina - Juventus",
@@ -8268,10 +8272,12 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L5-25",

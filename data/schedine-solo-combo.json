@@ -2107,8 +2107,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Fortuna Sittard - Telstar",
@@ -2339,7 +2339,7 @@
       "variante": "libera",
       "quota_combinata": 4.89,
       "probabilita_combinata": 0.205,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Brighton & Hove Albion - Brentford",
@@ -2353,8 +2353,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.19 gol attesi (3° con 19 punti, 24 gol fatti e 7 subiti in 9 gare), Brentford 1.33 (6° con 14 punti, 16 fatti e 9 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Valencia - Real Madrid",
@@ -2368,8 +2368,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 1.14 gol attesi (18° con 9 punti, 8 gol fatti e 17 subiti in 11 gare), Real Madrid 2.05 (3° con 27 punti, 28 fatti e 10 subiti in 11 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "Atlético Madrid - FC Barcelona",
@@ -2383,8 +2383,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.83 gol attesi (2° con 28 punti, 22 gol fatti e 8 subiti in 11 gare), FC Barcelona 2.56 (1° con 30 punti, 46 fatti e 12 subiti in 11 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Beşiktaş - Gençlerbirliği",
@@ -2398,10 +2398,12 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.12 gol attesi (4° con 19 punti, 20 gol fatti e 12 subiti in 10 gare), Gençlerbirliği 1.25 (14° con 11 punti, 12 fatti e 18 subiti in 10 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L5-17",
@@ -2423,8 +2425,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "AZ Alkmaar - FC Groningen",
@@ -2583,7 +2585,7 @@
       "variante": "alternativa",
       "quota_combinata": 6.99,
       "probabilita_combinata": 0.143,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Fiorentina - Juventus",
@@ -2597,8 +2599,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Altamura - Cavese",
@@ -2627,8 +2629,8 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "L.R. Vicenza - Cremonese",
@@ -2642,6 +2644,78 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
+    },
+    {
+      "id": "L4-16",
+      "livello_rischio": 4,
+      "variante": "alternativa",
+      "quota_combinata": 8.14,
+      "probabilita_combinata": 0.123,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Altamura - Cavese",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.62,
+          "quota_stimata": 1.61,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Altamura 1.54 gol attesi (15° con 15 punti, 11 gol fatti e 17 subiti in 12 gare), Cavese 1.55 (11° con 15 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.6,
+          "quota_stimata": 1.67,
+          "probabilita_modello": 0.6,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.59,
+          "quota_stimata": 1.71,
+          "probabilita_modello": 0.59,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.8,
+          "probabilita_modello": 0.56,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
           "esito": null,
           "risultato_reale": null
         }

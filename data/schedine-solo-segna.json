@@ -5753,8 +5753,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Willem II - PEC Zwolle",
@@ -5902,7 +5902,7 @@
       "variante": "quota_max",
       "quota_combinata": 4.27,
       "probabilita_combinata": 0.234,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Eyüpspor - Kocaelispor",
@@ -5916,8 +5916,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.97 gol attesi (18° con 3 punti, 3 gol fatti e 28 subiti in 10 gare), Kocaelispor 1.78 (8° con 16 punti, 11 fatti e 9 subiti in 10 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Juve Stabia - Arezzo",
@@ -5931,8 +5931,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.72 gol attesi (16° con 9 punti, 11 gol fatti e 11 subiti in 10 gare), Arezzo 1.11 (13° con 11 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Venezia - Udinese",
@@ -5946,8 +5946,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.67 gol attesi (20° con 3 punti, 6 gol fatti e 20 subiti in 10 gare), Udinese 1.50 (19° con 5 punti, 11 fatti e 23 subiti in 10 gare). Somma attesa 3.17 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Fiorentina - Juventus",
@@ -5961,8 +5961,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Ipswich Town - AFC Bournemouth",
@@ -5976,8 +5976,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ipswich Town 1.71 gol attesi (14° con 11 punti, 14 gol fatti e 18 subiti in 9 gare), AFC Bournemouth 1.65 (8° con 12 punti, 14 fatti e 13 subiti in 9 gare). Somma attesa 3.36 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "SC Paderborn 07 - Eintracht Frankfurt",
@@ -5991,8 +5991,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Ascoli - Palermo",
@@ -6006,12 +6006,14 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ascoli 1.63 gol attesi (3° con 19 punti, 16 gol fatti e 6 subiti in 10 gare), Palermo 1.62 (1° con 26 punti, 24 fatti e 12 subiti in 10 gare). Somma attesa 3.25 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T22:06:33.196160+00:00"
     },
     {
       "id": "L4-17",
@@ -6194,8 +6196,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.83 gol attesi (2° con 28 punti, 22 gol fatti e 8 subiti in 11 gare), FC Barcelona 2.56 (1° con 30 punti, 46 fatti e 12 subiti in 11 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Folgore Caratese - Carpi",
@@ -6239,8 +6241,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.67 gol attesi (10° con 12 punti, 10 gol fatti e 10 subiti in 11 gare), Levante 1.18 (19° con 7 punti, 13 fatti e 20 subiti in 10 gare). Somma attesa 2.85 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 4,
@@ -6268,8 +6270,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.64 gol attesi (9° con 12 punti, 15 gol fatti e 15 subiti in 11 gare), Getafe 1.13 (13° con 12 punti, 8 fatti e 16 subiti in 11 gare). Somma attesa 2.77 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "TSG Hoffenheim - FC Schalke 04",
@@ -6283,8 +6285,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Carrarese - Sampdoria",
@@ -6343,8 +6345,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.44 gol attesi (15° con 8 punti, 9 gol fatti e 17 subiti in 9 gare), OGC Nice 1.57 (8° con 14 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.02 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "esito_finale": "persa",

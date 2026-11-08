@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.27 gol attesi (18° con 2 punti, 9 gol fatti e 20 subiti in 9 gare), FC Lorient 1.46 (11° con 12 punti, 7 fatti e 8 subiti in 9 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.44 gol attesi (15° con 8 punti, 9 gol fatti e 17 subiti in 9 gare), OGC Nice 1.57 (8° con 14 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.02 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.55 gol attesi (10° con 12 punti, 16 gol fatti e 12 subiti in 9 gare), Olympique Lyonnais 1.46 (3° con 17 punti, 15 fatti e 7 subiti in 9 gare). Somma attesa 3.01 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -451,9 +451,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-08T22:06:33+00:00"
       },
       "pick_corner": {
         "esito": "under",
