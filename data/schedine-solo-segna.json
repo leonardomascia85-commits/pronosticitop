@@ -5690,8 +5690,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.51 gol attesi (8° con 14 punti, 17 gol fatti e 13 subiti in 10 gare), Lazio 1.86 (1° con 28 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
       ],
       "quota_max": 4,

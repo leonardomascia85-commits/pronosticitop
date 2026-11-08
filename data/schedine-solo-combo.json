@@ -2250,7 +2250,7 @@
       "variante": "libera",
       "quota_combinata": 8.11,
       "probabilita_combinata": 0.123,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Napoli - Lazio",
@@ -2264,8 +2264,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.51 gol attesi (8° con 14 punti, 17 gol fatti e 13 subiti in 10 gare), Lazio 1.86 (1° con 28 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.38 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Stade Rennais FC - LOSC Lille",
@@ -2309,8 +2309,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.02 gol attesi (1° con 25 punti, 23 gol fatti e 12 subiti in 10 gare), Amedspor 1.89 (2° con 23 punti, 25 fatti e 11 subiti in 10 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Monza - Atalanta",
@@ -2327,7 +2327,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T14:07:13.131054+00:00"
     },
     {
       "id": "L4-14",
@@ -2483,7 +2485,92 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-18",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 8.89,
+      "probabilita_combinata": 0.112,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "SC Cambuur - PSV",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T16:45:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Pareggio o PSV + Over 1.5",
+          "esito_pick": "x2_o15",
+          "probabilita_stimata": 0.66,
+          "quota_stimata": 1.51,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - NEC Nijmegen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T20:00:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Gol + Over 2.5",
+          "esito_pick": "gol_o25",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.53,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Alanyaspor - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-08T18:30:00+03:00",
+          "mercato": "COMBO",
+          "pronostico": "Pareggio o Trabzonspor + Over 1.5",
+          "esito_pick": "x2_o15",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.17 gol attesi (12° con 12 punti, 9 gol fatti e 16 subiti in 10 gare), Trabzonspor 1.97 (3° con 22 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Folgore Caratese - Carpi",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Nessun pareggio + Over 1.5",
+          "esito_pick": "12_o15",
+          "probabilita_stimata": 0.64,
+          "quota_stimata": 1.56,
+          "probabilita_modello": 0.64,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 1.76 gol attesi (20° con 7 punti, 11 gol fatti e 21 subiti in 12 gare), Carpi 1.50 (15° con 12 punti, 16 fatti e 26 subiti in 12 gare). Somma attesa 3.25 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Como",
+          "campionato": "Serie A",
+          "data": "2026-11-08T18:00:00+01:00",
+          "mercato": "COMBO",
+          "pronostico": "Inter o pareggio + Over 1.5",
+          "esito_pick": "1x_o15",
+          "probabilita_stimata": 0.63,
+          "quota_stimata": 1.59,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.08 gol attesi (2° con 25 punti, 26 gol fatti e 13 subiti in 10 gare), Como 1.52 (4° con 23 punti, 18 fatti e 8 subiti in 10 gare). Somma attesa 3.60 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ],
-  "aggiornato_il": "2026-11-07"
+  "aggiornato_il": "2026-11-08"
 }

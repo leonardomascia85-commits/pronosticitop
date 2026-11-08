@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.65 gol attesi (7° con 18 punti, 19 gol fatti e 13 subiti in 11 gare), Feyenoord 2.19 (1° con 25 punti, 33 fatti e 12 subiti in 11 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-3",
+        "aggiornato": "2026-11-08T14:07:13+00:00"
       }
     },
     {

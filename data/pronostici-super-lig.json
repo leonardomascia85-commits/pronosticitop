@@ -264,9 +264,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Rizespor 1.55 gol attesi (13° con 11 punti, 11 gol fatti e 15 subiti in 10 gare), Erzurumspor 1.25 (11° con 14 punti, 9 fatti e 15 subiti in 10 gare). Somma attesa 2.80 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-08T14:07:13+00:00"
       }
     },
     {
