@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.34 gol attesi (14° con 10 punti, 11 gol fatti e 12 subiti in 10 gare), Modena 1.49 (2° con 20 punti, 18 fatti e 10 subiti in 10 gare). Somma attesa 2.83 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-08T16:07:26+00:00"
       }
     },
     {

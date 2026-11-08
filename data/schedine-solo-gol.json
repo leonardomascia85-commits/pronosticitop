@@ -9882,7 +9882,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.84,
       "probabilita_combinata": 0.543,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Twente - Ajax",
@@ -9896,8 +9896,8 @@
           "probabilita_modello": 0.92,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.22 gol attesi (4° con 23 punti, 28 gol fatti e 10 subiti in 11 gare), Ajax 1.93 (2° con 24 punti, 30 fatti e 13 subiti in 11 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "AZ Alkmaar - FC Groningen",
@@ -9926,8 +9926,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.65 gol attesi (7° con 18 punti, 19 gol fatti e 13 subiti in 11 gare), Feyenoord 2.19 (1° con 25 punti, 33 fatti e 12 subiti in 11 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-3"
         },
         {
           "partita": "FC Utrecht - NEC Nijmegen",
@@ -9956,8 +9956,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.02 gol attesi (1° con 25 punti, 23 gol fatti e 12 subiti in 10 gare), Amedspor 1.89 (2° con 23 punti, 25 fatti e 11 subiti in 10 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-3"
         },
         {
           "partita": "Monza - Atalanta",
@@ -9971,12 +9971,14 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.01 gol attesi (18° con 7 punti, 17 gol fatti e 24 subiti in 10 gare), Atalanta 1.82 (13° con 11 punti, 16 fatti e 20 subiti in 10 gare). Somma attesa 3.83 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T16:07:26.155085+00:00"
     },
     {
       "id": "L7-28",
@@ -10448,8 +10450,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Genoa 1.38 gol attesi (11° con 13 punti, 10 gol fatti e 14 subiti in 10 gare), Milan 1.73 (5° con 21 punti, 21 fatti e 12 subiti in 10 gare). Somma attesa 3.11 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Cesena - Catanzaro",
@@ -11106,6 +11108,108 @@
         }
       ],
       "quota_max": 7,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L6-29",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 4.33,
+      "probabilita_combinata": 0.231,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Utrecht - NEC Nijmegen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T20:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Carrarese - Sampdoria",
+          "campionato": "Serie B",
+          "data": "2026-11-08T17:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.3,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Carrarese 1.59 gol attesi (15° con 10 punti, 9 gol fatti e 13 subiti in 10 gare), Sampdoria 1.21 (19° con 8 punti, 10 fatti e 18 subiti in 10 gare). Somma attesa 2.80 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Villarreal - Getafe",
+          "campionato": "La Liga",
+          "data": "2026-11-08T18:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.77,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Villarreal 1.64 gol attesi (9° con 12 punti, 15 gol fatti e 15 subiti in 11 gare), Getafe 1.13 (13° con 12 punti, 8 fatti e 16 subiti in 11 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.34,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Le Havre AC - FC Lorient",
+          "campionato": "Ligue 1",
+          "data": "2026-11-08T17:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.75,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.75,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.27 gol attesi (18° con 2 punti, 9 gol fatti e 20 subiti in 9 gare), FC Lorient 1.46 (11° con 12 punti, 7 fatti e 8 subiti in 9 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
       "quota_rispettata": true
     }
   ]

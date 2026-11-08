@@ -2,7 +2,7 @@
   "id": "solo-sicure",
   "titolo": "Solo Sicure",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-07",
+  "aggiornato_il": "2026-11-08",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite con gli eventi quasi certi di ogni partita: Over 0.5 gol, Over 1.5 gol o Under 5.5 gol (il più probabile). Backtest su 441 partite concluse: probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto.",
   "schedine": [
@@ -1026,7 +1026,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.13,
       "probabilita_combinata": 0.886,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Monza - Atalanta",
@@ -1040,8 +1040,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.01 gol attesi (18° con 7 punti, 17 gol fatti e 24 subiti in 10 gare), Atalanta 1.82 (13° con 11 punti, 16 fatti e 20 subiti in 10 gare). Somma attesa 3.83 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "VfB Stuttgart - SV Werder Bremen",
@@ -1055,8 +1055,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 1.92 gol attesi (11° con 9 punti, 14 gol fatti e 15 subiti in 8 gare), SV Werder Bremen 1.87 (5° con 15 punti, 17 fatti e 14 subiti in 8 gare). Somma attesa 3.79 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Willem II - PEC Zwolle",
@@ -1070,8 +1070,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Willem II 1.72 gol attesi (18° con 2 punti, 10 gol fatti e 39 subiti in 11 gare), PEC Zwolle 2.06 (14° con 11 punti, 12 fatti e 23 subiti in 11 gare). Somma attesa 3.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "ADO Den Haag - Sparta Rotterdam",
@@ -1085,8 +1085,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.95 gol attesi (17° con 6 punti, 13 gol fatti e 24 subiti in 11 gare), Sparta Rotterdam 1.86 (11° con 12 punti, 20 fatti e 26 subiti in 11 gare). Somma attesa 3.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "sc Heerenveen - Feyenoord",
@@ -1100,8 +1100,8 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.65 gol attesi (7° con 18 punti, 19 gol fatti e 13 subiti in 11 gare), Feyenoord 2.19 (1° con 25 punti, 33 fatti e 12 subiti in 11 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-3"
         },
         {
           "partita": "FC Twente - Ajax",
@@ -1115,12 +1115,14 @@
           "probabilita_modello": 0.98,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 2.22 gol attesi (4° con 23 punti, 28 gol fatti e 10 subiti in 11 gare), Ajax 1.93 (2° con 24 punti, 30 fatti e 13 subiti in 11 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T16:07:26.155085+00:00"
     },
     {
       "id": "L7-3",
@@ -1529,8 +1531,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Genoa 1.38 gol attesi (11° con 13 punti, 10 gol fatti e 14 subiti in 10 gare), Milan 1.73 (5° con 21 punti, 21 fatti e 12 subiti in 10 gare). Somma attesa 3.11 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Fiorentina - Juventus",
@@ -1797,6 +1799,108 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L6-5",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 1.3,
+      "probabilita_combinata": 0.767,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Desenzano - Ospitaletto Franciacorta",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Desenzano 1.17 gol attesi (12° con 13 punti, 10 gol fatti e 14 subiti in 12 gare), Ospitaletto Franciacorta 1.34 (6° con 19 punti, 18 fatti e 11 subiti in 12 gare). Somma attesa 2.52 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Folgore Caratese - Carpi",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.04,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Folgore Caratese 1.76 gol attesi (20° con 7 punti, 11 gol fatti e 21 subiti in 12 gare), Carpi 1.50 (15° con 12 punti, 16 fatti e 26 subiti in 12 gare). Somma attesa 3.25 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Treviso - Novara",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.04,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Treviso 1.43 gol attesi (7° con 19 punti, 12 gol fatti e 9 subiti in 12 gare), Novara 0.97 (13° con 13 punti, 11 fatti e 16 subiti in 12 gare). Somma attesa 2.40 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pianese - Perugia",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pianese 1.32 gol attesi (16° con 10 punti, 7 gol fatti e 11 subiti in 12 gare), Perugia 1.19 (10° con 17 punti, 16 fatti e 18 subiti in 12 gare). Somma attesa 2.51 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Altamura - Cavese",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Altamura 1.54 gol attesi (15° con 15 punti, 11 gol fatti e 17 subiti in 12 gare), Cavese 1.55 (11° con 15 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
     }
   ]
 }

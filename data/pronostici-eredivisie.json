@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Twente 2.22 gol attesi (4° con 23 punti, 28 gol fatti e 10 subiti in 11 gare), Ajax 1.93 (2° con 24 punti, 30 fatti e 13 subiti in 11 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-08T16:07:26+00:00"
       }
     },
     {

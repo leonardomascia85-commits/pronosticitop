@@ -2324,8 +2324,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.01 gol attesi (18° con 7 punti, 17 gol fatti e 24 subiti in 10 gare), Atalanta 1.82 (13° con 11 punti, 16 fatti e 20 subiti in 10 gare). Somma attesa 3.83 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         }
       ],
       "esito_finale": "persa",

@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Genoa 1.38 gol attesi (11° con 13 punti, 10 gol fatti e 14 subiti in 10 gare), Milan 1.73 (5° con 21 punti, 21 fatti e 12 subiti in 10 gare). Somma attesa 3.11 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-08T16:07:26+00:00"
       },
       "pick_corner": {
         "esito": "under",
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Monza 2.01 gol attesi (18° con 7 punti, 17 gol fatti e 24 subiti in 10 gare), Atalanta 1.82 (13° con 11 punti, 16 fatti e 20 subiti in 10 gare). Somma attesa 3.83 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-08T16:07:26+00:00"
       },
       "pick_corner": {
         "esito": "under",
