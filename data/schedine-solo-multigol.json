@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-07",
+  "aggiornato_il": "2026-11-08",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -8631,7 +8631,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.5,
       "probabilita_combinata": 0.399,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Giana Erminio - Cittadella",
@@ -8645,8 +8645,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Giana Erminio 1.10 gol attesi (16° con 11 punti, 13 gol fatti e 17 subiti in 12 gare), Cittadella 1.47 (1° con 30 punti, 19 fatti e 6 subiti in 12 gare). Somma attesa 2.57 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Monopoli - Cosenza",
@@ -8660,8 +8660,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monopoli 1.72 gol attesi (6° con 19 punti, 13 gol fatti e 9 subiti in 12 gare), Cosenza 0.94 (19° con 9 punti, 10 fatti e 23 subiti in 12 gare). Somma attesa 2.66 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Desenzano - Ospitaletto Franciacorta",
@@ -8720,8 +8720,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Torres 1.28 gol attesi (6° con 20 punti, 13 gol fatti e 12 subiti in 13 gare), Latina 1.06 (12° con 15 punti, 12 fatti e 12 subiti in 12 gare). Somma attesa 2.34 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Lecco - Juventus Next Gen",
@@ -8735,6 +8735,125 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lecco 1.76 gol attesi (9° con 17 punti, 18 gol fatti e 11 subiti in 12 gare), Juventus Next Gen 1.06 (17° con 11 punti, 12 fatti e 19 subiti in 12 gare). Somma attesa 2.82 gol.",
+          "esito": "vinto",
+          "risultato_reale": "4-0"
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T18:06:53.519738+00:00"
+    },
+    {
+      "id": "L7-25",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 3.21,
+      "probabilita_combinata": 0.311,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Foggia - Barletta",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Foggia 1.47 gol attesi (13° con 15 punti, 13 gol fatti e 15 subiti in 12 gare), Barletta 1.22 (17° con 12 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 2.68 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fiorentina - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-11-08T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fiorentina 1.51 gol attesi (16° con 8 punti, 15 gol fatti e 23 subiti in 10 gare), Juventus 1.67 (7° con 17 punti, 13 fatti e 10 subiti in 10 gare). Somma attesa 3.18 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Altamura - Cavese",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Altamura 1.54 gol attesi (15° con 15 punti, 11 gol fatti e 17 subiti in 12 gare), Cavese 1.55 (11° con 15 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "RC Lens - Olympique de Marseille",
+          "campionato": "Ligue 1",
+          "data": "2026-11-08T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - NEC Nijmegen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T20:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

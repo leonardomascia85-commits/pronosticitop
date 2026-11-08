@@ -719,9 +719,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Giana Erminio 1.10 gol attesi (16° con 11 punti, 13 gol fatti e 17 subiti in 12 gare), Cittadella 1.47 (1° con 30 punti, 19 fatti e 6 subiti in 12 gare). Somma attesa 2.57 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {
@@ -764,9 +764,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Lecco 1.76 gol attesi (9° con 17 punti, 18 gol fatti e 11 subiti in 12 gare), Juventus Next Gen 1.06 (17° con 11 punti, 12 fatti e 19 subiti in 12 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {
@@ -809,9 +809,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Campobasso 1.65 gol attesi (8° con 18 punti, 18 gol fatti e 20 subiti in 12 gare), Livorno 1.50 (7° con 19 punti, 17 fatti e 16 subiti in 12 gare). Somma attesa 3.14 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {
@@ -854,9 +854,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Catania 1.83 gol attesi (5° con 19 punti, 24 gol fatti e 13 subiti in 12 gare), Sorrento 1.25 (4° con 20 punti, 16 fatti e 13 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {
@@ -899,9 +899,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Monopoli 1.72 gol attesi (6° con 19 punti, 13 gol fatti e 9 subiti in 12 gare), Cosenza 0.94 (19° con 9 punti, 10 fatti e 23 subiti in 12 gare). Somma attesa 2.66 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {
@@ -944,9 +944,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Savoia 1.50 gol attesi (18° con 12 punti, 13 gol fatti e 18 subiti in 12 gare), Potenza 2.13 (1° con 29 punti, 32 fatti e 17 subiti in 12 gare). Somma attesa 3.63 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       }
     },
     {

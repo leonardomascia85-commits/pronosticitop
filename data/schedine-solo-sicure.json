@@ -939,7 +939,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.05,
       "probabilita_combinata": 0.951,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Roma - Sassuolo",
@@ -953,8 +953,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.96 gol attesi (3° con 24 punti, 28 gol fatti e 10 subiti in 10 gare), Sassuolo 1.32 (17° con 8 punti, 16 fatti e 26 subiti in 10 gare). Somma attesa 4.28 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "RB Leipzig - FC Augsburg",
@@ -968,8 +968,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.55 gol attesi (4° con 15 punti, 22 gol fatti e 11 subiti in 8 gare), FC Augsburg 1.77 (10° con 9 punti, 18 fatti e 15 subiti in 8 gare). Somma attesa 4.33 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "1. FSV Mainz 05 - FC Bayern München",
@@ -983,8 +983,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 1.84 gol attesi (9° con 10 punti, 17 gol fatti e 17 subiti in 8 gare), FC Bayern München 2.62 (1° con 18 punti, 27 fatti e 8 subiti in 8 gare). Somma attesa 4.46 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Excelsior - Go Ahead Eagles",
@@ -998,8 +998,8 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Excelsior 2.11 gol attesi (15° con 11 punti, 16 gol fatti e 28 subiti in 11 gare), Go Ahead Eagles 2.15 (10° con 14 punti, 23 fatti e 27 subiti in 11 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "SC Cambuur - PSV",
@@ -1013,12 +1013,14 @@
           "probabilita_modello": 0.99,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-08T18:06:53.519738+00:00"
     },
     {
       "id": "L6-3",
@@ -1900,6 +1902,93 @@
         }
       ],
       "quota_max": 6,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L5-6",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 1.21,
+      "probabilita_combinata": 0.823,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atlético Madrid - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-11-08T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.99,
+          "quota_stimata": 1.01,
+          "probabilita_modello": 0.99,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético Madrid 1.83 gol attesi (2° con 28 punti, 22 gol fatti e 8 subiti in 11 gare), FC Barcelona 2.56 (1° con 30 punti, 46 fatti e 12 subiti in 11 gare). Somma attesa 4.39 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - NEC Nijmegen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-08T20:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.98,
+          "quota_stimata": 1.02,
+          "probabilita_modello": 0.98,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "TSG Hoffenheim - FC Schalke 04",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T19:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Pineto - Vis Pesaro",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Pineto 1.68 gol attesi (14° con 14 punti, 9 gol fatti e 13 subiti in 12 gare), Vis Pesaro 1.09 (20° con 5 punti, 11 fatti e 26 subiti in 12 gare). Somma attesa 2.78 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
       "quota_rispettata": true
     }
   ]

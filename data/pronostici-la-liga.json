@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Real Sociedad 2.09 gol attesi (5° con 19 punti, 20 gol fatti e 20 subiti in 11 gare), Rayo Vallecano 1.58 (12° con 12 punti, 15 fatti e 20 subiti in 10 gare). Somma attesa 3.67 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       },
       "pick_corner": {
         "esito": "over",

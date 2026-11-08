@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.76 gol attesi (13° con 9 punti, 9 gol fatti e 12 subiti in 8 gare), Bayer 04 Leverkusen 1.82 (6° con 13 punti, 18 fatti e 16 subiti in 8 gare). Somma attesa 3.58 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-08T18:06:53+00:00"
       },
       "pick_corner": {
         "esito": "over",
