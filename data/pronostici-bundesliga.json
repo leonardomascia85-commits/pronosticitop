@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.55 gol attesi (4° con 15 punti, 22 gol fatti e 11 subiti in 8 gare), FC Augsburg 1.77 (10° con 9 punti, 18 fatti e 15 subiti in 8 gare). Somma attesa 4.33 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-2",
+        "aggiornato": "2026-11-08T00:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -247,9 +247,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-08T00:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",
@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 1.92 gol attesi (11° con 9 punti, 14 gol fatti e 15 subiti in 8 gare), SV Werder Bremen 1.87 (5° con 15 punti, 17 fatti e 14 subiti in 8 gare). Somma attesa 3.79 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-08T00:06:33+00:00"
       },
       "pick_corner": {
         "esito": "over",

@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Over 1.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-07",
+  "aggiornato_il": "2026-11-08",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Over 1.5 gol (almeno 2 gol nella partita) per ogni partita. Il backtest su 441 partite concluse mostra che Gol/No Gol vinceva solo il 56%, mentre Over 1.5 vince l'81% (86% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -9852,8 +9852,8 @@
           "probabilita_modello": 0.93,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.55 gol attesi (4° con 15 punti, 22 gol fatti e 11 subiti in 8 gare), FC Augsburg 1.77 (10° con 9 punti, 18 fatti e 15 subiti in 8 gare). Somma attesa 4.33 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-2"
         },
         {
           "partita": "Excelsior - Go Ahead Eagles",
@@ -9984,7 +9984,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.34,
       "probabilita_combinata": 0.428,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "VfB Stuttgart - SV Werder Bremen",
@@ -9998,8 +9998,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 1.92 gol attesi (11° con 9 punti, 14 gol fatti e 15 subiti in 8 gare), SV Werder Bremen 1.87 (5° con 15 punti, 17 fatti e 14 subiti in 8 gare). Somma attesa 3.79 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Willem II - PEC Zwolle",
@@ -10013,8 +10013,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Willem II 1.72 gol attesi (18° con 2 punti, 10 gol fatti e 39 subiti in 11 gare), PEC Zwolle 2.06 (14° con 11 punti, 12 fatti e 23 subiti in 11 gare). Somma attesa 3.78 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "ADO Den Haag - Sparta Rotterdam",
@@ -10028,8 +10028,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.95 gol attesi (17° con 6 punti, 13 gol fatti e 24 subiti in 11 gare), Sparta Rotterdam 1.86 (11° con 12 punti, 20 fatti e 26 subiti in 11 gare). Somma attesa 3.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Göztepe - Başakşehir",
@@ -10043,8 +10043,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 2.10 gol attesi (9° con 15 punti, 21 gol fatti e 17 subiti in 10 gare), Başakşehir 1.61 (10° con 14 punti, 17 fatti e 16 subiti in 10 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Inter - Como",
@@ -10073,8 +10073,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.95 gol attesi (15° con 9 punti, 7 gol fatti e 19 subiti in 8 gare), Borussia Mönchengladbach 1.71 (18° con 4 punti, 11 fatti e 22 subiti in 8 gare). Somma attesa 3.66 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "SC Freiburg - 1. FC Union Berlin",
@@ -10093,7 +10093,9 @@
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-08T00:06:33.943082+00:00"
     },
     {
       "id": "L4-27",
@@ -10506,8 +10508,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Le Mans FC - AS Monaco",
@@ -10988,6 +10990,123 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L7-31",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 4.3,
+      "probabilita_combinata": 0.232,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Inter - Como",
+          "campionato": "Serie A",
+          "data": "2026-11-08T18:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.08 gol attesi (2° con 25 punti, 26 gol fatti e 13 subiti in 10 gare), Como 1.52 (4° con 23 punti, 18 fatti e 8 subiti in 10 gare). Somma attesa 3.60 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - 1. FC Union Berlin",
+          "campionato": "Bundesliga",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "L.R. Vicenza - Cremonese",
+          "campionato": "Serie B",
+          "data": "2026-11-08T19:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Picerno - Bari",
+          "campionato": "Serie C",
+          "data": "2026-11-09T20:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Picerno 1.54 gol attesi (7° con 18 punti, 22 gol fatti e 19 subiti in 12 gare), Bari 1.40 (2° con 22 punti, 15 fatti e 8 subiti in 12 gare). Somma attesa 2.94 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Manchester United - Aston Villa",
+          "campionato": "Premier League",
+          "data": "2026-11-08T16:30:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester United 1.53 gol attesi (17° con 7 punti, 10 gol fatti e 15 subiti in 9 gare), Aston Villa 1.38 (10° con 12 punti, 10 fatti e 13 subiti in 9 gare). Somma attesa 2.92 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sambenedettese - Guidonia Montecelio",
+          "campionato": "Serie C",
+          "data": "2026-11-08T17:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sambenedettese 1.42 gol attesi (17° con 10 punti, 16 gol fatti e 22 subiti in 13 gare), Guidonia Montecelio 1.45 (9° con 17 punti, 15 fatti e 13 subiti in 12 gare). Somma attesa 2.87 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Celta de Vigo - Levante",
+          "campionato": "La Liga",
+          "data": "2026-11-08T18:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.67 gol attesi (10° con 12 punti, 10 gol fatti e 10 subiti in 11 gare), Levante 1.18 (19° con 7 punti, 13 fatti e 20 subiti in 10 gare). Somma attesa 2.85 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }
