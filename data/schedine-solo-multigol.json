@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-08",
+  "aggiornato_il": "2026-11-09",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -7955,7 +7955,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.31,
       "probabilita_combinata": 0.434,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Pisa - Südtirol",
@@ -7969,8 +7969,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.66 gol attesi (8° con 15 punti, 18 gol fatti e 15 subiti in 10 gare), Südtirol 1.32 (9° con 14 punti, 11 fatti e 10 subiti in 10 gare). Somma attesa 2.98 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Benevento - Avellino",
@@ -7984,8 +7984,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.47 gol attesi (7° con 15 punti, 14 gol fatti e 10 subiti in 10 gare), Avellino 1.28 (6° con 15 punti, 15 fatti e 10 subiti in 10 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Virtus Entella - Modena",
@@ -7999,8 +7999,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.34 gol attesi (14° con 10 punti, 11 gol fatti e 12 subiti in 10 gare), Modena 1.49 (2° con 20 punti, 18 fatti e 10 subiti in 10 gare). Somma attesa 2.83 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Carrarese - Sampdoria",
@@ -8014,8 +8014,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Carrarese 1.59 gol attesi (15° con 10 punti, 9 gol fatti e 13 subiti in 10 gare), Sampdoria 1.21 (19° con 8 punti, 10 fatti e 18 subiti in 10 gare). Somma attesa 2.80 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "L.R. Vicenza - Cremonese",
@@ -8029,8 +8029,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-4"
         },
         {
           "partita": "TSG Hoffenheim - FC Schalke 04",
@@ -8044,12 +8044,14 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-09T00:07:18.585889+00:00"
     },
     {
       "id": "L7-22",
@@ -8702,8 +8704,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pianese 1.32 gol attesi (16° con 10 punti, 7 gol fatti e 11 subiti in 12 gare), Perugia 1.19 (10° con 17 punti, 16 fatti e 18 subiti in 12 gare). Somma attesa 2.51 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Foggia - Barletta",

@@ -439,9 +439,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-11-09T00:07:18+00:00"
       }
     }
   ]

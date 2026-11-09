@@ -2527,8 +2527,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Alanyaspor - Trabzonspor",
@@ -2644,8 +2644,8 @@
           "probabilita_modello": 0.6,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-4"
         }
       ],
       "esito_finale": "persa",

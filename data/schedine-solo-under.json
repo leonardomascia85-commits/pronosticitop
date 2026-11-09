@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under 3.5 / 4.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-08",
+  "aggiornato_il": "2026-11-09",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente i mercati Under 3.5 e Under 4.5 gol (il più probabile per ogni partita). Il backtest su 441 partite concluse mostra che Over/Under 2.5 vinceva circa il 60%, mentre Under 4.5 vince l'83% (84% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -7981,7 +7981,7 @@
       "variante": "libera",
       "quota_combinata": 2.36,
       "probabilita_combinata": 0.423,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Carrarese - Sampdoria",
@@ -7995,8 +7995,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Carrarese 1.59 gol attesi (15° con 10 punti, 9 gol fatti e 13 subiti in 10 gare), Sampdoria 1.21 (19° con 8 punti, 10 fatti e 18 subiti in 10 gare). Somma attesa 2.80 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Eyüpspor - Kocaelispor",
@@ -8010,8 +8010,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.97 gol attesi (18° con 3 punti, 3 gol fatti e 28 subiti in 10 gare), Kocaelispor 1.78 (8° con 16 punti, 11 fatti e 9 subiti in 10 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Juve Stabia - Arezzo",
@@ -8025,8 +8025,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juve Stabia 1.72 gol attesi (16° con 9 punti, 11 gol fatti e 11 subiti in 10 gare), Arezzo 1.11 (13° con 11 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Virtus Entella - Modena",
@@ -8040,8 +8040,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.34 gol attesi (14° con 10 punti, 11 gol fatti e 12 subiti in 10 gare), Modena 1.49 (2° con 20 punti, 18 fatti e 10 subiti in 10 gare). Somma attesa 2.83 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "L.R. Vicenza - Cremonese",
@@ -8055,10 +8055,12 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.47 gol attesi (17° con 9 punti, 13 gol fatti e 20 subiti in 10 gare), Cremonese 1.46 (11° con 12 punti, 10 fatti e 11 subiti in 10 gare). Somma attesa 2.93 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-09T00:07:18.585889+00:00"
     },
     {
       "id": "L6-21",

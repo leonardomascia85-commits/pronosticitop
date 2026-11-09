@@ -1,9 +1,9 @@
 {
  "Serie A": {
   "Venezia": {
-   "g": 10,
-   "fav": 4.0,
-   "con": 5.2
+   "g": 11,
+   "fav": 3.91,
+   "con": 5.36
   },
   "Genoa": {
    "g": 10,
@@ -16,9 +16,9 @@
    "con": 5.6
   },
   "Udinese": {
-   "g": 10,
-   "fav": 4.5,
-   "con": 5.1
+   "g": 11,
+   "fav": 4.73,
+   "con": 4.91
   },
   "Inter Milan": {
    "g": 10,
@@ -26,9 +26,9 @@
    "con": 3.1
   },
   "Cagliari": {
-   "g": 10,
-   "fav": 3.9,
-   "con": 5.9
+   "g": 11,
+   "fav": 3.82,
+   "con": 6.55
   },
   "Como": {
    "g": 10,
@@ -41,14 +41,14 @@
    "con": 4.5
   },
   "Parma": {
-   "g": 10,
-   "fav": 3.5,
-   "con": 5.8
+   "g": 11,
+   "fav": 3.27,
+   "con": 6.64
   },
   "Frosinone": {
-   "g": 10,
-   "fav": 6.3,
-   "con": 6.5
+   "g": 11,
+   "fav": 6.91,
+   "con": 6.18
   },
   "Atalanta": {
    "g": 10,
@@ -56,14 +56,14 @@
    "con": 5.7
   },
   "Torino": {
-   "g": 10,
-   "fav": 3.8,
-   "con": 4.6
+   "g": 11,
+   "fav": 3.82,
+   "con": 4.64
   },
   "Lecce": {
-   "g": 10,
-   "fav": 4.5,
-   "con": 4.1
+   "g": 11,
+   "fav": 4.55,
+   "con": 4.09
   },
   "Juventus": {
    "g": 10,
@@ -71,9 +71,9 @@
    "con": 3.7
   },
   "Sassuolo": {
-   "g": 10,
-   "fav": 4.1,
-   "con": 5.4
+   "g": 11,
+   "fav": 3.82,
+   "con": 6.0
   },
   "AC Milan": {
    "g": 10,
@@ -81,14 +81,14 @@
    "con": 4.1
   },
   "Bologna": {
-   "g": 10,
-   "fav": 4.0,
-   "con": 5.1
+   "g": 11,
+   "fav": 5.0,
+   "con": 4.73
   },
   "Roma": {
-   "g": 10,
-   "fav": 5.8,
-   "con": 3.5
+   "g": 11,
+   "fav": 6.36,
+   "con": 3.27
   },
   "Lazio": {
    "g": 10,
@@ -108,9 +108,9 @@
    "con": 4.11
   },
   "Everton": {
-   "g": 9,
-   "fav": 4.89,
-   "con": 5.78
+   "g": 10,
+   "fav": 4.6,
+   "con": 5.4
   },
   "Ipswich": {
    "g": 9,
@@ -118,19 +118,19 @@
    "con": 4.89
   },
   "Arsenal": {
-   "g": 9,
-   "fav": 5.44,
-   "con": 4.22
+   "g": 10,
+   "fav": 5.6,
+   "con": 4.2
   },
   "Coventry": {
-   "g": 9,
-   "fav": 3.67,
-   "con": 4.78
+   "g": 10,
+   "fav": 3.5,
+   "con": 4.5
   },
   "Tottenham": {
-   "g": 9,
-   "fav": 7.89,
-   "con": 3.89
+   "g": 10,
+   "fav": 7.5,
+   "con": 4.1
   },
   "Sunderland": {
    "g": 9,
@@ -138,9 +138,9 @@
    "con": 4.22
   },
   "Leeds": {
-   "g": 9,
-   "fav": 4.11,
-   "con": 4.11
+   "g": 10,
+   "fav": 4.3,
+   "con": 4.1
   },
   "Man Utd": {
    "g": 9,
@@ -158,14 +158,14 @@
    "con": 5.11
   },
   "Hull": {
-   "g": 9,
-   "fav": 4.11,
-   "con": 6.0
+   "g": 10,
+   "fav": 4.1,
+   "con": 6.1
   },
   "Nottm Forest": {
-   "g": 9,
-   "fav": 4.67,
-   "con": 4.11
+   "g": 10,
+   "fav": 4.5,
+   "con": 4.4
   },
   "Brighton": {
    "g": 9,
@@ -173,14 +173,14 @@
    "con": 5.22
   },
   "Man City": {
-   "g": 9,
-   "fav": 6.0,
-   "con": 3.78
+   "g": 10,
+   "fav": 6.1,
+   "con": 3.7
   },
   "Newcastle": {
-   "g": 9,
-   "fav": 4.44,
-   "con": 5.44
+   "g": 10,
+   "fav": 4.3,
+   "con": 5.2
   },
   "Aston Villa": {
    "g": 9,
@@ -193,9 +193,9 @@
    "con": 4.0
   },
   "Fulham": {
-   "g": 9,
-   "fav": 6.22,
-   "con": 4.56
+   "g": 10,
+   "fav": 5.9,
+   "con": 4.4
   },
   "Chelsea": {
    "g": 9,
@@ -205,9 +205,9 @@
  },
  "La Liga": {
   "CD Alaves": {
-   "g": 11,
+   "g": 12,
    "fav": 4.0,
-   "con": 4.64
+   "con": 4.67
   },
   "Getafe": {
    "g": 11,
@@ -215,14 +215,14 @@
    "con": 5.27
   },
   "Valencia": {
-   "g": 11,
-   "fav": 3.82,
+   "g": 12,
+   "fav": 3.67,
    "con": 5.0
   },
   "Athletic Bilbao": {
-   "g": 10,
-   "fav": 5.9,
-   "con": 4.6
+   "g": 11,
+   "fav": 5.64,
+   "con": 4.73
   },
   "Celta Vigo": {
    "g": 11,
@@ -240,19 +240,19 @@
    "con": 4.64
   },
   "Sevilla": {
-   "g": 11,
-   "fav": 3.18,
-   "con": 3.36
+   "g": 12,
+   "fav": 3.33,
+   "con": 3.42
   },
   "Racing Santander": {
-   "g": 11,
-   "fav": 5.0,
-   "con": 7.64
+   "g": 12,
+   "fav": 4.83,
+   "con": 7.5
   },
   "Espanyol": {
-   "g": 11,
-   "fav": 2.45,
-   "con": 5.82
+   "g": 12,
+   "fav": 3.0,
+   "con": 5.75
   },
   "Rayo Vallecano": {
    "g": 10,
@@ -270,9 +270,9 @@
    "con": 4.91
   },
   "Deportivo La Coruna": {
-   "g": 11,
-   "fav": 5.36,
-   "con": 4.73
+   "g": 12,
+   "fav": 5.33,
+   "con": 5.08
   },
   "Elche": {
    "g": 11,
@@ -285,19 +285,19 @@
    "con": 3.09
   },
   "Malaga": {
-   "g": 11,
-   "fav": 5.0,
-   "con": 5.55
+   "g": 12,
+   "fav": 5.08,
+   "con": 5.33
   },
   "Real Madrid": {
-   "g": 11,
-   "fav": 6.36,
-   "con": 4.0
+   "g": 12,
+   "fav": 6.25,
+   "con": 3.83
   },
   "Osasuna": {
-   "g": 11,
-   "fav": 3.45,
-   "con": 5.36
+   "g": 12,
+   "fav": 3.67,
+   "con": 5.17
   },
   "Barcelona": {
    "g": 11,
@@ -307,24 +307,24 @@
  },
  "Bundesliga": {
   "VfB Stuttgart": {
-   "g": 8,
-   "fav": 6.0,
-   "con": 6.63
+   "g": 9,
+   "fav": 5.78,
+   "con": 6.33
   },
   "Bayern Munich": {
-   "g": 8,
-   "fav": 8.63,
-   "con": 2.88
+   "g": 9,
+   "fav": 8.56,
+   "con": 3.33
   },
   "RB Leipzig": {
-   "g": 8,
-   "fav": 5.5,
-   "con": 6.25
+   "g": 9,
+   "fav": 5.11,
+   "con": 5.78
   },
   "Mainz": {
-   "g": 8,
-   "fav": 5.75,
-   "con": 4.38
+   "g": 9,
+   "fav": 5.89,
+   "con": 4.78
   },
   "Cologne": {
    "g": 8,
@@ -337,24 +337,24 @@
    "con": 5.75
   },
   "Elversberg": {
-   "g": 8,
-   "fav": 4.13,
-   "con": 7.88
+   "g": 9,
+   "fav": 4.33,
+   "con": 7.67
   },
   "Borussia Dortmund": {
-   "g": 8,
-   "fav": 5.5,
-   "con": 4.25
+   "g": 9,
+   "fav": 5.56,
+   "con": 4.44
   },
   "Borussia M'gladbach": {
-   "g": 8,
-   "fav": 5.63,
-   "con": 5.75
+   "g": 9,
+   "fav": 5.33,
+   "con": 5.67
   },
   "Paderborn": {
-   "g": 8,
-   "fav": 4.88,
-   "con": 5.5
+   "g": 9,
+   "fav": 4.56,
+   "con": 5.56
   },
   "TSG Hoffenheim": {
    "g": 8,
@@ -362,9 +362,9 @@
    "con": 4.75
   },
   "Eintracht Frankfurt": {
-   "g": 8,
-   "fav": 4.88,
-   "con": 5.25
+   "g": 9,
+   "fav": 5.0,
+   "con": 4.89
   },
   "Bayer Leverkusen": {
    "g": 8,
@@ -372,9 +372,9 @@
    "con": 3.5
   },
   "Hamburg": {
-   "g": 8,
-   "fav": 4.0,
-   "con": 6.0
+   "g": 9,
+   "fav": 4.11,
+   "con": 5.67
   },
   "SC Freiburg": {
    "g": 8,
@@ -382,14 +382,14 @@
    "con": 3.5
   },
   "Augsburg": {
-   "g": 8,
-   "fav": 5.25,
-   "con": 5.5
+   "g": 9,
+   "fav": 4.89,
+   "con": 5.11
   },
   "Werder Bremen": {
-   "g": 8,
-   "fav": 4.5,
-   "con": 5.63
+   "g": 9,
+   "fav": 4.44,
+   "con": 5.44
   },
   "Schalke": {
    "g": 8,
@@ -404,9 +404,9 @@
    "con": 4.11
   },
   "Toulouse": {
-   "g": 9,
-   "fav": 4.0,
-   "con": 4.11
+   "g": 10,
+   "fav": 4.3,
+   "con": 3.8
   },
   "Le Mans": {
    "g": 9,
@@ -429,14 +429,14 @@
    "con": 6.0
   },
   "Paris FC": {
-   "g": 9,
-   "fav": 3.44,
-   "con": 3.67
+   "g": 10,
+   "fav": 3.6,
+   "con": 3.4
   },
   "Strasbourg": {
-   "g": 9,
-   "fav": 2.56,
-   "con": 4.11
+   "g": 10,
+   "fav": 2.4,
+   "con": 4.4
   },
   "Lens": {
    "g": 9,
@@ -444,9 +444,9 @@
    "con": 3.89
   },
   "Troyes": {
-   "g": 9,
-   "fav": 6.22,
-   "con": 2.33
+   "g": 10,
+   "fav": 5.7,
+   "con": 2.6
   },
   "Nice": {
    "g": 9,
@@ -454,9 +454,9 @@
    "con": 3.44
   },
   "Auxerre": {
-   "g": 9,
-   "fav": 5.11,
-   "con": 6.56
+   "g": 10,
+   "fav": 4.7,
+   "con": 6.4
   },
   "Angers": {
    "g": 9,
@@ -484,11 +484,11 @@
    "con": 4.56
   },
   "PSG": {
-   "g": 9,
-   "fav": 5.56,
-   "con": 2.44
+   "g": 10,
+   "fav": 5.5,
+   "con": 2.3
   }
  },
- "aggiornato": "2026-11-06T20:07:01+00:00",
+ "aggiornato": "2026-11-09T00:07:18+00:00",
  "fonte": "betaminic.com (corner a favore/contro per gara, tutte le partite)"
 }
