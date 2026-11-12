@@ -1325,9 +1325,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Turchia (4° nel girone) ospita Belgio (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-12T20:06:56+00:00"
       }
     },
     {
