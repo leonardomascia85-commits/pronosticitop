@@ -1286,9 +1286,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Italia (2° nel girone) ospita Francia (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-12T22:07:13+00:00"
       }
     },
     {
@@ -1403,9 +1403,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Repubblica Ceca (4° nel girone) ospita Spagna (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-12T22:07:13+00:00"
       }
     },
     {

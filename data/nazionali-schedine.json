@@ -3,7 +3,7 @@
   "titolo": "Nazionali — UEFA Nations League 2026/27 — 5a-6a giornata (Lega A)",
   "periodo": "24 settembre - 6 ottobre 2026",
   "generato_il": "2026-09-22",
-  "aggiornato_il": "2026-10-06",
+  "aggiornato_il": "2026-11-12",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite sugli eventi reali della finestra nazionali in corso (stessi dati pubblicati in /nazionali.html: ranking, forma recente, gol fatti/subiti). Ogni evento usa il mercato (1X2, doppia chance, Under/Over, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le schedine combinano sempre gli eventi con la probabilita' stimata piu' alta disponibile nel turno.",
   "schedine": [
@@ -1309,8 +1309,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Repubblica Ceca (4° nel girone) ospita Spagna (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Olanda - Grecia",
@@ -1373,8 +1373,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Italia (2° nel girone) ospita Francia (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Belgio - Italia",
@@ -1410,7 +1410,9 @@
         }
       ],
       "id": "L7-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-12T22:07:13.133197+00:00"
     }
   ]
 }
