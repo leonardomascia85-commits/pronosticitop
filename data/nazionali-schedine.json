@@ -1325,8 +1325,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Olanda (1° nel girone) ospita Grecia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "Croazia - Repubblica Ceca",

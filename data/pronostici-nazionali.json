@@ -1442,9 +1442,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Serbia (4° nel girone) ospita Germania (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-3",
+        "aggiornato": "2026-11-13T22:08:02+00:00"
       }
     },
     {
@@ -1481,9 +1481,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Olanda (1° nel girone) ospita Grecia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "7-0",
+        "aggiornato": "2026-11-13T22:08:02+00:00"
       }
     },
     {
