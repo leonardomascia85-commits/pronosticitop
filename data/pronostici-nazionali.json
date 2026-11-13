@@ -1364,9 +1364,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-13T00:07:05+00:00"
       }
     },
     {
