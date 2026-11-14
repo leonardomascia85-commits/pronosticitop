@@ -1405,8 +1405,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Norvegia (3° nel girone) ospita Galles (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-1"
         }
       ],
       "id": "L7-1",

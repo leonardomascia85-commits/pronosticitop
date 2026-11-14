@@ -1559,9 +1559,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Norvegia (3° nel girone) ospita Galles (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-14T20:06:42+00:00"
       }
     },
     {
