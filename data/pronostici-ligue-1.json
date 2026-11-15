@@ -1,433 +1,433 @@
 {
   "campionato": "Ligue 1",
-  "giornata": "10ª giornata",
-  "periodo": "6-8 novembre 2026",
-  "aggiornato": "2026-11-02",
+  "giornata": "11ª giornata",
+  "periodo": "20-22 novembre 2026",
+  "aggiornato": "2026-11-15",
   "partite": [
     {
-      "casa": "Toulouse FC",
-      "trasferta": "RC Strasbourg Alsace",
-      "data": "2026-11-06T20:45:00+01:00",
-      "forma_casa": "12° posto, 10 pt in 9 gare (2V-4N-3P), 12-13",
-      "forma_trasferta": "13° posto, 10 pt in 9 gare (3V-1N-5P), 17-19",
+      "casa": "ESTAC Troyes",
+      "trasferta": "Le Havre AC",
+      "data": "2026-11-20T20:45:00+01:00",
+      "forma_casa": "17° posto, 8 pt in 10 gare (2V-2N-6P), 7-17",
+      "forma_trasferta": "18° posto, 2 pt in 10 gare (0V-2N-8P), 9-22",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Toulouse FC",
-        "probabilita": 0.44,
+        "etichetta": "Vittoria ESTAC Troyes",
+        "probabilita": 0.45,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Toulouse FC o RC Strasbourg Alsace",
-        "probabilita": 0.76,
+        "etichetta": "ESTAC Troyes o Le Havre AC",
+        "probabilita": 0.74,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.68,
+        "probabilita": 0.58,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.53,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.69,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Toulouse FC 1.89 gol attesi (12° con 10 punti, 12 gol fatti e 13 subiti in 9 gare), RC Strasbourg Alsace 1.62 (13° con 10 punti, 17 fatti e 19 subiti in 9 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "3-1",
-        "aggiornato": "2026-11-06T22:07:31+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.71,
-        "corner_attesi_totali": 8.0,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "AJ Auxerre",
-      "trasferta": "Paris FC",
-      "data": "2026-11-07T17:15:00+01:00",
-      "forma_casa": "14° posto, 10 pt in 9 gare (3V-1N-5P), 13-23",
-      "forma_trasferta": "4° posto, 17 pt in 9 gare (5V-2N-2P), 16-10",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Paris FC",
-        "probabilita": 0.46,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "AJ Auxerre o Paris FC",
-        "probabilita": 0.76,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.67,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.54,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.68,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): AJ Auxerre 1.53 gol attesi (14° con 10 punti, 13 gol fatti e 23 subiti in 9 gare), Paris FC 1.94 (4° con 17 punti, 16 fatti e 10 subiti in 9 gare). Somma attesa 3.47 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-1",
-        "aggiornato": "2026-11-07T20:06:51+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.55,
-        "corner_attesi_totali": 9.3,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Paris Saint-Germain",
-      "trasferta": "ESTAC Troyes",
-      "data": "2026-11-07T20:45:00+01:00",
-      "forma_casa": "1° posto, 20 pt in 9 gare (6V-2N-1P), 21-10",
-      "forma_trasferta": "16° posto, 8 pt in 9 gare (2V-2N-5P), 7-16",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Paris Saint-Germain",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Paris Saint-Germain o pareggio",
-        "probabilita": 0.84,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
         "probabilita": 0.65,
         "modello": "v2"
       },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.56,
-        "modello": "v2"
-      },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.6,
+        "probabilita": 0.61,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 2.30 gol attesi (1° con 20 punti, 21 gol fatti e 10 subiti in 9 gare), ESTAC Troyes 1.08 (16° con 8 punti, 7 fatti e 16 subiti in 9 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): ESTAC Troyes 1.67 gol attesi (17° con 8 punti, 7 gol fatti e 17 subiti in 10 gare), Le Havre AC 1.32 (18° con 2 punti, 9 fatti e 22 subiti in 10 gare). Somma attesa 2.99 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-0",
-        "aggiornato": "2026-11-07T22:06:42+00:00"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.64,
-        "corner_attesi_totali": 8.6,
+        "probabilita": 0.6,
+        "corner_attesi_totali": 8.9,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Stade Rennais FC",
-      "trasferta": "LOSC Lille",
-      "data": "2026-11-08T15:00:00+01:00",
-      "forma_casa": "5° posto, 16 pt in 9 gare (5V-1N-3P), 20-19",
-      "forma_trasferta": "2° posto, 18 pt in 9 gare (5V-3N-1P), 12-6",
+      "casa": "OGC Nice",
+      "trasferta": "Paris Saint-Germain",
+      "data": "2026-11-21T17:15:00+01:00",
+      "forma_casa": "6° posto, 17 pt in 10 gare (5V-2N-3P), 15-12",
+      "forma_trasferta": "1° posto, 23 pt in 10 gare (7V-2N-1P), 22-10",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Stade Rennais FC",
-        "probabilita": 0.41,
+        "esito": "2",
+        "etichetta": "Vittoria Paris Saint-Germain",
+        "probabilita": 0.42,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Stade Rennais FC o LOSC Lille",
+        "etichetta": "OGC Nice o Paris Saint-Germain",
         "probabilita": 0.75,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.66,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.56,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.68,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Stade Rennais FC 1.78 gol attesi (5° con 16 punti, 20 gol fatti e 19 subiti in 9 gare), LOSC Lille 1.61 (2° con 18 punti, 12 fatti e 6 subiti in 9 gare). Somma attesa 3.39 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-11-08T20:06:57+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.52,
-        "corner_attesi_totali": 9.6,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Le Mans FC",
-      "trasferta": "AS Monaco",
-      "data": "2026-11-08T17:15:00+01:00",
-      "forma_casa": "17° posto, 7 pt in 9 gare (1V-4N-4P), 11-18",
-      "forma_trasferta": "7° posto, 15 pt in 9 gare (4V-3N-2P), 12-10",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria AS Monaco",
-        "probabilita": 0.4,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Le Mans FC o AS Monaco",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
         "probabilita": 0.62,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Le Mans FC 1.44 gol attesi (17° con 7 punti, 11 gol fatti e 18 subiti in 9 gare), AS Monaco 1.57 (7° con 15 punti, 12 fatti e 10 subiti in 9 gare). Somma attesa 3.02 gol.",
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.51 gol attesi (6° con 17 punti, 15 gol fatti e 12 subiti in 10 gare), Paris Saint-Germain 1.72 (1° con 23 punti, 22 fatti e 10 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-11-08T20:06:57+00:00"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.64,
-        "corner_attesi_totali": 8.6,
+        "probabilita": 0.63,
+        "corner_attesi_totali": 8.7,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Le Havre AC",
-      "trasferta": "FC Lorient",
-      "data": "2026-11-08T17:15:00+01:00",
-      "forma_casa": "18° posto, 2 pt in 9 gare (0V-2N-7P), 9-20",
-      "forma_trasferta": "11° posto, 12 pt in 9 gare (3V-3N-3P), 7-8",
+      "casa": "LOSC Lille",
+      "trasferta": "Olympique Lyonnais",
+      "data": "2026-11-21T20:45:00+01:00",
+      "forma_casa": "2° posto, 21 pt in 10 gare (6V-3N-1P), 14-7",
+      "forma_trasferta": "5° posto, 17 pt in 10 gare (5V-2N-3P), 15-9",
       "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria FC Lorient",
-        "probabilita": 0.4,
+        "esito": "1",
+        "etichetta": "Vittoria LOSC Lille",
+        "probabilita": 0.41,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Le Havre AC o FC Lorient",
-        "probabilita": 0.72,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.51,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
+        "etichetta": "LOSC Lille o Olympique Lyonnais",
         "probabilita": 0.71,
         "modello": "v2"
       },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.56,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Le Havre AC 1.27 gol attesi (18° con 2 punti, 9 gol fatti e 20 subiti in 9 gare), FC Lorient 1.46 (11° con 12 punti, 7 fatti e 8 subiti in 9 gare). Somma attesa 2.72 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-11-08T22:06:33+00:00"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.55,
-        "corner_attesi_totali": 9.3,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Angers SCO",
-      "trasferta": "OGC Nice",
-      "data": "2026-11-08T17:15:00+01:00",
-      "forma_casa": "15° posto, 8 pt in 9 gare (2V-2N-5P), 9-17",
-      "forma_trasferta": "8° posto, 14 pt in 9 gare (4V-2N-3P), 13-12",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria OGC Nice",
-        "probabilita": 0.4,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Angers SCO o OGC Nice",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
       "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "pick_uo35": {
         "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.62,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.44 gol attesi (15° con 8 punti, 9 gol fatti e 17 subiti in 9 gare), OGC Nice 1.57 (8° con 14 punti, 13 fatti e 12 subiti in 9 gare). Somma attesa 3.02 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-2",
-        "aggiornato": "2026-11-08T22:06:33+00:00"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
+        "etichetta": "Under 2.5",
         "probabilita": 0.52,
-        "corner_attesi_totali": 9.9,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Stade Brestois 29",
-      "trasferta": "Olympique Lyonnais",
-      "data": "2026-11-08T17:15:00+01:00",
-      "forma_casa": "10° posto, 12 pt in 9 gare (3V-3N-3P), 16-12",
-      "forma_trasferta": "3° posto, 17 pt in 9 gare (5V-2N-2P), 15-7",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Stade Brestois 29",
-        "probabilita": 0.39,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Stade Brestois 29 o Olympique Lyonnais",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.64,
+        "probabilita": 0.74,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.62,
+        "probabilita": 0.54,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.55 gol attesi (10° con 12 punti, 16 gol fatti e 12 subiti in 9 gare), Olympique Lyonnais 1.46 (3° con 17 punti, 15 fatti e 7 subiti in 9 gare). Somma attesa 3.01 gol. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.42 gol attesi (2° con 21 punti, 14 gol fatti e 7 subiti in 10 gare), Olympique Lyonnais 1.18 (5° con 17 punti, 15 fatti e 9 subiti in 10 gare). Somma attesa 2.60 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-11-08T22:06:33+00:00"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.53,
-        "corner_attesi_totali": 9.5,
+        "probabilita": 0.56,
+        "corner_attesi_totali": 9.2,
         "modello": "corner-v2"
       }
     },
     {
       "casa": "RC Lens",
-      "trasferta": "Olympique de Marseille",
-      "data": "2026-11-08T20:45:00+01:00",
-      "forma_casa": "9° posto, 13 pt in 9 gare (4V-1N-4P), 16-13",
-      "forma_trasferta": "6° posto, 15 pt in 9 gare (5V-0N-4P), 20-13",
+      "trasferta": "Toulouse FC",
+      "data": "2026-11-21T20:45:00+01:00",
+      "forma_casa": "11° posto, 13 pt in 10 gare (4V-1N-5P), 17-15",
+      "forma_trasferta": "12° posto, 13 pt in 10 gare (3V-4N-3P), 15-14",
       "pick_1x2": {
         "esito": "1",
         "etichetta": "Vittoria RC Lens",
-        "probabilita": 0.39,
+        "probabilita": 0.44,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "RC Lens o Olympique de Marseille",
+        "etichetta": "RC Lens o Toulouse FC",
+        "probabilita": 0.75,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (11° con 13 punti, 17 gol fatti e 15 subiti in 10 gare), Toulouse FC 1.46 (12° con 13 punti, 15 fatti e 14 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.6,
+        "corner_attesi_totali": 8.9,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "AS Monaco",
+      "trasferta": "AJ Auxerre",
+      "data": "2026-11-21T20:45:00+01:00",
+      "forma_casa": "7° posto, 16 pt in 10 gare (4V-4N-2P), 13-11",
+      "forma_trasferta": "14° posto, 10 pt in 10 gare (3V-1N-6P), 13-24",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria AS Monaco",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "AS Monaco o pareggio",
+        "probabilita": 0.77,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.59,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): AS Monaco 2.01 gol attesi (7° con 16 punti, 13 gol fatti e 11 subiti in 10 gare), AJ Auxerre 1.25 (14° con 10 punti, 13 fatti e 24 subiti in 10 gare). Somma attesa 3.26 gol.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.5,
+        "corner_attesi_totali": 9.7,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "RC Strasbourg Alsace",
+      "trasferta": "Stade Brestois 29",
+      "data": "2026-11-21T20:45:00+01:00",
+      "forma_casa": "13° posto, 10 pt in 10 gare (3V-1N-6P), 18-22",
+      "forma_trasferta": "9° posto, 15 pt in 10 gare (4V-3N-3P), 18-12",
+      "pick_1x2": {
+        "esito": "2",
+        "etichetta": "Vittoria Stade Brestois 29",
+        "probabilita": 0.4,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "RC Strasbourg Alsace o Stade Brestois 29",
         "probabilita": 0.76,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.69,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.52,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.7,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): RC Strasbourg Alsace 1.74 gol attesi (13° con 10 punti, 18 gol fatti e 22 subiti in 10 gare), Stade Brestois 29 1.84 (9° con 15 punti, 18 fatti e 12 subiti in 10 gare). Somma attesa 3.58 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.67,
+        "corner_attesi_totali": 8.3,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Paris FC",
+      "trasferta": "Angers SCO",
+      "data": "2026-11-22T15:00:00+01:00",
+      "forma_casa": "3° posto, 20 pt in 10 gare (6V-2N-2P), 17-10",
+      "forma_trasferta": "16° posto, 8 pt in 10 gare (2V-2N-6P), 9-19",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Paris FC",
+        "probabilita": 0.57,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Paris FC o pareggio",
+        "probabilita": 0.81,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Paris FC 1.97 gol attesi (3° con 20 punti, 17 gol fatti e 10 subiti in 10 gare), Angers SCO 1.07 (16° con 8 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.57,
+        "corner_attesi_totali": 9.2,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "FC Lorient",
+      "trasferta": "Stade Rennais FC",
+      "data": "2026-11-22T17:15:00+01:00",
+      "forma_casa": "10° posto, 15 pt in 10 gare (4V-3N-3P), 9-8",
+      "forma_trasferta": "8° posto, 16 pt in 10 gare (5V-1N-4P), 21-21",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria FC Lorient",
+        "probabilita": 0.42,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "FC Lorient o Stade Rennais FC",
+        "probabilita": 0.75,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.65,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.72 gol attesi (10° con 15 punti, 9 gol fatti e 8 subiti in 10 gare), Stade Rennais FC 1.52 (8° con 16 punti, 21 fatti e 21 subiti in 10 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.52,
+        "corner_attesi_totali": 9.5,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Olympique de Marseille",
+      "trasferta": "Le Mans FC",
+      "data": "2026-11-22T20:45:00+01:00",
+      "forma_casa": "4° posto, 18 pt in 10 gare (6V-0N-4P), 22-14",
+      "forma_trasferta": "15° posto, 8 pt in 10 gare (1V-5N-4P), 12-19",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Olympique de Marseille",
+        "probabilita": 0.58,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Olympique de Marseille o pareggio",
+        "probabilita": 0.8,
         "modello": "v2"
       },
       "pick_uo": {
@@ -445,21 +445,21 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.71,
+        "probabilita": 0.67,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): RC Lens 1.82 gol attesi (9° con 13 punti, 16 gol fatti e 13 subiti in 9 gare), Olympique de Marseille 1.80 (6° con 15 punti, 20 fatti e 13 subiti in 9 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.29 gol attesi (4° con 18 punti, 22 gol fatti e 14 subiti in 10 gare), Le Mans FC 1.32 (15° con 8 punti, 12 fatti e 19 subiti in 10 gare). Somma attesa 3.61 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-2",
-        "aggiornato": "2026-11-08T22:06:33+00:00"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.58,
-        "corner_attesi_totali": 9.0,
+        "probabilita": 0.61,
+        "corner_attesi_totali": 8.8,
         "modello": "corner-v2"
       }
     }
