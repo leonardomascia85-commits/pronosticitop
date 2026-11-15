@@ -1520,9 +1520,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Portogallo (1° nel girone) ospita Danimarca (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-11-15T00:06:29+00:00"
       }
     },
     {

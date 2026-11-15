@@ -3,7 +3,7 @@
   "titolo": "Nazionali — UEFA Nations League 2026/27 — 5a-6a giornata (Lega A)",
   "periodo": "24 settembre - 6 ottobre 2026",
   "generato_il": "2026-09-22",
-  "aggiornato_il": "2026-11-12",
+  "aggiornato_il": "2026-11-15",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite sugli eventi reali della finestra nazionali in corso (stessi dati pubblicati in /nazionali.html: ranking, forma recente, gol fatti/subiti). Ogni evento usa il mercato (1X2, doppia chance, Under/Over, Gol/No Gol) con la probabilita' stimata piu' alta per quella partita. Le schedine combinano sempre gli eventi con la probabilita' stimata piu' alta disponibile nel turno.",
   "schedine": [
@@ -1115,8 +1115,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Spagna - Inghilterra",
@@ -1147,8 +1147,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Turchia (4° nel girone) ospita Belgio (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Serbia - Germania",
@@ -1163,8 +1163,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Serbia (4° nel girone) ospita Germania (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-3"
         },
         {
           "partita": "Portogallo - Danimarca",
@@ -1179,12 +1179,14 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Portogallo (1° nel girone) ospita Danimarca (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-4"
         }
       ],
       "id": "L5-5",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-15T00:06:29.443806+00:00"
     },
     {
       "livello_rischio": 6,
@@ -1413,6 +1415,95 @@
       "stato": "archiviata",
       "esito_finale": "persa",
       "archiviata_il": "2026-11-12T22:07:13.133197+00:00"
+    },
+    {
+      "id": "L5-6",
+      "livello_rischio": 5,
+      "quota_combinata": 3.77,
+      "probabilita_combinata": 0.265,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Grecia - Serbia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-16T20:45:00+02:00",
+          "mercato": "DC",
+          "pronostico": "Grecia o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Grecia (2° nel girone) ospita Serbia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Danimarca - Norvegia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-17T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Danimarca o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.7,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Danimarca (2° nel girone) ospita Norvegia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Germania - Olanda",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 2",
+          "data": "2026-11-16T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Germania o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.65,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Germania (3° nel girone) ospita Olanda (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galles - Portogallo",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 4",
+          "data": "2026-11-17T20:45:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Portogallo o pareggio",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.31,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Galles (4° nel girone) ospita Portogallo (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Belgio - Italia",
+          "campionato": "Nazionali",
+          "girone": "Gruppo 1",
+          "data": "2026-11-15T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Italia o pareggio",
+          "esito_pick": "X2",
+          "probabilita_stimata": 0.65,
+          "quota_stimata": 1.54,
+          "probabilita_modello": 0.63,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }
