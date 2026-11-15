@@ -1598,9 +1598,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-1",
+        "aggiornato": "2026-11-15T22:07:20+00:00"
       }
     },
     {
@@ -1637,9 +1637,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Francia (1° nel girone) ospita Turchia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-15T22:07:20+00:00"
       }
     },
     {
@@ -1676,9 +1676,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-15T22:07:20+00:00"
       }
     },
     {
@@ -1715,9 +1715,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Croazia (3° nel girone) ospita Repubblica Ceca (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-15T22:07:20+00:00"
       }
     },
     {

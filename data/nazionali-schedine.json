@@ -1033,7 +1033,7 @@
       "livello_rischio": 4,
       "quota_combinata": 2.69,
       "probabilita_combinata": 0.372,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Inghilterra - Croazia",
@@ -1047,8 +1047,8 @@
           "quota_stimata": 1.19,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Francia - Turchia",
@@ -1062,8 +1062,8 @@
           "quota_stimata": 1.25,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Francia (1° nel girone) ospita Turchia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Spagna - Inghilterra",
@@ -1077,8 +1077,8 @@
           "quota_stimata": 1.28,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Repubblica Ceca - Spagna",
@@ -1092,10 +1092,12 @@
           "quota_stimata": 1.41,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Repubblica Ceca (4° nel girone) ospita Spagna (1° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-15T22:07:20.910034+00:00"
     },
     {
       "livello_rischio": 5,
@@ -1131,8 +1133,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Turchia - Belgio",
@@ -1206,8 +1208,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Inghilterra (2° nel girone) ospita Croazia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Francia - Turchia",
@@ -1222,8 +1224,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Francia (1° nel girone) ospita Turchia (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Croazia - Repubblica Ceca",
@@ -1238,8 +1240,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Croazia (3° nel girone) ospita Repubblica Ceca (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Norvegia - Galles",
@@ -1254,8 +1256,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Norvegia (3° nel girone) ospita Galles (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Olanda - Grecia",
@@ -1270,8 +1272,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Olanda (1° nel girone) ospita Grecia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "7-0"
         },
         {
           "partita": "Portogallo - Danimarca",
@@ -1286,12 +1288,14 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Portogallo (1° nel girone) ospita Danimarca (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-4"
         }
       ],
       "id": "L6-1",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-15T22:07:20.910034+00:00"
     },
     {
       "livello_rischio": 7,
@@ -1343,8 +1347,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Croazia (3° nel girone) ospita Repubblica Ceca (4° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Spagna - Inghilterra",
@@ -1359,8 +1363,8 @@
           "probabilita_modello": 0.67,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Spagna (1° nel girone) ospita Inghilterra (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Italia - Francia",
@@ -1391,8 +1395,8 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Norvegia - Galles",
@@ -1421,7 +1425,7 @@
       "livello_rischio": 5,
       "quota_combinata": 3.77,
       "probabilita_combinata": 0.265,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Grecia - Serbia",
@@ -1500,10 +1504,12 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Belgio (3° nel girone) ospita Italia (2° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-15T22:07:20.910034+00:00"
     }
   ]
 }
