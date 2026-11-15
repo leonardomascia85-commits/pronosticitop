@@ -24480,6 +24480,1771 @@
    },
    "campionato": "Serie B",
    "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Willem II",
+   "trasferta": "PEC Zwolle",
+   "data": "2026-11-06T20:00:00+01:00",
+   "forma_casa": "18° posto, 2 pt in 11 gare (0V-2N-9P), 10-39",
+   "forma_trasferta": "14° posto, 11 pt in 11 gare (3V-2N-6P), 12-23",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria PEC Zwolle",
+    "probabilita": 0.45,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Willem II o PEC Zwolle",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.72,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Willem II 1.72 gol attesi (18° con 2 punti, 10 gol fatti e 39 subiti in 11 gare), PEC Zwolle 2.06 (14° con 11 punti, 12 fatti e 23 subiti in 11 gare). Somma attesa 3.78 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-1",
+    "aggiornato": "2026-11-06T22:07:31+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "Fortuna Sittard",
+   "trasferta": "Telstar",
+   "data": "2026-11-07T16:30:00+01:00",
+   "forma_casa": "6° posto, 19 pt in 11 gare (5V-4N-2P), 18-18",
+   "forma_trasferta": "16° posto, 9 pt in 11 gare (2V-3N-6P), 16-23",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Fortuna Sittard",
+    "probabilita": 0.49,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Fortuna Sittard o Telstar",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.68,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.68,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Fortuna Sittard 2.03 gol attesi (6° con 19 punti, 18 gol fatti e 18 subiti in 11 gare), Telstar 1.50 (16° con 9 punti, 16 fatti e 23 subiti in 11 gare). Somma attesa 3.53 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-11-07T18:06:47+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "ADO Den Haag",
+   "trasferta": "Sparta Rotterdam",
+   "data": "2026-11-07T18:45:00+01:00",
+   "forma_casa": "17° posto, 6 pt in 11 gare (1V-3N-7P), 13-24",
+   "forma_trasferta": "11° posto, 12 pt in 11 gare (3V-3N-5P), 20-26",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria ADO Den Haag",
+    "probabilita": 0.4,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "ADO Den Haag o Sparta Rotterdam",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): ADO Den Haag 1.95 gol attesi (17° con 6 punti, 13 gol fatti e 24 subiti in 11 gare), Sparta Rotterdam 1.86 (11° con 12 punti, 20 fatti e 26 subiti in 11 gare). Somma attesa 3.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-1",
+    "aggiornato": "2026-11-07T20:06:51+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "Excelsior",
+   "trasferta": "Go Ahead Eagles",
+   "data": "2026-11-07T21:00:00+01:00",
+   "forma_casa": "15° posto, 11 pt in 11 gare (3V-2N-6P), 16-28",
+   "forma_trasferta": "10° posto, 14 pt in 11 gare (3V-5N-3P), 23-27",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Go Ahead Eagles",
+    "probabilita": 0.4,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Excelsior o Go Ahead Eagles",
+    "probabilita": 0.79,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.62,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.78,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Excelsior 2.11 gol attesi (15° con 11 punti, 16 gol fatti e 28 subiti in 11 gare), Go Ahead Eagles 2.15 (10° con 14 punti, 23 fatti e 27 subiti in 11 gare). Somma attesa 4.26 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-1",
+    "aggiornato": "2026-11-07T22:06:42+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "sc Heerenveen",
+   "trasferta": "Feyenoord",
+   "data": "2026-11-08T12:15:00+01:00",
+   "forma_casa": "7° posto, 18 pt in 11 gare (5V-3N-3P), 19-13",
+   "forma_trasferta": "1° posto, 25 pt in 11 gare (7V-4N-0P), 33-12",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Feyenoord",
+    "probabilita": 0.49,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "sc Heerenveen o Feyenoord",
+    "probabilita": 0.78,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): sc Heerenveen 1.65 gol attesi (7° con 18 punti, 19 gol fatti e 13 subiti in 11 gare), Feyenoord 2.19 (1° con 25 punti, 33 fatti e 12 subiti in 11 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "5-3",
+    "aggiornato": "2026-11-08T14:07:13+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "FC Twente",
+   "trasferta": "Ajax",
+   "data": "2026-11-08T14:30:00+01:00",
+   "forma_casa": "4° posto, 23 pt in 11 gare (7V-2N-2P), 28-10",
+   "forma_trasferta": "2° posto, 24 pt in 11 gare (7V-3N-1P), 30-13",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria FC Twente",
+    "probabilita": 0.45,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "FC Twente o Ajax",
+    "probabilita": 0.79,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.78,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): FC Twente 2.22 gol attesi (4° con 23 punti, 28 gol fatti e 10 subiti in 11 gare), Ajax 1.93 (2° con 24 punti, 30 fatti e 13 subiti in 11 gare). Somma attesa 4.15 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-11-08T16:07:26+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "SC Cambuur",
+   "trasferta": "PSV",
+   "data": "2026-11-08T16:45:00+01:00",
+   "forma_casa": "9° posto, 15 pt in 11 gare (4V-3N-4P), 23-22",
+   "forma_trasferta": "3° posto, 23 pt in 11 gare (7V-2N-2P), 35-13",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria PSV",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "SC Cambuur o PSV",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.83,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): SC Cambuur 1.93 gol attesi (9° con 15 punti, 23 gol fatti e 22 subiti in 11 gare), PSV 2.59 (3° con 23 punti, 35 fatti e 13 subiti in 11 gare). Somma attesa 4.52 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-5",
+    "aggiornato": "2026-11-08T18:06:53+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "AZ Alkmaar",
+   "trasferta": "FC Groningen",
+   "data": "2026-11-08T16:45:00+01:00",
+   "forma_casa": "5° posto, 20 pt in 11 gare (6V-2N-3P), 20-13",
+   "forma_trasferta": "8° posto, 15 pt in 11 gare (4V-3N-4P), 26-24",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria AZ Alkmaar",
+    "probabilita": 0.46,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "AZ Alkmaar o FC Groningen",
+    "probabilita": 0.78,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.76,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.56,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.75,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): AZ Alkmaar 2.18 gol attesi (5° con 20 punti, 20 gol fatti e 13 subiti in 11 gare), FC Groningen 1.81 (8° con 15 punti, 26 fatti e 24 subiti in 11 gare). Somma attesa 3.99 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-3",
+    "aggiornato": "2026-11-08T18:06:53+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "FC Utrecht",
+   "trasferta": "NEC Nijmegen",
+   "data": "2026-11-08T20:00:00+01:00",
+   "forma_casa": "12° posto, 12 pt in 11 gare (3V-3N-5P), 19-31",
+   "forma_trasferta": "13° posto, 11 pt in 11 gare (2V-5N-4P), 17-19",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria NEC Nijmegen",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "FC Utrecht o NEC Nijmegen",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.54,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): FC Utrecht 1.92 gol attesi (12° con 12 punti, 19 gol fatti e 31 subiti in 11 gare), NEC Nijmegen 1.96 (13° con 11 punti, 17 fatti e 19 subiti in 11 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-3",
+    "aggiornato": "2026-11-09T00:07:18+00:00"
+   },
+   "campionato": "Eredivisie",
+   "giornata": "12ª giornata"
+  },
+  {
+   "casa": "Gaziantep FK",
+   "trasferta": "Kasımpaşa",
+   "data": "2026-11-06T20:00:00+03:00",
+   "forma_casa": "16° posto, 8 pt in 10 gare (2V-2N-6P), 9-17",
+   "forma_trasferta": "5° posto, 17 pt in 10 gare (4V-5N-1P), 15-11",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Kasımpaşa",
+    "probabilita": 0.42,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Gaziantep FK o Kasımpaşa",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.54,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.68,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.58,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Gaziantep FK 1.30 gol attesi (16° con 8 punti, 9 gol fatti e 17 subiti in 10 gare), Kasımpaşa 1.53 (5° con 17 punti, 15 fatti e 11 subiti in 10 gare). Somma attesa 2.83 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-2",
+    "aggiornato": "2026-11-06T20:07:01+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Eyüpspor",
+   "trasferta": "Kocaelispor",
+   "data": "2026-11-07T13:30:00+03:00",
+   "forma_casa": "18° posto, 3 pt in 10 gare (1V-0N-9P), 3-28",
+   "forma_trasferta": "8° posto, 16 pt in 10 gare (5V-1N-4P), 11-9",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Kocaelispor",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o Kocaelispor",
+    "probabilita": 0.81,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.7,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Eyüpspor 0.97 gol attesi (18° con 3 punti, 3 gol fatti e 28 subiti in 10 gare), Kocaelispor 1.78 (8° con 16 punti, 11 fatti e 9 subiti in 10 gare). Somma attesa 2.75 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-2",
+    "aggiornato": "2026-11-07T14:06:55+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Samsunspor",
+   "trasferta": "Konyaspor",
+   "data": "2026-11-07T16:00:00+03:00",
+   "forma_casa": "17° posto, 4 pt in 10 gare (1V-1N-8P), 10-26",
+   "forma_trasferta": "15° posto, 8 pt in 10 gare (2V-2N-6P), 6-13",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Konyaspor",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Samsunspor o Konyaspor",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Samsunspor 1.42 gol attesi (17° con 4 punti, 10 gol fatti e 26 subiti in 10 gare), Konyaspor 1.53 (15° con 8 punti, 6 fatti e 13 subiti in 10 gare). Somma attesa 2.96 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-11-07T16:07:04+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Göztepe",
+   "trasferta": "Başakşehir",
+   "data": "2026-11-07T19:00:00+03:00",
+   "forma_casa": "9° posto, 15 pt in 10 gare (4V-3N-3P), 21-17",
+   "forma_trasferta": "10° posto, 14 pt in 10 gare (4V-2N-4P), 17-16",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Göztepe",
+    "probabilita": 0.48,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Göztepe o Başakşehir",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.72,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.51,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.71,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Göztepe 2.10 gol attesi (9° con 15 punti, 21 gol fatti e 17 subiti in 10 gare), Başakşehir 1.61 (10° con 14 punti, 17 fatti e 16 subiti in 10 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "aggiornato": "2026-11-07T20:06:51+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Galatasaray",
+   "trasferta": "Amedspor",
+   "data": "2026-11-07T19:00:00+03:00",
+   "forma_casa": "1° posto, 25 pt in 10 gare (8V-1N-1P), 23-12",
+   "forma_trasferta": "2° posto, 23 pt in 10 gare (7V-2N-1P), 25-11",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Galatasaray",
+    "probabilita": 0.41,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Galatasaray o Amedspor",
+    "probabilita": 0.78,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.75,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.02 gol attesi (1° con 25 punti, 23 gol fatti e 12 subiti in 10 gare), Amedspor 1.89 (2° con 23 punti, 25 fatti e 11 subiti in 10 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "4-3",
+    "aggiornato": "2026-11-07T18:06:47+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Rizespor",
+   "trasferta": "Erzurumspor",
+   "data": "2026-11-08T13:30:00+03:00",
+   "forma_casa": "13° posto, 11 pt in 10 gare (3V-2N-5P), 11-15",
+   "forma_trasferta": "11° posto, 14 pt in 10 gare (4V-2N-4P), 9-15",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Rizespor",
+    "probabilita": 0.43,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Rizespor o Erzurumspor",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.69,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Rizespor 1.55 gol attesi (13° con 11 punti, 11 gol fatti e 15 subiti in 10 gare), Erzurumspor 1.25 (11° con 14 punti, 9 fatti e 15 subiti in 10 gare). Somma attesa 2.80 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-11-08T14:07:13+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Çorum FK",
+   "trasferta": "Fenerbahçe",
+   "data": "2026-11-08T16:00:00+03:00",
+   "forma_casa": "7° posto, 16 pt in 10 gare (5V-1N-4P), 21-16",
+   "forma_trasferta": "6° posto, 16 pt in 10 gare (5V-1N-4P), 24-10",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Fenerbahçe",
+    "probabilita": 0.41,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Çorum FK o Fenerbahçe",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Çorum FK 1.85 gol attesi (7° con 16 punti, 21 gol fatti e 16 subiti in 10 gare), Fenerbahçe 1.97 (6° con 16 punti, 24 fatti e 10 subiti in 10 gare). Somma attesa 3.82 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-5",
+    "aggiornato": "2026-11-08T16:07:26+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Alanyaspor",
+   "trasferta": "Trabzonspor",
+   "data": "2026-11-08T18:30:00+03:00",
+   "forma_casa": "12° posto, 12 pt in 10 gare (3V-3N-4P), 9-16",
+   "forma_trasferta": "3° posto, 22 pt in 10 gare (7V-1N-2P), 24-8",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Trabzonspor",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "X2",
+    "etichetta": "Pareggio o Trabzonspor",
+    "probabilita": 0.79,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Alanyaspor 1.17 gol attesi (12° con 12 punti, 9 gol fatti e 16 subiti in 10 gare), Trabzonspor 1.97 (3° con 22 punti, 24 fatti e 8 subiti in 10 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-2",
+    "aggiornato": "2026-11-08T18:06:53+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Beşiktaş",
+   "trasferta": "Gençlerbirliği",
+   "data": "2026-11-08T21:00:00+03:00",
+   "forma_casa": "4° posto, 19 pt in 10 gare (6V-1N-3P), 20-12",
+   "forma_trasferta": "14° posto, 11 pt in 10 gare (3V-2N-5P), 12-18",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Beşiktaş",
+    "probabilita": 0.56,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Beşiktaş o pareggio",
+    "probabilita": 0.79,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.65,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.64,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.12 gol attesi (4° con 19 punti, 20 gol fatti e 12 subiti in 10 gare), Gençlerbirliği 1.25 (14° con 11 punti, 12 fatti e 18 subiti in 10 gare). Somma attesa 3.37 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-0",
+    "aggiornato": "2026-11-08T20:06:57+00:00"
+   },
+   "campionato": "Süper Lig",
+   "giornata": "11ª giornata"
+  },
+  {
+   "casa": "Hamburger SV",
+   "trasferta": "Borussia Mönchengladbach",
+   "data": "2026-11-06T20:30:00+01:00",
+   "forma_casa": "15° posto, 9 pt in 8 gare (3V-0N-5P), 7-19",
+   "forma_trasferta": "18° posto, 4 pt in 8 gare (1V-1N-6P), 11-22",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Hamburger SV",
+    "probabilita": 0.43,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Hamburger SV o Borussia Mönchengladbach",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.71,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.5,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.71,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Hamburger SV 1.95 gol attesi (15° con 9 punti, 7 gol fatti e 19 subiti in 8 gare), Borussia Mönchengladbach 1.71 (18° con 4 punti, 11 fatti e 22 subiti in 8 gare). Somma attesa 3.66 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-1",
+    "aggiornato": "2026-11-06T22:07:31+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.6,
+    "corner_attesi_totali": 10.7,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "Borussia Dortmund",
+   "trasferta": "SV Elversberg",
+   "data": "2026-11-07T15:30:00+01:00",
+   "forma_casa": "2° posto, 18 pt in 8 gare (5V-3N-0P), 14-6",
+   "forma_trasferta": "7° posto, 13 pt in 8 gare (4V-1N-3P), 16-16",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Borussia Dortmund",
+    "probabilita": 0.5,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Borussia Dortmund o SV Elversberg",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Borussia Dortmund 2.01 gol attesi (2° con 18 punti, 14 gol fatti e 6 subiti in 8 gare), SV Elversberg 1.43 (7° con 13 punti, 16 fatti e 16 subiti in 8 gare). Somma attesa 3.45 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-11-07T22:06:42+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.61,
+    "corner_attesi_totali": 10.8,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "RB Leipzig",
+   "trasferta": "FC Augsburg",
+   "data": "2026-11-07T15:30:00+01:00",
+   "forma_casa": "4° posto, 15 pt in 8 gare (5V-0N-3P), 22-11",
+   "forma_trasferta": "10° posto, 9 pt in 8 gare (2V-3N-3P), 18-15",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria RB Leipzig",
+    "probabilita": 0.54,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "RB Leipzig o FC Augsburg",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.81,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.63,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.55 gol attesi (4° con 15 punti, 22 gol fatti e 11 subiti in 8 gare), FC Augsburg 1.77 (10° con 9 punti, 18 fatti e 15 subiti in 8 gare). Somma attesa 4.33 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "5-2",
+    "aggiornato": "2026-11-08T00:06:33+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.63,
+    "corner_attesi_totali": 11.0,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "1. FSV Mainz 05",
+   "trasferta": "FC Bayern München",
+   "data": "2026-11-07T15:30:00+01:00",
+   "forma_casa": "9° posto, 10 pt in 8 gare (3V-1N-4P), 17-17",
+   "forma_trasferta": "1° posto, 18 pt in 8 gare (5V-3N-0P), 27-8",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria FC Bayern München",
+    "probabilita": 0.54,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "1. FSV Mainz 05 o FC Bayern München",
+    "probabilita": 0.8,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.82,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.65,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.79,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): 1. FSV Mainz 05 1.84 gol attesi (9° con 10 punti, 17 gol fatti e 17 subiti in 8 gare), FC Bayern München 2.62 (1° con 18 punti, 27 fatti e 8 subiti in 8 gare). Somma attesa 4.46 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "aggiornato": "2026-11-07T20:06:51+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.61,
+    "corner_attesi_totali": 10.7,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "SC Paderborn 07",
+   "trasferta": "Eintracht Frankfurt",
+   "data": "2026-11-07T15:30:00+01:00",
+   "forma_casa": "14° posto, 9 pt in 8 gare (2V-3N-3P), 6-9",
+   "forma_trasferta": "8° posto, 11 pt in 8 gare (3V-2N-3P), 13-18",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria SC Paderborn 07",
+    "probabilita": 0.44,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "SC Paderborn 07 o Eintracht Frankfurt",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.63,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.62,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.71 gol attesi (14° con 9 punti, 6 gol fatti e 9 subiti in 8 gare), Eintracht Frankfurt 1.37 (8° con 11 punti, 13 fatti e 18 subiti in 8 gare). Somma attesa 3.09 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-2",
+    "aggiornato": "2026-11-08T00:06:33+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.57,
+    "corner_attesi_totali": 10.4,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "VfB Stuttgart",
+   "trasferta": "SV Werder Bremen",
+   "data": "2026-11-07T18:30:00+01:00",
+   "forma_casa": "11° posto, 9 pt in 8 gare (3V-0N-5P), 14-15",
+   "forma_trasferta": "5° posto, 15 pt in 8 gare (4V-3N-1P), 17-14",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria VfB Stuttgart",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "VfB Stuttgart o SV Werder Bremen",
+    "probabilita": 0.77,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "over",
+    "etichetta": "Over 3.5",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 1.92 gol attesi (11° con 9 punti, 14 gol fatti e 15 subiti in 8 gare), SV Werder Bremen 1.87 (5° con 15 punti, 17 fatti e 14 subiti in 8 gare). Somma attesa 3.79 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-11-08T00:06:33+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.64,
+    "corner_attesi_totali": 11.1,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "1. FC Köln",
+   "trasferta": "Bayer 04 Leverkusen",
+   "data": "2026-11-08T15:30:00+01:00",
+   "forma_casa": "13° posto, 9 pt in 8 gare (2V-3N-3P), 9-12",
+   "forma_trasferta": "6° posto, 13 pt in 8 gare (4V-1N-3P), 18-16",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Bayer 04 Leverkusen",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "1. FC Köln o Bayer 04 Leverkusen",
+    "probabilita": 0.76,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.69,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.7,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): 1. FC Köln 1.76 gol attesi (13° con 9 punti, 9 gol fatti e 12 subiti in 8 gare), Bayer 04 Leverkusen 1.82 (6° con 13 punti, 18 fatti e 16 subiti in 8 gare). Somma attesa 3.58 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "aggiornato": "2026-11-08T18:06:53+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.63,
+    "corner_attesi_totali": 11.0,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "SC Freiburg",
+   "trasferta": "1. FC Union Berlin",
+   "data": "2026-11-08T17:30:00+01:00",
+   "forma_casa": "3° posto, 16 pt in 8 gare (5V-1N-2P), 18-10",
+   "forma_trasferta": "16° posto, 7 pt in 8 gare (1V-4N-3P), 7-19",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria SC Freiburg",
+    "probabilita": 0.65,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "SC Freiburg o pareggio",
+    "probabilita": 0.84,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.7,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.51,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.64,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): SC Freiburg 2.45 gol attesi (3° con 16 punti, 18 gol fatti e 10 subiti in 8 gare), 1. FC Union Berlin 1.17 (16° con 7 punti, 7 fatti e 19 subiti in 8 gare). Somma attesa 3.62 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-0",
+    "aggiornato": "2026-11-08T20:06:57+00:00"
+   },
+   "pick_corner": {
+    "esito": "under",
+    "etichetta": "Under 9.5 corner",
+    "probabilita": 0.54,
+    "corner_attesi_totali": 9.4,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "TSG Hoffenheim",
+   "trasferta": "FC Schalke 04",
+   "data": "2026-11-08T19:30:00+01:00",
+   "forma_casa": "12° posto, 9 pt in 8 gare (3V-0N-5P), 14-16",
+   "forma_trasferta": "17° posto, 6 pt in 8 gare (1V-3N-4P), 4-9",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria TSG Hoffenheim",
+    "probabilita": 0.45,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "TSG Hoffenheim o FC Schalke 04",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): TSG Hoffenheim 1.67 gol attesi (12° con 9 punti, 14 gol fatti e 16 subiti in 8 gare), FC Schalke 04 1.29 (17° con 6 punti, 4 fatti e 9 subiti in 8 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-11-08T22:06:33+00:00"
+   },
+   "pick_corner": {
+    "esito": "over",
+    "etichetta": "Over 9.5 corner",
+    "probabilita": 0.57,
+    "corner_attesi_totali": 10.4,
+    "modello": "corner-v2"
+   },
+   "campionato": "Bundesliga",
+   "giornata": "9ª giornata"
+  },
+  {
+   "casa": "Red Bull Bragantino",
+   "trasferta": "Santos",
+   "data": "2026-11-02T20:00:00-03:00",
+   "forma_casa": "9° posto, 44 pt in 33 gare (12V-8N-13P), 42-38",
+   "forma_trasferta": "8° posto, 47 pt in 33 gare (12V-11N-10P), 49-47",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Red Bull Bragantino",
+    "probabilita": 0.42,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Red Bull Bragantino o Santos",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.58 gol attesi (9° con 44 punti, 42 gol fatti e 38 subiti in 33 gare), Santos 1.32 (8° con 47 punti, 49 fatti e 47 subiti in 33 gare). Somma attesa 2.90 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "2-1",
+    "aggiornato": "2026-11-03T02:06:44+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Chapecoense",
+   "trasferta": "Mirassol",
+   "data": "2026-11-03T19:30:00-03:00",
+   "forma_casa": "20° posto, 21 pt in 32 gare (4V-9N-19P), 32-66",
+   "forma_trasferta": "16° posto, 37 pt in 33 gare (9V-10N-14P), 37-47",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Mirassol",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Chapecoense o Mirassol",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.58,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.65,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Chapecoense 1.44 gol attesi (20° con 21 punti, 32 gol fatti e 66 subiti in 32 gare), Mirassol 1.56 (16° con 37 punti, 37 fatti e 47 subiti in 33 gare). Somma attesa 3.00 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-2",
+    "aggiornato": "2026-11-04T02:07:04+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Internacional",
+   "trasferta": "Coritiba",
+   "data": "2026-11-03T21:30:00-03:00",
+   "forma_casa": "18° posto, 35 pt in 33 gare (8V-11N-14P), 37-42",
+   "forma_trasferta": "11° posto, 42 pt in 33 gare (11V-9N-13P), 40-50",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Internacional",
+    "probabilita": 0.43,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Internacional o Coritiba",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.69,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Internacional 1.55 gol attesi (18° con 35 punti, 37 gol fatti e 42 subiti in 33 gare), Coritiba 1.25 (11° con 42 punti, 40 fatti e 50 subiti in 33 gare). Somma attesa 2.80 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-11-04T22:06:50+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Flamengo",
+   "trasferta": "Grêmio",
+   "data": "2026-11-04T19:30:00-03:00",
+   "forma_casa": "1° posto, 73 pt in 33 gare (22V-7N-4P), 68-28",
+   "forma_trasferta": "15° posto, 37 pt in 33 gare (9V-10N-14P), 37-44",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Flamengo",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Flamengo o pareggio",
+    "probabilita": 0.83,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.63,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Flamengo 2.06 gol attesi (1° con 73 punti, 68 gol fatti e 28 subiti in 33 gare), Grêmio 1.02 (15° con 37 punti, 37 fatti e 44 subiti in 33 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-1",
+    "aggiornato": "2026-11-05T02:07:06+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Athletico-PR",
+   "trasferta": "Vasco da Gama",
+   "data": "2026-11-04T19:30:00-03:00",
+   "forma_casa": "5° posto, 54 pt in 33 gare (15V-9N-9P), 50-40",
+   "forma_trasferta": "13° posto, 38 pt in 32 gare (10V-8N-14P), 40-49",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Athletico-PR",
+    "probabilita": 0.48,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Athletico-PR o Vasco da Gama",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.58,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.65,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.6,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.76 gol attesi (5° con 54 punti, 50 gol fatti e 40 subiti in 33 gare), Vasco da Gama 1.24 (13° con 38 punti, 40 fatti e 49 subiti in 32 gare). Somma attesa 3.00 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-3",
+    "aggiornato": "2026-11-05T02:07:06+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "São Paulo",
+   "trasferta": "Corinthians",
+   "data": "2026-11-04T21:30:00-03:00",
+   "forma_casa": "10° posto, 43 pt in 33 gare (12V-7N-14P), 39-39",
+   "forma_trasferta": "17° posto, 36 pt in 33 gare (9V-9N-15P), 36-42",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria São Paulo",
+    "probabilita": 0.43,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "São Paulo o Corinthians",
+    "probabilita": 0.72,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "under",
+    "etichetta": "Under 2.5",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.54,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.45 gol attesi (10° con 43 punti, 39 gol fatti e 39 subiti in 33 gare), Corinthians 1.16 (17° con 36 punti, 36 fatti e 42 subiti in 33 gare). Somma attesa 2.61 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-0",
+    "aggiornato": "2026-11-05T10:07:11+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Botafogo",
+   "trasferta": "Atlético-MG",
+   "data": "2026-11-04T21:30:00-03:00",
+   "forma_casa": "12° posto, 39 pt in 33 gare (10V-9N-14P), 45-53",
+   "forma_trasferta": "7° posto, 50 pt in 33 gare (14V-8N-11P), 44-39",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Botafogo",
+    "probabilita": 0.38,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Botafogo o Atlético-MG",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.57,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.66,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.61,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Botafogo 1.50 gol attesi (12° con 39 punti, 45 gol fatti e 53 subiti in 33 gare), Atlético-MG 1.45 (7° con 50 punti, 44 fatti e 39 subiti in 33 gare). Somma attesa 2.95 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "1-0",
+    "aggiornato": "2026-11-05T10:07:11+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Palmeiras",
+   "trasferta": "Remo",
+   "data": "2026-11-05T19:30:00-03:00",
+   "forma_casa": "2° posto, 70 pt in 33 gare (20V-10N-3P), 56-22",
+   "forma_trasferta": "19° posto, 29 pt in 33 gare (6V-11N-16P), 36-51",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Palmeiras",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "1X",
+    "etichetta": "Palmeiras o pareggio",
+    "probabilita": 0.83,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.53,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.69,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.52,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.88 gol attesi (2° con 70 punti, 56 gol fatti e 22 subiti in 33 gare), Remo 0.93 (19° con 29 punti, 36 fatti e 51 subiti in 33 gare). Somma attesa 2.81 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "6-1",
+    "aggiornato": "2026-11-06T02:06:43+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Cruzeiro",
+   "trasferta": "Bahia",
+   "data": "2026-11-05T21:30:00-03:00",
+   "forma_casa": "3° posto, 57 pt in 33 gare (17V-6N-10P), 52-46",
+   "forma_trasferta": "6° posto, 53 pt in 33 gare (14V-11N-8P), 48-42",
+   "pick_1x2": {
+    "esito": "1",
+    "etichetta": "Vittoria Cruzeiro",
+    "probabilita": 0.42,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Cruzeiro o Bahia",
+    "probabilita": 0.74,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.63,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.62,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Cruzeiro 1.66 gol attesi (3° con 57 punti, 52 gol fatti e 46 subiti in 33 gare), Bahia 1.41 (6° con 53 punti, 48 fatti e 42 subiti in 33 gare). Somma attesa 3.07 gol. Orario da confermare.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "3-2",
+    "aggiornato": "2026-11-06T10:06:57+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
+  },
+  {
+   "casa": "Vitória",
+   "trasferta": "Fluminense",
+   "data": "2026-11-06T20:00:00-03:00",
+   "forma_casa": "14° posto, 38 pt in 33 gare (10V-8N-15P), 35-48",
+   "forma_trasferta": "4° posto, 54 pt in 33 gare (15V-9N-9P), 52-42",
+   "pick_1x2": {
+    "esito": "2",
+    "etichetta": "Vittoria Fluminense",
+    "probabilita": 0.39,
+    "modello": "v2"
+   },
+   "pick_dc": {
+    "esito": "12",
+    "etichetta": "Vitória o Fluminense",
+    "probabilita": 0.73,
+    "modello": "v2"
+   },
+   "pick_uo": {
+    "esito": "over",
+    "etichetta": "Over 2.5",
+    "probabilita": 0.55,
+    "modello": "v2"
+   },
+   "pick_uo35": {
+    "esito": "under",
+    "etichetta": "Under 3.5",
+    "probabilita": 0.67,
+    "modello": "v2"
+   },
+   "pick_gg": {
+    "esito": "gol",
+    "etichetta": "Gol",
+    "probabilita": 0.59,
+    "modello": "v2"
+   },
+   "nota": "Modello a gol attesi (con vantaggio casa): Vitória 1.39 gol attesi (14° con 38 punti, 35 gol fatti e 48 subiti in 33 gare), Fluminense 1.49 (4° con 54 punti, 52 fatti e 42 subiti in 33 gare). Somma attesa 2.88 gol.",
+   "confidenza_dati": "ALTA",
+   "risultato": {
+    "stato": "finale",
+    "punteggio": "0-3",
+    "aggiornato": "2026-11-07T02:06:56+00:00"
+   },
+   "campionato": "Brasileirão",
+   "giornata": "34ª rodada"
   }
  ]
 }
