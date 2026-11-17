@@ -1832,9 +1832,9 @@
       },
       "nota": "Ritorno della fase a gironi (5a-6a giornata): Danimarca (2° nel girone) ospita Norvegia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-17T22:06:45+00:00"
       }
     },
     {

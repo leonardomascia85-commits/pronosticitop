@@ -1456,8 +1456,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Ritorno della fase a gironi (5a-6a giornata): Danimarca (2° nel girone) ospita Norvegia (3° nel girone), pronostico basato sul rendimento mostrato nelle prime 4 giornate.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Germania - Olanda",
