@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Coritiba 1.54 gol attesi (12° con 42 punti, 40 gol fatti e 51 subiti in 34 gare), Santos 1.47 (9° con 47 punti, 50 fatti e 49 subiti in 34 gare). Somma attesa 3.00 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-19T02:07:00Z"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Cruzeiro 1.37 gol attesi (3° con 60 punti, 55 gol fatti e 48 subiti in 34 gare), Palmeiras 1.64 (2° con 73 punti, 62 fatti e 23 subiti in 34 gare). Somma attesa 3.01 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-19T02:07:00Z"
       }
     },
     {
