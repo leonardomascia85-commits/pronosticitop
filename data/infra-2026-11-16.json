@@ -2,7 +2,7 @@
   "id": "infra-2026-11-16",
   "titolo": "Turno infrasettimanale del 18-19 novembre 2026",
   "generato_il": "2026-11-15",
-  "aggiornato_il": "2026-11-19",
+  "aggiornato_il": "2026-11-20",
   "stato": "pubblicata",
   "chiave_turno": "2026-11-16",
   "campionati_coperti": [
@@ -93,7 +93,7 @@
       "quota_max": 4,
       "quota_combinata": 2.67,
       "probabilita_combinata": 0.374,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Coritiba - Santos",
@@ -107,8 +107,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Coritiba 1.54 gol attesi (12° con 42 punti, 40 gol fatti e 51 subiti in 34 gare), Santos 1.47 (9° con 47 punti, 50 fatti e 49 subiti in 34 gare). Somma attesa 3.00 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Flamengo - Athletico-PR",
@@ -122,8 +122,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Flamengo 2.05 gol attesi (1° con 76 punti, 71 gol fatti e 29 subiti in 34 gare), Athletico-PR 1.19 (5° con 54 punti, 51 fatti e 43 subiti in 34 gare). Somma attesa 3.24 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Corinthians - Botafogo",
@@ -137,8 +137,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.54 gol attesi (17° con 37 punti, 36 gol fatti e 42 subiti in 34 gare), Botafogo 1.30 (11° con 42 punti, 46 fatti e 53 subiti in 34 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Vasco da Gama - Internacional",
@@ -152,8 +152,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.50 gol attesi (13° con 41 punti, 43 gol fatti e 50 subiti in 33 gare), Internacional 1.32 (15° con 38 punti, 38 fatti e 42 subiti in 34 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Vitória - Red Bull Bragantino",
@@ -167,10 +167,12 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória 1.31 gol attesi (16° con 38 punti, 35 gol fatti e 51 subiti in 34 gare), Red Bull Bragantino 1.39 (8° con 47 punti, 44 fatti e 39 subiti in 34 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-20T10:06:54.152495+00:00"
     },
     {
       "id": "L6-1",
@@ -269,8 +271,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): São Paulo 1.42 gol attesi (10° con 44 punti, 39 gol fatti e 39 subiti in 34 gare), Fluminense 1.38 (4° con 57 punti, 55 fatti e 42 subiti in 34 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         }
       ],
       "esito_finale": "persa",
@@ -388,8 +390,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.50 gol attesi (13° con 41 punti, 43 gol fatti e 50 subiti in 33 gare), Internacional 1.32 (15° con 38 punti, 38 fatti e 42 subiti in 34 gare). Somma attesa 2.81 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",

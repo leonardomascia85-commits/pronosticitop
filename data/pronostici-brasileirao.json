@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vasco da Gama 1.50 gol attesi (13° con 41 punti, 43 gol fatti e 50 subiti in 33 gare), Internacional 1.32 (15° con 38 punti, 38 fatti e 42 subiti in 34 gare). Somma attesa 2.81 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-20T10:06:54Z"
       }
     },
     {
@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Vitória 1.31 gol attesi (16° con 38 punti, 35 gol fatti e 51 subiti in 34 gare), Red Bull Bragantino 1.39 (8° con 47 punti, 44 fatti e 39 subiti in 34 gare). Somma attesa 2.70 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-20T10:06:54Z"
       }
     },
     {
@@ -439,9 +439,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.42 gol attesi (10° con 44 punti, 39 gol fatti e 39 subiti in 34 gare), Fluminense 1.38 (4° con 57 punti, 55 fatti e 42 subiti in 34 gare). Somma attesa 2.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-20T10:06:54Z"
       }
     }
   ]
