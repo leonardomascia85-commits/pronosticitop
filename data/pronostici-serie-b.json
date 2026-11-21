@@ -175,9 +175,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Modena 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 10 subiti in 11 gare), Juve Stabia 1.10 (13° con 12 punti, 12 fatti e 11 subiti in 11 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-21T18:06:46Z"
       }
     },
     {
@@ -219,9 +219,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.29 gol attesi (14° con 11 punti, 11 gol fatti e 18 subiti in 11 gare), Benevento 1.46 (7° con 16 punti, 15 fatti e 11 subiti in 11 gare). Somma attesa 2.75 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-21T18:06:46Z"
       }
     },
     {

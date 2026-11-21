@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-15",
+  "aggiornato_il": "2026-11-21",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -9218,7 +9218,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.78,
       "probabilita_combinata": 0.36,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Deportivo Alavés - Deportivo de La Coruña",
@@ -9262,8 +9262,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): ESTAC Troyes 1.67 gol attesi (17° con 8 punti, 7 gol fatti e 17 subiti in 10 gare), Le Havre AC 1.32 (18° con 2 punti, 9 fatti e 22 subiti in 10 gare). Somma attesa 2.99 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Napoli - Torino",
@@ -9307,8 +9307,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Manchester City 1.93 gol attesi (3° con 21 punti, 21 gol fatti e 13 subiti in 10 gare), Fulham 1.21 (15° con 10 punti, 10 fatti e 12 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Aston Villa - Sunderland",
@@ -9322,12 +9322,14 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.76 gol attesi (10° con 13 punti, 14 gol fatti e 17 subiti in 10 gare), Sunderland 1.28 (19° con 8 punti, 8 fatti e 17 subiti in 10 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-21T18:06:46.125686+00:00"
     },
     {
       "id": "L4-25",
@@ -9698,6 +9700,123 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L7-28",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 2.62,
+      "probabilita_combinata": 0.382,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Internacional - Vitória",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Getafe - Atlético Madrid",
+          "campionato": "La Liga",
+          "data": "2026-11-22T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.06 gol attesi (15° con 12 punti, 8 gol fatti e 18 subiti in 12 gare), Atlético Madrid 1.68 (3° con 28 punti, 23 fatti e 10 subiti in 12 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Kasımpaşa - Alanyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-22T16:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.80 gol attesi (5° con 20 punti, 17 gol fatti e 11 subiti in 11 gare), Alanyaspor 1.03 (13° con 12 punti, 9 fatti e 18 subiti in 11 gare). Somma attesa 2.83 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Bahia - Coritiba",
+          "campionato": "Brasileirão",
+          "data": "2026-11-21T17:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.69 gol attesi (6° con 54 punti, 50 gol fatti e 45 subiti in 35 gare), Coritiba 1.23 (13° con 42 punti, 40 fatti e 52 subiti in 35 gare). Somma attesa 2.92 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Athletico-PR - Remo",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T16:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.80 gol attesi (5° con 54 punti, 52 gol fatti e 45 subiti in 35 gare), Remo 1.21 (19° con 32 punti, 39 fatti e 57 subiti in 35 gare). Somma attesa 3.01 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fluminense - Mirassol",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T18:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fluminense 1.72 gol attesi (4° con 60 punti, 56 gol fatti e 42 subiti in 35 gare), Mirassol 1.17 (15° con 41 punti, 39 fatti e 48 subiti in 35 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Red Bull Bragantino - Vasco da Gama",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.60 gol attesi (9° con 47 punti, 45 gol fatti e 41 subiti in 35 gare), Vasco da Gama 1.26 (10° con 47 punti, 47 fatti e 51 subiti in 35 gare). Somma attesa 2.87 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }

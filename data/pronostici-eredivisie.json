@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.68 gol attesi (11° con 14 punti, 20 gol fatti e 21 subiti in 12 gare), PSV 2.62 (1° con 26 punti, 40 fatti e 15 subiti in 12 gare). Somma attesa 4.30 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-11-21T18:06:46Z"
       }
     },
     {

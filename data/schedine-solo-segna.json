@@ -6814,7 +6814,7 @@
       "variante": "libera",
       "quota_combinata": 2.19,
       "probabilita_combinata": 0.458,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "RC Lens - Toulouse FC",
@@ -6843,8 +6843,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Como 1.72 gol attesi (5° con 23 punti, 18 gol fatti e 10 subiti in 11 gare), Cagliari 1.03 (9° con 16 punti, 10 fatti e 15 subiti in 11 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Sassuolo - Genoa",
@@ -6873,10 +6873,12 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.76 gol attesi (10° con 13 punti, 14 gol fatti e 17 subiti in 10 gare), Sunderland 1.28 (19° con 8 punti, 8 fatti e 17 subiti in 10 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-21T18:06:46.125686+00:00"
     },
     {
       "id": "L5-18",
@@ -7294,6 +7296,76 @@
       ],
       "quota_max": 7,
       "quota_rispettata": true
+    },
+    {
+      "id": "L4-22",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.61,
+      "probabilita_combinata": 0.619,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Trabzonspor - Eyüpspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-22T19:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Trabzonspor)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.93,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.93,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Trabzonspor 2.76 gol attesi (2° con 25 punti, 26 gol fatti e 8 subiti in 11 gare), Eyüpspor 0.74 (18° con 3 punti, 3 fatti e 30 subiti in 11 gare). Somma attesa 3.50 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - sc Heerenveen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-21T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Groningen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.22 gol attesi (9° con 15 punti, 29 gol fatti e 28 subiti in 12 gare), sc Heerenveen 2.04 (6° con 21 punti, 24 fatti e 16 subiti in 12 gare). Somma attesa 4.25 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Go Ahead Eagles - Fortuna Sittard",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T16:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Go Ahead Eagles)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Go Ahead Eagles 2.09 gol attesi (8° con 17 punti, 24 gol fatti e 27 subiti in 12 gare), Fortuna Sittard 1.81 (7° con 20 punti, 20 fatti e 20 subiti in 12 gare). Somma attesa 3.89 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Telstar - PEC Zwolle",
+          "campionato": "Eredivisie",
+          "data": "2026-11-21T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Telstar)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 1.94 gol attesi (16° con 10 punti, 18 gol fatti e 25 subiti in 12 gare), PEC Zwolle 1.53 (13° con 12 punti, 13 fatti e 24 subiti in 12 gare). Somma attesa 3.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

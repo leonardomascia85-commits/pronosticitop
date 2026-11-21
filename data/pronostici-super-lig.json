@@ -88,9 +88,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Amedspor 2.34 gol attesi (3° con 23 punti, 28 gol fatti e 15 subiti in 11 gare), Rizespor 1.30 (11° con 14 punti, 13 fatti e 16 subiti in 11 gare). Somma attesa 3.64 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-21T18:06:46Z"
       }
     },
     {
@@ -132,9 +132,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.67 gol attesi (1° con 28 punti, 27 gol fatti e 15 subiti in 11 gare), Samsunspor 1.23 (17° con 7 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-1",
+        "aggiornato": "2026-11-21T18:06:46Z"
       }
     },
     {

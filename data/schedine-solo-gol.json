@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Over 1.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-15",
+  "aggiornato_il": "2026-11-21",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Over 1.5 gol (almeno 2 gol nella partita) per ogni partita. Il backtest su 441 partite concluse mostra che Gol/No Gol vinceva solo il 56%, mentre Over 1.5 vince l'81% (86% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -11773,7 +11773,7 @@
       "variante": "libera",
       "quota_combinata": 2.27,
       "probabilita_combinata": 0.441,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sevilla - Real Betis",
@@ -11817,8 +11817,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.76 gol attesi (10° con 13 punti, 14 gol fatti e 17 subiti in 10 gare), Sunderland 1.28 (19° con 8 punti, 8 fatti e 17 subiti in 10 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Tottenham Hotspur - Ipswich Town",
@@ -11835,7 +11835,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-21T18:06:46.125686+00:00"
     },
     {
       "id": "L5-34",
@@ -12132,6 +12134,76 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Arezzo 1.29 gol attesi (15° con 11 punti, 9 gol fatti e 20 subiti in 11 gare), Padova 1.43 (11° con 15 punti, 12 fatti e 13 subiti in 11 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-33",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.38,
+      "probabilita_combinata": 0.724,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Augsburg - 1. FSV Mainz 05",
+          "campionato": "Bundesliga",
+          "data": "2026-11-22T15:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.93,
+          "quota_stimata": 1.08,
+          "probabilita_modello": 0.93,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.36 gol attesi (14° con 9 punti, 20 gol fatti e 20 subiti in 9 gare), 1. FSV Mainz 05 1.94 (12° con 10 punti, 18 fatti e 19 subiti in 9 gare). Somma attesa 4.31 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - sc Heerenveen",
+          "campionato": "Eredivisie",
+          "data": "2026-11-21T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.93,
+          "quota_stimata": 1.08,
+          "probabilita_modello": 0.93,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 2.22 gol attesi (9° con 15 punti, 29 gol fatti e 28 subiti in 12 gare), sc Heerenveen 2.04 (6° con 21 punti, 24 fatti e 16 subiti in 12 gare). Somma attesa 4.25 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Twente - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T12:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 3.15 gol attesi (4° con 24 punti, 30 gol fatti e 12 subiti in 12 gare), Willem II 1.06 (18° con 3 punti, 11 fatti e 40 subiti in 12 gare). Somma attesa 4.21 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - ADO Den Haag",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T14:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.71 gol attesi (3° con 25 punti, 32 gol fatti e 15 subiti in 12 gare), ADO Den Haag 1.31 (17° con 9 punti, 16 fatti e 25 subiti in 12 gare). Somma attesa 4.02 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }
