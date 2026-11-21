@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Como 1.72 gol attesi (5° con 23 punti, 18 gol fatti e 10 subiti in 11 gare), Cagliari 1.03 (9° con 16 punti, 10 fatti e 15 subiti in 11 gare). Somma attesa 2.75 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-21T16:06:41Z"
       },
       "pick_corner": {
         "esito": "over",
@@ -94,9 +94,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Lazio 2.39 gol attesi (1° con 29 punti, 25 gol fatti e 9 subiti in 11 gare), Lecce 1.07 (14° con 10 punti, 12 fatti e 22 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-21T16:06:41Z"
       },
       "pick_corner": {
         "esito": "under",
