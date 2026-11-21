@@ -9277,8 +9277,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.80 gol attesi (10° con 15 punti, 18 gol fatti e 14 subiti in 11 gare), Torino 1.33 (11° con 14 punti, 15 fatti e 17 subiti in 11 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Ascoli - L.R. Vicenza",

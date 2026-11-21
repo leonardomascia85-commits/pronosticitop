@@ -196,9 +196,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Napoli 1.80 gol attesi (10° con 15 punti, 18 gol fatti e 14 subiti in 11 gare), Torino 1.33 (11° con 14 punti, 15 fatti e 17 subiti in 11 gare). Somma attesa 3.13 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-21T22:06:26Z"
       },
       "pick_corner": {
         "esito": "under",

@@ -6784,8 +6784,8 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Napoli 1.80 gol attesi (10° con 15 punti, 18 gol fatti e 14 subiti in 11 gare), Torino 1.33 (11° con 14 punti, 15 fatti e 17 subiti in 11 gare). Somma attesa 3.13 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Hellas Verona - Cesena",
@@ -7071,7 +7071,7 @@
       "variante": "libera",
       "quota_combinata": 5.7,
       "probabilita_combinata": 0.175,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sevilla - Real Betis",
@@ -7130,8 +7130,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.53 gol attesi (7° con 16 punti, 14 gol fatti e 8 subiti in 10 gare), Espanyol 1.06 (13° con 12 punti, 13 fatti e 14 subiti in 12 gare). Somma attesa 2.59 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Avellino - Mantova",
@@ -7175,10 +7175,12 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sampdoria 1.29 gol attesi (14° con 11 punti, 11 gol fatti e 18 subiti in 11 gare), Benevento 1.46 (7° con 16 punti, 15 fatti e 11 subiti in 11 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-21T22:06:26.677653+00:00"
     },
     {
       "id": "L7-21",
@@ -7362,6 +7364,121 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Telstar 1.94 gol attesi (16° con 10 punti, 18 gol fatti e 25 subiti in 12 gare), PEC Zwolle 1.53 (13° con 12 punti, 13 fatti e 24 subiti in 12 gare). Somma attesa 3.47 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L7-22",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 3.39,
+      "probabilita_combinata": 0.295,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Başakşehir - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-11-23T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Başakşehir)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Hull City - Brighton & Hove Albion",
+          "campionato": "Premier League",
+          "data": "2026-11-22T14:00:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Brighton & Hove Albion)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.22 gol attesi (13° con 11 punti, 11 gol fatti e 11 subiti in 10 gare), Brighton & Hove Albion 1.91 (2° con 22 punti, 26 fatti e 7 subiti in 10 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Liverpool - Manchester United",
+          "campionato": "Premier League",
+          "data": "2026-11-22T16:30:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Liverpool)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.84 gol attesi (4° con 18 punti, 14 gol fatti e 10 subiti in 10 gare), Manchester United 1.25 (18° con 8 punti, 14 fatti e 19 subiti in 10 gare). Somma attesa 3.09 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Racing de Santander - Real Sociedad",
+          "campionato": "La Liga",
+          "data": "2026-11-22T16:15:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Real Sociedad)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.76 gol attesi (10° con 14 punti, 17 gol fatti e 30 subiti in 12 gare), Real Sociedad 1.95 (5° con 22 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sparta Rotterdam - AZ Alkmaar",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T14:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (AZ Alkmaar)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sparta Rotterdam 1.78 gol attesi (12° con 12 punti, 21 gol fatti e 29 subiti in 12 gare), AZ Alkmaar 2.07 (5° con 23 punti, 24 fatti e 16 subiti in 12 gare). Somma attesa 3.84 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Chapecoense - Cruzeiro",
+          "campionato": "Brasileirão",
+          "data": "2026-11-21T21:00:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Cruzeiro)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Chapecoense 1.39 gol attesi (20° con 21 punti, 33 gol fatti e 72 subiti in 35 gare), Cruzeiro 1.79 (3° con 63 punti, 57 fatti e 49 subiti in 35 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Athletico-PR - Remo",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T16:00:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Athletico-PR)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.80 gol attesi (5° con 54 punti, 52 gol fatti e 45 subiti in 35 gare), Remo 1.21 (19° con 32 punti, 39 fatti e 57 subiti in 35 gare). Somma attesa 3.01 gol.",
           "esito": null,
           "risultato_reale": null
         }

@@ -4564,8 +4564,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.53 gol attesi (7° con 16 punti, 14 gol fatti e 8 subiti in 10 gare), Espanyol 1.06 (13° con 12 punti, 13 fatti e 14 subiti in 12 gare). Somma attesa 2.59 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Manchester City - Fulham",
