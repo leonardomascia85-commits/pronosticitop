@@ -176,9 +176,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Kocaelispor 1.33 gol attesi (7° con 19 punti, 13 gol fatti e 9 subiti in 11 gare), Fenerbahçe 1.84 (6° con 19 punti, 29 fatti e 10 subiti in 11 gare). Somma attesa 3.17 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-21T20:06:59Z"
       }
     },
     {

@@ -307,9 +307,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Catanzaro 1.37 gol attesi (20° con 6 punti, 11 gol fatti e 23 subiti in 11 gare), Palermo 2.09 (1° con 27 punti, 25 fatti e 13 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-21T20:06:59Z"
       }
     },
     {

@@ -94,9 +94,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.51 gol attesi (6° con 17 punti, 15 gol fatti e 12 subiti in 10 gare), Paris Saint-Germain 1.72 (1° con 23 punti, 22 fatti e 10 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "under",

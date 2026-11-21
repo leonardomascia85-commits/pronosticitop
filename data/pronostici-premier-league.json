@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.67 gol attesi (7° con 15 punti, 16 gol fatti e 14 subiti in 10 gare), Nottingham Forest 1.21 (16° con 9 punti, 9 fatti e 13 subiti in 10 gare). Somma attesa 2.89 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "under",
@@ -196,9 +196,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Chelsea 1.64 gol attesi (5° con 16 punti, 19 gol fatti e 16 subiti in 10 gare), Leeds United 1.32 (9° con 14 punti, 10 fatti e 8 subiti in 10 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-4",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "under",
@@ -247,9 +247,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Coventry City 1.88 gol attesi (17° con 9 punti, 10 gol fatti e 19 subiti in 10 gare), Crystal Palace 1.43 (20° con 7 punti, 10 fatti e 24 subiti in 10 gare). Somma attesa 3.31 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "under",
@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.72 gol attesi (11° con 12 punti, 10 gol fatti e 11 subiti in 10 gare), Ipswich Town 1.32 (14° con 11 punti, 15 fatti e 20 subiti in 10 gare). Somma attesa 3.04 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-0",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "under",

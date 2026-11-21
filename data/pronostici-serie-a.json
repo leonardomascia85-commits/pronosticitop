@@ -145,9 +145,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Parma 1.17 gol attesi (16° con 8 punti, 9 gol fatti e 17 subiti in 11 gare), Roma 2.21 (3° con 27 punti, 31 fatti e 10 subiti in 11 gare). Somma attesa 3.39 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-5",
+        "aggiornato": "2026-11-21T20:06:59Z"
       },
       "pick_corner": {
         "esito": "over",
