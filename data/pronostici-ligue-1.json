@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): ESTAC Troyes 1.67 gol attesi (17° con 8 punti, 7 gol fatti e 17 subiti in 10 gare), Le Havre AC 1.32 (18° con 2 punti, 9 fatti e 22 subiti in 10 gare). Somma attesa 2.99 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-21T02:06:36Z"
       },
       "pick_corner": {
         "esito": "under",

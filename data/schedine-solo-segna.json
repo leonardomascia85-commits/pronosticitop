@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-15",
+  "aggiornato_il": "2026-11-21",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -6695,7 +6695,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.47,
       "probabilita_combinata": 0.288,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Coventry City - Crystal Palace",
@@ -6799,12 +6799,14 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.73 gol attesi (5° con 16 punti, 19 gol fatti e 13 subiti in 11 gare), Cesena 1.20 (12° con 15 punti, 12 fatti e 14 subiti in 11 gare). Somma attesa 2.93 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-2"
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-21T02:06:36.321726+00:00"
     },
     {
       "id": "L4-21",
@@ -7175,6 +7177,123 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L7-21",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 1.78,
+      "probabilita_combinata": 0.562,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "FC Twente - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T12:15:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Twente)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 3.15 gol attesi (4° con 24 punti, 30 gol fatti e 12 subiti in 12 gare), Willem II 1.06 (18° con 3 punti, 11 fatti e 40 subiti in 12 gare). Somma attesa 4.21 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Feyenoord - Excelsior",
+          "campionato": "Eredivisie",
+          "data": "2026-11-21T18:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Feyenoord)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 3.08 gol attesi (2° con 25 punti, 36 gol fatti e 17 subiti in 12 gare), Excelsior 1.37 (15° con 11 punti, 16 fatti e 29 subiti in 12 gare). Somma attesa 4.45 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Ajax - ADO Den Haag",
+          "campionato": "Eredivisie",
+          "data": "2026-11-22T14:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Ajax)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.93,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.93,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.71 gol attesi (3° con 25 punti, 32 gol fatti e 15 subiti in 12 gare), ADO Den Haag 1.31 (17° con 9 punti, 16 fatti e 25 subiti in 12 gare). Somma attesa 4.02 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Galatasaray - Samsunspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-21T16:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Galatasaray)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.93,
+          "quota_stimata": 1.07,
+          "probabilita_modello": 0.93,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.67 gol attesi (1° con 28 punti, 27 gol fatti e 15 subiti in 11 gare), Samsunspor 1.23 (17° con 7 punti, 11 fatti e 26 subiti in 11 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Augsburg - 1. FSV Mainz 05",
+          "campionato": "Bundesliga",
+          "data": "2026-11-22T15:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Augsburg)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.36 gol attesi (14° con 9 punti, 20 gol fatti e 20 subiti in 9 gare), 1. FSV Mainz 05 1.94 (12° con 10 punti, 18 fatti e 19 subiti in 9 gare). Somma attesa 4.31 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SV Werder Bremen - Hamburger SV",
+          "campionato": "Bundesliga",
+          "data": "2026-11-22T17:30:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (SV Werder Bremen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.20 gol attesi (6° con 15 punti, 17 gol fatti e 15 subiti in 9 gare), Hamburger SV 1.38 (11° con 12 punti, 10 fatti e 20 subiti in 9 gare). Somma attesa 3.59 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Utrecht - SC Cambuur",
+          "campionato": "Eredivisie",
+          "data": "2026-11-21T18:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Utrecht)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.89,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.89,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.18 gol attesi (14° con 12 punti, 21 gol fatti e 34 subiti in 12 gare), SC Cambuur 2.27 (10° con 15 punti, 25 fatti e 27 subiti in 12 gare). Somma attesa 4.45 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }

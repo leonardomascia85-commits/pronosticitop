@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Hellas Verona 1.73 gol attesi (5° con 16 punti, 19 gol fatti e 13 subiti in 11 gare), Cesena 1.20 (12° con 15 punti, 12 fatti e 14 subiti in 11 gare). Somma attesa 2.93 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-21T02:06:36Z"
       }
     },
     {
