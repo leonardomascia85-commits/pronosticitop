@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Bayern München 2.75 gol attesi (1° con 21 punti, 29 gol fatti e 9 subiti in 9 gare), 1. FC Köln 1.15 (15° con 9 punti, 10 fatti e 14 subiti in 9 gare). Somma attesa 3.90 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-21T00:06:44Z"
       },
       "pick_corner": {
         "esito": "over",
