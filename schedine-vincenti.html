@@ -230,19 +230,19 @@ async function init(){
   tutte.length = 0;
   viste.forEach(x => tutte.push(x));
 
-  // Ordine cronologico: dalla più recente alla più vecchia, per giorno di conclusione
+  // Raggruppate per tipologia (numero di eventi: 4, 5, 6, 7...), dentro ogni gruppo dalla più recente alla più vecchia
   tutte.sort((a,b) => (b.fine - a.fine) || (a.sch.livello_rischio - b.sch.livello_rischio));
-  const giorni = [];
+  const gruppi = new Map();
   tutte.forEach(x => {
-    const k = giornoChiave(x.fine);
-    let g = giorni[giorni.length - 1];
-    if(!g || g.k !== k){ g = { k, label: giornoLabel(x.fine), items: [] }; giorni.push(g); }
-    g.items.push(x);
+    const n = x.sch.eventi.length;
+    if(!gruppi.has(n)) gruppi.set(n, []);
+    gruppi.get(n).push(x);
   });
+  const ordinati = [...gruppi.entries()].sort((a,b) => a[0] - b[0]);
 
-  const html = giorni.map(g => `<div class="risk-group">
-    <div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2 style="text-transform:capitalize">${g.label}</h2></div>
-    <div class="cards">${g.items.map(x => schedinaCardHTML(x.sch, x.tipo)).join('')}</div>
+  const html = ordinati.map(([n, items]) => `<div class="risk-group">
+    <div class="risk-title"><span class="risk-dot" style="background:var(--accent)"></span><h2>Schedine da ${n} eventi <span style="font-weight:400;opacity:.7">(${items.length})</span></h2></div>
+    <div class="cards">${items.map(x => schedinaCardHTML(x.sch, x.tipo + ' · ' + giornoLabel(x.fine))).join('')}</div>
   </div>`).join('');
 
   document.getElementById('statVinte').textContent = tutte.length;
