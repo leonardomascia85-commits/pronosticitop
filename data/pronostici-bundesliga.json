@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Schalke 04 1.40 gol attesi (17° con 6 punti, 5 gol fatti e 11 subiti in 9 gare), VfB Stuttgart 1.42 (8° con 12 punti, 15 fatti e 15 subiti in 9 gare). Somma attesa 2.82 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-22T02:06:44Z"
       },
       "pick_corner": {
         "esito": "over",

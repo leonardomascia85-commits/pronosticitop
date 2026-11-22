@@ -44,9 +44,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Gençlerbirliği 1.64 gol attesi (14° con 11 punti, 12 gol fatti e 21 subiti in 11 gare), Gaziantep FK 1.36 (16° con 8 punti, 9 fatti e 19 subiti in 11 gare). Somma attesa 3.01 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-22T02:06:44Z"
       }
     },
     {

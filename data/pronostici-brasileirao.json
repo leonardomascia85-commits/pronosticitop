@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Palmeiras 1.61 gol attesi (2° con 73 punti, 63 gol fatti e 25 subiti in 35 gare), Flamengo 1.52 (1° con 79 punti, 73 fatti e 30 subiti in 35 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-22T02:06:44Z"
       }
     },
     {
