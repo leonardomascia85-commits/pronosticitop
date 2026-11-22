@@ -761,6 +761,10 @@ SEZIONI_TEMATICHE = {
 
 
 SEGNA_OSPITE_MAX = 0.84
+# Soglia minima per 'Squadra segna' (casa o ospite): nello storico gli eventi con probabilita'
+# dichiarata 0.78-0.84 si sono avverati solo nel 72-75% dei casi (sopra 0.85 la stima e' accurata).
+# Sotto soglia la partita non entra nelle schedine 'Squadra segna' ne' nelle miste.
+SEGNA_MIN = 0.85
 
 # --- Mercati derivati (nessun dato aggiuntivo): "Squadra X segna" e "Multigol".
 # Si ricavano dalle stesse probabilita' gia' pubblicate (1X2, doppia chance,
@@ -956,7 +960,11 @@ def derive_pick(p, kind, fn=None):
         # segna solo il 68% delle volte (13/19; Solo Segna ospite 25/32). Si limita al 84%.
         pa = min(pa, SEGNA_OSPITE_MAX)
         if ph >= pa:
+            if ph < SEGNA_MIN:
+                return None
             return {'esito': 'casa', 'etichetta': f"Segna la squadra di casa ({p['casa']})", 'probabilita': ph}
+        if pa < SEGNA_MIN:
+            return None
         return {'esito': 'trasferta', 'etichetta': f"Segna la squadra ospite ({p['trasferta']})", 'probabilita': pa}
     if kind == 'derived_sicuro':
         # eventi quasi certi: Over 0.5 (~94%), Under 5.5 (~96%), Over 1.5 se molto probabile
