@@ -9424,8 +9424,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.68 gol attesi (17° con 8 punti, 16 gol fatti e 29 subiti in 11 gare), Genoa 1.70 (13° con 13 punti, 11 fatti e 16 subiti in 11 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Lazio - Lecce",

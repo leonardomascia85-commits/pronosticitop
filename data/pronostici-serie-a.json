@@ -247,9 +247,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Juventus 1.84 gol attesi (7° con 18 punti, 15 gol fatti e 12 subiti in 11 gare), Venezia 1.03 (19° con 6 punti, 8 fatti e 21 subiti in 11 gare). Somma attesa 2.87 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-11-22T16:06:35Z"
       },
       "pick_corner": {
         "esito": "over",
@@ -305,7 +305,7 @@
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.51,
+        "probabilita": 0.5,
         "corner_attesi_totali": 9.7,
         "modello": "corner-v2"
       }
@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.68 gol attesi (17° con 8 punti, 16 gol fatti e 29 subiti in 11 gare), Genoa 1.70 (13° con 13 punti, 11 fatti e 16 subiti in 11 gare). Somma attesa 3.38 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-2",
+        "aggiornato": "2026-11-22T16:06:35Z"
       },
       "pick_corner": {
         "esito": "under",

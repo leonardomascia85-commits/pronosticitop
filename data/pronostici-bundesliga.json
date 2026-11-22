@@ -408,7 +408,7 @@
         "esito": "over",
         "etichetta": "Over 9.5 corner",
         "probabilita": 0.57,
-        "corner_attesi_totali": 10.4,
+        "corner_attesi_totali": 10.3,
         "modello": "corner-v2"
       }
     },

@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.10 gol attesi (1° con 33 punti, 48 gol fatti e 13 subiti in 12 gare), Villarreal 1.28 (8° con 15 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 4.38 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-11-22T16:06:35Z"
       },
       "pick_corner": {
         "esito": "over",
@@ -357,7 +357,7 @@
         "esito": "over",
         "etichetta": "Over 9.5 corner",
         "probabilita": 0.66,
-        "corner_attesi_totali": 11.2,
+        "corner_attesi_totali": 11.3,
         "modello": "corner-v2"
       }
     },
@@ -408,7 +408,7 @@
         "esito": "under",
         "etichetta": "Under 9.5 corner",
         "probabilita": 0.51,
-        "corner_attesi_totali": 9.6,
+        "corner_attesi_totali": 9.7,
         "modello": "corner-v2"
       }
     },
@@ -458,7 +458,7 @@
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.56,
+        "probabilita": 0.55,
         "corner_attesi_totali": 9.3,
         "modello": "corner-v2"
       }
@@ -510,7 +510,7 @@
         "esito": "under",
         "etichetta": "Under 9.5 corner",
         "probabilita": 0.57,
-        "corner_attesi_totali": 9.1,
+        "corner_attesi_totali": 9.2,
         "modello": "corner-v2"
       }
     }
