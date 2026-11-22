@@ -748,6 +748,8 @@ CORNER_LEAGUES = {
 SEZIONI_TEMATICHE = {
     'solo_gol': ('derived_over15', 'TOT', LEAGUES),
     'solo_under': ('derived_under', 'TOT', LEAGUES),
+    'solo_goal': ('pick_gg', 'GGNG', LEAGUES),
+    'solo_uo25': ('pick_uo', 'OU25', LEAGUES),
     'solo_corner': ('pick_corner', 'CORNER', CORNER_LEAGUES),
     'solo_segna': ('derived_segna', 'SEGNA', LEAGUES),
     'solo_multigol': ('derived_multigol', 'MULTIGOL', LEAGUES),
@@ -1097,7 +1099,7 @@ def _rispetta_limiti(eventi):
     return sum(e['campionato'] in CAMPIONATI_LIMITATI for e in eventi) <= MAX_EVENTI_LIMITATI
 
 
-SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_corner', 'solo_segna',
+SEZIONI_VARIANTI = ('solo_gol', 'solo_under', 'solo_goal', 'solo_uo25', 'solo_corner', 'solo_segna',
                     'solo_multigol', 'solo_primotempo', 'solo_ammonizioni', 'solo_combo', 'solo_sicure')
 # La sezione combo ha quote alte per costruzione: solo livelli 4 e 5, e due
 # schedine 'libera' / 'alternativa' invece del tetto di quota.
@@ -1662,7 +1664,7 @@ def main():
     summary = []
 
     tutti_i_file = [w['file'] for w in settimane.get('settimane', [])] + [
-        'schedine-solo-gol.json', 'schedine-solo-under.json', 'schedine-solo-corner.json',
+        'schedine-solo-gol.json', 'schedine-solo-under.json', 'schedine-solo-goal.json', 'schedine-solo-uo25.json', 'schedine-solo-corner.json',
         'schedine-solo-segna.json', 'schedine-solo-multigol.json', 'schedine-solo-primotempo.json',
         'schedine-solo-ammonizioni.json', 'schedine-solo-combo.json', 'schedine-solo-sicure.json', 'schedine-coppe.json']
     for fn in backfill_esiti(lookup, tutti_i_file):
@@ -1784,6 +1786,8 @@ def main():
     SEZIONI_FILES = {
         'solo_gol': 'schedine-solo-gol.json',
         'solo_under': 'schedine-solo-under.json',
+        'solo_goal': 'schedine-solo-goal.json',
+        'solo_uo25': 'schedine-solo-uo25.json',
         'solo_corner': 'schedine-solo-corner.json',
         'solo_segna': 'schedine-solo-segna.json',
         'solo_multigol': 'schedine-solo-multigol.json',
