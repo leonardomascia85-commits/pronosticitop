@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Feyenoord 3.08 gol attesi (2° con 25 punti, 36 gol fatti e 17 subiti in 12 gare), Excelsior 1.37 (15° con 11 punti, 16 fatti e 29 subiti in 12 gare). Somma attesa 4.45 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-22T00:06:51Z"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Utrecht 2.18 gol attesi (14° con 12 punti, 21 gol fatti e 34 subiti in 12 gare), SC Cambuur 2.27 (10° con 15 punti, 25 fatti e 27 subiti in 12 gare). Somma attesa 4.45 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-3",
+        "aggiornato": "2026-11-22T00:06:51Z"
       }
     },
     {

@@ -2547,8 +2547,8 @@
           "probabilita_modello": 0.95,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Südtirol 1.41 gol attesi (10° con 15 punti, 13 gol fatti e 12 subiti in 11 gare), Cremonese 1.23 (9° con 15 punti, 14 fatti e 12 subiti in 11 gare). Somma attesa 2.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Aston Villa - Sunderland",

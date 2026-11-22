@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Ascoli 2.03 gol attesi (3° con 20 punti, 17 gol fatti e 7 subiti in 11 gare), L.R. Vicenza 1.07 (19° con 9 punti, 14 fatti e 24 subiti in 11 gare). Somma attesa 3.10 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-22T00:06:51Z"
       }
     },
     {
@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Carrarese 1.33 gol attesi (17° con 10 punti, 9 gol fatti e 14 subiti in 11 gare), Virtus Entella 1.20 (16° con 10 punti, 11 fatti e 14 subiti in 11 gare). Somma attesa 2.53 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-22T00:06:51Z"
       }
     },
     {
@@ -263,9 +263,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Südtirol 1.41 gol attesi (10° con 15 punti, 13 gol fatti e 12 subiti in 11 gare), Cremonese 1.23 (9° con 15 punti, 14 fatti e 12 subiti in 11 gare). Somma attesa 2.64 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-22T00:06:51Z"
       }
     },
     {

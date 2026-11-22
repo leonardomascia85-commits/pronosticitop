@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-21",
+  "aggiornato_il": "2026-11-22",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -6886,7 +6886,7 @@
       "variante": "libera",
       "quota_combinata": 2.73,
       "probabilita_combinata": 0.366,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Rayo Vallecano - Valencia",
@@ -6900,8 +6900,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Rayo Vallecano 1.73 gol attesi (14° con 12 punti, 15 gol fatti e 21 subiti in 11 gare), Valencia 1.30 (18° con 9 punti, 8 fatti e 20 subiti in 12 gare). Somma attesa 3.04 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Getafe - Atlético Madrid",
@@ -6930,8 +6930,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.51 gol attesi (6° con 17 punti, 15 gol fatti e 12 subiti in 10 gare), Paris Saint-Germain 1.72 (1° con 23 punti, 22 fatti e 10 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "FC Lorient - Stade Rennais FC",
@@ -6960,10 +6960,12 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Modena 1.67 gol attesi (2° con 23 punti, 20 gol fatti e 10 subiti in 11 gare), Juve Stabia 1.10 (13° con 12 punti, 12 fatti e 11 subiti in 11 gare). Somma attesa 2.77 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-22T00:06:51.874545+00:00"
     },
     {
       "id": "L6-20",
@@ -7160,8 +7162,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.22 gol attesi (12° con 12 punti, 13 gol fatti e 16 subiti in 10 gare), Arsenal 1.50 (1° con 27 punti, 15 fatti e 5 subiti in 10 gare). Somma attesa 2.71 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Sampdoria - Benevento",
@@ -7479,6 +7481,91 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.80 gol attesi (5° con 54 punti, 52 gol fatti e 45 subiti in 35 gare), Remo 1.21 (19° con 32 punti, 39 fatti e 57 subiti in 35 gare). Somma attesa 3.01 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-19",
+      "livello_rischio": 5,
+      "variante": "libera",
+      "quota_combinata": 2.66,
+      "probabilita_combinata": 0.375,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Kasımpaşa - Alanyaspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-22T16:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Kasımpaşa)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.83,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.80 gol attesi (5° con 20 punti, 17 gol fatti e 11 subiti in 11 gare), Alanyaspor 1.03 (13° con 12 punti, 9 fatti e 18 subiti in 11 gare). Somma attesa 2.83 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Genoa",
+          "campionato": "Serie A",
+          "data": "2026-11-22T15:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Sassuolo)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.68 gol attesi (17° con 8 punti, 16 gol fatti e 29 subiti in 11 gare), Genoa 1.70 (13° con 13 punti, 11 fatti e 16 subiti in 11 gare). Somma attesa 3.38 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Getafe - Atlético Madrid",
+          "campionato": "La Liga",
+          "data": "2026-11-22T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra ospite (Atlético Madrid)",
+          "esito_pick": "trasferta",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.06 gol attesi (15° con 12 punti, 8 gol fatti e 18 subiti in 12 gare), Atlético Madrid 1.68 (3° con 28 punti, 23 fatti e 10 subiti in 12 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Lorient - Stade Rennais FC",
+          "campionato": "Ligue 1",
+          "data": "2026-11-22T17:15:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Lorient)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.72 gol attesi (10° con 15 punti, 9 gol fatti e 8 subiti in 10 gare), Stade Rennais FC 1.52 (8° con 16 punti, 21 fatti e 21 subiti in 10 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Fluminense - Mirassol",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T18:30:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Fluminense)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Fluminense 1.72 gol attesi (4° con 60 punti, 56 gol fatti e 42 subiti in 35 gare), Mirassol 1.17 (15° con 41 punti, 39 fatti e 48 subiti in 35 gare). Somma attesa 2.90 gol.",
           "esito": null,
           "risultato_reale": null
         }

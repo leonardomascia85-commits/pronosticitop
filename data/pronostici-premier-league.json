@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.22 gol attesi (12° con 12 punti, 13 gol fatti e 16 subiti in 10 gare), Arsenal 1.50 (1° con 27 punti, 15 fatti e 5 subiti in 10 gare). Somma attesa 2.71 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "2-2",
+        "aggiornato": "2026-11-22T00:06:51Z"
       },
       "pick_corner": {
         "esito": "under",
