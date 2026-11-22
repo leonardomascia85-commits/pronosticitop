@@ -6434,7 +6434,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.45,
       "probabilita_combinata": 0.692,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "FC Barcelona - Villarreal",
@@ -6448,8 +6448,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.10 gol attesi (1° con 33 punti, 48 gol fatti e 13 subiti in 12 gare), Villarreal 1.28 (8° con 15 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 4.38 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Lazio - Lecce",
@@ -6463,8 +6463,8 @@
           "probabilita_modello": 0.91,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Lazio 2.39 gol attesi (1° con 29 punti, 25 gol fatti e 9 subiti in 11 gare), Lecce 1.07 (14° con 10 punti, 12 fatti e 22 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Olympique de Marseille - Le Mans FC",
@@ -6478,8 +6478,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.29 gol attesi (4° con 18 punti, 22 gol fatti e 14 subiti in 10 gare), Le Mans FC 1.32 (15° con 8 punti, 12 fatti e 19 subiti in 10 gare). Somma attesa 3.61 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Real Madrid - Celta de Vigo",
@@ -6493,12 +6493,14 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.11 gol attesi (2° con 30 punti, 31 gol fatti e 10 subiti in 12 gare), Celta de Vigo 0.97 (11° con 13 punti, 10 fatti e 10 subiti in 12 gare). Somma attesa 3.08 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-22T22:06:52.064421+00:00"
     },
     {
       "id": "L5-17",
@@ -6724,8 +6726,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.22 gol attesi (13° con 11 punti, 11 gol fatti e 11 subiti in 10 gare), Brighton & Hove Albion 1.91 (2° con 22 punti, 26 fatti e 7 subiti in 10 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Liverpool - Manchester United",
@@ -6739,8 +6741,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.84 gol attesi (4° con 18 punti, 14 gol fatti e 10 subiti in 10 gare), Manchester United 1.25 (18° con 8 punti, 14 fatti e 19 subiti in 10 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Racing de Santander - Real Sociedad",
@@ -6915,8 +6917,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.06 gol attesi (15° con 12 punti, 8 gol fatti e 18 subiti in 12 gare), Atlético Madrid 1.68 (3° con 28 punti, 23 fatti e 10 subiti in 12 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "OGC Nice - Paris Saint-Germain",
@@ -7377,7 +7379,7 @@
       "variante": "libera",
       "quota_combinata": 3.39,
       "probabilita_combinata": 0.295,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Başakşehir - Çorum FK",
@@ -7406,8 +7408,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Hull City 1.22 gol attesi (13° con 11 punti, 11 gol fatti e 11 subiti in 10 gare), Brighton & Hove Albion 1.91 (2° con 22 punti, 26 fatti e 7 subiti in 10 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Liverpool - Manchester United",
@@ -7421,8 +7423,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Liverpool 1.84 gol attesi (4° con 18 punti, 14 gol fatti e 10 subiti in 10 gare), Manchester United 1.25 (18° con 8 punti, 14 fatti e 19 subiti in 10 gare). Somma attesa 3.09 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Racing de Santander - Real Sociedad",
@@ -7484,7 +7486,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-22T22:06:52.064421+00:00"
     },
     {
       "id": "L5-19",
@@ -7536,8 +7540,8 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Getafe 1.06 gol attesi (15° con 12 punti, 8 gol fatti e 18 subiti in 12 gare), Atlético Madrid 1.68 (3° con 28 punti, 23 fatti e 10 subiti in 12 gare). Somma attesa 2.74 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-3"
         },
         {
           "partita": "FC Lorient - Stade Rennais FC",
@@ -7653,6 +7657,193 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-23",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 2.42,
+      "probabilita_combinata": 0.413,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Başakşehir - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-11-23T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Başakşehir)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Red Bull Bragantino - Vasco da Gama",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T19:30:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Red Bull Bragantino)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.60 gol attesi (9° con 47 punti, 45 gol fatti e 41 subiti in 35 gare), Vasco da Gama 1.26 (10° con 47 punti, 47 fatti e 51 subiti in 35 gare). Somma attesa 2.87 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brentford - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-23T20:00:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Brentford)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Internacional - Vitória",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T19:30:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Internacional)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.29,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-23",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 4.46,
+      "probabilita_combinata": 0.224,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Monza - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-23T20:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Monza)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Başakşehir - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-11-23T20:00:00+03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Başakşehir)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Elche",
+          "campionato": "La Liga",
+          "data": "2026-11-23T21:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Levante)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Levante 1.66 gol attesi (19° con 8 punti, 13 gol fatti e 20 subiti in 11 gare), Elche 1.46 (17° con 10 punti, 14 fatti e 20 subiti in 12 gare). Somma attesa 3.11 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Santos - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T21:00:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Santos)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.8,
+          "quota_stimata": 1.25,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Red Bull Bragantino - Vasco da Gama",
+          "campionato": "Brasileirão",
+          "data": "2026-11-22T19:30:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Red Bull Bragantino)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.26,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.60 gol attesi (9° con 47 punti, 45 gol fatti e 41 subiti in 35 gare), Vasco da Gama 1.26 (10° con 47 punti, 47 fatti e 51 subiti in 35 gare). Somma attesa 2.87 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brentford - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-23T20:00:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Brentford)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.78,
+          "quota_stimata": 1.28,
+          "probabilita_modello": 0.78,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Botafogo - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T20:00:00-03:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Botafogo)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.76,
+          "quota_stimata": 1.32,
+          "probabilita_modello": 0.76,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
           "esito": null,
           "risultato_reale": null
         }

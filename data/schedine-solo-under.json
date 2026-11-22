@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under 3.5 / 4.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-21",
+  "aggiornato_il": "2026-11-22",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente i mercati Under 3.5 e Under 4.5 gol (il più probabile per ogni partita). Il backtest su 441 partite concluse mostra che Over/Under 2.5 vinceva circa il 60%, mentre Under 4.5 vince l'83% (84% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -9307,8 +9307,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bologna 2.03 gol attesi (8° con 17 punti, 16 gol fatti e 14 subiti in 11 gare), Udinese 1.23 (20° con 5 punti, 12 fatti e 25 subiti in 11 gare). Somma attesa 3.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Empoli - Pisa",
@@ -9484,8 +9484,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.29 gol attesi (4° con 18 punti, 22 gol fatti e 14 subiti in 10 gare), Le Mans FC 1.32 (15° con 8 punti, 12 fatti e 19 subiti in 10 gare). Somma attesa 3.61 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         }
       ],
       "esito_finale": "persa",
@@ -9714,7 +9714,7 @@
       "variante": "libera",
       "quota_combinata": 11.23,
       "probabilita_combinata": 0.089,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Erzurumspor - Göztepe",
@@ -9743,8 +9743,8 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.68 gol attesi (17° con 8 punti, 16 gol fatti e 29 subiti in 11 gare), Genoa 1.70 (13° con 13 punti, 11 fatti e 16 subiti in 11 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "SV Werder Bremen - Hamburger SV",
@@ -9758,8 +9758,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.20 gol attesi (6° con 15 punti, 17 gol fatti e 15 subiti in 9 gare), Hamburger SV 1.38 (11° con 12 punti, 10 fatti e 20 subiti in 9 gare). Somma attesa 3.59 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Olympique de Marseille - Le Mans FC",
@@ -9773,8 +9773,8 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique de Marseille 2.29 gol attesi (4° con 18 punti, 22 gol fatti e 14 subiti in 10 gare), Le Mans FC 1.32 (15° con 8 punti, 12 fatti e 19 subiti in 10 gare). Somma attesa 3.61 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "Milan - Frosinone",
@@ -9788,8 +9788,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Milan 2.00 gol attesi (4° con 24 punti, 23 gol fatti e 13 subiti in 11 gare), Frosinone 1.71 (6° con 20 punti, 24 fatti e 15 subiti in 11 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Atalanta - Inter",
@@ -9803,8 +9803,8 @@
           "probabilita_modello": 0.68,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atalanta 1.60 gol attesi (12° con 14 punti, 17 gol fatti e 20 subiti in 11 gare), Inter 2.15 (2° con 28 punti, 28 fatti e 13 subiti in 11 gare). Somma attesa 3.75 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-4"
         },
         {
           "partita": "Racing de Santander - Real Sociedad",
@@ -9821,7 +9821,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-22T22:06:52.064421+00:00"
     }
   ]
 }

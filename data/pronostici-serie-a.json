@@ -298,9 +298,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Bologna 2.03 gol attesi (8° con 17 punti, 16 gol fatti e 14 subiti in 11 gare), Udinese 1.23 (20° con 5 punti, 12 fatti e 25 subiti in 11 gare). Somma attesa 3.26 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-22T22:06:52Z"
       },
       "pick_corner": {
         "esito": "under",
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Milan 2.00 gol attesi (4° con 24 punti, 23 gol fatti e 13 subiti in 11 gare), Frosinone 1.71 (6° con 20 punti, 24 fatti e 15 subiti in 11 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "5-1",
+        "aggiornato": "2026-11-22T22:06:52Z"
       },
       "pick_corner": {
         "esito": "over",
@@ -451,9 +451,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Atalanta 1.60 gol attesi (12° con 14 punti, 17 gol fatti e 20 subiti in 11 gare), Inter 2.15 (2° con 28 punti, 28 fatti e 13 subiti in 11 gare). Somma attesa 3.75 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-4",
+        "aggiornato": "2026-11-22T22:06:52Z"
       },
       "pick_corner": {
         "esito": "under",
