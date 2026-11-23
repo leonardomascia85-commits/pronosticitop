@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Augsburg 2.36 gol attesi (14° con 9 punti, 20 gol fatti e 20 subiti in 9 gare), 1. FSV Mainz 05 1.94 (12° con 10 punti, 18 fatti e 19 subiti in 9 gare). Somma attesa 4.31 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-23T00:06:33Z"
       },
       "pick_corner": {
         "esito": "over",

@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Racing de Santander 1.76 gol attesi (10° con 14 punti, 17 gol fatti e 30 subiti in 12 gare), Real Sociedad 1.95 (5° con 22 punti, 21 fatti e 20 subiti in 12 gare). Somma attesa 3.71 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-2",
+        "aggiornato": "2026-11-23T00:06:33Z"
       },
       "pick_corner": {
         "esito": "over",
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Osasuna 1.68 gol attesi (16° con 12 punti, 12 gol fatti e 23 subiti in 12 gare), Málaga 1.34 (20° con 5 punti, 9 fatti e 23 subiti in 12 gare). Somma attesa 3.03 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-23T00:06:33Z"
       },
       "pick_corner": {
         "esito": "under",

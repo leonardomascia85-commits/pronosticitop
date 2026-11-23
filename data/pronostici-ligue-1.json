@@ -349,9 +349,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Paris FC 1.97 gol attesi (3° con 20 punti, 17 gol fatti e 10 subiti in 10 gare), Angers SCO 1.07 (16° con 8 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-0",
+        "aggiornato": "2026-11-23T00:06:33Z"
       },
       "pick_corner": {
         "esito": "under",
@@ -400,9 +400,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.72 gol attesi (10° con 15 punti, 9 gol fatti e 8 subiti in 10 gare), Stade Rennais FC 1.52 (8° con 16 punti, 21 fatti e 21 subiti in 10 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-23T00:06:33Z"
       },
       "pick_corner": {
         "esito": "under",

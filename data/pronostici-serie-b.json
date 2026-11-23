@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Avellino 1.49 gol attesi (6° con 16 punti, 16 gol fatti e 11 subiti in 11 gare), Mantova 1.23 (4° con 19 punti, 15 fatti e 11 subiti in 11 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "4-1",
+        "aggiornato": "2026-11-23T00:06:33Z"
       }
     },
     {
@@ -439,9 +439,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Arezzo 1.29 gol attesi (15° con 11 punti, 9 gol fatti e 20 subiti in 11 gare), Padova 1.43 (11° con 15 punti, 12 fatti e 13 subiti in 11 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-23T00:06:33Z"
       }
     }
   ]

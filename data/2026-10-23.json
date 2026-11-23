@@ -2,7 +2,7 @@
   "id": "2026-10-23",
   "titolo": "Turno del 23-26 ottobre 2026",
   "generato_il": "2026-10-20",
-  "aggiornato_il": "2026-11-22",
+  "aggiornato_il": "2026-11-23",
   "stato": "pubblicata",
   "campionati_coperti": [
     "Bundesliga",
@@ -4450,7 +4450,7 @@
       "quota_max": 4,
       "quota_combinata": 1.89,
       "probabilita_combinata": 0.528,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Como - Cagliari",
@@ -4464,8 +4464,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Como 1.72 gol attesi (5° con 23 punti, 18 gol fatti e 10 subiti in 11 gare), Cagliari 1.03 (9° con 16 punti, 10 fatti e 15 subiti in 11 gare). Somma attesa 2.75 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Juventus - Venezia",
@@ -4479,8 +4479,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Juventus 1.84 gol attesi (7° con 18 punti, 15 gol fatti e 12 subiti in 11 gare), Venezia 1.03 (19° con 6 punti, 8 fatti e 21 subiti in 11 gare). Somma attesa 2.87 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "FC Barcelona - Villarreal",
@@ -4494,8 +4494,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Barcelona 3.10 gol attesi (1° con 33 punti, 48 gol fatti e 13 subiti in 12 gare), Villarreal 1.28 (8° con 15 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 4.38 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "Bologna - Udinese",
@@ -4509,8 +4509,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bologna 2.03 gol attesi (8° con 17 punti, 16 gol fatti e 14 subiti in 11 gare), Udinese 1.23 (20° con 5 punti, 12 fatti e 25 subiti in 11 gare). Somma attesa 3.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Paris FC - Angers SCO",
@@ -4524,10 +4524,12 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.97 gol attesi (3° con 20 punti, 17 gol fatti e 10 subiti in 10 gare), Angers SCO 1.07 (16° con 8 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-23T00:06:33.364075+00:00"
     },
     {
       "id": "L6-18",
@@ -4715,8 +4717,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris FC 1.97 gol attesi (3° con 20 punti, 17 gol fatti e 10 subiti in 10 gare), Angers SCO 1.07 (16° con 8 punti, 9 fatti e 19 subiti in 10 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Bologna - Udinese",
@@ -5246,6 +5248,93 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L5-22",
+      "livello_rischio": 5,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 4,
+      "quota_combinata": 2.73,
+      "probabilita_combinata": 0.366,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Brentford - Everton",
+          "campionato": "Premier League",
+          "data": "2026-11-23T20:00:00+00:00",
+          "mercato": "DC",
+          "pronostico": "Brentford o Everton",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.73,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Başakşehir - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-11-23T20:00:00+03:00",
+          "mercato": "DC",
+          "pronostico": "Başakşehir o Çorum FK",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Botafogo - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T20:00:00-03:00",
+          "mercato": "DC",
+          "pronostico": "Botafogo o São Paulo",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.72,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Monza - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-23T20:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Monza o Fiorentina",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.21,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Elche",
+          "campionato": "La Liga",
+          "data": "2026-11-23T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Levante o Elche",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.74,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Levante 1.66 gol attesi (19° con 8 punti, 13 gol fatti e 20 subiti in 11 gare), Elche 1.46 (17° con 10 punti, 14 fatti e 20 subiti in 12 gare). Somma attesa 3.11 gol.",
           "esito": null,
           "risultato_reale": null
         }
