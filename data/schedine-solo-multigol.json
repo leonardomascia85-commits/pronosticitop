@@ -9761,8 +9761,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Kasımpaşa 1.80 gol attesi (5° con 20 punti, 17 gol fatti e 11 subiti in 11 gare), Alanyaspor 1.03 (13° con 12 punti, 9 fatti e 18 subiti in 11 gare). Somma attesa 2.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Bahia - Coritiba",
