@@ -9839,7 +9839,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.58,
       "probabilita_combinata": 0.28,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Internacional - Vitória",
@@ -9898,8 +9898,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Monza - Fiorentina",
@@ -9918,7 +9918,9 @@
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-23T20:06:46.606579+00:00"
     },
     {
       "id": "L4-25",
@@ -9996,7 +9998,7 @@
       "variante": "libera",
       "quota_combinata": 4.58,
       "probabilita_combinata": 0.218,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Internacional - Vitória",
@@ -10070,8 +10072,8 @@
           "probabilita_modello": 0.69,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Monza - Fiorentina",
@@ -10088,7 +10090,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-23T20:06:46.606579+00:00"
     }
   ]
 }
