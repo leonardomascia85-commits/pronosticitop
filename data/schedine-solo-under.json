@@ -9328,8 +9328,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.56 gol attesi (18° con 9 punti, 12 gol fatti e 19 subiti in 11 gare), Pisa 1.69 (8° con 16 punti, 20 fatti e 17 subiti in 11 gare). Somma attesa 3.26 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "RC Lens - Toulouse FC",
@@ -9358,8 +9358,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 2.01 gol attesi (7° con 16 punti, 13 gol fatti e 11 subiti in 10 gare), AJ Auxerre 1.25 (14° con 10 punti, 13 fatti e 24 subiti in 10 gare). Somma attesa 3.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "FC Lorient - Stade Rennais FC",
@@ -9679,8 +9679,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Chapecoense 1.39 gol attesi (20° con 21 punti, 33 gol fatti e 72 subiti in 35 gare), Cruzeiro 1.79 (3° con 63 punti, 57 fatti e 49 subiti in 35 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Bologna - Udinese",

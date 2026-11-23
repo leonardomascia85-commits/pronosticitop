@@ -9498,7 +9498,7 @@
       "variante": "libera",
       "quota_combinata": 2.65,
       "probabilita_combinata": 0.377,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Bologna - Udinese",
@@ -9512,8 +9512,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bologna 2.03 gol attesi (8° con 17 punti, 16 gol fatti e 14 subiti in 11 gare), Udinese 1.23 (20° con 5 punti, 12 fatti e 25 subiti in 11 gare). Somma attesa 3.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Empoli - Pisa",
@@ -9527,8 +9527,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Empoli 1.56 gol attesi (18° con 9 punti, 12 gol fatti e 19 subiti in 11 gare), Pisa 1.69 (8° con 16 punti, 20 fatti e 17 subiti in 11 gare). Somma attesa 3.26 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Coventry City - Crystal Palace",
@@ -9542,8 +9542,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Coventry City 1.88 gol attesi (17° con 9 punti, 10 gol fatti e 19 subiti in 10 gare), Crystal Palace 1.43 (20° con 7 punti, 10 fatti e 24 subiti in 10 gare). Somma attesa 3.31 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         },
         {
           "partita": "OGC Nice - Paris Saint-Germain",
@@ -9557,8 +9557,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.51 gol attesi (6° con 17 punti, 15 gol fatti e 12 subiti in 10 gare), Paris Saint-Germain 1.72 (1° con 23 punti, 22 fatti e 10 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-3"
         },
         {
           "partita": "RC Lens - Toulouse FC",
@@ -9572,8 +9572,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (11° con 13 punti, 17 gol fatti e 15 subiti in 10 gare), Toulouse FC 1.46 (12° con 13 punti, 15 fatti e 14 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "AS Monaco - AJ Auxerre",
@@ -9587,10 +9587,12 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): AS Monaco 2.01 gol attesi (7° con 16 punti, 13 gol fatti e 11 subiti in 10 gare), AJ Auxerre 1.25 (14° con 10 punti, 13 fatti e 24 subiti in 10 gare). Somma attesa 3.26 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-23T12:08:23.492660+00:00"
     },
     {
       "id": "L7-27",
@@ -9774,8 +9776,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Bahia 1.69 gol attesi (6° con 54 punti, 50 gol fatti e 45 subiti in 35 gare), Coritiba 1.23 (13° con 42 punti, 40 fatti e 52 subiti in 35 gare). Somma attesa 2.92 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Athletico-PR - Remo",
@@ -9908,8 +9910,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Chapecoense 1.39 gol attesi (20° con 21 punti, 33 gol fatti e 72 subiti in 35 gare), Cruzeiro 1.79 (3° con 63 punti, 57 fatti e 49 subiti in 35 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Sassuolo - Genoa",
@@ -10218,6 +10220,106 @@
       ],
       "quota_max": 7,
       "quota_rispettata": true
+    },
+    {
+      "id": "L6-28",
+      "livello_rischio": 6,
+      "variante": "libera",
+      "quota_combinata": 2.73,
+      "probabilita_combinata": 0.367,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Internacional - Vitória",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T19:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Botafogo - São Paulo",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T20:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Santos - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-11-23T21:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Levante - Elche",
+          "campionato": "La Liga",
+          "data": "2026-11-23T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Levante 1.66 gol attesi (19° con 8 punti, 13 gol fatti e 20 subiti in 11 gare), Elche 1.46 (17° con 10 punti, 14 fatti e 20 subiti in 12 gare). Somma attesa 3.11 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Başakşehir - Çorum FK",
+          "campionato": "Süper Lig",
+          "data": "2026-11-23T20:00:00+03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.24,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Monza - Fiorentina",
+          "campionato": "Serie A",
+          "data": "2026-11-23T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }

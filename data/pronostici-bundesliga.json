@@ -101,8 +101,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.53,
-        "corner_attesi_totali": 10.1,
+        "probabilita": 0.51,
+        "corner_attesi_totali": 9.9,
         "modello": "corner-v2"
       }
     },
@@ -152,7 +152,7 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.58,
+        "probabilita": 0.57,
         "corner_attesi_totali": 10.4,
         "modello": "corner-v2"
       }
@@ -203,7 +203,7 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.62,
+        "probabilita": 0.61,
         "corner_attesi_totali": 10.8,
         "modello": "corner-v2"
       }
@@ -254,7 +254,7 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.53,
+        "probabilita": 0.52,
         "corner_attesi_totali": 10.0,
         "modello": "corner-v2"
       }
@@ -305,7 +305,7 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.62,
+        "probabilita": 0.61,
         "corner_attesi_totali": 10.8,
         "modello": "corner-v2"
       }
@@ -407,8 +407,8 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.58,
-        "corner_attesi_totali": 10.4,
+        "probabilita": 0.56,
+        "corner_attesi_totali": 10.3,
         "modello": "corner-v2"
       }
     },
