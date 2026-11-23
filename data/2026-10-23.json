@@ -4851,8 +4851,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 3.15 gol attesi (4° con 24 punti, 30 gol fatti e 12 subiti in 12 gare), Willem II 1.06 (18° con 3 punti, 11 fatti e 40 subiti in 12 gare). Somma attesa 4.21 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "esito_finale": "persa",
@@ -4895,8 +4895,8 @@
           "probabilita_modello": 0.9,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Twente 3.15 gol attesi (4° con 24 punti, 30 gol fatti e 12 subiti in 12 gare), Willem II 1.06 (18° con 3 punti, 11 fatti e 40 subiti in 12 gare). Somma attesa 4.21 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Ajax - ADO Den Haag",
@@ -4910,8 +4910,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Ajax 2.71 gol attesi (3° con 25 punti, 32 gol fatti e 15 subiti in 12 gare), ADO Den Haag 1.31 (17° con 9 punti, 16 fatti e 25 subiti in 12 gare). Somma attesa 4.02 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Bologna - Udinese",

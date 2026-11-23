@@ -8743,7 +8743,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.67,
       "probabilita_combinata": 0.6,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Carrarese - Virtus Entella",
@@ -8757,8 +8757,8 @@
           "probabilita_modello": 0.89,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Carrarese 1.33 gol attesi (17° con 10 punti, 9 gol fatti e 14 subiti in 11 gare), Virtus Entella 1.20 (16° con 10 punti, 11 fatti e 14 subiti in 11 gare). Somma attesa 2.53 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Athletic Club - Espanyol",
@@ -8772,8 +8772,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletic Club 1.53 gol attesi (7° con 16 punti, 14 gol fatti e 8 subiti in 10 gare), Espanyol 1.06 (13° con 12 punti, 13 fatti e 14 subiti in 12 gare). Somma attesa 2.59 gol. Orario da confermare.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "LOSC Lille - Olympique Lyonnais",
@@ -8787,8 +8787,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.42 gol attesi (2° con 21 punti, 14 gol fatti e 7 subiti in 10 gare), Olympique Lyonnais 1.18 (5° con 17 punti, 15 fatti e 9 subiti in 10 gare). Somma attesa 2.60 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Südtirol - Cremonese",
@@ -8802,12 +8802,14 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Südtirol 1.41 gol attesi (10° con 15 punti, 13 gol fatti e 12 subiti in 11 gare), Cremonese 1.23 (9° con 15 punti, 14 fatti e 12 subiti in 11 gare). Somma attesa 2.64 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-23T10:06:48.811971+00:00"
     },
     {
       "id": "L5-26",
@@ -9341,8 +9343,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Lens 1.76 gol attesi (11° con 13 punti, 17 gol fatti e 15 subiti in 10 gare), Toulouse FC 1.46 (12° con 13 punti, 15 fatti e 14 subiti in 10 gare). Somma attesa 3.22 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "AS Monaco - AJ Auxerre",
@@ -9473,8 +9475,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RC Strasbourg Alsace 1.74 gol attesi (13° con 10 punti, 18 gol fatti e 22 subiti in 10 gare), Stade Brestois 29 1.84 (9° con 15 punti, 18 fatti e 12 subiti in 10 gare). Somma attesa 3.58 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Olympique de Marseille - Le Mans FC",
@@ -9662,8 +9664,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Athletico-PR 1.80 gol attesi (5° con 54 punti, 52 gol fatti e 45 subiti in 35 gare), Remo 1.21 (19° con 32 punti, 39 fatti e 57 subiti in 35 gare). Somma attesa 3.01 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Chapecoense - Cruzeiro",
