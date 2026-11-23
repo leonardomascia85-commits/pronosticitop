@@ -9913,8 +9913,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "quota_max": 5,
@@ -10087,8 +10087,8 @@
           "probabilita_modello": 0.66,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",

@@ -2917,8 +2917,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Empoli - Pisa",
@@ -3133,8 +3133,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Levante - Elche",
@@ -3206,7 +3206,7 @@
       "variante": "alternativa",
       "quota_combinata": 6.89,
       "probabilita_combinata": 0.145,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Monza - Fiorentina",
@@ -3220,8 +3220,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Levante - Elche",
@@ -3250,8 +3250,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Santos - Grêmio",
@@ -3268,7 +3268,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-23T22:07:41.620617+00:00"
     },
     {
       "id": "L5-22",
@@ -3276,7 +3278,7 @@
       "variante": "alternativa",
       "quota_combinata": 13.38,
       "probabilita_combinata": 0.075,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Monza - Fiorentina",
@@ -3290,8 +3292,8 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Levante - Elche",
@@ -3353,7 +3355,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-23T22:07:41.620617+00:00"
     }
   ],
   "aggiornato_il": "2026-11-23"
