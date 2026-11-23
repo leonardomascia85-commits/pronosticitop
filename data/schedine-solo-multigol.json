@@ -9830,7 +9830,7 @@
       "variante": "libera",
       "quota_combinata": 3.05,
       "probabilita_combinata": 0.328,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Konyaspor - Beşiktaş",
@@ -9844,8 +9844,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Konyaspor 1.14 gol attesi (15° con 8 punti, 6 gol fatti e 14 subiti in 11 gare), Beşiktaş 1.69 (4° con 22 punti, 23 fatti e 12 subiti in 11 gare). Somma attesa 2.82 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-4"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -9889,8 +9889,8 @@
           "probabilita_modello": 0.85,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): FC Lorient 1.72 gol attesi (10° con 15 punti, 9 gol fatti e 8 subiti in 10 gare), Stade Rennais FC 1.52 (8° con 16 punti, 21 fatti e 21 subiti in 10 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Chapecoense - Cruzeiro",
@@ -9919,8 +9919,8 @@
           "probabilita_modello": 0.84,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.68 gol attesi (17° con 8 punti, 16 gol fatti e 29 subiti in 11 gare), Genoa 1.70 (13° con 13 punti, 11 fatti e 16 subiti in 11 gare). Somma attesa 3.38 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "SV Werder Bremen - Hamburger SV",
@@ -9934,10 +9934,12 @@
           "probabilita_modello": 0.82,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.20 gol attesi (6° con 15 punti, 17 gol fatti e 15 subiti in 9 gare), Hamburger SV 1.38 (11° con 12 punti, 10 fatti e 20 subiti in 9 gare). Somma attesa 3.59 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-23T02:06:40.347252+00:00"
     },
     {
       "id": "L4-26",
