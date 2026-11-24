@@ -3010,8 +3010,8 @@
           "probabilita_modello": 0.94,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         }
       ],
       "quota_max": 5,
@@ -3129,7 +3129,7 @@
       "variante": "libera",
       "quota_combinata": 1.22,
       "probabilita_combinata": 0.823,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Başakşehir - Çorum FK",
@@ -3143,8 +3143,8 @@
           "probabilita_modello": 0.97,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Levante - Elche",
@@ -3158,8 +3158,8 @@
           "probabilita_modello": 0.96,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Levante 1.66 gol attesi (19° con 8 punti, 13 gol fatti e 20 subiti in 11 gare), Elche 1.46 (17° con 10 punti, 14 fatti e 20 subiti in 12 gare). Somma attesa 3.11 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Santos - Grêmio",
@@ -3173,8 +3173,8 @@
           "probabilita_modello": 0.94,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Santos 1.63 gol attesi (8° con 50 punti, 51 gol fatti e 49 subiti in 35 gare), Grêmio 1.25 (18° con 38 punti, 38 fatti e 47 subiti in 35 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-2"
         },
         {
           "partita": "Brentford - Everton",
@@ -3188,10 +3188,12 @@
           "probabilita_modello": 0.94,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         }
-      ]
+      ],
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-24T10:06:44.853100+00:00"
     },
     {
       "id": "L4-10",
@@ -3870,6 +3872,76 @@
       ],
       "quota_max": 6,
       "quota_rispettata": true
+    },
+    {
+      "id": "L4-11",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.24,
+      "probabilita_combinata": 0.806,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Paris Saint-Germain - FC Lorient",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.89 gol attesi (1° con 26 punti, 25 gol fatti e 12 subiti in 11 gare), FC Lorient 1.10 (10° con 16 punti, 10 fatti e 9 subiti in 11 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "OGC Nice - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.80 gol attesi (7° con 17 punti, 17 gol fatti e 15 subiti in 11 gare), ESTAC Troyes 1.20 (14° con 11 punti, 10 fatti e 18 subiti in 11 gare). Somma attesa 3.00 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Olympique Lyonnais - AS Monaco",
+          "campionato": "Ligue 1",
+          "data": "2026-11-29T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 5.5 gol",
+          "esito_pick": "under55",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.52 gol attesi (4° con 20 punti, 16 gol fatti e 9 subiti in 11 gare), AS Monaco 1.13 (8° con 17 punti, 14 fatti e 12 subiti in 11 gare). Somma attesa 2.66 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-11-29T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.94,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.94,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Como 1.57 gol attesi (5° con 26 punti, 20 gol fatti e 10 subiti in 12 gare), Juventus 1.25 (6° con 21 punti, 19 fatti e 12 subiti in 12 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
     }
   ]
 }
