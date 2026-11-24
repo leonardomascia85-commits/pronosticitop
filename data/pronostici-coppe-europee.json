@@ -56,9 +56,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "1-0",
+            "aggiornato": "2026-11-24T20:06:45Z"
           }
         },
         {
