@@ -138,8 +138,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.91 gol attesi (1° con 27 punti, 26 gol fatti e 16 subiti in 12 gare), Südtirol 1.28 (7° con 18 punti, 14 fatti e 12 subiti in 12 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Mantova - Arezzo",
@@ -316,8 +316,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cesena 1.25 gol attesi (8° con 18 punti, 14 gol fatti e 14 subiti in 12 gare), Ascoli 1.37 (3° con 21 punti, 19 fatti e 9 subiti in 12 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Benevento - Empoli",
@@ -361,8 +361,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Palermo 1.91 gol attesi (1° con 27 punti, 26 gol fatti e 16 subiti in 12 gare), Südtirol 1.28 (7° con 18 punti, 14 fatti e 12 subiti in 12 gare). Somma attesa 3.19 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-1"
         },
         {
           "partita": "Mantova - Arezzo",
