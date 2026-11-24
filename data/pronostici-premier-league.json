@@ -1,127 +1,76 @@
 {
   "campionato": "Premier League",
-  "giornata": "11ª giornata",
-  "periodo": "21-23 novembre 2026",
-  "aggiornato": "2026-11-15",
+  "giornata": "12ª giornata",
+  "periodo": "27-29 novembre 2026",
+  "aggiornato": "2026-11-24",
   "partite": [
     {
-      "casa": "Manchester City",
-      "trasferta": "Fulham",
-      "data": "2026-11-21T12:30:00+00:00",
-      "forma_casa": "3° posto, 21 pt in 10 gare (7V-0N-3P), 21-13",
-      "forma_trasferta": "15° posto, 10 pt in 10 gare (2V-4N-4P), 10-12",
+      "casa": "Nottingham Forest",
+      "trasferta": "Chelsea",
+      "data": "2026-11-27T20:00:00+00:00",
+      "forma_casa": "17° posto, 9 pt in 11 gare (2V-3N-6P), 9-15",
+      "forma_trasferta": "8° posto, 16 pt in 11 gare (5V-1N-5P), 20-20",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Manchester City",
+        "etichetta": "Vittoria Nottingham Forest",
+        "probabilita": 0.37,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Nottingham Forest o Chelsea",
+        "probabilita": 0.74,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.6,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.62,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.64,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 1.56 gol attesi (17° con 9 punti, 9 gol fatti e 15 subiti in 11 gare), Chelsea 1.56 (8° con 16 punti, 20 fatti e 20 subiti in 11 gare). Somma attesa 3.13 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "under",
+        "etichetta": "Under 9.5 corner",
+        "probabilita": 0.52,
+        "corner_attesi_totali": 9.6,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Leeds United",
+      "trasferta": "Coventry City",
+      "data": "2026-11-28T15:00:00+00:00",
+      "forma_casa": "7° posto, 17 pt in 11 gare (4V-5N-2P), 14-9",
+      "forma_trasferta": "14° posto, 12 pt in 11 gare (4V-0N-7P), 13-21",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Leeds United",
         "probabilita": 0.53,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "1X",
-        "etichetta": "Manchester City o pareggio",
-        "probabilita": 0.77,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Manchester City 1.93 gol attesi (3° con 21 punti, 21 gol fatti e 13 subiti in 10 gare), Fulham 1.21 (15° con 10 punti, 10 fatti e 12 subiti in 10 gare). Somma attesa 3.14 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "1-1",
-        "aggiornato": "2026-11-21T18:06:46Z"
-      },
-      "pick_corner": {
-        "esito": "over",
-        "etichetta": "Over 9.5 corner",
-        "probabilita": 0.51,
-        "corner_attesi_totali": 9.9,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Aston Villa",
-      "trasferta": "Sunderland",
-      "data": "2026-11-21T15:00:00+00:00",
-      "forma_casa": "10° posto, 13 pt in 10 gare (3V-4N-3P), 14-17",
-      "forma_trasferta": "19° posto, 8 pt in 10 gare (2V-2N-6P), 8-17",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Aston Villa",
-        "probabilita": 0.47,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Aston Villa o Sunderland",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.59,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Aston Villa 1.76 gol attesi (10° con 13 punti, 14 gol fatti e 17 subiti in 10 gare), Sunderland 1.28 (19° con 8 punti, 8 fatti e 17 subiti in 10 gare). Somma attesa 3.04 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "0-0",
-        "aggiornato": "2026-11-21T18:06:46Z"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.62,
-        "corner_attesi_totali": 8.7,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "AFC Bournemouth",
-      "trasferta": "Nottingham Forest",
-      "data": "2026-11-21T15:00:00+00:00",
-      "forma_casa": "7° posto, 15 pt in 10 gare (4V-3N-3P), 16-14",
-      "forma_trasferta": "16° posto, 9 pt in 10 gare (2V-3N-5P), 9-13",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria AFC Bournemouth",
-        "probabilita": 0.47,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "AFC Bournemouth o Nottingham Forest",
-        "probabilita": 0.74,
+        "etichetta": "Leeds United o pareggio",
+        "probabilita": 0.78,
         "modello": "v2"
       },
       "pick_uo": {
@@ -139,103 +88,103 @@
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.58,
+        "probabilita": 0.57,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): AFC Bournemouth 1.67 gol attesi (7° con 15 punti, 16 gol fatti e 14 subiti in 10 gare), Nottingham Forest 1.21 (16° con 9 punti, 9 fatti e 13 subiti in 10 gare). Somma attesa 2.89 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Leeds United 1.80 gol attesi (7° con 17 punti, 14 gol fatti e 9 subiti in 11 gare), Coventry City 1.10 (14° con 12 punti, 13 fatti e 21 subiti in 11 gare). Somma attesa 2.90 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-11-21T20:06:59Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.59,
-        "corner_attesi_totali": 9.0,
+        "probabilita": 0.64,
+        "corner_attesi_totali": 8.6,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Chelsea",
-      "trasferta": "Leeds United",
-      "data": "2026-11-21T15:00:00+00:00",
-      "forma_casa": "5° posto, 16 pt in 10 gare (5V-1N-4P), 19-16",
-      "forma_trasferta": "9° posto, 14 pt in 10 gare (3V-5N-2P), 10-8",
+      "casa": "Manchester United",
+      "trasferta": "Brentford",
+      "data": "2026-11-28T15:00:00+00:00",
+      "forma_casa": "19° posto, 8 pt in 11 gare (1V-5N-5P), 14-23",
+      "forma_trasferta": "6° posto, 17 pt in 11 gare (4V-5N-2P), 20-11",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Chelsea",
-        "probabilita": 0.44,
+        "esito": "2",
+        "etichetta": "Vittoria Brentford",
+        "probabilita": 0.46,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Chelsea o Leeds United",
-        "probabilita": 0.74,
+        "etichetta": "Manchester United o Brentford",
+        "probabilita": 0.75,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.57,
+        "probabilita": 0.63,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.66,
+        "probabilita": 0.59,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.6,
+        "probabilita": 0.64,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Chelsea 1.64 gol attesi (5° con 16 punti, 19 gol fatti e 16 subiti in 10 gare), Leeds United 1.32 (9° con 14 punti, 10 fatti e 8 subiti in 10 gare). Somma attesa 2.96 gol. Correzione per squadra molto offensiva applicata.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Manchester United 1.41 gol attesi (19° con 8 punti, 14 gol fatti e 23 subiti in 11 gare), Brentford 1.83 (6° con 17 punti, 20 fatti e 11 subiti in 11 gare). Somma attesa 3.23 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "1-4",
-        "aggiornato": "2026-11-21T20:06:59Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
         "probabilita": 0.52,
-        "corner_attesi_totali": 9.6,
+        "corner_attesi_totali": 9.9,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Coventry City",
-      "trasferta": "Crystal Palace",
-      "data": "2026-11-21T15:00:00+00:00",
-      "forma_casa": "17° posto, 9 pt in 10 gare (3V-0N-7P), 10-19",
-      "forma_trasferta": "20° posto, 7 pt in 10 gare (2V-1N-7P), 10-24",
+      "casa": "Ipswich Town",
+      "trasferta": "Aston Villa",
+      "data": "2026-11-28T17:30:00+00:00",
+      "forma_casa": "16° posto, 11 pt in 11 gare (3V-2N-6P), 15-22",
+      "forma_trasferta": "12° posto, 14 pt in 11 gare (3V-5N-3P), 14-17",
       "pick_1x2": {
         "esito": "1",
-        "etichetta": "Vittoria Coventry City",
-        "probabilita": 0.47,
+        "etichetta": "Vittoria Ipswich Town",
+        "probabilita": 0.4,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Coventry City o Crystal Palace",
-        "probabilita": 0.76,
+        "etichetta": "Ipswich Town o Aston Villa",
+        "probabilita": 0.75,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.64,
+        "probabilita": 0.63,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.58,
+        "probabilita": 0.59,
         "modello": "v2"
       },
       "pick_gg": {
@@ -244,87 +193,36 @@
         "probabilita": 0.65,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Coventry City 1.88 gol attesi (17° con 9 punti, 10 gol fatti e 19 subiti in 10 gare), Crystal Palace 1.43 (20° con 7 punti, 10 fatti e 24 subiti in 10 gare). Somma attesa 3.31 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Ipswich Town 1.68 gol attesi (16° con 11 punti, 15 gol fatti e 22 subiti in 11 gare), Aston Villa 1.56 (12° con 14 punti, 14 fatti e 17 subiti in 11 gare). Somma attesa 3.24 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "3-2",
-        "aggiornato": "2026-11-21T20:06:59Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
         "etichetta": "Under 9.5 corner",
-        "probabilita": 0.56,
-        "corner_attesi_totali": 9.3,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Tottenham Hotspur",
-      "trasferta": "Ipswich Town",
-      "data": "2026-11-21T15:00:00+00:00",
-      "forma_casa": "11° posto, 12 pt in 10 gare (3V-3N-4P), 10-11",
-      "forma_trasferta": "14° posto, 11 pt in 10 gare (3V-2N-5P), 15-20",
-      "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Tottenham Hotspur",
-        "probabilita": 0.46,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "12",
-        "etichetta": "Tottenham Hotspur o Ipswich Town",
-        "probabilita": 0.74,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.58,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.64,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
         "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Tottenham Hotspur 1.72 gol attesi (11° con 12 punti, 10 gol fatti e 11 subiti in 10 gare), Ipswich Town 1.32 (14° con 11 punti, 15 fatti e 20 subiti in 10 gare). Somma attesa 3.04 gol.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-11-21T20:06:59Z"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.51,
-        "corner_attesi_totali": 9.6,
+        "corner_attesi_totali": 8.8,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Newcastle United",
-      "trasferta": "Arsenal",
-      "data": "2026-11-21T17:30:00+00:00",
-      "forma_casa": "12° posto, 12 pt in 10 gare (3V-3N-4P), 13-16",
-      "forma_trasferta": "1° posto, 27 pt in 10 gare (9V-0N-1P), 15-5",
+      "casa": "Everton",
+      "trasferta": "Liverpool",
+      "data": "2026-11-29T12:00:00+00:00",
+      "forma_casa": "9° posto, 16 pt in 11 gare (4V-4N-3P), 12-14",
+      "forma_trasferta": "4° posto, 21 pt in 11 gare (6V-3N-2P), 18-10",
       "pick_1x2": {
         "esito": "2",
-        "etichetta": "Vittoria Arsenal",
-        "probabilita": 0.43,
+        "etichetta": "Vittoria Liverpool",
+        "probabilita": 0.39,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Newcastle United o Arsenal",
+        "etichetta": "Everton o Liverpool",
         "probabilita": 0.72,
         "modello": "v2"
       },
@@ -346,114 +244,114 @@
         "probabilita": 0.56,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Newcastle United 1.22 gol attesi (12° con 12 punti, 13 gol fatti e 16 subiti in 10 gare), Arsenal 1.50 (1° con 27 punti, 15 fatti e 5 subiti in 10 gare). Somma attesa 2.71 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Everton 1.29 gol attesi (9° con 16 punti, 12 gol fatti e 14 subiti in 11 gare), Liverpool 1.43 (4° con 21 punti, 18 fatti e 10 subiti in 11 gare). Somma attesa 2.72 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "2-2",
-        "aggiornato": "2026-11-22T00:06:51Z"
-      },
-      "pick_corner": {
-        "esito": "under",
-        "etichetta": "Under 9.5 corner",
-        "probabilita": 0.52,
-        "corner_attesi_totali": 9.6,
-        "modello": "corner-v2"
-      }
-    },
-    {
-      "casa": "Hull City",
-      "trasferta": "Brighton & Hove Albion",
-      "data": "2026-11-22T14:00:00+00:00",
-      "forma_casa": "13° posto, 11 pt in 10 gare (2V-5N-3P), 11-11",
-      "forma_trasferta": "2° posto, 22 pt in 10 gare (7V-1N-2P), 26-7",
-      "pick_1x2": {
-        "esito": "2",
-        "etichetta": "Vittoria Brighton & Hove Albion",
-        "probabilita": 0.52,
-        "modello": "v2"
-      },
-      "pick_dc": {
-        "esito": "X2",
-        "etichetta": "Pareggio o Brighton & Hove Albion",
-        "probabilita": 0.77,
-        "modello": "v2"
-      },
-      "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.6,
-        "modello": "v2"
-      },
-      "pick_uo35": {
-        "esito": "under",
-        "etichetta": "Under 3.5",
-        "probabilita": 0.62,
-        "modello": "v2"
-      },
-      "pick_gg": {
-        "esito": "gol",
-        "etichetta": "Gol",
-        "probabilita": 0.61,
-        "modello": "v2"
-      },
-      "nota": "Modello a gol attesi (con vantaggio casa): Hull City 1.22 gol attesi (13° con 11 punti, 11 gol fatti e 11 subiti in 10 gare), Brighton & Hove Albion 1.91 (2° con 22 punti, 26 fatti e 7 subiti in 10 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
-      "confidenza_dati": "ALTA",
-      "risultato": {
-        "stato": "finale",
-        "punteggio": "2-0",
-        "aggiornato": "2026-11-22T22:06:52Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.52,
-        "corner_attesi_totali": 9.9,
+        "probabilita": 0.53,
+        "corner_attesi_totali": 10.0,
         "modello": "corner-v2"
       }
     },
     {
-      "casa": "Liverpool",
-      "trasferta": "Manchester United",
-      "data": "2026-11-22T16:30:00+00:00",
-      "forma_casa": "4° posto, 18 pt in 10 gare (5V-3N-2P), 14-10",
-      "forma_trasferta": "18° posto, 8 pt in 10 gare (1V-5N-4P), 14-19",
+      "casa": "Sunderland",
+      "trasferta": "Tottenham Hotspur",
+      "data": "2026-11-29T14:00:00+00:00",
+      "forma_casa": "18° posto, 9 pt in 11 gare (2V-3N-6P), 8-17",
+      "forma_trasferta": "10° posto, 15 pt in 11 gare (4V-3N-4P), 12-11",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Liverpool",
-        "probabilita": 0.5,
+        "esito": "2",
+        "etichetta": "Vittoria Tottenham Hotspur",
+        "probabilita": 0.39,
         "modello": "v2"
       },
       "pick_dc": {
-        "esito": "1X",
-        "etichetta": "Liverpool o pareggio",
-        "probabilita": 0.75,
+        "esito": "12",
+        "etichetta": "Sunderland o Tottenham Hotspur",
+        "probabilita": 0.71,
         "modello": "v2"
       },
       "pick_uo": {
-        "esito": "over",
-        "etichetta": "Over 2.5",
-        "probabilita": 0.6,
+        "esito": "under",
+        "etichetta": "Under 2.5",
+        "probabilita": 0.54,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.63,
+        "probabilita": 0.76,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.61,
+        "probabilita": 0.52,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Liverpool 1.84 gol attesi (4° con 18 punti, 14 gol fatti e 10 subiti in 10 gare), Manchester United 1.25 (18° con 8 punti, 14 fatti e 19 subiti in 10 gare). Somma attesa 3.09 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Sunderland 1.17 gol attesi (18° con 9 punti, 8 gol fatti e 17 subiti in 11 gare), Tottenham Hotspur 1.33 (10° con 15 punti, 12 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "finale",
-        "punteggio": "4-0",
-        "aggiornato": "2026-11-22T22:06:52Z"
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.51,
+        "corner_attesi_totali": 9.8,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Fulham",
+      "trasferta": "AFC Bournemouth",
+      "data": "2026-11-29T14:00:00+00:00",
+      "forma_casa": "15° posto, 11 pt in 11 gare (2V-5N-4P), 11-13",
+      "forma_trasferta": "5° posto, 18 pt in 11 gare (5V-3N-3P), 18-14",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Fulham",
+        "probabilita": 0.36,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Fulham o AFC Bournemouth",
+        "probabilita": 0.72,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.53,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.69,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.58,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Fulham 1.41 gol attesi (15° con 11 punti, 11 gol fatti e 13 subiti in 11 gare), AFC Bournemouth 1.40 (5° con 18 punti, 18 fatti e 14 subiti in 11 gare). Somma attesa 2.81 gol. Orario da confermare.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
       },
       "pick_corner": {
         "esito": "under",
@@ -464,42 +362,93 @@
       }
     },
     {
-      "casa": "Brentford",
-      "trasferta": "Everton",
-      "data": "2026-11-23T20:00:00+00:00",
-      "forma_casa": "8° posto, 14 pt in 10 gare (3V-5N-2P), 16-11",
-      "forma_trasferta": "6° posto, 16 pt in 10 gare (4V-4N-2P), 12-10",
+      "casa": "Crystal Palace",
+      "trasferta": "Hull City",
+      "data": "2026-11-29T14:00:00+00:00",
+      "forma_casa": "20° posto, 7 pt in 11 gare (2V-1N-8P), 12-27",
+      "forma_trasferta": "11° posto, 14 pt in 11 gare (3V-5N-3P), 13-11",
       "pick_1x2": {
-        "esito": "1",
-        "etichetta": "Vittoria Brentford",
-        "probabilita": 0.44,
+        "esito": "2",
+        "etichetta": "Vittoria Hull City",
+        "probabilita": 0.45,
         "modello": "v2"
       },
       "pick_dc": {
         "esito": "12",
-        "etichetta": "Brentford o Everton",
-        "probabilita": 0.73,
+        "etichetta": "Crystal Palace o Hull City",
+        "probabilita": 0.74,
         "modello": "v2"
       },
       "pick_uo": {
         "esito": "over",
         "etichetta": "Over 2.5",
-        "probabilita": 0.52,
+        "probabilita": 0.58,
         "modello": "v2"
       },
       "pick_uo35": {
         "esito": "under",
         "etichetta": "Under 3.5",
-        "probabilita": 0.7,
+        "probabilita": 0.64,
         "modello": "v2"
       },
       "pick_gg": {
         "esito": "gol",
         "etichetta": "Gol",
-        "probabilita": 0.57,
+        "probabilita": 0.61,
         "modello": "v2"
       },
-      "nota": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
+      "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.33 gol attesi (20° con 7 punti, 12 gol fatti e 27 subiti in 11 gare), Hull City 1.70 (11° con 14 punti, 13 fatti e 11 subiti in 11 gare). Somma attesa 3.03 gol. Orario da confermare.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.52,
+        "corner_attesi_totali": 9.9,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Brighton & Hove Albion",
+      "trasferta": "Newcastle United",
+      "data": "2026-11-29T14:00:00+00:00",
+      "forma_casa": "2° posto, 22 pt in 11 gare (7V-1N-3P), 26-9",
+      "forma_trasferta": "13° posto, 13 pt in 11 gare (3V-4N-4P), 15-18",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Brighton & Hove Albion",
+        "probabilita": 0.62,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "1X",
+        "etichetta": "Brighton & Hove Albion o pareggio",
+        "probabilita": 0.83,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.67,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.54,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.63,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.30 gol attesi (2° con 22 punti, 26 gol fatti e 9 subiti in 11 gare), Newcastle United 1.17 (13° con 13 punti, 15 fatti e 18 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
       "confidenza_dati": "ALTA",
       "risultato": {
         "stato": "non_iniziata",
@@ -511,6 +460,57 @@
         "etichetta": "Under 9.5 corner",
         "probabilita": 0.52,
         "corner_attesi_totali": 9.6,
+        "modello": "corner-v2"
+      }
+    },
+    {
+      "casa": "Arsenal",
+      "trasferta": "Manchester City",
+      "data": "2026-11-29T16:30:00+00:00",
+      "forma_casa": "1° posto, 28 pt in 11 gare (9V-1N-1P), 17-7",
+      "forma_trasferta": "3° posto, 22 pt in 11 gare (7V-1N-3P), 22-14",
+      "pick_1x2": {
+        "esito": "1",
+        "etichetta": "Vittoria Arsenal",
+        "probabilita": 0.42,
+        "modello": "v2"
+      },
+      "pick_dc": {
+        "esito": "12",
+        "etichetta": "Arsenal o Manchester City",
+        "probabilita": 0.74,
+        "modello": "v2"
+      },
+      "pick_uo": {
+        "esito": "over",
+        "etichetta": "Over 2.5",
+        "probabilita": 0.59,
+        "modello": "v2"
+      },
+      "pick_uo35": {
+        "esito": "under",
+        "etichetta": "Under 3.5",
+        "probabilita": 0.64,
+        "modello": "v2"
+      },
+      "pick_gg": {
+        "esito": "gol",
+        "etichetta": "Gol",
+        "probabilita": 0.62,
+        "modello": "v2"
+      },
+      "nota": "Modello a gol attesi (con vantaggio casa): Arsenal 1.64 gol attesi (1° con 28 punti, 17 gol fatti e 7 subiti in 11 gare), Manchester City 1.40 (3° con 22 punti, 22 fatti e 14 subiti in 11 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
+      "confidenza_dati": "ALTA",
+      "risultato": {
+        "stato": "non_iniziata",
+        "punteggio": null,
+        "aggiornato": null
+      },
+      "pick_corner": {
+        "esito": "over",
+        "etichetta": "Over 9.5 corner",
+        "probabilita": 0.51,
+        "corner_attesi_totali": 9.8,
         "modello": "corner-v2"
       }
     }
