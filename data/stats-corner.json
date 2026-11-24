@@ -36,9 +36,9 @@
    "con": 4.0
   },
   "Monza": {
-   "g": 11,
-   "fav": 4.09,
-   "con": 4.27
+   "g": 12,
+   "fav": 4.0,
+   "con": 4.5
   },
   "Parma": {
    "g": 12,
@@ -96,9 +96,9 @@
    "con": 4.25
   },
   "Fiorentina": {
-   "g": 11,
-   "fav": 4.82,
-   "con": 4.64
+   "g": 12,
+   "fav": 5.0,
+   "con": 4.5
   }
  },
  "Premier League": {
@@ -108,9 +108,9 @@
    "con": 4.18
   },
   "Everton": {
-   "g": 10,
-   "fav": 4.6,
-   "con": 5.4
+   "g": 11,
+   "fav": 4.36,
+   "con": 5.45
   },
   "Ipswich": {
    "g": 11,
@@ -153,9 +153,9 @@
    "con": 6.73
   },
   "Brentford": {
-   "g": 10,
-   "fav": 3.9,
-   "con": 5.3
+   "g": 11,
+   "fav": 4.09,
+   "con": 5.0
   },
   "Hull": {
    "g": 11,
@@ -265,9 +265,9 @@
    "con": 4.85
   },
   "Levante": {
-   "g": 12,
-   "fav": 3.33,
-   "con": 5.0
+   "g": 13,
+   "fav": 3.46,
+   "con": 4.69
   },
   "Deportivo La Coruna": {
    "g": 13,
@@ -275,9 +275,9 @@
    "con": 5.31
   },
   "Elche": {
-   "g": 12,
-   "fav": 4.92,
-   "con": 4.58
+   "g": 13,
+   "fav": 4.62,
+   "con": 4.62
   },
   "Atletico Madrid": {
    "g": 13,
@@ -489,6 +489,6 @@
    "con": 2.18
   }
  },
- "aggiornato": "2026-11-23T12:08:23+00:00",
+ "aggiornato": "2026-11-24T14:08:34+00:00",
  "fonte": "betaminic.com (corner a favore/contro per gara, tutte le partite)"
 }
