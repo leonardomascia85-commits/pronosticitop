@@ -86,7 +86,7 @@
       "variante": "quota_max",
       "quota_combinata": 34.08,
       "probabilita_combinata": 0.029,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Monza - Fiorentina",
@@ -100,8 +100,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Başakşehir - Çorum FK",
@@ -115,8 +115,8 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "MEDIA-ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -130,8 +130,8 @@
           "probabilita_modello": 0.54,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Brentford - Everton",
@@ -145,8 +145,8 @@
           "probabilita_modello": 0.52,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Internacional - Vitória",
@@ -160,12 +160,14 @@
           "probabilita_modello": 0.51,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         }
       ],
       "quota_max": 5,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-24T02:07:07.918438+00:00"
     },
     {
       "id": "L6-1",
@@ -247,8 +249,8 @@
           "probabilita_modello": 0.54,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Brentford - Everton",
@@ -351,8 +353,8 @@
           "probabilita_modello": 0.54,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Internacional - Vitória",
@@ -366,8 +368,8 @@
           "probabilita_modello": 0.51,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Brentford - Everton",
@@ -1050,6 +1052,93 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L5-3",
+      "livello_rischio": 5,
+      "variante": "quota_max",
+      "quota_combinata": 46.55,
+      "probabilita_combinata": 0.021,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "OGC Nice - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.48,
+          "quota_stimata": 2.07,
+          "probabilita_modello": 0.58,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.80 gol attesi (7° con 17 punti, 17 gol fatti e 15 subiti in 11 gare), ESTAC Troyes 1.20 (14° con 11 punti, 10 fatti e 18 subiti in 11 gare). Somma attesa 3.00 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - FC Lorient",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.47,
+          "quota_stimata": 2.11,
+          "probabilita_modello": 0.57,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.89 gol attesi (1° con 26 punti, 25 gol fatti e 12 subiti in 11 gare), FC Lorient 1.10 (10° con 16 punti, 10 fatti e 9 subiti in 11 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Venezia - Bologna",
+          "campionato": "Serie A",
+          "data": "2026-11-27T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.46,
+          "quota_stimata": 2.19,
+          "probabilita_modello": 0.55,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.25 gol attesi (20° con 6 punti, 8 gol fatti e 25 subiti in 12 gare), Bologna 1.65 (9° con 18 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Leeds United - Coventry City",
+          "campionato": "Premier League",
+          "data": "2026-11-28T15:00:00+00:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.46,
+          "quota_stimata": 2.19,
+          "probabilita_modello": 0.55,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Leeds United 1.80 gol attesi (7° con 17 punti, 14 gol fatti e 9 subiti in 11 gare), Coventry City 1.10 (14° con 12 punti, 13 fatti e 21 subiti in 11 gare). Somma attesa 2.90 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Como - Juventus",
+          "campionato": "Serie A",
+          "data": "2026-11-29T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.45,
+          "quota_stimata": 2.24,
+          "probabilita_modello": 0.54,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Como 1.57 gol attesi (5° con 26 punti, 20 gol fatti e 10 subiti in 12 gare), Juventus 1.25 (6° con 21 punti, 19 fatti e 12 subiti in 12 gare). Somma attesa 2.82 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 5,
+      "quota_rispettata": false
     }
   ]
 }

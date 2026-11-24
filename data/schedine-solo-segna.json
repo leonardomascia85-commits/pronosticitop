@@ -2,7 +2,7 @@
   "id": "solo-segna-2026-10-09",
   "titolo": "Solo Squadra segna",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-23",
+  "aggiornato_il": "2026-11-24",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato \"Segna la squadra\" (la squadra indicata segna almeno un gol), scelto per ogni partita in base ai gol attesi stimati dai dati reali delle due squadre. Nessun altro mercato viene considerato in questa sezione.",
   "schedine": [
@@ -7678,7 +7678,7 @@
       "variante": "quota_max",
       "quota_combinata": 2.42,
       "probabilita_combinata": 0.413,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Başakşehir - Çorum FK",
@@ -7692,8 +7692,8 @@
           "probabilita_modello": 0.86,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Red Bull Bragantino - Vasco da Gama",
@@ -7707,8 +7707,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Red Bull Bragantino 1.60 gol attesi (9° con 47 punti, 45 gol fatti e 41 subiti in 35 gare), Vasco da Gama 1.26 (10° con 47 punti, 47 fatti e 51 subiti in 35 gare). Somma attesa 2.87 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Brentford - Everton",
@@ -7722,8 +7722,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brentford 1.55 gol attesi (8° con 14 punti, 16 gol fatti e 11 subiti in 10 gare), Everton 1.21 (6° con 16 punti, 12 fatti e 10 subiti in 10 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-0"
         },
         {
           "partita": "Internacional - Vitória",
@@ -7737,12 +7737,14 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-24T02:07:07.918438+00:00"
     },
     {
       "id": "L7-23",
@@ -8334,6 +8336,78 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L4-25",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.35,
+      "probabilita_combinata": 0.739,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Roma - Monza",
+          "campionato": "Serie A",
+          "data": "2026-11-29T18:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Roma)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.93 gol attesi (2° con 30 punti, 36 gol fatti e 11 subiti in 12 gare), Monza 1.31 (14° con 10 punti, 20 fatti e 25 subiti in 12 gare). Somma attesa 4.24 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "FC Groningen - Willem II",
+          "campionato": "Eredivisie",
+          "data": "2026-11-27T20:00:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (FC Groningen)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): FC Groningen 3.00 gol attesi (10° con 15 punti, 30 gol fatti e 31 subiti in 13 gare), Willem II 1.58 (18° con 3 punti, 12 fatti e 42 subiti in 13 gare). Somma attesa 4.59 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Inter - Genoa",
+          "campionato": "Serie A",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Inter)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.38 gol attesi (3° con 29 punti, 32 gol fatti e 17 subiti in 12 gare), Genoa 1.28 (10° con 16 punti, 13 fatti e 16 subiti in 12 gare). Somma attesa 3.66 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Brighton & Hove Albion - Newcastle United",
+          "campionato": "Premier League",
+          "data": "2026-11-29T14:00:00+00:00",
+          "mercato": "SEGNA",
+          "pronostico": "Segna la squadra di casa (Brighton & Hove Albion)",
+          "esito_pick": "casa",
+          "probabilita_stimata": 0.9,
+          "quota_stimata": 1.11,
+          "probabilita_modello": 0.9,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.30 gol attesi (2° con 22 punti, 26 gol fatti e 9 subiti in 11 gare), Newcastle United 1.17 (13° con 13 punti, 15 fatti e 18 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
     }
   ]
 }

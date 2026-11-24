@@ -4970,7 +4970,7 @@
       "quota_max": 3,
       "quota_combinata": 2.21,
       "probabilita_combinata": 0.452,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Başakşehir - Çorum FK",
@@ -4984,8 +4984,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Başakşehir 2.00 gol attesi (8° con 17 punti, 19 gol fatti e 17 subiti in 11 gare), Çorum FK 1.68 (9° con 16 punti, 21 fatti e 21 subiti in 11 gare). Somma attesa 3.68 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "4-2"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -4999,8 +4999,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Monza - Fiorentina",
@@ -5014,8 +5014,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Monza 2.07 gol attesi (18° con 7 punti, 17 gol fatti e 25 subiti in 11 gare), Fiorentina 1.76 (15° con 9 punti, 17 fatti e 25 subiti in 11 gare). Somma attesa 3.83 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Santos - Grêmio",
@@ -5032,7 +5032,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-24T02:07:07.918438+00:00"
     },
     {
       "id": "L6-21",
@@ -5071,8 +5073,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Brentford - Everton",
@@ -5175,8 +5177,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Brentford - Everton",
@@ -5309,8 +5311,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Monza - Fiorentina",
@@ -5617,6 +5619,78 @@
           "probabilita_modello": 0.83,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Brighton & Hove Albion 2.30 gol attesi (2° con 22 punti, 26 gol fatti e 9 subiti in 11 gare), Newcastle United 1.17 (13° con 13 punti, 15 fatti e 18 subiti in 11 gare). Somma attesa 3.46 gol. Correzione per squadra molto offensiva applicata. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Feyenoord - Ajax",
+          "campionato": "Eredivisie",
+          "data": "2026-11-29T14:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.95,
+          "quota_stimata": 1.06,
+          "probabilita_modello": 0.95,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.49 gol attesi (5° con 25 punti, 38 gol fatti e 20 subiti in 13 gare), Ajax 2.17 (2° con 28 punti, 35 fatti e 15 subiti in 13 gare). Somma attesa 4.66 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Roma - Monza",
+          "campionato": "Serie A",
+          "data": "2026-11-29T18:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Roma o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Roma 2.93 gol attesi (2° con 30 punti, 36 gol fatti e 11 subiti in 12 gare), Monza 1.31 (14° con 10 punti, 20 fatti e 25 subiti in 12 gare). Somma attesa 4.24 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-26",
+      "livello_rischio": 4,
+      "fascia": 1,
+      "rischio": "Rischio basso",
+      "quota_max": 3,
+      "quota_combinata": 1.49,
+      "probabilita_combinata": 0.669,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "SC Paderborn 07 - FC Schalke 04",
+          "campionato": "Bundesliga",
+          "data": "2026-11-28T15:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Paderborn 07 1.26 gol attesi (15° con 10 punti, 8 gol fatti e 15 subiti in 10 gare), FC Schalke 04 1.11 (16° con 7 punti, 5 fatti e 11 subiti in 10 gare). Somma attesa 2.37 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "PSV - Go Ahead Eagles",
+          "campionato": "Eredivisie",
+          "data": "2026-11-28T18:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "PSV o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): PSV 3.25 gol attesi (1° con 29 punti, 44 gol fatti e 16 subiti in 13 gare), Go Ahead Eagles 1.54 (9° con 17 punti, 24 fatti e 28 subiti in 13 gare). Somma attesa 4.79 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         },

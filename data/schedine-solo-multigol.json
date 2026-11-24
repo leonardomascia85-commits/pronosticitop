@@ -9735,8 +9735,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Getafe - Atlético Madrid",
@@ -9869,8 +9869,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Santos - Grêmio",
@@ -9971,8 +9971,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Brentford - Everton",
@@ -10043,8 +10043,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -10058,8 +10058,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Santos - Grêmio",
@@ -10132,8 +10132,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -10147,8 +10147,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Santos - Grêmio",
@@ -10251,8 +10251,8 @@
           "probabilita_modello": 0.88,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.53 gol attesi (17° con 38 punti, 39 gol fatti e 44 subiti in 35 gare), Vitória 1.17 (14° con 41 punti, 37 fatti e 52 subiti in 35 gare). Somma attesa 2.70 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-5"
         },
         {
           "partita": "Botafogo - São Paulo",
@@ -10266,8 +10266,8 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.45 gol attesi (12° con 42 punti, 46 gol fatti e 57 subiti in 35 gare), São Paulo 1.37 (11° con 44 punti, 39 fatti e 40 subiti in 35 gare). Somma attesa 2.82 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Santos - Grêmio",
