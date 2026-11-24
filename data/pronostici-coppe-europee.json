@@ -11,7 +11,7 @@
           "casa": "Galatasaray",
           "trasferta": "Aston Villa",
           "data": "2026-11-24T18:45:00+01:00",
-          "forma_casa": "1° posto, 28 pt in 11 gare (9V-1N-1P), 27-15 in Süper Lig",
+          "forma_casa": "1° posto, 31 pt in 12 gare (10V-1N-1P), 29-16 in Süper Lig",
           "forma_trasferta": "12° posto, 14 pt in 11 gare (3V-5N-3P), 14-17 in Premier League",
           "pick_1x2": {
             "esito": "1",
@@ -28,7 +28,7 @@
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.71,
+            "probabilita": 0.7,
             "modello": "v2"
           },
           "pick_uo35": {
@@ -43,7 +43,7 @@
             "probabilita": 0.67,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.32 gol attesi (27 gol fatti e 15 subiti in 11 gare di Süper Lig), Aston Villa 1.33 (14 fatti e 17 subiti in 11 gare di Premier League). Somma attesa 3.65 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.31 gol attesi (29 gol fatti e 16 subiti in 12 gare di Süper Lig), Aston Villa 1.32 (14 fatti e 17 subiti in 11 gare di Premier League). Somma attesa 3.63 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
