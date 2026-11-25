@@ -558,12 +558,12 @@
           "casa": "Celta de Vigo",
           "trasferta": "AFC Bournemouth",
           "data": "2026-11-26T18:45:00+01:00",
-          "forma_casa": "11° posto, 13 pt in 12 gare (2V-7N-3P), 10-10 in La Liga",
+          "forma_casa": "14° posto, 13 pt in 13 gare (2V-7N-4P), 11-12 in La Liga",
           "forma_trasferta": "5° posto, 18 pt in 11 gare (5V-3N-3P), 18-14 in Premier League",
           "pick_1x2": {
             "esito": "1",
             "etichetta": "Vittoria Celta de Vigo",
-            "probabilita": 0.37,
+            "probabilita": 0.36,
             "modello": "v2"
           },
           "pick_dc": {
@@ -575,22 +575,22 @@
           "pick_uo": {
             "esito": "under",
             "etichetta": "Under 2.5",
-            "probabilita": 0.52,
+            "probabilita": 0.51,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.74,
+            "probabilita": 0.73,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.54,
+            "probabilita": 0.55,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.33 gol attesi (10 gol fatti e 10 subiti in 12 gare di La Liga), AFC Bournemouth 1.27 (18 fatti e 14 subiti in 11 gare di Premier League). Somma attesa 2.60 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.33 gol attesi (11 gol fatti e 12 subiti in 13 gare di La Liga), AFC Bournemouth 1.30 (18 fatti e 14 subiti in 11 gare di Premier League). Somma attesa 2.63 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
@@ -613,7 +613,7 @@
           "trasferta": "Real Sociedad",
           "data": "2026-11-26T21:00:00+01:00",
           "forma_casa": "20° posto, 7 pt in 11 gare (2V-1N-8P), 12-27 in Premier League",
-          "forma_trasferta": "5° posto, 22 pt in 12 gare (7V-1N-4P), 21-20 in La Liga",
+          "forma_trasferta": "5° posto, 22 pt in 13 gare (7V-1N-5P), 23-23 in La Liga",
           "pick_1x2": {
             "esito": "2",
             "etichetta": "Vittoria Real Sociedad",
@@ -623,28 +623,28 @@
           "pick_dc": {
             "esito": "12",
             "etichetta": "Crystal Palace o Real Sociedad",
-            "probabilita": 0.76,
+            "probabilita": 0.77,
             "modello": "v2"
           },
           "pick_uo": {
             "esito": "over",
             "etichetta": "Over 2.5",
-            "probabilita": 0.69,
+            "probabilita": 0.7,
             "modello": "v2"
           },
           "pick_uo35": {
             "esito": "under",
             "etichetta": "Under 3.5",
-            "probabilita": 0.53,
+            "probabilita": 0.51,
             "modello": "v2"
           },
           "pick_gg": {
             "esito": "gol",
             "etichetta": "Gol",
-            "probabilita": 0.69,
+            "probabilita": 0.7,
             "modello": "v2"
           },
-          "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.62 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.92 (21 fatti e 20 subiti in 12 gare di La Liga). Somma attesa 3.54 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "nota": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.67 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.94 (23 fatti e 23 subiti in 13 gare di La Liga). Somma attesa 3.61 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
           "confidenza_dati": "MEDIA",
           "fonte_stat": {
             "casa": [
