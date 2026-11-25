@@ -49,8 +49,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.72 gol attesi (10° con 16 punti, 16 gol fatti e 14 subiti in 12 gare), Empoli 1.16 (19° con 9 punti, 12 fatti e 20 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Pisa - Modena",
@@ -123,8 +123,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.72 gol attesi (10° con 16 punti, 16 gol fatti e 14 subiti in 12 gare), Empoli 1.16 (19° con 9 punti, 12 fatti e 20 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Palermo - Südtirol",
@@ -212,8 +212,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Virtus Entella 1.36 gol attesi (17° con 10 punti, 11 gol fatti e 15 subiti in 12 gare), Hellas Verona 1.40 (9° con 16 punti, 19 fatti e 15 subiti in 12 gare). Somma attesa 2.76 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Benevento - Empoli",
@@ -227,8 +227,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.72 gol attesi (10° con 16 punti, 16 gol fatti e 14 subiti in 12 gare), Empoli 1.16 (19° con 9 punti, 12 fatti e 20 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "Cremonese - Avellino",
@@ -331,8 +331,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Benevento 1.72 gol attesi (10° con 16 punti, 16 gol fatti e 14 subiti in 12 gare), Empoli 1.16 (19° con 9 punti, 12 fatti e 20 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-0"
         },
         {
           "partita": "L.R. Vicenza - Carrarese",
@@ -346,8 +346,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): L.R. Vicenza 1.50 gol attesi (18° con 10 punti, 16 gol fatti e 26 subiti in 12 gare), Carrarese 1.47 (14° con 13 punti, 10 fatti e 14 subiti in 12 gare). Somma attesa 2.97 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Palermo - Südtirol",
