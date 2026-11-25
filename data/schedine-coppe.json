@@ -1812,8 +1812,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Galatasaray 2.38 gol attesi (27 gol fatti e 15 subiti in 11 gare di Süper Lig), Aston Villa 1.38 (14 fatti e 17 subiti in 10 gare di Premier League). Somma attesa 3.76 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Sporting CP - Manchester United",
@@ -1828,8 +1828,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.35 gol attesi (21 gol fatti e 11 subiti in 9 gare di Liga Portugal), Manchester United 1.33 (14 fatti e 19 subiti in 10 gare di Premier League). Somma attesa 3.68 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "RB Leipzig - RC Lens",
@@ -1844,8 +1844,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.59 gol attesi (27 gol fatti e 13 subiti in 9 gare di Bundesliga), RC Lens 1.52 (17 fatti e 15 subiti in 10 gare di Ligue 1). Somma attesa 4.11 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Madrid - PSV",
@@ -1860,12 +1860,14 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.29 gol attesi (31 gol fatti e 10 subiti in 12 gare di La Liga), PSV 2.28 (40 fatti e 15 subiti in 12 gare di Eredivisie). Somma attesa 4.57 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         }
       ],
       "id": "L4-7",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
     },
     {
       "livello_rischio": 5,
@@ -1990,8 +1992,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Feyenoord - FC Porto",
@@ -2054,8 +2056,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.47 gol attesi (14 gol fatti e 7 subiti in 10 gare di Ligue 1), FC Bayern München 2.09 (29 fatti e 9 subiti in 9 gare di Bundesliga). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "id": "L6-5",
@@ -2129,8 +2131,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.47 gol attesi (14 gol fatti e 7 subiti in 10 gare di Ligue 1), FC Bayern München 2.09 (29 fatti e 9 subiti in 9 gare di Bundesliga). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Paris Saint-Germain - Roma",
@@ -2145,8 +2147,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.87 gol attesi (22 gol fatti e 10 subiti in 10 gare di Ligue 1), Roma 2.02 (31 fatti e 10 subiti in 11 gare di Serie A). Somma attesa 3.89 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Crystal Palace - Real Sociedad",
@@ -2204,81 +2206,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.35 gol attesi (21 gol fatti e 11 subiti in 9 gare di Liga Portugal), Manchester United 1.33 (14 fatti e 19 subiti in 10 gare di Premier League). Somma attesa 3.68 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "RB Leipzig - RC Lens",
-          "campionato": "Champions League",
-          "girone": null,
-          "data": "2026-11-24T21:00:00+01:00",
-          "mercato": "DC",
-          "pronostico": "RB Leipzig o RC Lens",
-          "esito_pick": "12",
-          "probabilita_stimata": 0.84,
-          "quota_stimata": 1.19,
-          "probabilita_modello": 0.81,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.59 gol attesi (27 gol fatti e 13 subiti in 9 gare di Bundesliga), RC Lens 1.52 (17 fatti e 15 subiti in 10 gare di Ligue 1). Somma attesa 4.11 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "Inter - VfB Stuttgart",
-          "campionato": "Champions League",
-          "girone": null,
-          "data": "2026-11-25T21:00:00+01:00",
-          "mercato": "DC",
-          "pronostico": "Inter o VfB Stuttgart",
-          "esito_pick": "12",
-          "probabilita_stimata": 0.84,
-          "quota_stimata": 1.19,
-          "probabilita_modello": 0.8,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
-        },
-        {
-          "partita": "Feyenoord - FC Porto",
-          "campionato": "Champions League",
-          "girone": null,
-          "data": "2026-11-24T21:00:00+01:00",
-          "mercato": "DC",
-          "pronostico": "Feyenoord o FC Porto",
-          "esito_pick": "12",
-          "probabilita_stimata": 0.83,
-          "quota_stimata": 1.2,
-          "probabilita_modello": 0.79,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.25 gol attesi (36 gol fatti e 17 subiti in 12 gare di Eredivisie), FC Porto 1.85 (21 fatti e 4 subiti in 9 gare di Liga Portugal). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
-        }
-      ],
-      "id": "L4-8",
-      "stato": "pubblicata"
-    },
-    {
-      "livello_rischio": 5,
-      "quota_combinata": 2.37,
-      "probabilita_combinata": 0.423,
-      "eventi": [
-        {
-          "partita": "Sporting CP - Manchester United",
-          "campionato": "Champions League",
-          "girone": null,
-          "data": "2026-11-25T21:00:00+01:00",
-          "mercato": "DC",
-          "pronostico": "Sporting CP o pareggio",
-          "esito_pick": "1X",
-          "probabilita_stimata": 0.88,
-          "quota_stimata": 1.14,
-          "probabilita_modello": 0.8,
-          "confidenza_dati": "ALTA",
-          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.35 gol attesi (21 gol fatti e 11 subiti in 9 gare di Liga Portugal), Manchester United 1.33 (14 fatti e 19 subiti in 10 gare di Premier League). Somma attesa 3.68 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "RB Leipzig - RC Lens",
@@ -2309,8 +2238,83 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
+        },
+        {
+          "partita": "Feyenoord - FC Porto",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-24T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Feyenoord o FC Porto",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.83,
+          "quota_stimata": 1.2,
+          "probabilita_modello": 0.79,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.25 gol attesi (36 gol fatti e 17 subiti in 12 gare di Eredivisie), FC Porto 1.85 (21 fatti e 4 subiti in 9 gare di Liga Portugal). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": "vinto",
+          "risultato_reale": "0-1"
+        }
+      ],
+      "id": "L4-8",
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
+    },
+    {
+      "livello_rischio": 5,
+      "quota_combinata": 2.37,
+      "probabilita_combinata": 0.423,
+      "eventi": [
+        {
+          "partita": "Sporting CP - Manchester United",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-25T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Sporting CP o pareggio",
+          "esito_pick": "1X",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.35 gol attesi (21 gol fatti e 11 subiti in 9 gare di Liga Portugal), Manchester United 1.33 (14 fatti e 19 subiti in 10 gare di Premier League). Somma attesa 3.68 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": "vinto",
+          "risultato_reale": "2-2"
+        },
+        {
+          "partita": "RB Leipzig - RC Lens",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-24T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "RB Leipzig o RC Lens",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.59 gol attesi (27 gol fatti e 13 subiti in 9 gare di Bundesliga), RC Lens 1.52 (17 fatti e 15 subiti in 10 gare di Ligue 1). Somma attesa 4.11 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": "vinto",
+          "risultato_reale": "3-1"
+        },
+        {
+          "partita": "Inter - VfB Stuttgart",
+          "campionato": "Champions League",
+          "girone": null,
+          "data": "2026-11-25T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Inter o VfB Stuttgart",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.8,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Feyenoord - FC Porto",
@@ -2368,8 +2372,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Sporting CP 2.35 gol attesi (21 gol fatti e 11 subiti in 9 gare di Liga Portugal), Manchester United 1.33 (14 fatti e 19 subiti in 10 gare di Premier League). Somma attesa 3.68 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "RB Leipzig - RC Lens",
@@ -2400,8 +2404,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Feyenoord - FC Porto",
@@ -2448,8 +2452,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.47 gol attesi (14 gol fatti e 7 subiti in 10 gare di Ligue 1), FC Bayern München 2.09 (29 fatti e 9 subiti in 9 gare di Bundesliga). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "id": "L6-6",
@@ -2475,8 +2479,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.59 gol attesi (27 gol fatti e 13 subiti in 9 gare di Bundesliga), RC Lens 1.52 (17 fatti e 15 subiti in 10 gare di Ligue 1). Somma attesa 4.11 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Madrid - PSV",
@@ -2491,8 +2495,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.29 gol attesi (31 gol fatti e 10 subiti in 12 gare di La Liga), PSV 2.28 (40 fatti e 15 subiti in 12 gare di Eredivisie). Somma attesa 4.57 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Feyenoord - FC Porto",
@@ -2507,8 +2511,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.25 gol attesi (36 gol fatti e 17 subiti in 12 gare di Eredivisie), FC Porto 1.85 (21 fatti e 4 subiti in 9 gare di Liga Portugal). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "NEC Nijmegen - Stade Rennais FC",
@@ -2539,8 +2543,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.47 gol attesi (14 gol fatti e 7 subiti in 10 gare di Ligue 1), FC Bayern München 2.09 (29 fatti e 9 subiti in 9 gare di Bundesliga). Somma attesa 3.56 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Paris Saint-Germain - Roma",
@@ -2555,8 +2559,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.87 gol attesi (22 gol fatti e 10 subiti in 10 gare di Ligue 1), Roma 2.02 (31 fatti e 10 subiti in 11 gare di Serie A). Somma attesa 3.89 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "SC Freiburg - FC Twente",
@@ -2576,7 +2580,9 @@
         }
       ],
       "id": "L7-6",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
     },
     {
       "livello_rischio": 6,
@@ -2596,8 +2602,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.93 gol attesi (25 gol fatti e 12 subiti in 11 gare di Ligue 1), Roma 2.17 (36 fatti e 11 subiti in 12 gare di Serie A). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "LOSC Lille - FC Bayern München",
@@ -2612,8 +2618,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): LOSC Lille 1.41 gol attesi (14 gol fatti e 8 subiti in 11 gare di Ligue 1), FC Bayern München 2.00 (30 fatti e 10 subiti in 10 gare di Bundesliga). Somma attesa 3.41 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Crystal Palace - Real Sociedad",
@@ -2681,7 +2687,9 @@
         }
       ],
       "id": "L6-7",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
     },
     {
       "livello_rischio": 5,
@@ -2701,8 +2709,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.45 gol attesi (32 gol fatti e 17 subiti in 12 gare di Serie A), VfB Stuttgart 1.43 (15 fatti e 15 subiti in 10 gare di Bundesliga). Somma attesa 3.89 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Paris Saint-Germain - Roma",
@@ -2717,8 +2725,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.93 gol attesi (25 gol fatti e 12 subiti in 11 gare di Ligue 1), Roma 2.17 (36 fatti e 11 subiti in 12 gare di Serie A). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "2-2"
         },
         {
           "partita": "Crystal Palace - Real Sociedad",
@@ -2770,9 +2778,84 @@
         }
       ],
       "id": "L5-8",
+      "stato": "archiviata",
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
+    },
+    {
+      "livello_rischio": 4,
+      "quota_combinata": 2.3,
+      "probabilita_combinata": 0.436,
+      "eventi": [
+        {
+          "partita": "Crystal Palace - Real Sociedad",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-11-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Crystal Palace o Real Sociedad",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.67 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.94 (23 fatti e 23 subiti in 13 gare di La Liga). Somma attesa 3.61 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "NEC Nijmegen - Stade Rennais FC",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-11-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "NEC Nijmegen o Stade Rennais FC",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.99 gol attesi (21 gol fatti e 25 subiti in 13 gare di Eredivisie), Stade Rennais FC 1.88 (22 fatti e 22 subiti in 11 gare di Ligue 1). Somma attesa 3.87 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "SC Freiburg - FC Twente",
+          "campionato": "Conference League",
+          "girone": null,
+          "data": "2026-11-26T21:00:00+01:00",
+          "mercato": "DC",
+          "pronostico": "SC Freiburg o FC Twente",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.77,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.84 gol attesi (21 gol fatti e 10 subiti in 10 gare di Bundesliga), FC Twente 1.84 (32 fatti e 13 subiti in 13 gare di Eredivisie). Somma attesa 3.67 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Celta de Vigo - AFC Bournemouth",
+          "campionato": "Europa League",
+          "girone": null,
+          "data": "2026-11-26T18:45:00+01:00",
+          "mercato": "DC",
+          "pronostico": "Celta de Vigo o AFC Bournemouth",
+          "esito_pick": "12",
+          "probabilita_stimata": 0.79,
+          "quota_stimata": 1.27,
+          "probabilita_modello": 0.71,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.33 gol attesi (11 gol fatti e 12 subiti in 13 gare di La Liga), AFC Bournemouth 1.30 (18 fatti e 14 subiti in 11 gare di Premier League). Somma attesa 2.63 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "id": "L4-9",
       "stato": "pubblicata"
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-11-24"
+  "aggiornato_il": "2026-11-25"
 }

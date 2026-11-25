@@ -351,9 +351,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-25T22:06:39Z"
       }
     },
     {
@@ -395,9 +395,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Padova 1.57 gol attesi (11° con 16 punti, 13 gol fatti e 14 subiti in 12 gare), Sampdoria 1.22 (13° con 14 punti, 14 fatti e 19 subiti in 12 gare). Somma attesa 2.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-2",
+        "aggiornato": "2026-11-25T22:06:39Z"
       }
     },
     {
@@ -439,9 +439,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Pisa 1.56 gol attesi (5° con 19 punti, 21 gol fatti e 17 subiti in 12 gare), Modena 1.60 (2° con 26 punti, 22 fatti e 10 subiti in 12 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-25T22:06:39Z"
       }
     }
   ]

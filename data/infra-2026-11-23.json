@@ -2,7 +2,7 @@
   "id": "infra-2026-11-23",
   "titolo": "Turno infrasettimanale del 24-25 novembre 2026",
   "generato_il": "2026-11-23",
-  "aggiornato_il": "2026-11-24",
+  "aggiornato_il": "2026-11-25",
   "stato": "pubblicata",
   "chiave_turno": "2026-11-23",
   "campionati_coperti": [
@@ -64,8 +64,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.56 gol attesi (5° con 19 punti, 21 gol fatti e 17 subiti in 12 gare), Modena 1.60 (2° con 26 punti, 22 fatti e 10 subiti in 12 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Mantova - Arezzo",
@@ -79,8 +79,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         }
       ],
       "esito_finale": "persa",
@@ -153,8 +153,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Padova - Sampdoria",
@@ -168,8 +168,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Padova 1.57 gol attesi (11° con 16 punti, 13 gol fatti e 14 subiti in 12 gare), Sampdoria 1.22 (13° con 14 punti, 14 fatti e 19 subiti in 12 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "esito_finale": "persa",
@@ -257,8 +257,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Atlético-MG - Corinthians",
@@ -376,8 +376,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Pisa - Modena",
@@ -391,8 +391,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.56 gol attesi (5° con 19 punti, 21 gol fatti e 17 subiti in 12 gare), Modena 1.60 (2° con 26 punti, 22 fatti e 10 subiti in 12 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -406,7 +406,7 @@
       "quota_max": 3,
       "quota_combinata": 2.22,
       "probabilita_combinata": 0.451,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Padova - Sampdoria",
@@ -420,8 +420,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Padova 1.57 gol attesi (11° con 16 punti, 13 gol fatti e 14 subiti in 12 gare), Sampdoria 1.22 (13° con 14 punti, 14 fatti e 19 subiti in 12 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Pisa - Modena",
@@ -435,8 +435,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.56 gol attesi (5° con 19 punti, 21 gol fatti e 17 subiti in 12 gare), Modena 1.60 (2° con 26 punti, 22 fatti e 10 subiti in 12 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Mantova - Arezzo",
@@ -450,8 +450,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Atlético-MG - Corinthians",
@@ -468,7 +468,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
     },
     {
       "id": "L5-2",
@@ -478,7 +480,7 @@
       "quota_max": 4,
       "quota_combinata": 2.77,
       "probabilita_combinata": 0.361,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Cremonese - Avellino",
@@ -492,8 +494,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Cremonese 1.36 gol attesi (12° con 15 punti, 14 gol fatti e 13 subiti in 12 gare), Avellino 1.37 (4° con 19 punti, 20 fatti e 12 subiti in 12 gare). Somma attesa 2.73 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Pisa - Modena",
@@ -507,8 +509,8 @@
           "probabilita_modello": 0.74,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Pisa 1.56 gol attesi (5° con 19 punti, 21 gol fatti e 17 subiti in 12 gare), Modena 1.60 (2° con 26 punti, 22 fatti e 10 subiti in 12 gare). Somma attesa 3.15 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         },
         {
           "partita": "Mantova - Arezzo",
@@ -522,8 +524,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Mantova 1.76 gol attesi (6° con 19 punti, 16 gol fatti e 15 subiti in 12 gare), Arezzo 1.12 (16° con 12 punti, 10 fatti e 21 subiti in 12 gare). Somma attesa 2.88 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Padova - Sampdoria",
@@ -537,8 +539,8 @@
           "probabilita_modello": 0.73,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Padova 1.57 gol attesi (11° con 16 punti, 13 gol fatti e 14 subiti in 12 gare), Sampdoria 1.22 (13° con 14 punti, 14 fatti e 19 subiti in 12 gare). Somma attesa 2.79 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         },
         {
           "partita": "Atlético-MG - Corinthians",
@@ -555,7 +557,9 @@
           "esito": null,
           "risultato_reale": null
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-25T22:06:39.825166+00:00"
     }
   ]
 }
