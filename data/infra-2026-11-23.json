@@ -272,8 +272,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.45 gol attesi (7° con 51 punti, 44 gol fatti e 40 subiti in 35 gare), Corinthians 1.16 (16° con 40 punti, 40 fatti e 42 subiti in 35 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -465,8 +465,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.45 gol attesi (7° con 51 punti, 44 gol fatti e 40 subiti in 35 gare), Corinthians 1.16 (16° con 40 punti, 40 fatti e 42 subiti in 35 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
@@ -554,8 +554,8 @@
           "probabilita_modello": 0.72,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.45 gol attesi (7° con 51 punti, 44 gol fatti e 40 subiti in 35 gare), Corinthians 1.16 (16° con 40 punti, 40 fatti e 42 subiti in 35 gare). Somma attesa 2.62 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-1"
         }
       ],
       "esito_finale": "persa",
