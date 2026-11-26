@@ -657,9 +657,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-1",
+            "aggiornato": "2026-11-26T22:20:00Z"
           }
         },
         {
@@ -711,9 +711,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "3-1",
+            "aggiornato": "2026-11-26T22:20:00Z"
           }
         }
       ]
@@ -772,9 +772,9 @@
             ]
           },
           "risultato": {
-            "stato": "non_iniziata",
-            "punteggio": null,
-            "aggiornato": null
+            "stato": "finale",
+            "punteggio": "2-1",
+            "aggiornato": "2026-11-26T22:20:00Z"
           }
         }
       ]

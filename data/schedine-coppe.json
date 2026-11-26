@@ -1887,8 +1887,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): RB Leipzig 2.59 gol attesi (27 gol fatti e 13 subiti in 9 gare di Bundesliga), RC Lens 1.52 (17 fatti e 15 subiti in 10 gare di Ligue 1). Somma attesa 4.11 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Real Madrid - PSV",
@@ -1903,8 +1903,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.29 gol attesi (31 gol fatti e 10 subiti in 12 gare di La Liga), PSV 2.28 (40 fatti e 15 subiti in 12 gare di Eredivisie). Somma attesa 4.57 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "5-1"
         },
         {
           "partita": "Inter - VfB Stuttgart",
@@ -1919,8 +1919,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Inter 2.42 gol attesi (28 gol fatti e 13 subiti in 11 gare di Serie A), VfB Stuttgart 1.40 (15 fatti e 15 subiti in 9 gare di Bundesliga). Somma attesa 3.83 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-0"
         },
         {
           "partita": "Feyenoord - FC Porto",
@@ -1935,8 +1935,8 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Feyenoord 2.25 gol attesi (36 gol fatti e 17 subiti in 12 gare di Eredivisie), FC Porto 1.85 (21 fatti e 4 subiti in 9 gare di Liga Portugal). Somma attesa 4.10 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "NEC Nijmegen - Stade Rennais FC",
@@ -1951,12 +1951,14 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.04 gol attesi (20 gol fatti e 21 subiti in 12 gare di Eredivisie), Stade Rennais FC 1.86 (21 fatti e 21 subiti in 10 gare di Ligue 1). Somma attesa 3.90 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         }
       ],
       "id": "L5-6",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-26T22:06:57.898363+00:00"
     },
     {
       "livello_rischio": 6,
@@ -2024,8 +2026,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.04 gol attesi (20 gol fatti e 21 subiti in 12 gare di Eredivisie), Stade Rennais FC 1.86 (21 fatti e 21 subiti in 10 gare di Ligue 1). Somma attesa 3.90 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Manchester City - Napoli",
@@ -2099,8 +2101,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.04 gol attesi (20 gol fatti e 21 subiti in 12 gare di Eredivisie), Stade Rennais FC 1.86 (21 fatti e 21 subiti in 10 gare di Ligue 1). Somma attesa 3.90 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Manchester City - Napoli",
@@ -2163,8 +2165,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.58 gol attesi (10 gol fatti e 24 subiti in 10 gare di Premier League), Real Sociedad 1.90 (21 fatti e 20 subiti in 12 gare di La Liga). Somma attesa 3.48 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "SC Freiburg - FC Twente",
@@ -2179,8 +2181,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.90 gol attesi (20 gol fatti e 10 subiti in 9 gare di Bundesliga), FC Twente 1.89 (30 fatti e 12 subiti in 12 gare di Eredivisie). Somma attesa 3.79 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "id": "L7-5",
@@ -2527,8 +2529,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 2.04 gol attesi (20 gol fatti e 21 subiti in 12 gare di Eredivisie), Stade Rennais FC 1.86 (21 fatti e 21 subiti in 10 gare di Ligue 1). Somma attesa 3.90 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "LOSC Lille - FC Bayern München",
@@ -2575,8 +2577,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.90 gol attesi (20 gol fatti e 10 subiti in 9 gare di Bundesliga), FC Twente 1.89 (30 fatti e 12 subiti in 12 gare di Eredivisie). Somma attesa 3.79 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         }
       ],
       "id": "L7-6",
@@ -2634,8 +2636,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.62 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.92 (21 fatti e 20 subiti in 12 gare di La Liga). Somma attesa 3.54 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "NEC Nijmegen - Stade Rennais FC",
@@ -2650,8 +2652,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.99 gol attesi (21 gol fatti e 25 subiti in 13 gare di Eredivisie), Stade Rennais FC 1.88 (22 fatti e 22 subiti in 11 gare di Ligue 1). Somma attesa 3.87 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "SC Freiburg - FC Twente",
@@ -2666,8 +2668,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.84 gol attesi (21 gol fatti e 10 subiti in 10 gare di Bundesliga), FC Twente 1.84 (32 fatti e 13 subiti in 13 gare di Eredivisie). Somma attesa 3.67 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Celta de Vigo - AFC Bournemouth",
@@ -2741,8 +2743,8 @@
           "probabilita_modello": 0.76,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.62 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.92 (21 fatti e 20 subiti in 12 gare di La Liga). Somma attesa 3.54 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "NEC Nijmegen - Stade Rennais FC",
@@ -2757,8 +2759,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.99 gol attesi (21 gol fatti e 25 subiti in 13 gare di Eredivisie), Stade Rennais FC 1.88 (22 fatti e 22 subiti in 11 gare di Ligue 1). Somma attesa 3.87 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "Celta de Vigo - AFC Bournemouth",
@@ -2800,8 +2802,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.67 gol attesi (12 gol fatti e 27 subiti in 11 gare di Premier League), Real Sociedad 1.94 (23 fatti e 23 subiti in 13 gare di La Liga). Somma attesa 3.61 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "NEC Nijmegen - Stade Rennais FC",
@@ -2816,8 +2818,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): NEC Nijmegen 1.99 gol attesi (21 gol fatti e 25 subiti in 13 gare di Eredivisie), Stade Rennais FC 1.88 (22 fatti e 22 subiti in 11 gare di Ligue 1). Somma attesa 3.87 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-1"
         },
         {
           "partita": "SC Freiburg - FC Twente",
@@ -2832,8 +2834,8 @@
           "probabilita_modello": 0.77,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Freiburg 1.84 gol attesi (21 gol fatti e 10 subiti in 10 gare di Bundesliga), FC Twente 1.84 (32 fatti e 13 subiti in 13 gare di Eredivisie). Somma attesa 3.67 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "2-1"
         },
         {
           "partita": "Celta de Vigo - AFC Bournemouth",
@@ -2848,14 +2850,16 @@
           "probabilita_modello": 0.71,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.33 gol attesi (11 gol fatti e 12 subiti in 13 gare di La Liga), AFC Bournemouth 1.30 (18 fatti e 14 subiti in 11 gare di Premier League). Somma attesa 2.63 gol. Le statistiche sono quelle dei campionati nazionali su campioni ancora piccoli e vengono avvicinate alla media di 1,4 gol a gara; i campionati non sono confrontabili tra loro, quindi la confidenza e' media.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-2"
         }
       ],
       "id": "L4-9",
-      "stato": "pubblicata"
+      "stato": "archiviata",
+      "esito_finale": "vinta",
+      "archiviata_il": "2026-11-26T22:06:57.898363+00:00"
     }
   ],
   "nota_dati": "Schedine costruite sulle partite di Champions League, Europa League e Conference League del turno in corso, con il mercato piu' supportato dai dati per ogni partita. Si aggiornano da sole a ogni partita conclusa.",
-  "aggiornato_il": "2026-11-25"
+  "aggiornato_il": "2026-11-26"
 }
