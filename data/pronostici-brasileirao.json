@@ -87,9 +87,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): São Paulo 1.64 gol attesi (11° con 45 punti, 40 gol fatti e 41 subiti in 36 gare), Remo 1.16 (19° con 32 punti, 41 fatti e 61 subiti in 36 gare). Somma attesa 2.79 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-1",
+        "aggiornato": "2026-11-27T02:10:00Z"
       }
     },
     {
