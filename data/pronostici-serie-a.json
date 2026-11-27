@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Venezia 1.25 gol attesi (20° con 6 punti, 8 gol fatti e 25 subiti in 12 gare), Bologna 1.65 (9° con 18 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 2.90 gol.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-0",
+        "aggiornato": "2026-11-27T22:15:00Z"
       },
       "pick_corner": {
         "esito": "under",

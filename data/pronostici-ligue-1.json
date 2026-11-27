@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.57 gol attesi (6° con 18 punti, 19 gol fatti e 12 subiti in 11 gare), Paris FC 1.52 (2° con 23 punti, 21 fatti e 10 subiti in 11 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-0",
+        "aggiornato": "2026-11-27T22:15:00Z"
       },
       "pick_corner": {
         "esito": "under",

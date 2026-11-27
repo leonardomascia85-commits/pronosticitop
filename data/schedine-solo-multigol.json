@@ -2,7 +2,7 @@
   "id": "solo-multigol-2026-10-09",
   "titolo": "Solo Multigol",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-24",
+  "aggiornato_il": "2026-11-27",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Multigol 1-4 o 1-5 (totale gol della partita), scelto per ogni partita in base ai gol attesi. Le fasce 1-3 e 2-4 (circa 60%) sono state abbandonate perché troppo rischiose: 1-5 vince l'84% delle volte.",
   "schedine": [
@@ -10339,7 +10339,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.69,
       "probabilita_combinata": 0.593,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Everton - Liverpool",
@@ -10398,12 +10398,14 @@
           "probabilita_modello": 0.87,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.25 gol attesi (20° con 6 punti, 8 gol fatti e 25 subiti in 12 gare), Bologna 1.65 (9° con 18 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
       ],
       "quota_max": 4,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
     },
     {
       "id": "L5-29",
@@ -10972,7 +10974,7 @@
       "variante": "libera",
       "quota_combinata": 7.53,
       "probabilita_combinata": 0.133,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "SV Werder Bremen - Borussia Mönchengladbach",
@@ -10986,8 +10988,8 @@
           "probabilita_modello": 0.78,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.51 gol attesi (6° con 18 punti, 21 gol fatti e 15 subiti in 10 gare), Borussia Mönchengladbach 1.36 (18° con 4 punti, 12 fatti e 26 subiti in 10 gare). Somma attesa 3.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Hamburger SV - FC Bayern München",
@@ -11076,6 +11078,195 @@
           "probabilita_modello": 0.7,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SC Cambuur 2.62 gol attesi (8° con 18 punti, 28 gol fatti e 29 subiti in 13 gare), Sparta Rotterdam 1.82 (14° con 12 punti, 22 fatti e 34 subiti in 13 gare). Somma attesa 4.45 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
+    },
+    {
+      "id": "L4-29",
+      "livello_rischio": 4,
+      "variante": "quota_max",
+      "quota_combinata": 1.67,
+      "probabilita_combinata": 0.6,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Everton - Liverpool",
+          "campionato": "Premier League",
+          "data": "2026-11-29T12:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Everton 1.29 gol attesi (9° con 16 punti, 12 gol fatti e 14 subiti in 11 gare), Liverpool 1.43 (4° con 21 punti, 18 fatti e 10 subiti in 11 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sunderland - Tottenham Hotspur",
+          "campionato": "Premier League",
+          "data": "2026-11-29T14:00:00+00:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sunderland 1.17 gol attesi (18° con 9 punti, 8 gol fatti e 17 subiti in 11 gare), Tottenham Hotspur 1.33 (10° con 15 punti, 12 fatti e 11 subiti in 11 gare). Somma attesa 2.51 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Málaga - Athletic Club",
+          "campionato": "La Liga",
+          "data": "2026-11-28T16:15:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Málaga 1.07 gol attesi (20° con 5 punti, 9 gol fatti e 24 subiti in 13 gare), Athletic Club 1.51 (8° con 16 punti, 14 fatti e 9 subiti in 11 gare). Somma attesa 2.58 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Celta de Vigo - Villarreal",
+          "campionato": "La Liga",
+          "data": "2026-11-29T18:30:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.38 gol attesi (14° con 13 punti, 11 gol fatti e 12 subiti in 13 gare), Villarreal 1.23 (10° con 15 punti, 19 fatti e 18 subiti in 13 gare). Somma attesa 2.61 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 4,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-33",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 2.53,
+      "probabilita_combinata": 0.395,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Espanyol - Getafe",
+          "campionato": "La Liga",
+          "data": "2026-11-30T21:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Espanyol 1.58 gol attesi (11° con 15 punti, 14 gol fatti e 14 subiti in 13 gare), Getafe 0.97 (17° con 12 punti, 8 fatti e 21 subiti in 13 gare). Somma attesa 2.56 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Olympique Lyonnais - AS Monaco",
+          "campionato": "Ligue 1",
+          "data": "2026-11-29T20:45:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Olympique Lyonnais 1.52 gol attesi (4° con 20 punti, 16 gol fatti e 9 subiti in 11 gare), AS Monaco 1.13 (8° con 17 punti, 14 fatti e 12 subiti in 11 gare). Somma attesa 2.66 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Corinthians - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.45 gol attesi (15° con 41 punti, 41 gol fatti e 43 subiti in 36 gare), Grêmio 1.17 (16° con 41 punti, 40 fatti e 47 subiti in 36 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Internacional - Red Bull Bragantino",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.36 gol attesi (18° con 38 punti, 41 gol fatti e 49 subiti in 36 gare), Red Bull Bragantino 1.32 (8° con 50 punti, 46 fatti e 41 subiti in 36 gare). Somma attesa 2.68 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Valencia - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-29T14:00:00+01:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 1.48 gol attesi (16° con 12 punti, 9 gol fatti e 20 subiti in 13 gare), Osasuna 1.29 (13° con 15 punti, 13 fatti e 23 subiti in 13 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Botafogo - Bahia",
+          "campionato": "Brasileirão",
+          "data": "2026-11-28T21:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.52 gol attesi (14° con 43 punti, 47 gol fatti e 58 subiti in 36 gare), Bahia 1.48 (6° con 54 punti, 50 fatti e 46 subiti in 36 gare). Somma attesa 3.00 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Vitória - Santos",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T16:00:00-03:00",
+          "mercato": "MULTIGOL",
+          "pronostico": "Multigol 1-5",
+          "esito_pick": "1-5",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.15,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória 1.52 gol attesi (13° con 44 punti, 42 gol fatti e 54 subiti in 36 gare), Santos 1.44 (9° con 50 punti, 51 fatti e 51 subiti in 36 gare). Somma attesa 2.96 gol.",
           "esito": null,
           "risultato_reale": null
         }

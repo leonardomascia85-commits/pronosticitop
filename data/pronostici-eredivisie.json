@@ -43,9 +43,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): FC Groningen 3.00 gol attesi (10° con 15 punti, 30 gol fatti e 31 subiti in 13 gare), Willem II 1.58 (18° con 3 punti, 12 fatti e 42 subiti in 13 gare). Somma attesa 4.59 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "1-1",
+        "aggiornato": "2026-11-27T22:15:00Z"
       }
     },
     {

@@ -2,7 +2,7 @@
   "id": "solo-sicure",
   "titolo": "Solo Sicure",
   "generato_il": "2026-10-09",
-  "aggiornato_il": "2026-11-24",
+  "aggiornato_il": "2026-11-27",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite con gli eventi quasi certi di ogni partita: Over 0.5 gol, Over 1.5 gol o Under 5.5 gol (il più probabile). Backtest su 441 partite concluse: probabilità per evento intorno al 94-98%. Le quote sono molto basse (circa 1,03-1,10 per evento): servono a vincere quasi sempre, non a incassare molto.",
   "schedine": [
@@ -3777,7 +3777,7 @@
       "variante": "quota_max",
       "quota_combinata": 1.35,
       "probabilita_combinata": 0.743,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Angers SCO - RC Lens",
@@ -3806,8 +3806,8 @@
           "probabilita_modello": 0.95,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.25 gol attesi (20° con 6 punti, 8 gol fatti e 25 subiti in 12 gare), Bologna 1.65 (9° con 18 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         },
         {
           "partita": "Leeds United - Coventry City",
@@ -3866,12 +3866,14 @@
           "probabilita_modello": 0.95,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.57 gol attesi (6° con 18 punti, 19 gol fatti e 12 subiti in 11 gare), Paris FC 1.52 (2° con 23 punti, 21 fatti e 10 subiti in 11 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
     },
     {
       "id": "L4-11",
@@ -3942,6 +3944,108 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L6-11",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 1.2,
+      "probabilita_combinata": 0.833,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Deportivo de La Coruña - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-11-29T16:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.98,
+          "quota_stimata": 1.02,
+          "probabilita_modello": 0.98,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.45 gol attesi (12° con 15 punti, 16 gol fatti e 17 subiti in 13 gare), FC Barcelona 2.71 (1° con 36 punti, 51 fatti e 15 subiti in 13 gare). Somma attesa 4.16 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Galatasaray",
+          "campionato": "Süper Lig",
+          "data": "2026-11-30T21:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.98,
+          "quota_stimata": 1.02,
+          "probabilita_modello": 0.98,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.11 gol attesi (3° con 25 punti, 27 gol fatti e 14 subiti in 12 gare), Galatasaray 1.85 (1° con 31 punti, 29 fatti e 16 subiti in 12 gare). Somma attesa 3.96 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Deportivo Alavés",
+          "campionato": "La Liga",
+          "data": "2026-11-28T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.34 gol attesi (2° con 33 punti, 33 gol fatti e 11 subiti in 13 gare), Deportivo Alavés 1.17 (9° con 16 punti, 18 fatti e 18 subiti in 13 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-11-29T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.97,
+          "quota_stimata": 1.03,
+          "probabilita_modello": 0.97,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 1.88 gol attesi (5° con 22 punti, 23 gol fatti e 23 subiti in 13 gare), Sevilla 1.53 (6° con 19 punti, 18 fatti e 20 subiti in 13 gare). Somma attesa 3.41 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Betis - Rayo Vallecano",
+          "campionato": "La Liga",
+          "data": "2026-11-28T14:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.04,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.92 gol attesi (4° con 27 punti, 21 gol fatti e 16 subiti in 13 gare), Rayo Vallecano 1.27 (15° con 12 punti, 15 fatti e 22 subiti in 12 gare). Somma attesa 3.19 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Angers SCO - RC Lens",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T17:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 0.5 gol",
+          "esito_pick": "over05",
+          "probabilita_stimata": 0.96,
+          "quota_stimata": 1.05,
+          "probabilita_modello": 0.96,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.41 gol attesi (17° con 8 punti, 9 gol fatti e 23 subiti in 11 gare), RC Lens 1.73 (11° con 14 punti, 18 fatti e 16 subiti in 11 gare). Somma attesa 3.14 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
     }
   ]
 }

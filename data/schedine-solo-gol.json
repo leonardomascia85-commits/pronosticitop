@@ -2,7 +2,7 @@
   "id": "solo-gol-2026-10-03",
   "titolo": "Solo Over 1.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-24",
+  "aggiornato_il": "2026-11-27",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Over 1.5 gol (almeno 2 gol nella partita) per ogni partita. Il backtest su 441 partite concluse mostra che Gol/No Gol vinceva solo il 56%, mentre Over 1.5 vince l'81% (86% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -13412,7 +13412,7 @@
       "variante": "libera",
       "quota_combinata": 2.44,
       "probabilita_combinata": 0.41,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Stade Brestois 29 - Paris FC",
@@ -13426,8 +13426,8 @@
           "probabilita_modello": 0.81,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.57 gol attesi (6° con 18 punti, 19 gol fatti e 12 subiti in 11 gare), Paris FC 1.52 (2° con 23 punti, 21 fatti e 10 subiti in 11 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Paris Saint-Germain - FC Lorient",
@@ -13471,10 +13471,12 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Venezia 1.25 gol attesi (20° con 6 punti, 8 gol fatti e 25 subiti in 12 gare), Bologna 1.65 (9° con 18 punti, 17 fatti e 15 subiti in 12 gare). Somma attesa 2.90 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-0"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
     },
     {
       "id": "L5-38",
@@ -13556,6 +13558,76 @@
           "probabilita_modello": 0.75,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Everton 1.29 gol attesi (9° con 16 punti, 12 gol fatti e 14 subiti in 11 gare), Liverpool 1.43 (4° con 21 punti, 18 fatti e 10 subiti in 11 gare). Somma attesa 2.72 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-37",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 1.62,
+      "probabilita_combinata": 0.619,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Deportivo de La Coruña - FC Barcelona",
+          "campionato": "La Liga",
+          "data": "2026-11-29T16:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.92,
+          "quota_stimata": 1.09,
+          "probabilita_modello": 0.92,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Deportivo de La Coruña 1.45 gol attesi (12° con 15 punti, 16 gol fatti e 17 subiti in 13 gare), FC Barcelona 2.71 (1° con 36 punti, 51 fatti e 15 subiti in 13 gare). Somma attesa 4.16 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Beşiktaş - Galatasaray",
+          "campionato": "Süper Lig",
+          "data": "2026-11-30T21:00:00+03:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.91,
+          "quota_stimata": 1.1,
+          "probabilita_modello": 0.91,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Beşiktaş 2.11 gol attesi (3° con 25 punti, 27 gol fatti e 14 subiti in 12 gare), Galatasaray 1.85 (1° con 31 punti, 29 fatti e 16 subiti in 12 gare). Somma attesa 3.96 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Madrid - Deportivo Alavés",
+          "campionato": "La Liga",
+          "data": "2026-11-28T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Madrid 2.34 gol attesi (2° con 33 punti, 33 gol fatti e 11 subiti in 13 gare), Deportivo Alavés 1.17 (9° con 16 punti, 18 fatti e 18 subiti in 13 gare). Somma attesa 3.51 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-11-29T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Over 1.5 gol",
+          "esito_pick": "over15",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 1.88 gol attesi (5° con 22 punti, 23 gol fatti e 23 subiti in 13 gare), Sevilla 1.53 (6° con 19 punti, 18 fatti e 20 subiti in 13 gare). Somma attesa 3.41 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

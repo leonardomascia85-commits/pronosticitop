@@ -2,7 +2,7 @@
   "id": "solo-under-2026-10-03",
   "titolo": "Solo Under 3.5 / 4.5 gol",
   "generato_il": "2026-10-03",
-  "aggiornato_il": "2026-11-24",
+  "aggiornato_il": "2026-11-27",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente i mercati Under 3.5 e Under 4.5 gol (il più probabile per ogni partita). Il backtest su 441 partite concluse mostra che Over/Under 2.5 vinceva circa il 60%, mentre Under 4.5 vince l'83% (84% con probabilità stimata oltre l'85%).",
   "schedine": [
@@ -10267,7 +10267,7 @@
       "variante": "quota_max",
       "quota_combinata": 3.63,
       "probabilita_combinata": 0.275,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Paris Saint-Germain - FC Lorient",
@@ -10341,8 +10341,8 @@
           "probabilita_modello": 0.8,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Stade Brestois 29 1.57 gol attesi (6° con 18 punti, 19 gol fatti e 12 subiti in 11 gare), Paris FC 1.52 (2° con 23 punti, 21 fatti e 10 subiti in 11 gare). Somma attesa 3.09 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "1-0"
         },
         {
           "partita": "Nottingham Forest - Chelsea",
@@ -10356,12 +10356,14 @@
           "probabilita_modello": 0.79,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 1.56 gol attesi (17° con 9 punti, 9 gol fatti e 15 subiti in 11 gare), Chelsea 1.56 (8° con 16 punti, 20 fatti e 20 subiti in 11 gare). Somma attesa 3.13 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-2"
         }
       ],
       "quota_max": 6,
-      "quota_rispettata": true
+      "quota_rispettata": true,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
     },
     {
       "id": "L5-30",
@@ -10669,7 +10671,7 @@
       "variante": "quota_max",
       "quota_combinata": 18.94,
       "probabilita_combinata": 0.053,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "NEC Nijmegen - FC Twente",
@@ -10743,8 +10745,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "ALTA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): SV Werder Bremen 2.51 gol attesi (6° con 18 punti, 21 gol fatti e 15 subiti in 10 gare), Borussia Mönchengladbach 1.36 (18° con 4 punti, 12 fatti e 26 subiti in 10 gare). Somma attesa 3.87 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-3"
         },
         {
           "partita": "Hamburger SV - FC Bayern München",
@@ -10778,7 +10780,9 @@
         }
       ],
       "quota_max": 7,
-      "quota_rispettata": false
+      "quota_rispettata": false,
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-27T22:06:43.431483+00:00"
     },
     {
       "id": "L4-27",
@@ -10849,6 +10853,225 @@
           "risultato_reale": null
         }
       ]
+    },
+    {
+      "id": "L6-29",
+      "livello_rischio": 6,
+      "variante": "quota_max",
+      "quota_combinata": 2.31,
+      "probabilita_combinata": 0.433,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Málaga - Athletic Club",
+          "campionato": "La Liga",
+          "data": "2026-11-28T16:15:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Málaga 1.07 gol attesi (20° con 5 punti, 9 gol fatti e 24 subiti in 13 gare), Athletic Club 1.51 (8° con 16 punti, 14 fatti e 9 subiti in 11 gare). Somma attesa 2.58 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Celta de Vigo - Villarreal",
+          "campionato": "La Liga",
+          "data": "2026-11-29T18:30:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Celta de Vigo 1.38 gol attesi (14° con 13 punti, 11 gol fatti e 12 subiti in 13 gare), Villarreal 1.23 (10° con 15 punti, 19 fatti e 18 subiti in 13 gare). Somma attesa 2.61 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Espanyol - Getafe",
+          "campionato": "La Liga",
+          "data": "2026-11-30T21:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.88,
+          "quota_stimata": 1.13,
+          "probabilita_modello": 0.88,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Espanyol 1.58 gol attesi (11° con 15 punti, 14 gol fatti e 14 subiti in 13 gare), Getafe 0.97 (17° con 12 punti, 8 fatti e 21 subiti in 13 gare). Somma attesa 2.56 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Corinthians - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.87,
+          "quota_stimata": 1.14,
+          "probabilita_modello": 0.87,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.45 gol attesi (15° con 41 punti, 41 gol fatti e 43 subiti in 36 gare), Grêmio 1.17 (16° con 41 punti, 40 fatti e 47 subiti in 36 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Internacional - Red Bull Bragantino",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.86,
+          "quota_stimata": 1.16,
+          "probabilita_modello": 0.86,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Internacional 1.36 gol attesi (18° con 38 punti, 41 gol fatti e 49 subiti in 36 gare), Red Bull Bragantino 1.32 (8° con 50 punti, 46 fatti e 41 subiti in 36 gare). Somma attesa 2.68 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Valencia - Osasuna",
+          "campionato": "La Liga",
+          "data": "2026-11-29T14:00:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.17,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Valencia 1.48 gol attesi (16° con 12 punti, 9 gol fatti e 20 subiti in 13 gare), Osasuna 1.29 (13° con 15 punti, 13 fatti e 23 subiti in 13 gare). Somma attesa 2.77 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 6,
+      "quota_rispettata": true
+    },
+    {
+      "id": "L7-31",
+      "livello_rischio": 7,
+      "variante": "quota_max",
+      "quota_combinata": 3.82,
+      "probabilita_combinata": 0.261,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Atlético-MG - Vasco da Gama",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T19:30:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.85,
+          "quota_stimata": 1.18,
+          "probabilita_modello": 0.85,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Atlético-MG 1.58 gol attesi (7° con 52 punti, 45 gol fatti e 41 subiti in 36 gare), Vasco da Gama 1.23 (10° con 47 punti, 47 fatti e 52 subiti in 36 gare). Somma attesa 2.81 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Mirassol - Athletico-PR",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.84,
+          "quota_stimata": 1.19,
+          "probabilita_modello": 0.84,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Mirassol 1.42 gol attesi (17° con 41 punti, 39 gol fatti e 49 subiti in 36 gare), Athletico-PR 1.44 (5° con 57 punti, 56 fatti e 47 subiti in 36 gare). Somma attesa 2.86 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Paris Saint-Germain - FC Lorient",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Paris Saint-Germain 1.89 gol attesi (1° con 26 punti, 25 gol fatti e 12 subiti in 11 gare), FC Lorient 1.10 (10° con 16 punti, 10 fatti e 9 subiti in 11 gare). Somma attesa 2.99 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "OGC Nice - ESTAC Troyes",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T20:45:00+01:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): OGC Nice 1.80 gol attesi (7° con 17 punti, 17 gol fatti e 15 subiti in 11 gare), ESTAC Troyes 1.20 (14° con 11 punti, 10 fatti e 18 subiti in 11 gare). Somma attesa 3.00 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Botafogo - Bahia",
+          "campionato": "Brasileirão",
+          "data": "2026-11-28T21:00:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Botafogo 1.52 gol attesi (14° con 43 punti, 47 gol fatti e 58 subiti in 36 gare), Bahia 1.48 (6° con 54 punti, 50 fatti e 46 subiti in 36 gare). Somma attesa 3.00 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Vitória - Santos",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T16:00:00-03:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.82,
+          "quota_stimata": 1.22,
+          "probabilita_modello": 0.82,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Vitória 1.52 gol attesi (13° con 44 punti, 42 gol fatti e 54 subiti in 36 gare), Santos 1.44 (9° con 50 punti, 51 fatti e 51 subiti in 36 gare). Somma attesa 2.96 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Crystal Palace - Hull City",
+          "campionato": "Premier League",
+          "data": "2026-11-29T14:00:00+00:00",
+          "mercato": "TOT",
+          "pronostico": "Under 4.5 gol",
+          "esito_pick": "under45",
+          "probabilita_stimata": 0.81,
+          "quota_stimata": 1.23,
+          "probabilita_modello": 0.81,
+          "confidenza_dati": "ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Crystal Palace 1.33 gol attesi (20° con 7 punti, 12 gol fatti e 27 subiti in 11 gare), Hull City 1.70 (11° con 14 punti, 13 fatti e 11 subiti in 11 gare). Somma attesa 3.03 gol. Orario da confermare.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "quota_max": 7,
+      "quota_rispettata": true
     }
   ]
 }
