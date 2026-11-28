@@ -131,9 +131,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Fluminense 1.72 gol attesi (4° con 63 punti, 57 gol fatti e 42 subiti in 36 gare), Cruzeiro 1.40 (3° con 66 punti, 59 fatti e 50 subiti in 36 gare). Somma attesa 3.12 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "0-1",
+        "aggiornato": "2026-11-28T02:10:00Z"
       }
     },
     {

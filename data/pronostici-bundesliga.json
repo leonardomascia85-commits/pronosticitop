@@ -254,7 +254,7 @@
       "pick_corner": {
         "esito": "over",
         "etichetta": "Over 9.5 corner",
-        "probabilita": 0.52,
+        "probabilita": 0.53,
         "corner_attesi_totali": 10.0,
         "modello": "corner-v2"
       }

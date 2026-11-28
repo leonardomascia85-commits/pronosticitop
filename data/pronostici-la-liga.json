@@ -255,7 +255,7 @@
         "esito": "under",
         "etichetta": "Under 9.5 corner",
         "probabilita": 0.52,
-        "corner_attesi_totali": 9.5,
+        "corner_attesi_totali": 9.6,
         "modello": "corner-v2"
       }
     },
@@ -306,7 +306,7 @@
         "esito": "under",
         "etichetta": "Under 9.5 corner",
         "probabilita": 0.58,
-        "corner_attesi_totali": 9.0,
+        "corner_attesi_totali": 9.1,
         "modello": "corner-v2"
       }
     },
@@ -357,7 +357,7 @@
         "esito": "over",
         "etichetta": "Over 9.5 corner",
         "probabilita": 0.51,
-        "corner_attesi_totali": 9.8,
+        "corner_attesi_totali": 9.9,
         "modello": "corner-v2"
       }
     },
