@@ -2,7 +2,7 @@
   "id": "solo-uo25-2026-11-22",
   "titolo": "Solo Under/Over 2.5",
   "generato_il": "2026-11-22",
-  "aggiornato_il": "2026-11-27",
+  "aggiornato_il": "2026-11-28",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Under/Over 2.5 per ogni partita.",
   "schedine": [
@@ -1311,7 +1311,7 @@
       "variante": "libera",
       "quota_combinata": 76.67,
       "probabilita_combinata": 0.013,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Göztepe - Trabzonspor",
@@ -1400,8 +1400,8 @@
           "probabilita_modello": 0.62,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Real Betis 1.92 gol attesi (4° con 27 punti, 21 gol fatti e 16 subiti in 13 gare), Rayo Vallecano 1.27 (15° con 12 punti, 15 fatti e 22 subiti in 12 gare). Somma attesa 3.19 gol.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "0-1"
         },
         {
           "partita": "Angers SCO - RC Lens",
@@ -1415,6 +1415,123 @@
           "probabilita_modello": 0.61,
           "confidenza_dati": "BASSA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.41 gol attesi (17° con 8 punti, 9 gol fatti e 23 subiti in 11 gare), RC Lens 1.73 (11° con 14 punti, 18 fatti e 16 subiti in 11 gare). Somma attesa 3.14 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-28T16:06:44.885659+00:00"
+    },
+    {
+      "id": "L7-5",
+      "livello_rischio": 7,
+      "variante": "libera",
+      "quota_combinata": 87.63,
+      "probabilita_combinata": 0.011,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Göztepe - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-30T19:00:00+03:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.57,
+          "quota_stimata": 1.75,
+          "probabilita_modello": 0.68,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 1.59 gol attesi (9° con 18 punti, 23 gol fatti e 19 subiti in 12 gare), Trabzonspor 1.91 (2° con 28 punti, 27 fatti e 8 subiti in 12 gare). Somma attesa 3.50 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Corinthians - Grêmio",
+          "campionato": "Brasileirão",
+          "data": "2026-11-29T18:30:00-03:00",
+          "mercato": "OU25",
+          "pronostico": "Under 2.5",
+          "esito_pick": "under",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.8,
+          "probabilita_modello": 0.51,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Corinthians 1.45 gol attesi (15° con 41 punti, 41 gol fatti e 43 subiti in 36 gare), Grêmio 1.17 (16° con 41 punti, 40 fatti e 47 subiti in 36 gare). Somma attesa 2.62 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Real Sociedad - Sevilla",
+          "campionato": "La Liga",
+          "data": "2026-11-29T21:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.55,
+          "quota_stimata": 1.81,
+          "probabilita_modello": 0.66,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Real Sociedad 1.88 gol attesi (5° con 22 punti, 23 gol fatti e 23 subiti in 13 gare), Sevilla 1.53 (6° con 19 punti, 18 fatti e 20 subiti in 13 gare). Somma attesa 3.41 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Torino - Lazio",
+          "campionato": "Serie A",
+          "data": "2026-11-28T18:00:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.51,
+          "quota_stimata": 1.95,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Torino 1.28 gol attesi (13° con 14 punti, 15 gol fatti e 18 subiti in 12 gare), Lazio 1.93 (1° con 32 punti, 28 fatti e 9 subiti in 12 gare). Somma attesa 3.21 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Cagliari - Milan",
+          "campionato": "Serie A",
+          "data": "2026-11-30T20:45:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.51,
+          "quota_stimata": 1.95,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Cagliari 1.28 gol attesi (11° con 16 punti, 10 gol fatti e 17 subiti in 12 gare), Milan 1.90 (4° con 27 punti, 28 fatti e 14 subiti in 12 gare). Somma attesa 3.18 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Angers SCO - RC Lens",
+          "campionato": "Ligue 1",
+          "data": "2026-11-28T17:15:00+01:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.51,
+          "quota_stimata": 1.98,
+          "probabilita_modello": 0.61,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.41 gol attesi (17° con 8 punti, 9 gol fatti e 23 subiti in 11 gare), RC Lens 1.73 (11° con 14 punti, 18 fatti e 16 subiti in 11 gare). Somma attesa 3.14 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-11-29T16:30:00+00:00",
+          "mercato": "OU25",
+          "pronostico": "Over 2.5",
+          "esito_pick": "over",
+          "probabilita_stimata": 0.49,
+          "quota_stimata": 2.05,
+          "probabilita_modello": 0.59,
+          "confidenza_dati": "BASSA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.64 gol attesi (1° con 28 punti, 17 gol fatti e 7 subiti in 11 gare), Manchester City 1.40 (3° con 22 punti, 22 fatti e 14 subiti in 11 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }

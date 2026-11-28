@@ -94,9 +94,9 @@
       "nota": "Modello a gol attesi (con vantaggio casa): Frosinone 2.22 gol attesi (7° con 20 punti, 25 gol fatti e 20 subiti in 12 gare), Parma 1.28 (17° con 8 punti, 10 fatti e 22 subiti in 12 gare). Somma attesa 3.49 gol. Correzione per squadra molto offensiva applicata.",
       "confidenza_dati": "ALTA",
       "risultato": {
-        "stato": "non_iniziata",
-        "punteggio": null,
-        "aggiornato": null
+        "stato": "finale",
+        "punteggio": "3-0",
+        "aggiornato": "2026-11-28T16:15:00Z"
       },
       "pick_corner": {
         "esito": "over",

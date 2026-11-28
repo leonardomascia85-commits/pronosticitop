@@ -2,7 +2,7 @@
   "id": "solo-goal-2026-11-22",
   "titolo": "Solo Gol/No Gol",
   "generato_il": "2026-11-22",
-  "aggiornato_il": "2026-11-27",
+  "aggiornato_il": "2026-11-28",
   "stato": "pubblicata",
   "nota_dati": "Schedine costruite usando esclusivamente il mercato Gol/No Gol per ogni partita.",
   "schedine": [
@@ -776,7 +776,7 @@
       "variante": "libera",
       "quota_combinata": 11.34,
       "probabilita_combinata": 0.088,
-      "stato": "pubblicata",
+      "stato": "archiviata",
       "eventi": [
         {
           "partita": "Sassuolo - Napoli",
@@ -820,8 +820,8 @@
           "probabilita_modello": 0.65,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Frosinone 2.22 gol attesi (7° con 20 punti, 25 gol fatti e 20 subiti in 12 gare), Parma 1.28 (17° con 8 punti, 10 fatti e 22 subiti in 12 gare). Somma attesa 3.49 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "perso",
+          "risultato_reale": "3-0"
         },
         {
           "partita": "Nottingham Forest - Chelsea",
@@ -835,10 +835,12 @@
           "probabilita_modello": 0.64,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Nottingham Forest 1.56 gol attesi (17° con 9 punti, 9 gol fatti e 15 subiti in 11 gare), Chelsea 1.56 (8° con 16 punti, 20 fatti e 20 subiti in 11 gare). Somma attesa 3.13 gol. Correzione per squadra molto offensiva applicata.",
-          "esito": null,
-          "risultato_reale": null
+          "esito": "vinto",
+          "risultato_reale": "3-2"
         }
-      ]
+      ],
+      "esito_finale": "persa",
+      "archiviata_il": "2026-11-28T16:06:44.885659+00:00"
     },
     {
       "id": "L5-3",
@@ -1237,6 +1239,76 @@
           "probabilita_modello": 0.63,
           "confidenza_dati": "MEDIA",
           "motivazione": "Modello a gol attesi (con vantaggio casa): Angers SCO 1.41 gol attesi (17° con 8 punti, 9 gol fatti e 23 subiti in 11 gare), RC Lens 1.73 (11° con 14 punti, 18 fatti e 16 subiti in 11 gare). Somma attesa 3.14 gol.",
+          "esito": null,
+          "risultato_reale": null
+        }
+      ]
+    },
+    {
+      "id": "L4-4",
+      "livello_rischio": 4,
+      "variante": "libera",
+      "quota_combinata": 10.36,
+      "probabilita_combinata": 0.097,
+      "stato": "pubblicata",
+      "eventi": [
+        {
+          "partita": "Göztepe - Trabzonspor",
+          "campionato": "Süper Lig",
+          "data": "2026-11-30T19:00:00+03:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.57,
+          "quota_stimata": 1.75,
+          "probabilita_modello": 0.69,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Göztepe 1.59 gol attesi (9° con 18 punti, 23 gol fatti e 19 subiti in 12 gare), Trabzonspor 1.91 (2° con 28 punti, 27 fatti e 8 subiti in 12 gare). Somma attesa 3.50 gol. Correzione per squadra molto offensiva applicata.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Sassuolo - Napoli",
+          "campionato": "Serie A",
+          "data": "2026-11-29T15:00:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.78,
+          "probabilita_modello": 0.67,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Sassuolo 1.50 gol attesi (18° con 8 punti, 16 gol fatti e 31 subiti in 12 gare), Napoli 1.90 (8° con 18 punti, 19 fatti e 14 subiti in 12 gare). Somma attesa 3.40 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "VfB Stuttgart - Eintracht Frankfurt",
+          "campionato": "Bundesliga",
+          "data": "2026-11-28T18:30:00+01:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.56,
+          "quota_stimata": 1.78,
+          "probabilita_modello": 0.67,
+          "confidenza_dati": "MEDIA-ALTA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): VfB Stuttgart 1.92 gol attesi (8° con 13 punti, 15 gol fatti e 15 subiti in 10 gare), Eintracht Frankfurt 1.50 (7° con 15 punti, 16 fatti e 20 subiti in 10 gare). Somma attesa 3.42 gol.",
+          "esito": null,
+          "risultato_reale": null
+        },
+        {
+          "partita": "Arsenal - Manchester City",
+          "campionato": "Premier League",
+          "data": "2026-11-29T16:30:00+00:00",
+          "mercato": "GGNG",
+          "pronostico": "Gol",
+          "esito_pick": "gol",
+          "probabilita_stimata": 0.54,
+          "quota_stimata": 1.87,
+          "probabilita_modello": 0.62,
+          "confidenza_dati": "MEDIA",
+          "motivazione": "Modello a gol attesi (con vantaggio casa): Arsenal 1.64 gol attesi (1° con 28 punti, 17 gol fatti e 7 subiti in 11 gare), Manchester City 1.40 (3° con 22 punti, 22 fatti e 14 subiti in 11 gare). Somma attesa 3.04 gol. Correzione per squadra molto offensiva applicata.",
           "esito": null,
           "risultato_reale": null
         }
